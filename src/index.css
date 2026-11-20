@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Plus Jakarta Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+  --font-exam: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  --color-ink-950: #070b1a;
+  --color-ink-900: #0b1124;
+  --color-ink-800: #121a33;
+  --color-ink-700: #1b2546;
+  --color-brand-300: #a5b4fc;
+  --color-brand-400: #818cf8;
+  --color-brand-500: #6366f1;
+  --color-brand-600: #4f46e5;
+  --color-exam-bar: #1f3a5f;
+  --color-exam-blue: #2563c9;
+  --animate-float: float 14s ease-in-out infinite;
+  --animate-shimmer: shimmer 2.4s linear infinite;
+}
+@keyframes float { 0%, 100% { transform: translate(0, 0) scale(1); } 33% { transform: translate(40px, -30px) scale(1.08); } 66% { transform: translate(-30px, 20px) scale(0.95); } }
+@keyframes shimmer { from { background-position: 200% 0; } to { background-position: -200% 0; } }
+
+html, body, #root { min-height: 100%; }
+body { @apply bg-ink-950 text-slate-100 font-sans antialiased; }
+::selection { background: rgba(99, 102, 241, .35); }
+
+/* glass surfaces */
+.glass { @apply bg-white/[0.045] border border-white/10 backdrop-blur-xl rounded-2xl; }
+.glass-strong { @apply bg-white/[0.07] border border-white/15 backdrop-blur-2xl rounded-2xl; }
+.text-gradient { background: linear-gradient(90deg, #a5b4fc, #67e8f9 45%, #f0abfc); -webkit-background-clip: text; background-clip: text; color: transparent; }
+.shimmer { background: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(255,255,255,.12) 50%, rgba(255,255,255,0) 100%); background-size: 200% 100%; animation: var(--animate-shimmer); }
+.scrollbar-thin::-webkit-scrollbar { width: 8px; height: 8px; }
+.scrollbar-thin::-webkit-scrollbar-thumb { background: rgba(120, 130, 160, .35); border-radius: 8px; }
+
+/* ===== Exam mode: clean, official-looking computer-delivered test ===== */
+.exam { @apply bg-white text-[#1f2328] min-h-screen; font-family: var(--font-exam); }
+.exam ::selection { background: #cfe0ff; }
+.exam-pane { @apply border border-[#cfd6df] bg-white overflow-auto; }
+.exam-opt { @apply flex items-start gap-3 px-3.5 py-2.5 border border-[#d5d9e0] rounded-[3px] cursor-pointer bg-white transition-colors; }
+.exam-opt:hover { @apply bg-[#f4f7fb]; }
+.exam-opt.sel { @apply border-exam-blue bg-[#eef4ff]; }
+.exam-select { @apply border border-[#8c96a3] rounded-[3px] px-1.5 py-0.5 bg-white text-[15px] max-w-full; }
+.exam-select:focus { @apply outline-2 outline-exam-blue; }
+.exam textarea { font-family: var(--font-exam); }
+.blank-text { line-height: 2.15; }
+.diagram table { @apply w-full border-collapse my-2 text-[14.5px]; }
+.diagram th, .diagram td { @apply border border-[#d5d9e0] px-2.5 py-1.5 text-left align-top; }
+.diagram th { @apply bg-[#eef2f7] font-bold; }
+
+mark.ev-mark { background: #fde68a; color: inherit; padding: 0 2px; border-radius: 2px; box-shadow: 0 0 0 1px #f59e0b55; }
+del.fix { @apply text-rose-400 line-through decoration-2; }
+ins.fix { @apply text-emerald-300 no-underline bg-emerald-500/10 px-1 rounded; }
+
+@media print {
+  @page { margin: 14mm; }
+  body { background: #fff !important; color: #111 !important; }
+  .no-print, nav, header.app-nav, .bg-blobs { display: none !important; }
+  .print-panel { display: block !important; break-before: page; }
+  .glass, .glass-strong { background: #fff !important; border-color: #ccc !important; backdrop-filter: none !important; color: #111 !important; }
+  .print-light, .print-light * { color: #111 !important; }
+  mark.ev-mark, ins.fix, del.fix, .print-keep { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+}

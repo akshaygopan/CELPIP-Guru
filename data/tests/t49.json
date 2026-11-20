@@ -1,0 +1,846 @@
+{
+ "id": "t49",
+ "title": "Test 49",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two volunteers at a community centre are preparing to receive people evacuated from a wildfire.",
+    "sp": {
+     "A": {"name": "Ewa", "g": "f", "acc": "en-GB", "rate": 1.0},
+     "B": {"name": "Kwame", "g": "m", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Kwame, thanks for getting here so fast. The regional emergency office just called. The fire north of Pine Lake jumped the highway this afternoon, and they’re evacuating two more subdivisions tonight. They’ve activated us as a reception centre."],
+       ["B", "Tonight? How many people are they expecting?"],
+       ["A", "Their estimate is around three hundred, arriving from about nine o’clock onward. Most will just register and then go to hotels or stay with family, but they think up to eighty might need to sleep here."],
+       ["B", "Eighty. We’ve got, what, forty cots in the storage room?"],
+       ["A", "Forty-two. I counted them this morning, for the drill we were supposed to have next week. Ironic, isn’t it?"],
+       ["B", "Very. Okay, what else is on the list?"],
+       ["A", "Registration is the big one. Every person who comes through the door has to be registered, even if they leave after ten minutes, because that’s how families find each other and how the province pays for hotels. Last time we did this, during the spring floods, the line went out into the parking lot, and some people gave up and left without registering at all."],
+       ["B", "I remember. And then nobody knew where they were for two days."],
+       ["A", "Exactly. So I want to avoid that at all costs. Oh, and the other thing: the emergency office says a lot of these families have pets. Our building policy says no animals except service dogs."],
+       ["B", "That’s going to be a problem. People won’t leave their dogs in the car overnight, and I wouldn’t blame them."]
+      ],
+      "qs": [
+       {
+        "q": "Why has the community centre been activated?",
+        "o": ["A drill has been moved forward to tonight.", "Floods have forced families from their homes.", "The building is needed to store supplies.", "A wildfire has led to further evacuations."],
+        "a": 3, "t": "paraphrase",
+        "ev": "they’re evacuating two more subdivisions tonight",
+        "x": "The fire jumped the highway, so two more subdivisions are being evacuated. The drill was planned for next week, and the floods were a previous emergency."
+       },
+       {
+        "q": "Why does Ewa consider registration the top priority?",
+        "o": ["It reunites families and triggers hotel payments.", "It is required before anyone may sleep on a cot.", "The province fines centres that skip registration.", "The line must be kept inside the building tonight."],
+        "a": 0, "t": "inference",
+        "ev": "that’s how families find each other and how the province pays for hotels",
+        "x": "Registration lets families find each other and allows the province to pay for hotels. No fines or cot rules are mentioned; the long line is what happened last time."
+       },
+       {
+        "q": "What happened during the previous emergency?",
+        "o": ["The centre ran out of cots for evacuees.", "Pets were turned away at the door.", "Some evacuees left before being recorded.", "Families stayed at the centre for two days."],
+        "a": 2, "t": "detail",
+        "ev": "some people gave up and left without registering at all",
+        "x": "During the floods, some people left without registering. “Two days” is how long nobody knew where they were, not how long families stayed."
+       }
+      ]
+     },
+     {
+      "lines": [
+       ["B", "So, cots first. Could we borrow something from the high school? They’ve got a stack of gym mats."],
+       ["A", "I called. The principal’s happy to help, but the school’s locked until six a.m., and the custodian who has the keys is one of the people being evacuated."],
+       ["B", "Of course he is. What about the regional supply depot in Kelso?"],
+       ["A", "They have two hundred cots, but they’ve already sent most of them to the arena in Pine Lake. They said they might have thirty left by midnight, but no promises."],
+       ["B", "Hmm. So we might have seventy-two, which isn’t eighty. What if we ask people who can afford it to go straight to hotels instead of staying here?"],
+       ["A", "The emergency office is already doing that. But the hotels in town were nearly full with the hockey tournament before any of this happened."],
+       ["B", "Right. Then for the registration line, could we register people outside, in their cars, as they pull in? Like a drive-through?"],
+       ["A", "I like the idea, but it’s dark, it’s going to be smoky, and our forms are paper. Volunteers would be standing in the smoke for hours. I don’t think that’s fair to ask of anyone."],
+       ["B", "Fair. And the pets? Could they stay in the vehicles in the parking lot, with someone checking on them every hour?"],
+       ["A", "Not overnight. It’s supposed to drop to two degrees, and some of these animals are already stressed from the drive."],
+       ["B", "Okay. So we’re running out of easy answers."]
+      ],
+      "qs": [
+       {
+        "q": "Why can’t they get gym mats from the high school tonight?",
+        "o": ["The principal refused to lend them.", "Nobody available can open the building.", "The mats have already gone to the arena.", "The school is inside the evacuation zone."],
+        "a": 1, "t": "inference",
+        "ev": "the custodian who has the keys is one of the people being evacuated",
+        "x": "The school is locked and the custodian with the keys is being evacuated, so no one can open it. The principal is happy to help, and it was the depot’s cots that went to the arena."
+       },
+       {
+        "q": "What does the supply depot say about cots?",
+        "o": ["It will deliver two hundred cots by midnight.", "It has none left after supplying the arena.", "It lends cots only to registered centres.", "It may be able to send a limited number."],
+        "a": 3, "t": "attitude",
+        "ev": "They said they might have thirty left by midnight, but no promises.",
+        "x": "“Might have thirty… but no promises” means a small number is possible but uncertain. Two hundred is the depot’s total, most of which already went to Pine Lake."
+       },
+       {
+        "q": "Why does Ewa reject the drive-through registration idea?",
+        "o": ["It would expose volunteers to poor conditions.", "The paper forms would be lost in the wind.", "Evacuees prefer to register inside the centre.", "Too many vehicles would block the parking lot."],
+        "a": 0, "t": "inference",
+        "ev": "Volunteers would be standing in the smoke for hours",
+        "x": "She rejects it because volunteers would stand in darkness and smoke for hours. Paper forms are mentioned, but she never says they would blow away."
+       }
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Okay, here’s what I think. The multipurpose room becomes the dormitory for families with children, and that’s where the forty-two cots go. Adults without kids can use the exercise mats from our own fitness room. There are about twenty of those."],
+       ["B", "So sixty-two, plus whatever the depot sends. That gets us close."],
+       ["A", "Close enough for one night. For registration, we open both entrances and set up four tables instead of two, with volunteers working in pairs, one asking the questions and one writing."],
+       ["B", "And the pets?"],
+       ["A", "I’m going to call the director and ask for a one-night exception. The racquetball courts at the back have their own entrance and a concrete floor. Pet owners can stay in there with their animals, separated from everyone else, so nobody with allergies is affected."],
+       ["B", "She’ll say yes. She’s a big dog person."],
+       ["A", "Let’s hope so. Can you start a call-out for volunteers? We need at least twelve more people by nine, preferably anyone who did the registration training."],
+       ["B", "On it. I’ll post in the volunteer group and start phoning the people who were at the spring training."],
+       ["A", "Perfect. And put the big coffee urn on. It’s going to be a very long night."],
+       ["B", "Already planning on it. I’ll bring the extra extension cords up from the basement too, for people charging their phones."]
+      ],
+      "qs": [
+       {
+        "q": "Where will pet owners stay?",
+        "o": ["In their vehicles in the parking lot", "In the multipurpose room with families", "In a separate area with its own entrance", "In the fitness room on exercise mats"],
+        "a": 2, "t": "detail",
+        "ev": "The racquetball courts at the back have their own entrance",
+        "x": "Pet owners will use the racquetball courts, which have their own entrance and are separated from others. Vehicles were rejected because of the cold."
+       },
+       {
+        "q": "What will Kwame most likely do next?",
+        "o": ["Phone the director to request an exception", "Contact trained volunteers to come in", "Collect cots from the supply depot", "Set up four registration tables"],
+        "a": 1, "t": "prediction",
+        "ev": "start phoning the people who were at the spring training",
+        "x": "Kwame will post a call-out and phone people who attended the registration training. Ewa, not Kwame, is calling the director."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A woman is meeting a screening officer at the city’s parking penalty office.",
+    "sp": {
+     "A": {"name": "Screening officer", "g": "m", "acc": "en-AU", "rate": 1.02},
+     "B": {"name": "Resident", "g": "f", "acc": "en-CA", "rate": 1.04}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Good afternoon. You’re here about a parking penalty notice?"],
+       ["B", "Yes. I got a seventy-five-dollar ticket on Elm Street last Tuesday for parking in a permit zone, but I had a visitor permit on my dashboard. My sister lives on that street. I took a photo of it, actually."],
+       ["A", "Let’s have a look. Hmm. The permit is there, but it’s dated for Monday the fourteenth, and the ticket was issued on Tuesday the fifteenth, at seven forty in the morning."],
+       ["B", "Oh no. I stayed overnight, so I assumed it covered the night. My sister printed it on Monday afternoon."],
+       ["A", "Visitor permits are valid for one calendar day, until midnight. A lot of people make the same assumption, to be fair. The overnight option is a separate permit."],
+       ["B", "So I don’t have a case."],
+       ["A", "Not for cancelling it, no. But I do have some discretion. Since you clearly made an honest attempt to comply, and you don’t have any other tickets on file, I can reduce the penalty."],
+       ["B", "Really? To how much?"],
+       ["A", "I can bring it down to forty dollars. Alternatively, you can request a hearing with a hearing officer. They can cancel it entirely, but they can also uphold the full amount, and the next available date is about ten weeks away."],
+       ["B", "Ten weeks, for a thirty-five-dollar difference? Honestly, it’s not worth the time off work. I’ll take the reduction."],
+       ["A", "Sensible choice. You’ll have fifteen days to pay the forty dollars online. If you miss that deadline, it goes back to the original amount, plus a late fee."],
+       ["B", "Fifteen days, okay. And so this doesn’t happen again, how does my sister get the overnight permit?"],
+       ["A", "She can buy it online through the same portal. It runs from six p.m. to ten a.m. the next morning, and it’s four dollars instead of two. She just needs to select overnight when she prints it."],
+       ["B", "Four dollars. That’s a lot cheaper than seventy-five. I’ll text her tonight so she knows for next time."]
+      ],
+      "qs": [
+       {
+        "q": "Why did the woman believe the ticket was unfair?",
+        "o": ["She was parked outside her own home.", "She had paid for a whole week of parking.", "She thought her permit was still valid.", "She did not see the permit zone sign."],
+        "a": 2, "t": "inference",
+        "ev": "I stayed overnight, so I assumed it covered the night.",
+        "x": "She assumed Monday’s permit covered the night, so she believed it was still valid on Tuesday morning. She was visiting her sister, not parked at her own home."
+       },
+       {
+        "q": "Why was the ticket issued?",
+        "o": ["Her permit had expired when the officer checked.", "She had parked in the wrong permit zone.", "Her photo did not show the permit clearly.", "She had left her car there for over a week."],
+        "a": 0, "t": "detail",
+        "ev": "Visitor permits are valid for one calendar day, until midnight.",
+        "x": "The day permit expired at midnight, and the ticket came at 7:40 the next morning. The zone was correct, and her photo clearly showed the permit."
+       },
+       {
+        "q": "Why does the officer offer to reduce the penalty?",
+        "o": ["The permit system confuses most residents.", "She tried to comply and has a clean record.", "She provided a photo of the parking sign.", "Her sister has lived on the street for years."],
+        "a": 1, "t": "detail",
+        "ev": "you clearly made an honest attempt to comply",
+        "x": "He reduces it because she made an honest attempt to comply and has no other tickets. He says many people make the same assumption, but that is not his reason."
+       },
+       {
+        "q": "Why does the woman decide not to request a hearing?",
+        "o": ["She is sure the officer would uphold the ticket.", "Hearings are only available for larger fines.", "She would have to pay a fee to request one.", "The possible savings are not worth the trouble."],
+        "a": 3, "t": "attitude",
+        "ev": "Honestly, it’s not worth the time off work.",
+        "x": "Waiting ten weeks and taking time off work for a $35 difference is not worth it to her. She never says she expects the ticket to be upheld."
+       },
+       {
+        "q": "What is true about the overnight permit?",
+        "o": ["It costs twice as much as a day permit.", "It must be bought in person at city hall.", "It is valid until midnight the next day.", "It costs four dollars less than a day permit."],
+        "a": 0, "t": "inference",
+        "ev": "it’s four dollars instead of two",
+        "x": "The overnight permit costs four dollars instead of two – double. It is bought online and runs from 6 p.m. to 10 a.m., not until midnight."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A father calls the city about a program that helps families pay for recreation.",
+    "sp": {
+     "A": {"name": "Revathi", "g": "f", "acc": "en-IN", "rate": 1.0},
+     "B": {"name": "Dmitri", "g": "m", "acc": "en-US", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Recreation Access Program, this is Revathi. How can I help you today?"],
+       ["B", "Hi, my name’s Dmitri. A friend told me the city helps families pay for kids’ activities. I’ve got two boys, nine and twelve, and they both want to play hockey this winter, but honestly, the fees are more than we can manage right now."],
+       ["A", "You’ve called the right place. Our program gives each eligible family member a credit of three hundred and fifty dollars per calendar year, which you can use on any city-run recreation program: swimming, skating, camps, sports leagues, that kind of thing."],
+       ["B", "Three fifty each? So seven hundred for the two of them?"],
+       ["A", "That’s right, and adults in the household are eligible too, if you wanted a fitness pass, for example. The one thing to be aware of is that it only covers city programs. Hockey is a bit tricky, because most minor hockey associations are independent, not run by the city."],
+       ["B", "Oh. Ours is the Northside Minor Hockey Association. Is that independent?"],
+       ["A", "It is, I’m afraid. So the credit wouldn’t apply there. But the city does run a learn-to-play hockey program at the Eastgate arena, which is about a third of the price, and the credit would cover it completely. Also, Northside has its own bursary program, so it might be worth asking them directly."],
+       ["B", "Hmm, the older one has his heart set on Northside because his friends play there. Maybe I’ll put the younger one in the city program and ask Northside about a bursary for the other. How do we qualify?"],
+       ["A", "Eligibility is based on household income. For a family of four, it’s about fifty-two thousand dollars a year or less, before tax. You’ll need to send us your most recent notice of assessment from the tax agency, for every adult in the household."],
+       ["B", "We just moved here in March. Does that matter?"],
+       ["A", "Not at all, as long as you live in the city now. You’ll also need a proof of address, like a lease or a utility bill."],
+       ["B", "And how long does approval take? Hockey registration closes on the thirtieth."],
+       ["A", "Applications are processed within ten business days if they’re complete. If you apply online today, you should be fine. If anything’s missing, though, the clock starts again from when we receive it, so double-check before you submit."],
+       ["B", "Got it. Is the approval good for a year?"],
+       ["A", "For two years, actually. We changed that last spring so families don’t have to reapply every year. After that, you’d just send updated income information."],
+       ["B", "That’s great. I’ll do the online application tonight."]
+      ],
+      "qs": [
+       {
+        "q": "What does the program provide?",
+        "o": ["A yearly amount to spend on city activities", "Free hockey equipment for children under twelve", "A discount on every sports league in the city", "A one-time payment of seven hundred dollars"],
+        "a": 0, "t": "paraphrase",
+        "ev": "a credit of three hundred and fifty dollars per calendar year",
+        "x": "Each eligible person receives a $350 credit per calendar year for city programs. Seven hundred dollars is the total for his two sons, not a one-time payment, and independent leagues are excluded."
+       },
+       {
+        "q": "Why can the credit not be used for Northside hockey?",
+        "o": ["The fees are higher than the credit allows.", "Registration for the league has closed.", "Only adults can use the credit for sports.", "The league is not operated by the city."],
+        "a": 3, "t": "inference",
+        "ev": "most minor hockey associations are independent, not run by the city",
+        "x": "The credit covers only city-run programs, and Northside is independent. Registration closes on the thirtieth, so it has not closed yet."
+       },
+       {
+        "q": "What does the caller decide to do about his sons?",
+        "o": ["Put both boys in the city’s learn-to-play program", "Use a different option for each of his children", "Pay the full Northside fees for the older boy", "Wait until next year to register them both"],
+        "a": 1, "t": "detail",
+        "ev": "Maybe I’ll put the younger one in the city program and ask Northside about a bursary for the other.",
+        "x": "The younger boy will join the city program while he asks Northside about a bursary for the older one. He does not plan to pay full fees."
+       },
+       {
+        "q": "What must the caller send to show his income?",
+        "o": ["A letter from his current employer", "His lease and a recent utility bill", "Tax records for all adults in the home", "Proof of his arrival date in March"],
+        "a": 2, "t": "detail",
+        "ev": "your most recent notice of assessment from the tax agency, for every adult in the household",
+        "x": "He must send each adult’s latest notice of assessment from the tax agency. A lease or utility bill proves his address, not his income."
+       },
+       {
+        "q": "What does the agent warn the caller about?",
+        "o": ["An incomplete application will delay approval.", "Online applications take longer than paper ones.", "Registration may close before he hears back.", "Recent arrivals must wait before applying."],
+        "a": 0, "t": "inference",
+        "ev": "If anything’s missing, though, the clock starts again from when we receive it",
+        "x": "If something is missing, the ten-day processing period restarts, so approval would be delayed. She says applying online today should be fine, and recent arrivals are eligible."
+       },
+       {
+        "q": "What changed in the program last spring?",
+        "o": ["The income limit for families was raised.", "Adults became eligible for the credit.", "Families now apply less frequently.", "Approval time was cut to ten days."],
+        "a": 2, "t": "paraphrase",
+        "ev": "We changed that last spring so families don’t have to reapply every year.",
+        "x": "Approval now lasts two years, so families reapply less often. Nothing is said about when adults became eligible or when the ten-day processing time began."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report about a decision by city council.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Malcolm Feeney", "g": "m", "acc": "en-GB", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Homeowners across the city will soon be allowed to build a small second home in their backyard. Council voted eleven to two yesterday to permit so-called garden suites on most residential lots, a change that supporters say will create badly needed rental housing and allow families to keep aging parents close by."],
+       ["A", "Until now, garden suites were allowed only in a handful of neighbourhoods, and owners had to go through a lengthy rezoning process that could take a year or more and cost thousands of dollars. Under the new rules, an owner can apply for a regular building permit, as long as the suite meets standards on height, size and distance from neighbouring properties. Chief planner Malcolm Feeney says the old process discouraged all but the most determined owners."],
+       ["B", "Over the past five years, we received fewer than forty applications, and many people gave up partway through. Meanwhile, we have tens of thousands of large lots with space at the back. This doesn’t mean every backyard will have a suite. Our projections suggest a few hundred a year, at most, which is gradual change, not a transformation."],
+       ["A", "Suites will be limited to two storeys and must be at least one and a half metres from side and rear property lines. Owners won’t be required to provide an extra parking space, a point that drew the most objections during public consultations. Some residents in the Westmount area argued that the change would put more cars on already crowded streets and reduce privacy for neighbours whose yards would be overlooked."],
+       ["A", "Mr. Feeney says the city chose not to require parking because many garden suite residents, such as students or seniors, may not own cars, and adding a parking pad would take up much of the yard. He admits, though, that privacy concerns are harder to address."],
+       ["B", "We’ve limited the size of second-floor windows facing neighbours, but I won’t claim that solves every case."],
+       ["A", "The new rules take effect on March first. The city will also publish a set of free, pre-approved building designs this summer, which officials say could cut design costs for homeowners by several thousand dollars."]
+      ],
+      "qs": [
+       {
+        "q": "What did council decide?",
+        "o": ["To build rental housing on city-owned lots", "To allow small backyard homes on most lots", "To require garden suites in new neighbourhoods", "To speed up rezoning for apartment buildings"],
+        "a": 1, "t": "main",
+        "ev": "permit so-called garden suites on most residential lots",
+        "x": "Council approved garden suites – small backyard homes – on most residential lots. The city is not building housing itself, and rezoning is what the new rules replace."
+       },
+       {
+        "q": "What was the problem with the old process?",
+        "o": ["Suites could only be rented to relatives.", "Owners had to provide two parking spaces.", "It was slow and expensive for owners.", "Neighbours could block any application."],
+        "a": 2, "t": "paraphrase",
+        "ev": "a lengthy rezoning process that could take a year or more and cost thousands of dollars",
+        "x": "Rezoning could take a year or more and cost thousands, which discouraged owners. Parking rules are discussed only for the new system."
+       },
+       {
+        "q": "What does Mr. Feeney expect to happen under the new rules?",
+        "o": ["Most large lots will soon have a suite.", "Applications will stay below forty a year.", "Many owners will give up during the process.", "The number of suites will grow slowly."],
+        "a": 3, "t": "prediction",
+        "ev": "gradual change, not a transformation",
+        "x": "He predicts a few hundred suites a year at most – gradual growth. Fewer than forty applications was the total over the past five years under the old rules."
+       },
+       {
+        "q": "Why did the city decide not to require parking?",
+        "o": ["Many likely tenants may not drive.", "Westmount streets have plenty of space.", "Parking pads would cost too much to build.", "Residents asked for less parking in surveys."],
+        "a": 0, "t": "detail",
+        "ev": "many garden suite residents, such as students or seniors, may not own cars",
+        "x": "Many likely residents, such as students and seniors, may not own cars, and a pad would use up the yard. Westmount residents actually complained that streets are crowded."
+       },
+       {
+        "q": "How does Mr. Feeney view the privacy concerns?",
+        "o": ["He thinks they have been fully solved.", "He admits they are only partly addressed.", "He considers them less serious than parking.", "He believes neighbours exaggerated them."],
+        "a": 1, "t": "attitude",
+        "ev": "I won’t claim that solves every case",
+        "x": "He says the window limits help but “won’t claim that solves every case”, admitting the solution is partial. He never says neighbours exaggerated."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three staff members at a settlement agency are deciding how to use a grant.",
+    "sp": {
+     "A": {"name": "Henrike", "g": "f", "acc": "en-GB", "rate": 1.0},
+     "B": {"name": "Joaquín", "g": "m", "acc": "en-US", "rate": 1.03},
+     "C": {"name": "Thandiwe", "g": "f", "acc": "en-CA", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Thanks, both of you. As you know, the Hollis Foundation has offered us a one-time grant of sixty thousand dollars, to be spent within twelve months. They want one clear project with results they can measure. I’ve had three ideas put to me, so let’s hear them and try to agree today."],
+       ["C", "I’ll go first, since mine’s the simplest. Childcare during our language classes. Right now, about a third of the women on our waitlist tell us the only reason they can’t attend is that they have small children at home. With on-site childcare, we could fill two more classes almost immediately."],
+       ["B", "I don’t doubt the need, Thandiwe. But my clients keep telling me the same thing: they have degrees, they have experience, and they can’t get an interview because they don’t know anyone here. A mentoring program, matching newcomers with professionals in their field, would change that. Agencies that have tried it report that more than half of participants find work in their field within a year."],
+       ["A", "And the third idea was driver training. Somebody suggested it on the comment board."],
+       ["B", "I saw that. It’s useful, but honestly, there are already subsidized driving programs in the city. I wouldn’t spend this money duplicating them."],
+       ["C", "Agreed. Let’s leave that one."],
+       ["A", "Okay. So, childcare or mentoring. Here’s my concern with childcare, Thandiwe. It’s an ongoing cost. Sixty thousand would pay for qualified staff for about a year, and then what? We’d have families depending on it, and nothing to keep it going."],
+       ["C", "That’s true, but it’s also true of almost everything we do. We could apply to the city’s early learning fund for the following year."],
+       ["A", "We could, but there’s no guarantee. The foundation specifically asked how the project would continue after the grant."],
+       ["B", "That’s where mentoring has an advantage. The big costs are at the start: recruiting mentors, training them, building the matching system. Once that’s done, the mentors are volunteers. We could keep it running on a fraction of the budget."],
+       ["C", "I suppose that’s a fair argument, as far as it goes. But who gets to be mentored? If the sessions run in the evenings, the same mothers I’m talking about can’t take part either."],
+       ["B", "Hmm. I hadn’t thought about it that way. That’s a real gap."],
+       ["A", "What if we combine them, in a limited way? Most of the grant goes to mentoring, but we set aside, say, ten thousand for childcare on the evenings when mentoring sessions and the evening class run at the same time. That makes the program accessible, and it gives us a year of data on childcare to take to the city."],
+       ["C", "Ten thousand is less than I’d hoped for. But if it means we have real numbers to show the city, I can work with that."],
+       ["B", "I’m fine with that. Honestly, it makes my program better."],
+       ["A", "Good. Joaquín, can you draft the mentoring section of the application by Friday? Thandiwe, I’d like you to write the childcare piece, and start talking to the city’s early learning office now, not in a year."],
+       ["C", "I’ll call them tomorrow, and I’ll ask whether they’d visit one of our evening sessions."]
+      ],
+      "qs": [
+       {
+        "q": "What does the foundation require?",
+        "o": ["That the money be divided among several projects", "That the agency match the grant with its own funds", "That the grant be spent over two full years", "A single project with outcomes that can be tracked"],
+        "a": 3, "t": "paraphrase",
+        "ev": "They want one clear project with results they can measure.",
+        "x": "The foundation wants one project with measurable results. The grant must be spent within twelve months, and nothing is said about matching funds."
+       },
+       {
+        "q": "What evidence does Thandiwe give for her proposal?",
+        "o": ["Two language classes are currently half empty.", "Many waitlisted women lack care for their children.", "Other agencies found that childcare improves results.", "The city has offered to share the cost of care."],
+        "a": 1, "t": "detail",
+        "ev": "the only reason they can’t attend is that they have small children at home",
+        "x": "About a third of the women on the waitlist cannot attend because of small children at home. The results from other agencies refer to Joaquín’s mentoring idea."
+       },
+       {
+        "q": "Why does Joaquín reject the driver training idea?",
+        "o": ["Similar programs already exist locally.", "It would help too few of his clients.", "It came from someone outside the agency.", "Driving lessons cost too much per person."],
+        "a": 0, "t": "detail",
+        "ev": "there are already subsidized driving programs in the city",
+        "x": "He does not want to duplicate subsidized programs that already exist. The idea came from the comment board, but that is not his reason for rejecting it."
+       },
+       {
+        "q": "What is Henrike’s main concern about childcare?",
+        "o": ["Qualified staff are hard to find.", "Mothers may not trust on-site care.", "It may not continue after the money ends.", "The foundation does not fund childcare."],
+        "a": 2, "t": "inference",
+        "ev": "It’s an ongoing cost.",
+        "x": "She worries that childcare is an ongoing cost with nothing to sustain it after a year. Staff are mentioned only as what the money would pay for."
+       },
+       {
+        "q": "How does Thandiwe respond to Joaquín’s point about volunteers?",
+        "o": ["She partly accepts it but points out a flaw.", "She rejects it because volunteers are unreliable.", "She agrees fully and withdraws her proposal.", "She says the city should pay the volunteers."],
+        "a": 0, "t": "attitude",
+        "ev": "I suppose that’s a fair argument, as far as it goes.",
+        "x": "“Fair… as far as it goes” is partial agreement, followed by the flaw that mothers could not attend evening sessions. She never questions volunteers’ reliability."
+       },
+       {
+        "q": "What does Joaquín realize during the discussion?",
+        "o": ["Mentors would need to be paid after a year.", "The foundation prefers language programs.", "The evening classes are already full.", "Some clients could be shut out of mentoring."],
+        "a": 3, "t": "inference",
+        "ev": "That’s a real gap.",
+        "x": "He realizes that mothers with young children could not join evening mentoring sessions. He actually stresses that mentors are volunteers, not paid staff."
+       },
+       {
+        "q": "How does Thandiwe feel about the final plan?",
+        "o": ["She is delighted with the amount for childcare.", "She accepts it although she wanted more.", "She doubts the city will ever fund childcare.", "She thinks mentoring should get less money."],
+        "a": 1, "t": "attitude",
+        "ev": "Ten thousand is less than I’d hoped for.",
+        "x": "She says ten thousand is less than she hoped, but she can work with it – reluctant acceptance. She is planning to approach the city, so she has not given up on its funding."
+       },
+       {
+        "q": "What will Thandiwe do tomorrow?",
+        "o": ["Draft the mentoring part of the application", "Recruit volunteers to become mentors", "Contact a city office about future funding", "Open two more evening language classes"],
+        "a": 2, "t": "detail",
+        "ev": "start talking to the city’s early learning office now",
+        "x": "She will call the city’s early learning office, as Henrike asked. Joaquín, not Thandiwe, is drafting the mentoring section."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a report about a different way of voting in municipal elections.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "m", "acc": "en-CA", "rate": 1.01},
+     "B": {"name": "Lorna Bassett", "g": "f", "acc": "en-US", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "In most Canadian municipal elections, the rule is simple: the candidate with the most votes wins, even if that’s only a third of the total. But a growing number of residents and some councils are asking whether there’s a better way. The alternative getting the most attention is the ranked ballot, in which voters rank the candidates in order of preference. If no one wins more than half of the first choices, the last-place candidate is eliminated and their votes go to those voters’ next choice, and the count continues until someone has a majority."],
+       ["A", "Supporters say this produces winners with broader support. In a crowded race under the current system, a candidate can win with thirty percent while seventy percent of voters preferred someone else. Lorna Bassett served two terms on council in a city that used ranked ballots for one election before returning to the old system."],
+       ["B", "What I noticed most was the tone of the campaign. When you need to be someone’s second choice, you can’t attack your opponents the way people often do. I spent more time knocking on doors in neighbourhoods that weren’t my strongholds, asking people who supported another candidate whether I could be their number two. It was a more respectful campaign, honestly."],
+       ["A", "Critics, however, raise practical concerns. Ranked ballots take longer to count, especially by hand, and they require voters to understand a more complex system. In the city where Ms. Bassett served, the percentage of spoiled ballots roughly doubled in the first ranked election, mostly because some voters marked the same number twice. Research on ranked ballots elsewhere has also found that the winner is the same person who led on first choices in the large majority of races, which leads some to question whether the change is worth the cost and confusion."],
+       ["B", "That’s fair, and I won’t pretend the first election was smooth. Voter education matters enormously. But even when the winner doesn’t change, I think that winner has a stronger mandate if they’ve shown they have majority support."],
+       ["A", "There’s also the question of who decides. In some provinces, cities can choose their own voting system. In others, the province sets the rules, and at least one provincial government removed the option after only one city had used it, arguing that a single system across the province is less confusing for voters. Supporters of ranked ballots called that decision an overreach; supporters of the change said it simply ensured consistency."],
+       ["A", "For now, the debate seems likely to continue at the local level. A few councils are considering asking voters themselves, through a question on the next municipal ballot. Whether residents would actually choose a new system, when most people pay little attention to how votes are counted, is an open question."]
+      ],
+      "qs": [
+       {
+        "q": "How does a ranked ballot work?",
+        "o": ["Voters choose two candidates of equal value.", "The top two candidates face a second election.", "Votes shift to later choices until a majority forms.", "Candidates with under thirty percent are removed."],
+        "a": 2, "t": "paraphrase",
+        "ev": "the count continues until someone has a majority",
+        "x": "The last-place candidate’s votes move to voters’ next choices until someone has a majority. Thirty percent is an example of winning under the current system."
+       },
+       {
+        "q": "What did Ms. Bassett notice about campaigning under ranked ballots?",
+        "o": ["Candidates had reason to be more courteous.", "Candidates spent less time going door to door.", "Voters ranked only their favourite candidate.", "Opponents attacked each other more openly."],
+        "a": 0, "t": "inference",
+        "ev": "you can’t attack your opponents the way people often do",
+        "x": "Needing to be voters’ second choice made attacks unwise, so campaigns were more respectful. She actually spent more time knocking on doors, not less."
+       },
+       {
+        "q": "What happened in Ms. Bassett’s city during the first ranked election?",
+        "o": ["The count was completed faster than before.", "Turnout doubled compared with earlier years.", "The first-choice leader lost the election.", "More ballots were filled in incorrectly."],
+        "a": 3, "t": "detail",
+        "ev": "the percentage of spoiled ballots roughly doubled",
+        "x": "Spoiled ballots roughly doubled, mostly because voters marked the same number twice. It was spoiled ballots, not turnout, that doubled."
+       },
+       {
+        "q": "What do critics conclude from research on ranked ballots?",
+        "o": ["Voters generally prefer the traditional system.", "The results rarely differ from the old method.", "Hand counting produces more accurate results.", "Winners usually have less support than before."],
+        "a": 1, "t": "inference",
+        "ev": "the winner is the same person who led on first choices in the large majority of races",
+        "x": "In most races the first-choice leader still wins, so outcomes rarely change, which makes critics doubt the change is worth it. Voters’ preferences are never surveyed."
+       },
+       {
+        "q": "How does Ms. Bassett respond to the critics?",
+        "o": ["She says spoiled ballots were not a real problem.", "She argues that counting by hand should end.", "She admits difficulties but stresses majority support.", "She believes ranked ballots change most outcomes."],
+        "a": 2, "t": "viewpoint",
+        "ev": "I won’t pretend the first election was smooth",
+        "x": "She concedes the first election wasn’t smooth but argues a winner with majority support has a stronger mandate. She accepts that the winner often doesn’t change."
+       },
+       {
+        "q": "What does the reporter suggest at the end?",
+        "o": ["Most councils will adopt ranked ballots soon.", "Provinces will soon ban ranked ballots everywhere.", "Voters strongly support changing the system.", "It is unclear whether residents want a change."],
+        "a": 3, "t": "main",
+        "ev": "is an open question",
+        "x": "Whether residents would choose a new system is “an open question”. Only a few councils are considering a ballot question, and one province, not all, removed the option."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Margarethe Vandenberg | To: Property Standards Division, City of Westfield | Subject: Order No. PS-48317 – 22 Alder Lane",
+   "text": "Dear Sir or Madam,\n\nI am writing in response to Property Standards Order PS-48317, which I found taped to my front door when I returned home on Sunday evening. The order states that my front and back yards are overgrown, that long grass and weeds exceed the 20-centimetre limit in the city’s bylaw, and that I must cut them by August 12 or the city will hire a contractor and add the cost to my property tax bill.\n\nI want to say first that I do not dispute the facts. The yard is a mess, and I understand why my neighbours complained. However, I would ask you to consider the circumstances. In early June, my mother in Rotterdam had a serious stroke, and I flew there with only two days’ notice. I arranged for a neighbourhood teenager to mow the lawn every two weeks, and I paid him in advance for the summer. Unfortunately, he took a summer job at a camp in July and did not tell me, so the lawn was not cut for more than six weeks.\n\nI arrived back only three days ago and am still recovering from the journey and from a very difficult two months. I have already arranged for a landscaping company to cut the grass and remove the weeds, but their first available date is August 15, three days after your deadline. I have attached their written confirmation.\n\nI would therefore like to request a short extension of the deadline to August 16. I would also like to ask whether the $180 administration fee mentioned at the bottom of the order will still apply if the work is completed within the extended period. The order says the fee is charged “for each order issued”, and I am unsure whether this means it has already been charged.\n\nFinally, I would appreciate it if you could let my neighbours know that the problem is being dealt with. I have not yet had the energy to speak to them myself, and I would hate for them to think I simply did not care.\n\nYours sincerely,\nMargarethe Vandenberg",
+   "qs": [
+    {
+     "q": "What is the main purpose of the letter?",
+     "o": ["To request more time to deal with the problem", "To argue that the order was issued in error", "To complain about her neighbours’ behaviour", "To cancel her contract with the landscapers"],
+     "a": 0, "t": "purpose",
+     "ev": "I would therefore like to request a short extension of the deadline to August 16.",
+     "x": "Her main request is an extension until August 16. She explicitly does not dispute the order, and she understands why her neighbours complained."
+    },
+    {
+     "q": "What will happen if the yard is not cleaned up by the deadline?",
+     "o": ["Ms. Vandenberg will be taken to court.", "Her neighbours will be allowed to cut the grass.", "The city will do the work and bill her for it.", "She will receive a second order with a higher fee."],
+     "a": 2, "t": "paraphrase",
+     "ev": "the city will hire a contractor and add the cost to my property tax bill",
+     "x": "The city will hire a contractor and add the cost to her tax bill. Court action and a second order are never mentioned."
+    },
+    {
+     "q": "Why was the lawn not cut while she was away?",
+     "o": ["She forgot to arrange for anyone to cut it.", "The person she hired left without telling her.", "She could not afford to pay for the whole summer.", "The landscaping company had no availability."],
+     "a": 1, "t": "detail",
+     "ev": "he took a summer job at a camp in July and did not tell me",
+     "x": "The teenager she had paid took a camp job without telling her. She did arrange and prepay for mowing; the landscapers were booked only after her return."
+    },
+    {
+     "q": "What is Ms. Vandenberg’s attitude toward the order?",
+     "o": ["She believes the bylaw limit is unreasonable.", "She thinks her neighbours were wrong to complain.", "She is angry that it was taped to her door.", "She accepts it is fair but asks for understanding."],
+     "a": 3, "t": "attitude",
+     "ev": "I do not dispute the facts.",
+     "x": "She admits the yard is a mess and understands the complaint, but asks the city to consider her circumstances. She never criticizes the bylaw or her neighbours."
+    },
+    {
+     "q": "What is she unsure about regarding the administration fee?",
+     "o": ["Whether it can be added to her tax bill", "Whether the landscaping company must pay it", "Whether she has already been charged it", "Whether it also applies to her back yard"],
+     "a": 2, "t": "detail",
+     "ev": "I am unsure whether this means it has already been charged",
+     "x": "The wording “for each order issued” makes her wonder whether the fee has already been charged. The tax bill is linked to the contractor’s costs, not the fee."
+    },
+    {
+     "q": "Why does she ask the city to contact her neighbours?",
+     "o": ["She wants them to stop filing complaints.", "She does not yet feel able to talk to them.", "She hopes they will help cut the grass.", "The city requires neighbours to be informed."],
+     "a": 1, "t": "inference",
+     "ev": "I have not yet had the energy to speak to them myself",
+     "x": "She is exhausted after a difficult two months and has not had the energy to speak to them herself. She does not ask them to stop complaining or to help."
+    }
+   ],
+   "reply": {
+    "intro": "Here is the city’s response. Complete it by choosing the best option for each blank.",
+    "text": "Dear Ms. Vandenberg,\n\nThank you for your letter, and I am very sorry to hear about your mother. Given the circumstances, I am able to {1}, so the landscapers’ booking on August 15 will be acceptable. Please note that I cannot extend it any further, so if that appointment is cancelled, please {2} so that we can discuss other options.\n\nRegarding your question, the $180 fee {3}. It is charged only if the city has to send its own contractor, so if your company completes the work on time, you will not pay it.\n\nI have also spoken with the neighbour who made the complaint and let her know that {4}. She was very understanding and asked me to pass on her best wishes.\n\nAn inspector will visit on {5} to confirm that the work is complete. You do not need to be home.\n\nRegards,\nTerrence Obi\nProperty Standards Officer",
+    "blanks": [
+     {
+      "o": ["cancel the order completely", "waive the administration fee", "keep the August 12 deadline", "move the deadline to August 16"],
+      "a": 3, "t": "detail",
+      "ev": "request a short extension of the deadline to August 16",
+      "x": "The officer grants her requested extension to August 16, which makes the August 15 booking acceptable. Keeping August 12 would make that booking too late."
+     },
+     {
+      "o": ["let me know immediately", "hire the teenager again", "pay the $180 fee", "speak to your neighbours"],
+      "a": 0, "t": "coherence",
+      "ev": "so that we can discuss other options",
+      "x": "“So that we can discuss other options” requires contacting the officer. Paying the fee or talking to neighbours would not lead to a discussion with the city."
+     },
+     {
+      "o": ["has already been added to your tax bill", "has not been charged at this point", "is charged for each order issued", "will be refunded after the inspection"],
+      "a": 1, "t": "inference",
+      "ev": "It is charged only if the city has to send its own contractor",
+      "x": "The fee applies only if the city sends its contractor, so it has not been charged. “For each order issued” repeats the wording that confused her, which the officer is correcting."
+     },
+     {
+      "o": ["you were away on holiday", "the order has been withdrawn", "the work has been scheduled", "you would call her soon"],
+      "a": 2, "t": "inference",
+      "ev": "I have already arranged for a landscaping company to cut the grass",
+      "x": "She asked the city to tell neighbours the problem is being dealt with; the landscaping is booked. She was caring for her mother, not on holiday, and the order still stands."
+     },
+     {
+      "o": ["August 16 or shortly after", "the first week of June", "August 12 at the latest", "the day you return home"],
+      "a": 0, "t": "inference",
+      "ev": "extension of the deadline to August 16",
+      "x": "The inspection confirms the work, so it must follow the new August 16 deadline. August 12 was the original deadline, before the work could be done."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Provincial Vital Statistics Office – Certificate Fees and Service Times",
+    "intro": "Certificates can be ordered online, by mail or in person at the downtown office. Processing times are counted in business days from the day a complete application is received.",
+    "table": {
+     "cols": ["Document", "Standard fee", "Standard processing", "Rush service (extra fee per certificate)", "Rush processing"],
+     "rows": [
+      ["Birth certificate (short form)", "$25", "15 business days", "+$45", "5 business days"],
+      ["Birth certificate (long form, with parents’ names)", "$35", "15 business days", "+$45", "5 business days"],
+      ["Marriage certificate", "$35", "20 business days", "+$45", "5 business days"],
+      ["Death certificate", "$25", "10 business days", "Not available", "–"],
+      ["Change of name certificate", "$137", "30 business days", "Not available", "–"],
+      ["Certified copy of registration (genealogy)", "$50", "40 business days", "Not available", "–"]
+     ]
+    },
+    "notes": [
+     "Courier delivery: $20 per order (2 business days). Regular mail delivery is free (allow 5–10 business days).",
+     "In-person pickup: rush orders only, ready after 2 p.m. on the final processing day.",
+     "Orders of 3 or more certificates: 10% off the total standard fees (rush and courier fees are not discounted).",
+     "Newborns: the first short-form birth certificate is free if ordered before the child’s first birthday.",
+     "Long-form certificates are required by some foreign governments and for certain immigration applications."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about ordering certificates. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Lena,\n\nI’m sorting out the documents we need before Jamal’s transfer. The consulate wants long-form birth certificates for me and both kids, plus our marriage certificate. Since that’s four certificates in one order, the standard fees will come to {1}. We need everything quickly, so I’ll pay for rush service on all four, which adds another {2}.\n\nI’ll collect them in person instead of paying for a courier, so I’m planning to leave work early on the last processing day, since they’re only ready {3}.\n\nMum also asked me to order a copy of Grandpa’s death certificate for the estate. Unfortunately, she can’t {4}, so she’ll just have to wait the standard time.\n\nOh, and you mentioned wanting two short-form certificates for baby Noor, who is four months old. If you have them mailed, you’ll only pay {5} in total.\n\nLove,\nYasmin",
+    "blanks": [
+     {
+      "o": ["$140.00", "$112.50", "$126.00", "$105.00"],
+      "a": 2, "t": "diagram",
+      "ev": "Orders of 3 or more certificates: 10% off the total standard fees",
+      "x": "Four certificates at $35 each = $140, minus 10% for ordering three or more = $126. $140 forgets the discount, and $105 counts only three certificates."
+     },
+     {
+      "o": ["$45", "$162", "$135", "$180"],
+      "a": 3, "t": "diagram",
+      "ev": "rush and courier fees are not discounted",
+      "x": "Rush service costs $45 per certificate: 4 × $45 = $180. The 10% discount does not apply to rush fees, so $162 is wrong."
+     },
+     {
+      "o": ["in the afternoon", "first thing in the morning", "on the following day", "during lunch hours"],
+      "a": 0, "t": "diagram",
+      "ev": "ready after 2 p.m. on the final processing day",
+      "x": "Rush orders for pickup are ready after 2 p.m. on the final processing day – in the afternoon, which is why she will leave work early."
+     },
+     {
+      "o": ["order it online", "pay extra to get it faster", "get it within ten days", "have it mailed for free"],
+      "a": 1, "t": "diagram",
+      "ev": "Death certificate $25 10 business days Not available",
+      "x": "Rush service is not available for death certificates, so paying more cannot speed it up. Standard processing is ten business days, so getting it within ten days is possible."
+     },
+     {
+      "o": ["$0", "$50", "$25", "$45"],
+      "a": 2, "t": "diagram",
+      "ev": "the first short-form birth certificate is free if ordered before the child’s first birthday",
+      "x": "Noor is under one, so the first certificate is free and the second costs $25; mail delivery is free. $50 ignores the newborn rule, and $0 makes both free."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "Someone orders a change of name certificate to be delivered by courier. What will it cost, and can rush service be added?",
+     "o": ["$182, and rush service is available", "$157, and rush service is not available", "$137, and rush service is not available", "$202, and rush service is available"],
+     "a": 1, "t": "diagram",
+     "ev": "Courier delivery: $20 per order (2 business days).",
+     "x": "The certificate costs $137 plus $20 for courier = $157, and rush service is not available for name changes. $137 leaves out the courier fee."
+    },
+    {
+     "q": "A genealogist orders three certified copies of registration by regular mail. How much will she pay?",
+     "o": ["$150", "$155", "$120", "$135"],
+     "a": 3, "t": "diagram",
+     "ev": "Orders of 3 or more certificates: 10% off the total standard fees",
+     "x": "3 × $50 = $150, minus 10% for three or more certificates = $135. Regular mail is free, so nothing is added; $150 forgets the discount."
+    },
+    {
+     "q": "Which of these orders could be picked up in person at the downtown office?",
+     "o": ["A long-form birth certificate with rush service", "A death certificate with standard service", "A change of name certificate with standard service", "A marriage certificate with courier delivery"],
+     "a": 0, "t": "diagram",
+     "ev": "In-person pickup: rush orders only",
+     "x": "Only rush orders can be picked up in person, and rush service is available for long-form birth certificates. Death and name-change certificates cannot be rushed."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Letting Residents Hold the Purse Strings",
+   "paras": [
+    "Participatory budgeting is a simple idea with a long history. Instead of leaving every spending decision to elected councillors and staff, a city sets aside part of its budget and lets residents decide directly how it will be spent. The practice began in Brazil in the late 1980s and has since spread to thousands of communities around the world, including a growing number of Canadian cities. The Canadian versions tend to be modest, typically covering 1 percent or less of the capital budget. Residents submit ideas, volunteers work with city staff to turn the most promising ones into costed proposals, and then the public votes. Typical winning projects include playground upgrades, new benches, pedestrian crossings and community gardens. Voting rules are usually broader than in regular elections: people as young as fourteen can take part, and participants do not need to be citizens.",
+    "Supporters point first to who takes part. In one Canadian city, a survey found that nearly 40 percent of those who voted on projects had never attended a city meeting or contacted a councillor before. Newcomers, young people and renters, groups who are often underrepresented in local elections, made up a significant share of voters. City officials say the process also builds trust and gives residents a better understanding of how budgets work. Many participants are surprised to learn, for instance, that a single signalized crosswalk can cost well over $100,000. Several councillors who were initially skeptical, worried that they would be giving up control over spending in their wards, have since become some of the program’s strongest defenders after watching residents debate trade-offs seriously and carefully.",
+    "Critics, however, argue that the amounts involved are too small to matter. A few hundred thousand dollars for benches and gardens, they say, is a distraction from the decisions that really shape a city, such as transit, policing and property taxes, which remain entirely in the hands of council. Others worry about fairness within the process itself. Well-organized groups can mobilize hundreds of supporters, so a school parent council, for example, may win funding for its playground simply because it is better at getting out the vote than a neighbourhood with fewer resources. To address this, some cities now limit the number of projects that can be funded in any one area, or divide the money among neighbourhoods before the vote, giving extra weight to lower-income districts.",
+    "Cities that have run several rounds of participatory budgeting have also learned practical lessons. The process requires significant staff time, and a project can take eighteen months or more to move from idea to completion. Residents often become frustrated when projects are delayed, especially if they hear nothing in the meantime. Cities that publish regular progress updates and hold small celebrations when projects open tend to see higher participation in later rounds. Organizers have also experimented with ways to reach more people, such as online voting, pop-up voting booths in libraries and shopping centres, and school programs in which students research proposals and run campaigns for their favourite projects. Such efforts, organizers say, matter as much as the money itself."
+   ],
+   "qs": [
+    {"q": "Residents may lose patience when projects take a long time to finish.", "a": "D", "t": "paraphrase", "ev": "Residents often become frustrated when projects are delayed", "x": "Paragraph D says residents often become frustrated when projects are delayed, especially without updates."},
+    {"q": "The process has attracted people who had not been involved in local government before.", "a": "B", "t": "paraphrase", "ev": "nearly 40 percent of those who voted on projects had never attended a city meeting or contacted a councillor before", "x": "Paragraph B reports that nearly 40 percent of voters in one city had never attended a meeting or contacted a councillor."},
+    {"q": "Non-citizens are usually allowed to take part.", "a": "A", "t": "detail", "ev": "participants do not need to be citizens", "x": "Paragraph A explains that voting rules are broader than in elections and participants do not need to be citizens."},
+    {"q": "Most participatory budgeting projects in Canada are completed under budget.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph D discusses how long projects take, but no paragraph compares their final costs with their budgets."},
+    {"q": "Groups with strong organization can have an unfair advantage in the vote.", "a": "C", "t": "inference", "ev": "Well-organized groups can mobilize hundreds of supporters", "x": "Paragraph C explains that well-organized groups, such as a parent council, can win simply by mobilizing more voters."},
+    {"q": "Some politicians changed their opinion of the process after seeing it in action.", "a": "B", "t": "paraphrase", "ev": "Several councillors who were initially skeptical", "x": "Paragraph B says some initially skeptical councillors became strong defenders after watching residents debate trade-offs."},
+    {"q": "Keeping residents informed about progress encourages them to take part again.", "a": "D", "t": "inference", "ev": "Cities that publish regular progress updates and hold small celebrations when projects open tend to see higher participation in later rounds", "x": "Paragraph D links regular progress updates and celebrations to higher participation in later rounds."},
+    {"q": "Participatory budgeting has led to lower property taxes in some cities.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph C mentions property taxes only as a decision that stays with council; nothing says the process lowered taxes."},
+    {"q": "Only a small share of a city’s spending is usually decided this way.", "a": "A", "t": "paraphrase", "ev": "typically covering 1 percent or less of the capital budget", "x": "Paragraph A says the Canadian versions typically cover 1 percent or less of the capital budget."}
+   ]
+  },
+  "p4": {
+   "title": "Our Small Fire Departments Deserve a Bigger Team",
+   "byline": "Opinion | by Graham Tuttle, retired volunteer fire chief",
+   "text": "For thirty-one years, I served in volunteer fire departments in three small communities in this county, the last eleven as chief. I loved that work, and I still believe volunteer firefighters are among the most dedicated people in any town. That is exactly why I think it is time for the county’s seven separate departments to merge into a single regional fire service.\n\nThe case begins with people. Volunteer numbers have been falling for two decades. Young people move away for work, and those who stay often commute an hour each way to jobs that will not let them leave in the middle of a shift. In my last year as chief, there were weekday afternoons when I could not be sure that four firefighters would answer a call. A fire truck that leaves the station with two people aboard is not a full crew; it is a risk to the firefighters and to the public.\n\nThe second problem is money. Each of our seven departments buys its own trucks, its own breathing equipment and its own radios, often from different suppliers. A new pumper truck costs close to a million dollars, and some of our small towns are paying for one through loans that will take fifteen years to repay. A regional service could plan purchases across the whole county, share specialized equipment such as ladder trucks and rescue boats, and negotiate better prices.\n\nTraining is the third issue. Provincial standards for firefighter certification have become far more demanding, and rightly so. But a department with fifteen volunteers cannot easily run the hundreds of hours of training now required. A regional service could employ a full-time training officer and run courses on evenings and weekends that suit volunteers’ schedules.\n\nI know the objections, because I once raised them myself. People worry that a regional service will close their local station. They worry that decisions will be made by managers in the county seat who have never driven the back roads of their township. And they worry that the volunteer spirit, the sense that the fire hall belongs to the community, will disappear.\n\nThese concerns are real, and any merger must address them directly. Stations should stay where they are; the point is to share resources, not to reduce coverage. Each station should keep its own name and its own volunteer captain, and local councils should hold seats on the regional fire board. Several counties in other provinces have merged in exactly this way, and in most of them, response times in rural areas have held steady or improved.\n\nThere is one cost I will not pretend away. A regional service would almost certainly need a small number of paid, full-time firefighters to cover weekday daytime hours, when volunteers are hardest to find. That will add to the tax bill. But the alternative, continuing as we are and hoping that enough people answer the pager, is a gamble with lives.\n\nOur volunteer firefighters have kept these communities safe for generations. The least we can do is give them a structure that matches the job they are being asked to do today.",
+   "qs": [
+    {
+     "q": "Why does the writer begin by describing his own career?",
+     "o": ["To explain why he no longer trusts volunteer crews", "To show that he was forced to retire early", "To argue that fire chiefs should be paid more", "To show he values volunteers despite his proposal"],
+     "a": 3, "t": "purpose",
+     "ev": "I still believe volunteer firefighters are among the most dedicated people in any town",
+     "x": "He stresses his long service and admiration for volunteers to show his proposal comes from respect. Nothing suggests he distrusts volunteers or retired early."
+    },
+    {
+     "q": "What problem does the writer describe from his final year as chief?",
+     "o": ["He could not always count on enough responders.", "Trucks often left the station without equipment.", "Volunteers refused to answer weekday calls.", "Employers asked volunteers to quit the service."],
+     "a": 0, "t": "paraphrase",
+     "ev": "I could not be sure that four firefighters would answer a call",
+     "x": "On some weekday afternoons he could not be sure four firefighters would respond. Volunteers did not refuse; their jobs and commutes kept them away."
+    },
+    {
+     "q": "What can be inferred about some small towns’ finances?",
+     "o": ["They have stopped buying new fire trucks.", "They receive provincial grants for equipment.", "They carry long-term debt for equipment.", "They share ladder trucks with other towns."],
+     "a": 2, "t": "inference",
+     "ev": "paying for one through loans that will take fifteen years to repay",
+     "x": "Some towns are repaying pumper trucks through fifteen-year loans – long-term debt. Sharing ladder trucks is what a regional service could do, not what happens now."
+    },
+    {
+     "q": "How does the writer respond to the objections to a merger?",
+     "o": ["He dismisses them as based on misinformation.", "He acknowledges them and proposes safeguards.", "He says they apply only to the county seat.", "He argues that some local stations must close."],
+     "a": 1, "t": "viewpoint",
+     "ev": "These concerns are real, and any merger must address them directly.",
+     "x": "He calls the concerns real and proposes keeping stations, names, captains and council seats. He explicitly says stations should stay where they are."
+    },
+    {
+     "q": "What does the writer admit about his proposal?",
+     "o": ["Response times in rural areas would get longer.", "Volunteer captains would lose their positions.", "Training would move entirely to weekdays.", "Residents would probably pay higher taxes."],
+     "a": 3, "t": "detail",
+     "ev": "That will add to the tax bill.",
+     "x": "He admits paid daytime firefighters would add to the tax bill. He says rural response times elsewhere held steady or improved, and captains would stay."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I have been a volunteer firefighter in Brennan Township for nine years, and I expected to disagree with every word of this. I didn’t. Mr. Tuttle is right that weekday calls are a struggle; most of our members work in the city, and last month we {1}. He is also right that {2} – I spent four weeks of my vacation last year on certification courses.\n\nWhere I disagree is his promise that stations will stay open. He says the point is to share resources, but once a regional board is looking at the budget, a small hall like ours that {3} will be an easy target. I would want any merger agreement to {4}, not just a promise in a newspaper column.\n\nAs for the paid firefighters, I would actually welcome them, as long as they {5} rather than replace us on evenings and weekends, when we still have plenty of people.",
+    "blanks": [
+     {
+      "o": ["paid off the loan on our pumper truck", "sent a truck out with just two people", "lost two members who moved to the city", "trained every member to the new standard"],
+      "a": 1, "t": "coherence",
+      "ev": "A fire truck that leaves the station with two people aboard is not a full crew",
+      "x": "Weekday staffing is the struggle he describes, matching the article’s two-person truck example. Members work in the city but have not moved there."
+     },
+     {
+      "o": ["volunteers move away for work", "equipment comes from many suppliers", "training demands have grown heavier", "managers ignore rural back roads"],
+      "a": 2, "t": "inference",
+      "ev": "Provincial standards for firefighter certification have become far more demanding",
+      "x": "Spending four vacation weeks on certification supports the point that training demands have grown. The other options are article points unrelated to his example."
+     },
+     {
+      "o": ["answers relatively few calls", "has its own volunteer captain", "owns a brand-new ladder truck", "sits in the county seat"],
+      "a": 0, "t": "inference",
+      "ev": "will be an easy target",
+      "x": "A small hall that gets few calls would be easy to cut when a board reviews costs. Having a captain is something the article promises, not a reason for closure."
+     },
+     {
+      "o": ["include paid firefighters", "move the board to our township", "reduce our training hours", "guarantee our station in writing"],
+      "a": 3, "t": "inference",
+      "ev": "not just a promise in a newspaper column",
+      "x": "Contrasting it with “just a promise in a newspaper column”, he wants a written guarantee. He welcomes paid firefighters separately, later in the comment."
+     },
+     {
+      "o": ["cover the weekday daytime hours", "take over all evening shifts", "train only in the county seat", "replace the volunteer captains"],
+      "a": 0, "t": "paraphrase",
+      "ev": "to cover weekday daytime hours, when volunteers are hardest to find",
+      "x": "He accepts paid staff for weekday days, as the article proposes, but not on evenings and weekends when volunteers are available."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You booked and paid $450 to rent the city’s Maple Ridge Community Hall for your parents’ 40th wedding anniversary party on Saturday, June 7. Yesterday, a city employee called to say the hall had been double-booked and your reservation would be cancelled. You have already sent invitations to 80 guests.",
+   "bullets": [
+    "Explain your booking and what you were told",
+    "Describe how the cancellation affects you and your family",
+    "Say what you would like the city to do"
+   ],
+   "model": "Dear Facility Bookings Office,\n\nI am writing about booking number MR-6620 for the main room at Maple Ridge Community Hall on Saturday, June 7, from 5 p.m. to 11 p.m. I made the reservation online on February 18 and paid the full fee of $450 the same day. Yesterday afternoon, a staff member phoned to say that the hall had been booked twice by mistake and that my reservation would be cancelled because the other group had booked a few hours earlier.\n\nThis news has been very upsetting. The event is a surprise party for my parents’ fortieth wedding anniversary, and invitations have already gone out to eighty guests, including relatives travelling from Halifax and Winnipeg. We have also paid a non-refundable deposit to a caterer who has been told the hall’s address.\n\nSince the error was made by the city, I would ask you to find an equivalent room at another city facility on the same date, at no additional cost. If that is not possible, I would expect a full refund as well as reimbursement of the $200 catering deposit.\n\nI look forward to your reply.\n\nSincerely,\nAmira Haddad-Lewis"
+  },
+  "t2": {
+   "intro": "The provincial government wants to make it easier for residents to access services such as driver’s licences, health cards and photo ID cards, and it is asking for your opinion.",
+   "question": "Which option do you prefer? Explain the reasons for your choice.",
+   "a": "Open all service centres on Saturdays from 9 a.m. to 3 p.m., offering the same in-person services as on weekdays.",
+   "b": "Move most services online, supported by a phone help line that is open seven days a week for people who need assistance.",
+   "model": "I prefer Option B, moving most services online with a seven-day phone help line, because it would save time for the greatest number of people.\n\nAt the moment, renewing a licence or replacing a health card usually means taking time off work and waiting in line, sometimes for over an hour. Opening on Saturdays would help a little, but I suspect the lines would simply move to the weekend, and centres in smaller towns might still be far away. With online services, people could renew documents in ten minutes from home, at any hour, without travelling at all.\n\nI understand the concern that some residents, especially seniors and newcomers, are not comfortable online. That is why the phone line is so important. If it is open every day and staffed by patient, well-trained agents, people could be guided through each step, which is often more helpful than a rushed conversation at a counter. Of course, a few services, such as taking photos, would still need an office.\n\nOverall, Option B offers convenience, saves money and still provides support for anyone who needs it."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your cousin is moving to Canada next year and cannot decide whether to settle in a large city or a small town. Give your cousin advice about how to make this decision.",
+   "model": "That’s a big decision, and honestly, there’s no right answer for everyone, so I’d start by thinking about what matters most to you. The first thing I’d look at is work. Large cities usually have more jobs in specialized fields, so if you want to stay in engineering, a city like Toronto or Calgary might give you more options. On the other hand, some small towns are desperate for workers in health care, trades and trucking, and employers there sometimes help newcomers with housing. Second, think about cost of living. Rent in big cities can easily take half your income, while in a small town you might be able to afford a house within a few years. Third, consider support. Cities have more settlement agencies, language classes and communities from your home country, which can make the first year much easier. In a small town, there may be fewer services, but people tend to be very welcoming, and you’ll probably practise your English more. My advice would be to visit both types of places if you can, or at least talk to people who live there. And remember, your first choice doesn’t have to be permanent. Lots of people start in a city and move later."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you attended a public meeting or a community event. What happened, and what did you think of it?",
+   "model": "A couple of years ago, the city held a public meeting about turning the empty lot near my apartment into a parking garage, and my neighbour convinced me to go. I expected it to be boring, but it was actually pretty dramatic. The room at the library was packed, and the planners gave a short presentation with drawings of the garage. Then residents lined up at a microphone. Some business owners said they desperately needed parking, while lots of parents wanted a playground instead. One older man got so passionate that the chair had to remind him about the three-minute limit. I ended up speaking too, which made me really nervous, but I said that our street already had too much traffic. In the end, the city decided on a smaller garage with a park on top. I felt like our voices actually mattered."
+  },
+  "t3": {
+   "scene": {
+    "bg": "street",
+    "alt": "A city street where a work crew is repairing a broken water main. An orange city truck labelled WATER DEPT is parked beside a hole in the road surrounded by four traffic cones, and water is pooling in a large puddle. One worker in an orange hard hat is digging with a shovel, while another holds a map and points. A ROAD CLOSED sign stands in the middle of the street, and a red car is stopped behind it. On the sidewalk, a woman with a dog watches the work, and a man with a cup talks on his phone. Houses are in the background.",
+    "items": [
+     ["cloud", 140, 60, 1],
+     ["house", 60, 280, "#d5dbdb", "#7f8c8d"],
+     ["house", 520, 280, "#fad7a0", "#a04000"],
+     ["truck", 150, 340, "#e67e22", "WATER DEPT"],
+     ["puddle", 330, 360],
+     ["water", 300, 350, 70, 12],
+     ["cone", 290, 370],
+     ["cone", 380, 370],
+     ["cone", 335, 385],
+     ["person", 330, 350, {"shirt": "#f39c12", "hat": "#e67e22", "hold": "shovel"}],
+     ["person", 410, 355, {"shirt": "#f39c12", "hat": "#f1c40f", "pose": "point", "hold": "map", "flip": true}],
+     ["sign", 460, 380, "ROAD CLOSED", "#ffffff"],
+     ["car", 560, 375, "#c0392b", true],
+     ["person", 40, 370, {"shirt": "#2980b9", "hairStyle": "long", "hold": "leash"}],
+     ["dog", 85, 378, "#f5f5dc"],
+     ["person", 250, 330, {"shirt": "#7f8c8d", "hold": "phone", "glasses": true}]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a residential street where a city crew is fixing what looks like a broken water pipe. On the left, there’s a big orange truck that says “Water Dept” on the side, and it’s parked next to a hole in the middle of the road. Water has spilled out and formed a large puddle, and there are four orange traffic cones around it. One worker in an orange hard hat is standing in the hole, digging with a shovel, while another worker is holding a map and pointing, so he might be giving directions. There’s a “Road Closed” sign in the street, and a red car has stopped behind it. On the sidewalk, a woman with long hair is walking a small white dog and watching the work, and a man with glasses is chatting on his phone. There are houses in the background."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the driver of the red car will probably realize the road isn’t going to open any time soon, so he’ll turn around and find another route, maybe after asking the worker how long it will take. The crew will most likely keep digging until they find the broken section of pipe, and then they’ll replace it. Before that, though, they’ll probably need to pump out the water, because the puddle is getting bigger. The man on the phone might be a resident calling to ask whether his water will be shut off, and I imagine a city worker will soon go door to door to tell people their water will be off for a few hours. As for the woman with the dog, I’d guess the dog will try to splash through the puddle, and she’ll have to pull it back quickly."
+  },
+  "t5": {
+   "intro": "You need to get rid of an old refrigerator, and your city offers several ways to do it. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "City bulky-item pickup", "details": ["$35 fee", "Collected from the curb", "Next available date: 3 weeks", "Any condition accepted", "Book online"]},
+    {"title": "Utility rebate pickup", "details": ["Free, plus a $50 rebate", "Collected from inside your home", "Fridge must still be working", "Available within 1 week", "Weekday 4-hour time window"]}
+   ],
+   "other": {"title": "Drive it to the city depot yourself", "details": ["$80 to rent a truck for 3 hours", "$15 depot fee", "Can go this Saturday", "Need two people to lift it", "Depot is 25 minutes away"]},
+   "otherWho": "Your brother prefers",
+   "persuade": "Your brother prefers driving the fridge to the city depot yourselves. Persuade him that your choice is better.",
+   "model": "I know you’d like to get it done this Saturday, but I really think the utility rebate pickup is the better deal. Look at the money first. Renting a truck and paying the depot fee comes to ninety-five dollars. The rebate program is free, and they actually pay us fifty dollars, so we’d be almost a hundred and fifty dollars better off. Second, think about the work. Our fridge is huge, and the stairs to the basement are narrow. Last time we moved furniture, you hurt your back. With the rebate program, they carry it out from inside the house, so neither of us has to lift anything. The fridge still works, so we qualify. The only downside is the weekday time window, but I can work from home that day. It’s cheaper, easier and safer."
+  },
+  "t6": {
+   "situation": "You are on the volunteer board of your neighbourhood association. The association’s treasurer, who is also a close friend of yours, was supposed to submit a financial report to the city two weeks ago for a $5,000 community grant. The city has warned that if the report is not received by Friday, the association will have to return the money. Your friend has stopped answering messages about it. The association president has asked you whether there is a problem.",
+   "options": [
+    "Talk to your friend, the treasurer, about getting the report done by Friday.",
+    "Talk to the association president and explain the situation."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey, Priyanka, I’m not here to lecture you, I promise. But I need to talk about the grant report, because the city emailed again, and if they don’t have it by Friday, we have to give back the five thousand dollars. That would mean cancelling the summer festival and the new benches. I’ve noticed you haven’t been answering messages, and I’m a bit worried about you. Is something going on? If you’re overwhelmed, that’s completely okay, but let me help. I could come over tomorrow evening and we could go through the receipts together. It’s mostly a spreadsheet and a short summary. If you’d rather hand it over to me, that’s fine too. I just don’t want to have to tell the president we missed the deadline. Can we agree on a plan right now?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should cities fine residents who do not clear the snow from the public sidewalk in front of their homes? Explain your reasons.",
+   "model": "In my opinion, yes, cities should fine residents who don’t clear their sidewalks, as long as there are exceptions for people who physically can’t do it. My main reason is safety. An icy, snow-covered sidewalk isn’t just an inconvenience. For an older person with a walker, a parent with a stroller or someone in a wheelchair, one uncleared section can make the whole street impossible to use. People slip and break bones every winter, and those injuries cost the health system far more than a shovel costs a homeowner. Second, most people already do clear their sidewalks, so a fine simply creates fairness. Without one, the responsible neighbours end up doing extra work while a few others ignore the rule. For example, on my street, one house never shovels, and the mail carrier has fallen there twice. Some people argue that the city should clear all sidewalks itself, and I understand that view. However, that would require more equipment and higher taxes, and the machines can’t reach every corner. That said, the city should run a program that matches seniors and people with disabilities with volunteers, so nobody is fined for something they can’t do. Overall, reasonable fines would make winter safer for everyone."
+  },
+  "t8": {
+   "scene": {
+    "bg": "winter",
+    "alt": "A snowy street in front of a city hall building. In the middle of the road stands a gigantic snowman, taller than the building’s door, completely blocking both lanes. It has a carrot nose and coal buttons. A city snowplow truck has stopped in front of it, and the driver is standing beside the truck with both arms raised. A woman in a red coat is taking a photo, two children are pointing and laughing, and a man in a blue jacket holds a shovel. A sign beside the road says CITY HALL. Pine trees and snow cover the background.",
+    "items": [
+     ["cloud", 500, 60, 1],
+     ["building", 360, 300, 260, 160, "#d6dbdf", "CITY HALL"],
+     ["pine", 40, 300, 1],
+     ["pine", 610, 300, 0.9],
+     ["big", "snowman", 300, 370, 3.5],
+     ["truck", 110, 370, "#f39c12", "CITY PLOW"],
+     ["person", 200, 375, {"shirt": "#e67e22", "hat": "#2c3e50", "pose": "both"}],
+     ["person", 420, 375, {"shirt": "#c0392b", "hairStyle": "long", "hold": "camera", "flip": true}],
+     ["person", 470, 380, {"kid": true, "shirt": "#27ae60", "pose": "point", "flip": true}],
+     ["person", 500, 382, {"kid": true, "shirt": "#f1c40f", "pose": "wave"}],
+     ["person", 560, 375, {"shirt": "#2980b9", "hold": "shovel"}],
+     ["sign", 600, 385, "CITY HALL", "#ffffff"]
+    ]
+   },
+   "prompt": "On your way to work, you see this in front of city hall. Phone a friend who works in the city’s roads department, describe what you see and explain whether you think it should be removed right away or left for a while. Your friend cannot see the picture.",
+   "model": "Hi Teo, it’s me. You won’t believe what’s outside city hall right now. Someone built a gigantic snowman overnight, right in the middle of the road. It’s taller than the front doors, with a carrot nose the size of a canoe and big black coal buttons. It’s blocking both lanes completely. One of your plows is stuck in front of it, and the driver is just standing there with his arms in the air, like he has no idea what to do. Kids are pointing and laughing, and people are taking photos. Honestly, I think you should leave it for the day, because it’s cheering everyone up. But maybe move it to the park beside city hall, so traffic can get through and the plow can finish its route. That way, everyone wins."
+  }
+ }
+}

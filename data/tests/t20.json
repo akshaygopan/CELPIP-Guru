@@ -1,0 +1,454 @@
+{
+ "id": "t20",
+ "title": "Test 20",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "The two co-owners of a small bakery are trying to solve a problem with their biggest customer.",
+    "sp": {
+     "A": {"name": "Bettina", "g": "f", "acc": "en-CA", "rate": 1.01},
+     "B": {"name": "Rohan", "g": "m", "acc": "en-IN", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Rohan, I just got off the phone with Larkspur. That’s the third complaint this week."],
+       ["B", "About the croissants again?"],
+       ["A", "Not the croissants themselves. The timing. Their downtown locations open at six thirty, and on Tuesday and Wednesday our deliveries showed up after seven. Tessa, their regional manager, was polite about it, but she made a point of reminding me that their contract has a clause allowing them to switch suppliers after three late deliveries in a month."],
+       ["B", "So we’re at two, then."],
+       ["A", "Two this month, yes. And it’s only the ninth."],
+       ["B", "Well, it’s not as if we haven’t got an excuse. With the van in the shop, I’ve been doing the run in my own hatchback, and it fits maybe a third of the trays. I’ve been going back and forth three times."],
+       ["A", "I know, and I appreciate it. But Tessa doesn’t care whose car it is. Larkspur is nearly forty percent of our revenue. If we lose them, we’re not talking about a bad month; we’re talking about letting staff go."],
+       ["B", "What did the mechanic say about the van this morning?"],
+       ["A", "The transmission part is on back order. Best case, ten days. He offered to look for a used one, but he wouldn’t guarantee it, and I don’t want to pay for a part that fails in a month."],
+       ["B", "So we need a plan for at least the next two weeks."],
+       ["A", "At least. And I’d like to call Tessa back this afternoon with something concrete, not just another apology."]
+      ],
+      "qs": [
+       {"q": "What is wrong with the deliveries to Larkspur?", "o": ["The croissants have been arriving damaged.", "They have been reaching the cafés too late.", "Some trays have gone to the wrong locations.", "The orders have been smaller than requested."], "a": 1, "t": "paraphrase", "ev": "on Tuesday and Wednesday our deliveries showed up after seven", "x": "Deliveries arrived after seven, but the cafés open at six thirty, so they were late. Bettina says the complaint is “not the croissants themselves”, so quality and damage are not the issue."},
+       {"q": "Why is Bettina especially worried?", "o": ["Tessa has threatened to cancel the contract immediately.", "The van repair will cost more than the bakery can afford.", "Rohan cannot continue using his own car.", "One more late delivery could cost them a major client."], "a": 3, "t": "inference", "ev": "their contract has a clause allowing them to switch suppliers after three late deliveries in a month", "x": "They already have two late deliveries this month, and a third would allow Larkspur, 40% of revenue, to switch suppliers. Tessa was polite and only mentioned the clause; she did not threaten immediate cancellation."},
+       {"q": "Why does Bettina turn down the mechanic’s offer?", "o": ["She doubts a used part would be reliable.", "She cannot wait ten days for it to arrive.", "She thinks the mechanic is overcharging her.", "She plans to buy a new van instead."], "a": 0, "t": "inference", "ev": "I don’t want to pay for a part that fails in a month.", "x": "The mechanic would not guarantee a used part, and she fears it would fail. Ten days is the wait for the new part on back order, not for the used one."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "What about renting a van? There’s a rental place on Fulton Road."],
+       ["A", "I called them first thing. They have cargo vans, but they don’t open until eight, so we’d have to pick one up the night before and return it the next morning. That’s a full day’s rental every day, about a hundred and ten dollars. Over two weeks, that’s more than fifteen hundred."],
+       ["B", "Ouch. And honestly, a plain cargo van doesn’t have racks, so the trays would slide around. We’d be trading late croissants for squashed ones."],
+       ["A", "Exactly. What about a courier? Speedline does same-day business deliveries."],
+       ["B", "I’ve used them for catering orders. They’re reliable, but their earliest pickup is six a.m., and they do multiple stops on a route. There’s no way they’d hit nine cafés by six thirty."],
+       ["A", "Hmm. So what if we change things on our end instead? If we baked the Larkspur order earlier, you could start the runs at four instead of five."],
+       ["B", "I’ve thought about that. The problem isn’t really the baking. Marguerite’s already in at three. It’s the proofing. The croissant dough needs its time, and if we rush it, they come out flat. Larkspur would notice that faster than a late delivery."],
+       ["A", "True. Then what about the morning buns? Those could go out on the first run, and the croissants on the last."],
+       ["B", "Maybe. But that doesn’t solve the fact that my car only carries a third of the order. Wait. Isn’t Desmond’s catering business closed for the winter? He’s got a refrigerated van with racks just sitting in his driveway."],
+       ["A", "He does! I hadn’t even thought of him. Would he lend it to us?"],
+       ["B", "Lend, maybe not. But I bet he’d rent it to us for a lot less than a hundred and ten a day."]
+      ],
+      "qs": [
+       {"q": "Why does Bettina consider the rental company unsuitable?", "o": ["It does not have any cargo vans available until spring.", "Its vans are too small to carry nine orders.", "Its opening hours would make the cost add up quickly.", "It is too far away from the bakery."], "a": 2, "t": "inference", "ev": "That’s a full day’s rental every day, about a hundred and ten dollars.", "x": "Because the shop opens at eight, they would pay for a full day every day, over $1,500 in two weeks. The rental company does have cargo vans; their missing racks is Rohan’s extra point."},
+       {"q": "According to Rohan, why can’t the Larkspur order be baked earlier?", "o": ["The dough cannot be hurried without affecting quality.", "Marguerite is not able to start work any earlier than three.", "The ovens are already being used at four.", "Larkspur wants the croissants delivered warm."], "a": 0, "t": "paraphrase", "ev": "if we rush it, they come out flat", "x": "The dough needs time to proof, and rushing it ruins the croissants. Marguerite already starts at three, and Rohan says the baking itself “isn’t really” the problem."},
+       {"q": "What does Rohan suggest about Desmond?", "o": ["He would probably be willing to lend his van for free.", "He would likely charge less than the rental company.", "He could deliver the order to the cafés himself.", "He needs the van for his winter catering."], "a": 1, "t": "inference", "ev": "I bet he’d rent it to us for a lot less than a hundred and ten a day.", "x": "Rohan doubts Desmond would lend it but expects he would rent it cheaply. Desmond’s catering business is closed for the winter, so he does not need the van."}
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Okay, I just talked to Desmond. He says we can use the van until ours is fixed, for sixty dollars a day, and he’ll throw in the racks."],
+       ["B", "Sixty? That’s barely half what the rental place wanted. And it’s refrigerated, which our own van isn’t."],
+       ["A", "There is one condition, though. His insurance won’t cover anyone under twenty-five, so Jasper can’t drive it. It has to be you or me."],
+       ["B", "That’s fine. I’m doing the runs anyway, and Jasper can stay here and help Marguerite pack the trays. I’ll pick it up tonight."],
+       ["A", "Great. And with everything in one vehicle, you can leave at five and do the downtown cafés first. They’re the ones that open at six thirty. The suburban ones don’t open until seven."],
+       ["B", "That should work. Downtown first, then out to the suburbs. I’ll have the last drop done by six fifty."],
+       ["A", "Then I’ll call Tessa now. I won’t promise anything we can’t deliver, but I’ll tell her we’ve got a proper vehicle and a new route, and that I’ll text her every morning when the last drop is done, for the next two weeks."],
+       ["B", "She’ll like that. And maybe ask whether the two late deliveries could be wiped off this month’s count, given that we’ve fixed the problem."],
+       ["A", "I’ll ask, but I’m not counting on it. Tessa’s fair, but she follows the contract to the letter."]
+      ],
+      "qs": [
+       {"q": "What restriction comes with Desmond’s van?", "o": ["It must be returned to Desmond every evening.", "It cannot be used to deliver refrigerated goods.", "It must be picked up early each morning.", "Only certain staff members are allowed to drive it."], "a": 3, "t": "detail", "ev": "His insurance won’t cover anyone under twenty-five, so Jasper can’t drive it.", "x": "Because of insurance, only staff aged twenty-five or older – Bettina or Rohan – may drive. The van is actually refrigerated, and they can use it until their own van is fixed."},
+       {"q": "How does Bettina feel about Rohan’s idea of asking Tessa about the late deliveries?", "o": ["She thinks it would damage their relationship.", "She is confident Tessa will agree.", "She will try but expects to be refused.", "She would rather Rohan made the request."], "a": 2, "t": "attitude", "ev": "I’ll ask, but I’m not counting on it.", "x": "She agrees to ask but does not expect success, because Tessa follows the contract strictly. She calls Tessa fair, so she does not fear damaging the relationship."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "An employee is meeting with her manager to discuss her annual performance review.",
+    "sp": {
+     "A": {"name": "Curtis", "g": "m", "acc": "en-US", "rate": 1.0},
+     "B": {"name": "Ingrid", "g": "f", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Thanks for coming in, Ingrid. I know you had some concerns after reading your review. Go ahead."],
+       ["B", "Thanks, Curtis. First, I want to say most of it was fair, and I appreciated the comments about the vendor training I organized. But I was surprised by the rating for reliability. “Needs improvement”? I’ve never missed a day."],
+       ["A", "It’s not about attendance. It’s about the payment deadlines in the spring. There were, I think, eleven invoices that went out late in April and May, and two suppliers charged us late fees."],
+       ["B", "I understand that, but April and May were when we switched to the new accounting system. For six weeks, half the invoices weren’t even showing up in my queue. I reported it to IT four times. I have the emails."],
+       ["A", "You reported it?"],
+       ["B", "Every time. And in the meantime, I was entering invoices manually after hours so things wouldn’t get worse."],
+       ["A", "I honestly didn’t know that. Nobody passed those tickets on to me. Can you forward me the emails?"],
+       ["B", "Of course. I’ll send them this afternoon."],
+       ["A", "Then I think it’s fair to change reliability to “meets expectations.” What I can’t do is change your overall rating. The overall scores were finalized with HR last Friday, and the raises have already been calculated."],
+       ["B", "So I stay at “meets” overall. That’s the two and a half percent, not the four."],
+       ["A", "That’s right, unfortunately. Here’s what I can offer. I’ll add a written note to your file explaining the system problems and the extra hours you put in. And instead of waiting a year, we’ll do a formal review in six months. If things continue the way they have since June, I’ll recommend an adjustment then."],
+       ["B", "I suppose that’s better than nothing. I just don’t want the same thing to happen next year with the next system upgrade."],
+       ["A", "Fair point. If anything like that comes up again, come straight to me, not just to IT. I’d rather hear about a problem twice than not at all."],
+       ["B", "Okay. I can do that."]
+      ],
+      "qs": [
+       {"q": "What part of the review surprised Ingrid?", "o": ["A low score in an area she felt she had done well", "Criticism of the vendor training she organized", "A comment about the number of days she missed", "Her manager’s decision to involve HR in the review"], "a": 0, "t": "detail", "ev": "But I was surprised by the rating for reliability.", "x": "She was surprised to receive “needs improvement” for reliability. The vendor training received positive comments, and Curtis explains the score was not about attendance."},
+       {"q": "According to Ingrid, what caused the late payments?", "o": ["She was taking time off during the spring.", "Suppliers sent their invoices after the deadline.", "A technical change kept work from reaching her.", "IT staff were entering invoices incorrectly."], "a": 2, "t": "paraphrase", "ev": "For six weeks, half the invoices weren’t even showing up in my queue.", "x": "The switch to a new accounting system stopped invoices from appearing in her queue. Ingrid, not IT, was entering invoices manually, and she never missed a day."},
+       {"q": "What does Curtis’s reaction suggest when Ingrid says she reported the problem?", "o": ["He doubts that she really contacted IT.", "He is annoyed that she went to IT before HR.", "He still thinks the delays were entirely her responsibility.", "He was unaware of facts that change his view."], "a": 3, "t": "inference", "ev": "I honestly didn’t know that.", "x": "He had not been told about her reports, and after hearing them he raises her reliability score. He asks for the emails to document them, not because he doubts her."},
+       {"q": "Why can’t Curtis change Ingrid’s overall rating?", "o": ["HR disagreed with his assessment.", "The final scores have already been confirmed.", "Her reliability score is still too low.", "The budget for this year’s raises has already been used up."], "a": 1, "t": "paraphrase", "ev": "The overall scores were finalized with HR last Friday", "x": "Overall ratings were finalized last Friday, so they are fixed. The raises were calculated, but he does not say the budget was spent, and HR did not disagree with him."},
+       {"q": "How does Ingrid feel about Curtis’s offer?", "o": ["She accepts it, though she is not fully satisfied.", "She is pleased because her raise will increase.", "She rejects it and plans to contact HR.", "She is relieved that the next upgrade is cancelled."], "a": 0, "t": "attitude", "ev": "I suppose that’s better than nothing.", "x": "“Better than nothing” shows reluctant acceptance. Her raise stays at 2.5% for now, and she is worried about the next upgrade, not relieved."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A new employee at a food processing plant is talking to his union steward during a break.",
+    "sp": {
+     "A": {"name": "Rosalind", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Tomasz", "g": "m", "acc": "en-AU", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Hi, are you Rosalind? My supervisor said you’re the union steward for this line."],
+       ["A", "That’s me. You must be Tomasz. Welcome to Local 412. Have you got ten minutes? I like to go over the basics with new people before they get buried in paperwork."],
+       ["B", "Sure, I’m on break until two."],
+       ["A", "Great. First, dues. They’re one point four percent of your gross pay, taken off every paycheque automatically. Normally there’s also a fifty-dollar initiation fee, but the local voted to waive it for anyone hired this year, so you’re off the hook."],
+       ["B", "Oh, good. And what does the union actually do for me while I’m on probation? Someone told me it doesn’t count until I’m permanent."],
+       ["A", "That’s partly true. Your probation is ninety working days, not ninety calendar days, so it’s closer to four and a half months. During that time, the company can let you go without having to show just cause, and we can’t file a grievance about that, unless it involves discrimination or a safety complaint. But everything else in the contract applies to you from day one: your wage rate, overtime, breaks, all of it."],
+       ["B", "What about seniority? I’d really like to get off nights eventually."],
+       ["A", "Your seniority starts counting from your first day, but you can’t use it until probation is over. Shift bids happen every four months. The next one is in January, and you’ll just miss it, so realistically you’re looking at May."],
+       ["B", "May. Okay. And if I have a problem with a supervisor, what do I do?"],
+       ["A", "Raise it with the supervisor first, ideally within ten working days of whatever happened. You can bring me to that conversation. If that doesn’t fix it, I’ll help you file a formal grievance. Just don’t sit on it, because once the time limit passes, it gets much harder."],
+       ["B", "Got it. I also heard something about a strike?"],
+       ["A", "Ha, word travels fast. Our contract expires March thirty-first. Nobody wants a strike, but if talks break down, there’ll be a strike vote, and every member gets a vote, including people on probation. If there were a strike, the union pays three hundred dollars a week from the strike fund, but only to members who do at least twenty hours of picket duty."],
+       ["B", "Fair enough. Is there anything else I should be doing?"],
+       ["A", "Come to a general meeting if you can. They’re the second Thursday of every month at the Legion hall, seven o’clock. That’s where the bargaining updates happen, and honestly, the more new faces we see, the stronger our position is at the table."]
+      ],
+      "qs": [
+       {"q": "What does Tomasz have to pay as a union member?", "o": ["Fifty dollars plus a share of his pay", "A fixed monthly fee after probation", "Nothing until his probation ends", "Only a percentage of his earnings"], "a": 3, "t": "detail", "ev": "the local voted to waive it for anyone hired this year", "x": "He pays dues of 1.4% of gross pay, but the $50 initiation fee is waived for this year’s hires. Dues start with every paycheque, not after probation."},
+       {"q": "What is true about Tomasz’s probation?", "o": ["It lasts exactly ninety calendar days.", "During it, most contract terms already protect him.", "During it, he cannot be dismissed without the company showing cause.", "It ends before the January shift bid."], "a": 1, "t": "inference", "ev": "But everything else in the contract applies to you from day one", "x": "Wages, overtime and breaks apply from day one. During probation he can actually be let go without just cause, and it is ninety working days, not calendar days."},
+       {"q": "When will Tomasz realistically be able to change shifts?", "o": ["In the bid four months after January", "In the January shift bid", "As soon as his seniority starts counting", "Once he files a request with his supervisor"], "a": 0, "t": "detail", "ev": "so realistically you’re looking at May", "x": "Bids happen every four months; he will miss January because he will still be on probation, so the next bid is in May. Seniority counts from day one but cannot be used until after probation."},
+       {"q": "Why does Rosalind advise Tomasz not to delay raising problems?", "o": ["Supervisors are replaced every four months.", "The steward is only available on certain days.", "Missing a deadline weakens his chances.", "Grievances can only be filed during probation."], "a": 2, "t": "inference", "ev": "once the time limit passes, it gets much harder", "x": "Problems should be raised within ten working days; after that, a complaint becomes harder to pursue. “Every four months” refers to shift bids, not supervisors."},
+       {"q": "What is required to receive strike pay?", "o": ["Having passed probation", "Spending time on the picket line", "Voting in favour of the strike", "Having paid union dues for at least a year"], "a": 1, "t": "paraphrase", "ev": "only to members who do at least twenty hours of picket duty", "x": "Strike pay goes only to members who do twenty hours of picket duty. Probation is not a condition, and even members on probation may vote."},
+       {"q": "Why does Rosalind encourage Tomasz to attend meetings?", "o": ["New members must attend at least one before they can vote.", "Meetings are where shift bids are decided.", "Attendance is required for the strike fund.", "High turnout strengthens the union in negotiations."], "a": 3, "t": "inference", "ev": "the more new faces we see, the stronger our position is at the table", "x": "Higher attendance strengthens the union’s bargaining position. Every member may vote, including those on probation, so attendance is not a condition for voting."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report about a new program at a college.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "m", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Lorna Fitzgibbon", "g": "f", "acc": "en-GB", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "People who have stepped away from paid work to raise children or care for an aging relative often find that getting back in is harder than leaving. Starting in January, Northshore Community College will try to make that return easier with what it calls a “returnship,” a sixteen-week paid placement for adults who have been out of the workforce for at least two years."],
+       ["A", "Unlike a traditional internship, the program is aimed at experienced people rather than students. Participants will spend four days a week with one of fourteen partner employers, ranging from an engineering firm to the regional health authority, and one day a week at the college updating their skills in areas such as current software and workplace technology. They will be paid twenty-four dollars an hour, with the cost shared between the employer and a provincial training grant."],
+       ["A", "Program coordinator Lorna Fitzgibbon says the biggest obstacle for returning workers is not a lack of skills."],
+       ["B", "What we hear again and again is that people’s confidence takes the biggest hit. They’ll say, “I used to run a department, but I don’t know if I could manage now.” Then they come in, and within a week, the instincts are all back. What they need is someone willing to take that first chance on them. A résumé with a ten-year gap gets screened out by software before a human being ever reads it."],
+       ["A", "Employers say they see benefits too. A spokesperson for one of the partner firms said returnships give them access to experienced candidates without the usual recruitment costs, though the firm stressed there is no guarantee of a permanent position at the end."],
+       ["A", "In similar programs elsewhere in the country, about two thirds of participants were offered ongoing jobs. Fitzgibbon says the first group will be limited to forty people, and applications, which open on November first, have already drawn strong interest. Information sessions will be held online and at the college’s downtown campus."]
+      ],
+      "qs": [
+       {"q": "Who is the program designed for?", "o": ["Students who need work experience before graduating", "Employees who want to change careers within two years", "Adults returning after an extended break from work", "Caregivers who need part-time work from home"], "a": 2, "t": "paraphrase", "ev": "for adults who have been out of the workforce for at least two years", "x": "It targets adults who have been out of paid work for two years or more. The report contrasts it with traditional internships for students, and “two years” is the minimum time away, not a career-change deadline."},
+       {"q": "How will participants spend their time?", "o": ["Mostly at a workplace, with weekly classes", "Mostly in class, with one day at a workplace", "Entirely online, updating their software skills", "Moving between all fourteen partner employers"], "a": 0, "t": "detail", "ev": "Participants will spend four days a week with one of fourteen partner employers", "x": "Four days are spent with one employer and one day at the college. Each participant works with one of the fourteen employers, not all of them."},
+       {"q": "According to Fitzgibbon, what is the main challenge for returning workers?", "o": ["Their technical knowledge is out of date.", "Employers are unwilling to pay them fairly.", "They cannot find suitable childcare.", "They doubt their own abilities."], "a": 3, "t": "paraphrase", "ev": "people’s confidence takes the biggest hit", "x": "She says loss of confidence is the biggest problem, and that skills come back within a week. The report states that a lack of skills is “not” the main obstacle."},
+       {"q": "What does Fitzgibbon say about gaps in résumés?", "o": ["Applicants should always explain them in a cover letter.", "Automated systems often reject such applications.", "Hiring managers rarely notice them.", "They matter less for experienced people."], "a": 1, "t": "paraphrase", "ev": "gets screened out by software before a human being ever reads it", "x": "Software filters out résumés with long gaps before a person sees them. That means human managers never get the chance to notice them, not that they ignore them."},
+       {"q": "What does the partner firm’s spokesperson suggest?", "o": ["The firm will hire every participant at the end.", "The program will cost the firm more than usual hiring.", "Participants should not assume they will be kept on.", "Two thirds of participants will be offered jobs."], "a": 2, "t": "inference", "ev": "there is no guarantee of a permanent position at the end", "x": "The firm stresses that a permanent job is not guaranteed. The two-thirds figure comes from similar programs elsewhere, and the firm expects lower, not higher, recruitment costs."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three managers at a customer service call centre are discussing a proposal from senior executives.",
+    "sp": {
+     "A": {"name": "Yolanda", "g": "f", "acc": "en-CA", "rate": 1.0},
+     "B": {"name": "Pieter", "g": "m", "acc": "en-GB", "rate": 1.02},
+     "C": {"name": "Sunita", "g": "f", "acc": "en-IN", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Thanks for joining. I’ll get straight to it. The executive team wants everyone back in the office three fixed days a week starting in February, and they’ve asked me for our recommendation by Friday. I’ll be honest, I’m leaning toward supporting it. Our quality scores have dropped since we went fully remote, and I think people learn a lot just by hearing how colleagues handle difficult calls."],
+       ["B", "Leaning toward it? Yolanda, my team’s numbers are as good as they’ve ever been. Call times, customer satisfaction, all steady. And half my agents moved out of the city during the pandemic. Some of them are an hour and a half away now. If we force three days, I’d bet we lose a third of them by summer."],
+       ["A", "A third seems high."],
+       ["B", "Maybe. But even a few experienced agents walking out the door costs more than whatever we gain."],
+       ["C", "Can I bring some data into this? I pulled the quality scores by tenure last week. For agents who’ve been here more than six months, there’s no real difference between remote and in-office. The drop is almost entirely among new hires. People in their first six months are scoring about fifteen percent lower than new hires did before we went remote."],
+       ["A", "So the overall average is being dragged down by the newer people."],
+       ["C", "Exactly. Which suggests the problem isn’t remote work in general. It’s learning the job remotely."],
+       ["B", "That I can believe. When I started, I learned more from the person in the next cubicle than from the whole training manual."],
+       ["A", "So what are you proposing, Sunita?"],
+       ["C", "New hires come in four days a week for their first three months. After that, they move to the same arrangement as everyone else. And for everyone, one anchor day a month, when whole teams are in together for training sessions, team meetings, that kind of thing."],
+       ["A", "One day a month. The executives are going to say that’s barely anything."],
+       ["C", "Possibly. But I’d rather defend a policy that targets the actual problem than one that annoys two hundred people to fix something affecting thirty."],
+       ["B", "I can live with the new-hire piece, but on one condition. If new people are in the office, they need experienced agents there to learn from. Otherwise they’re just sitting in a room together wearing headsets. Can we ask for volunteers to be floor mentors on those days?"],
+       ["C", "Volunteers would work if there’s something in it for them."],
+       ["A", "We could cover their parking on the days they come in. That’s about twelve dollars a day downtown."],
+       ["B", "That would get people interested. Some would probably do it just to get out of the house, frankly."],
+       ["A", "All right. I’m not entirely sure the executives will accept it, but the data makes a stronger case than my gut feeling did. I’ll present it as new hires four days a week for three months, one anchor day a month for everyone, and paid parking for volunteer mentors. Sunita, can you put the tenure numbers into two slides for me?"],
+       ["C", "I’ll have them to you tomorrow morning."]
+      ],
+      "qs": [
+       {"q": "What is Yolanda’s initial position?", "o": ["She opposes the executives’ plan because of commuting costs.", "She is inclined to agree with the executives’ plan.", "She wants to wait for more data before deciding.", "She believes only managers should return to the office."], "a": 1, "t": "attitude", "ev": "I’ll be honest, I’m leaning toward supporting it.", "x": "“Leaning toward supporting it” means she is inclined to agree. The data comes later from Sunita; Yolanda did not ask to wait for it."},
+       {"q": "Why does Pieter object to three fixed office days?", "o": ["His team’s performance has fallen since going remote.", "The office does not have enough space for his team.", "His agents would lose their flexible hours.", "He expects many experienced staff would quit."], "a": 3, "t": "inference", "ev": "If we force three days, I’d bet we lose a third of them by summer.", "x": "Many of his agents now live far away, and he predicts a third would leave. He says his team’s numbers are steady, so performance has not fallen."},
+       {"q": "How does Yolanda react to Pieter’s estimate?", "o": ["She thinks he is exaggerating.", "She agrees it is realistic.", "She asks him to check the figure.", "She says the loss would be acceptable."], "a": 0, "t": "attitude", "ev": "A third seems high.", "x": "“A third seems high” politely suggests he is overstating the risk. She does not accept the figure or ask him to verify it."},
+       {"q": "What did Sunita’s analysis reveal?", "o": ["Experienced agents score higher when working in the office.", "Quality has fallen equally across all groups of agents.", "The decline is concentrated among recently hired staff.", "New hires before the pandemic scored fifteen percent lower."], "a": 2, "t": "paraphrase", "ev": "The drop is almost entirely among new hires.", "x": "The decline comes almost entirely from people in their first six months. For experienced agents there is no real difference, and it is current new hires who score 15% lower than earlier ones."},
+       {"q": "What does Pieter’s comment about the next cubicle suggest?", "o": ["He agrees that new staff learn best near colleagues.", "He thinks training manuals should be rewritten.", "He believes cubicles should be removed from the office.", "He doubts that Sunita’s figures are accurate."], "a": 0, "t": "inference", "ev": "When I started, I learned more from the person in the next cubicle than from the whole training manual.", "x": "He says “That I can believe” and recalls learning from a neighbour, supporting the idea that new hires learn by being near colleagues. The manual is mentioned only for comparison."},
+       {"q": "Why does Sunita defend her proposal despite the executives’ likely reaction?", "o": ["It would cost less than the executives’ plan.", "It has already been tested in another department.", "It would let the company reduce the amount of office space it rents.", "It addresses the real cause without upsetting most staff."], "a": 3, "t": "inference", "ev": "I’d rather defend a policy that targets the actual problem than one that annoys two hundred people to fix something affecting thirty.", "x": "Her plan targets the thirty new hires instead of inconveniencing two hundred people. Cost and office space are never part of her argument."},
+       {"q": "What condition does Pieter add?", "o": ["New hires must be in the office four days a week for six months.", "Experienced agents should be present to guide new staff.", "Mentors should receive a higher hourly wage.", "Anchor days should be held once a week."], "a": 1, "t": "detail", "ev": "they need experienced agents there to learn from", "x": "He wants experienced agents in the office as floor mentors. The four-day rule is Sunita’s and lasts three months, and mentors receive paid parking, not higher wages."},
+       {"q": "How does Yolanda feel about the final plan?", "o": ["She is certain the executives will approve it.", "She agreed only to avoid further argument.", "She is persuaded by the evidence despite some doubt.", "She would still prefer the original three-day proposal."], "a": 2, "t": "attitude", "ev": "I’m not entirely sure the executives will accept it, but the data makes a stronger case than my gut feeling did.", "x": "She admits uncertainty about the executives but says the data is stronger than her instinct, so she has been persuaded. She is “not entirely sure” it will be approved, so she is not certain."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about unpaid internships.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "m", "acc": "en-AU", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Every spring, thousands of Canadian students compete for internships that promise experience, contacts and a line on a résumé that might open doors. A significant number of those positions pay nothing at all. Now a coalition of student groups is calling on the province to ban unpaid internships outside formal academic programs, and the debate has exposed some uncomfortable trade-offs."],
+       ["A", "The case against unpaid internships is mostly about who can afford to take them. Kezia Mbatha, who chairs the provincial students’ alliance, points out that an unpaid summer in a large city can cost a student well over ten thousand dollars in rent and living expenses. Students whose parents can cover those costs gain experience that helps them land their first paid job; students who need to work in a warehouse or a restaurant all summer fall behind before their careers have even started. In Mbatha’s words, unpaid internships do not reward talent; they reward family income."],
+       ["A", "Not everyone sees it that simply. Thomas Brennan runs a small environmental non-profit with four staff members. He says his organization takes two unpaid interns every summer, and that both usually leave with real responsibilities on their résumés, such as writing grant applications and managing volunteers. If he were required to pay them, he says, he would not be able to offer the positions at all, because his budget is already stretched. His concern is that a ban would mostly eliminate opportunities at small charities and arts groups, while large corporations, which can easily afford to pay, would carry on as before."],
+       ["A", "Employment lawyer Danielle Fortier adds a point that is often overlooked: in most provinces, many unpaid internships are already illegal. Under employment standards law, a person who performs work that benefits an organization is generally entitled to minimum wage, unless the placement is part of a recognized school program. The problem, she says, is not the law but enforcement. Interns rarely complain, because the whole point of the internship is to get a good reference. Fortier believes stronger enforcement, including random inspections, would do more than a new law."],
+       ["A", "Some see a middle ground. A handful of foundations now offer stipends that small non-profits can use to pay interns, and Brennan says he would welcome a government wage subsidy for organizations below a certain size. Mbatha is cautiously open to the idea, though she warns that subsidies can become an excuse to keep wages low."],
+       ["A", "The province has said only that it is reviewing the coalition’s proposal. In the meantime, for many students, the choice remains the same as ever: work for free and hope it pays off later, or take the paying job and hope it does not hold them back."]
+      ],
+      "qs": [
+       {"q": "What is Mbatha’s main argument?", "o": ["Unpaid internships favour students from wealthier families.", "Internships in large cities are not worth the cost.", "Students should take paid summer jobs before looking for internships.", "Universities should cover the cost of internships."], "a": 0, "t": "viewpoint", "ev": "unpaid internships do not reward talent; they reward family income", "x": "She argues that only students whose parents can pay their expenses can afford unpaid work. The cost of living in a large city supports this point; she does not say internships are not worth it."},
+       {"q": "Why does Brennan worry about a ban?", "o": ["His interns would demand full-time positions.", "Large companies would stop offering internships.", "Small organizations would simply stop taking interns.", "Interns would no longer be allowed to write grant applications."], "a": 2, "t": "inference", "ev": "he would not be able to offer the positions at all", "x": "He could not afford to pay, so small charities would drop internships, while large corporations “would carry on as before” – the opposite of stopping."},
+       {"q": "According to Fortier, what is the real problem?", "o": ["The current law protects employers too much.", "Existing rules are not being properly applied.", "Schools do not recognize enough internships.", "Interns do not know their rights under the law."], "a": 1, "t": "paraphrase", "ev": "The problem, she says, is not the law but enforcement.", "x": "Many unpaid internships are already illegal, but the law is not enforced. She says the law itself is not the problem, so it does not protect employers too much."},
+       {"q": "Why do interns rarely complain, according to Fortier?", "o": ["They are unaware that the work is illegal.", "They are usually paid in cash instead.", "Their schools discourage them from doing so.", "They do not want to risk losing a reference."], "a": 3, "t": "inference", "ev": "Interns rarely complain, because the whole point of the internship is to get a good reference.", "x": "Complaining could cost them the reference that is the main reason for interning. Lack of awareness is never given as a reason."},
+       {"q": "How does Mbatha view the idea of wage subsidies?", "o": ["She is receptive but sees a possible risk.", "She rejects it as a waste of public money.", "She believes it should replace a ban entirely.", "She thinks only foundations should provide them."], "a": 0, "t": "attitude", "ev": "Mbatha is cautiously open to the idea, though she warns that subsidies can become an excuse to keep wages low.", "x": "She is “cautiously open” but warns subsidies could keep wages low. Foundation stipends are mentioned separately, not as her preference."},
+       {"q": "What does the reporter suggest in the conclusion?", "o": ["The province is very likely to ban unpaid internships within a year.", "Students still face a difficult choice with uncertain outcomes.", "Paid jobs are usually better for students’ careers.", "Most students now refuse to take unpaid positions."], "a": 1, "t": "inference", "ev": "work for free and hope it pays off later, or take the paying job and hope it does not hold them back", "x": "Both options depend on “hope”, so students face an uncertain choice. The province has said only that it is reviewing the proposal, so no ban is predicted."}
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Bernadette Szabo  |  To: Kira Szabo  |  Subject: The store – something to think about",
+   "text": "Dear Kira,\n\nI hope your exams went well and that you’ve had a chance to sleep since then. Your mother tells me you finished your last paper at three in the morning, which sounds exactly like something I would have done at your age.\n\nI’m writing about something I’ve been thinking over for most of the year, and I wanted to put it in writing so you could take your time with it rather than answer on the spot. As you know, I turn sixty-six in March, and after thirty-one years behind the counter at Szabo Hardware, my knees are telling me it’s time to slow down. I’d like to step back gradually over the next two years, and I’m hoping you might consider taking over the store.\n\nBefore you say anything, let me be clear about a few things. First, I am not asking out of obligation, and you shouldn’t accept out of one. If the answer is no, I will sell the business, and I’ll be perfectly fine. Second, I know you’re finishing a business degree and probably have bigger plans than a hardware store in a town of nine thousand people. But this isn’t the shop you remember from when you used to sort screws for pocket money. We now do about a third of our sales online, mostly specialty tools that the big chains don’t carry, and that side of the business has room to grow – the side I have neither the energy nor, frankly, the skills to develop.\n\nHere’s what I’m proposing. You would start as assistant manager next summer on a proper salary. For the first year, I’d still handle the suppliers and the books, and you’d take over the website and the staff schedule. If, after a year, we both still think it’s working, we’d talk to a lawyer about you buying the business in instalments from its profits, so you wouldn’t need to find a large sum of money up front.\n\nI won’t pretend it’s an easy life. Saturdays in spring are chaos, and there are months when I lie awake worrying about cash flow. But I’ve never once been bored.\n\nTake the summer to think about it. Talk to your parents, talk to anyone you trust, and then let’s have lunch in August.\n\nWith love,\nAunt Bernie",
+   "qs": [
+    {"q": "Why did Bernadette write to Kira instead of asking her in person?", "o": ["She will be away until August.", "She wanted Kira’s parents to read it too.", "She wanted Kira to have time to reflect.", "She finds it difficult to discuss business face to face."], "a": 2, "t": "purpose", "ev": "so you could take your time with it rather than answer on the spot", "x": "Writing lets Kira consider the offer without having to respond immediately. August is when they will meet for lunch, not a time when Bernadette is away."},
+    {"q": "What does Bernadette say will happen if Kira declines?", "o": ["She will keep running the store for another ten years.", "She will find a buyer for the business.", "She will close the online side of the store.", "She will ask Kira’s mother to take over."], "a": 1, "t": "paraphrase", "ev": "If the answer is no, I will sell the business", "x": "If Kira says no, the business will be sold. Bernadette wants to step back over two years, not keep running it for ten."},
+    {"q": "Why does Bernadette mention the online sales?", "o": ["To show that the big chains have taken most of her customers", "To explain why the store needs a new website soon", "To prove that the business is more profitable than before", "To suggest Kira could develop an area she herself cannot"], "a": 3, "t": "inference", "ev": "the side I have neither the energy nor, frankly, the skills to develop", "x": "The online side can grow, but Bernadette lacks the energy and skills, implying Kira could build it. The big chains are mentioned because they do not carry these tools, not as a threat."},
+    {"q": "What would Kira be responsible for in her first year?", "o": ["Managing the store’s online presence and staff hours", "Negotiating with suppliers and keeping all the accounts up to date", "Sorting stock and serving customers on Saturdays", "Meeting a lawyer to arrange the purchase"], "a": 0, "t": "paraphrase", "ev": "you’d take over the website and the staff schedule", "x": "Kira would handle the website and the staff schedule. Bernadette keeps the suppliers and the books, and the lawyer comes only after the first year."},
+    {"q": "How would Kira pay for the business?", "o": ["With a bank loan arranged by a lawyer", "With savings from her assistant manager salary", "Gradually, using money the store earns", "In one payment after her first year"], "a": 2, "t": "paraphrase", "ev": "buying the business in instalments from its profits", "x": "She would pay in instalments out of the store’s profits, so no large sum is needed up front. The lawyer would draw up the arrangement, not arrange a loan."},
+    {"q": "What is Bernadette’s attitude toward running the store?", "o": ["She regrets the stress it has caused her.", "She finds it demanding but never dull.", "She thinks it is too risky for a young person.", "She believes it has become easier over time."], "a": 1, "t": "attitude", "ev": "But I’ve never once been bored.", "x": "She admits it is hard – chaotic Saturdays and sleepless nights – but says she has never been bored. She describes the stress honestly without expressing regret."}
+   ],
+   "reply": {
+    "intro": "Here is Kira’s response to her aunt. Complete the response by choosing the best option for each blank.",
+    "text": "Dear Aunt Bernie,\n\nThank you for your letter, and for {1} instead of expecting an answer right away. I’ve read it about five times.\n\nI’ll be honest: my first reaction was to say no, mostly because I’d always pictured myself working in a city. But the more I thought about the {2}, the more interesting it sounded. I’ve just finished a course project on small retailers competing with large chains, and I already have a few ideas.\n\nI also really like the idea of {3} before we make anything official. A year of working side by side would show both of us whether this is right.\n\nI do have one question. You said you would keep handling the suppliers and the books, but I’d like to {4} too, at least a little, so I’m not lost when you step back.\n\nI’ll talk to Mom and Dad over the summer, and I’d love {5} in August.\n\nLove,\nKira",
+    "blanks": [
+     {"o": ["sending it so early", "asking my parents first", "offering a salary", "giving me time to think"], "a": 3, "t": "paraphrase", "ev": "so you could take your time with it rather than answer on the spot", "x": "Bernadette wrote so Kira could take her time, which matches “instead of expecting an answer right away”. She did not ask Kira’s parents first."},
+     {"o": ["busy spring Saturdays", "online specialty sales", "store’s small-town customers", "supplier contracts"], "a": 1, "t": "coherence", "ev": "We now do about a third of our sales online", "x": "Kira’s project on competing with large chains connects to the online specialty tools the chains do not carry. Spring Saturdays were described as chaos, not as interesting."},
+     {"o": ["a trial period", "selling in instalments", "hiring a lawyer", "a higher salary"], "a": 0, "t": "inference", "ev": "If, after a year, we both still think it’s working", "x": "The first year works as a trial before anything becomes official. Instalments and the lawyer come after that year, so they cannot happen “before”."},
+     {"o": ["update the website", "manage the schedule", "learn the financial side", "visit the large chain stores"], "a": 2, "t": "inference", "ev": "For the first year, I’d still handle the suppliers and the books", "x": "Since Bernadette keeps the books, Kira wants to learn finances too. The website and schedule are already Kira’s jobs, so “too” would make no sense."},
+     {"o": ["to visit the store", "to sell my car", "to start in March", "to meet for lunch"], "a": 3, "t": "detail", "ev": "let’s have lunch in August", "x": "Bernadette suggested lunch in August. March is her birthday, and Kira would start next summer, not in March."}
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Cedar Point Inn – Housekeeping Pay & Scheduling Guide",
+    "intro": "Base wages: Room Attendant $19.50/hour; Senior Room Attendant $21.00/hour. Pay weeks run Sunday to Saturday, and pay is deposited the following Friday.",
+    "table": {
+     "cols": ["Situation", "Pay rule", "Notes"],
+     "rows": [
+      ["Regular hours (up to 40 per week)", "Base wage", "Two paid 15-minute breaks per 8-hour shift"],
+      ["Hours over 40 in one week", "1.5 × base wage", "Must be approved in advance by the supervisor"],
+      ["Evening shift (starts at 3:00 p.m. or later)", "Base wage + $1.25/hour premium", "Premium also applies to overtime hours"],
+      ["Statutory holiday – worked", "1.5 × base wage for all hours worked + holiday pay", "Holiday pay = average daily earnings"],
+      ["Statutory holiday – not worked", "Holiday pay only", "Must work scheduled shifts before and after the holiday"],
+      ["Call-in (asked to come in on a day off)", "Minimum 4 hours’ pay", "Applies even if sent home early"]
+     ]
+    },
+    "cards": [
+     {"h": "Shift swaps", "lines": ["Submit the swap form at least 72 hours before the earlier of the two shifts.", "Both employees must have the same job title, or the swap must be approved by the Executive Housekeeper.", "A swap may not put either employee over 40 hours unless the overtime is approved."]}
+    ],
+    "notes": [
+     "Hours worked on a statutory holiday do not count toward the 40-hour overtime threshold.",
+     "Room quota: 14 rooms per 8-hour shift. Each checkout room counts as 1.5 rooms.",
+     "Uniform cleaning allowance: $8 per week, paid only in weeks with three or more shifts."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email from a room attendant to a co-worker. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Precious,\n\nThanks so much for agreeing to take my Saturday shift so I can go to my nephew’s graduation. I checked the guide, and since you’re a Senior Room Attendant and I’m not, we’ll need {1} before it’s official. I’ll also make sure the form is in by Wednesday morning, because the shift starts at 7:00 a.m. on Saturday and swaps need {2}.\n\nOne thing I noticed: you’re already scheduled for 36 hours this week, so working my 8-hour shift would put you over 40. That means {3}. If it’s approved, the extra four hours would be paid at {4} an hour, which isn’t bad!\n\nIn return, I’ll take your evening shift next Thursday from 3:00 to 11:00. With the premium, I’ll earn {5} for that shift, so we both come out ahead.\n\nThanks again,\nMaribel",
+    "blanks": [
+     {"o": ["approval from the front desk manager", "the Executive Housekeeper’s OK", "a second swap form", "a 72-hour extension"], "a": 1, "t": "diagram", "ev": "or the swap must be approved by the Executive Housekeeper", "x": "Their job titles differ, so the Executive Housekeeper must approve the swap. The front desk manager is not mentioned in the guide."},
+     {"o": ["at least 24 hours’ notice", "to be signed by both supervisors", "a call-in minimum", "at least three days’ notice"], "a": 3, "t": "diagram", "ev": "Submit the swap form at least 72 hours before the earlier of the two shifts.", "x": "72 hours is three days, and Wednesday 7:00 a.m. is exactly 72 hours before Saturday 7:00 a.m. The call-in minimum applies to being called in on a day off."},
+     {"o": ["you’ll get the evening premium", "the swap will be cancelled automatically by payroll", "a supervisor has to approve it in advance", "you’ll receive holiday pay"], "a": 2, "t": "diagram", "ev": "Must be approved in advance by the supervisor", "x": "Hours over 40 are overtime and must be approved in advance. The swap is not automatically cancelled; it simply needs approval."},
+     {"o": ["$31.50", "$29.25", "$22.25", "$21.00"], "a": 0, "t": "diagram", "ev": "1.5 × base wage", "x": "Precious is a Senior Room Attendant: 1.5 × $21.00 = $31.50. $29.25 uses the Room Attendant rate, and $22.25 adds an evening premium that does not apply to a 7 a.m. shift."},
+     {"o": ["$156.00", "$166.00", "$168.00", "$178.00"], "a": 1, "t": "diagram", "ev": "Base wage + $1.25/hour premium", "x": "Maribel earns $19.50 + $1.25 = $20.75 an hour × 8 = $166.00. $156 leaves out the premium, and $178 uses the senior rate."}
+    ]
+   },
+   "qs": [
+    {"q": "A Room Attendant works an 8-hour shift on a statutory holiday. Her average daily earnings are $156. How much will she receive for that day?", "o": ["$390.00", "$234.00", "$312.00", "$156.00"], "a": 0, "t": "diagram", "ev": "1.5 × base wage for all hours worked + holiday pay", "x": "1.5 × $19.50 × 8 = $234, plus holiday pay of $156 = $390. $234 forgets the holiday pay, and $156 is the holiday pay alone."},
+    {"q": "A Room Attendant is called in on her day off and sent home after 2 hours because it is quiet. How much is she paid?", "o": ["$39.00", "$58.50", "$78.00", "$156.00"], "a": 2, "t": "diagram", "ev": "Minimum 4 hours’ pay", "x": "A call-in guarantees at least four hours: 4 × $19.50 = $78. $39 pays only the two hours she actually worked."},
+    {"q": "On an 8-hour shift, a Room Attendant has 4 checkout rooms. How many other rooms must she clean to reach her quota?", "o": ["10", "11", "6", "8"], "a": 3, "t": "diagram", "ev": "Each checkout room counts as 1.5 rooms.", "x": "4 checkout rooms × 1.5 = 6 rooms. 14 − 6 = 8 other rooms. 10 treats checkout rooms as ordinary rooms."}
+   ]
+  },
+  "p3": {
+   "title": "The Real Price of a Resignation",
+   "paras": [
+    "When an employee resigns, most managers think first about the cost of finding a replacement: job advertisements, recruiters’ fees and the hours spent reading résumés and conducting interviews. These expenses are real, but they are also the easiest to measure, and for that reason they tend to dominate discussions about turnover. Researchers who have tried to calculate the full cost of losing a worker usually find that recruitment accounts for only a small share of the total. Estimates vary widely depending on the industry and the seniority of the position, ranging from a few thousand dollars for an entry-level retail job to well over a year’s salary for a specialized professional. Much of the difference lies in costs that never appear as a line in any budget.",
+    "The largest of these hidden costs is lost productivity. A new employee, however talented, rarely performs at full capacity in the first months. In complex roles, such as engineering or specialized sales, it can take a year or more before a new hire is as effective as the person they replaced. During that time, colleagues spend hours answering questions, correcting mistakes and covering tasks the newcomer cannot yet handle. Their own work slows down as a result. In addition, the departing employee is often less productive in the weeks before leaving, a period one researcher has described as “mentally checking out”. When these effects are added together, they frequently exceed the direct costs of hiring by a wide margin, even though they never show up on an invoice.",
+    "Turnover also has effects that are difficult to put a number on, even for the most careful researchers. Long-serving employees carry knowledge that is rarely written down: which supplier can be persuaded to rush an order, which client prefers a phone call to an email, why a particular procedure was introduced in the first place. When they leave, that knowledge often leaves with them, and their replacements must rediscover it slowly, sometimes through costly mistakes. Departures can also be contagious. Studies of workplace networks suggest that when one member of a close-knit team resigns, the likelihood that others will follow rises noticeably in the following months, particularly if the person who left was well liked or seen as a high performer.",
+    "None of this means that all turnover is harmful, and a workplace where nobody ever leaves can become stale. Some departures allow organizations to bring in fresh ideas or to replace employees who were a poor fit for their roles. The aim, most experts argue, is not to eliminate turnover but to understand it. Exit interviews are the most common tool, but departing employees are often reluctant to be candid when they may need a reference. Some companies have therefore started conducting “stay interviews” with current employees, asking what keeps them in their jobs and what might make them leave. The advantage is obvious: problems can be addressed while there is still time to keep the people affected, rather than after they have already gone."
+   ],
+   "qs": [
+    {"q": "The expenses managers discuss most are the ones that are simplest to calculate.", "a": "A", "t": "paraphrase", "ev": "but they are also the easiest to measure", "x": "Paragraph A: recruitment costs are the easiest to measure, so they dominate discussions about turnover."},
+    {"q": "Helping a newcomer can reduce the output of experienced staff.", "a": "B", "t": "paraphrase", "ev": "Their own work slows down as a result.", "x": "Paragraph B: colleagues who answer questions and cover tasks for new hires find that their own work slows down."},
+    {"q": "Replacing a senior manager typically costs about twice his or her yearly salary.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph A says costs can exceed a year’s salary for a specialized professional, but no figure of twice the salary, and nothing about senior managers, is given."},
+    {"q": "When a well-regarded team member quits, colleagues become more likely to leave too.", "a": "C", "t": "paraphrase", "ev": "the likelihood that others will follow rises noticeably in the following months", "x": "Paragraph C: departures are contagious, especially when the person leaving was well liked or a high performer."},
+    {"q": "People who are leaving a company may hold back honest criticism.", "a": "D", "t": "inference", "ev": "departing employees are often reluctant to be candid when they may need a reference", "x": "Paragraph D: departing employees are reluctant to be candid because they may need a reference."},
+    {"q": "Employees who have decided to leave may contribute less than usual.", "a": "B", "t": "paraphrase", "ev": "the departing employee is often less productive in the weeks before leaving", "x": "Paragraph B: workers are often less productive in the weeks before they leave."},
+    {"q": "Stay interviews have been shown to reduce turnover in the companies that use them.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph D describes stay interviews and their obvious advantage, but gives no evidence that they have actually reduced turnover."},
+    {"q": "Much of what experienced workers know has never been recorded.", "a": "C", "t": "paraphrase", "ev": "Long-serving employees carry knowledge that is rarely written down", "x": "Paragraph C: long-serving employees carry knowledge that is rarely written down."},
+    {"q": "Losing certain employees can actually benefit an organization.", "a": "D", "t": "inference", "ev": "Some departures allow organizations to bring in fresh ideas", "x": "Paragraph D: some departures bring fresh ideas or remove people who were a poor fit."}
+   ]
+  },
+  "p4": {
+   "title": "A Part-Time Job Is Part of an Education",
+   "byline": "Opinion | by Moira Castellanos, high school guidance counsellor",
+   "text": "Every September, I meet parents who tell me, with a mixture of pride and worry, that their sixteen-year-old has just started working at a grocery store or a fast-food restaurant. The pride is easy to understand. The worry usually comes from a belief that any hour spent stacking shelves is an hour stolen from homework. After twenty years as a high school guidance counsellor, I have come to the opposite conclusion. For most teenagers, a modest part-time job during the school year is one of the most valuable parts of their education.\n\nConsider what a first job teaches that a classroom rarely can. A teenager behind a counter learns to deal politely with an impatient adult, to show up on time because colleagues are depending on them, and to accept correction from a supervisor who is neither a parent nor a teacher. These are precisely the skills employers complain that young graduates lack. No amount of classroom role-playing reproduces the experience of a real customer who wants a refund the store does not allow.\n\nWork also changes how young people think about money. Students who have earned two hundred dollars through a week of evening shifts tend to think twice before spending it on something they will use once. Several of my students have told me that their job was the first time they understood why their parents hesitated over prices at the grocery store. That kind of lesson sticks.\n\nThere is a further benefit that is less often discussed. For students who struggle academically, a job can be the first place where they are told they are good at something. I have watched teenagers who were barely passing math become trusted shift leaders, and that confidence often follows them back into the classroom.\n\nI do not want to overstate the case. The research is fairly consistent that the benefits disappear, and grades begin to suffer, once students work more than about fifteen hours a week. Long closing shifts on school nights are particularly harmful, because sleep is the first thing to go. My advice to families is therefore specific: no more than ten to twelve hours a week during the school year, ideally concentrated on weekends, with an agreement that the job will be reduced if grades drop.\n\nSome parents tell me their children are already too busy with sports, music lessons and volunteering to take on a job. I understand, and for those families a job may not be the right choice. But I would gently point out that many of these activities are organized, supervised and paid for by adults. A job is one of the few places where a teenager is treated as someone who is expected to contribute, rather than someone who is being developed.\n\nEmployers have a role to play too. Too many managers schedule teenagers until midnight on weeknights because it is convenient, and too few ask about exam schedules. Provinces set limits on the hours young workers can be scheduled, but enforcement is weak. Responsible employers who respect students’ school commitments should be recognized, and the others should be held to the rules.\n\nA part-time job will not suit every teenager, and it should never become more important than school. But for most young people, a few hours a week of real responsibility will teach lessons they cannot learn anywhere else.",
+   "qs": [
+    {"q": "Why does the writer mention parents’ worry at the beginning?", "o": ["To show that most parents oppose teenage employment", "To explain why she stopped advising students to work", "To argue that homework is less useful than paid work", "To introduce a view she has come to disagree with"], "a": 3, "t": "purpose", "ev": "I have come to the opposite conclusion.", "x": "She presents the belief that work steals time from homework and then says she has reached the opposite conclusion. She never claims homework is less useful than work."},
+    {"q": "What point does the writer make with the example of a customer who wants a refund?", "o": ["Teenagers should not handle refunds without a supervisor.", "Real situations teach skills that classroom exercises cannot.", "Employers complain that young workers are rude to customers.", "Stores should make their refund policies clearer."], "a": 1, "t": "inference", "ev": "No amount of classroom role-playing reproduces the experience of a real customer", "x": "The refund example shows that real experience teaches what role-playing cannot. Employers complain that graduates lack skills, not that they are rude."},
+    {"q": "According to the writer, what can a job do for students who struggle at school?", "o": ["Give them a sense of competence they may lack at school", "Help them improve their marks in mathematics quickly and easily", "Prepare them to become managers after graduation", "Replace academic subjects that they find difficult"], "a": 0, "t": "paraphrase", "ev": "a job can be the first place where they are told they are good at something", "x": "A job can be the first place where they hear they are good at something, building confidence. The math example concerns students who became shift leaders, not better math marks."},
+    {"q": "What limit does the writer recommend?", "o": ["Up to fifteen hours a week, mainly on school nights", "No work at all during exam periods", "A moderate number of hours, mostly at weekends", "Only closing shifts that end before midnight"], "a": 2, "t": "detail", "ev": "no more than ten to twelve hours a week during the school year, ideally concentrated on weekends", "x": "She recommends ten to twelve hours, mainly on weekends. Fifteen hours is the point where research shows benefits disappear, and she warns against school-night closing shifts."},
+    {"q": "How does the writer respond to families whose children are busy with other activities?", "o": ["She thinks they are wrong to prioritize sports.", "She believes those activities are equally valuable.", "She argues that the children should give up volunteering first.", "She respects their choice but questions an assumption."], "a": 3, "t": "attitude", "ev": "But I would gently point out that many of these activities are organized, supervised and paid for by adults.", "x": "She accepts that a job may not suit them but “gently” points out that adult-run activities differ from contributing at a job. She does not tell them they are wrong or ask them to drop anything."}
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "As the parent of a seventeen-year-old who works at a garden centre, I agree with much of this article. My son has become far more {1} since he started, and he no longer asks me to pay for every movie ticket. The writer’s point about struggling students also rings true; his manager’s praise did more for his confidence than {2}.\n\nWhere I disagree is the idea that a fixed limit of ten to twelve hours suits everyone. My son works fourteen hours, all on weekends, and his marks have actually gone up. His best friend, on the other hand, works just eight hours, but they are {3}, and he is exhausted every morning. Surely when the hours are worked matters at least as much as {4}.\n\nI would also go further than the writer on employers. It is not enough to {5} responsible businesses. The province should actually enforce the rules it already has.",
+    "blanks": [
+     {"o": ["careful with money", "interested in math", "dependent on us", "worried about school"], "a": 0, "t": "paraphrase", "ev": "tend to think twice before spending it on something they will use once", "x": "He no longer asks for money for movie tickets, which matches the article’s point about thinking twice before spending. Becoming more dependent contradicts that."},
+     {"o": ["his higher pay", "his weekend shifts", "years of report cards", "all his volunteer work"], "a": 2, "t": "inference", "ev": "a job can be the first place where they are told they are good at something", "x": "For students who struggle, school marks do not build confidence, but praise at work does. Pay and shifts are not sources of praise."},
+     {"o": ["early shifts on Saturday mornings", "closing shifts on weeknights", "supervised by adults", "during the summer only"], "a": 1, "t": "coherence", "ev": "Long closing shifts on school nights are particularly harmful", "x": "Only eight hours can still leave him exhausted if they are late closing shifts on school nights, which the article says hurt sleep."},
+     {"o": ["what the job pays", "who the employer is", "where the job is", "how many there are"], "a": 3, "t": "coherence", "ev": "no more than ten to twelve hours a week", "x": "The reader contrasts timing with the number of hours, which is what the writer’s fixed limit focuses on."},
+     {"o": ["schedule", "punish", "recognize", "inspect"], "a": 2, "t": "detail", "ev": "Responsible employers who respect students’ school commitments should be recognized", "x": "The writer says responsible employers should be recognized; the reader wants enforcement as well. “Inspect” would be what the reader wants, not what is “not enough”."}
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You worked for two years at a community recreation centre before going back to school. You are now applying for a program coordinator position with a city parks department, and the application requires a reference letter. You have not spoken to your former supervisor in over a year.",
+   "bullets": [
+    "Remind your former supervisor who you are and what you did in your role",
+    "Explain the position you are applying for and why you are asking for a letter",
+    "Say what the letter could include and when it is needed"
+   ],
+   "model": "Dear Mr. Abenov,\n\nI hope you and the team at Glenwood Recreation Centre are doing well. You may remember me as the program assistant who ran the after-school sports program from 2022 to 2024 and organized the winter family carnival in my second year.\n\nSince leaving, I have completed a diploma in recreation management, and I am now applying for a Program Coordinator position with the city’s parks department. The role involves planning seasonal programs and supervising part-time staff, so I immediately thought of you. You saw my work more closely than anyone, and a letter from you would carry real weight with the hiring committee.\n\nIf you are willing, it would be especially helpful if you could mention how I recruited and scheduled our volunteer coaches, and how registration in the after-school program grew by almost forty percent during my time there. I have attached my updated résumé and the job posting for reference.\n\nThe application deadline is March 14, so I would need the letter by March 10 at the latest. I completely understand if your schedule does not allow it.\n\nWith sincere thanks,\nLeila Haddad"
+  },
+  "t2": {
+   "intro": "Your company wants to encourage employees to commute in healthier and more environmentally friendly ways. It can afford only one of the following programs.",
+   "question": "Which option do you prefer?",
+   "a": "Pay half the cost of a monthly public transit pass for any employee who wants one.",
+   "b": "Install secure bicycle parking, showers and lockers at the office, and give each employee who cycles to work $200 a year for bike maintenance.",
+   "model": "I would choose Option A, paying half the cost of a monthly transit pass, because it would help the largest number of employees right away.\n\nFirst of all, our office is located close to two bus routes and a train station, so many of my colleagues already take transit or would like to. A transit pass costs well over a hundred dollars a month, which is a significant expense, especially for younger staff and part-time workers. Cutting that cost in half would encourage people who currently drive to try public transit, and it would reward those who have been doing the right thing all along.\n\nThe cycling facilities are an attractive idea, and showers in particular would be appreciated by the few people who already bike to work. However, cycling is realistic for only part of the year in our climate. From November to March, most cyclists would be back in their cars or on the bus, and the showers and lockers would sit mostly unused. Some employees also live too far away to cycle at all.\n\nOverall, a transit subsidy would benefit more people, in every season, which makes it the more effective use of the company’s money."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend works at a coffee shop while studying at college. A co-worker keeps asking your friend to cover her shifts at the last minute, and your friend has trouble saying no. Your friend is now exhausted and falling behind in classes. What advice would you give your friend?",
+   "model": "Okay, first of all, I think it’s really kind that you’ve been helping her out, but it sounds like it’s starting to cost you too much. Your courses have to come first, because that’s the whole reason you’re working there in the first place. So here’s what I’d do. Next time she asks, don’t answer right away. Just say something like, “Let me check my schedule and get back to you.” That gives you a moment to think instead of saying yes automatically. Then, if you can’t do it, be honest but short: “Sorry, I can’t this time, I’ve got an assignment due.” You don’t need to give a long explanation. Second, it might help to decide in advance how many extra shifts you can realistically take each month, maybe one or two, and stick to that limit. And third, if she keeps asking even after you say no, I think you should mention it to your manager. Covering shifts should be the manager’s problem to solve, not yours. Honestly, I think she’ll respect you more once you set some boundaries. And you’ll finally get some sleep before your exams."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you received criticism at work, at school or in a volunteer role. What happened, and how did you respond?",
+   "model": "When I was in my first year working as an office assistant, I prepared a monthly report for the team, and I was actually quite proud of it. But my supervisor called me into her office and told me, very directly, that it was too long and that nobody would read past the first page. At first I felt embarrassed and, honestly, a bit defensive, because I’d spent two evenings on it. But that night I looked at it again, and I realized she was right. It was full of details that only I cared about. So the next month, I asked her what information the team actually needed, and I cut the report down to one page with a short summary at the top. She told me afterwards that people were finally reading it. Since then, I try to ask for feedback early instead of waiting."
+  },
+  "t3": {
+   "scene": {
+    "bg": "kitchen",
+    "alt": "A busy restaurant kitchen. A whiteboard on the left wall says “TONIGHT: 80 GUESTS” and a clock hangs in the middle. Behind a long grey counter, a cook in a white uniform and white hat holds a red mug, and a head chef in white points toward the whiteboard. A decorated cake sits on the counter. A young worker in an orange shirt carries a box toward a stack of cardboard boxes labelled “POTATOES”. A woman in a purple shirt talks on the phone, and a waiter in a dark shirt walks toward the door with a tray. There is a puddle of water on the floor near the counter and shelves on the right.",
+    "items": [
+     ["whiteboard", 40, 40, 160, "TONIGHT: 80 GUESTS"],
+     ["clock", 320, 80],
+     ["shelf", 500, 300, 120],
+     ["person", 120, 302, {"shirt": "#ffffff", "hat": "#ffffff", "hold": "cup", "holdColor": "#e74c3c"}],
+     ["person", 220, 302, {"shirt": "#ffffff", "hat": "#ffffff", "pose": "point", "skin": "#8d5524", "flip": true}],
+     ["counter", 60, 370, 240, "#bdc3c7"],
+     ["cake", 260, 300],
+     ["puddle", 330, 388],
+     ["box", 400, 385, 50, 40, "POTATOES", "#c69c6d"],
+     ["box", 405, 345, 40, 30, "", "#d2b48c"],
+     ["person", 365, 386, {"shirt": "#e67e22", "hold": "box", "hairStyle": "curly", "hair": "#1c1c1c"}],
+     ["person", 470, 384, {"shirt": "#8e44ad", "hairStyle": "bun", "hair": "#a0522d", "hold": "phone", "flip": true}],
+     ["door", 570, 300, "#7f8c8d"],
+     ["person", 535, 392, {"shirt": "#2c3e50", "pose": "walk", "hold": "tray", "skin": "#c68642"}]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a restaurant kitchen that looks very busy, probably just before dinner service. On the left wall there’s a whiteboard that says “Tonight: 80 guests,” so they’re clearly preparing for a big evening. Behind a long grey counter, there are two cooks in white uniforms and white hats. One of them is holding a red mug, maybe taking a quick coffee break, while the other, who looks like the head chef, is pointing toward the whiteboard, probably giving instructions. There’s a nicely decorated cake sitting on the counter. In the middle of the room, a young man in an orange shirt is carrying a box over to a stack of boxes labelled “Potatoes.” Near him, a woman in a purple top is talking on the phone. On the right, a waiter in a dark shirt is carrying a tray toward the door, and there’s a small puddle of water on the floor near the counter."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things are likely to happen in the next few minutes. First, the young man carrying the box is walking toward the puddle without looking down, so there’s a good chance he’ll slip, or at least stumble and drop some potatoes on the floor. Someone, probably the head chef, will then shout for a mop and make sure the floor is dried, because a wet floor in a busy kitchen is dangerous. Second, the woman on the phone might be taking a reservation or hearing about a change to tonight’s booking, so she’ll probably go over and update the number on the whiteboard. Third, the waiter is heading out with a tray, so he’ll probably come back in a moment with more orders. And finally, the cook with the mug will likely finish his coffee quickly and start preparing food, since eighty guests are on the way."
+  },
+  "t5": {
+   "intro": "Your manager has asked the team to choose an activity for a team-building afternoon. Choose the option that you prefer. In the next section, you will need to persuade a co-worker that your choice is better than the one he prefers.",
+   "options": [
+    {"title": "Escape room challenge", "details": ["$35 per person", "Teams of 6 solve puzzles in 60 minutes", "10 minutes from the office", "Weekday afternoon, during work hours", "Pizza afterwards included"]},
+    {"title": "Trail-building volunteer day", "details": ["Free – the park provides tools", "Full day outdoors, 9 a.m.–4 p.m.", "40-minute drive; carpooling needed", "Moderately physical work", "Lunch provided ($15 per person)"]}
+   ],
+   "other": {"title": "Bowling night", "details": ["$22 per person", "Friday, 7–10 p.m.", "Food and drinks extra", "Lanes of 6 players", "Prizes for top scores"]},
+   "otherWho": "Your co-worker prefers",
+   "persuade": "Your co-worker prefers the bowling night. Persuade him that your choice is better.",
+   "model": "I know bowling is fun and it’s a bit cheaper per person, but I really think the escape room makes more sense for us. First, the timing. Bowling is on a Friday night from seven to ten, which means people with kids, long commutes or weekend plans either won’t come or will be checking the clock. The escape room happens during work hours, ten minutes from the office, so everyone can actually take part. Second, by the time you add food and drinks at the bowling alley, it probably costs about the same, while the escape room already includes pizza. And most importantly, the whole point is team-building. In bowling, you mostly take turns and watch each other. In an escape room, six people have to communicate, share ideas and solve problems together under time pressure, which is exactly what we need to practise. I think we’d learn more about each other in one hour there than in a whole evening of bowling."
+  },
+  "t6": {
+   "situation": "Six months ago, you recommended your friend Andre for a job at your company, and he was hired onto your team. Since then, he has arrived late at least twice a week, and other team members have started complaining to you. Your manager, who hired Andre partly because of your recommendation, has just asked you whether you have noticed any problems with him.",
+   "options": [
+    "Talk to Andre and warn him about the complaints.",
+    "Talk to your manager and give an honest answer about Andre’s lateness."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Andre, have you got a minute? I want to talk to you as a friend, before this becomes a bigger problem. I’ve noticed you’ve been coming in late quite a lot, probably twice a week, and I’m not the only one. A few people on the team have mentioned it to me, and they’re starting to get frustrated because they have to cover your calls in the morning. And this morning, our manager asked me whether I’d noticed any problems with you. I didn’t want to say anything behind your back, so I’m telling you directly. I know there might be a good reason, like the bus schedule or something at home, and if there is, I really think you should tell her yourself before she raises it with you. Maybe she could even adjust your start time. I recommended you because I know you’re great at this job, and I don’t want anything to get in the way of that."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Is it better for people to stay with one employer for many years or to change jobs every few years? Explain your reasons.",
+   "model": "In my opinion, for most people, it’s better to change jobs every few years, at least during the first part of their career. My main reason is growth. When you stay in one place for a long time, you often end up doing the same tasks, and you stop learning. A new job forces you to adapt to different systems, different managers and different problems, and that builds skills much faster. My cousin is a good example. She worked at the same insurance company for nine years and was promoted only once. When she finally moved to another firm, she received a twenty percent raise and a more senior title almost immediately, because companies often pay more to attract outside talent than to keep the people they already have. Secondly, changing jobs helps you build a wider network, and in my experience, most good opportunities come through people you know. That said, I don’t think anyone should change jobs just for the sake of it. Moving every year can look unreliable on a résumé, and long-term employees often earn respect and trust that newcomers don’t have. So overall, I think staying three to five years in each role is a good balance between stability and growth."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "An unusual outdoor meeting space in a park, shaped like a giant open laptop computer. The huge screen stands as tall as a house and shows the words “WELCOME TEAM”. Three people sit on the giant keyboard as if it were a bench: a man in red holding a cup, a woman in green reading a book, and a man in yellow with glasses. A sign in front says “BOOK NOW”. On the left, a man in blue walks a yellow dog past a tree. There is a sun, a cloud and a bush.",
+    "items": [
+     ["sun", 70, 60],
+     ["cloud", 470, 55, 1],
+     ["tree", 60, 330, 0.9],
+     ["bush", 595, 305, 1],
+     ["big", "laptop", 320, 372, 9],
+     ["text", 320, 260, "WELCOME TEAM", 24, "#1b4f72"],
+     ["person", 230, 372, {"pose": "sit", "shirt": "#e74c3c", "hold": "cup"}],
+     ["person", 300, 372, {"pose": "sit", "shirt": "#27ae60", "hairStyle": "long", "hair": "#a0522d", "hold": "book"}],
+     ["person", 375, 372, {"pose": "sit", "shirt": "#f1c40f", "glasses": true, "skin": "#8d5524"}],
+     ["sign", 565, 390, "BOOK NOW", "#fff"],
+     ["person", 100, 385, {"shirt": "#2980b9", "pose": "walk", "hold": "leash"}],
+     ["dog", 150, 392, "#d4ac0d"]
+    ]
+   },
+   "prompt": "Your team is planning an outdoor meeting this summer, and you have found this unusual meeting space for rent. Call a co-worker, describe the space, and explain whether you think your team should book it. Your co-worker cannot see the picture.",
+   "model": "Hey Sam, I’ve found a place for our summer meeting, and you’re going to love it. Imagine a giant laptop sitting open in the middle of a park. I mean enormous – the screen is about as tall as a house, and it’s light blue, with the words “Welcome Team” across it, so I think you can actually project your own slides onto it. The keyboard part lies flat on the grass and works as a long bench. In the photo, three people are sitting on it, one with a coffee and one reading, so it looks pretty comfortable. There are trees and bushes around it, and there’s a “Book Now” sign in front. I honestly think it would be great for our team. It’s fun, it’s outdoors, and it would get people talking. My only worry is the weather. There’s no roof, so if it rains, we’d have nowhere to go. Maybe we could book a backup room just in case?"
+  }
+ }
+}

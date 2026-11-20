@@ -1,0 +1,1868 @@
+{
+ "id": "t16",
+ "title": "Test 16",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "A couple who are buying their first house are dealing with a problem a week before the sale closes.",
+    "sp": {
+     "A": {
+      "name": "Ama",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Rafael",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Rafe, the mortgage broker just called. The appraisal on the Linden Street house came back, and it’s not what we hoped. The appraiser valued it at six hundred and twenty thousand."
+       ],
+       [
+        "B",
+        "Six twenty? We offered six hundred and fifty."
+       ],
+       [
+        "A",
+        "I know. And the bank will only lend eighty percent of the appraised value, not the price we agreed to. So even with all our savings for the down payment, we’re about twenty-four thousand dollars short."
+       ],
+       [
+        "B",
+        "When do we close again?"
+       ],
+       [
+        "A",
+        "That’s the other thing. Closing is a week from Friday. And we already waived our financing condition, so we can’t just back out without losing the deposit."
+       ],
+       [
+        "B",
+        "Which is twenty-five thousand. Okay. Did the broker say why it came in so low? The house two doors down sold for six seventy in the spring."
+       ],
+       [
+        "A",
+        "She said the appraiser used three sales from this summer, after the market cooled, and one of them was a house that needed a whole new roof. She thinks we could ask for a second appraisal, but it costs about four hundred dollars, and there’s no guarantee it’ll come back any higher. Plus, it could take ten days."
+       ],
+       [
+        "B",
+        "Ten days takes us past the closing date."
+       ],
+       [
+        "A",
+        "Exactly. So I don’t think that’s realistic, unless the lawyer can get the closing pushed back, and the sellers would have to agree to that."
+       ],
+       [
+        "B",
+        "And they’re buying their own place, aren’t they? They won’t want to move their date."
+       ],
+       [
+        "A",
+        "Probably not. So, bottom line: we need to find twenty-four thousand dollars in about ten days."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What problem did the appraisal create?",
+        "o": [
+         "The appraiser found that the house needed a new roof.",
+         "The house was judged to be worth less than the agreed price.",
+         "The bank rejected the appraiser’s choice of comparable sales.",
+         "The appraisal will not be ready before the closing date."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "The appraiser valued it at six hundred and twenty thousand.",
+        "x": "The house was valued at $620,000, below the $650,000 they offered. The new roof belonged to one of the comparable houses, not to theirs."
+       },
+       {
+        "q": "Why can the couple not simply cancel the purchase?",
+        "o": [
+         "Their lawyer has already registered the sale.",
+         "The sellers have already bought another house nearby.",
+         "The bank has fully approved their mortgage.",
+         "They would forfeit money they have already paid."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "we can’t just back out without losing the deposit",
+        "x": "Because they waived the financing condition, cancelling would cost them their $25,000 deposit. The sellers are buying a place, but that affects moving the date, not cancelling."
+       },
+       {
+        "q": "Why does Ama think a second appraisal is not a practical solution?",
+        "o": [
+         "It probably could not be completed in time.",
+         "It would cost more than the amount they are short.",
+         "The broker advised them strongly against it.",
+         "The sellers have refused to allow another visit."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Ten days takes us past the closing date.",
+        "x": "A second appraisal could take ten days, which goes beyond the closing date, and moving the date depends on the sellers. It costs only about $400, far less than the shortfall."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "What about my parents? Dad’s offered to help before."
+       ],
+       [
+        "A",
+        "He has, and I appreciate it, but he offered when we were looking at condos, before your mom’s surgery. They’re on a fixed income now. I really don’t want to ask them for twenty-four thousand dollars."
+       ],
+       [
+        "B",
+        "Yeah. You’re right. I’d feel terrible if they needed it later. What about my RRSP? There’s that first-time buyer program where you can withdraw money for a down payment."
+       ],
+       [
+        "A",
+        "I looked at that this morning. You can, but the money has to be in the account for ninety days before you take it out, and we only moved most of it in last month. The part that qualifies is about nine thousand."
+       ],
+       [
+        "B",
+        "Nine is something. And the line of credit?"
+       ],
+       [
+        "A",
+        "The broker warned against that. If we borrow for the down payment, the bank has to recalculate our debt ratios, and it could actually affect the mortgage approval. She said it’s the last thing she’d do this close to closing."
+       ],
+       [
+        "B",
+        "Okay, so not that. What if we asked the sellers to come down on the price?"
+       ],
+       [
+        "A",
+        "I was thinking that too. They’ve got no real reason to agree, though. We waived our conditions."
+       ],
+       [
+        "B",
+        "Maybe, but think about it from their side. If we can’t close, they’re stuck relisting in a slower market, and they’d have to take us to court to get anything beyond the deposit. That takes months. They want a clean, quick sale."
+       ],
+       [
+        "A",
+        "Hmm. So a lower price might actually be in their interest too. That’s a fair point."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Ama not want to ask Rafael’s parents for help?",
+        "o": [
+         "His father’s offer applied only to a condo.",
+         "They already contributed to the deposit.",
+         "Their financial situation has changed.",
+         "Rafael would prefer not to owe them money."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "They’re on a fixed income now.",
+        "x": "Since his mother’s surgery they live on a fixed income, so the money matters more to them. The condo detail only says when the offer was made, not that it was limited to condos."
+       },
+       {
+        "q": "What limits the amount they can take from the RRSP?",
+        "o": [
+         "Some of the money was deposited too recently.",
+         "The program allows a maximum of nine thousand dollars.",
+         "Only one of them qualifies as a first-time buyer.",
+         "The bank must approve any withdrawal first."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "we only moved most of it in last month",
+        "x": "Money must stay in the account for ninety days, and most of it was deposited last month. Nine thousand is simply the portion that qualifies, not a program maximum."
+       },
+       {
+        "q": "How does Ama react to Rafael’s argument about the sellers?",
+        "o": [
+         "She warns that the sellers might sue them.",
+         "She still believes they have no bargaining power.",
+         "She worries it would delay the closing date.",
+         "She accepts that his reasoning makes sense."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "That’s a fair point.",
+        "x": "At first she doubts the sellers would agree, but Rafael’s reasoning changes her view: “That’s a fair point.” Court action was Rafael’s argument about what sellers would want to avoid."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, here’s what I’m thinking. We ask our agent to go back to the sellers and propose meeting halfway. The gap between our price and the appraisal is thirty thousand, so we ask for fifteen thousand off."
+       ],
+       [
+        "B",
+        "And since the bank lends on the appraisal anyway, every dollar off the price is a dollar we don’t need to find. That would bring us down to nine thousand."
+       ],
+       [
+        "A",
+        "Which is exactly what the RRSP can cover. We wouldn’t touch the emergency fund or the line of credit."
+       ],
+       [
+        "B",
+        "And if they say no?"
+       ],
+       [
+        "A",
+        "Then plan B is the RRSP plus fifteen thousand from the emergency fund. It would leave us with almost nothing for the first few months, but it beats losing the deposit and the house."
+       ],
+       [
+        "B",
+        "I don’t love it, but you’re right. Should we call the agent tonight?"
+       ],
+       [
+        "A",
+        "Let’s call the lawyer first. I want to know exactly where we stand legally before we start negotiating. Then the agent."
+       ],
+       [
+        "B",
+        "Good idea. And let’s not mention the RRSP to the agent. If the sellers hear we’ve got a backup, they won’t budge."
+       ],
+       [
+        "A",
+        "Agreed. We just say the appraisal came in low, and we’d like to find a solution that works for both sides. Which is true."
+       ],
+       [
+        "B",
+        "Okay. I’ll find the lawyer’s number. I think her office is open until seven."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What will the couple do if the sellers refuse to lower the price?",
+        "o": [
+         "Borrow the remaining amount from their line of credit",
+         "Ask Rafael’s father for a short-term loan",
+         "Combine retirement savings with their reserve money",
+         "Request a second appraisal from the bank"
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "plan B is the RRSP plus fifteen thousand from the emergency fund",
+        "x": "Plan B combines the RRSP (retirement savings) with the emergency fund (reserve money). The line of credit and Rafael’s parents were both rejected earlier."
+       },
+       {
+        "q": "Why does Rafael suggest not telling the agent about the RRSP?",
+        "o": [
+         "Their lawyer advised them to keep it private.",
+         "The sellers would feel less pressure to compromise.",
+         "The agent might pass the information to the bank.",
+         "The withdrawal may not be approved in time."
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "If the sellers hear we’ve got a backup, they won’t budge.",
+        "x": "If the sellers know the couple can pay anyway, they will not lower the price. They have not yet spoken to the lawyer, so no legal advice has been given."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "Two neighbours are talking on their street.",
+    "sp": {
+     "A": {
+      "name": "Lucinda",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1
+     },
+     "B": {
+      "name": "Desmond",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Desmond, hi! Do you have a minute? I’ve been meaning to catch you."
+       ],
+       [
+        "B",
+        "Of course, Lucinda. Is this about the leaves? I promise I’m raking this weekend."
+       ],
+       [
+        "A",
+        "Ha, no, the leaves are fine. It’s about the new camera over your garage. I noticed it last week, and, well, from my kitchen window it looks like it’s pointing right into our backyard."
+       ],
+       [
+        "B",
+        "Oh. Really? I set it up to cover the driveway. Somebody went through both our cars last month. You heard about that, right?"
+       ],
+       [
+        "A",
+        "I did, and I understand completely. We lost a pair of sunglasses and some change. It’s just that the kids play out back, and my daughter asked me yesterday why there’s a camera watching her trampoline. I didn’t really have an answer for her."
+       ],
+       [
+        "B",
+        "Oh, I’m sorry. That’s the last thing I’d want. Here, look, I can show you on my phone what it actually sees."
+       ],
+       [
+        "A",
+        "Okay… oh. Yes, that’s our whole yard. The trampoline, the patio, everything. And only a little strip of your driveway."
+       ],
+       [
+        "B",
+        "Wow. The installer must have angled it wrong. Honestly, I never checked the view after he left. I just get alerts about squirrels."
+       ],
+       [
+        "A",
+        "Is it recording all the time?"
+       ],
+       [
+        "B",
+        "It records when it detects motion and keeps clips for thirty days in the cloud. I’ll delete everything from your yard tonight. And the app has a feature where you can black out part of the image, a privacy zone, so I can mask your side completely."
+       ],
+       [
+        "A",
+        "That would be great. Would it still cover your driveway?"
+       ],
+       [
+        "B",
+        "It should. And actually, if I move it to the corner of the porch, it would catch the street too, which is where the guy came from. I’ll try that on Saturday."
+       ],
+       [
+        "A",
+        "Thank you, Desmond. I was nervous about bringing it up. I didn’t want it to sound like an accusation."
+       ],
+       [
+        "B",
+        "Not at all. I’d much rather you tell me than stew about it. And if you like, I can share any clips if someone tries the cars again."
+       ],
+       [
+        "A",
+        "Actually, that would be reassuring. Let me know if you need a hand holding the ladder on Saturday."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why did Desmond install the camera?",
+        "o": [
+         "Vehicles on the street had been broken into.",
+         "Squirrels had been damaging his garage.",
+         "His insurance company recommended it.",
+         "He wanted to record cars speeding on the street."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "Somebody went through both our cars last month.",
+        "x": "Someone went through both neighbours’ cars, so he wanted to watch the driveway. Squirrels only trigger alerts; they are not the reason for the camera."
+       },
+       {
+        "q": "What prompted Lucinda to raise the issue now?",
+        "o": [
+         "She saw recordings of her patio on his phone.",
+         "The camera recorded her sunglasses being stolen.",
+         "Her child noticed the camera and asked about it.",
+         "She found out that clips are stored for a month."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "my daughter asked me yesterday why there’s a camera watching her trampoline",
+        "x": "Her daughter’s question, which she could not answer, is what led her to speak up. She only sees the recordings on his phone during the conversation."
+       },
+       {
+        "q": "What does Desmond admit?",
+        "o": [
+         "He aimed the camera at her yard deliberately.",
+         "He had already received complaints from others.",
+         "He deleted the video clips of the person near the cars.",
+         "He had not looked at what the camera was capturing."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "I never checked the view after he left.",
+        "x": "He never checked the camera’s view after installation, which is why he did not notice the angle. He blames the installer, so it was not deliberate."
+       },
+       {
+        "q": "What does Desmond plan to do on Saturday?",
+        "o": [
+         "Delete the recordings of her backyard",
+         "Move the camera to a different position",
+         "Ask the installer to come back and fix it",
+         "Rake the leaves in front of both houses"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "if I move it to the corner of the porch",
+        "x": "He will try moving the camera to the porch corner on Saturday. Deleting the clips will happen tonight, and the raking was promised for “this weekend”, not specifically Saturday."
+       },
+       {
+        "q": "How does Lucinda feel by the end of the conversation?",
+        "o": [
+         "Embarrassed that she had accused him unfairly",
+         "Worried that he will share videos of her family",
+         "Grateful that he responded without taking offence",
+         "Annoyed that the clips are kept for thirty days"
+        ],
+        "a": 2,
+        "t": "attitude",
+        "ev": "I was nervous about bringing it up.",
+        "x": "She was nervous it would sound like an accusation, but he welcomed it and offered solutions, so she thanks him and even offers help. She never actually accused him."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A homeowner calls her insurance company about a change to her house.",
+    "sp": {
+     "A": {
+      "name": "Insurance agent",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 1
+     },
+     "B": {
+      "name": "Homeowner",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Northgate Insurance, this is Vikram speaking. How can I help you today?"
+       ],
+       [
+        "B",
+        "Hi. I’m calling about my home policy. We’ve just finished converting our basement into a separate apartment, and we’re planning to rent it out starting in January. Someone told me I need to let you know."
+       ],
+       [
+        "A",
+        "Yes, absolutely, and thank you for calling before the tenant moves in. If we’re not told about a rental unit and there’s a claim, the claim could be denied. So you’ve done the right thing."
+       ],
+       [
+        "B",
+        "That’s a relief. So what changes?"
+       ],
+       [
+        "A",
+        "A few things. First, we’d add what’s called a rental unit endorsement to your policy. That covers the basement as a rental, including liability if your tenant or one of their guests is injured because of something in the building, like a broken stair. For your home, that would add about two hundred and forty dollars a year."
+       ],
+       [
+        "B",
+        "Does it cover the tenant’s belongings?"
+       ],
+       [
+        "A",
+        "No, and that’s a common misunderstanding. Your policy covers the building and your own things. Your tenant would need their own tenant insurance for their furniture and personal items. A lot of landlords make it a condition of the lease, which I’d recommend."
+       ],
+       [
+        "B",
+        "Okay. What about water? We had a sewer backup in our old house years ago, and it was a nightmare."
+       ],
+       [
+        "A",
+        "Right now, your policy doesn’t include sewer backup coverage. You’d have to add it separately. It’s a hundred and eighty a year, with a two-thousand-dollar deductible. But here’s the thing: if you install a backwater valve, which stops sewage from flowing back into the basement, we give you a fifteen percent discount on your whole home premium, not just on that coverage."
+       ],
+       [
+        "B",
+        "Oh, interesting. Our contractor mentioned a backwater valve, but we didn’t do it. Does the city help with that?"
+       ],
+       [
+        "A",
+        "Many cities offer a subsidy, often up to a thousand dollars, but you’d need to check with yours. On our side, you’d just send us the plumber’s invoice."
+       ],
+       [
+        "B",
+        "And what happens if the basement is damaged and the tenant can’t live there for a while?"
+       ],
+       [
+        "A",
+        "The endorsement includes loss of rental income for up to twelve months, as long as the damage comes from something your policy covers. So if a pipe bursts, yes. If it’s flooding from the river, no, because overland flooding is a separate coverage, and it isn’t available in your postal code anyway."
+       ],
+       [
+        "B",
+        "Got it. And do I need an inspection?"
+       ],
+       [
+        "A",
+        "Not usually. But because the basement was renovated, we’ll need a copy of the final electrical permit. Once we have that, the endorsement can start on the first of the following month."
+       ],
+       [
+        "B",
+        "Perfect. I’ll email it to you today."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does the agent say the caller has done the right thing?",
+        "o": [
+         "The tenant cannot move in until the insurer has approved her.",
+         "Calling early qualifies her for a lower premium.",
+         "The city requires insurers to be told about rentals.",
+         "Failing to report the rental could leave a claim unpaid."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "If we’re not told about a rental unit and there’s a claim, the claim could be denied.",
+        "x": "An unreported rental could lead to a denied claim. Nothing suggests the insurer must approve the tenant or that calling early earns a discount."
+       },
+       {
+        "q": "What does the rental unit endorsement not cover?",
+        "o": [
+         "Injuries to the tenant’s visitors",
+         "The tenant’s own possessions",
+         "Rent lost after a burst pipe",
+         "Damage to the building itself"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Your tenant would need their own tenant insurance",
+        "x": "The tenant’s furniture and personal items need the tenant’s own insurance. Guest injuries and lost rent after a covered event are included."
+       },
+       {
+        "q": "What does the agent recommend that the caller do?",
+        "o": [
+         "Require her tenant to buy insurance as part of the lease",
+         "Ask the city for a subsidy before buying any coverage",
+         "Add overland flood protection to her policy",
+         "Have the basement inspected before January"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "A lot of landlords make it a condition of the lease, which I’d recommend.",
+        "x": "He recommends making tenant insurance a lease condition. Overland flood coverage is not even available in her area, and an inspection is “not usually” needed."
+       },
+       {
+        "q": "What is true about the backwater valve discount?",
+        "o": [
+         "It applies only to the sewer backup coverage.",
+         "It is paid for by the city, up to a limit.",
+         "It would reduce the cost of her entire policy.",
+         "It replaces the two-thousand-dollar deductible."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "we give you a fifteen percent discount on your whole home premium, not just on that coverage",
+        "x": "The 15% discount applies to the whole home premium. The trap is the option limiting it to sewer backup coverage, which the agent explicitly rules out."
+       },
+       {
+        "q": "In which situation would the caller receive compensation for lost rent?",
+        "o": [
+         "A covered event such as a pipe failure makes the unit unusable.",
+         "The river overflows and floods the basement apartment.",
+         "The tenant moves out before the lease has ended.",
+         "Any kind of damage occurs within the first twelve months of the lease."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "So if a pipe bursts, yes.",
+        "x": "Lost rent is paid only when the damage comes from a covered cause, such as a burst pipe. River flooding is not covered, and twelve months is the maximum payment period, not a time window."
+       },
+       {
+        "q": "What must the caller provide before the endorsement can begin?",
+        "o": [
+         "The plumber’s invoice for the new valve",
+         "A signed copy of the tenant’s lease",
+         "Proof that the electrical work was approved",
+         "An inspection report on the renovation"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "we’ll need a copy of the final electrical permit",
+        "x": "The final electrical permit is required before the endorsement starts. The plumber’s invoice is only needed to get the valve discount."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Homeowner",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 0.96
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Older homeowners in Ashgrove will soon have a new option for dealing with rising property taxes. Starting next year, the city will allow residents aged sixty-five and over, with a household income below fifty-five thousand dollars, to defer part of their annual property tax bill. Instead of paying it each year, the deferred amount would be added to a balance that is repaid, with a small amount of interest, when the home is sold or ownership changes."
+       ],
+       [
+        "A",
+        "The change comes after this year’s reassessment, which saw the average residential tax bill in the city rise by nine percent, the largest increase in more than a decade. Council received over three hundred letters, many from long-time residents who described themselves as house-rich but cash-poor."
+       ],
+       [
+        "A",
+        "Gordon Ashby, who has lived in the same bungalow for forty-two years, was one of them."
+       ],
+       [
+        "B",
+        "My pension goes up by two or three percent a year. My tax bill went up by eleven. The house is worth a fortune on paper, but I can’t eat the house. This program means I don’t have to choose between staying here and paying for my medication. I’m not thrilled about the interest, mind you, but it’s a lot lower than anything a bank would offer me."
+       ],
+       [
+        "A",
+        "Under the program, homeowners can defer up to half of their annual bill, and the total amount deferred cannot exceed twenty-five percent of the home’s assessed value. Interest will be charged at the city’s own borrowing rate, currently about three percent."
+       ],
+       [
+        "A",
+        "Some councillors expressed concern that the program shifts costs onto future buyers or heirs, and that some families may be surprised by the balance when a parent passes away. The city says applicants will be required to sign a disclosure form and are encouraged to discuss the decision with their families."
+       ],
+       [
+        "A",
+        "Applications open on February first. The city expects about eight hundred households to take part in the first year."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Who will be able to use the new program?",
+        "o": [
+         "All homeowners whose tax bill rose by more than nine percent",
+         "Seniors who have lived in their homes for several decades",
+         "Older residents whose earnings are below a set level",
+         "Anyone who wrote to council about the reassessment"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "with a household income below fifty-five thousand dollars",
+        "x": "Eligibility requires age sixty-five or over and household income below $55,000. Nine percent is the average increase, and length of residence is not a condition."
+       },
+       {
+        "q": "When must the deferred taxes be paid back?",
+        "o": [
+         "When the property is sold or passes to someone else",
+         "When the homeowner’s income rises above the eligibility limit",
+         "At the end of each five-year period",
+         "When the balance reaches half the annual bill"
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "when the home is sold or ownership changes",
+        "x": "Repayment happens on sale or change of ownership, for example to heirs. “Half” refers to how much of each year’s bill can be deferred, not a repayment trigger."
+       },
+       {
+        "q": "What is Gordon Ashby’s attitude toward the program?",
+        "o": [
+         "He feels it charges far too much interest.",
+         "He is grateful for it, despite one reservation.",
+         "He thinks it should include all pensioners.",
+         "He doubts it will let him stay in his house."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "I’m not thrilled about the interest, mind you",
+        "x": "He says the program means he can stay and afford medication, though he is “not thrilled” about the interest – which he admits is lower than a bank’s, so not “far too much”."
+       },
+       {
+        "q": "Which limit applies to the program?",
+        "o": [
+         "The total deferred may not exceed half of the home’s value.",
+         "Interest may never rise above three percent.",
+         "Only eight hundred households may apply each year.",
+         "At most half of each year’s bill can be postponed."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "homeowners can defer up to half of their annual bill",
+        "x": "Up to half of each annual bill may be deferred. The total cap is 25% of the home’s value, not half, and eight hundred is only the expected number of participants."
+       },
+       {
+        "q": "What did some councillors worry about?",
+        "o": [
+         "Banks would offer competing loans at lower rates.",
+         "Relatives might not know about the debt until later.",
+         "The disclosure form would be too complicated.",
+         "Too few seniors would apply in the first year."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "some families may be surprised by the balance when a parent passes away",
+        "x": "Councillors feared heirs could be surprised by the balance after a parent’s death. The disclosure form is the city’s response to this concern, not the concern itself."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three members of a neighbourhood association are deciding how to respond to a proposed apartment building.",
+    "sp": {
+     "A": {
+      "name": "Bernadette",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1
+     },
+     "B": {
+      "name": "Lorenzo",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1.03
+     },
+     "C": {
+      "name": "Thandi",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Thanks for coming, both of you. The city wants our association’s comments on the Maple Crossing proposal by the twentieth. As you know, it’s a twelve-storey rental building on the old grocery store site, about two hundred units."
+       ],
+       [
+        "B",
+        "I’ll start, since I suspect I’m the odd one out. I think twelve storeys is simply too tall for that corner. Everything around it is two or three storeys. The developer’s own shadow study shows the schoolyard across the street in shade for most of the afternoon from October to March."
+       ],
+       [
+        "C",
+        "Lorenzo, I hear you about the shadows, but we have to be honest about what’s happening in this neighbourhood. My son and his wife both work full-time, and they can’t find a two-bedroom here for under three thousand a month. Two hundred rental units is exactly what we need."
+       ],
+       [
+        "B",
+        "Nobody’s saying we don’t need housing, Thandi. But there’s a difference between gentle density and dropping a tower onto a residential street. And what about traffic? Pembroke Avenue is already backed up at rush hour."
+       ],
+       [
+        "C",
+        "The proposal has fewer than half as many parking spaces as units, precisely because it’s right beside the new transit station. Most people living there won’t be driving to work."
+       ],
+       [
+        "B",
+        "That’s the theory. In practice, people own cars, and they’ll park on our streets."
+       ],
+       [
+        "A",
+        "Can I jump in? I think there’s a bigger issue than either shadows or parking. When the grocery store closed, we lost the only place within walking distance to buy food. Seniors on my block now take two buses to get milk. And the current plan has no retail on the ground floor at all."
+       ],
+       [
+        "C",
+        "That’s a fair point. I hadn’t noticed that. I just assumed there would be shops."
+       ],
+       [
+        "B",
+        "So did I, actually. That changes things for me a bit. If the building brought back a grocery store, I’d find it a lot easier to accept."
+       ],
+       [
+        "A",
+        "So here’s a thought. Instead of saying yes or no, we could support the project on conditions. One, ground-floor retail, ideally a grocery. Two, a share of the units set aside at below-market rent. And three, a design change to reduce the shadow on the schoolyard."
+       ],
+       [
+        "B",
+        "Reduce it how? They won’t cut the building down to six storeys."
+       ],
+       [
+        "A",
+        "No, but architects often step the upper floors back from the street. It keeps the height but cuts the shadow. The developer’s planner told me at the open house that they’d consider it."
+       ],
+       [
+        "B",
+        "Hmm. If they actually commit to it in writing, and I mean in the formal application, not at an open house, then I could live with twelve storeys."
+       ],
+       [
+        "C",
+        "And I’d push for more than a token number of affordable units. Ten percent would be the minimum for me. Otherwise “below-market” just becomes a marketing slogan."
+       ],
+       [
+        "B",
+        "Ten percent is reasonable. I’m not going to fight you on that."
+       ],
+       [
+        "A",
+        "Then I think we have a position. I’ll draft a letter of conditional support with the three conditions, including Thandi’s ten percent. Lorenzo, could you go through the traffic numbers in their study? If there are gaps, we should mention those too."
+       ],
+       [
+        "B",
+        "I can do that. But I want our members to see the letter before it goes to the city. We can’t claim to speak for the association otherwise."
+       ],
+       [
+        "C",
+        "Agreed. We could send it out by email and give people a week to comment."
+       ],
+       [
+        "A",
+        "That’s tight with the deadline on the twentieth, but doable. Let’s aim to have the draft out by Friday."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What evidence does Lorenzo give to support his view on the building’s height?",
+        "o": [
+         "Traffic counts from Pembroke Avenue",
+         "Complaints from parents whose children attend the nearby school",
+         "A report showing that a school playground would be in shade",
+         "The small number of parking spaces in the plan"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "The developer’s own shadow study shows the schoolyard across the street in shade",
+        "x": "He cites the shadow study showing the schoolyard shaded in the afternoons. Traffic is a separate concern he raises later, not evidence about height."
+       },
+       {
+        "q": "Why does Thandi support the proposal at first?",
+        "o": [
+         "People close to her cannot find affordable housing in the area.",
+         "She expects the new building to include a full-sized grocery store.",
+         "She believes the shadow study is inaccurate.",
+         "She wants more people to use the new transit station."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "they can’t find a two-bedroom here for under three thousand a month",
+        "x": "Her son and daughter-in-law cannot afford a two-bedroom nearby. She admits she “hadn’t noticed” the missing grocery store, so that was not her reason."
+       },
+       {
+        "q": "How does Thandi respond to the concern about traffic?",
+        "o": [
+         "She admits residents will park on nearby streets.",
+         "She says each unit will have its own parking spot.",
+         "She suggests widening Pembroke Avenue.",
+         "She argues that most residents will rely on transit."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "Most people living there won’t be driving to work.",
+        "x": "She says the building is beside the transit station, so most residents won’t drive. There are fewer than half as many spaces as units, not one each."
+       },
+       {
+        "q": "How does Lorenzo feel about Thandi’s transit argument?",
+        "o": [
+         "He doubts it reflects how people actually behave.",
+         "He thinks it is the strongest reason to support the plan.",
+         "He agrees once he hears about the station.",
+         "He believes the station will not be finished."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "That’s the theory.",
+        "x": "“That’s the theory. In practice, people own cars” shows skepticism about real behaviour. He does not dispute that the station exists."
+       },
+       {
+        "q": "What point raised by Bernadette makes the others reconsider?",
+        "o": [
+         "The building would cast shadows on seniors’ homes.",
+         "The neighbourhood no longer has a nearby place to buy food.",
+         "The developer has refused to discuss the design.",
+         "The association’s deadline is too close to respond properly."
+        ],
+        "a": 1,
+        "t": "main",
+        "ev": "we lost the only place within walking distance to buy food",
+        "x": "The missing grocery store changes both Thandi’s and Lorenzo’s thinking. The developer’s planner actually said they would consider a design change."
+       },
+       {
+        "q": "Under what condition would Lorenzo accept a twelve-storey building?",
+        "o": [
+         "The building is reduced to six storeys at the street.",
+         "A grocery store signs a lease before construction.",
+         "The design change is formally included in the application.",
+         "The developer’s planner presents the change at a public open house."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "in the formal application, not at an open house",
+        "x": "He wants the stepped design committed in the formal application. He explicitly says a promise at an open house is not enough."
+       },
+       {
+        "q": "Why does Thandi insist on ten percent affordable units?",
+        "o": [
+         "To match the city’s official housing target",
+         "To attract younger families to the neighbourhood",
+         "To make up for the lack of parking spaces",
+         "To make sure the affordability promise is meaningful"
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "just becomes a marketing slogan",
+        "x": "Without a real minimum, “below-market” would be an empty slogan. No city target is mentioned."
+       },
+       {
+        "q": "What will happen before the letter is sent to the city?",
+        "o": [
+         "The developer will present the plans to members.",
+         "Members of the association will be able to comment on it.",
+         "Lorenzo will rewrite the developer’s traffic study.",
+         "Bernadette will meet the developer’s planner again."
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "I want our members to see the letter before it goes to the city",
+        "x": "The draft will be emailed to members, with a week to comment. Lorenzo will review the traffic study for gaps, not rewrite it."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about rules for rent increases.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "In most of the country, if you rent an apartment, there’s a limit on how much your landlord can raise your rent each year. But that limit has a catch. When you move out, the cap disappears, and the landlord can charge the next tenant whatever the market will bear. It’s called vacancy decontrol, and it has become one of the most hotly debated features of rental housing."
+       ],
+       [
+        "A",
+        "For tenant organizer Marisol Quintero, the problem is simple. When a long-term tenant pays nine hundred dollars and the market rate is two thousand, she says, every year that tenant stays costs the landlord over thirteen thousand dollars in lost income. That, she argues, creates a powerful incentive to find a way to get people out, whether through renovations that require the unit to be empty or simply by letting repairs slide until the tenant gives up. She wants the cap to follow the unit, not the tenant."
+       ],
+       [
+        "A",
+        "Landlords see it very differently. Rupert Hale, who speaks for an association of small and mid-sized building owners, says the ability to reset rents when a unit turns over is what keeps older buildings viable. Property taxes, insurance and repair costs, he notes, have risen much faster than the annual cap. Without the reset, he says, many owners would be forced to sell, and the buyers would likely be large investors who would demolish and rebuild, not small landlords who maintain what is already there."
+       ],
+       [
+        "A",
+        "Economists are divided, but several point to a less obvious effect. Housing researcher Anjali Rao says that under strict vacancy control, tenants tend to stay put even when their apartment no longer suits them. A couple whose children have left home might remain in a three-bedroom unit because any move would mean paying far more. She calls this the lock-in effect, and says it means fewer large units become available for families. In her view, vacancy control may protect individual tenants while making the overall market less efficient."
+       ],
+       [
+        "A",
+        "Between these positions, some politicians are looking for a middle path. One city councillor has suggested allowing landlords to raise the rent between tenants, but only by a fixed amount, perhaps ten percent, rather than without limit. Quintero says that would be an improvement, but still not enough to remove the incentive to evict. Hale says any limit would discourage investment, though he admits a modest cap would be easier for owners to live with than full vacancy control."
+       ],
+       [
+        "A",
+        "The province has said it will consult on the issue this winter, but it has made no commitment to change the current rules."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is “vacancy decontrol”?",
+        "o": [
+         "Rents are frozen while an apartment is empty.",
+         "Landlords may raise rents only once each year.",
+         "Newly built apartments are exempt from rent limits.",
+         "Landlords may set any rent when a new tenant arrives."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "the landlord can charge the next tenant whatever the market will bear",
+        "x": "When a tenant leaves, the cap no longer applies and the next tenant can be charged market rent. The yearly limit applies to sitting tenants; new buildings are not discussed."
+       },
+       {
+        "q": "Why does Quintero believe the current system harms tenants?",
+        "o": [
+         "It rewards landlords for getting long-term tenants to leave.",
+         "It allows landlords to ignore the annual cap.",
+         "It makes repairs more expensive for tenants.",
+         "It encourages tenants to move too often."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "creates a powerful incentive to find a way to get people out",
+        "x": "Because a long-term tenant costs the landlord income, landlords have a reason to push them out. Neglected repairs are one method she describes, not a cost tenants pay."
+       },
+       {
+        "q": "What does Quintero propose?",
+        "o": [
+         "Raising the annual cap to match market rates",
+         "Letting landlords raise rents by ten percent between tenants",
+         "Applying the limit to the apartment itself, whoever lives there",
+         "Requiring landlords to complete all outstanding repairs before an increase"
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "She wants the cap to follow the unit, not the tenant.",
+        "x": "She wants the cap attached to the unit, so it continues when tenants change. The ten percent idea is the councillor’s, which she calls not enough."
+       },
+       {
+        "q": "According to Hale, what might happen if rents could not be reset?",
+        "o": [
+         "Small owners might sell to buyers who would tear down the buildings.",
+         "Large investors would stop buying older apartment buildings altogether.",
+         "Tenants would have to pay their own repair costs.",
+         "Property taxes would rise faster than rents."
+        ],
+        "a": 0,
+        "t": "prediction",
+        "ev": "the buyers would likely be large investors who would demolish and rebuild",
+        "x": "He warns owners would sell to large investors who would demolish and rebuild. Taxes rising faster than the cap is a current problem he describes, not a prediction."
+       },
+       {
+        "q": "What does Anjali Rao mean by the “lock-in effect”?",
+        "o": [
+         "Landlords keep large units empty to reset the rent.",
+         "Tenants avoid moving even when their home no longer fits their needs.",
+         "Families are unable to leave apartments that are too small.",
+         "Long leases prevent landlords from increasing rents."
+        ],
+        "a": 1,
+        "t": "main",
+        "ev": "tenants tend to stay put even when their apartment no longer suits them",
+        "x": "Tenants stay in unsuitable homes (like empty-nesters in three bedrooms) to keep a low rent. The result is fewer large units for families, not families trapped in small ones."
+       },
+       {
+        "q": "How does Hale react to the councillor’s proposal?",
+        "o": [
+         "He welcomes it as a fair solution.",
+         "He thinks it would not reduce evictions.",
+         "He opposes it but finds it less harmful than stricter rules.",
+         "He says it would encourage more investment."
+        ],
+        "a": 2,
+        "t": "viewpoint",
+        "ev": "he admits a modest cap would be easier for owners to live with than full vacancy control",
+        "x": "He objects to any limit, but admits a modest cap is easier to accept than full vacancy control. Saying it would not reduce evictions is Quintero’s view."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Odile Marchetti | To: Tobias Lund | Subject: A favour from across the ocean",
+   "text": "Dear Tobias,\n\nGreetings from Lisbon, where it is somehow still warm enough to eat outside in November. I hope the new job is treating you well and that Hana has forgiven you for the canoe incident.\n\nI’m writing with a favour to ask, and please feel free to say no. My tenant in the Kingston condo, Mr. Ferreira, has given notice. He’s been wonderful for three years, and he’s leaving for a good reason: he and his partner have finally bought a house. But it does leave me with a problem. His last day is January 31, and I’m not back in Canada until June.\n\nMy first thought was to sell. I’ve been toying with the idea for a while, and an empty unit seemed like the perfect moment. But my agent says prices in that part of the city have dipped since the summer, and selling in winter would probably mean accepting less than I paid. So, at least for now, I’m going to rent it out again.\n\nThe obvious solution would be a property management company. I contacted two. One wants a full month’s rent just to find a tenant, plus eight percent of the rent every month after that. The other was cheaper but couldn’t start until March, and I can’t afford two months with no rent coming in.\n\nThis is where you might come in. Would you be willing to show the unit to people on a couple of Saturdays in January? I would do all the advertising and screening from here, including credit checks and references, so it would only be the showings themselves and handing over the keys to whoever I choose. Naturally, I’d pay you for your time. I was thinking two hundred dollars per Saturday, but tell me if that’s insulting.\n\nOne thing you should know: the condo board passed a new rule last spring. All leases must now be for at least twelve months, and every new tenant has to be registered with the management office before moving in, with a $50 fee. So anyone looking for something short-term, like students on a work term, is out.\n\nNo pressure at all. If it’s too much with the new job, I completely understand.\n\nWith love,\nOdile",
+   "qs": [
+    {
+     "q": "What is Odile’s opinion of her current tenant?",
+     "o": [
+      "She thinks highly of him.",
+      "She is annoyed that he gave so little notice.",
+      "She suspects the new condo rules made him leave.",
+      "She wishes he had bought her condo instead."
+     ],
+     "a": 0,
+     "t": "attitude",
+     "ev": "He’s been wonderful for three years",
+     "x": "She calls him “wonderful” and says he is leaving for a good reason. Nothing suggests the notice was too short or that the rules drove him away."
+    },
+    {
+     "q": "Why has Odile decided not to sell the condo for now?",
+     "o": [
+      "Her agent will not be available until June.",
+      "The condo board has placed limits on sales.",
+      "She plans to move back into it next summer.",
+      "She would probably lose money on the sale."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "selling in winter would probably mean accepting less than I paid",
+     "x": "Prices have dipped, so she would likely sell for less than she paid. June is when she returns to Canada, not when her agent is available."
+    },
+    {
+     "q": "What is the drawback of the cheaper management company?",
+     "o": [
+      "It takes a percentage of the rent every month.",
+      "It charges a full month’s rent to find a tenant.",
+      "It would leave the unit without rent for too long.",
+      "It will not carry out credit checks."
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "couldn’t start until March",
+     "x": "Starting in March would mean two months without rent after January 31. The finder’s fee and monthly percentage belong to the other company."
+    },
+    {
+     "q": "What would Tobias’s role be?",
+     "o": [
+      "Checking applicants’ credit and references",
+      "Letting people view the condo and passing on the keys",
+      "Advertising the unit and choosing the tenant",
+      "Registering the new tenant with the management office"
+     ],
+     "a": 1,
+     "t": "paraphrase",
+     "ev": "it would only be the showings themselves and handing over the keys",
+     "x": "Odile will do the advertising and screening herself; Tobias would only show the unit and hand over the keys."
+    },
+    {
+     "q": "What does Odile suggest about her payment offer?",
+     "o": [
+      "She considers it more than generous.",
+      "She expects Tobias to refuse any payment.",
+      "She plans to deduct it from the rent.",
+      "She is unsure whether it is enough."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "tell me if that’s insulting",
+     "x": "Asking whether $200 is “insulting” shows she worries it may be too little. Nothing suggests she expects him to refuse payment."
+    },
+    {
+     "q": "According to the new condo rule, who could not rent the unit?",
+     "o": [
+      "A couple who owns a pet",
+      "A tenant who plans to stay for only a few months",
+      "Anyone who has not passed a credit check",
+      "A tenant who cannot pay a $50 deposit"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "All leases must now be for at least twelve months",
+     "x": "Leases must be at least twelve months, so short-term renters are excluded. The $50 is a registration fee, not a deposit, and pets are never mentioned."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Tobias’s response to Odile. Complete the response by choosing the best option for each blank.",
+    "text": "Dear Odile,\n\nLisbon in November sounds deeply unfair. Of course I’ll help, and please don’t pay me two hundred dollars a Saturday. Buy me dinner when you’re back and we’ll call it even.\n\nI think you’re wise not to sell right now. There’s no point in {1} just because the unit happens to be empty. And honestly, the first management company seems steep: between the finder’s fee and {2}, you’d be giving away a big part of your income.\n\nA couple of practical questions. Since the board needs every tenant {3}, should I collect the $50 from the new tenant, or pay it myself and send you the receipt? Also, the new rule means you’ll want someone who is {4}, which might narrow the field in January.\n\nOne last thing: if the new lease starts on February 1, it will run until at least {5}, well after you’re back in June, so make sure you’re happy with whoever you choose.\n\nTalk soon,\nTobias",
+    "blanks": [
+     {
+      "o": [
+       "paying two management firms",
+       "taking a loss on the sale",
+       "lowering the rent for students",
+       "waiting for Mr. Ferreira to leave"
+      ],
+      "a": 1,
+      "t": "paraphrase",
+      "ev": "accepting less than I paid",
+      "x": "Tobias agrees there is no reason to sell at a loss. Paying two firms or lowering rent for students are not mentioned as options."
+     },
+     {
+      "o": [
+       "the board’s registration fee",
+       "the cost of credit checks",
+       "the monthly percentage",
+       "the two months without rent"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "plus eight percent of the rent every month after that",
+      "x": "The first company charges a finder’s fee plus eight percent monthly. Two months without rent was the problem with the other company."
+     },
+     {
+      "o": [
+       "registered before moving in",
+       "to sign a twelve-month lease",
+       "to pass a credit check",
+       "to meet the board in person"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "every new tenant has to be registered with the management office before moving in, with a $50 fee",
+      "x": "The $50 is the fee for registering each tenant with the management office. A twelve-month lease is also required, but it carries no $50 fee."
+     },
+     {
+      "o": [
+       "a student on a work term",
+       "able to pay a larger deposit",
+       "planning to stay at least a year",
+       "willing to wait until March"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "All leases must now be for at least twelve months",
+      "x": "The minimum twelve-month lease means only long-term tenants qualify. Students on a work term are exactly the people Odile says are excluded."
+     },
+     {
+      "o": [
+       "the end of June",
+       "the end of next January",
+       "the end of this year",
+       "next March"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "All leases must now be for at least twelve months",
+      "x": "A lease starting February 1 with a twelve-month minimum lasts until the end of the following January. June is only when Odile returns."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "StowRight Self Storage – Unit Sizes and Monthly Rates",
+    "intro": "Prices are per month. A one-time administration fee of $25 applies to every new rental. A protection plan is mandatory unless you show proof of your own home or tenant insurance that covers stored items.",
+    "table": {
+     "cols": [
+      "Unit size",
+      "Holds about",
+      "Standard (drive-up)",
+      "Climate-controlled",
+      "Available now"
+     ],
+     "rows": [
+      [
+       "5 × 5 ft",
+       "Boxes and seasonal items",
+       "$59",
+       "$74",
+       "Both types"
+      ],
+      [
+       "5 × 10 ft",
+       "Contents of a studio",
+       "$89",
+       "$112",
+       "Both types"
+      ],
+      [
+       "10 × 10 ft",
+       "1-bedroom apartment",
+       "$139",
+       "$172",
+       "Climate-controlled only"
+      ],
+      [
+       "10 × 15 ft",
+       "2-bedroom apartment",
+       "$189",
+       "$229",
+       "Both types"
+      ],
+      [
+       "10 × 20 ft",
+       "3-bedroom house or a car",
+       "$249",
+       "Not offered",
+       "Standard only"
+      ]
+     ]
+    },
+    "notes": [
+     "New customers: 50% off the first month on any unit when you prepay three months or more.",
+     "Protection plan: $12/month for up to $3,000 of coverage; $19/month for up to $6,000.",
+     "Climate-controlled units are recommended for wood furniture, pianos, electronics and documents.",
+     "Students with valid ID: no administration fee.",
+     "Rent is due on the 1st of each month; payments received after the 10th are charged a $20 late fee.",
+     "Moving trucks are available free to new customers on move-in day only (destinations within 30 km)."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about renting a storage unit. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Mireya,\n\nThanks for offering to help me put my things into storage while I’m on the work exchange. I’m going with StowRight. My one-bedroom furniture would fit in a 10 × 10, but since none of the standard ones are free right now, I’ll have to pay {1} a month. Honestly, that’s probably for the best, because {2}, and I’d hate to ruin Grandma’s old dresser.\n\nI’ll be away for four months, so I’ll prepay all four and get half off the first. My tenant insurance doesn’t cover storage, so I’ll add the {3} plan, since everything I own is worth about $5,000. That makes my total for the four months {4}, including the admin fee. I tried to get the student rate, but my ID expired in August.\n\nThe storage place is about 25 km from my apartment, so {5}. That will save us a lot of hassle on Saturday.\n\nSee you then,\nPilar",
+    "blanks": [
+     {
+      "o": [
+       "$139",
+       "$172",
+       "$229",
+       "$112"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Climate-controlled only",
+      "x": "Only climate-controlled 10 × 10 units are available, at $172. $139 is the standard rate, which she cannot get."
+     },
+     {
+      "o": [
+       "climate control is cheaper for long stays",
+       "standard units don’t allow furniture",
+       "wooden pieces are better kept in climate control",
+       "the 10 × 15 units are all taken"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Climate-controlled units are recommended for wood furniture",
+      "x": "The notes recommend climate control for wood furniture, which explains her worry about the dresser. Climate control is more expensive, not cheaper."
+     },
+     {
+      "o": [
+       "$12-a-month",
+       "$24-a-month",
+       "$31-a-month",
+       "$19-a-month"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "$19/month for up to $6,000",
+      "x": "Her belongings are worth $5,000, above the $3,000 limit of the $12 plan, so she needs the $19 plan."
+     },
+     {
+      "o": [
+       "$678",
+       "$703",
+       "$789",
+       "$627"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "New customers: 50% off the first month on any unit when you prepay three months or more.",
+      "x": "Rent: $172 × 4 = $688 − $86 (half of month one) = $602; plan $19 × 4 = $76; admin fee $25. Total $703. $678 forgets the admin fee."
+     },
+     {
+      "o": [
+       "we’ll have to rent a truck",
+       "we can use their truck for free",
+       "we’ll need two trips in your car",
+       "the truck will cost us $20"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Moving trucks are available free to new customers on move-in day only (destinations within 30 km).",
+      "x": "25 km is within the 30 km limit, so as a new customer she gets a free truck on move-in day. $20 is the late fee."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A student with valid ID rents a standard 5 × 5 unit for two months, paying monthly. Her own insurance covers stored items. What will she pay in total?",
+     "o": [
+      "$143.00",
+      "$88.50",
+      "$118.00",
+      "$142.00"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Students with valid ID: no administration fee.",
+     "x": "2 × $59 = $118; no admin fee for students, no protection plan needed, and no 50% discount because she is not prepaying three months. $143 wrongly adds the admin fee."
+    },
+    {
+     "q": "Which customer could NOT be given the unit they want right now?",
+     "o": [
+      "Someone who wants a standard 5 × 10",
+      "Someone who wants a climate-controlled 10 × 10 for a wooden piano",
+      "Someone who wants a standard 10 × 15",
+      "Someone who wants a climate-controlled 10 × 20 for a car"
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "Not offered",
+     "x": "Climate-controlled 10 × 20 units are “Not offered”. The other three are available now."
+    },
+    {
+     "q": "A customer with a standard 10 × 15 unit and the $12 protection plan pays November’s rent on November 12. How much must she pay?",
+     "o": [
+      "$221",
+      "$201",
+      "$209",
+      "$241"
+     ],
+     "a": 0,
+     "t": "diagram",
+     "ev": "payments received after the 10th are charged a $20 late fee",
+     "x": "$189 + $12 + $20 late fee = $221. $201 forgets the late fee, since the 12th is after the 10th."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Why Condo Fees Keep Climbing",
+   "paras": [
+    "Ask condo owners what surprised them most after buying, and many will mention the monthly fee. In several Canadian cities, fees in older buildings have risen faster than inflation for years in a row. The fee pays for the day-to-day running of the building – cleaning, security, utilities for common areas and management – but also for contributions to the reserve fund, the savings account every condo corporation must keep for major repairs such as roofs, elevators and parking garages. When that fund is too small, owners face an unpleasant choice between steep fee increases and one-time special assessments that can run into thousands of dollars per unit. Few buyers, surveys suggest, read the corporation’s financial statements closely before they sign, which is why the increases often come as a shock.",
+    "Insurance is one of the fastest-growing costs. After a series of expensive water and fire claims across the country, insurers have raised premiums for condo buildings sharply, and in some cases have increased the deductible, the amount the corporation must pay before coverage begins, to fifty thousand dollars or more for water damage. Property managers report that some older buildings have struggled to find any insurer willing to quote at all. Those costs flow directly into owners’ fees. Some corporations have responded by passing part of the deductible on to the owner whose unit caused the damage, which has made personal condo insurance far more important than many owners realize.",
+    "The age of the building matters too. Many towers built in the 1970s and 1980s now face the replacement of systems that were designed to last thirty or forty years. Reserve fund studies, which estimate future repair costs, are required in most provinces every three to five years, but critics say early studies often assumed unrealistically low construction costs. A building whose study was written in 2015 may have been saving based on prices that bear little relation to what contractors charge today. Engineers who prepare these studies say the gap is especially large for elevators and underground garages, where specialized trades are scarce and the work cannot easily be delayed.",
+    "Some boards are trying new approaches. A growing number have switched to energy-efficient lighting and boilers, which can reduce utility costs in common areas by a third or more, although the savings take years to cover the upfront expense. Others are renegotiating long-term service contracts that were signed by the developer before owners took control of the building. Experts also urge buyers to look past the fee itself. A building with a low fee and a weak reserve fund, they warn, may be a worse deal than one with a higher fee and healthy savings, because the low-fee building is simply postponing the bill. A careful look at the reserve fund study, they add, is worth more than any tour of the lobby."
+   ],
+   "qs": [
+    {
+     "q": "Some buildings have had difficulty getting any insurance offers.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "some older buildings have struggled to find any insurer willing to quote at all",
+     "x": "Paragraph B: some older buildings struggled to find an insurer willing to quote."
+    },
+    {
+     "q": "An owner may have to pay part of a claim when the problem started in their own unit.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "passing part of the deductible on to the owner whose unit caused the damage",
+     "x": "Paragraph B describes corporations passing part of the deductible to the owner whose unit caused the damage."
+    },
+    {
+     "q": "Earlier forecasts of repair costs were often too optimistic.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "early studies often assumed unrealistically low construction costs",
+     "x": "Paragraph C: early reserve studies assumed unrealistically low construction costs."
+    },
+    {
+     "q": "A low monthly fee can be a sign of costs that will come later.",
+     "a": "D",
+     "t": "inference",
+     "ev": "the low-fee building is simply postponing the bill",
+     "x": "Paragraph D warns that a low-fee building with weak savings is just postponing the bill."
+    },
+    {
+     "q": "Part of each monthly fee goes toward savings for large future repairs.",
+     "a": "A",
+     "t": "detail",
+     "ev": "but also for contributions to the reserve fund",
+     "x": "Paragraph A: the fee also pays contributions to the reserve fund for major repairs."
+    },
+    {
+     "q": "Switching to efficient lighting usually pays for itself within a year.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph D says the savings “take years” to cover the cost; no paragraph mentions a one-year payback."
+    },
+    {
+     "q": "Fees in newly built condos have increased faster than those in older buildings.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph A discusses rising fees in older buildings only; there is no comparison with new buildings."
+    },
+    {
+     "q": "Some agreements made before owners were in charge are now being reconsidered.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "renegotiating long-term service contracts that were signed by the developer",
+     "x": "Paragraph D: boards are renegotiating contracts the developer signed before owners took control."
+    },
+    {
+     "q": "The difference between planned and actual costs is greatest for certain parts of a building.",
+     "a": "C",
+     "t": "detail",
+     "ev": "the gap is especially large for elevators and underground garages",
+     "x": "Paragraph C names elevators and underground garages as having the largest gap."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Stop Asking Home Buyers to Bid in the Dark",
+   "byline": "Opinion | by Nadia Corriveau, real estate broker",
+   "text": "In the spring of last year, I watched a young couple lose their eleventh bidding war in a row. They had done everything right: mortgage pre-approval, a home inspection paid for in advance, a deposit cheque ready to go. On the night offers were reviewed, they bid fifty-one thousand dollars over the asking price on a semi-detached house in the east end. They lost. A week later, they found out the winning offer was only two thousand dollars higher than theirs.\n\nThat is the reality of blind bidding, the system used for most home sales in this country. When a property attracts multiple offers, buyers submit their bids without knowing what anyone else has offered. The seller’s agent knows every number; the buyers know none. As a broker for nineteen years, I have represented both sides, and I have come to believe that this system is unfair to buyers and, ultimately, bad for the market.\n\nThe case against blind bidding is not that it raises prices, although it often does. It is that it forces families making the largest purchase of their lives to guess. Some guess too low and lose homes they could have afforded. Others, terrified of losing again, guess far too high, and then discover, sometimes when the appraisal comes in, that they overpaid by tens of thousands of dollars. Neither outcome reflects what the house is actually worth.\n\nDefenders of the current system say that sellers have a right to privacy and that revealing offers would simply turn every sale into an auction. I take the second point seriously. In a hot market, open bidding could indeed push prices higher in the short term, as buyers see exactly how much they need to beat. But at least those buyers would be making decisions with real information, and they could also see when it was time to walk away. An auction with rules is fairer than a lottery without them.\n\nAs for privacy, I am not proposing that buyers’ names or financial details be shared. What I am proposing is simple: once a property has received more than one offer, the amounts of all offers, with identifying details removed, should be disclosed to every bidder, and bidders should be given one chance to improve their offer. Other countries have used open bidding for decades, and their housing markets have not collapsed.\n\nThere is a second reform worth considering alongside it. Too many buyers now waive the home inspection to make their offers more attractive, which is a gamble no one should have to take. A short, mandatory period to complete an inspection after an offer is accepted would protect buyers without slowing sales significantly.\n\nI do not expect my profession to embrace these ideas with enthusiasm. Blind bidding is good for commissions, which are usually a percentage of the final price. But real estate agents are supposed to serve the public, not just the seller on a given night. If we want buyers to trust us, we should stop asking them to bid in the dark.",
+   "qs": [
+    {
+     "q": "Why does the writer begin with the story of the young couple?",
+     "o": [
+      "To show that pre-approval does not guarantee a mortgage",
+      "To illustrate how buyers can lose without knowing how close they came",
+      "To prove that bidding wars always push prices far above the asking price",
+      "To explain why buyers should hire experienced brokers"
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "the winning offer was only two thousand dollars higher than theirs",
+     "x": "The couple lost by only $2,000 without knowing it – the key problem of blind bidding. The story is not about mortgages or hiring brokers."
+    },
+    {
+     "q": "According to the writer, what is the main problem with blind bidding?",
+     "o": [
+      "It always drives prices higher than they should be.",
+      "It allows buyers’ agents to see competing offers.",
+      "It causes appraisals to come in below the price.",
+      "It forces buyers to make huge decisions without key information."
+     ],
+     "a": 3,
+     "t": "main",
+     "ev": "it forces families making the largest purchase of their lives to guess",
+     "x": "She says the problem “is not that it raises prices, although it often does”, but that buyers must guess. It is the seller’s agent, not buyers’ agents, who sees the offers."
+    },
+    {
+     "q": "How does the writer respond to the argument that open bidding would create auctions?",
+     "o": [
+      "She admits prices could rise but still prefers openness.",
+      "She rejects it as having no evidence behind it.",
+      "She says auctions would lower prices over time.",
+      "She agrees and drops her proposal for hot markets."
+     ],
+     "a": 0,
+     "t": "viewpoint",
+     "ev": "open bidding could indeed push prices higher in the short term",
+     "x": "She takes the point “seriously” and concedes higher short-term prices, but argues buyers would at least have real information. She does not reject or abandon her proposal."
+    },
+    {
+     "q": "What exactly does the writer propose?",
+     "o": [
+      "Sharing buyers’ names with the seller’s agent",
+      "Banning offers above the asking price",
+      "Disclosing competing offer amounts without saying who made them",
+      "Allowing every buyer unlimited chances to keep raising their offers"
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "the amounts of all offers, with identifying details removed, should be disclosed to every bidder",
+     "x": "Offer amounts would be shared anonymously, with one chance to improve. She specifically says names would not be shared, and bidders get one chance, not unlimited ones."
+    },
+    {
+     "q": "Why does the writer expect resistance from other agents?",
+     "o": [
+      "The current system tends to increase their earnings.",
+      "They believe sellers deserve complete privacy.",
+      "They worry inspections will slow down sales.",
+      "They have not been trained in open auctions."
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "Blind bidding is good for commissions",
+     "x": "Commissions are a percentage of the final price, and blind bidding pushes prices up. Privacy is an argument of the system’s defenders in general, not her explanation for agents’ resistance."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I bought my first condo last year after losing four bidding wars, so this article hit home. The worst part was never the losing itself; it was {1}. Like the couple Ms. Corriveau describes, I sometimes wondered whether a few thousand dollars more would have made the difference.\n\nThat said, I’m not convinced open bidding would help buyers like me. If every bidder can see the top offer, the people with the deepest pockets will simply {2}, and first-time buyers will be priced out even faster. Ms. Corriveau admits this herself, but I think she {3}.\n\nWhere I fully agree with her is on inspections. On my third attempt, I {4}, and I still lost. Looking back, I’m relieved, because that house turned out to have foundation problems. A mandatory inspection period would {5}.\n\nMaybe agents really should start asking themselves who they work for.",
+    "blanks": [
+     {
+      "o": [
+       "paying for all those inspections",
+       "not knowing how close I had come",
+       "dealing with my bank’s delays",
+       "explaining it to my family"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "they found out the winning offer was only two thousand dollars higher than theirs",
+      "x": "He shares the couple’s frustration of not knowing whether a little more would have won. The next sentence about “a few thousand dollars more” confirms it."
+     },
+     {
+      "o": [
+       "withdraw from the bidding",
+       "beat it by just enough to win",
+       "wait for prices to fall",
+       "hide their identities"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "as buyers see exactly how much they need to beat",
+      "x": "Wealthy buyers would see the top offer and top it by just enough. Withdrawing would not price first-time buyers out."
+     },
+     {
+      "o": [
+       "ignores the issue entirely",
+       "rejects it as unrealistic",
+       "dismisses the concern too quickly",
+       "proposes a cap on prices"
+      ],
+      "a": 2,
+      "t": "viewpoint",
+      "ev": "An auction with rules is fairer than a lottery without them.",
+      "x": "She admits the risk but moves past it with the “auction versus lottery” argument, which the reader finds too quick. She does not ignore or reject the issue."
+     },
+     {
+      "o": [
+       "waived the inspection to strengthen my offer",
+       "offered fifty thousand over the asking price",
+       "asked to see the other bids",
+       "hired a second agent to help me"
+      ],
+      "a": 0,
+      "t": "inference",
+      "ev": "Too many buyers now waive the home inspection to make their offers more attractive",
+      "x": "He took the gamble the article describes – skipping the inspection – which is why he is relieved he lost a house with foundation problems."
+     },
+     {
+      "o": [
+       "slow down every sale considerably",
+       "make bidding wars illegal",
+       "raise prices even further for first-time buyers",
+       "spare other buyers that kind of risk"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "would protect buyers without slowing sales significantly",
+      "x": "An inspection period would protect buyers from the risk he took. The article says it would not slow sales significantly."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You own a unit in a condominium building. Your upstairs neighbour has been renovating their unit for six weeks. The work often starts before 8 a.m., even on weekends, and dust has been coming into your unit through the ventilation. You spoke to the neighbour once, but nothing changed.",
+   "bullets": [
+    "Describe the problem and how it is affecting you",
+    "Explain what you have already tried",
+    "Suggest what the property manager should do"
+   ],
+   "model": "Dear Mr. Sandoval,\n\nI am writing about the renovation in unit 1204, directly above mine, which has now been under way for six weeks. Drilling and hammering regularly begin before 8 a.m., including on Saturdays and Sundays, even though our building rules allow construction only from 9 a.m. to 5 p.m. on weekdays. In addition, a fine white dust has been coming through my bathroom and kitchen vents, and I have had to clean my unit almost daily. I work night shifts twice a week, so the early noise has made it very difficult to sleep.\n\nThree weeks ago, I spoke politely with the owner, who promised to remind the contractor of the permitted hours. Unfortunately, nothing has changed since then.\n\nI would be grateful if you could contact the owner in writing to confirm the hours set out in the rules, and ask the contractor to seal the vents in the work area. I would also appreciate it if you could let me know when the renovation is expected to be finished.\n\nThank you in advance for your help.\n\nKind regards,\nMalik Haddad"
+  },
+  "t2": {
+   "intro": "Your condominium board is considering how to improve security in your building and has asked owners for their opinion. Choose the option you prefer and explain your reasons.",
+   "question": "Which option do you prefer?",
+   "a": "Option A: Hire a full-time concierge who would be at the front desk from 7 a.m. to 11 p.m. to receive deliveries, greet visitors and monitor the cameras. Monthly fees would rise by $40 per unit.",
+   "b": "Option B: Install a video intercom and an electronic key-fob system that records who enters the building. Owners would pay a one-time charge of $300 per unit, and monthly fees would stay the same.",
+   "model": "Although both options would make our building safer, I would choose Option B, the video intercom and key-fob system.\n\nMy first reason is cost. A $40 monthly increase adds up to $480 a year for every owner, and that amount would continue indefinitely and probably rise with wages. By contrast, the one-time charge of $300 is less than one year of the concierge fee. For retired owners and young families on tight budgets, a permanent increase in fees is much harder to absorb.\n\nSecond, the electronic system works around the clock. A concierge would leave at 11 p.m., which is exactly when break-ins are most likely. Key fobs would also let the board cancel lost fobs immediately and see who entered the building at any time, something a person at a desk cannot do.\n\nI admit a concierge would be friendlier and would help with deliveries, which is a real advantage. However, our building could solve the delivery problem more cheaply with parcel lockers, while the fob system addresses security directly. For these reasons, I believe Option B is the smarter long-term investment."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend owns a house and is thinking about renting out the basement as an apartment to help pay the mortgage. Your friend has never been a landlord before. Advise your friend about what to consider.",
+   "model": "I think it’s a smart idea in principle. Extra rental income can make a big difference to a mortgage. But being a landlord is a real responsibility, so there are a few things I’d look into first.\n\nTo begin with, check whether the basement is actually legal as a rental unit in your city. There are usually rules about ceiling height, windows for emergency exits, smoke alarms and a separate entrance. If you rent out a unit that doesn’t meet the code, you could get fined, and your insurance might not cover you if something goes wrong. Speaking of which, call your insurance company before anyone moves in.\n\nNext, think carefully about choosing a tenant. Since this person will be living right under you, ask for references from previous landlords and do a credit check. It’s much easier to be picky at the beginning than to deal with problems later.\n\nYou should also learn the basic tenancy rules in our province, like how much notice you need to give before entering the unit and how rent increases work. Many new landlords get into trouble simply because they don’t know the law.\n\nFinally, budget for repairs and the occasional empty month. If you plan carefully, it could really pay off."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you had a disagreement with a neighbour or roommate. What happened, and how was it resolved?",
+   "model": "When I was in university, I shared an apartment with a guy named Felix, and we had a big disagreement about cleaning. I liked the kitchen to be tidy every night, but Felix would leave dishes in the sink for days. At first I didn’t say anything, and I just did them myself, but after a few weeks I was really frustrated.\n\nOne evening, I finally lost my patience and left him a pretty rude note. That turned out to be a mistake, because he was hurt and stopped talking to me for two days.\n\nIn the end, we sat down over pizza and talked properly. It turned out he was working late shifts and was exhausted. We made a simple schedule, and he took over taking out the garbage instead. Since then, I always talk to people face to face instead of leaving notes."
+  },
+  "t3": {
+   "scene": {
+    "bg": "indoor",
+    "alt": "A family is repainting their living room. The sofa on the left is covered with a white sheet. In the middle, a man in a blue shirt stands at the top of a tall ladder, painting the upper part of the wall green with a brush. Below him on the floor is an open green can of paint, and a light-brown dog is sniffing it closely. On the left, a small boy in a yellow shirt is holding a brush and has painted a red patch low on the wall near the sofa. On the right, a woman in an orange dress with her hair in a bun is looking at her phone. There is a window at the top right, a clock on the wall, a potted plant and a tall lamp in the corner.",
+    "items": [
+     [
+      "window",
+      420,
+      70,
+      130,
+      100
+     ],
+     [
+      "clock",
+      320,
+      55
+     ],
+     [
+      "sofa",
+      30,
+      345,
+      150,
+      "#ecf0f1"
+     ],
+     [
+      "rect",
+      185,
+      262,
+      32,
+      22,
+      "#e74c3c"
+     ],
+     [
+      "person",
+      172,
+      352,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "hold": "paint",
+       "holdColor": "#e74c3c",
+       "hairStyle": "curly"
+      }
+     ],
+     [
+      "ladder",
+      250,
+      350,
+      170
+     ],
+     [
+      "person",
+      276,
+      232,
+      {
+       "shirt": "#2980b9",
+       "hold": "paint",
+       "holdColor": "#27ae60",
+       "hair": "#3b2a1a"
+      }
+     ],
+     [
+      "box",
+      320,
+      352,
+      30,
+      24,
+      "PAINT",
+      "#27ae60"
+     ],
+     [
+      "dog",
+      385,
+      354,
+      "#c49a6c",
+      true
+     ],
+     [
+      "person",
+      500,
+      352,
+      {
+       "shirt": "#e67e22",
+       "dress": true,
+       "hairStyle": "bun",
+       "hold": "phone",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "plant",
+      565,
+      352,
+      0.9
+     ],
+     [
+      "lamp",
+      612,
+      352
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a family in the middle of repainting their living room, and it looks like a busy, slightly chaotic afternoon.\n\nOn the left side of the room, the sofa has been covered with a white sheet to protect it from paint. In the centre, there’s a tall ladder, and a man in a blue shirt is standing near the top of it. He’s holding a brush and painting the upper part of the wall a fresh green colour.\n\nRight below the ladder, there’s an open can of green paint sitting on the floor, and a light-brown dog has wandered over and is sniffing it very closely, with its nose almost inside the can.\n\nMeanwhile, near the sofa, a little boy in a yellow shirt has his own brush, and he has painted a bright red patch low down on the wall. I don’t think that was part of the plan.\n\nOn the right, a woman in an orange dress, with her hair up in a bun, is looking down at her phone. Maybe she’s checking instructions or ordering more supplies, but she hasn’t noticed what the boy or the dog is doing.\n\nThere’s also a window, a clock, a plant and a floor lamp in the room."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think things are about to get a lot messier in this living room.\n\nFirst, the dog is sniffing that open can of green paint, and dogs are curious. My guess is that it will either stick its nose right in or bump the can with its body and knock it over. If that happens, green paint will spread across the floor, and the dog will probably run off, leaving green paw prints all over the room.\n\nThe noise will make the man on the ladder look down, and since he’s quite high up, he might lose his balance a little. Hopefully he’ll grab the ladder in time, but he might drop his brush.\n\nThe woman on the right will finally look up from her phone. When she sees the red patch the little boy painted, and the spilled paint, she’ll probably put her phone away and take the brush from him. I imagine she’ll be frustrated at first, but she might end up laughing about it.\n\nIn the end, I think the family will have to spend the next hour cleaning the floor and painting over the red patch, so the job will take longer than they expected. They may also decide to put the dog outside until they’re finished."
+  },
+  "t5": {
+   "intro": "You and your partner have saved money for a home improvement project and are choosing between two options. Choose the option that you prefer. In the next section, you will need to persuade your partner that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Renovate the kitchen",
+     "details": [
+      "$28,000",
+      "6 weeks; no cooking at home during the work",
+      "New cabinets, counters and appliances",
+      "Adds the most to resale value",
+      "Contractor available in March"
+     ]
+    },
+    {
+     "title": "Finish the basement",
+     "details": [
+      "$34,000",
+      "8 weeks; little disruption upstairs",
+      "Adds a family room and a guest bedroom",
+      "Could be rented out later",
+      "Contractor available in January"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Build a backyard deck and patio",
+    "details": [
+     "$15,000",
+     "3 weeks",
+     "Outdoor dining and lounge area",
+     "Usable from May to September",
+     "Contractor available in May"
+    ]
+   },
+   "otherWho": "Your partner prefers",
+   "persuade": "Your partner prefers the backyard deck and patio. Persuade your partner that your choice is better.",
+   "model": "I know the deck is tempting. It’s the cheapest option, and summer evenings outside would be lovely. But I really think finishing the basement is the better investment for us.\n\nThe biggest issue with the deck is that we’d only use it for about five months a year. From October to April, it would just sit under the snow. The basement, on the other hand, would give us a family room and a guest bedroom that we could use every single day, all year round.\n\nI also think about what it would do for us financially. Yes, the basement costs more, about nineteen thousand dollars more. But it could be rented out later as a separate space, which could bring in a few hundred dollars a month. Over a few years, that would cover the difference. A deck will never pay us back like that.\n\nAnd think about your parents. Every time they visit, they’re squeezed onto the sofa bed. With a proper guest room, they could stay longer and be comfortable.\n\nFinally, the timing works. The contractor can start in January, and since the work is downstairs, it won’t disrupt our daily lives much. We could still build a small deck in a year or two."
+  },
+  "t6": {
+   "situation": "Your elderly neighbour, Mrs. Halvorsen, is 84 and lives alone. She has asked you to be her emergency contact, to keep a key to her house, and to check on her every morning before work. You like her and want to help. However, your spouse is uncomfortable. You both work long hours, you are expecting a baby in three months, and your spouse worries that you are taking on too much responsibility.",
+   "options": [
+    "Talk to Mrs. Halvorsen and explain that you cannot check on her every day.",
+    "Talk to your spouse and explain why you want to help Mrs. Halvorsen."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Mrs. Halvorsen, thank you so much for trusting us with this. It really means a lot that you’d ask, and I want you to know that we care about you and want to help.\n\nI have to be honest with you, though. With the baby coming in three months, and both of us working long hours, I don’t think I can promise to come over every single morning. I’d hate to say yes and then let you down on a day when you really needed me, especially once we have a newborn and our mornings become unpredictable.\n\nBut I don’t want to just say no, either. Here’s what I’d like to suggest. I’m happy to be one of your emergency contacts, and we can keep a spare key in case something happens. For the daily check-ins, I’ve read about a program where volunteers call seniors every morning, and if nobody answers, they call the emergency contact. That way, someone is checking on you every day, and if there’s ever a problem, I’ll come right over.\n\nWe could also have tea together on Sunday afternoons, if you’d like. Would you be willing to try that arrangement? I can help you sign up for the call program this week."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should cities charge higher property taxes on homes that are left empty for most of the year? Explain your reasons.",
+   "model": "I believe cities should charge higher taxes on homes that sit empty for most of the year, as long as the rules are designed fairly.\n\nMy main reason is the housing shortage. In many Canadian cities, families are struggling to find anywhere to live, while some houses and condos are bought purely as investments and left empty. An extra tax gives owners a strong financial reason to either rent those homes out or sell them to people who will live there. Even a small increase in available homes can ease pressure on rents.\n\nSecond, the money raised can be put to good use. Cities could direct the revenue toward affordable housing projects or programs for people at risk of losing their homes, so the tax helps twice.\n\nHowever, there need to be sensible exceptions. If someone is in hospital, working overseas for a few months, or waiting for an estate to be settled after a death, they shouldn’t be punished. Cities should also make the process simple, because forcing every homeowner to fill out complicated forms would cause frustration.\n\nOverall, I think a well-designed vacancy tax is a reasonable way to make sure homes are used as homes, not just as places to park money."
+  },
+  "t8": {
+   "scene": {
+    "bg": "winter",
+    "alt": "A snowy residential street in winter. On the left is a light-blue house with a dark roof and a FOR SALE sign in front of it, where a man in a blue shirt is pointing and a real estate agent in a grey dress is holding papers. In the yard next door stands an enormous snowman, roughly twice as tall as the houses, with a carrot nose, stick arms and a hat. A tall ladder leans against it, and a man in a red jacket with a dark hat is standing on top of the ladder holding a shovel. A child in a green jacket is cheering with both arms in the air. On the right is a second house, peach-coloured with a brown roof, and a pine tree.",
+    "items": [
+     [
+      "cloud",
+      60,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      470,
+      40,
+      0.9
+     ],
+     [
+      "house",
+      150,
+      330,
+      "#aed6f1",
+      "#34495e"
+     ],
+     [
+      "sign",
+      230,
+      370,
+      "FOR SALE",
+      "#fff"
+     ],
+     [
+      "big",
+      "snowman",
+      340,
+      345,
+      2.6
+     ],
+     [
+      "ladder",
+      395,
+      345,
+      170
+     ],
+     [
+      "person",
+      425,
+      200,
+      {
+       "shirt": "#c0392b",
+       "hold": "shovel",
+       "hat": "#2c3e50"
+      }
+     ],
+     [
+      "house",
+      540,
+      330,
+      "#f5cba7",
+      "#a04000"
+     ],
+     [
+      "pine",
+      620,
+      320,
+      0.8
+     ],
+     [
+      "person",
+      60,
+      375,
+      {
+       "shirt": "#2e86c1",
+       "pose": "point"
+      }
+     ],
+     [
+      "person",
+      100,
+      378,
+      {
+       "shirt": "#7f8c8d",
+       "dress": true,
+       "hairStyle": "long",
+       "hold": "map",
+       "hair": "#d4ac0d"
+      }
+     ],
+     [
+      "person",
+      470,
+      380,
+      {
+       "kid": true,
+       "shirt": "#27ae60",
+       "pose": "both"
+      }
+     ]
+    ]
+   },
+   "prompt": "You are thinking about buying a house, and when you went to see it, you noticed this in the yard next door. Call a friend, describe what you saw, and explain whether it would affect your decision to buy the house. Your friend cannot see the picture.",
+   "model": "You will not believe what I saw at the house viewing today. The house itself is nice: light blue, with a dark roof and a big front window. But right next door, in the neighbour’s yard, there’s a snowman that is honestly about twice as tall as the house. I’m not exaggerating. It has a carrot nose, stick arms and a hat, and a man in a red jacket was standing at the top of a huge ladder, adding snow with a shovel. A little kid in a green jacket was cheering him on.\n\nSo, would it affect my decision? Honestly, I think it’s a good sign more than a bad one. It tells me the neighbours are fun, creative people who spend time outdoors with their kids, and that’s the kind of street I want to live on.\n\nThat said, I do have a couple of questions. If they build something this big every winter, will it block the sunlight in my front windows? And when it melts in the spring, where does all that water go? If it drains toward my basement, that could be a real problem. I think I’ll ask the agent about drainage before I make an offer. But overall, I’m still very interested."
+  }
+ }
+}

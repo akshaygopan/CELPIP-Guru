@@ -1,0 +1,1857 @@
+{
+ "id": "t01",
+ "title": "Test 1",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two staff members at a community centre are dealing with a problem before a fundraiser.",
+    "sp": {
+     "A": {
+      "name": "Priya",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Marcus",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Marcus, do you have a minute? I just got off the phone with facilities, and it is not good news about Saturday."
+       ],
+       [
+        "B",
+        "Uh oh. Is this about the gym? I noticed the floor looked a bit warped near the stage on Monday."
+       ],
+       [
+        "A",
+        "Worse than warped. A pipe burst in the ceiling overnight, and they have pulled up half the floorboards. The insurance adjuster can not even come out until Thursday, so there is no way the space will be ready for the silent auction."
+       ],
+       [
+        "B",
+        "Seriously? We have sold two hundred and forty tickets. And the caterer needs a final head count and the room layout by tomorrow at noon."
+       ],
+       [
+        "A",
+        "I know. That is what is worrying me most. If we cancel now, we lose the deposit for the caterer, which was eight hundred dollars, and honestly, half of the donated auction items are gift certificates that expire at the end of the month."
+       ],
+       [
+        "B",
+        "Okay. So postponing is not really an option either, then."
+       ],
+       [
+        "A",
+        "Not unless we want to go back to every donor and ask for new certificates. Some of them were hard enough to get the first time."
+       ],
+       [
+        "B",
+        "Right. Let us think about where else two hundred and forty people could fit on short notice. Have you talked to the director?"
+       ],
+       [
+        "A",
+        "She is at a conference in Ottawa until Friday, and she said whatever we decide, she will back us, as long as we do not spend more than the contingency fund."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why can the gym not be used on Saturday?",
+        "o": [
+         "The insurance company has closed the building.",
+         "The stage is being rebuilt for another event.",
+         "The floor was damaged by water from above.",
+         "The caterer refused to work in that space."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "A pipe burst in the ceiling overnight, and they have pulled up half the floorboards",
+        "x": "A burst pipe in the ceiling means water came from above and damaged the floor. The insurance adjuster is only coming to inspect; nobody “closed the building”, and nothing is said about rebuilding the stage or the caterer refusing."
+       },
+       {
+        "q": "What is Priya most concerned about?",
+        "o": [
+         "Losing money and donated items if the event is put off",
+         "Refunding all 240 ticket holders if the auction is cancelled",
+         "Getting the director’s approval before she returns from Ottawa",
+         "Finding enough volunteers to move the auction tables"
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "If we cancel now, we lose the deposit for the caterer",
+        "x": "She lists the $800 deposit and gift certificates that expire at the end of the month – both are lost if the event does not happen soon. Refunds and volunteers are never mentioned, and the director has already given approval in advance."
+       },
+       {
+        "q": "What has the director told them?",
+        "o": [
+         "To wait until she returns from her conference on Friday",
+         "To cancel the event if no venue is found",
+         "That she will contact the insurance adjuster herself",
+         "That they can make the decision within a budget limit"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "she will back us, as long as we do not spend more than the contingency fund",
+        "x": "“She will back us … as long as we do not spend more than the contingency fund” = they may decide, within a spending limit. She is away until Friday, but she does not ask them to wait."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "What about the church hall on Elgin Street? We used it for the craft fair last spring."
+       ],
+       [
+        "A",
+        "I thought of that, but it only holds about a hundred and eighty, and that is with chairs, not auction tables. Even if we squeezed people in, the fire inspector would never sign off."
+       ],
+       [
+        "B",
+        "Fair enough. The high school auditorium is big enough, though."
+       ],
+       [
+        "A",
+        "Big enough, yes, but they charge fourteen hundred dollars for a Saturday evening, and they insist on their own custodial staff at overtime rates. That would wipe out most of the contingency fund before we even pay for parking."
+       ],
+       [
+        "B",
+        "Hmm. What about splitting it? We could hold the auction outside under a tent in the parking lot here and keep the dinner in the multipurpose room."
+       ],
+       [
+        "A",
+        "The multipurpose room seats a hundred and twenty at most. And a tent in late October, if it rains, people would be standing in mud bidding on spa packages. I can not see that going over well."
+       ],
+       [
+        "B",
+        "Okay, what about the new seniors’ activity centre on Brant Road? It opened in September. My aunt goes there for line dancing, and she says the main hall is enormous."
+       ],
+       [
+        "A",
+        "I had no idea it was finished. Do you know who manages bookings?"
+       ],
+       [
+        "B",
+        "It is run by the city, so it should be on the recreation booking site. I can check right now."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Priya reject the church hall?",
+        "o": [
+         "It was already booked for a craft fair.",
+         "It is too small to hold the guests safely.",
+         "The fire inspector found problems there last spring.",
+         "It does not allow auction tables."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "it only holds about a hundred and eighty",
+        "x": "180 people is fewer than the 240 tickets sold, so it would not pass a fire inspection – it is too small to be safe. The craft fair was a past event, and the inspector “would never sign off” is a prediction, not a past finding."
+       },
+       {
+        "q": "What is the main problem with the high school auditorium?",
+        "o": [
+         "The total cost would use up most of their emergency money.",
+         "Its parking is not available on Saturdays.",
+         "It is too far from the community centre.",
+         "Its custodial staff would not be available on Saturday evening."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "That would wipe out most of the contingency fund",
+        "x": "The rental fee plus overtime custodians “would wipe out most of the contingency fund”. Parking is mentioned only as an extra cost; custodians are required, not unavailable."
+       },
+       {
+        "q": "How does Priya feel about Marcus’s idea of splitting the event?",
+        "o": [
+         "She believes the multipurpose room is the best option.",
+         "She likes it but thinks renting a large tent would cost too much.",
+         "She thinks guests would be unhappy if the weather turned bad.",
+         "She wants to hold the whole event outdoors instead."
+        ],
+        "a": 2,
+        "t": "attitude",
+        "ev": "I can not see that going over well",
+        "x": "She imagines people “standing in mud” if it rains and says she cannot see that “going over well” – guests would be unhappy. She never mentions the cost of a tent."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Okay, found it. Main hall at the Brant Road centre: capacity three hundred, with a full kitchen and a stage. And, wait, Saturday the twenty-sixth shows as available after four p.m."
+       ],
+       [
+        "A",
+        "After four? Our doors open at six, so that is plenty of time. What is the rate?"
+       ],
+       [
+        "B",
+        "Six hundred and fifty for non-profit groups, and they include tables and chairs. The only catch is that a staff member has to be on site, and the building closes at eleven sharp."
+       ],
+       [
+        "A",
+        "That is fine. We were going to wrap up at ten thirty anyway. Can you put a hold on it?"
+       ],
+       [
+        "B",
+        "The site lets me reserve it for forty-eight hours without paying. I will do that now and then call to confirm with a person."
+       ],
+       [
+        "A",
+        "Perfect. While you do that, I will call the caterer and let her know we have a new address. She is going to want to see the kitchen before Saturday."
+       ],
+       [
+        "B",
+        "And we need to tell the ticket holders. Should I email everyone tonight?"
+       ],
+       [
+        "A",
+        "Let us wait until the booking is confirmed by phone. The last thing we need is to send two different addresses in one week."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What condition comes with renting the Brant Road hall?",
+        "o": [
+         "The group must provide its own tables and chairs.",
+         "A city employee must be present during the event.",
+         "The event must finish by ten thirty.",
+         "The rental must be paid within forty-eight hours."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "a staff member has to be on site",
+        "x": "The “catch” is that a staff member must be on site. Tables and chairs are included; ten thirty was their own plan (the building closes at eleven); 48 hours is how long the free hold lasts, not a payment deadline."
+       },
+       {
+        "q": "Why does Priya not want Marcus to email the ticket holders yet?",
+        "o": [
+         "She plans to phone each ticket holder instead.",
+         "The caterer must inspect the kitchen first.",
+         "The director has to approve the email.",
+         "She wants to avoid sending confusing information."
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "The last thing we need is to send two different addresses in one week",
+        "x": "She wants the booking confirmed first so they do not send two different addresses – that would confuse people. The caterer visit and the director are not conditions for the email."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A customer is speaking with a mechanic at a bicycle repair shop.",
+    "sp": {
+     "A": {
+      "name": "Mechanic",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.05
+     },
+     "B": {
+      "name": "Customer",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hi, I dropped off a blue commuter bike on Monday, the name is Okafor. I got a voicemail saying there was a problem?"
+       ],
+       [
+        "A",
+        "Yes, Ms. Okafor, thanks for coming in. So, you brought it in for the gears skipping, and that part was easy. The chain was stretched, so we replaced it. But when we had it on the stand, we noticed a crack in the rear rim, right next to the valve hole."
+       ],
+       [
+        "B",
+        "A crack? I had no idea. Is that dangerous?"
+       ],
+       [
+        "A",
+        "Honestly, it could hold for months, or it could fail on the next pothole. I would not ride it like that, especially loaded up with groceries. The rim is not something we can patch."
+       ],
+       [
+        "B",
+        "So I need a whole new wheel? How much are we talking?"
+       ],
+       [
+        "A",
+        "A basic replacement wheel is ninety-five dollars, installed. There is also a mid-range wheel for one forty that has a stronger rim and better bearings. Given how much you ride in the winter, with all the salt on the roads, the stronger one would probably save you money down the road."
+       ],
+       [
+        "B",
+        "Hmm. I was really hoping to keep this under a hundred. The chain was already, what, forty?"
+       ],
+       [
+        "A",
+        "Forty-two with labour. Look, if budget is the issue, I can put the basic wheel on today, and you will be fine. Just bring it back in the spring and we will check it over for free. It comes with our six-month tune-up guarantee."
+       ],
+       [
+        "B",
+        "That sounds fair. And can I pick it up today? I need it for work tomorrow morning."
+       ],
+       [
+        "A",
+        "We close at six. If you give me the go-ahead now, it will be ready by four."
+       ],
+       [
+        "B",
+        "Okay, go with the basic one. Thanks for catching the crack, by the way."
+       ],
+       [
+        "A",
+        "No problem, that is what we are here for. I will text you as soon as it is ready, and I will leave the old rim beside the bike in case you want to see the crack for yourself."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why did Ms. Okafor originally bring her bicycle in?",
+        "o": [
+         "Its rear wheel was cracked near the valve hole.",
+         "It needed a seasonal tune-up before winter.",
+         "The gears were not shifting smoothly.",
+         "Its rear tire kept going flat on the way to work."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "you brought it in for the gears skipping",
+        "x": "She brought it in because the gears were skipping. The cracked rim near the valve hole was something the mechanic discovered later, while the bike was on the stand."
+       },
+       {
+        "q": "What does the mechanic say about the cracked rim?",
+        "o": [
+         "It is unpredictable and unsafe to ride on.",
+         "It can be repaired at a lower cost.",
+         "It will certainly break within a few days.",
+         "It was caused by carrying heavy groceries."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "it could hold for months, or it could fail on the next pothole",
+        "x": "“Could hold for months, or … fail on the next pothole” means its failure is unpredictable, and he would not ride it. He says it cannot be patched; groceries are mentioned as extra load, not the cause."
+       },
+       {
+        "q": "Why does the mechanic recommend the more expensive wheel?",
+        "o": [
+         "It can be installed before the shop closes at six today.",
+         "It comes with a longer guarantee.",
+         "The basic wheel is out of stock.",
+         "It is better suited to her winter riding conditions."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "Given how much you ride in the winter, with all the salt on the roads",
+        "x": "He links the stronger rim to her winter riding with road salt. The guarantee applies to the work generally, and there is no mention of stock or installation time."
+       },
+       {
+        "q": "What will the mechanic do in the spring?",
+        "o": [
+         "Replace the basic wheel at no cost",
+         "Inspect the bicycle without charging her",
+         "Upgrade the wheel if she pays the difference",
+         "Refund the cost of the chain"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "bring it back in the spring and we will check it over for free",
+        "x": "“Check it over for free” = inspect it without charge. He does not promise to replace or upgrade the wheel."
+       },
+       {
+        "q": "What will Ms. Okafor most likely do next?",
+        "o": [
+         "Leave and come back for the bicycle in the afternoon",
+         "Wait in the shop while the wheel is installed",
+         "Take the bicycle to work tomorrow without the new wheel",
+         "Ask a friend about the mid-range wheel"
+        ],
+        "a": 0,
+        "t": "prediction",
+        "ev": "it will be ready by four",
+        "x": "She approves the basic wheel and the bike will be ready by four, before the shop closes at six, so she will come back later that day."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A resident calls the city’s information line about a new waste collection program.",
+    "sp": {
+     "A": {
+      "name": "City agent",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Resident",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Good afternoon, City Services, this is Danielle. How can I help you?"
+       ],
+       [
+        "B",
+        "Hi, I got a flyer about the new green bin program, and I am a bit confused. I live in a townhouse complex, the one off Carling Avenue. Does it apply to us?"
+       ],
+       [
+        "A",
+        "Good question. The program is rolling out in two phases. Single-family homes and townhouses with their own curbside pickup started on the first of this month. Complexes that share a central garbage area, like many condo townhouses, join in phase two, in March."
+       ],
+       [
+        "B",
+        "We each put our own bins at the curb, so I guess that means we are already in."
+       ],
+       [
+        "A",
+        "Then yes, you should have received a green bin and a small kitchen container. Did those arrive?"
+       ],
+       [
+        "B",
+        "The kitchen container did, but no green bin."
+       ],
+       [
+        "A",
+        "Okay, I can submit a delivery request. It usually takes seven to ten business days. In the meantime, you can keep using your regular garbage for food scraps. Nobody will be fined during the first three months; it is an adjustment period."
+       ],
+       [
+        "B",
+        "That is a relief. What actually goes in the green bin? The flyer was not very clear about things like pizza boxes."
+       ],
+       [
+        "A",
+        "Food scraps of all kinds, including meat, bones and dairy, plus soiled paper products. So a greasy pizza box, yes, paper towels and napkins, yes. But no plastic bags, even the ones labelled biodegradable, and no diapers or pet waste."
+       ],
+       [
+        "B",
+        "No plastic bags at all? How am I supposed to keep it clean?"
+       ],
+       [
+        "A",
+        "Most people line the kitchen container with newspaper or certified paper bags. And here is a tip: if you freeze meat scraps until collection day, you will avoid smells, especially in summer."
+       ],
+       [
+        "B",
+        "Good idea. And collection day is the same as garbage?"
+       ],
+       [
+        "A",
+        "Green bins are collected every week, on your regular day. Garbage moves to every second week once the program is fully in place, which for your area will be in January."
+       ],
+       [
+        "B",
+        "Every two weeks for garbage? That will take some getting used to."
+       ],
+       [
+        "A",
+        "It does, but in the pilot neighbourhoods, households cut their garbage by about forty percent, so most people found it was not a problem."
+       ],
+       [
+        "B",
+        "Right. Well, thanks, Danielle. Could you give me a reference number for the bin request, just in case?"
+       ],
+       [
+        "A",
+        "Of course. Your request number is G as in green, four, seven, two, one. If the bin has not arrived after ten business days, call us back with that number and we will follow up with the depot."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is the resident unsure whether the program applies to him?",
+        "o": [
+         "He believes his complex was one of the pilot neighbourhoods.",
+         "He did not receive the flyer that explained the program.",
+         "Townhouses are not all treated the same way.",
+         "He moved to the complex off Carling Avenue very recently."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "Complexes that share a central garbage area, like many condo townhouses, join in phase two",
+        "x": "Townhouses join in phase one or phase two depending on whether they share a central garbage area, so his situation was unclear. He did receive the flyer, and the pilot is never linked to his complex."
+       },
+       {
+        "q": "What does the agent say about the missing green bin?",
+        "o": [
+         "He should buy one from a hardware store.",
+         "It will be delivered within about two weeks.",
+         "He has to wait until phase two begins in March.",
+         "He can pick it up at City Hall."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "It usually takes seven to ten business days",
+        "x": "Seven to ten business days ≈ about two weeks. March is phase two, which does not apply to him because he has curbside pickup."
+       },
+       {
+        "q": "What is true about the first three months of the program?",
+        "o": [
+         "Garbage is collected every second week.",
+         "Residents may receive warnings but not fines.",
+         "Only townhouse complexes participate.",
+         "Residents will not be penalized for mistakes."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "Nobody will be fined during the first three months",
+        "x": "“Nobody will be fined” = no penalties. “Warnings” are never mentioned – a classic added-detail trap."
+       },
+       {
+        "q": "Which item can go in the green bin?",
+        "o": [
+         "A bag labelled biodegradable",
+         "Pet waste wrapped in newspaper",
+         "Used paper napkins",
+         "Disposable diapers"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "paper towels and napkins, yes",
+        "x": "Soiled paper products such as napkins are accepted. Biodegradable plastic bags, diapers and pet waste are all excluded."
+       },
+       {
+        "q": "Why does the agent suggest freezing meat scraps?",
+        "o": [
+         "To prevent unpleasant odours",
+         "To make the green bin lighter",
+         "Because meat is collected separately",
+         "Because plastic bags cannot be used"
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "you will avoid smells, especially in summer",
+        "x": "Freezing scraps avoids smells. The no-bags rule explains the newspaper lining tip, not the freezing tip."
+       },
+       {
+        "q": "What will change for the resident in January?",
+        "o": [
+         "Green bins will be collected every second week.",
+         "His regular collection day will change.",
+         "He will start using a shared central garbage area.",
+         "Garbage will be picked up less often."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Garbage moves to every second week once the program is fully in place, which for your area will be in January",
+        "x": "In January garbage moves to every second week – less often. Green bins stay weekly, on the regular day."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Branch manager",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Residents of Riverside will soon be able to borrow more than books from their local library. Starting next Monday, the Riverside branch will launch what it calls a Library of Things, lending out about three hundred household and hobby items, from power drills and pressure washers to sewing machines, telescopes and even a pasta maker."
+       ],
+       [
+        "A",
+        "The idea came from a community survey last year, in which nearly two thirds of respondents said they had bought an expensive tool or appliance that they used fewer than three times. Branch manager Helen Achterberg says the program is as much about reducing waste as saving money."
+       ],
+       [
+        "B",
+        "People were telling us their basements and storage lockers were full of things they barely touched. If one drill can serve fifty households instead of sitting in fifty basements, that is a real environmental benefit. And frankly, for many families, a two-hundred-dollar tool is simply out of reach."
+       ],
+       [
+        "A",
+        "Items can be borrowed for up to seven days with a regular library card, although power tools will require borrowers to be at least eighteen and to watch a short safety video the first time. Late fees, which the library eliminated for books in twenty twenty-two, will apply to the new collection, at two dollars a day."
+       ],
+       [
+        "A",
+        "Not everyone is enthusiastic. The owner of a hardware store across the street told us he worries the program could cut into his rental business, though he added that he would rather see people borrowing tools than buying cheap ones that end up in the landfill."
+       ],
+       [
+        "A",
+        "The collection was funded by a provincial sustainability grant of forty-five thousand dollars. If the first year goes well, the library hopes to expand the program to its three other branches."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What led the library to create the new program?",
+        "o": [
+         "A request from local hardware stores",
+         "The results of a public questionnaire",
+         "A drop in the number of books being borrowed",
+         "A decision to eliminate late fees"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "The idea came from a community survey last year",
+        "x": "The idea came from a community survey = a public questionnaire. Book borrowing is not discussed, and fees were removed in 2022 for books only."
+       },
+       {
+        "q": "What is Helen Achterberg’s main point?",
+        "o": [
+         "Sharing items helps both the environment and household budgets.",
+         "The program will mainly attract hobbyists.",
+         "Most residents already own too many power tools.",
+         "The library needs more storage space for its collection."
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "the program is as much about reducing waste as saving money",
+        "x": "She stresses environmental benefit (one drill for fifty households) and affordability. The full basements are her example, not her main point."
+       },
+       {
+        "q": "What is different about borrowing power tools?",
+        "o": [
+         "They can only be borrowed for three days instead of seven.",
+         "Borrowers must pay a deposit and show a valid library card first.",
+         "Borrowers must meet an age requirement and complete training.",
+         "They are only available at the main branch for the first year."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "power tools will require borrowers to be at least eighteen and to watch a short safety video",
+        "x": "Being at least 18 and watching a safety video are an age requirement and a training step. The loan period is seven days for all items, and no deposit is mentioned."
+       },
+       {
+        "q": "How does the hardware store owner feel about the program?",
+        "o": [
+         "He is completely opposed to it.",
+         "He has mixed feelings about it.",
+         "He plans to donate tools to it.",
+         "He believes it will fail within a year."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "he would rather see people borrowing tools than buying cheap ones",
+        "x": "He worries about his rental business but prefers borrowing to cheap tools in the landfill – mixed feelings. Nothing suggests he will donate or predicts failure."
+       },
+       {
+        "q": "What will happen if the program is successful?",
+        "o": [
+         "Late fees will be removed from the collection.",
+         "The province will provide a second grant.",
+         "The library will double the number of items.",
+         "It will be offered at other library locations."
+        ],
+        "a": 3,
+        "t": "prediction",
+        "ev": "the library hopes to expand the program to its three other branches",
+        "x": "Expanding to three other branches = other library locations. No second grant or doubling is mentioned."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three managers at a small software company are discussing a proposal.",
+    "sp": {
+     "A": {
+      "name": "Yusuf",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     },
+     "B": {
+      "name": "Claire",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.03
+     },
+     "C": {
+      "name": "Tom",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Thanks for staying late, both of you. As you know, the leadership team asked us to recommend whether we pilot a four-day work week next quarter. I would like to send them something by Friday."
+       ],
+       [
+        "B",
+        "I will be upfront: I am in favour. We lost three developers last year, and in two of the exit interviews, people mentioned burnout. Every competitor in this city is offering flexibility now. A four-day week would set us apart."
+       ],
+       [
+        "C",
+        "I do not disagree about retention, Claire. But my team handles customer support. Our clients expect someone to answer the phone from Monday to Friday. If my people are off on Fridays, who picks up?"
+       ],
+       [
+        "B",
+        "Nobody is suggesting everyone takes the same day off. We could stagger it, half the team off on Mondays, half on Fridays."
+       ],
+       [
+        "C",
+        "That sounds tidy on paper. In practice, with a team of six, it means three people covering what six do now, on two days of the week. Our response times would slip, and our service contracts actually have penalties for that."
+       ],
+       [
+        "A",
+        "That is a fair concern. Tom, would it change things if support were treated differently? Say, a nine-day fortnight for your team instead?"
+       ],
+       [
+        "C",
+        "Maybe. Every second Friday off would be easier to cover. But then you have created two classes of employees, and I would be the one explaining to my team why developers get more time off."
+       ],
+       [
+        "B",
+        "I hear you, but I think people understand that different roles have different constraints. Nurses do not work the same hours as hospital administrators."
+       ],
+       [
+        "A",
+        "Let me raise the other question leadership will ask: output. Claire, what makes you confident productivity would not drop?"
+       ],
+       [
+        "B",
+        "The research is fairly consistent. When companies trial it properly, with fewer meetings and clear priorities, output generally holds steady. But, and I want to be honest about this, it only works if we actually cut the meetings. If we just squeeze forty hours into four days, people will be more exhausted, not less."
+       ],
+       [
+        "C",
+        "That is my worry exactly. We tried a no-meeting Wednesday two years ago, and it lasted about six weeks before the calendar filled back up."
+       ],
+       [
+        "A",
+        "Okay. Here is what I am hearing. We all agree retention is a real problem. Claire thinks a well-designed four-day week addresses it. Tom, you are not opposed in principle, but support has real coverage risks and fairness issues. So what if we recommend a three-month pilot for the development team only, with a strict meeting budget, and we measure output and customer response times before deciding anything about support?"
+       ],
+       [
+        "C",
+        "If the pilot does not touch my team’s schedule, I can live with that. But I want it written down that support is a separate decision."
+       ],
+       [
+        "B",
+        "Agreed. And I would add that we survey staff at the end, not just measure output. If people are still burned out, the experiment has failed, whatever the numbers say."
+       ],
+       [
+        "A",
+        "Good. I will draft it tonight and send it to you both before it goes to leadership."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Claire support the four-day week?",
+        "o": [
+         "Leadership has already decided to adopt it.",
+         "She wants to reduce the number of developers needed.",
+         "She believes it would help the company keep its employees.",
+         "Her team has asked for it in a survey."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "We lost three developers last year",
+        "x": "She cites lost developers and burnout in exit interviews – retention. The staff survey is something she proposes for the end of the pilot."
+       },
+       {
+        "q": "What is Tom’s main concern about staggering days off?",
+        "o": [
+         "Service quality would suffer and could cost the company money.",
+         "It would be difficult to schedule.",
+         "Clients would prefer a Monday-to-Friday schedule.",
+         "His team members would refuse to work Mondays."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Our response times would slip, and our service contracts actually have penalties for that",
+        "x": "Slower response times plus contract penalties = worse service and a financial cost. He says it “sounds tidy on paper”, so scheduling difficulty is not his point."
+       },
+       {
+        "q": "What does Tom mean when he says “That sounds tidy on paper”?",
+        "o": [
+         "He thinks the plan is well written.",
+         "He agrees with the plan completely.",
+         "He wants the plan sent to him in writing.",
+         "He doubts the plan would work in reality."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "That sounds tidy on paper. In practice",
+        "x": "“Tidy on paper … in practice” contrasts theory with reality – he doubts it would work."
+       },
+       {
+        "q": "Why does Tom hesitate about a nine-day fortnight for his team?",
+        "o": [
+         "It would be harder to cover than a four-day week.",
+         "It might cause resentment between employee groups.",
+         "His team prefers to work every Friday.",
+         "It would require hiring more support staff."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "then you have created two classes of employees",
+        "x": "He worries about “two classes of employees” and having to explain why developers get more time off – resentment/fairness. He actually says every second Friday would be easier to cover."
+       },
+       {
+        "q": "Why does Claire mention nurses and hospital administrators?",
+        "o": [
+         "To argue that different schedules for different jobs are acceptable",
+         "To show that some jobs are far more stressful than office jobs",
+         "To suggest that the company should hire part-time staff for support",
+         "To prove that four-day weeks have already worked in health care"
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "people understand that different roles have different constraints",
+        "x": "She uses the example to argue that different roles can reasonably have different hours, answering Tom’s fairness worry. She never claims that four-day weeks have been tested in hospitals."
+       },
+       {
+        "q": "According to Claire, what is necessary for the pilot to succeed?",
+        "o": [
+         "Employees must work longer hours on four days.",
+         "Customer support must be included from the start.",
+         "The number of meetings must really be reduced.",
+         "Leadership must approve a larger budget."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "it only works if we actually cut the meetings",
+        "x": "She says it only works if they actually cut meetings; squeezing 40 hours into four days would make people more exhausted."
+       },
+       {
+        "q": "Why does Tom mention the no-meeting Wednesday?",
+        "o": [
+         "To suggest a simpler alternative to the pilot",
+         "To show that a similar change did not last",
+         "To complain about the number of meetings",
+         "To prove that productivity dropped in the past"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "it lasted about six weeks before the calendar filled back up",
+        "x": "The no-meeting day collapsed after six weeks, so he doubts meeting cuts will last. Productivity data from that trial is never mentioned."
+       },
+       {
+        "q": "What is the group’s final recommendation?",
+        "o": [
+         "A four-day week for all staff with staggered days off",
+         "Postponing the decision until a staff survey is complete",
+         "A nine-day fortnight for the support team only",
+         "A trial limited to one team, with support decided separately"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "recommend a three-month pilot for the development team only",
+        "x": "They agree on a three-month pilot for developers only, and Tom insists that support is a separate decision. The survey happens at the end of the pilot."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about a debate in a Canadian city.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "City council will vote next week on whether to allow residents to keep backyard chickens, and the issue has turned out to be surprisingly divisive."
+       ],
+       [
+        "A",
+        "Supporters, led by a group called Urban Roots, argue that a small flock of hens is no different from keeping a dog or a cat. Under the proposal, households could keep up to four hens, but no roosters, which are the noisy ones. Urban Roots points out that more than a dozen Canadian municipalities already allow hens, and that complaints in those places have been rare. They also say the timing is right: with grocery prices climbing, a few fresh eggs a week can make a difference, and keeping hens teaches children where their food comes from."
+       ],
+       [
+        "A",
+        "Opponents are not convinced. The city’s public health office has raised concerns about avian influenza, noting that backyard birds can come into contact with wild ducks and geese. It recommends that, if council goes ahead, every flock be registered so that owners can be contacted quickly during an outbreak. Some neighbours’ associations go further, arguing that chicken feed attracts rats and raccoons, and that inexperienced owners will abandon their birds once they realize hens stop laying regularly after three or four years."
+       ],
+       [
+        "A",
+        "Animal welfare advocates, interestingly, are split. The local humane society is not opposed to the idea in principle, but says the city must be prepared to enforce standards, such as insulated coops for our long winters. Without inspections, it warns, the shelters will end up caring for unwanted birds."
+       ],
+       [
+        "A",
+        "As for the economic argument, a city staff report suggests it may be overstated. Once you account for the coop, feed and veterinary care, the report estimates that a backyard egg costs roughly three times as much as a store-bought one, at least for the first few years."
+       ],
+       [
+        "A",
+        "Meanwhile, the details of the proposed bylaw have drawn their own attention. Coops would have to sit at least three metres from any property line, eggs could not be sold, and slaughtering birds on site would be prohibited. Urban Roots calls those rules reasonable, although some of its members had hoped for a limit of six hens rather than four. And one feed store on the edge of the city says inquiries about chicks have tripled since the debate began, a sign, perhaps, of how many residents are ready to start the moment the rules allow it."
+       ],
+       [
+        "A",
+        "Council appears to be leaning towards a two-year pilot limited to two neighbourhoods, with mandatory registration. Whatever the outcome, the debate has drawn more public comments than any issue since the bike lane expansion."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How do supporters respond to concerns about noise?",
+        "o": [
+         "They say hens are quieter than dogs.",
+         "They suggest limiting flocks to two birds.",
+         "They point out that roosters would not be permitted.",
+         "They argue that complaints are always rare."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "but no roosters, which are the noisy ones",
+        "x": "The proposal bans roosters, “the noisy ones”. Complaints being rare is said about other municipalities, not noise specifically."
+       },
+       {
+        "q": "What does the public health office recommend?",
+        "o": [
+         "Keeping a record of where flocks are located",
+         "Keeping hens away from wild birds by law",
+         "Banning backyard flocks during the summer",
+         "Testing all hens for disease every year"
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "every flock be registered so that owners can be contacted quickly during an outbreak",
+        "x": "Registering every flock = keeping a record so owners can be reached. It only notes the risk of contact with wild birds; it does not propose a law about it."
+       },
+       {
+        "q": "What is the humane society’s position?",
+        "o": [
+         "It strongly opposes backyard chickens.",
+         "It believes hens cannot survive a long Canadian winter.",
+         "It wants to run inspections itself.",
+         "It supports the plan only if rules are enforced."
+        ],
+        "a": 3,
+        "t": "viewpoint",
+        "ev": "is not opposed to the idea in principle, but says the city must be prepared to enforce standards",
+        "x": "Not opposed in principle, but enforcement is essential – conditional support. The city, not the society, would enforce; insulated coops address winter, so it does not say hens cannot survive."
+       },
+       {
+        "q": "What does the city staff report suggest about the economic argument?",
+        "o": [
+         "Backyard eggs are cheaper in the long run.",
+         "Supporters have exaggerated the savings.",
+         "Grocery prices are not actually rising.",
+         "Veterinary care is the largest cost."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "a city staff report suggests it may be overstated",
+        "x": "“Overstated” = exaggerated: backyard eggs cost about three times more at first. It does not say they become cheaper later, and no single cost is named as largest."
+       },
+       {
+        "q": "What can be inferred about the neighbours’ associations?",
+        "o": [
+         "They are more strongly opposed than the public health office.",
+         "They are mainly worried about the spread of avian influenza.",
+         "They would accept chickens as long as every flock is registered.",
+         "They have kept hens themselves and seen the problems first-hand."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Some neighbours’ associations go further",
+        "x": "“Go further” than public health, which only asks for registration if the plan goes ahead; the associations raise pests and abandonment as reasons against it – stronger opposition."
+       },
+       {
+        "q": "What is the most likely outcome of the council vote?",
+        "o": [
+         "A full ban on backyard chickens",
+         "Approval across the whole city with no conditions",
+         "A limited trial with registration required",
+         "A delay until after a public consultation"
+        ],
+        "a": 2,
+        "t": "prediction",
+        "ev": "Council appears to be leaning towards a two-year pilot limited to two neighbourhoods, with mandatory registration",
+        "x": "Council leans towards a two-year pilot in two neighbourhoods with mandatory registration. The public comments are noted, but no delay is mentioned."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Lena Kowalczyk  |  To: Amara Mensah  |  Subject: Big news (and a favour)",
+   "text": "Hi Amara,\n\nI hope you and the kids are well and that the new kitchen is finally finished! I have some news that I have been bursting to share: I accepted the operations job in Halifax. I know, after all my talk about never leaving Winnipeg, I can hardly believe it myself. The salary is better, of course, but honestly what tipped the balance was the chance to lead a team again after three years of reporting to someone who never let me make a decision.\n\nI start on the fifteenth of next month, which leaves me barely five weeks to sell the condo, pack, and say goodbye to everyone. The movers are booked, but here is where the favour comes in. You lived in Halifax for, what, six years? I would love your honest advice on neighbourhoods. The company has offered me a furnished apartment downtown for my first two months, so I am not in a desperate rush, but I would rather not waste weekends looking at places in areas that would not suit me.\n\nAs you know, I do not drive and I have no plans to start, so I need to be somewhere with reliable transit or within cycling distance of the office, which is near the waterfront. I would also like to be close to some green space for Biscuit, who has never forgiven me for moving him into a building with no yard.\n\nOne last thing: my sister keeps warning me that I will hate the winters. Is she exaggerating? She visited once in February and it rained sideways for a week, so she may not be the most objective source.\n\nNo pressure to reply at length. I know how busy you are. But even a few pointers would mean a lot.\n\nTalk soon,\nLena",
+   "qs": [
+    {
+     "q": "What was the most important reason Lena accepted the job?",
+     "o": [
+      "The higher salary",
+      "The opportunity to manage people",
+      "The chance to live near the ocean",
+      "Her dislike of Winnipeg"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "what tipped the balance was the chance to lead a team again",
+     "x": "“What tipped the balance” signals the deciding reason: leading a team. The salary is mentioned “of course” as secondary, and she had always said she would never leave Winnipeg."
+    },
+    {
+     "q": "What can be inferred about Lena’s current job?",
+     "o": [
+      "She has been in it for less than a year.",
+      "She manages a large operations team.",
+      "She is going to keep working there remotely.",
+      "She feels she has too little authority."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "reporting to someone who never let me make a decision",
+     "x": "Her boss “never let me make a decision” – she lacks authority. She has been there about three years."
+    },
+    {
+     "q": "Why is Lena not in a hurry to find a permanent home?",
+     "o": [
+      "She has not yet sold her condo.",
+      "She plans to rent for the first year.",
+      "Her employer is providing temporary housing.",
+      "The movers are not available until next month."
+     ],
+     "a": 2,
+     "t": "paraphrase",
+     "ev": "The company has offered me a furnished apartment downtown for my first two months",
+     "x": "A furnished apartment from the company for two months = temporary housing from her employer."
+    },
+    {
+     "q": "Who is Biscuit?",
+     "o": [
+      "Lena’s pet",
+      "Lena’s child",
+      "Lena’s new manager",
+      "Lena’s sister"
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "close to some green space for Biscuit",
+     "x": "Biscuit needs green space and is unhappy in a building with no yard – most likely a dog."
+    },
+    {
+     "q": "What does Lena suggest about her sister’s opinion of Halifax winters?",
+     "o": [
+      "It is based on long experience.",
+      "It convinced Lena to reconsider.",
+      "It is shared by most people.",
+      "It may not be reliable."
+     ],
+     "a": 3,
+     "t": "attitude",
+     "ev": "she may not be the most objective source",
+     "x": "Her sister visited once during a week of bad weather, so she “may not be the most objective source” – her view may be unreliable."
+    },
+    {
+     "q": "What is the main purpose of Lena’s email?",
+     "o": [
+      "To invite Amara to visit her in Halifax",
+      "To share news and ask for advice about a move",
+      "To complain about her current employer",
+      "To ask Amara to help her sell her condo"
+     ],
+     "a": 1,
+     "t": "main",
+     "ev": "I would love your honest advice on neighbourhoods",
+     "x": "She announces the new job and asks for advice on neighbourhoods, transit and winters."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Amara’s response to Lena. Complete the response by choosing the best option for each blank.",
+    "text": "Hi Lena,\n\nCongratulations! It sounds like exactly the change you needed. Since you will not have a car, I would focus on the North End or the South End. Both are within an easy {1} of the waterfront, and the South End has Point Pleasant Park, which would be perfect for {2}. Avoid looking in the suburbs across the bridge unless you are happy to depend on the ferry and buses.\n\nAs for the winters, your sister is not entirely wrong, but she saw the worst of it. The {3} is more of a problem than the snow, so invest in a good raincoat rather than a parka. And since your company is housing you for {4}, use that time to walk around different areas before you commit.\n\nI am so glad you finally get to {5} again. Call me when you land!\n\nAmara",
+    "blanks": [
+     {
+      "o": [
+       "bike ride",
+       "drive",
+       "flight",
+       "ferry trip"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "within cycling distance of the office, which is near the waterfront",
+      "x": "Lena does not drive and wants to cycle or use transit, so “an easy bike ride” fits."
+     },
+     {
+      "o": [
+       "your sister",
+       "the kids",
+       "Biscuit",
+       "your new team"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "close to some green space for Biscuit",
+      "x": "Point Pleasant Park suits Biscuit, the pet Lena wants near green space. “The kids” are Amara’s own children, and they are not the ones moving to Halifax."
+     },
+     {
+      "o": [
+       "cold",
+       "rain",
+       "traffic",
+       "darkness"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "it rained sideways for a week",
+      "x": "Her sister’s complaint was rain, and Amara recommends a raincoat rather than a parka."
+     },
+     {
+      "o": [
+       "three years",
+       "five weeks",
+       "six years",
+       "two months"
+      ],
+      "a": 3,
+      "t": "detail",
+      "ev": "for my first two months",
+      "x": "The company provides the apartment for two months. Five weeks is the time before she starts."
+     },
+     {
+      "o": [
+       "live by the sea",
+       "make more money",
+       "lead a team",
+       "see your sister"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "the chance to lead a team again",
+      "x": "Amara is happy that Lena can finally lead a team “again”, the main reason for the move."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Lakeview Community Pool – Fall Session (September 9 – December 15)",
+    "intro": "Registration opens August 20 at 9:00 a.m. online and in person. Residents of Lakeview receive a 20% discount on all programs (proof of address required).",
+    "table": {
+     "cols": [
+      "Program",
+      "Ages",
+      "Day & time",
+      "Sessions",
+      "Fee (non-resident)"
+     ],
+     "rows": [
+      [
+       "Parent & Tot Splash",
+       "6 months – 3 years (with adult)",
+       "Saturday 9:00–9:30 a.m.",
+       "14",
+       "$98"
+      ],
+      [
+       "Learn to Swim Level 1",
+       "4 – 6 years",
+       "Tuesday or Thursday 4:30–5:15 p.m.",
+       "14",
+       "$126"
+      ],
+      [
+       "Learn to Swim Level 3",
+       "7 – 12 years",
+       "Wednesday 5:30–6:15 p.m.",
+       "14",
+       "$126"
+      ],
+      [
+       "Teen Lifeguard Prep",
+       "13 – 16 years",
+       "Sunday 1:00–3:00 p.m.",
+       "10",
+       "$210"
+      ],
+      [
+       "Adult Stroke Improvement",
+       "17+",
+       "Monday 7:30–8:30 p.m.",
+       "12",
+       "$156"
+      ],
+      [
+       "Aquafit (drop-in)",
+       "17+",
+       "Mon/Wed/Fri 10:00–11:00 a.m.",
+       "–",
+       "$8 per class"
+      ]
+     ]
+    },
+    "notes": [
+     "Children under 7 must be accompanied in the change room by an adult.",
+     "Teen Lifeguard Prep requires the ability to swim 100 m continuously; a swim test is held on the first day.",
+     "Missed classes cannot be made up. Refunds (minus a $15 fee) are available until the second class.",
+     "The pool is closed on statutory holidays; no classes on October 14 and November 11."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the pool programs. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Rosa,\n\nThanks for sending the pool schedule! Since we live in Lakeview, we will get the discount, so Mateo’s lessons will actually cost {1}. He just turned five, so he belongs in {2}. I would prefer the Thursday class because my late meeting is on Tuesdays.\n\nYou mentioned Sofia wants to try the lifeguard program. She is fourteen and a strong swimmer, but she should be ready to {3} on the first day. The only problem is that it is on {4} afternoons, when she has her part-time job, so she may have to wait.\n\nFor me, I am thinking of the Aquafit classes. I work from home on Wednesdays, so I can join the morning class that day without {5}.\n\nTalk soon,\nDiego",
+    "blanks": [
+     {
+      "o": [
+       "$98.00",
+       "$100.80",
+       "$126.00",
+       "$151.20"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Residents of Lakeview receive a 20% discount on all programs",
+      "x": "Lakeview residents get 20% off, so $126 − $25.20 = $100.80. $126.00 is the non-resident fee, and $98.00 is the Parent & Tot price, not Level 1."
+     },
+     {
+      "o": [
+       "Learn to Swim Level 1",
+       "Parent & Tot Splash",
+       "Learn to Swim Level 3",
+       "Teen Lifeguard Prep"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "4 – 6 years",
+      "x": "Mateo is five, and Learn to Swim Level 1 is for ages 4–6. Level 3 starts at age seven, so it would not suit him yet."
+     },
+     {
+      "o": [
+       "show proof of address",
+       "pay a $15 fee",
+       "bring an adult to the change room",
+       "complete a swim test"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "a swim test is held on the first day",
+      "x": "Teen Lifeguard Prep holds a 100 m swim test on the first day."
+     },
+     {
+      "o": [
+       "Saturday",
+       "Sunday",
+       "Monday",
+       "Wednesday"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Sunday 1:00–3:00 p.m.",
+      "x": "Teen Lifeguard Prep runs on Sunday from 1:00 to 3:00 p.m. Saturday is the morning Parent & Tot Splash class, not the lifeguard program."
+     },
+     {
+      "o": [
+       "registering in advance",
+       "getting a refund",
+       "missing a class",
+       "paying the full fee"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "Aquafit (drop-in)",
+      "x": "Aquafit is drop-in, so no advance registration is needed – she just pays $8 per class."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A parent wants to register a 3-year-old for a class on a weekday. What will happen?",
+     "o": [
+      "The child can join Learn to Swim Level 1.",
+      "The child can join Parent & Tot Splash on Tuesday.",
+      "There is no suitable weekday class for the child.",
+      "The parent must accompany the child in Level 1."
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Saturday 9:00–9:30 a.m.",
+     "x": "The only class for under-4s (Parent & Tot) is on Saturday; Level 1 starts at age 4. So there is no weekday option."
+    },
+    {
+     "q": "If an adult misses the third Adult Stroke Improvement class, what can they do?",
+     "o": [
+      "Attend a make-up class on Wednesday",
+      "Nothing – the class cannot be made up or refunded",
+      "Get a refund minus $15",
+      "Join an Aquafit class for free instead"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Missed classes cannot be made up. Refunds (minus a $15 fee) are available until the second class.",
+     "x": "Missed classes cannot be made up, and refunds are only possible until the second class, so after the third class neither option exists."
+    },
+    {
+     "q": "Diego’s neighbour is 17 and wants to improve her technique on a weekday evening. Which program suits her?",
+     "o": [
+      "Teen Lifeguard Prep",
+      "Learn to Swim Level 3",
+      "Aquafit",
+      "Adult Stroke Improvement"
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "Monday 7:30–8:30 p.m.",
+     "x": "Adult Stroke Improvement is for 17+ and runs Monday evenings. Teen Lifeguard Prep stops at 16 and is on Sunday; Level 3 is for ages 7–12; Aquafit is a morning fitness class, not technique."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Bees on the Rooftops",
+   "paras": [
+    "Over the past decade, honeybee hives have appeared on the rooftops of hotels, office towers and even a few hospitals in Canadian cities. For many building owners, the hives are part of a sustainability strategy: they are visible, popular with employees and guests, and relatively inexpensive to maintain when a professional beekeeping company handles the work. Several downtown hotels now serve honey from their own roofs at breakfast, and one Toronto office tower hosts an annual honey-tasting event that draws hundreds of visitors. Some companies even give small jars of their rooftop honey to clients as holiday gifts.",
+    "Yet some ecologists argue that the trend may be doing more harm than good. Honeybees are not native to North America; they were brought by European settlers in the seventeenth century. In cities where flowers are limited, large numbers of hives can compete with the hundreds of native bee species, many of which are solitary and travel only a few hundred metres from their nests. A study in Montreal found that as the number of urban hives grew, the variety of wild bees recorded in nearby parks declined, although the researchers cautioned that other factors could have played a role.",
+    "For people who want to help pollinators, experts increasingly recommend planting rather than keeping bees. Native wildflowers such as goldenrod, wild bergamot and asters provide food from spring until late fall, and they benefit native bees, butterflies and honeybees alike. Leaving patches of bare soil and hollow plant stems over the winter also matters, because most native bees nest in the ground or in small cavities rather than in hives. Even a balcony can help: a few pots of native flowers along a sunny railing can serve as a stopping point for bees travelling between larger green spaces.",
+    "Some cities are now trying to strike a balance. Vancouver, for example, requires beekeepers to register their hives and recommends limits on how many can be placed within a single property, while its parks department has converted several lawns into meadows of native plants. Beekeeping associations, for their part, argue that responsible hobbyists are often the most enthusiastic promoters of pollinator gardens, and that a well-managed hive and a healthy wild-bee population are not necessarily in conflict. Toronto is reviewing a similar registration system, although city staff say no decision is expected before next year."
+   ],
+   "qs": [
+    {
+     "q": "Native bees often stay close to where they nest.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "travel only a few hundred metres from their nests",
+     "x": "Paragraph B: many solitary native bees travel only a few hundred metres from their nests."
+    },
+    {
+     "q": "Rooftop hives can help businesses present an environmentally friendly image.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "the hives are part of a sustainability strategy",
+     "x": "Paragraph A: hives are part of a visible sustainability strategy."
+    },
+    {
+     "q": "Some plant material should be left in place during the cold months.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "Leaving patches of bare soil and hollow plant stems over the winter also matters",
+     "x": "Paragraph C advises leaving bare soil and hollow plant stems in place over the winter, because most native bees nest there."
+    },
+    {
+     "q": "One municipality keeps track of where hives are kept.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "requires beekeepers to register their hives",
+     "x": "Paragraph D says Vancouver requires beekeepers to register their hives, so the city keeps a record of them."
+    },
+    {
+     "q": "Rooftop honey sells for a higher price than ordinary honey.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph A mentions honey served at breakfast and a tasting event, but nothing about price. Not given (E)."
+    },
+    {
+     "q": "Researchers could not be certain that honeybees caused a decrease in wild bees.",
+     "a": "B",
+     "t": "inference",
+     "ev": "the researchers cautioned that other factors could have played a role",
+     "x": "Paragraph B: the Montreal researchers cautioned that other factors could explain the decline."
+    },
+    {
+     "q": "Hobby beekeepers often encourage the planting of flowers for pollinators.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "responsible hobbyists are often the most enthusiastic promoters of pollinator gardens",
+     "x": "Paragraph D reports the associations’ view that responsible hobbyists are often the most enthusiastic promoters of pollinator gardens."
+    },
+    {
+     "q": "Honeybees produce more honey in cities than in the countryside.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "No paragraph compares honey production in cities and the countryside. Not given (E)."
+    },
+    {
+     "q": "Certain plants can feed several kinds of insects for most of the year.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "provide food from spring until late fall, and they benefit native bees, butterflies and honeybees alike",
+     "x": "Paragraph C: native wildflowers feed many pollinators from spring until late fall."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Free Transit Is a Bus to Nowhere",
+   "byline": "Opinion | by Rachel Dubois, urban policy columnist",
+   "text": "Every few years, a city councillor somewhere in Canada discovers a seemingly irresistible idea: make public transit free. The pitch writes itself. Fares are a burden on low-income residents, collecting them costs money, and empty seats are a waste when the roads are clogged with cars. Remove the fare box, the argument goes, and riders will flood onto buses, traffic will ease, and emissions will fall. This month, our own council will debate a motion to do exactly that, at an estimated cost of forty-two million dollars a year in lost revenue.\n\nI understand the appeal, and I share the goals. But I am convinced that free transit is the wrong tool for the job, and that it could leave the people it is meant to help worse off.\n\nStart with who actually rides. Experience from cities that have scrapped fares, from Tallinn in Estonia to several smaller North American systems, suggests that ridership does rise, sometimes sharply. But a large share of the new riders are people who used to walk or cycle short distances, not drivers who have left their cars at home. A bus that is fuller but takes no cars off the road does little for congestion or the climate.\n\nThe reason is simple. People who drive usually do so because transit does not get them where they need to go, when they need to go there. A free bus that comes every forty minutes is still a bus that comes every forty minutes. For a parent juggling daycare drop-off and a shift that starts at seven, frequency and reliability matter far more than a three-dollar fare.\n\nThat brings me to the money. Forty-two million dollars a year is not an abstraction. It is roughly what it would cost to double service on our ten busiest routes, or to run buses every fifteen minutes into the industrial parks where thousands of people work night shifts. Spend it on fares, and that money is gone, with ridership growth that will soon strain an already stretched fleet.\n\nNone of this means fares should stay as they are. The most vulnerable riders should not have to choose between a bus pass and groceries. That is why I support expanding our existing low-income pass, which offers a 60 percent discount but which, according to the city’s own figures, only about a third of eligible residents use, largely because the application process is so cumbersome. Fix that, and we help the people who need it most at a fraction of the cost.\n\nFree transit makes for a great headline. Better transit makes for a better city. Council should choose the second.",
+   "qs": [
+    {
+     "q": "What is the writer’s main argument?",
+     "o": [
+      "Transit fares should be increased to pay for more frequent buses.",
+      "Free transit has failed to increase ridership in every city that tried it.",
+      "Money would be better spent improving service than eliminating fares.",
+      "Low-income residents do not really depend on public transit."
+     ],
+     "a": 2,
+     "t": "main",
+     "ev": "Free transit makes for a great headline. Better transit makes for a better city.",
+     "x": "She argues the $42 million would do more good improving frequency and reliability. She does not call for higher fares or claim universal failure."
+    },
+    {
+     "q": "According to the writer, what happens to ridership when fares are removed?",
+     "o": [
+      "It increases, but many new riders previously walked or cycled.",
+      "It increases mainly among former drivers.",
+      "It stays about the same.",
+      "It falls because buses become overcrowded."
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "a large share of the new riders are people who used to walk or cycle short distances",
+     "x": "Ridership rises, but many new riders used to walk or cycle – not former drivers."
+    },
+    {
+     "q": "Why does the writer mention a parent juggling daycare and an early shift?",
+     "o": [
+      "To show that many working parents cannot afford even a small fare",
+      "To criticize the city for failing to provide enough daycare spaces",
+      "To argue that buses should start running earlier in the morning",
+      "To illustrate why service quality outweighs price for many riders"
+     ],
+     "a": 3,
+     "t": "purpose",
+     "ev": "frequency and reliability matter far more than a three-dollar fare",
+     "x": "The parent example illustrates that frequency and reliability matter more than a three-dollar fare. It is not about affordability, which the writer addresses separately with the low-income pass."
+    },
+    {
+     "q": "What can be inferred about the existing low-income pass?",
+     "o": [
+      "It offers too small a discount to make a real difference.",
+      "It is underused because it is difficult to obtain.",
+      "It will be cancelled if fares are eliminated.",
+      "It is available to all residents."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "only about a third of eligible residents use, largely because the application process is so cumbersome",
+     "x": "Only a third of eligible people use it because applying is cumbersome – it is hard to obtain, not too small a discount."
+    },
+    {
+     "q": "How would you describe the writer’s attitude towards the supporters of free transit?",
+     "o": [
+      "Sympathetic to their aims but critical of their solution",
+      "Hostile and dismissive",
+      "Fully supportive of their proposal",
+      "Uninterested in their arguments"
+     ],
+     "a": 0,
+     "t": "attitude",
+     "ev": "I understand the appeal, and I share the goals",
+     "x": "She shares their goals but believes free transit is “the wrong tool for the job”."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "As someone who works nights in one of the industrial parks the columnist mentions, I found this article refreshing. Right now, the last bus leaves my stop at 11:40 p.m., so after my shift I have no choice but to {1}. A free fare would not change that at all. If the city really used the money to {2}, I would happily pay the full fare.\n\nThat said, I think Ms. Dubois is a little too quick to {3} the riders who used to walk or cycle. Not everyone walks because they enjoy it; some of my co-workers walk forty minutes in January because even a three-dollar fare adds up. For them, free transit {4}.\n\nMaybe the answer is somewhere in the middle: fix the low-income pass first, as she suggests, and put the rest into service. Either way, I hope council {5} before voting on a headline.",
+    "blanks": [
+     {
+      "o": [
+       "take an early bus",
+       "apply for a low-income pass",
+       "pay for a taxi or rideshare",
+       "work from home"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "run buses every fifteen minutes into the industrial parks where thousands of people work night shifts",
+      "x": "With no bus after his night shift, his only choice is a taxi or rideshare; he says a free fare would not change that."
+     },
+     {
+      "o": [
+       "lower fares for students",
+       "run more frequent buses at night",
+       "build more parking at the industrial parks",
+       "double the price of the pass"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "run buses every fifteen minutes into the industrial parks",
+      "x": "He would pay full fare if the money went to more frequent night buses, as the article proposes."
+     },
+     {
+      "o": [
+       "praise",
+       "blame",
+       "count",
+       "dismiss"
+      ],
+      "a": 3,
+      "t": "vocab",
+      "ev": "A bus that is fuller but takes no cars off the road does little for congestion or the climate.",
+      "x": "He feels she treats former walkers and cyclists as unimportant – “dismiss” them."
+     },
+     {
+      "o": [
+       "would make no real difference",
+       "would increase traffic",
+       "would be a real help",
+       "would be unfair to drivers"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "The most vulnerable riders should not have to choose between a bus pass and groceries.",
+      "x": "For co-workers who walk to save money, free transit would be a real help."
+     },
+     {
+      "o": [
+       "listens to the people who actually ride",
+       "reads the city’s own figures",
+       "cancels the transit budget",
+       "raises the low-income discount"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "Free transit makes for a great headline.",
+      "x": "Based on his own experience, he hopes council listens to actual riders before deciding."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Last weekend, a strong windstorm knocked down part of the wooden fence between your backyard and your neighbour’s yard. Your neighbour has been away, and you have not been able to speak with them in person.",
+   "bullets": [
+    "Describe the damage to the fence and any problems it is causing",
+    "Suggest how the repair could be organized",
+    "Propose how the cost could be shared"
+   ],
+   "model": "Dear Mr. Lindqvist,\n\nI hope your trip has been going well. I wanted to let you know that Saturday’s windstorm brought down roughly four metres of the fence between our yards, near the garden shed. Two posts snapped at the base, and several boards are now lying on your vegetable beds. Since the gap is wide open, our dog has already wandered into your yard twice, and I am worried he might damage your plants or slip out onto the street.\n\nFor now, I have put up a temporary mesh barrier, but we will need a proper repair. I contacted two local fencing companies, and both can start next week. Westside Fencing quoted $1,150 to replace the posts and panels with matching cedar, while the second company was slightly cheaper but could not guarantee the same wood.\n\nSince the fence belongs to both of us, I would suggest that we split the cost equally. If you would prefer, I am happy to pay the deposit now so the work can begin, and you could reimburse your share when you return.\n\nPlease let me know what you think when you have a moment.\n\nBest regards,\nDaniel Ferreira"
+  },
+  "t2": {
+   "intro": "Your city owns a large empty lot in your neighbourhood, and it is asking residents how it should be used. The city can only afford one of the following projects.",
+   "question": "Which project do you prefer?",
+   "a": "A community garden with individual plots that residents can rent for a small yearly fee, plus a shared area for school groups.",
+   "b": "A paved parking lot with 60 spaces and electric-vehicle charging stations, to reduce street parking in the area.",
+   "model": "I strongly prefer Option A, the community garden, because it would give our neighbourhood something it genuinely lacks: a place where people of all ages can meet and do something productive together.\n\nFirst of all, many residents here live in apartments or townhouses without yards. Renting a plot for a modest fee would let families grow their own vegetables, which is both healthier and cheaper at a time when grocery prices keep rising. The shared area for school groups is another major advantage. Children would learn where their food comes from and take part in hands-on science lessons, rather than simply reading about plants in a textbook.\n\nI do understand that street parking is frustrating, and the charging stations are a forward-looking idea. However, a parking lot would mostly benefit people who already own cars, and it would likely encourage even more driving in an area that is already congested. A garden, on the other hand, would cool the area in summer, absorb rainwater and support pollinators.\n\nOverall, the garden would improve daily life for far more residents, so it is the better use of public money."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend has a stable job at a bank but is thinking about quitting to open a food truck. They have some savings but no business experience. Advise your friend about what to consider before making this decision.",
+   "model": "Hey, I think it’s great that you want to follow your passion, but before you hand in your resignation, there are a few things I’d really think through. First of all, I’d start small. Instead of quitting right away, why not test the idea on weekends? You could rent a booth at a farmers’ market or cater a few events for friends and see whether people actually love your food and are willing to pay for it. Second, talk to someone who’s already running a food truck. They can tell you about the hidden costs, like permits, insurance, repairs and the fact that business drops off a lot in the winter here. On top of that, I’d write a simple business plan and figure out how many months your savings would really last if sales were slow at the beginning. Ideally, you’d have at least six months of living expenses set aside. And finally, maybe ask your manager about a leave of absence instead of quitting outright. That way, if things don’t work out, you’d have something to fall back on. I really hope it works out – I’ll be your first customer!"
+  },
+  "t2": {
+   "prompt": "Talk about a time when you helped someone you did not know. What happened, and how did you feel afterwards?",
+   "model": "A couple of winters ago, I was waiting for the bus after work when I noticed an older man standing at the stop looking completely lost. He was holding a piece of paper with an address on it, and he kept looking at his phone, which, as it turned out, had a dead battery. I asked if he needed help, and he explained, in a mix of English and Portuguese, that he was trying to get to his daughter’s new apartment and had taken the wrong bus. It was minus twenty that evening, so I didn’t want to leave him standing there. I looked up the address on my phone, and it was only a few blocks out of my way, so I offered to walk him there. On the way, he told me he had just arrived in Canada and that it was his first time seeing real snow. When we got to the building, his daughter came running out – she had been calling him for an hour and was really worried. She hugged him and then thanked me about ten times. Honestly, I felt wonderful afterwards. It was such a small thing for me, but it made a big difference to them."
+  },
+  "t3": {
+   "scene": {
+    "bg": "park",
+    "alt": "A sunny park on a summer afternoon. On the left, a family is having a picnic on a red-and-white blanket under a large tree: a father in a green shirt is sitting, a mother in a purple dress is handing out food from a basket, and a small child is holding a red balloon. In the middle, a woman in a pink shirt is walking a brown dog along a sandy path. On the right, near a pond with two ducks, an older man with grey hair and glasses sits on a wooden bench reading a red book. A boy in a yellow shirt is running with a red kite flying above him. In the background there are two more trees, a bush, a few clouds and a bright sun.",
+    "items": [
+     [
+      "sun",
+      560,
+      60
+     ],
+     [
+      "cloud",
+      90,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      380,
+      45,
+      0.8
+     ],
+     [
+      "tree",
+      110,
+      300,
+      1.15
+     ],
+     [
+      "tree",
+      600,
+      250,
+      0.8
+     ],
+     [
+      "tree",
+      470,
+      235,
+      0.65
+     ],
+     [
+      "bush",
+      280,
+      245,
+      1
+     ],
+     [
+      "picnic",
+      40,
+      330,
+      150
+     ],
+     [
+      "basket",
+      120,
+      318
+     ],
+     [
+      "person",
+      70,
+      322,
+      {
+       "shirt": "#27ae60",
+       "pose": "sit",
+       "hair": "#1c1c1c"
+      }
+     ],
+     [
+      "person",
+      165,
+      330,
+      {
+       "shirt": "#8e44ad",
+       "dress": true,
+       "hairStyle": "long",
+       "hair": "#a0522d",
+       "hold": "tray",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      205,
+      340,
+      {
+       "kid": true,
+       "shirt": "#3498db",
+       "hold": "balloon",
+       "holdColor": "#e74c3c"
+      }
+     ],
+     [
+      "person",
+      330,
+      350,
+      {
+       "shirt": "#e84393",
+       "pose": "walk",
+       "hairStyle": "bun",
+       "hold": "leash",
+       "skin": "#c68642"
+      }
+     ],
+     [
+      "dog",
+      380,
+      362,
+      "#a0522d"
+     ],
+     [
+      "pond",
+      520,
+      345,
+      90
+     ],
+     [
+      "duck",
+      500,
+      342
+     ],
+     [
+      "duck",
+      545,
+      350
+     ],
+     [
+      "bench",
+      470,
+      300,
+      90
+     ],
+     [
+      "person",
+      495,
+      300,
+      {
+       "shirt": "#7f8c8d",
+       "pose": "sit",
+       "hair": "#bdc3c7",
+       "glasses": true,
+       "hold": "book"
+      }
+     ],
+     [
+      "person",
+      255,
+      300,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "run",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "kite",
+      300,
+      110,
+      "#e74c3c"
+     ],
+     [
+      "flowers",
+      20,
+      390,
+      5
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a park on what looks like a warm, sunny summer afternoon, and it’s quite busy. On the left-hand side, under a big leafy tree, a family is having a picnic on a red-and-white checked blanket. The father, who’s wearing a green T-shirt, is sitting on the blanket, and the mother, in a purple dress, is standing beside him holding a tray of food. There’s also a picnic basket, and a little boy in a blue shirt is holding a bright red balloon. In the middle of the picture, a woman in a pink top is walking her brown dog along a sandy path. Just behind her, a boy in a yellow T-shirt is running across the grass, and he seems to be flying a red kite, which is high up in the sky. On the right-hand side, there’s a small pond with two ducks swimming in it, and next to the pond, an older man with grey hair and glasses is sitting on a wooden bench, reading a red book. In the background, there are a couple more trees, a few fluffy clouds and a bright sun. Overall, it’s a very relaxed, cheerful scene."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will probably happen in the next few minutes. First, the little boy with the balloon is likely to get distracted by the dog that’s walking past, and he might let go of the balloon by accident. If that happens, he’ll probably start crying, and his mother will have to comfort him – maybe with some food from the basket. Second, the boy flying the kite is running towards the pond, and he’s looking up at the sky rather than where he’s going. I wouldn’t be surprised if he trips or ends up very close to the water. The man on the bench will probably look up from his book and warn him to be careful. Also, the brown dog has noticed the ducks, so there’s a good chance it will pull on the leash and try to chase them, and the woman will have to hold on tight. Finally, since the family seems to be just starting their picnic, they’ll most likely stay for another hour or so, eating and enjoying the sunshine before packing up."
+  },
+  "t5": {
+   "intro": "Your family is planning a one-week summer vacation and has found two options. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Lakeside cabin rental",
+     "details": [
+      "$1,400 for the week",
+      "3-hour drive",
+      "Canoe and kayaks included",
+      "No Wi-Fi, limited cell signal",
+      "Groceries 25 minutes away"
+     ]
+    },
+    {
+     "title": "City hotel package",
+     "details": [
+      "$2,100 for the week",
+      "1-hour flight",
+      "Museum and zoo passes included",
+      "Pool and free breakfast",
+      "Walking distance to restaurants"
+     ]
+    }
+   ],
+   "other": {
+    "title": "All-inclusive beach resort",
+    "details": [
+     "$3,200 for the week",
+     "5-hour flight",
+     "All meals and drinks included",
+     "Kids’ club and evening shows",
+     "Beach and three pools"
+    ]
+   },
+   "otherWho": "Your partner prefers",
+   "persuade": "Your partner prefers the all-inclusive beach resort. Persuade your partner that your choice is better.",
+   "model": "I know the beach resort sounds amazing, and I’d love to have someone else cooking every night too, but I really think the lakeside cabin makes more sense for us this year. First, there’s the cost. The resort is three thousand two hundred dollars, and that’s before we pay for airport parking or any excursions. The cabin is only fourteen hundred, so we’d save almost two thousand dollars – that’s basically our home renovation fund. Second, think about the travel. A five-hour flight with the kids, plus getting to the airport early, is a whole day gone at each end. The cabin is a three-hour drive, and we can stop whenever we want. And honestly, I think the lack of Wi-Fi is a bonus, not a problem. At a resort, the kids would spend half the day in the kids’ club or on their tablets. At the lake, we’d actually be together – canoeing, swimming, cooking marshmallows. Yes, we’d have to make our own meals, but we can plan that and do one big grocery trip. I really think we’d come home more relaxed and with more money in the bank."
+  },
+  "t6": {
+   "situation": "You promised a close friend that you would help them move to a new apartment this Saturday. They have rented a truck and are counting on you. However, your manager has just asked you to work an extra shift on Saturday because two co-workers are sick, and she hinted that it would be noticed when promotions are decided next month.",
+   "options": [
+    "Talk to your friend and explain why you cannot help on Saturday.",
+    "Talk to your manager and explain why you cannot work the extra shift."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hi Sandra, do you have a minute? I wanted to talk to you about the Saturday shift. First of all, I really appreciate you thinking of me, and I know how tough things are with two people out sick. The problem is that, weeks ago, I promised a close friend I’d help him move this Saturday. He’s already rented the truck and booked the elevator in his new building, and honestly, he doesn’t have anyone else who can help with the heavy furniture. I don’t want to let him down at the last minute. That said, I don’t want to leave the team short either, so I’d like to suggest a couple of alternatives. I could stay three hours late on Thursday and Friday to get ahead on the orders, or I could work Sunday instead if that would help. I’ve also already messaged Kevin, who mentioned last week that he was looking for extra hours, and he said he might be available. I really do want to be considered for the promotion, and I hope you know I’m committed to the team. I just need to keep my word to my friend this one time."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should employers allow employees to work from home permanently if their job can be done remotely? Explain your reasons.",
+   "model": "In my opinion, yes, employers should allow people to work from home permanently when the job can genuinely be done remotely, although I think a little flexibility is important. The main reason is productivity. Many studies, and my own experience, show that people who work from home lose fewer hours to commuting and to constant interruptions in the office. For example, I used to spend almost two hours a day on the bus. Now I use that time to start work earlier and still have energy to exercise in the evening, so I’m healthier and more focused. Secondly, remote work opens up opportunities. Companies can hire talented people who live in smaller towns or who have disabilities that make commuting difficult, and parents can manage school pick-ups without leaving the workforce. Some people argue that remote employees feel isolated or that teamwork suffers, and I think that’s a fair point. But the solution isn’t to force everyone back five days a week. Instead, teams could meet in person once a month for planning and social events. So overall, I believe permanent remote work, combined with some planned face-to-face time, is the best option for both employees and employers."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "An unusual house built in the shape of a giant light-blue teapot, sitting on a grassy lot. It has a curved spout on the left side, a big handle on the right, a dark-blue lid on top with a round knob, and a grey chimney coming out of the lid with smoke rising. It has a brown rounded front door, two round windows, and a white wavy decorative band. A family stands outside looking at it, and there is a \"FOR SALE\" sign beside it.",
+    "items": [
+     [
+      "cloud",
+      80,
+      70,
+      1
+     ],
+     [
+      "cloud",
+      460,
+      50,
+      0.9
+     ],
+     [
+      "teapotHouse",
+      300,
+      330
+     ],
+     [
+      "sign",
+      520,
+      345,
+      "FOR SALE",
+      "#fff"
+     ],
+     [
+      "person",
+      80,
+      360,
+      {
+       "shirt": "#c0392b",
+       "pose": "point"
+      }
+     ],
+     [
+      "person",
+      120,
+      362,
+      {
+       "shirt": "#2980b9",
+       "dress": true,
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "bush",
+      560,
+      300,
+      1
+     ],
+     [
+      "flowers",
+      230,
+      345,
+      6
+     ]
+    ]
+   },
+   "prompt": "You and your cousin are looking for an unusual vacation home to rent for a family reunion, and you have found this house online. Describe the house to your cousin on the phone, and explain whether you think it would be a good choice. Your cousin cannot see the picture.",
+   "model": "You are not going to believe what I just found. Picture a house that’s shaped exactly like a giant teapot. I’m serious. The main part of the house is round and light blue, like a huge china teapot, and on the left side there’s a long curved spout sticking out – I think it might actually be a little slide or a balcony. On the right side, there’s an enormous handle, which looks like it could be used as a frame for a climbing plant. The roof is the lid of the teapot – it’s dark blue with a round knob on top – and there’s a grey chimney coming out of it with smoke rising, so it must have a fireplace inside. The front door is brown and rounded, and there are two round windows, almost like portholes. It’s sitting on a grassy lot with flowers along the front. I honestly think it would be perfect for the reunion, at least for the kids – they would go crazy for it, and the photos would be amazing. My only concern is space. It looks like it might only have two bedrooms, so we might need to rent it for the younger cousins and find another place nearby for the adults. What do you think?"
+  }
+ }
+}

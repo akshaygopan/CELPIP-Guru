@@ -1,0 +1,1878 @@
+{
+ "id": "t06",
+ "title": "Test 6",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two neighbours have found a dog.",
+    "sp": {
+     "A": {
+      "name": "Greg",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     },
+     "B": {
+      "name": "Anita",
+      "g": "f",
+      "acc": "en-IN",
+      "rate": 1.03
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Greg! Is that your dog? I didn’t know you’d got one."
+       ],
+       [
+        "A",
+        "No, no, he’s not mine. I found him about twenty minutes ago, sitting at the end of my driveway, shivering. No owner in sight. He’s friendly, though, aren’t you, buddy?"
+       ],
+       [
+        "B",
+        "Aw. He’s got a collar. Is there a tag?"
+       ],
+       [
+        "A",
+        "There is. His name’s Biscuit, and there’s a phone number. I called it twice, and both times I got a message saying the number is no longer in service."
+       ],
+       [
+        "B",
+        "That’s strange. Maybe the owners moved and never updated the tag."
+       ],
+       [
+        "A",
+        "That’s my guess. He’s clearly someone’s pet. He’s well fed, his nails are trimmed, and he sits when you tell him to. But it’s getting cold, and I can’t keep him tonight. My daughter is very allergic to dogs."
+       ],
+       [
+        "B",
+        "Oh, right. And I’d take him, but my cat would make his life miserable."
+       ],
+       [
+        "A",
+        "Exactly. So we need a plan before it gets dark."
+       ],
+       [
+        "B",
+        "Poor thing. Have you checked whether anyone on the street has put up a lost dog notice? People sometimes tape them to the mailboxes."
+       ],
+       [
+        "A",
+        "I walked him to the corner and back already. Nothing on the mailboxes or the lampposts, and nobody out calling for him. Whoever lost him might not even know he’s gone yet."
+       ],
+       [
+        "B",
+        "That’s possible if they’re at work all day. He could have slipped out this morning, and they won’t notice until they get home."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why couldn’t Greg contact the owner?",
+        "o": [
+         "The owners had moved and left no forwarding address.",
+         "Nobody picked up either time he called the number.",
+         "The number on the tag has been disconnected.",
+         "The tag showed the dog’s name but no phone number."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "the number is no longer in service",
+        "x": "Greg says the tag’s number is “no longer in service”, so the line is dead. He did call twice, but the problem was not an unanswered phone, and the move is only Anita’s guess."
+       },
+       {
+        "q": "Why does Greg believe the dog has an owner?",
+        "o": [
+         "A neighbour recognized the dog.",
+         "The dog went straight to Greg’s house.",
+         "The collar and tag look brand new.",
+         "The dog is in very good condition."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "He’s well fed, his nails are trimmed, and he sits when you tell him to",
+        "x": "Greg points to signs of care: the dog is well fed, has trimmed nails and obeys commands. Nobody recognized him, and he was found at the driveway rather than heading to Greg’s house on purpose."
+       },
+       {
+        "q": "Why can’t Greg keep the dog overnight?",
+        "o": [
+         "A family member has an allergy.",
+         "His landlord won’t allow pets.",
+         "He already has a cat at home.",
+         "He is going away tonight."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "My daughter is very allergic to dogs",
+        "x": "Greg explains that his daughter is very allergic to dogs. The cat that would make the dog miserable belongs to Anita, so that is her reason for not taking him, not Greg’s."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Okay. Most vet clinics can scan for a microchip for free. If he has one, it should have the owner’s current details, or at least the old ones plus an address."
+       ],
+       [
+        "A",
+        "Good idea. The clinic on Bloor is open until six. That gives us an hour."
+       ],
+       [
+        "B",
+        "And I’ll post his photo on the neighbourhood group online. People there are amazing with lost pets. Someone might recognize him from the dog park."
+       ],
+       [
+        "A",
+        "What if there’s no chip and nobody responds tonight?"
+       ],
+       [
+        "B",
+        "Then the city animal shelter. I know it sounds sad, but it’s the first place an owner will look. And they keep strays for five days before putting them up for adoption, so the owner has time."
+       ],
+       [
+        "A",
+        "I’d rather avoid the shelter if we can. He’s already scared. What about Tom, across the street? He has two dogs and a big yard."
+       ],
+       [
+        "B",
+        "Tom’s away in Victoria until Sunday. His son is looking after the house, and I’m not sure he’d want a third dog."
+       ],
+       [
+        "A",
+        "Hmm. Let’s try the vet first and decide after that."
+       ],
+       [
+        "B",
+        "I can’t come with you, I’m afraid. I’ve got my nephew until five-thirty. But call me as soon as you hear anything."
+       ],
+       [
+        "A",
+        "Will do. I’ll put an old towel on the back seat for him. Could you put that post up now, so people start seeing it before dinner?"
+       ],
+       [
+        "B",
+        "Sure. Let me take a couple of clear photos of his face and his collar first, while he’s sitting still."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Anita suggest going to a vet clinic?",
+        "o": [
+         "A scan there might reveal the owner’s details.",
+         "The clinic keeps strays for five days at no cost.",
+         "The vet on Bloor might recognize the dog from visits.",
+         "The clinic can post the dog’s photo online tonight."
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "Most vet clinics can scan for a microchip for free",
+        "x": "Anita says most clinics will scan for a microchip for free, which could show the owner’s details. Keeping strays for five days is what the city shelter does, not the clinic."
+       },
+       {
+        "q": "What does Anita say in favour of the shelter?",
+        "o": [
+         "It finds new homes for strays within five days.",
+         "It offers better care than a stranger’s home.",
+         "It is where owners usually search first.",
+         "It is open later than the clinic on Bloor."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "it’s the first place an owner will look",
+        "x": "Anita says the shelter is “the first place an owner will look.” The five days refer to how long strays are held before adoption, not how quickly they find new homes."
+       },
+       {
+        "q": "Why might Tom not be able to help?",
+        "o": [
+         "His yard is too small for a third dog.",
+         "He is allergic to dogs.",
+         "His son is away in Victoria.",
+         "He is away until the weekend."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Tom’s away in Victoria until Sunday",
+        "x": "Anita says Tom is in Victoria until Sunday, so he is not home. It is Tom, not his son, who is away; the son is looking after the house, and the yard is described as big."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Anita, great news. The vet just called back. Biscuit has a microchip, and the owner’s new number was registered. Her name is Mrs. Fraser. She lives on Linden Avenue, about ten blocks away."
+       ],
+       [
+        "B",
+        "Ten blocks! He must have been wandering for hours. Is she coming to get him?"
+       ],
+       [
+        "A",
+        "She doesn’t drive, and her daughter’s at work until eight. I said I’d walk him over now. I’ve got a leash from the vet."
+       ],
+       [
+        "B",
+        "That’s kind of you. Maybe mention the old tag to her, so this doesn’t happen again."
+       ],
+       [
+        "A",
+        "Already did. She was so relieved she was crying on the phone. She said a contractor left her gate open this afternoon."
+       ],
+       [
+        "B",
+        "Oh, that explains it. Poor woman. Did the vet charge you anything for the scan?"
+       ],
+       [
+        "A",
+        "Nothing at all. The receptionist said they do it all the time. She even gave me a little bag of treats for the walk, so he won’t pull."
+       ],
+       [
+        "B",
+        "Well, I’ll take the post down from the neighbourhood group, then. Three people had already shared it, and one woman offered to foster him for the weekend."
+       ],
+       [
+        "A",
+        "That’s nice to hear. Thank them for me, would you? And maybe add a note reminding people to check the details on their pets’ tags. Mrs. Fraser can’t be the only one with an old number."
+       ],
+       [
+        "B",
+        "Good idea. Text me when he’s home safe."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How was the owner found?",
+        "o": [
+         "Through a post on the neighbourhood group",
+         "Through a call from the owner’s daughter",
+         "Through the old phone number on the collar tag",
+         "Through details registered to an implanted chip"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Biscuit has a microchip, and the owner’s new number was registered",
+        "x": "The vet found a microchip with the owner’s new number registered. The neighbourhood post was shared, but it did not lead to her, and the collar tag’s number was out of service."
+       },
+       {
+        "q": "What will Greg do next?",
+        "o": [
+         "Wait for the owner’s daughter to finish work",
+         "Return the dog to its owner on foot",
+         "Leave the dog with a foster for the weekend",
+         "Bring the dog back to the vet clinic"
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "I said I’d walk him over now",
+        "x": "Greg says he will walk the dog over now because Mrs. Fraser does not drive. Waiting for her daughter, who works until eight, is not the plan, and the foster offer is no longer needed."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A customer is calling a mobile phone company.",
+    "sp": {
+     "A": {
+      "name": "Agent",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Customer",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Thank you for calling Connect Mobile. My name is Vikram. How can I help?"
+       ],
+       [
+        "B",
+        "Hi. I just got my bill, and it’s three hundred and sixty dollars. It’s usually sixty-five. There’s a huge charge for something called data roaming."
+       ],
+       [
+        "A",
+        "I’m sorry about the surprise. Let me look. I see your phone used data in the United States from the fourteenth to the eighteenth of last month."
+       ],
+       [
+        "B",
+        "Yes, I was in Seattle for a work conference. But I bought your travel pass before I left. It was supposed to cover everything for ten dollars a day."
+       ],
+       [
+        "A",
+        "Let me check. Okay, I can see the travel pass was purchased on the fourteenth at eleven fifty p.m. Your phone started using data at nine a.m. that morning, so the first day was charged at the standard roaming rate, which is very high."
+       ],
+       [
+        "B",
+        "Oh no. I bought it at the hotel that night. I thought it would apply to the whole day."
+       ],
+       [
+        "A",
+        "Unfortunately, it only starts from the moment it’s purchased. I understand it’s confusing. Since this is the first time you’ve had roaming charges on your account, I can apply a one-time credit for most of it. I’ll reduce the roaming charge to the cost of one travel pass day, so you’d pay ten dollars instead of two hundred and ninety-five."
+       ],
+       [
+        "B",
+        "That would be fantastic. Thank you."
+       ],
+       [
+        "A",
+        "You’re welcome. For future trips, I’d recommend adding the pass before you leave Canada. You can also set your phone to block roaming data automatically when you don’t have a pass. Would you like me to turn that on?"
+       ],
+       [
+        "B",
+        "Yes, please. I travel for work a few times a year."
+       ],
+       [
+        "A",
+        "Done. Roaming data is now blocked unless a pass is active. You’ll get a text message whenever you cross the border, with a link to buy one."
+       ],
+       [
+        "B",
+        "Perfect. And the credit – will it show up on this bill, or do I pay the full amount first?"
+       ],
+       [
+        "A",
+        "Please only pay the adjusted amount. The credit will appear within forty-eight hours, and your new balance will be seventy-five dollars. I’ll also send you a confirmation email with a reference number."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is the customer’s bill so high?",
+        "o": [
+         "She exceeded her monthly data limit.",
+         "She was billed twice for the pass.",
+         "She was charged for a new phone.",
+         "She was charged for data used abroad."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "There’s a huge charge for something called data roaming",
+        "x": "The extra charge is for data roaming, meaning data used in the United States. She did buy a travel pass, but she was not billed twice; the problem was that it started too late."
+       },
+       {
+        "q": "Why didn’t the travel pass cover the first day?",
+        "o": [
+         "It only applies to trips lasting at least five full days.",
+         "It only starts at midnight on the day after purchase.",
+         "It took effect only after she had used data that day.",
+         "She chose the wrong dates for the pass at the hotel."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "it only starts from the moment it’s purchased",
+        "x": "The pass starts “from the moment it’s purchased”; she bought it at 11:50 p.m. after using data from 9 a.m. It does not wait until midnight, and trip length is never mentioned."
+       },
+       {
+        "q": "Why does the agent offer a credit?",
+        "o": [
+         "The company admits it made an error on her bill.",
+         "She has no previous roaming charges on file.",
+         "She travels for work several times a year.",
+         "She threatened to cancel her contract."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Since this is the first time you’ve had roaming charges on your account",
+        "x": "The agent offers the credit because this is her first time with roaming charges. She mentions travelling for work only later, and the agent never says the company made a billing error."
+       },
+       {
+        "q": "How much will the customer pay for roaming on the first day after the credit?",
+        "o": [
+         "$0",
+         "$10",
+         "$75",
+         "$295"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "you’d pay ten dollars instead of two hundred and ninety-five",
+        "x": "The agent reduces the first day’s roaming charge to the cost of one travel-pass day, ten dollars, instead of $295. The $75 is her whole adjusted bill, including her usual $65 plan."
+       },
+       {
+        "q": "What does the agent suggest for future trips?",
+        "o": [
+         "Adding the pass before departure",
+         "Turning off the phone while travelling",
+         "Buying a local SIM card in the U.S.",
+         "Using only the hotel’s Wi-Fi network"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "I’d recommend adding the pass before you leave Canada",
+        "x": "The agent recommends adding the pass before leaving Canada and offers to block roaming data. He never suggests switching the phone off; blocking only stops data when no pass is active."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A visitor is speaking with a staff member at the information desk of a museum.",
+    "sp": {
+     "A": {
+      "name": "Staff member",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Visitor",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hi. We’re visiting from out of town, and we’ve got about three hours. What would you recommend?"
+       ],
+       [
+        "A",
+        "Welcome! Three hours is a good amount of time. Most people start with the Canadian History gallery on the second floor. It takes about an hour. But if you have children, the Discovery Zone in the basement is very popular, it’s all hands-on."
+       ],
+       [
+        "B",
+        "No kids today. Just me and my wife. We saw signs for a dinosaur exhibition."
+       ],
+       [
+        "A",
+        "Yes, the Feathered Dinosaurs exhibition. It’s a special exhibition, so it requires a timed ticket, which is an extra eight dollars each. The next available entry is at two fifteen. It’s quite busy because it closes at the end of the month."
+       ],
+       [
+        "B",
+        "Two fifteen works. Is there anything we should know about it?"
+       ],
+       [
+        "A",
+        "Just that it takes about forty-five minutes, and it ends in the gift shop, so you can’t go back in once you leave. Also, photography is allowed, but without flash, because some of the fossils are light-sensitive."
+       ],
+       [
+        "B",
+        "Good to know. What about lunch?"
+       ],
+       [
+        "A",
+        "Our café on the main floor is open until three. The sandwiches are good, but it gets crowded at noon. There’s also a picnic area outside by the fountain, if you’ve brought food. You can leave the building and come back in with your ticket the same day; just keep your wristband on."
+       ],
+       [
+        "B",
+        "Great. And is there a coat check? These jackets are heavy."
+       ],
+       [
+        "A",
+        "Yes, it’s free, just to your left. Large bags must be checked too. And one last tip: there’s a free guided tour of the Indigenous Art gallery at one o’clock, led by a curator. People say it’s the highlight of their visit."
+       ],
+       [
+        "B",
+        "That sounds great. We’ll try to catch it. What time does the museum close today?"
+       ],
+       [
+        "A",
+        "At five-thirty, but the galleries start closing at five-fifteen, so plan to be out of the exhibition halls by then. On Thursdays we’re open until nine, if you ever come back."
+       ],
+       [
+        "B",
+        "We fly home tomorrow, unfortunately. Oh, one more thing: my wife uses a cane, and stairs are hard for her. Is the second floor accessible?"
+       ],
+       [
+        "A",
+        "Absolutely. There are elevators beside the coat check and at the far end of the Canadian History gallery. And we have folding stools you can borrow for free at the desk, if she’d like to sit during the tour."
+       ],
+       [
+        "B",
+        "That’s very thoughtful. Thank you so much."
+       ],
+       [
+        "A",
+        "My pleasure. Enjoy the dinosaurs, and don’t lose your timed tickets – the staff at the entrance will need to see them."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is the Discovery Zone not suitable for the visitor?",
+        "o": [
+         "It requires a timed ticket costing eight dollars.",
+         "It is aimed at visitors who bring children.",
+         "It is on the second floor with the history gallery.",
+         "It is too busy because it closes this month."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "if you have children, the Discovery Zone in the basement is very popular",
+        "x": "She recommends the Discovery Zone for visitors with children, and the visitor replies “No kids today.” The timed eight-dollar ticket applies to the dinosaur exhibition, not the Discovery Zone."
+       },
+       {
+        "q": "Why is the dinosaur exhibition busy?",
+        "o": [
+         "It is free for visitors this month.",
+         "It will be leaving at the end of the month.",
+         "It has only just opened to the public.",
+         "It is part of the museum’s permanent collection."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "it closes at the end of the month",
+        "x": "She says it is busy because it closes at the end of the month, so it is temporary. It is a special exhibition with an extra ticket, not part of the permanent collection."
+       },
+       {
+        "q": "Why is flash photography not allowed in the exhibition?",
+        "o": [
+         "Certain fossils can be harmed by bright light.",
+         "Flashes would disturb visitors in the crowded rooms.",
+         "Photos of any kind are banned in that area.",
+         "The fossils are protected by copyright rules."
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "some of the fossils are light-sensitive",
+        "x": "Flash is banned because some fossils are light-sensitive. Photography itself is allowed, so a total photo ban is wrong, and crowding is mentioned only as the reason the exhibition is busy."
+       },
+       {
+        "q": "What must the visitors keep if they leave the building for lunch?",
+        "o": [
+         "Their receipt",
+         "Their timed tickets",
+         "Their wristbands",
+         "Their coat check ticket"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "just keep your wristband on",
+        "x": "She says visitors can leave and come back the same day as long as they keep their wristbands on. Timed tickets are for entering the dinosaur exhibition, not for re-entering the building."
+       },
+       {
+        "q": "What is required at the coat check?",
+        "o": [
+         "Visitors pay a small fee per item.",
+         "Visitors must show a photo ID.",
+         "Coats must be collected by three.",
+         "Big bags have to be handed in."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Large bags must be checked too",
+        "x": "She says the coat check is free and that large bags must be checked too. Three o’clock is when the café closes, and no ID is mentioned, so the other options are wrong."
+       },
+       {
+        "q": "What does the staff member say about the one o’clock tour?",
+        "o": [
+         "Many visitors rate it as the best part of their day.",
+         "It costs an extra eight dollars per person.",
+         "It is designed mainly for families with kids.",
+         "It takes forty-five minutes and ends in the shop."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "People say it’s the highlight of their visit",
+        "x": "She says people call the tour “the highlight of their visit.” The tour is free and led by a curator; forty-five minutes and the gift shop exit describe the dinosaur exhibition."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Appliance repair owner",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "The provincial government has introduced a right-to-repair law that would require manufacturers of household appliances and electronics to make spare parts, tools and repair manuals available to consumers and independent repair shops."
+       ],
+       [
+        "A",
+        "If passed, the law would apply to products sold in the province from next January, including washing machines, refrigerators, smartphones and laptops. Manufacturers would have to keep parts available for at least seven years after a model is discontinued, and sell them at what the bill calls “a fair and reasonable price.”"
+       ],
+       [
+        "A",
+        "The owner of an independent appliance repair shop in Sudbury, Frank Dubois, says the change is long overdue."
+       ],
+       [
+        "B",
+        "Half the calls I get, I have to tell people I can’t fix their machine, not because it’s complicated, but because the manufacturer won’t sell me the part. So a three-thousand-dollar fridge goes to the landfill because of a forty-dollar control board. It makes no sense."
+       ],
+       [
+        "A",
+        "Dubois says some manufacturers also design products so that they can only be opened with special tools, which independent shops are not allowed to buy."
+       ],
+       [
+        "B",
+        "I’ve had customers bring in a laptop where the battery is glued in. Replacing it should be a twenty-minute job. Instead, they’re told to buy a new one."
+       ],
+       [
+        "A",
+        "Industry groups say they support repair in principle, but warn that unqualified repairs could create safety risks, particularly with products that contain lithium batteries or gas lines. They also argue that requiring parts for seven years would raise costs, which could be passed on to consumers."
+       ],
+       [
+        "A",
+        "The government says it has addressed safety concerns by excluding repairs to gas appliances and by allowing manufacturers to restrict some parts to certified technicians. The bill will be debated in the legislature next month."
+       ],
+       [
+        "A",
+        "If the bill passes, the province says it will review the law after three years to decide whether to add other products, such as e-bikes and farm equipment."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What would the law require manufacturers to do?",
+        "o": [
+         "Repair all their products free of charge",
+         "Extend product warranties to seven years",
+         "Make repair materials available to the public",
+         "Stop selling products that cannot be repaired"
+        ],
+        "a": 2,
+        "t": "main",
+        "ev": "make spare parts, tools and repair manuals available to consumers and independent repair shops",
+        "x": "The law would require manufacturers to make parts, tools and manuals available to consumers and repair shops. Seven years is how long parts must stay available, not a warranty period."
+       },
+       {
+        "q": "How long would parts have to be available?",
+        "o": [
+         "For seven years after the model is no longer made",
+         "For seven years from the day it was bought",
+         "For two years after the warranty expires",
+         "For three years, until the government reviews the law"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "keep parts available for at least seven years after a model is discontinued",
+        "x": "Parts must stay available for at least seven years after a model is discontinued, not after purchase. Three years is when the province would review the law, not a parts requirement."
+       },
+       {
+        "q": "What is Frank Dubois’s main complaint?",
+        "o": [
+         "Modern machines are too complicated for him to repair.",
+         "Customers would rather buy new appliances than fix them.",
+         "Replacement parts cost more than the appliances themselves.",
+         "Makers won’t supply the components he needs."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "the manufacturer won’t sell me the part",
+        "x": "Dubois says he often cannot fix machines because “the manufacturer won’t sell me the part.” He explicitly says the problem is not complexity, and the forty-dollar part is far cheaper than the fridge."
+       },
+       {
+        "q": "What do industry groups argue?",
+        "o": [
+         "The law could increase prices and safety risks.",
+         "The law would mainly help reduce landfill waste.",
+         "Repairs are already easy, so the law is unnecessary.",
+         "Consumers do not actually want to repair products."
+        ],
+        "a": 0,
+        "t": "viewpoint",
+        "ev": "unqualified repairs could create safety risks",
+        "x": "Industry groups warn of safety risks from unqualified repairs and higher costs passed on to consumers. They say they support repair in principle, so they do not call the law unnecessary."
+       },
+       {
+        "q": "How has the government responded to safety concerns?",
+        "o": [
+         "By postponing the debate until the law can be reviewed",
+         "By exempting gas appliances and reserving some parts for experts",
+         "By requiring every repair to be done by the manufacturer",
+         "By removing products with lithium batteries from the bill"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "excluding repairs to gas appliances and by allowing manufacturers to restrict some parts to certified technicians",
+        "x": "The government excluded gas appliance repairs and let manufacturers restrict some parts to certified technicians. It did not require all repairs by manufacturers; lithium batteries were only an industry concern."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three university students are discussing their group project.",
+    "sp": {
+     "A": {
+      "name": "Zoe",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.06
+     },
+     "B": {
+      "name": "Marcus",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1
+     },
+     "C": {
+      "name": "Priya",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, so the presentation is in nine days, and we still haven’t agreed on our recommendation. Can we settle it today?"
+       ],
+       [
+        "B",
+        "I thought we had. We recommend the city build the new transit line along Main Street. The data clearly shows Main has the highest ridership potential."
+       ],
+       [
+        "C",
+        "The data shows the highest potential ridership, yes. But I interviewed six business owners on Main last week, and they’re terrified. Construction would take three years, and they’re convinced it’ll put half of them out of business."
+       ],
+       [
+        "B",
+        "Every major project has disruption. That’s not a reason to choose a worse route."
+       ],
+       [
+        "C",
+        "It’s not about choosing a worse route. The assignment asks us to evaluate the social impact, not just the numbers. If we ignore the businesses, Professor Lindqvist will take marks off. She said so in the first lecture."
+       ],
+       [
+        "A",
+        "Priya has a point there, Marcus. The rubric gives thirty percent for stakeholder analysis."
+       ],
+       [
+        "B",
+        "Fine. So we include the business owners’ concerns. But I still think Main Street is the right answer."
+       ],
+       [
+        "C",
+        "I’m not saying it isn’t. I’m saying we have to show we weighed the costs as well as the benefits."
+       ],
+       [
+        "A",
+        "What if we don’t present it as one right answer? We could recommend Main Street but with conditions, like a compensation fund for affected businesses and building in stages so only a few blocks are closed at once."
+       ],
+       [
+        "C",
+        "I like that much better. And there’s an example from another city, where they did exactly that. Businesses got rent relief during construction. I could add that as a case study."
+       ],
+       [
+        "B",
+        "Okay. That’s reasonable. But then we need to cost the compensation fund, or the recommendation looks naive."
+       ],
+       [
+        "A",
+        "Agreed. Marcus, you’re best with numbers. Could you estimate it?"
+       ],
+       [
+        "B",
+        "I can. I’ll need Priya’s interview notes, though, to know how many businesses we’re talking about."
+       ],
+       [
+        "C",
+        "I’ll send them tonight. Can I raise one other thing? Last time, the slides were finished at two a.m. the night before. I don’t want to do that again."
+       ],
+       [
+        "A",
+        "Fair. Let’s set an internal deadline. Full draft by next Wednesday, practice run on Thursday."
+       ],
+       [
+        "B",
+        "Works for me, as long as Thursday’s practice is in the afternoon. I have a lab in the morning."
+       ],
+       [
+        "A",
+        "Thursday at two, then. I’ll book a study room in the library so we can use a projector. And one more thing: who’s actually presenting? Last time Marcus did almost all the talking, and the feedback said the group didn’t seem equally involved."
+       ],
+       [
+        "B",
+        "That’s fair, although I only did it because nobody else wanted to. I’m happy to split it three ways."
+       ],
+       [
+        "A",
+        "Let’s do it by section, then. Marcus presents the ridership data and the cost of the fund, Priya does the business interviews and the case study, and I’ll do the introduction and the final recommendation."
+       ],
+       [
+        "C",
+        "Perfect. And if we finish the draft early, maybe we could send it to the teaching assistant for comments? She offered to look at outlines before the deadline."
+       ],
+       [
+        "B",
+        "Good idea, but only an outline. I don’t think she’ll want to read thirty slides."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is Marcus’s position at the beginning of the discussion?",
+        "o": [
+         "The city should not build a new transit line.",
+         "The group should interview more business owners.",
+         "The presentation should be postponed.",
+         "Main Street is the best route based on the data."
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "The data clearly shows Main has the highest ridership potential",
+        "x": "Marcus begins by saying the data shows Main Street has the highest ridership potential, so it is the right route. Interviewing business owners is something Priya has already done, not his suggestion."
+       },
+       {
+        "q": "Why are the business owners on Main Street worried?",
+        "o": [
+         "Long construction could force them to close.",
+         "They will lose customers to the new transit line.",
+         "Their rent will increase after the line opens.",
+         "They were not consulted by the city."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Construction would take three years, and they’re convinced it’ll put half of them out of business",
+        "x": "Priya says construction would last three years and owners fear half of them will go out of business. Losing customers to the line itself and rising rent are not mentioned as their worries."
+       },
+       {
+        "q": "Why does Priya mention Professor Lindqvist?",
+        "o": [
+         "To suggest the group asks her for a deadline extension",
+         "To remind the group that she expects one clear right answer",
+         "To warn that leaving out the owners would cost them marks",
+         "To complain that her rubric gives too little weight to data"
+        ],
+        "a": 2,
+        "t": "purpose",
+        "ev": "If we ignore the businesses, Professor Lindqvist will take marks off",
+        "x": "Priya says that if they ignore the businesses, Professor Lindqvist will take marks off. She is warning about grades, not complaining about the rubric; the thirty percent figure is Zoe’s point."
+       },
+       {
+        "q": "How does Marcus respond when the rubric is mentioned?",
+        "o": [
+         "He refuses to mention the owners’ worries anywhere in the presentation.",
+         "He accepts adding the concerns while still backing the same route.",
+         "He changes his mind and suggests a route other than Main Street.",
+         "He accepts the rubric but complains that it ignores the numbers."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "So we include the business owners’ concerns. But I still think Main Street is the right answer.",
+        "x": "Marcus says “Fine” and agrees to include the owners’ concerns, but adds that he still thinks Main Street is right. He neither switches routes nor refuses to include the concerns."
+       },
+       {
+        "q": "What does Zoe propose?",
+        "o": [
+         "Recommending a different street to protect the businesses",
+         "Giving businesses rent relief instead of building on Main",
+         "Presenting all the routes and letting the professor choose",
+         "Backing Main Street with measures to protect local businesses"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "recommend Main Street but with conditions",
+        "x": "Zoe suggests recommending Main Street with conditions such as a compensation fund and staged construction. Rent relief comes from Priya’s case study and supports the route rather than replacing it."
+       },
+       {
+        "q": "Why does Marcus need Priya’s interview notes?",
+        "o": [
+         "To work out the number of businesses the fund would cover",
+         "To check the ridership figures against the owners’ views",
+         "To write up the case study about rent relief in another city",
+         "To prepare his part of the slides before the Wednesday draft"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "to know how many businesses we’re talking about",
+        "x": "Marcus will estimate the compensation fund and needs Priya’s notes to know how many businesses are involved. Priya, not Marcus, offers to write the case study, and the ridership data is already his."
+       },
+       {
+        "q": "What problem does Priya want to avoid?",
+        "o": [
+         "Presenting slides that the group has never rehearsed together",
+         "Having to present on a morning when Marcus has a lab",
+         "Rushing to finish everything just before the deadline",
+         "Letting the teaching assistant see unfinished slides"
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "Last time, the slides were finished at two a.m. the night before",
+        "x": "Priya recalls that last time the slides were finished at two a.m. the night before, so she wants to avoid last-minute work. The morning lab is Marcus’s concern, not hers."
+       },
+       {
+        "q": "When will the practice run most likely take place?",
+        "o": [
+         "Wednesday morning",
+         "Wednesday afternoon",
+         "Thursday morning",
+         "Thursday afternoon"
+        ],
+        "a": 3,
+        "t": "prediction",
+        "ev": "as long as Thursday’s practice is in the afternoon",
+        "x": "Zoe sets the practice for Thursday, and Marcus agrees only if it is in the afternoon because he has a lab in the morning. Wednesday is the deadline for the full draft, not the practice."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about a development proposal.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Resident",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "A proposal to build a twenty-two-storey residential tower in the city’s Old Mill district has become the most heated planning debate in years. The district, known for its nineteenth-century brick buildings and narrow streets, is protected as a heritage area, where most buildings are no more than four storeys tall."
+       ],
+       [
+        "A",
+        "The developer argues that the tower, with three hundred and twenty units, would help address the city’s severe housing shortage. Fifteen percent of the units would be rented below market rates. The design keeps the façade of an old textile warehouse on the site, with the tower set back from the street so that, according to the architect, it would be barely visible from the main square."
+       ],
+       [
+        "A",
+        "Heritage advocates are not persuaded. They say keeping only the front wall of a historic building, a practice sometimes called “façadism,” destroys its character, and they fear the tower would set a precedent for others. One long-time resident told us:"
+       ],
+       [
+        "B",
+        "People don’t come here for one old wall. They come for the whole streetscape, the way the buildings relate to each other. Once one tower goes up, every developer in the city will be knocking on the door."
+       ],
+       [
+        "B",
+        "And I’m not against new housing. Build it on the empty lots by the rail yard, where it doesn’t destroy anything."
+       ],
+       [
+        "A",
+        "Heritage groups also point to a similar project in another city, where they say a tower built behind a preserved façade was followed within a decade by four more. Some architects disagree, noting that each of those towers required its own approval."
+       ],
+       [
+        "A",
+        "But the debate does not divide neatly along generational lines. A group of younger residents, many of whom rent in the area, has launched a petition in support. They argue that protecting the neighbourhood’s appearance should not come at the cost of making it unaffordable for anyone but current homeowners."
+       ],
+       [
+        "A",
+        "The petition, which has gathered more than two thousand signatures, points out that average rents in Old Mill have risen by nearly forty percent in five years. Its organizers say many people who work in the district’s cafés and shops can no longer afford to live there, and that one tall building on the site of an empty warehouse would change less of the neighbourhood than several mid-sized buildings scattered across it."
+       ],
+       [
+        "A",
+        "City planning staff have recommended a compromise: a building of twelve storeys, with a higher share of affordable units. The developer says that a shorter building would not be financially viable. Council is expected to vote in March."
+       ],
+       [
+        "A",
+        "Whatever council decides, both sides agree on one thing: the decision will shape how the city balances growth and history for years to come."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What makes the location of the proposal controversial?",
+        "o": [
+         "It is on the site of the city’s main square.",
+         "It is in a district with heritage protection.",
+         "It is far from transit and busy streets.",
+         "It is on land set aside for affordable rentals."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "is protected as a heritage area",
+        "x": "The reporter explains that Old Mill is protected as a heritage area where most buildings are four storeys or less. The tower would be barely visible from the main square, not built on it."
+       },
+       {
+        "q": "How does the developer try to reduce the visual impact?",
+        "o": [
+         "By using the warehouse’s old brick on the new tower",
+         "By cutting the tower to twelve storeys as staff proposed",
+         "By placing the tower behind a preserved historic frontage",
+         "By keeping the whole warehouse and building on top"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "with the tower set back from the street so that, according to the architect, it would be barely visible",
+        "x": "The design keeps the warehouse façade and sets the tower back from the street so it is barely visible. Only the front wall is kept, not the whole warehouse, and twelve storeys is the staff’s idea."
+       },
+       {
+        "q": "What is the resident’s main argument?",
+        "o": [
+         "Visitors value how the buildings fit together, not one wall.",
+         "The tower would block sunlight from the area’s narrow old streets.",
+         "The new residents would bring too much traffic to the old streets.",
+         "The old warehouse wall is the main reason visitors come to the area."
+        ],
+        "a": 0,
+        "t": "viewpoint",
+        "ev": "They come for the whole streetscape",
+        "x": "The resident says people come “for the whole streetscape, the way the buildings relate to each other,” not for one old wall. She dismisses the preserved wall and never mentions sunlight or traffic."
+       },
+       {
+        "q": "What does the reporter suggest about public opinion?",
+        "o": [
+         "Older and younger residents completely disagree.",
+         "Most residents now support the tower.",
+         "Opinions do not split simply by age.",
+         "Only homeowners have signed the petition."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "the debate does not divide neatly along generational lines",
+        "x": "The reporter says the debate “does not divide neatly along generational lines,” so age does not predict opinion. This is the opposite of saying older and younger residents completely disagree."
+       },
+       {
+        "q": "Why do the younger residents support the project?",
+        "o": [
+         "They own homes there and expect property values to rise.",
+         "They want the old warehouse torn down to make space for growth.",
+         "They value affordability over the area’s appearance.",
+         "They believe the tower will bring more customers to local cafés."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "protecting the neighbourhood’s appearance should not come at the cost of making it unaffordable",
+        "x": "The younger residents argue that protecting the neighbourhood’s appearance should not make it unaffordable. Many of them rent, so expecting property values to rise does not fit, and café customers are never mentioned."
+       },
+       {
+        "q": "What is the developer’s response to the staff compromise?",
+        "o": [
+         "It accepts the plan if it can keep three hundred units.",
+         "It offers to add more affordable units to a shorter tower.",
+         "It plans to appeal the decision before the March vote.",
+         "It argues a lower tower would not be profitable."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "a shorter building would not be financially viable",
+        "x": "The developer says a shorter building “would not be financially viable,” meaning it would not make money. A higher share of affordable units is part of the staff’s compromise, not the developer’s offer."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Helen Barker  |  To: Sung-min Park  |  Subject: Community garden plot",
+   "text": "Hi Sung-min,\n\nI hope you don’t mind me emailing you directly; Dave at the community centre gave me your address. I’m the coordinator of the Elm Park Community Garden, and I understand you added your name to our waiting list last spring.\n\nI have some good news: one of our gardeners is moving to Victoria, and her plot, number 14, has become available. It’s one of the sunnier plots, close to the water tap, and she has left behind a small raised bed and some perennial herbs, mostly mint and chives, which you are welcome to keep or remove.\n\nThe annual fee is $40, which covers water, shared tools and the compost supply. We do ask each member to contribute six hours of volunteer time over the season, usually by helping with the spring clean-up, the shared pumpkin patch or watering during the August vacation period. Most members find it’s a great way to meet the others. You can pay by cheque or e-transfer, and I’ll give you the code for the gate lock once the fee is in.\n\nThere are a few rules worth mentioning. We are an organic garden, so no chemical fertilizers or pesticides are allowed. Plants taller than about 1.5 metres, like sunflowers or corn, should be placed on the north side of the plot so they don’t shade your neighbours. And plots that are left unattended for more than three weeks during the growing season may be reassigned, although we always contact the gardener first.\n\nIf you would like the plot, please reply by Friday so I can offer it to the next person if you are no longer interested. Our orientation for new members is on Saturday, May 3, at 10 a.m. at the garden shed.\n\nHappy gardening,\nHelen",
+   "qs": [
+    {
+     "q": "Why is Helen contacting Sung-min?",
+     "o": [
+      "To ask him to volunteer at the community centre",
+      "To remind him to pay his annual fee",
+      "To offer him a garden plot that has become free",
+      "To invite him to visit the garden in Victoria"
+     ],
+     "a": 2,
+     "t": "main",
+     "ev": "her plot, number 14, has become available",
+     "x": "Helen explains that plot 14 has become available and that Sung-min is on the waiting list. Volunteering is mentioned only as a membership condition, not as the reason she is writing."
+    },
+    {
+     "q": "What does Helen say about the herbs in the plot?",
+     "o": [
+      "They must be removed before the orientation in May.",
+      "They belong to the gardener who is moving to Victoria.",
+      "They can be moved to the shared pumpkin patch.",
+      "Sung-min is free to leave them or dig them up."
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "which you are welcome to keep or remove",
+     "x": "Helen says Sung-min is “welcome to keep or remove” the mint and chives, so it is his choice. The previous gardener left them behind, and nothing requires removing them before the orientation."
+    },
+    {
+     "q": "What does the volunteer requirement involve?",
+     "o": [
+      "Giving six hours of help across the whole season",
+      "Working six hours each week during the growing season",
+      "Watering all the plots during the August vacation period",
+      "Leading the spring clean-up and the pumpkin patch"
+     ],
+     "a": 0,
+     "t": "paraphrase",
+     "ev": "contribute six hours of volunteer time over the season",
+     "x": "Members contribute six hours over the season in total, for example by helping with clean-up or watering. It is not six hours every week, and August watering is only one possible way to help."
+    },
+    {
+     "q": "Why should tall plants be placed on the north side?",
+     "o": [
+      "To protect them from strong winds from the south",
+      "Because the north side of each plot gets more sun",
+      "So neighbouring plots still get enough light",
+      "To keep them close to the water tap they need"
+     ],
+     "a": 2,
+     "t": "purpose",
+     "ev": "so they don’t shade your neighbours",
+     "x": "Tall plants go on the north side “so they don’t shade your neighbours.” The letter says plot 14 is sunny and near the tap, but never that the north side gets more sun."
+    },
+    {
+     "q": "What happens if a plot is not looked after for over three weeks?",
+     "o": [
+      "The gardener must pay a fine to keep it.",
+      "It might go to a new gardener after a check-in.",
+      "Other members will water it in August.",
+      "It is added to the shared pumpkin patch area."
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "may be reassigned, although we always contact the gardener first",
+     "x": "Unattended plots “may be reassigned,” though Helen always contacts the gardener first. Watering during August is a volunteer task covering members on vacation, not a consequence of neglecting a plot."
+    },
+    {
+     "q": "Why does Helen ask for a reply by Friday?",
+     "o": [
+      "She needs the $40 fee for the season by that day.",
+      "She is moving to Victoria and must hand over the plot.",
+      "She needs answers before the new members’ orientation.",
+      "She wants to pass it on quickly if he declines."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "so I can offer it to the next person if you are no longer interested",
+     "x": "Helen wants a reply by Friday so she can offer the plot to the next person if he is not interested. It is another gardener, not Helen, who is moving to Victoria."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Sung-min’s reply. Complete it by choosing the best option for each blank.",
+    "text": "Hi Helen,\n\nWhat wonderful news! I would love to take plot {1}. I was hoping for a sunny spot, as I want to grow tomatoes and peppers. I’ve never had a garden of my own before, so I’m sure I’ll have plenty of questions for the more experienced members.\n\nI’m happy to pay the $40 fee and to help with the volunteer hours. I work from home, so I would be glad to help with {2} in August, when many people are away.\n\nI do have one question. My nine-year-old will be helping me on weekends, and she has already made a list. My daughter wants to grow {3}. I assume they should go on the {4} side of the plot?\n\nI will definitely be at the orientation on {5}. See you then!\n\nBest,\nSung-min",
+    "blanks": [
+     {
+      "o": [
+       "14",
+       "4",
+       "40",
+       "15"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "her plot, number 14",
+      "x": "Helen says the available plot is number 14. The figure 40 is the annual fee in dollars, so it cannot be the plot number Sung-min is accepting."
+     },
+     {
+      "o": [
+       "the spring clean-up",
+       "the compost",
+       "the pumpkin patch",
+       "watering"
+      ],
+      "a": 3,
+      "t": "detail",
+      "ev": "watering during the August vacation period",
+      "x": "Helen lists watering during the August vacation period as a volunteer task, which fits “in August, when many people are away.” The spring clean-up happens in spring, not August."
+     },
+     {
+      "o": [
+       "chives",
+       "strawberries",
+       "sunflowers",
+       "carrots"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "Plants taller than about 1.5 metres, like sunflowers or corn",
+      "x": "Sung-min asks which side the plants should go on, which only matters for tall plants such as sunflowers. Chives and strawberries grow low, so the north-side rule would not apply to them."
+     },
+     {
+      "o": [
+       "north",
+       "south",
+       "east",
+       "west"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "should be placed on the north side of the plot",
+      "x": "Helen says plants taller than about 1.5 metres should be placed on the north side of the plot. Any other side would let them shade the neighbouring plots."
+     },
+     {
+      "o": [
+       "Friday, May 2",
+       "Saturday, May 3",
+       "Sunday, May 4",
+       "Saturday, May 10"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "Our orientation for new members is on Saturday, May 3",
+      "x": "The orientation for new members is on Saturday, May 3, at 10 a.m. Friday is only the deadline for replying about the plot, not the date of the orientation."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "City of Westbrook – Recycling & Waste Depot Guide",
+    "intro": "Open Tuesday–Saturday, 8:00 a.m.–4:30 p.m. Residents must show proof of address. Commercial loads are not accepted.",
+    "table": {
+     "cols": [
+      "Item",
+      "Fee",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Household recycling (paper, plastic, glass, cans)",
+       "Free",
+       "Sort into separate bins on site"
+      ],
+      [
+       "Electronics (TVs, computers, phones)",
+       "Free",
+       "Remove personal data first"
+      ],
+      [
+       "Mattresses and box springs",
+       "$20 each",
+       "Must be dry"
+      ],
+      [
+       "Appliances with refrigerant (fridges, freezers, AC units)",
+       "$35 each",
+       "Doors must be removed or taped shut"
+      ],
+      [
+       "Yard waste (leaves, branches under 10 cm wide)",
+       "Free",
+       "No plastic bags; paper bags or loose"
+      ],
+      [
+       "Paint, batteries, chemicals",
+       "Free",
+       "Hazardous waste area – Saturdays only"
+      ],
+      [
+       "Construction debris (drywall, lumber)",
+       "$12 per 100 kg",
+       "Weighed on arrival"
+      ]
+     ]
+    }
+   },
+   "email": {
+    "intro": "Read the following email. Complete it by choosing the best option for each blank.",
+    "text": "Hi Kevin,\n\nThanks for offering to lend me your truck for the trip to the depot. Here’s what I’m planning to take. The old fridge from the basement will cost {1}, and I need to remember to {2} before we load it. My old laptop is free, but I should {3} first.\n\nI also have a few cans of leftover paint. Since the hazardous waste area is only open on {4}, let’s go that day. The leaves from the backyard are in plastic bags, so I’ll need to {5} at the depot.\n\nSee you then!\nRachel",
+    "blanks": [
+     {
+      "o": [
+       "nothing",
+       "$12",
+       "$20",
+       "$35"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "$35 each",
+      "x": "A fridge is an appliance with refrigerant, which costs $35 each. The $20 fee is for mattresses and box springs, so it does not apply to the fridge."
+     },
+     {
+      "o": [
+       "drain out the refrigerant",
+       "take off or tape the doors",
+       "make sure it is fully dry",
+       "have it weighed beforehand"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Doors must be removed or taped shut",
+      "x": "The table says refrigerant appliances need their doors removed or taped shut. “Must be dry” applies to mattresses, and weighing on arrival applies only to construction debris."
+     },
+     {
+      "o": [
+       "remove the battery pack",
+       "pay the fee for electronics",
+       "wipe my private files",
+       "sort it into the right bin"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Remove personal data first",
+      "x": "Electronics are free, but the note says to remove personal data first. Paying a fee contradicts the email’s statement that the laptop is free, and sorting applies to household recycling."
+     },
+     {
+      "o": [
+       "Tuesdays",
+       "Saturdays",
+       "weekdays",
+       "Thursdays"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Hazardous waste area – Saturdays only",
+      "x": "The hazardous waste area for paint, batteries and chemicals is open on Saturdays only, even though the depot itself opens Tuesday to Saturday. Tuesdays are therefore wrong."
+     },
+     {
+      "o": [
+       "empty them out",
+       "pay the $12 fee",
+       "weigh them",
+       "leave them in the truck"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "No plastic bags; paper bags or loose",
+      "x": "Yard waste must be in paper bags or loose, with no plastic bags, so she must empty out the leaves. The $12 fee is for construction debris, while yard waste is free."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A contractor wants to drop off 300 kg of drywall from a client’s renovation. What will happen?",
+     "o": [
+      "The depot will refuse to take it.",
+      "He will pay $36 once it is weighed.",
+      "He will pay $12 for the whole load.",
+      "It will be free in the hazardous area."
+     ],
+     "a": 0,
+     "t": "diagram",
+     "ev": "Commercial loads are not accepted",
+     "x": "The intro says commercial loads are not accepted, and a contractor’s renovation waste is commercial. A resident would pay $36 (3 × $12), which makes that option tempting but wrong."
+    },
+    {
+     "q": "A resident brings two dry mattresses and a TV. How much will they pay?",
+     "o": [
+      "$0",
+      "$20",
+      "$40",
+      "$55"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "$20 each",
+     "x": "Two dry mattresses cost $20 each, so $40, and electronics such as a TV are free. $55 wrongly adds the $35 appliance fee, which applies only to refrigerant appliances."
+    },
+    {
+     "q": "Which item would be refused?",
+     "o": [
+      "A tree trunk 15 cm wide",
+      "Some 8 cm branches",
+      "Leaves in paper bags",
+      "Glass jars and tin cans"
+     ],
+     "a": 0,
+     "t": "diagram",
+     "ev": "Yard waste (leaves, branches under 10 cm wide)",
+     "x": "Yard waste branches must be under 10 cm wide, so a 15 cm trunk does not qualify. Branches 8 cm wide and leaves in paper bags both meet the yard waste rules."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Working Through the Night",
+   "paras": [
+    "Roughly one in eight Canadian workers regularly works evening, night or rotating shifts. Nurses, factory workers, truck drivers, security guards and many others keep the economy and essential services running around the clock. Yet working while most people sleep comes with health costs that researchers are only beginning to understand fully. Their numbers have grown as online shopping and round-the-clock customer service have spread to new industries. Many are younger workers or newcomers to Canada, who often have less choice about their schedules. Night work is also common among parents who want to share childcare with a partner who works during the day.",
+    "The core problem is a conflict with the body’s internal clock, which controls not only sleep but also hormone release, digestion and body temperature. Night workers typically sleep one to two hours less per day than day workers, and their daytime sleep tends to be lighter and more frequently interrupted by noise and light. Over years, this chronic sleep loss has been linked to higher rates of heart disease, type 2 diabetes and digestive problems. Exposure to artificial light at night also suppresses melatonin, a hormone that helps regulate sleep. Researchers caution, however, that some of these links may partly reflect other factors, such as diet and stress.",
+    "Eating patterns appear to play an important role. Many night workers eat their main meal in the middle of their shift, when the body is least able to process food efficiently. Studies suggest that eating lighter meals during the night and having the main meal before the shift may reduce some of the metabolic effects. Caffeine, while helpful early in a shift, can make daytime sleep harder if consumed in the last few hours before going home. Snacks from vending machines, often the only option on a night shift, tend to be high in sugar and fat, which makes planning meals ahead all the more important.",
+    "Employers can make a difference too. Rotating shifts that move forward, from mornings to evenings to nights, are easier for the body to adjust to than shifts that rotate backwards. Bright lighting in the workplace during the night and limits on consecutive night shifts also help. Some hospitals now provide quiet rooms where staff can take a short nap during breaks, a practice once considered unprofessional but increasingly supported by safety research. Some companies also offer training on healthy sleep habits, and a few cover the cost of blackout curtains for employees’ bedrooms. Unions have pushed for such measures in several provinces."
+   ],
+   "qs": [
+    {
+     "q": "Night workers’ sleep is often of poorer quality.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "their daytime sleep tends to be lighter and more frequently interrupted",
+     "x": "Paragraph B says daytime sleep is lighter and more often interrupted by noise and light, which describes poorer quality, not only shorter sleep."
+    },
+    {
+     "q": "The order in which shifts change can affect how well workers adapt.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "Rotating shifts that move forward, from mornings to evenings to nights, are easier for the body to adjust to",
+     "x": "Paragraph D explains that forward-rotating shifts, from mornings to evenings to nights, are easier to adjust to than backward rotation, so the order matters."
+    },
+    {
+     "q": "Drinking coffee near the end of a night shift may cause problems.",
+     "a": "C",
+     "t": "inference",
+     "ev": "can make daytime sleep harder if consumed in the last few hours before going home",
+     "x": "Paragraph C warns that caffeine in the last few hours before going home can make daytime sleep harder, although it helps early in a shift."
+    },
+    {
+     "q": "A significant share of Canadian workers do not work regular daytime hours.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "Roughly one in eight Canadian workers regularly works evening, night or rotating shifts",
+     "x": "Paragraph A states that roughly one in eight Canadian workers regularly works evening, night or rotating shifts, a significant share of the workforce."
+    },
+    {
+     "q": "Night workers earn higher wages than day workers.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Schedules and health are discussed throughout, but no paragraph compares the pay of night and day workers, so the claim is not given (E)."
+    },
+    {
+     "q": "Attitudes towards resting at work have changed.",
+     "a": "D",
+     "t": "inference",
+     "ev": "a practice once considered unprofessional but increasingly supported by safety research",
+     "x": "Paragraph D says napping at work was once considered unprofessional but is now increasingly supported by safety research, showing a change in attitude."
+    },
+    {
+     "q": "The body’s internal clock affects more than just sleep.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "which controls not only sleep but also hormone release, digestion and body temperature",
+     "x": "Paragraph B says the internal clock controls not only sleep but also hormone release, digestion and body temperature."
+    },
+    {
+     "q": "When night workers eat their largest meal may influence their health.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "having the main meal before the shift may reduce some of the metabolic effects",
+     "x": "Paragraph C suggests that having the main meal before the shift, rather than in the middle of it, may reduce some metabolic effects."
+    },
+    {
+     "q": "Most night workers eventually switch to day jobs.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "The text discusses the health costs of night work but never says whether most night workers later move to daytime jobs, so the answer is E."
+    }
+   ]
+  },
+  "p4": {
+   "title": "The Case for the Gap Year",
+   "byline": "Opinion | by Nora Whitfield, high school guidance counsellor",
+   "text": "Every spring, I meet with dozens of Grade 12 students who are anxious about one question: what are you doing next year? For most of them, the expected answer is university or college, starting in September. Those who hesitate often feel they are falling behind, or worry that their parents will be disappointed. After twenty years as a guidance counsellor, I want to say clearly what I tell many of them privately: taking a year off before post-secondary education can be one of the best decisions a young person makes.\n\nI am not talking about a year spent on the couch. A well-planned gap year might involve working full-time to save for tuition, volunteering, travelling on a budget or trying out a field before committing to a four-year program. The key is that it has some purpose, even if that purpose changes along the way.\n\nThe benefits are real. Students who start post-secondary education a year later often arrive more motivated and more certain of what they want to study. That matters, because changing programs is expensive. In my experience, the students who switch majors two or three times are rarely the ones who took a year to think. A gap year can also provide work experience that makes a student’s résumé stand out, and the maturity that comes from managing money and making decisions without a teacher checking in every day. One former student of mine spent her year working in a veterinary clinic, only to discover that she was far more interested in running a business than in caring for animals. She is now finishing a commerce degree and has never regretted the detour. Parents, too, often come around: many who were nervous at first tell me later that their child came home more independent and more focused.\n\nCritics raise legitimate concerns. Some students never go back, although research suggests that the majority do, and those who do not often had other reasons. Others worry about losing study habits. That is a fair point, particularly in subjects like mathematics, where skills fade without practice; I advise students heading into science or engineering to keep up some study during their year off. Finally, there is the question of who can afford a gap year. Travelling abroad is a privilege, but working and saving in one’s hometown is not.\n\nMany universities now allow admitted students to defer their offer for a year, keeping their place and sometimes their scholarship. Students should ask about this before they decline anything.\n\nThe pressure to follow a straight line from Grade 12 to graduation is understandable, but life rarely works that way. A thoughtful pause can make the rest of the journey far more meaningful.",
+   "qs": [
+    {
+     "q": "What is the writer’s main point?",
+     "o": [
+      "Every Grade 12 student should take a year off first.",
+      "Students should travel abroad before starting their degree.",
+      "Gap years are mainly an option for wealthy families.",
+      "A year off with clear goals can help many young people."
+     ],
+     "a": 3,
+     "t": "main",
+     "ev": "taking a year off before post-secondary education can be one of the best decisions a young person makes",
+     "x": "Nora argues that a gap year with some purpose can be one of the best decisions a student makes. She says it can be valuable, not that every student should take one."
+    },
+    {
+     "q": "Why does the writer mention students who switch majors?",
+     "o": [
+      "To criticize universities for making program changes costly",
+      "To show that a year off can prevent expensive switches",
+      "To show that most students are unsure what to study",
+      "To argue that four-year programs should be made shorter"
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "changing programs is expensive",
+     "x": "She notes that changing programs is expensive and that frequent switchers rarely took a year to think, implying gap years prevent costly switches. She does not blame universities for the cost."
+    },
+    {
+     "q": "What does the writer recommend for students entering science or engineering?",
+     "o": [
+      "Practising their subjects during the time off",
+      "Skipping the gap year and starting at once",
+      "Working full-time in a laboratory",
+      "Deferring to keep a scholarship"
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "I advise students heading into science or engineering to keep up some study during their year off",
+     "x": "She advises science and engineering students to keep up some study during their year off, because maths skills fade without practice. She does not tell them to skip the gap year altogether."
+    },
+    {
+     "q": "How does the writer respond to the concern that gap years are only for the wealthy?",
+     "o": [
+      "She agrees that a gap year is realistic only for wealthy families.",
+      "She suggests students apply for grants to cover travel costs abroad.",
+      "She argues that a gap year spent working locally is affordable.",
+      "She says the issue matters less than the benefits of travelling."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "Travelling abroad is a privilege, but working and saving in one’s hometown is not",
+     "x": "She admits travelling abroad is a privilege but says working and saving in one’s hometown is not, so a gap year need not be costly. She never mentions grants or agrees completely."
+    },
+    {
+     "q": "What does the writer advise students to do before turning down a university offer?",
+     "o": [
+      "Find a job to save money",
+      "Ask if the offer can be postponed",
+      "Talk it over with their parents",
+      "Apply again the following spring"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "Many universities now allow admitted students to defer their offer for a year",
+     "x": "She tells students to ask whether the university allows them to defer the offer for a year before declining anything. Working to save money is a gap-year activity, not advice about offers."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a reader’s comment. Complete it by choosing the best option for each blank.",
+    "text": "I took a gap year in 2019, and I agree with almost everything in this article. I worked at a garden centre and saved enough to cover my first year of {1}. More importantly, I realized I didn’t want to study business, which had been my parents’ plan. I’m now in environmental science and loving it.\n\nThat said, I think Ms. Whitfield is a little too {2}. Not every student has a clear plan, and some of my friends who took a year off without one ended up {3}. One of them still hasn’t gone back.\n\nMy advice would be to set two or three specific goals and to {4} with a university before you start. Mine let me keep my scholarship, which made a huge difference. A gap year works best when it’s a {5}, not a way to avoid deciding.\n\n– Emma, Guelph",
+    "blanks": [
+     {
+      "o": [
+       "travel",
+       "tuition",
+       "rent",
+       "textbooks"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "working full-time to save for tuition",
+      "x": "Nora mentions working full-time to save for tuition, and Emma says she saved enough to cover her first year of it. Rent and travel are never mentioned as her savings goal."
+     },
+     {
+      "o": [
+       "gloomy",
+       "cautious",
+       "optimistic",
+       "negative"
+      ],
+      "a": 2,
+      "t": "attitude",
+      "ev": "can be one of the best decisions a young person makes",
+      "x": "Emma then says not every student has a clear plan and some friends never returned, so she finds Nora too positive. “Gloomy” or “cautious” contradicts Nora’s strong support for gap years."
+     },
+     {
+      "o": [
+       "travelling abroad",
+       "studying mathematics",
+       "working at a garden centre",
+       "drifting without direction"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "I am not talking about a year spent on the couch",
+      "x": "Emma says friends who took a year off without a plan ended up badly, and one never returned, so they drifted. Working at a garden centre was Emma’s own successful gap year."
+     },
+     {
+      "o": [
+       "decline your offer early",
+       "arrange a deferral",
+       "confirm a scholarship",
+       "change programs"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "allow admitted students to defer their offer for a year",
+      "x": "Nora notes that many universities let admitted students defer their offer, and Emma says hers let her keep her scholarship. Declining the offer would lose that place, the opposite of her advice."
+     },
+     {
+      "o": [
+       "decision",
+       "holiday",
+       "punishment",
+       "requirement"
+      ],
+      "a": 0,
+      "t": "vocab",
+      "ev": "The key is that it has some purpose",
+      "x": "Emma says a gap year works best as a deliberate choice, “not a way to avoid deciding,” echoing Nora’s point about purpose. “Holiday” suggests the aimless year both writers reject."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "The intersection near your home, where a busy road meets a quiet residential street, has become dangerous. Several near-accidents involving children walking to school have occurred.",
+   "bullets": [
+    "Describe the intersection and the problem",
+    "Explain who is affected and give an example of an incident",
+    "Suggest what the city could do to improve safety"
+   ],
+   "model": "Dear Councillor Tremblay,\n\nI am writing to draw your attention to a dangerous situation at the intersection of Kingsway Road and Poplar Street, just two blocks from Westview Elementary School. Kingsway is a busy four-lane road where drivers often exceed the 50 km/h limit, while Poplar is a quiet residential street that many families use to walk to school. There is no traffic light or crosswalk, only a stop sign on Poplar.\n\nThe people most at risk are children and seniors who need to cross Kingsway. Last Tuesday morning, I watched an eight-year-old boy step into the road when a pickup truck swerved around a stopped car. He was pulled back by a crossing guard just in time. Parents in our neighbourhood tell me this is not the first close call this month.\n\nI would respectfully ask the city to install a pedestrian-activated crossing signal at this intersection as soon as possible. In the meantime, a reduced school-zone speed limit, clearer signage and occasional police enforcement during school hours would make a real difference.\n\nThank you for your attention to this matter. I would be happy to discuss it further.\n\nSincerely,\nHarpreet Gill"
+  },
+  "t2": {
+   "intro": "Your community centre has received funding for one new project and is asking residents to vote.",
+   "question": "Which project do you prefer?",
+   "a": "An outdoor skate park for teenagers and young adults.",
+   "b": "A seniors’ lounge with comfortable seating, games tables and a small kitchen, open every day.",
+   "model": "I would vote for Option A, the outdoor skate park, because I believe it would meet a real need for young people in our neighbourhood.\n\nAt the moment, there are very few free places where teenagers can spend time safely after school. Many of them end up skateboarding in parking lots or on the steps of public buildings, which leads to complaints and sometimes injuries. A purpose-built skate park would give them a legal, safe space to practise, and it would probably reduce conflicts with business owners and residents.\n\nIn addition, a skate park encourages physical activity at an age when many young people spend hours on screens. It also brings together teenagers from different schools and backgrounds who share a common interest. In other towns, skate parks have become places where older skaters teach younger ones, creating a positive community.\n\nI do recognize that seniors deserve a comfortable place to meet, and loneliness among older adults is a serious problem. However, our community centre already has a multipurpose room that could be used as a seniors’ lounge several days a week at little extra cost. A skate park, by contrast, cannot be created without this funding."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "A friend from a warm country is moving to your city in November and is worried about the Canadian winter. Give your friend advice about how to prepare.",
+   "model": "Don’t worry – winter here is cold, but it’s also really beautiful, and with the right preparation you’ll be fine. First, the most important thing is good clothing. Don’t buy a fashionable coat in your home country; wait until you get here and buy a proper winter parka, rated for at least minus thirty. Also get waterproof boots with a good grip, because the sidewalks can get icy, plus a hat, a scarf and warm gloves. The trick is to dress in layers, so you can take something off when you go indoors. Second, prepare for the darkness. In December, it gets dark around four thirty, which can affect your mood. Try to go outside during the day, even for a short walk at lunch, and some people find a special daylight lamp helps. Third, don’t hide inside all winter! Try something new, like skating at an outdoor rink, snowshoeing or cross-country skiing. Many community centres rent equipment cheaply. And finally, if you’re going to drive, get winter tires and practise in an empty parking lot first. Honestly, once you have the right gear, you might even start to love it."
+  },
+  "t2": {
+   "prompt": "Talk about a celebration that was memorable for you. What was the occasion, and why do you remember it?",
+   "model": "The most memorable celebration I’ve been to was my grandmother’s eightieth birthday, about three years ago. My grandmother lives in a small town, and she had always said she didn’t want a big party, so my cousins and I decided to organize a surprise. We contacted relatives from all over – some from Vancouver, one uncle from Manila – and we booked the community hall near her house. On the day, my mother told her they were just going out for a quiet lunch. When she walked into the hall and saw almost sixty people shouting “Surprise!”, she was completely speechless, and then she started crying. What made it so special was that each grandchild had prepared something. My cousin made a slideshow of old family photos, some from when she first came to Canada in the 1970s, and I gave a short speech about the summers I spent at her house. At the end, she stood up and told stories none of us had ever heard before. I remember it because it was the first time the whole family had been together in years, and because it showed her how loved she is."
+  },
+  "t3": {
+   "scene": {
+    "bg": "indoor",
+    "alt": "A living room on moving day. Cardboard boxes are stacked everywhere, some labelled \"BOOKS\", \"KITCHEN\" and \"FRAGILE\". On the left, a man in a red shirt is carrying a large box, and a woman in a blue shirt stands on a short ladder taking a picture off the wall. In the centre, a sofa is covered with clothes, and a small child is sitting on top of a box holding a toy. On the right, a man in a green shirt is lifting one end of a bookshelf while a cat watches from the windowsill. A clock on the wall shows ten o’clock and a potted plant sits by the door.",
+    "items": [
+     [
+      "window",
+      440,
+      70,
+      140,
+      100
+     ],
+     [
+      "cat",
+      520,
+      175,
+      "#7f8c8d"
+     ],
+     [
+      "clock",
+      300,
+      70
+     ],
+     [
+      "door",
+      40,
+      300,
+      "#8b5a2b"
+     ],
+     [
+      "plant",
+      115,
+      300,
+      1
+     ],
+     [
+      "box",
+      140,
+      300,
+      60,
+      45,
+      "BOOKS"
+     ],
+     [
+      "box",
+      145,
+      255,
+      50,
+      40,
+      "FRAGILE"
+     ],
+     [
+      "box",
+      330,
+      330,
+      60,
+      40,
+      "KITCHEN"
+     ],
+     [
+      "sofa",
+      220,
+      320,
+      160,
+      "#5d8aa8"
+     ],
+     [
+      "person",
+      95,
+      345,
+      {
+       "shirt": "#c0392b",
+       "hold": "box",
+       "pose": "walk"
+      }
+     ],
+     [
+      "ladder",
+      175,
+      300,
+      70
+     ],
+     [
+      "person",
+      205,
+      240,
+      {
+       "shirt": "#2980b9",
+       "pose": "both",
+       "hairStyle": "long",
+       "s": 0.9
+      }
+     ],
+     [
+      "person",
+      360,
+      290,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "sit"
+      }
+     ],
+     [
+      "shelf",
+      460,
+      330,
+      90
+     ],
+     [
+      "person",
+      590,
+      345,
+      {
+       "shirt": "#27ae60",
+       "pose": "both",
+       "flip": true,
+       "skin": "#8d5524"
+      }
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a living room on what is clearly moving day, and it’s a bit chaotic. There are cardboard boxes all over the place – some are labelled “Books,” “Fragile” and “Kitchen.” On the left side, near the front door, a man in a red T-shirt is walking with a big box in his arms. Beside him, a woman in a blue shirt with long hair is standing on a small ladder, reaching up with both hands – I think she’s taking something down from the wall, maybe a picture or a curtain rod. In the middle of the room, there’s a blue sofa, and a little child in a yellow shirt is sitting on top of a box, just watching everybody work. On the right-hand side, a man in a green shirt is lifting a tall bookshelf that’s still full of colourful books, which looks really heavy. Up on the windowsill, a grey cat is sitting and watching the whole scene. There’s also a clock on the wall, a plant near the door and a big window letting in daylight. It looks like the family is either moving in or moving out, and they still have a lot of work to do."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things are going to happen very soon. First, the man on the right is trying to lift a bookshelf that’s still full of books, which is a big mistake. I think he’ll realize it’s far too heavy, and someone will tell him to take the books out first and put them into the box marked “Books.” If not, books might fall all over the floor. Second, the woman on the ladder is reaching up with both hands and not holding on, so there’s a good chance she’ll lose her balance a little. Hopefully the man with the box will put it down and hold the ladder for her. Third, the little child sitting on the box is probably going to get bored soon and start opening the boxes or playing with the packing tape. Someone will have to find a job for them, like putting their toys into a small box. And finally, the cat looks nervous. When the movers start carrying furniture through the door, I wouldn’t be surprised if the cat tries to run outside, so they’ll need to lock it in a bathroom until they’re finished."
+  },
+  "t5": {
+   "intro": "Your 10-year-old nephew is staying with your family for the summer, and you need to choose a day program for him. Choose the option you prefer. In the next section, you will need to persuade your sister, his mother, that your choice is better than the one she prefers.",
+   "options": [
+    {
+     "title": "Outdoor adventure camp",
+     "details": [
+      "$220 per week",
+      "Hiking, canoeing, swimming",
+      "Small groups, certified guides",
+      "Bus pickup from your street",
+      "8:30 a.m. – 4:00 p.m."
+     ]
+    },
+    {
+     "title": "Science and robotics camp",
+     "details": [
+      "$260 per week",
+      "Build and program robots",
+      "Held at the local university",
+      "Parents must drive (20 minutes)",
+      "9:00 a.m. – 3:30 p.m."
+     ]
+    }
+   ],
+   "other": {
+    "title": "Private math tutoring",
+    "details": [
+     "$180 per week",
+     "One hour per day, Monday–Friday",
+     "Tutor comes to your home",
+     "Focus on next year’s curriculum",
+     "He would be at home the rest of the day"
+    ]
+   },
+   "otherWho": "Your sister prefers",
+   "persuade": "Your sister prefers private math tutoring. Persuade her that your choice is better.",
+   "model": "I understand why you like the tutoring – you want Leo to be ready for Grade 5 math, and that makes sense. But I really think the science and robotics camp would do more for him this summer. First, it still develops his math skills, but in a way he’ll actually enjoy. Programming robots involves measuring, angles, patterns and logic – all the things he struggles with – but he’ll be solving real problems instead of doing worksheets. Kids learn so much faster when they’re excited. Second, think about the rest of his day. With the tutor, he’d have one hour of math and then seven hours at home with nothing to do, and you know he’d spend most of it on his tablet. At the camp, he’d be busy and making friends from nine until three thirty. Yes, it costs eighty dollars more per week, and we’d have to drive twenty minutes, but I’m happy to do the morning drop-off on my way to work. And honestly, a summer at a university campus building robots is something he’ll remember for years. If he still needs extra help in the fall, we could hire a tutor for a few weeks before school starts."
+  },
+  "t6": {
+   "situation": "You accidentally agreed to two events on the same evening: your sister’s birthday dinner, which your family has planned for weeks, and a farewell party for a close co-worker who is moving to another country. Both people are expecting you.",
+   "options": [
+    "Talk to your sister and explain that you will miss part of her dinner.",
+    "Talk to your co-worker and explain that you cannot attend the farewell party."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Amelia, do you have a minute? I need to tell you something, and I feel really bad about it. I made a mistake with my calendar. Next Friday, I’m going to Lena’s birthday dinner – my sister’s – and I completely forgot it was the same night as your farewell party. My family has been planning the dinner for weeks, and it’s her fortieth, so I really can’t miss it. I’m so sorry. You know how much I’ve enjoyed working with you these past four years – you’re honestly the reason I survived that first year here. So I don’t want to just disappear without saying goodbye properly. Would you be free for lunch on Thursday? It would be my treat, and we could actually talk, which is hard to do at a big party anyway. And if your party goes late, I might be able to drop by after the dinner for half an hour, around ten, if that’s okay with you. I also put together a little going-away gift with a few people from our team, so I’ll make sure you get that before you leave. I hope you understand."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should employers be allowed to look at job applicants’ personal social media accounts before hiring them? Explain your reasons.",
+   "model": "In my opinion, employers should be allowed to look at public social media, but only in a limited and fair way. On the one hand, I understand why employers want to check. If someone posts hateful comments, threatens people or shares confidential information from a previous job, that’s important information. For jobs working with children or vulnerable people, I think checking public posts is a reasonable part of protecting others. On the other hand, there are real risks. When a manager looks through someone’s personal accounts, they may see things like the person’s religion, age, family situation or health, which legally shouldn’t affect hiring decisions. Even if they don’t mean to, those details can create bias. Also, many people have a private life online that has nothing to do with their ability to do the job. So I think the best solution is a clear policy. Employers should only look at public content, they should look for specific things like threats or discrimination, and someone other than the hiring manager should do the review. That way, companies can protect themselves without unfairly judging people for their personal lives."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "An enormous red wooden chair, about three times taller than a person, standing in the middle of a city park on the grass. The seat is so high that a man standing underneath it barely reaches the bottom of the seat. A woman is taking a photo of a child standing between the chair legs. Trees and a path surround it.",
+    "items": [
+     [
+      "cloud",
+      90,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      470,
+      50,
+      0.8
+     ],
+     [
+      "tree",
+      70,
+      290,
+      1
+     ],
+     [
+      "tree",
+      580,
+      290,
+      0.9
+     ],
+     [
+      "giantChair",
+      320,
+      370
+     ],
+     [
+      "person",
+      300,
+      370,
+      {
+       "shirt": "#2980b9",
+       "pose": "both"
+      }
+     ],
+     [
+      "person",
+      350,
+      372,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "wave"
+      }
+     ],
+     [
+      "person",
+      480,
+      380,
+      {
+       "shirt": "#8e44ad",
+       "hold": "camera",
+       "flip": true,
+       "hairStyle": "long"
+      }
+     ]
+    ]
+   },
+   "prompt": "You are walking through a park in another city and you see this unusual sculpture. Call your friend, who works at a museum, and describe it. Explain whether you think it would be a good idea for your own city’s park. Your friend cannot see the picture.",
+   "model": "Hi Sophie, it’s me. I’m in a park in Montreal right now, and I’m looking at the strangest sculpture. Picture an ordinary wooden kitchen chair – four legs, a seat and a straight back with a couple of horizontal bars. Now imagine it’s painted bright red, and it’s about three times taller than a person. It’s enormous! A man is standing right under the seat with his arms stretched up, and he can’t even touch it. There’s a little kid standing between the chair legs waving, and his mother is taking a picture. Honestly, everybody walking by stops to take photos. I think it’s meant to make you feel small, like a child in a world of giant furniture. It’s really playful. I actually think something like this would be great in our riverside park. It’s simple, it’s colourful, and it would become one of those spots people share online, which could bring more visitors. My only concern is safety – kids would definitely try to climb it, so we’d need some kind of soft ground underneath. What do you think? Would the museum ever sponsor something like that?"
+  }
+ }
+}

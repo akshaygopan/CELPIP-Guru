@@ -1,0 +1,73 @@
+{
+ "L": {
+  "intro": "You will hear a short conversation between two neighbours. Then answer one question.",
+  "sp": {
+   "A": {
+    "name": "Gloria",
+    "g": "f",
+    "acc": "en-CA",
+    "rate": 1
+   },
+   "B": {
+    "name": "Hamid",
+    "g": "m",
+    "acc": "en-GB",
+    "rate": 0.98
+   }
+  },
+  "lines": [
+   [
+    "A",
+    "Hamid, are you heading to the recycling depot this weekend? I have a pile of cardboard boxes from the move."
+   ],
+   [
+    "B",
+    "I was planning to go Saturday morning, but they just changed the hours. It is closed on Saturdays until the end of the month."
+   ],
+   [
+    "A",
+    "Oh no. Sunday, then?"
+   ],
+   [
+    "B",
+    "Sunday works. I can take your boxes if you flatten them first, otherwise they will not fit in my hatchback."
+   ]
+  ],
+  "q": {
+   "q": "What does Hamid ask Gloria to do?",
+   "o": [
+    "Drive the boxes to the depot herself",
+    "Flatten the boxes before Sunday",
+    "Wait until the end of the month",
+    "Check the depot’s new hours"
+   ],
+   "a": 1,
+   "t": "detail",
+   "ev": "I can take your boxes if you flatten them first",
+   "x": "Practice item."
+  }
+ },
+ "R": {
+  "meta": "Notice posted in the lobby of Maple Court Apartments",
+  "text": "Water Shut-off – Tuesday\n\nThe water supply to all units on floors 3 to 6 will be turned off on Tuesday from 9:00 a.m. to approximately 1:00 p.m. while a leaking pipe is replaced. Residents on floors 1 and 2 are not affected. Please store some drinking water the night before. If the work finishes early, the water will be restored without further notice.",
+  "q": {
+   "q": "What are residents on the fourth floor advised to do?",
+   "o": [
+    "Leave the building by 9:00 a.m.",
+    "Save drinking water on Monday evening",
+    "Report leaks to the building manager",
+    "Wait for a second notice before using water"
+   ],
+   "a": 1,
+   "t": "inference",
+   "ev": "Please store some drinking water the night before",
+   "x": "Practice item."
+  }
+ },
+ "W": {
+  "prompt": "Practice (not scored): In 2–4 sentences, describe what you usually do on a Sunday morning. Use this time to get familiar with the editor, the word counter and the Cut / Copy / Paste / Undo / Redo buttons."
+ },
+ "S": {
+  "prompt": "Practice (not scored): Describe a place in your city where you like to spend time, and explain why you enjoy it."
+ }
+}

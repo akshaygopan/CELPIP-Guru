@@ -1,0 +1,1888 @@
+{
+ "id": "t07",
+ "title": "Test 7",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "A teacher and a school principal are dealing with a problem with a field trip.",
+    "sp": {
+     "A": {
+      "name": "Ms. Chen",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.05
+     },
+     "B": {
+      "name": "Mr. Adeyemi",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Mr. Adeyemi, sorry to interrupt. The bus company just called. They’ve cancelled our bus for tomorrow’s field trip to the science centre."
+       ],
+       [
+        "B",
+        "Cancelled? Why?"
+       ],
+       [
+        "A",
+        "Two of their drivers are off sick, and they’re prioritizing their regular school routes. They apologized and offered to refund the deposit, but they can’t give us another bus until next week."
+       ],
+       [
+        "B",
+        "And the science centre booking is for tomorrow at ten?"
+       ],
+       [
+        "A",
+        "Ten o’clock, yes. Fifty-four Grade 5 students, plus six parent volunteers. And the science centre has a strict policy: if we cancel with less than forty-eight hours’ notice, we lose the full fee. That’s almost nine hundred dollars, which came from the parent council’s fundraising."
+       ],
+       [
+        "B",
+        "That’s not a small amount. I don’t want to go back to the parent council and tell them their money is gone."
+       ],
+       [
+        "A",
+        "Neither do I. And the kids have been preparing for weeks. They’ve designed their own experiments to test in the lab there."
+       ],
+       [
+        "B",
+        "Could we postpone the science centre instead? Maybe they’d move us to next week if we explain what happened."
+       ],
+       [
+        "A",
+        "I asked them that before I came to you. They’re fully booked with school groups until the end of the month, and after that we’ve got provincial testing and the spring concert."
+       ],
+       [
+        "B",
+        "So postponing really means losing the trip altogether. Not an option, then."
+       ],
+       [
+        "B",
+        "Okay. Let’s see what our options are. Give me ten minutes to make a couple of calls."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why did the bus company cancel?",
+        "o": [
+         "The bus broke down on its route.",
+         "The school did not pay the deposit.",
+         "It is short of drivers.",
+         "The weather is expected to be bad."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "Two of their drivers are off sick",
+        "x": "The company says two drivers are off sick and it is keeping its regular school routes running, so it lacks drivers. It offered to refund the deposit, so payment was not the problem."
+       },
+       {
+        "q": "What will happen if the school cancels the science centre visit now?",
+        "o": [
+         "It will get a partial refund.",
+         "It can rebook without a fee.",
+         "The parent council will pay a penalty.",
+         "It will lose all the money paid."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "if we cancel with less than forty-eight hours’ notice, we lose the full fee",
+        "x": "With less than forty-eight hours’ notice, the school loses the full fee of almost $900. The parent council raised that money, but it would not be charged an extra penalty."
+       },
+       {
+        "q": "Why is Ms. Chen especially reluctant to cancel?",
+        "o": [
+         "The students have prepared for the visit.",
+         "The parent volunteers have taken time off work.",
+         "The science centre is closing soon.",
+         "The trip was her idea."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "the kids have been preparing for weeks",
+        "x": "Ms. Chen stresses that the children have been preparing for weeks and designed their own experiments. The parent volunteers are mentioned only in the headcount, not as having taken time off work."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Okay, here’s what I’ve found. The public transit option: the 22 bus goes right to the science centre, but with fifty-four kids we’d need to split them across several buses, and there’s a transfer downtown. That’s a lot of risk with ten-year-olds."
+       ],
+       [
+        "A",
+        "Agreed. I’d be counting heads every five minutes. What else?"
+       ],
+       [
+        "B",
+        "Exactly. And the 22 doesn’t run as often in the middle of the morning, so if one group missed a connection, they could end up twenty minutes behind everyone else."
+       ],
+       [
+        "B",
+        "I called another charter company, Lakeview Coaches. They have a fifty-six-seat bus available tomorrow."
+       ],
+       [
+        "A",
+        "Fifty-six? We need sixty with the parents."
+       ],
+       [
+        "B",
+        "Right. So the bus could take all the students and two adults, which meets the supervision ratio on the bus, and the other four parents could drive and meet us there. But their rate is about forty percent higher than our usual company."
+       ],
+       [
+        "A",
+        "Forty percent more. Did you try anyone else?"
+       ],
+       [
+        "B",
+        "Two other companies. One had nothing until Friday, and the other only has small minibuses, so we’d need three of them, and that would cost even more than Lakeview."
+       ],
+       [
+        "A",
+        "Hmm. Do we have the budget for that?"
+       ],
+       [
+        "B",
+        "Not in the field trip budget. But the original company is refunding our deposit, and I have a small discretionary fund for exactly this kind of situation. Between the two, we can cover it."
+       ],
+       [
+        "A",
+        "That’s a relief. What about the parents driving? Don’t they need forms?"
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Mr. Adeyemi reject public transit?",
+        "o": [
+         "The 22 bus does not go all the way to the science centre.",
+         "It would cost more than renting a charter bus for the day.",
+         "The buses would get them there after ten o’clock.",
+         "Keeping track of the children would be too risky."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "That’s a lot of risk with ten-year-olds",
+        "x": "He says splitting fifty-four children across several buses with a downtown transfer is “a lot of risk with ten-year-olds,” meaning supervision. The 22 bus actually goes right to the science centre."
+       },
+       {
+        "q": "What is the problem with the Lakeview Coaches bus?",
+        "o": [
+         "It cannot carry the whole group at once.",
+         "It is not free until next week either.",
+         "Its supervision ratio is too low.",
+         "It cannot park near the science centre."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Fifty-six? We need sixty with the parents.",
+        "x": "The bus has fifty-six seats, but the group needs sixty with the parents, so four parents must drive. “Next week” is when the original company could provide a bus, not Lakeview."
+       },
+       {
+        "q": "How will the extra cost be paid?",
+        "o": [
+         "By asking each family for a little more money",
+         "Through a group discount from the science centre",
+         "With the returned deposit and the principal’s own fund",
+         "From money the parent council raised through fundraising"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "the original company is refunding our deposit, and I have a small discretionary fund",
+        "x": "Mr. Adeyemi says the refunded deposit plus his small discretionary fund will cover the higher rate. The parent council’s fundraising paid for the science centre fee, not the bus."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "They do. Any parent driving students needs a volunteer driver form and proof of insurance on file. But here’s the good news: if they drive only themselves, no students, they don’t need any forms at all."
+       ],
+       [
+        "A",
+        "Then that’s simple. The four parents drive on their own, and all the kids go on the bus."
+       ],
+       [
+        "B",
+        "Exactly. Can you email the parent volunteers this afternoon and explain the change? I’ll confirm with Lakeview and send the deposit."
+       ],
+       [
+        "A",
+        "Will do. And I’ll tell the students the bus is leaving fifteen minutes earlier. Lakeview’s depot is further away, so they’ll need extra time."
+       ],
+       [
+        "B",
+        "Good point. Let’s say eight-fifteen, then, instead of eight-thirty. Can you ask the office to send a reminder to families tonight, so nobody’s late?"
+       ],
+       [
+        "A",
+        "Sure. I’ll also remind them to pack lunches. The science centre’s cafeteria is closed to school groups on weekdays this month."
+       ],
+       [
+        "B",
+        "Noted. And let’s get the original company’s refund confirmation in writing. I don’t want any surprises when the invoices come in."
+       ],
+       [
+        "A",
+        "I’ll ask them to email it. Honestly, this could have been much worse. The kids won’t even notice anything changed."
+       ],
+       [
+        "B",
+        "Let’s hope so. Thanks for staying so calm about it."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why don’t the parent drivers need to fill out forms?",
+        "o": [
+         "They already have forms and insurance on file.",
+         "No children will be riding in their cars.",
+         "The trip is too short to require any forms.",
+         "The principal will ride along with each of them."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "if they drive only themselves, no students, they don’t need any forms",
+        "x": "Forms and insurance are needed only for parents driving students; parents who drive only themselves need none. Nothing suggests they already have forms on file, and the principal is not riding with them."
+       },
+       {
+        "q": "Why will the bus leave earlier?",
+        "o": [
+         "The science centre wants groups there early.",
+         "Heavy morning traffic is expected downtown.",
+         "The students must arrive before the parents.",
+         "The new bus comes from a more distant location."
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "Lakeview’s depot is further away",
+        "x": "Ms. Chen says Lakeview’s depot is further away, so the bus needs extra time. The parents drive separately, and there is no requirement that students arrive before them."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A customer is speaking with a pharmacist.",
+    "sp": {
+     "A": {
+      "name": "Pharmacist",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Customer",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hi. I just moved to the neighbourhood, and I’d like to transfer my prescriptions here from my old pharmacy in Moncton."
+       ],
+       [
+        "A",
+        "Of course. Welcome. Do you have a list of your medications, or the bottles with you?"
+       ],
+       [
+        "B",
+        "I have the bottles. There are three: a blood pressure medication, an allergy one, and a sleeping pill my doctor prescribed for a few weeks."
+       ],
+       [
+        "A",
+        "Okay. The blood pressure and allergy prescriptions I can transfer by calling your old pharmacy, as long as they still have refills left. It usually takes a day. The sleeping pill is a bit different. It’s a controlled medication, so in this province we can’t transfer it between pharmacies. You’d need a new prescription from a doctor here."
+       ],
+       [
+        "B",
+        "Oh. I don’t have a doctor here yet. I’m on the waiting list."
+       ],
+       [
+        "A",
+        "I understand. You could visit a walk-in clinic. Or, since you only have a few pills left, I’d actually suggest asking the doctor whether you still need it. Those are usually meant for short-term use."
+       ],
+       [
+        "B",
+        "That’s fair. My old doctor said the same thing. What about the blood pressure medication? I only have three days left."
+       ],
+       [
+        "A",
+        "Then let me call Moncton right now. If the transfer is slow, I can also give you an emergency supply of up to seven days, so you won’t run out. Pharmacists in this province are allowed to do that for ongoing medications."
+       ],
+       [
+        "B",
+        "That’s a relief. Is there anything else I need?"
+       ],
+       [
+        "A",
+        "Just your health card. Since you’ve moved from another province, check that your new provincial coverage has started. There’s usually a waiting period, up to three months, so your old province may still cover you for now."
+       ],
+       [
+        "B",
+        "Good to know. I’ll call the health ministry this week to check."
+       ],
+       [
+        "A",
+        "I’ll write down their number for you. And while I’m calling Moncton, you’re welcome to wait, or I can text you when the blood pressure prescription is ready. It should take about twenty minutes."
+       ],
+       [
+        "B",
+        "I’ll wait. I need to pick up a few things anyway."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why can’t the sleeping medication be transferred?",
+        "o": [
+         "It has no refills left on the original prescription.",
+         "Local rules forbid moving that type of medicine.",
+         "The Moncton pharmacy refuses to release its records.",
+         "It was only prescribed for a few weeks at a time."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "It’s a controlled medication, so in this province we can’t transfer it between pharmacies",
+        "x": "The pharmacist says it is a controlled medication, which this province does not allow pharmacies to transfer. The short-term nature of the pill is a separate point about whether she still needs it."
+       },
+       {
+        "q": "What does the pharmacist suggest about the sleeping pill?",
+        "o": [
+         "She should take a higher dose.",
+         "She should switch to the allergy pills.",
+         "She should ask whether she still needs it.",
+         "She should buy it online."
+        ],
+        "a": 2,
+        "t": "main",
+        "ev": "I’d actually suggest asking the doctor whether you still need it",
+        "x": "He suggests asking a doctor whether she still needs it, since such pills are usually for short-term use. Switching medications is never suggested; the allergy prescription is simply being transferred."
+       },
+       {
+        "q": "Why is the blood pressure medication urgent?",
+        "o": [
+         "She is about to run out.",
+         "It is very expensive.",
+         "Her old pharmacy closes soon.",
+         "Her dose has changed."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I only have three days left",
+        "x": "She says she has only three days of blood pressure medication left, so she will soon run out. Nothing suggests her old pharmacy is closing or that her dose has changed."
+       },
+       {
+        "q": "What can the pharmacist do if the transfer takes too long?",
+        "o": [
+         "Write her a new prescription for a year",
+         "Ask her doctor in Moncton to call her",
+         "Send her to the hospital",
+         "Give her a short emergency supply"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "I can also give you an emergency supply of up to seven days",
+        "x": "He can provide an emergency supply of up to seven days for an ongoing medication. He never offers to write a new prescription; a local doctor’s prescription is needed only for the sleeping pill."
+       },
+       {
+        "q": "What does the pharmacist say about health coverage?",
+        "o": [
+         "She will have no coverage for three months.",
+         "Her previous province may still be covering her.",
+         "She must buy private insurance.",
+         "Her new coverage starts immediately."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "your old province may still cover you for now",
+        "x": "He explains there is usually a waiting period of up to three months, during which her old province may still cover her. So she is not left without any coverage for three months."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A caller is speaking with an agent at a provincial parks reservation centre.",
+    "sp": {
+     "A": {
+      "name": "Agent",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.05
+     },
+     "B": {
+      "name": "Caller",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Provincial Parks Reservations, this is Joanne. How can I help?"
+       ],
+       [
+        "B",
+        "Hi, I’m planning a camping trip in August with my partner and two kids, and I’m new to all this. I was hoping you could explain the different types of sites."
+       ],
+       [
+        "A",
+        "Happy to. There are four main types. Car camping sites are the most popular: you park right next to your tent, and there are washrooms and showers nearby. Then there are electrical sites, which are mostly used by RVs and trailers. Walk-in sites are a short walk, usually two to five hundred metres, from the parking lot, so they’re quieter and more private. And backcountry sites are reached only by hiking or canoeing, with no facilities except a pit toilet."
+       ],
+       [
+        "B",
+        "With young kids, car camping sounds best. How far ahead do I need to book?"
+       ],
+       [
+        "A",
+        "Reservations open five months in advance, at seven a.m. For popular parks in August, I’d log in right at seven on the first possible day. Sites near beaches go within minutes."
+       ],
+       [
+        "B",
+        "Wow. Okay. And what does a site cost?"
+       ],
+       [
+        "A",
+        "A car camping site is about forty-eight dollars a night, plus a non-refundable reservation fee of eleven dollars per booking, not per night. You’ll also need a daily vehicle permit, which is included in your camping fee for one vehicle."
+       ],
+       [
+        "B",
+        "And if we need to cancel?"
+       ],
+       [
+        "A",
+        "You can cancel up to three days before arrival and get a refund minus the reservation fee and a small cancellation charge. After that, the first night is non-refundable."
+       ],
+       [
+        "B",
+        "One more thing. Are dogs allowed? We might bring our neighbour’s dog."
+       ],
+       [
+        "A",
+        "Dogs are allowed at most sites, but they must be on a leash no longer than two metres at all times, and they’re not permitted on swimming beaches. Some parks have a separate dog beach, though."
+       ],
+       [
+        "B",
+        "Good to know. The kids would love that. How many people can stay on one site, by the way?"
+       ],
+       [
+        "A",
+        "Up to six people, with a maximum of two tents. So your family is fine."
+       ],
+       [
+        "B",
+        "Great. Is there anything about campfires I should know?"
+       ],
+       [
+        "A",
+        "Fires are allowed only in the metal fire pit at each site, and during dry spells there may be a fire ban, so check the park’s web page the morning you leave. You also can’t bring firewood from home. You’ll need to buy it at the park or nearby, to stop insects that damage trees from spreading."
+       ],
+       [
+        "B",
+        "That makes sense. Thanks, Joanne. You’ve been really helpful."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is the main advantage of walk-in sites?",
+        "o": [
+         "They have electrical hookups.",
+         "They are closest to the showers.",
+         "They are cheaper than other sites.",
+         "They offer more peace and privacy."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "so they’re quieter and more private",
+        "x": "Walk-in sites are a short walk from the parking lot, so they are quieter and more private. Prices are never compared, and showers are described as being near the car camping sites."
+       },
+       {
+        "q": "Which type of site does the caller choose and why?",
+        "o": [
+         "Car camping, because of the children",
+         "Backcountry, so they can canoe in",
+         "Walk-in, because it is more private",
+         "Electrical, for their trailer"
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "With young kids, car camping sounds best",
+        "x": "He says that with young kids, car camping sounds best, since the car is beside the tent and washrooms are nearby. He never mentions owning an RV or a trailer."
+       },
+       {
+        "q": "What does the agent recommend for booking popular August sites?",
+        "o": [
+         "Calling the park directly in the morning",
+         "Waiting for last-minute cancellations",
+         "Reserving the moment bookings open",
+         "Choosing a site that is near a beach"
+        ],
+        "a": 2,
+        "t": "main",
+        "ev": "I’d log in right at seven on the first possible day",
+        "x": "Joanne advises logging in at seven a.m. on the first possible day, five months ahead, because beach sites go within minutes. She never suggests calling the park or relying on cancellations."
+       },
+       {
+        "q": "What is true about the reservation fee?",
+        "o": [
+         "It is charged for each night of the stay.",
+         "It is paid one time and cannot be refunded.",
+         "It includes a daily vehicle permit for two cars.",
+         "It is refunded if you cancel three days ahead."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "a non-refundable reservation fee of eleven dollars per booking, not per night",
+        "x": "The eleven-dollar fee is charged per booking, not per night, and is non-refundable, so even an early cancellation does not return it. The vehicle permit covers one vehicle, not two."
+       },
+       {
+        "q": "What happens if the caller cancels one day before arriving?",
+        "o": [
+         "He gets a refund minus a fee.",
+         "He loses everything he has paid.",
+         "He can rebook for another date free.",
+         "He loses the cost of the first night."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "After that, the first night is non-refundable",
+        "x": "Cancelling up to three days before arrival gives a refund minus fees, but after that the first night is non-refundable. One day before is too late, so he loses the first night, not everything."
+       },
+       {
+        "q": "Where are dogs NOT allowed?",
+        "o": [
+         "On swimming beaches",
+         "On hiking trails",
+         "At car camping sites",
+         "In parking lots"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "they’re not permitted on swimming beaches",
+        "x": "Joanne says dogs must stay on a two-metre leash and are not permitted on swimming beaches. They are allowed at most sites, and some parks even have a separate dog beach."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Forestry manager",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "The city has announced plans to plant ten thousand trees over the next three years, with most of them going to neighbourhoods that have the least shade."
+       ],
+       [
+        "A",
+        "A mapping study commissioned by the city found that tree cover varies dramatically between neighbourhoods, from more than forty percent in some older, wealthier areas to under ten percent in newer subdivisions and industrial zones. During last summer’s heat wave, surface temperatures in the least shaded areas were up to eight degrees higher than in the leafiest ones."
+       ],
+       [
+        "A",
+        "Urban forestry manager Lisa Okonkwo says trees are one of the most cost-effective ways to protect residents from extreme heat."
+       ],
+       [
+        "B",
+        "A mature tree can cool the air around it by several degrees, it reduces air-conditioning costs for nearby homes, and it absorbs stormwater. The challenge is that a tree takes fifteen to twenty years to reach that size, so the sooner we plant, the better."
+       ],
+       [
+        "A",
+        "The city will prioritize species that can tolerate hotter, drier summers, rather than the maples that line many older streets. Residents in targeted areas will also be offered a free tree for their front yard if they agree to water it for the first two summers, which is when young trees are most likely to die."
+       ],
+       [
+        "A",
+        "Okonkwo adds that the city is also studying whether some large parking lots could be partly converted to green space, although no decision has been made."
+       ],
+       [
+        "A",
+        "The program will cost about four million dollars, with half coming from a federal climate adaptation fund. Some councillors have questioned whether the city has enough staff to maintain the new trees. Okonkwo says the program includes funding for two additional arborists."
+       ],
+       [
+        "A",
+        "Residents who want to know whether their street is included can check an online map that the city will publish next month. The first two thousand trees are expected to go into the ground this fall."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Where will most of the new trees be planted?",
+        "o": [
+         "In older neighbourhoods lined with maples",
+         "Along highways and major roads",
+         "In areas with the least tree cover",
+         "In city parks and parking lots"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "most of them going to neighbourhoods that have the least shade",
+        "x": "Most trees will go to neighbourhoods with the least shade, that is, the least tree cover. Older, wealthier areas already have over forty percent cover, and maples are not the preferred species."
+       },
+       {
+        "q": "What did the mapping study find?",
+        "o": [
+         "The least leafy areas were far hotter during the heat wave.",
+         "Tree cover was about the same in every part of the city.",
+         "Newer subdivisions had more trees than older areas did.",
+         "Wealthier areas were up to eight degrees hotter than others."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "surface temperatures in the least shaded areas were up to eight degrees higher",
+        "x": "The study found surface temperatures in the least shaded areas were up to eight degrees higher. Those were newer subdivisions and industrial zones, so wealthier areas were the cooler ones, not the hotter."
+       },
+       {
+        "q": "According to Ms. Okonkwo, why should the city act quickly?",
+        "o": [
+         "The federal climate fund will expire next year.",
+         "Trees need many years to grow large enough to help.",
+         "Young trees are likely to die in the first summers.",
+         "Residents have complained about high cooling bills."
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "a tree takes fifteen to twenty years to reach that size, so the sooner we plant, the better",
+        "x": "Okonkwo says a tree takes fifteen to twenty years to reach full size, so the sooner the city plants, the better. Young trees dying explains the watering condition, not the urgency."
+       },
+       {
+        "q": "What must residents do to receive a free tree?",
+        "o": [
+         "Pay a small fee for the first two summers",
+         "Plant it themselves in the back yard",
+         "Choose a maple for their front yard",
+         "Keep it watered for its first two summers"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "if they agree to water it for the first two summers",
+        "x": "Residents get a free front-yard tree if they agree to water it for the first two summers, when young trees are most likely to die. No fee is mentioned, and maples are not being prioritized."
+       },
+       {
+        "q": "What concern have some councillors raised?",
+        "o": [
+         "The city may lack workers to maintain the trees.",
+         "The four-million-dollar cost is far too high.",
+         "The new trees will block views and sunlight.",
+         "Half the money depends on a federal fund that may end."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "whether the city has enough staff to maintain the new trees",
+        "x": "Some councillors question whether the city has enough staff to maintain the trees, which is why two arborists are funded. The federal fund provides half the money, but nobody says it may end."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three employees are discussing their company’s move to a new office.",
+    "sp": {
+     "A": {
+      "name": "Rachel",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Dev",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 1
+     },
+     "C": {
+      "name": "Marie",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.05
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Thanks for joining this committee. Management wants our feedback on the floor plan for the new office by next Friday. As you’ve seen, the current plan is fully open: no private offices, rows of shared desks, and six bookable meeting rooms."
+       ],
+       [
+        "B",
+        "I’ll be honest, I’m not a fan. I spend half my day on calls with clients. In an open space, I’ll either be disturbing everyone else or constantly searching for an empty meeting room."
+       ],
+       [
+        "C",
+        "I see that, Dev. But in our current building, our team is split over two floors, and some of us barely see each other. I think open space would help us collaborate. Half the problems on the last project happened because the designers and developers didn’t talk enough."
+       ],
+       [
+        "B",
+        "Collaboration is great, but research on open offices is pretty mixed. Some studies found people actually talk face to face less, because they put on headphones to block out the noise."
+       ],
+       [
+        "A",
+        "That’s interesting. So the question is how we get the benefits of open space without the noise problem."
+       ],
+       [
+        "C",
+        "What about phone booths? Small soundproof pods where one person can take a call. I’ve seen them in other offices. They don’t take up much room."
+       ],
+       [
+        "A",
+        "How much do those cost?"
+       ],
+       [
+        "C",
+        "The ones I saw were around eight thousand dollars each, installed. Not cheap, but much less than building walls."
+       ],
+       [
+        "B",
+        "That would help with calls, definitely. But what about focused work? Our analysts need to concentrate for hours at a time."
+       ],
+       [
+        "A",
+        "We could designate one area as a quiet zone. No calls, no conversations, like a library."
+       ],
+       [
+        "C",
+        "I like that. And maybe fewer meeting rooms, but more of these smaller spaces. Six big meeting rooms seems like a lot for a company our size."
+       ],
+       [
+        "B",
+        "Actually, I’d keep the meeting rooms. Client presentations need proper rooms. But I’d support converting one of the six into a quiet zone if we add, say, four phone booths."
+       ],
+       [
+        "A",
+        "That seems like a reasonable compromise. What about assigned desks? Management is proposing hot-desking, where nobody has their own desk."
+       ],
+       [
+        "C",
+        "I’m against that one. People need somewhere to leave their things, and it takes time every morning to set up."
+       ],
+       [
+        "B",
+        "Agreed. Especially for people who come in every day. Maybe hot-desking for people who are mostly remote, and assigned desks for the rest?"
+       ],
+       [
+        "C",
+        "That could work. Although, how do we decide who counts as mostly remote? Some people come in two days one week and four the next."
+       ],
+       [
+        "B",
+        "We could use the badge data from the last three months. Anyone averaging fewer than three days a week gets a shared desk."
+       ],
+       [
+        "A",
+        "Hmm, I’m not sure people will love being sorted by badge data. Maybe we ask people how often they plan to come in, and use the data only as a check."
+       ],
+       [
+        "C",
+        "Yes, asking feels a lot friendlier."
+       ],
+       [
+        "A",
+        "Good. I’ll write that up: open plan, one quiet zone, four phone booths, and a mix of assigned and shared desks. I’ll circulate it to you before Friday."
+       ],
+       [
+        "C",
+        "Thanks, Rachel. And let’s ask management to try the layout for six months and survey everyone afterwards."
+       ],
+       [
+        "A",
+        "Good idea. I’ll add that as our last point."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Dev dislike the open floor plan?",
+        "o": [
+         "He would rather work from home most days.",
+         "He wants a private office for his team.",
+         "His frequent calls would be disruptive.",
+         "He thinks the meeting rooms are too small."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "I spend half my day on calls with clients",
+        "x": "Dev spends half his day on client calls, so in an open space he would disturb colleagues or hunt for empty rooms. He never says he would rather work from home or wants an office."
+       },
+       {
+        "q": "Why does Marie think open space could help?",
+        "o": [
+         "Her team is divided and doesn’t talk enough now.",
+         "It would cut down the noise between the two floors.",
+         "It would be cheaper than building private offices.",
+         "Clients have asked for a more modern open office."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "our team is split over two floors, and some of us barely see each other",
+        "x": "Marie says her team is split over two floors and the last project’s problems came from designers and developers not talking. Noise is Dev’s worry about open plans, not a benefit Marie claims."
+       },
+       {
+        "q": "What does Dev say about research on open offices?",
+        "o": [
+         "It strongly supports open offices for teamwork.",
+         "It shows they are quieter than expected.",
+         "It has only looked at very small companies.",
+         "It suggests people may chat less in them."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Some studies found people actually talk face to face less",
+        "x": "Dev says some studies found people talk face to face less in open offices because they wear headphones. He calls the research mixed, so it does not strongly support open offices."
+       },
+       {
+        "q": "What problem do phone booths solve?",
+        "o": [
+         "Where to hold small client presentations",
+         "Where individuals can make calls privately",
+         "Where analysts can concentrate for hours",
+         "Where people can leave their things"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "Small soundproof pods where one person can take a call",
+        "x": "Marie describes the booths as soundproof pods where one person can take a call, solving Dev’s problem. Focused analyst work is handled by the separate quiet zone, not by the booths."
+       },
+       {
+        "q": "Why does Dev want to keep the meeting rooms?",
+        "o": [
+         "They are used for client presentations.",
+         "They could become offices later.",
+         "Management insists on them.",
+         "They are used as quiet zones."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Client presentations need proper rooms",
+        "x": "Dev says client presentations need proper rooms, so he wants to keep them, though he would convert one. Using a room as a quiet zone is a change he accepts, not his reason for keeping them."
+       },
+       {
+        "q": "What does Dev agree to change?",
+        "o": [
+         "Removing two meeting rooms to make space",
+         "Adding hot-desking for every employee",
+         "Giving up one room for silent work",
+         "Replacing all six rooms with phone booths"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "I’d support converting one of the six into a quiet zone",
+        "x": "Dev supports converting one of the six meeting rooms into a quiet zone if four phone booths are added. He wants to keep the other rooms, so removing or replacing them all is wrong."
+       },
+       {
+        "q": "What is Marie’s opinion of hot-desking?",
+        "o": [
+         "She supports it if lockers are provided.",
+         "She opposes it for practical reasons.",
+         "She has no strong opinion either way.",
+         "She thinks it would save setup time."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "I’m against that one",
+        "x": "Marie says “I’m against that one” because people need somewhere to leave their things and setting up each morning takes time. She thinks hot-desking would cost time, not save it."
+       },
+       {
+        "q": "What will the committee recommend about desks?",
+        "o": [
+         "Everyone will keep an assigned desk as now.",
+         "Nobody will have an assigned desk, as planned.",
+         "A mix depending on how often staff come in",
+         "Desks will be assigned according to seniority."
+        ],
+        "a": 2,
+        "t": "main",
+        "ev": "a mix of assigned and shared desks",
+        "x": "Rachel sums up the plan as a mix of assigned and shared desks, with shared desks for mostly remote staff. Management’s original idea was that nobody would have an assigned desk."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about artificial intelligence in schools.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Teacher",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Just a few years ago, few teachers had heard of AI writing tools. Today, they are a daily reality in many high schools, and school boards are struggling to decide how to respond."
+       ],
+       [
+        "A",
+        "Some boards initially banned the tools outright, blocking them on school networks. But most have since stepped back from that approach. Students can access the tools on their own phones, and many teachers argue that a ban simply pushes use underground. A growing number of boards now allow AI for some tasks, such as brainstorming or checking grammar, but not for writing final assignments."
+       ],
+       [
+        "A",
+        "One high school English teacher told us he has changed how he teaches altogether."
+       ],
+       [
+        "B",
+        "I used to assign essays to be written at home. Now, students do most of their writing in class, by hand or on locked-down laptops, and they submit their drafts and notes along the way. I can see how their thinking develops. Honestly, it’s made me a better teacher. I spend more time on the process, not just the final product."
+       ],
+       [
+        "B",
+        "The downside is that it takes more class time. I’ve had to cut one novel from the Grade 10 course to make room. But I think the trade-off is worth it."
+       ],
+       [
+        "A",
+        "Not everyone sees it so positively. Some parents worry that students will lose basic writing skills, the same way many people have lost the ability to do arithmetic in their heads. Others raise concerns about fairness: students whose families can pay for premium versions of these tools may have an advantage."
+       ],
+       [
+        "A",
+        "One mother told us her son’s essays had become noticeably smoother over the past year, but that he struggled to explain what he had written. Some students question the rules, too. A Grade 11 student said many classmates already use the tools in every subject, and that teachers who pretend otherwise are falling behind."
+       ],
+       [
+        "A",
+        "Meanwhile, some educators see an opportunity. They argue that students will use these tools throughout their working lives, and that schools should teach them to use them critically, to check facts, recognize errors and understand bias. Several boards are now developing guidelines for teachers, which are expected to be in place by next September."
+       ],
+       [
+        "A",
+        "Detection software, which some schools tried early on, has largely fallen out of favour. Several studies found it wrongly flagged work by students writing in a second language, raising concerns about fairness of a different kind."
+       ],
+       [
+        "A",
+        "For now, much depends on individual teachers. As one principal put it, the technology is moving faster than any policy can, so schools will have to keep adjusting for years to come."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why have most school boards moved away from banning AI tools?",
+        "o": [
+         "The tools became free for school networks to use.",
+         "Detection software made the bans unnecessary to enforce.",
+         "Students could still use them and would just hide it.",
+         "Teachers wanted the tools for marking final work."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "a ban simply pushes use underground",
+        "x": "Students can use the tools on their own phones, and teachers argue a ban just pushes use underground. Detection software is mentioned later as having fallen out of favour, not as a reason for lifting bans."
+       },
+       {
+        "q": "What do many boards now allow?",
+        "o": [
+         "Some help with ideas and grammar, not final work",
+         "Full use of AI for every assignment and test",
+         "Use by teachers only, mainly for grading final essays",
+         "Use at home only, and never on school networks"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "allow AI for some tasks, such as brainstorming or checking grammar, but not for writing final assignments",
+        "x": "Many boards allow AI for tasks like brainstorming or grammar checks but not for writing final assignments. Blocking the tools on school networks was the earlier ban approach, not the current one."
+       },
+       {
+        "q": "How has the teacher changed his approach?",
+        "o": [
+         "He has stopped assigning essays and uses tests instead.",
+         "He uses AI tools to mark his students’ essays faster.",
+         "He lets students use AI at home if they show their notes.",
+         "Writing is done mostly in class, with drafts handed in."
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "students do most of their writing in class",
+        "x": "He now has students do most of their writing in class and submit drafts and notes along the way. He still assigns essays; they are simply written in class rather than at home."
+       },
+       {
+        "q": "How does the teacher feel about the change?",
+        "o": [
+         "He resents losing a novel.",
+         "He believes it has improved his teaching.",
+         "He is still unsure whether it is working.",
+         "He thinks it takes too much class time."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "Honestly, it’s made me a better teacher",
+        "x": "He says “Honestly, it’s made me a better teacher.” He admits it takes more class time and cost a novel, but calls the trade-off worth it, so he does not resent the change."
+       },
+       {
+        "q": "What fairness concern do some parents raise?",
+        "o": [
+         "Students writing in a second language may be flagged.",
+         "Teachers mark AI-assisted essays more harshly than others.",
+         "Wealthier students may have access to better tools.",
+         "Students at schools with bans fall behind others."
+        ],
+        "a": 2,
+        "t": "viewpoint",
+        "ev": "students whose families can pay for premium versions of these tools may have an advantage",
+        "x": "Some parents worry that families who can pay for premium versions give their children an advantage. The second-language concern is about detection software and comes from studies, not from parents."
+       },
+       {
+        "q": "What do some educators believe schools should do?",
+        "o": [
+         "Ban the tools completely on school networks",
+         "Let students use the tools for all final work",
+         "Wait until the new guidelines are in place",
+         "Show students how to judge AI output"
+        ],
+        "a": 3,
+        "t": "viewpoint",
+        "ev": "schools should teach them to use them critically",
+        "x": "Some educators argue students will use these tools at work, so schools should teach them to check facts, spot errors and recognize bias. The guidelines are being developed by boards, not something to wait for."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Danny Ortiz  |  To: Cousin Gabriela  |  Subject: Family reunion – need your help!",
+   "text": "Hi Gabi,\n\nI hope everything is good in Edmonton! As you probably heard from Aunt Rosa, the family has asked me to organize the Ortiz reunion this summer, the first one since Grandpa’s ninetieth birthday six years ago. I said yes before I realized how much work it would be, so I’m hoping you can help.\n\nHere’s where things stand. We’ve chosen the long weekend in August, and I’ve booked the pavilion at Riverside Park in Saskatoon for the Saturday. It holds up to a hundred people, has a kitchen, and is close to the playground, which will keep the little ones busy. Saskatoon seemed fair since it’s roughly in the middle for most of us, and Grandma can’t travel far anymore.\n\nRight now, I have confirmations from about sixty people, but I’m still missing your side of the family. Could you find out how many of your siblings and their kids are coming? I need final numbers by June 1 for the caterer. I’m also trying to reserve a block of hotel rooms near the park for anyone coming from out of town, so let me know if anyone on your side needs one.\n\nI was also hoping you might take charge of one thing: the slideshow. Aunt Rosa has boxes of old photos, and I know you’re great with that kind of thing. If you could put together something for after dinner, maybe twenty minutes, that would be amazing. Rosa can scan the photos and send them to you.\n\nAs for costs, we’re asking each household to contribute $50 to cover the pavilion and catering. Nobody should feel they can’t come because of money, though, so if anyone mentions that, tell them to talk to me privately.\n\nThanks so much, Gabi. I really couldn’t do this without you.\n\nDanny",
+   "qs": [
+    {
+     "q": "What does Danny suggest about how he became the organizer?",
+     "o": [
+      "He volunteered because he enjoys planning big events.",
+      "Aunt Rosa recommended him to the rest of the family.",
+      "He accepted before realizing how big the job was.",
+      "He ran the last reunion for Grandpa’s ninetieth."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "I said yes before I realized how much work it would be",
+     "x": "Danny says he said yes before realizing how much work it would be, implying he underestimated the job. Aunt Rosa only passed the news along; nothing says she recommended him or that he enjoys planning."
+    },
+    {
+     "q": "Why was Saskatoon chosen?",
+     "o": [
+      "Most of the relatives already live there.",
+      "The park pavilion there costs nothing to book.",
+      "Grandpa’s ninetieth birthday was held there.",
+      "It is central and close for an elderly relative."
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "it’s roughly in the middle for most of us, and Grandma can’t travel far anymore",
+     "x": "Danny chose Saskatoon because it is roughly in the middle for most relatives and Grandma cannot travel far. Being “in the middle” for everyone does not mean most relatives live there."
+    },
+    {
+     "q": "What does Danny need from Gabriela by June 1?",
+     "o": [
+      "Her household’s $50 contribution for the pavilion",
+      "A headcount for her branch of the family",
+      "A finished twenty-minute slideshow of old photos",
+      "A list of relatives who cannot afford to attend"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "Could you find out how many of your siblings and their kids are coming?",
+     "x": "Danny asks how many of her siblings and their kids are coming because he needs final numbers by June 1 for the caterer. The slideshow is for after dinner at the reunion, with no June deadline."
+    },
+    {
+     "q": "Why does Danny ask Gabriela to make the slideshow?",
+     "o": [
+      "She is skilled at that kind of task.",
+      "She already has the family’s old photos.",
+      "Aunt Rosa is too busy to make it.",
+      "She made the slideshow at the last reunion."
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "I know you’re great with that kind of thing",
+     "x": "Danny says he knows Gabi is great with that kind of thing. Aunt Rosa, not Gabi, has the boxes of old photos and will scan and send them to her."
+    },
+    {
+     "q": "What should someone do if they cannot afford the contribution?",
+     "o": [
+      "Stay home from the reunion",
+      "Pay after the reunion",
+      "Ask Aunt Rosa for help",
+      "Have a quiet word with Danny"
+     ],
+     "a": 3,
+     "t": "paraphrase",
+     "ev": "tell them to talk to me privately",
+     "x": "Danny says anyone worried about money should talk to him privately, because nobody should miss the reunion for that reason. Paying later and asking Aunt Rosa for help are never mentioned."
+    },
+    {
+     "q": "What is the tone of Danny’s email?",
+     "o": [
+      "Formal and businesslike",
+      "Warm and grateful",
+      "Impatient and demanding",
+      "Nostalgic and apologetic"
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "Thanks so much, Gabi. I really couldn’t do this without you.",
+     "x": "Danny writes casually and ends by saying he couldn’t do this without Gabi, which is warm and grateful. He makes several requests, but politely, so “demanding” does not fit."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Gabriela’s reply. Complete it by choosing the best option for each blank.",
+    "text": "Hi Danny,\n\nThank you for taking this on! I’m so glad Grandma will be able to come, and the {1} sounds perfect, especially with a playground nearby.\n\nI called my brothers and sister last night. Altogether, we’ll be 14, including the kids, so I’ll confirm that well before {2}. My brother Luis asked whether the contribution is $50 per person or per {3}; I told him it’s per household, but please correct me if I’m wrong.\n\nI’d love to do the slideshow! I’ll ask {4} to start scanning the photos so I have time to organize them. I’m thinking of keeping it to about {5}, so the kids don’t get restless.\n\nSee you in August!\nGabi",
+    "blanks": [
+     {
+      "o": [
+       "pavilion",
+       "garden",
+       "hotel",
+       "caterer"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "I’ve booked the pavilion at Riverside Park",
+      "x": "Danny booked the pavilion at Riverside Park, which is close to the playground, matching “with a playground nearby.” The hotel rooms are only for out-of-town guests, not the reunion venue."
+     },
+     {
+      "o": [
+       "the long weekend",
+       "August",
+       "June 1",
+       "Grandma’s birthday"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "I need final numbers by June 1",
+      "x": "Danny needs final numbers by June 1 for the caterer, so Gabi will confirm before then. August is when the reunion itself takes place, which would be far too late."
+     },
+     {
+      "o": [
+       "household",
+       "adult",
+       "generation",
+       "weekend"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "we’re asking each household to contribute $50",
+      "x": "Danny asks each household to contribute $50, and Gabi says she told Luis it is per household. “Adult” would mean paying per person, which is exactly what Luis was unsure about."
+     },
+     {
+      "o": [
+       "Grandma",
+       "Aunt Rosa",
+       "my brother Luis",
+       "Danny"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "Rosa can scan the photos and send them to you",
+      "x": "Danny says Aunt Rosa has boxes of old photos and can scan and send them to Gabi. Luis is the brother who asked about the contribution, not the person with the photos."
+     },
+     {
+      "o": [
+       "ten minutes",
+       "an hour",
+       "twenty minutes",
+       "ninety minutes"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "maybe twenty minutes",
+      "x": "Danny suggests a slideshow of maybe twenty minutes, and Gabi wants to keep it short so the kids stay settled. An hour or ninety minutes would be far longer than Danny asked for."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Gulf Island Ferries – Summer Schedule (June 15 – September 5)",
+    "intro": "Reservations recommended for vehicles on Fridays and Sundays. Reserved vehicles must check in 30 minutes before departure or the reservation is cancelled. Foot passengers cannot reserve.",
+    "table": {
+     "cols": [
+      "Departs Harbour City",
+      "Arrives Salt Island",
+      "Departs Salt Island",
+      "Arrives Harbour City",
+      "Days"
+     ],
+     "rows": [
+      [
+       "6:30 a.m.",
+       "7:20 a.m.",
+       "7:45 a.m.",
+       "8:35 a.m.",
+       "Daily"
+      ],
+      [
+       "10:00 a.m.",
+       "10:50 a.m.",
+       "11:15 a.m.",
+       "12:05 p.m.",
+       "Daily"
+      ],
+      [
+       "2:30 p.m.",
+       "3:20 p.m.",
+       "3:45 p.m.",
+       "4:35 p.m.",
+       "Daily"
+      ],
+      [
+       "6:00 p.m.",
+       "6:50 p.m.",
+       "7:15 p.m.",
+       "8:05 p.m.",
+       "Fri & Sun only"
+      ]
+     ]
+    },
+    "cards": [
+     {
+      "h": "Fares (return trip, paid at Harbour City)",
+      "lines": [
+       "Adult: $18",
+       "Child (5–11): $9; under 5: free",
+       "Senior (65+): $12",
+       "Standard vehicle (driver not included): $62",
+       "Bicycle: $4",
+       "Vehicle reservation fee: $15"
+      ]
+     }
+    ]
+   },
+   "email": {
+    "intro": "Read the following email. Complete it by choosing the best option for each blank.",
+    "text": "Hi Olivia,\n\nI’m so excited you’re coming to visit me on Salt Island! Since you’re coming on foot with your bike, you can’t {1}, so get to the terminal early, especially on a Friday.\n\nIf you take the {2} ferry from Harbour City, you’ll arrive at 3:20, and I’ll meet you at the dock. Your return ticket will cost {3} including the bike.\n\nOn Sunday, the last ferry back leaves Salt Island at {4}, so we’ll have the whole day together. If your parents decide to come with their car next time, remind them to arrive {5} early if they reserve.\n\nSee you soon!\nNadia",
+    "blanks": [
+     {
+      "o": [
+       "bring a bicycle",
+       "buy a return ticket",
+       "travel on Fridays",
+       "reserve a spot"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "Foot passengers cannot reserve",
+      "x": "The intro says foot passengers cannot reserve, and Olivia is travelling on foot with a bike. Bikes are allowed for a $4 fare, so bringing a bicycle is not the problem."
+     },
+     {
+      "o": [
+       "6:30 a.m.",
+       "10:00 a.m.",
+       "2:30 p.m.",
+       "6:00 p.m."
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "2:30 p.m.",
+      "x": "The 2:30 p.m. sailing from Harbour City arrives at Salt Island at 3:20 p.m. The 10:00 a.m. sailing arrives at 10:50 a.m., so it does not match Nadia’s plan."
+     },
+     {
+      "o": [
+       "$18",
+       "$22",
+       "$27",
+       "$33"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Bicycle: $4",
+      "x": "A return adult fare is $18 and a bicycle is $4, so Olivia pays $22. The vehicle and reservation fees do not apply because she is a foot passenger with a bike."
+     },
+     {
+      "o": [
+       "3:45 p.m.",
+       "6:00 p.m.",
+       "7:15 p.m.",
+       "8:05 p.m."
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "7:15 p.m.",
+      "x": "On Sundays the extra evening sailing runs, leaving Salt Island at 7:15 p.m. The 8:05 p.m. time is when that ferry arrives in Harbour City, not when it departs."
+     },
+     {
+      "o": [
+       "30 minutes",
+       "15 minutes",
+       "50 minutes",
+       "an hour"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "Reserved vehicles must check in 30 minutes before departure",
+      "x": "Reserved vehicles must check in thirty minutes before departure or lose the reservation. Fifty minutes is the length of the crossing, not the check-in requirement."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "On a Tuesday, what is the last time a passenger can leave Salt Island?",
+     "o": [
+      "11:15 a.m.",
+      "3:45 p.m.",
+      "6:00 p.m.",
+      "7:15 p.m."
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "3:45 p.m.",
+     "x": "Tuesday has only the daily sailings, because the 7:15 p.m. departure runs on Fridays and Sundays only. So the last Tuesday departure from Salt Island is 3:45 p.m."
+    },
+    {
+     "q": "How much would a family of two adults and children aged 3 and 7 pay for foot passenger tickets?",
+     "o": [
+      "$27",
+      "$36",
+      "$45",
+      "$54"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Child (5–11): $9; under 5: free",
+     "x": "Two adults cost $18 each ($36), the 7-year-old pays the $9 child fare and the 3-year-old travels free, for $45. $54 wrongly charges the child fare for both children."
+    },
+    {
+     "q": "A driver with a reservation arrives 20 minutes before departure. What will happen?",
+     "o": [
+      "They board first.",
+      "They pay an extra $15.",
+      "They must take the next ferry for free.",
+      "Their reservation is cancelled."
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "Reserved vehicles must check in 30 minutes before departure or the reservation is cancelled",
+     "x": "Reserved vehicles must check in thirty minutes before departure or the reservation is cancelled, so twenty minutes is too late. The $15 is the reservation fee, not a late penalty."
+    }
+   ]
+  },
+  "p3": {
+   "title": "The Unexpected Return of the Vinyl Record",
+   "paras": [
+    "For decades, the vinyl record seemed destined for the museum. Cassettes, then CDs, then digital downloads and streaming each promised more convenience, and by the early 2000s vinyl sales had fallen to a tiny fraction of the music market. Many record pressing plants closed, and their machines were sold for scrap. At the lowest point, many music stores stopped stocking new records altogether, keeping only a small box of second-hand albums near the back. Even many collectors sold their turntables, convinced the format would never return. For most listeners, a record became something found only in a parent’s basement.",
+    "Yet over the past fifteen years, vinyl has made a remarkable comeback. In several countries, including Canada, records now outsell CDs, and new pressing plants have opened for the first time in decades. Perhaps surprisingly, many buyers are under thirty, too young to remember vinyl the first time around. Some surveys suggest that a significant share of buyers do not even own a turntable, purchasing records as collectibles or decorations. Sales usually peak in the weeks before the holidays, when records are popular gifts. Second-hand shops have also benefited, as some older albums now sell for many times their original price.",
+    "Explanations for the trend vary. Some listeners insist that vinyl sounds warmer and richer than digital formats, although audio experts disagree about whether most people can hear any difference. Others value the ritual: choosing a record, looking at the large cover art and listening to an album from start to finish, rather than skipping between songs. For artists, vinyl offers a rare source of income in an era when streaming services pay very little per play. Some fans also simply enjoy owning a physical object in an age when most music exists only on a screen.",
+    "The revival has not been without problems. Because there are still relatively few pressing plants, independent musicians sometimes wait months for their records to be produced, while major labels reserve large amounts of capacity for best-selling artists. Prices have also risen sharply, with many new albums costing more than forty dollars. Environmental concerns have been raised too, since records are made from a type of plastic that is difficult to recycle. Some critics also argue that the boom mainly benefits a few famous artists, whose old albums are reissued again and again."
+   ],
+   "qs": [
+    {
+     "q": "Some people buy records without being able to play them.",
+     "a": "B",
+     "t": "inference",
+     "ev": "a significant share of buyers do not even own a turntable",
+     "x": "Paragraph B says a significant share of buyers do not even own a turntable, so they cannot play the records they buy."
+    },
+    {
+     "q": "Experts are not sure whether vinyl actually sounds better.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "audio experts disagree about whether most people can hear any difference",
+     "x": "Paragraph C says audio experts disagree about whether most people can hear any difference between vinyl and digital formats."
+    },
+    {
+     "q": "Smaller artists may face delays because of limited production capacity.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "independent musicians sometimes wait months for their records to be produced",
+     "x": "Paragraph D explains that with few pressing plants, independent musicians sometimes wait months while major labels reserve capacity."
+    },
+    {
+     "q": "Equipment used to make records was once thrown away.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "their machines were sold for scrap",
+     "x": "Paragraph A says that when pressing plants closed, their machines were sold for scrap, meaning the equipment was discarded."
+    },
+    {
+     "q": "Vinyl provides musicians with income that streaming does not.",
+     "a": "C",
+     "t": "inference",
+     "ev": "vinyl offers a rare source of income in an era when streaming services pay very little per play",
+     "x": "Paragraph C says vinyl offers artists a rare source of income because streaming services pay very little per play."
+    },
+    {
+     "q": "Record stores have opened in many small towns.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Stores that stopped stocking records and second-hand shops are mentioned, but no paragraph says record stores have opened in small towns, so the answer is E."
+    },
+    {
+     "q": "Young people make up an important part of the vinyl market.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "many buyers are under thirty",
+     "x": "Paragraph B notes that many buyers are under thirty, too young to remember vinyl the first time, so young people are important buyers."
+    },
+    {
+     "q": "Records are not easy to recycle.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "a type of plastic that is difficult to recycle",
+     "x": "Paragraph D says records are made from a type of plastic that is difficult to recycle, raising environmental concerns."
+    },
+    {
+     "q": "CD sales are expected to recover in the future.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph B compares current record and CD sales, but no paragraph predicts that CD sales will recover, so the answer is E."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Taxpayers Shouldn’t Pay for Pro Sports Arenas",
+   "byline": "Opinion | by Samuel Grant, economist",
+   "text": "Every few years, a city somewhere in North America faces the same dilemma. The local professional sports team announces that its arena is outdated and that, without a new one, it may be forced to move. A glossy proposal follows, featuring restaurants, condos and a revitalized downtown. And then comes the request: the city should contribute hundreds of millions of dollars in public money.\n\nIt is easy to see why politicians are tempted. Losing a team is painful for fans and embarrassing for a mayor. A new arena is a visible, exciting project that promises jobs and tourism. Team owners know this, and some have been known to hint at offers from other cities just as negotiations begin. But after decades of research, economists from across the political spectrum agree on something they rarely agree on: publicly funded arenas almost never pay for themselves.\n\nThe reason is fairly simple. Most of the money spent at an arena is money that local residents would have spent anyway, on restaurants, movies or other entertainment. A family that buys hockey tickets is likely to spend less elsewhere in the city that month. The activity moves; it is not created. The jobs at an arena, meanwhile, are mostly part-time and seasonal. Promised surrounding developments sometimes appear, but often years later and with additional subsidies. Consider the pattern seen in several mid-sized cities over the past twenty years: construction costs rose well beyond the original estimates, the promised hotel or office tower was delayed or scaled back, and within fifteen years the team was asking for major renovations, again at public expense.\n\nThat does not mean arenas have no value. They can create a sense of civic pride and identity that is hard to measure, and a well-designed arena can help bring life to a neglected neighbourhood. Those are legitimate considerations. But they should be weighed honestly against what the same money could do elsewhere: a new transit line, affordable housing or community rinks that thousands of children use every week. A single arena subsidy can easily exceed what a city spends on recreation in a decade.\n\nIf an arena is a good business investment, the team’s owners, many of whom are among the wealthiest people in the country, should be able to finance it themselves or with private partners. At most, cities could offer limited help, such as infrastructure improvements around the site that benefit the public as well, with clear agreements that the team will stay for a long period and repay the city if it leaves.\n\nFans love their teams, and so do I. But loving a team should not mean writing it a blank cheque.",
+   "qs": [
+    {
+     "q": "What is the writer’s main argument?",
+     "o": [
+      "Cities should build arenas to keep their teams.",
+      "Sports teams should move to smaller cities.",
+      "Arenas usually harm the neighbourhoods around them.",
+      "Public money should not largely fund arenas."
+     ],
+     "a": 3,
+     "t": "main",
+     "ev": "publicly funded arenas almost never pay for themselves",
+     "x": "Samuel argues that publicly funded arenas almost never pay for themselves and that owners should finance them, allowing only limited public help. He does not say cities should build arenas to keep teams."
+    },
+    {
+     "q": "According to the writer, why don’t arenas create much new economic activity?",
+     "o": [
+      "Fans simply spend less elsewhere in the same city.",
+      "Tickets are too expensive for most local families.",
+      "Arenas sit empty for most of the year between games.",
+      "Visitors from other cities rarely stay overnight there."
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "The activity moves; it is not created",
+     "x": "Samuel says arena spending is mostly money residents would have spent anyway on other entertainment: “The activity moves; it is not created.” He never claims arenas sit empty or that tickets cost too much."
+    },
+    {
+     "q": "What does the writer concede about arenas?",
+     "o": [
+      "They sometimes pay for themselves within a decade.",
+      "They create many full-time jobs in the neighbourhood.",
+      "They may offer real but hard-to-count advantages.",
+      "They raise property values for nearby condo owners."
+     ],
+     "a": 2,
+     "t": "viewpoint",
+     "ev": "They can create a sense of civic pride and identity that is hard to measure",
+     "x": "Samuel admits arenas can create civic pride and identity that is hard to measure and can revive neglected areas. He says arena jobs are mostly part-time and seasonal, not full-time."
+    },
+    {
+     "q": "What kind of public support does the writer consider acceptable?",
+     "o": [
+      "Paying up to half the cost if the team agrees to stay",
+      "Modest site improvements tied to firm guarantees",
+      "Free land for the arena and its condos",
+      "Tax breaks for owners who build privately"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "At most, cities could offer limited help, such as infrastructure improvements",
+     "x": "He allows only limited help, such as public infrastructure around the site, with agreements that the team stays long-term and repays the city if it leaves. He never suggests paying half the cost."
+    },
+    {
+     "q": "What is the purpose of the final sentence?",
+     "o": [
+      "To show that the writer has never really liked hockey",
+      "To encourage readers to keep buying tickets for games",
+      "To criticize wealthy owners for refusing to pay their way",
+      "To restate his view while admitting he is a fan too"
+     ],
+     "a": 3,
+     "t": "purpose",
+     "ev": "But loving a team should not mean writing it a blank cheque",
+     "x": "The writer says he also loves teams, then repeats his point that this should not mean a “blank cheque.” Because he admits being a fan, the sentence does not show that he dislikes sports."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a reader’s comment. Complete it by choosing the best option for each blank.",
+    "text": "As the owner of a small restaurant two blocks from our city’s new arena, I have to {1} with Mr. Grant’s argument that the money simply moves around. Before the arena opened, our street was {2} after six o’clock. Now, on game nights, we are full from five until eleven, and we have hired four new staff.\n\nI accept that some of those customers might have gone to a restaurant elsewhere in the city. But many of them are visitors from {3}, who would never have come downtown otherwise.\n\nWhere I do agree with him is on the cost. Our arena went {4} by almost forty percent, and taxpayers covered the difference. Any future deal should include {5} so that the team, not the public, pays for overruns.\n\n– Tony, Regina",
+    "blanks": [
+     {
+      "o": [
+       "side entirely",
+       "partly disagree",
+       "strongly agree",
+       "agree entirely"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "The activity moves; it is not created",
+      "x": "Tony’s restaurant now fills on game nights, contradicting Samuel’s claim that activity merely moves, yet he accepts some customers would have eaten elsewhere. So he partly disagrees; complete agreement contradicts his examples."
+     },
+     {
+      "o": [
+       "crowded",
+       "nearly empty",
+       "fully booked",
+       "well lit"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "a well-designed arena can help bring life to a neglected neighbourhood",
+      "x": "Tony contrasts the street before the arena with game nights now, when he is full and hiring, so it must have been nearly empty. “Crowded” or “fully booked” describes the situation after the arena opened."
+     },
+     {
+      "o": [
+       "surrounding towns",
+       "the same neighbourhood",
+       "other restaurants",
+       "the team"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "Most of the money spent at an arena is money that local residents would have spent anyway",
+      "x": "Tony says these visitors would never have come downtown otherwise, so they come from outside the city, unlike Samuel’s residents who would spend the money anyway. “The same neighbourhood” contradicts “never come downtown.”"
+     },
+     {
+      "o": [
+       "under budget",
+       "out of business",
+       "on schedule",
+       "over budget"
+      ],
+      "a": 3,
+      "t": "vocab",
+      "ev": "should be weighed honestly against what the same money could do elsewhere",
+      "x": "Tony says taxpayers covered a nearly forty percent difference and wants the team to pay for overruns, so the arena went over budget. “Under budget” would leave nothing for taxpayers to cover."
+     },
+     {
+      "o": [
+       "clear agreements",
+       "public subsidies",
+       "free tickets",
+       "more parking spaces"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "with clear agreements that the team will stay for a long period",
+      "x": "Tony wants deals that make the team, not the public, pay for overruns, echoing Samuel’s call for clear agreements with the team. “Public subsidies” would leave taxpayers paying, the opposite of his point."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You live in an apartment building. For the past month, cigarette smoke from a neighbour’s balcony has been coming into your apartment through your windows and balcony door, especially in the evenings.",
+   "bullets": [
+    "Describe the problem and how long it has been happening",
+    "Explain how it is affecting you and your household",
+    "Suggest what the building management could do"
+   ],
+   "model": "Dear Mr. Novak,\n\nI am writing about an ongoing problem in my unit, 805. For about a month, cigarette smoke from a balcony directly below mine has been drifting into my apartment almost every evening between 7 and 11 p.m. In warm weather we keep our windows and balcony door open, and the smoke comes straight in. Even when closed, the smell lingers in our curtains.\n\nThis has become a real concern for my family. My six-year-old son has asthma, and on three occasions this month he has needed his inhaler after the smoke came into his bedroom. My partner and I have also had difficulty sleeping, since we now keep everything closed on hot nights.\n\nI understand that balcony smoking is not prohibited in our lease, and I have no wish to cause conflict with my neighbours. However, I would appreciate it if you could remind residents about the effect of balcony smoking on others, and consider designating a smoking area away from the building. In the longer term, I would support a smoke-free policy for balconies when leases are renewed.\n\nThank you for your attention. I look forward to hearing from you.\n\nSincerely,\nAisha Rahman"
+  },
+  "t2": {
+   "intro": "Your company has had a successful year and wants to reward employees. Management is asking staff to choose between two options.",
+   "question": "Which option do you prefer?",
+   "a": "A two-day team-building retreat at a resort, with workshops, outdoor activities and meals, paid for by the company.",
+   "b": "A cash bonus of $500 for every employee.",
+   "model": "If I had to choose, I would prefer Option A, the two-day team-building retreat, because I believe it would have a more lasting impact on our team than a one-time bonus.\n\nFirst, our company has grown quickly this year, and many colleagues have only met online or in passing. Two days at a resort, working on workshops together and taking part in activities like canoeing or hiking, would give us a chance to build real relationships. In my experience, people who know and trust each other communicate better and solve problems faster, which benefits the whole organization.\n\nSecond, a $500 bonus is certainly welcome, but after taxes it would be closer to $350, and most of us would probably spend it on everyday expenses without much thought. A retreat, on the other hand, is something we would remember and talk about for months.\n\nThat said, I understand that some colleagues have family responsibilities that make overnight travel difficult. For this reason, I would suggest that the company offer a smaller gift card to anyone who cannot attend, so that everyone feels appreciated.\n\nOverall, I believe the retreat is the better investment in our team."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend is thinking about buying a house in a small town about 90 minutes from the city where she works. The house is much cheaper and bigger than anything she could afford in the city. Give your friend advice.",
+   "model": "That’s a big decision, and I can see why the house is tempting – more space for less money is hard to say no to. But before you sign anything, I’d think carefully about the commute. Ninety minutes each way is three hours a day, fifteen hours a week. Ask yourself honestly whether you can do that for years, especially in winter, when the highway can be dangerous and that drive could easily become two hours. Second, find out whether your employer would let you work from home a few days a week. If you only had to commute twice a week, it would be a completely different situation. I’d get that agreement in writing before you buy. Third, do the math on all the costs, not just the mortgage. Gas, car maintenance, maybe a second car, and highway tolls can add up to hundreds of dollars a month. And finally, spend a weekend or two in the town before deciding. Check if there’s a grocery store, a doctor and things to do. If you love the place and the numbers still work, then go for it."
+  },
+  "t2": {
+   "prompt": "Talk about a time when someone gave you good advice. What was the advice, and how did it help you?",
+   "model": "The best advice I ever got came from my first manager, when I was twenty-three and working at a bank. I had made a big mistake on a client’s account – I had entered a wrong number, and the client was charged a fee he shouldn’t have been. When I noticed, I panicked, and my first instinct was to fix it quietly and hope nobody noticed. I went to my manager, Helen, mostly to ask how to reverse the fee. She listened and then said something I’ve never forgotten: “Mistakes aren’t the problem. Hiding them is.” She told me to call the client myself, explain what happened, apologize and tell him what I was doing to fix it. I was terrified, but I did it. To my surprise, the client was really appreciative, and he even asked for me the next time he came in. That advice has helped me so many times since then. Whenever I make a mistake at work, I tell people right away. It has made my colleagues trust me more, and honestly, it takes away a lot of stress."
+  },
+  "t3": {
+   "scene": {
+    "bg": "office",
+    "alt": "An open-plan office in the afternoon. On the left, a woman in a purple shirt sits at a desk with a computer monitor, talking on the phone while drinking from a mug. In the centre, a man in a blue shirt is standing at a whiteboard that says \"Q3 PLAN\", pointing at a chart while two colleagues sit at a table listening, one holding a notebook. On the right, a man is carrying a tall stack of boxes towards a printer area, and a delivery person in a red jacket is holding a box by the door. There is a large window, a plant, a clock on the wall, and a water cooler.",
+    "items": [
+     [
+      "window",
+      440,
+      50,
+      170,
+      120
+     ],
+     [
+      "clock",
+      360,
+      60
+     ],
+     [
+      "whiteboard",
+      190,
+      120,
+      170,
+      "Q3 PLAN"
+     ],
+     [
+      "desk",
+      20,
+      340,
+      140
+     ],
+     [
+      "monitor",
+      80,
+      288
+     ],
+     [
+      "person",
+      50,
+      330,
+      {
+       "shirt": "#8e44ad",
+       "pose": "sit",
+       "hairStyle": "long",
+       "hold": "phone"
+      }
+     ],
+     [
+      "mug",
+      130,
+      288,
+      "#e67e22"
+     ],
+     [
+      "person",
+      230,
+      340,
+      {
+       "shirt": "#2980b9",
+       "pose": "point"
+      }
+     ],
+     [
+      "table",
+      290,
+      360,
+      110
+     ],
+     [
+      "person",
+      300,
+      355,
+      {
+       "shirt": "#27ae60",
+       "pose": "sit",
+       "hold": "book",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      380,
+      355,
+      {
+       "shirt": "#f39c12",
+       "pose": "sit",
+       "hairStyle": "bun",
+       "flip": true,
+       "skin": "#c68642"
+      }
+     ],
+     [
+      "person",
+      480,
+      360,
+      {
+       "shirt": "#34495e",
+       "hold": "box",
+       "pose": "walk"
+      }
+     ],
+     [
+      "door",
+      570,
+      300,
+      "#7f8c8d"
+     ],
+     [
+      "person",
+      560,
+      345,
+      {
+       "shirt": "#c0392b",
+       "hold": "box",
+       "flip": true,
+       "hat": "#c0392b"
+      }
+     ],
+     [
+      "plant",
+      430,
+      300,
+      1.1
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a busy open-plan office, probably in the afternoon. On the left side, a woman with long dark hair and a purple shirt is sitting at her desk in front of a computer monitor. She’s on the phone, and there’s an orange mug on her desk. In the middle of the room, there’s a whiteboard with “Q3 Plan” written on it and a red line drawn underneath, like a chart. A man in a blue shirt is standing next to it, pointing, so he’s probably presenting the plan. Two colleagues are sitting at a table in front of him – a man in a green shirt who’s holding a notebook, and a woman in an orange top with her hair in a bun. They seem to be listening carefully. On the right side, another man is walking across the office carrying a box, and near the door, a delivery person in a red jacket and cap is holding another box – maybe office supplies. There’s also a big window, a clock on the wall above the whiteboard and a large potted plant. It looks like a normal, productive workday."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will probably happen soon. First, the delivery person by the door needs someone to sign for the box, so I expect the man who is already carrying a box will put his down and go over to help, or maybe he’ll point the delivery person towards the reception area. Second, the meeting at the whiteboard looks like it’s nearly finished. The presenter will probably ask if there are any questions, and the man with the notebook will likely ask something about the deadline, because he seems to be writing a lot. After that, they’ll probably go back to their desks. Third, the woman on the phone looks like she’s in a long call. I wouldn’t be surprised if she has to hang up and join the meeting late, since everyone else seems to be in it already. And finally, because the clock shows it’s late in the afternoon, I think people will start packing up and heading home within the next hour or so."
+  },
+  "t5": {
+   "intro": "Your family has decided to get a pet. You have found two options. Choose the one you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Adult cat from a shelter",
+     "details": [
+      "$150 adoption fee",
+      "Already trained and vaccinated",
+      "Can be left alone during the day",
+      "Lives 12–18 years",
+      "Calm and independent"
+     ]
+    },
+    {
+     "title": "Aquarium with tropical fish",
+     "details": [
+      "$400 for tank and equipment",
+      "Very quiet, no allergies",
+      "Feed once a day",
+      "Clean tank every two weeks",
+      "Relaxing to watch"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Puppy from a breeder",
+    "details": [
+     "$2,000",
+     "Needs training and walks 3 times a day",
+     "Cannot be left alone long",
+     "Very affectionate and playful",
+     "Needs a dog-sitter when the family travels"
+    ]
+   },
+   "otherWho": "Your son prefers",
+   "persuade": "Your son prefers the puppy. Persuade him that your choice is better.",
+   "model": "I know you really want a puppy, and I completely understand – puppies are so cute and playful. But let’s think about what our days are really like. You’re at school until three thirty, and Mom and I both work until five. A puppy can’t be left alone for that long; it would be lonely, and it would probably chew the furniture. An adult cat from the shelter would be perfect for us, because cats are happy on their own during the day, and then they’re affectionate when you get home. This one is already trained and vaccinated, so we wouldn’t have to deal with accidents on the carpet. Also, think about the cost. The puppy is two thousand dollars, and the cat is only a hundred and fifty. With the money we save, you could choose a really cool cat tree and toys. And remember, we go to Grandma’s every summer. With a puppy, we’d need to pay a dog-sitter for two weeks, but our neighbour could easily feed a cat. Plus, by adopting from a shelter, we’d be giving a cat a second chance at a happy home. What do you think?"
+  },
+  "t6": {
+   "situation": "Your neighbour lent you his car for a day while yours was being repaired. You parked in a restricted area by mistake and got a $90 parking ticket, which will be sent to his address in about two weeks. He does not know yet.",
+   "options": [
+    "Tell your neighbour about the ticket now.",
+    "Contact the city parking office to ask whether you can pay the ticket in your own name."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hi Mr. Petrov, thanks again for lending me your car yesterday – it really saved me. I have to tell you something, though, and I feel really bad about it. When I was downtown, I parked on Queen Street, and I didn’t see the sign saying it was a no-parking zone between four and six. When I came back, there was a ninety-dollar ticket on the windshield. I wanted to tell you right away, rather than have you find a ticket in the mail and wonder what happened. Of course, I’ll pay it completely. The ticket will be sent to your address in a couple of weeks, but I already have the ticket number, so I can pay it online tonight, and I’ll show you the confirmation. That way, it won’t affect you at all. If there are any extra fees, I’ll cover those too. I’m really sorry for the trouble, especially after you were so kind to help me. And next time I borrow anything from you – if you ever trust me again – I’ll be much more careful about reading the signs!"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should museums and tourist attractions charge foreign tourists higher entrance fees than local residents? Explain your reasons.",
+   "model": "In my opinion, it’s reasonable for museums and attractions to give local residents a discount, but I don’t think they should dramatically overcharge tourists. On the one hand, there’s a fair argument for lower prices for locals. Residents pay taxes that support public museums and parks all year round, so it makes sense that they get some benefit, especially families who might visit many times a year. A resident discount also encourages local people to use these places, instead of seeing them as only for tourists. On the other hand, if the price difference is too big, it can feel unfair and unwelcoming. Tourists already spend a lot of money in the local economy, on hotels, restaurants and transportation, and those businesses also pay taxes. If visitors feel they are being taken advantage of, they may leave bad reviews or choose a different destination. So I think the best approach is a modest discount for residents, perhaps twenty or thirty percent, rather than charging tourists double or triple. That way, locals are rewarded, and visitors still feel welcome."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "A grey and silver robot about the height of a person walking along a park path. It has a square body with a blue screen on its chest, a rectangular head with two round green eyes and a red light on an antenna. Its arms stretch out, and it is holding three dog leashes attached to three different dogs walking in front and behind it. People in the park are watching; one person is pointing.",
+    "items": [
+     [
+      "tree",
+      80,
+      260,
+      1
+     ],
+     [
+      "tree",
+      590,
+      260,
+      0.9
+     ],
+     [
+      "cloud",
+      300,
+      60,
+      1
+     ],
+     [
+      "robotWalker",
+      320,
+      360
+     ],
+     [
+      "dog",
+      455,
+      335,
+      "#a0522d"
+     ],
+     [
+      "dog",
+      515,
+      335,
+      "#d4ac0d"
+     ],
+     [
+      "dog",
+      175,
+      335,
+      "#5d4037",
+      true
+     ],
+     [
+      "person",
+      70,
+      370,
+      {
+       "shirt": "#e67e22",
+       "pose": "point"
+      }
+     ],
+     [
+      "person",
+      580,
+      375,
+      {
+       "shirt": "#16a085",
+       "hold": "phone",
+       "flip": true,
+       "hairStyle": "long"
+      }
+     ]
+    ]
+   },
+   "prompt": "You see this unusual sight in a park. Call your friend, who runs a dog-walking business, and describe what you see. Explain whether you think it is a good idea. Your friend cannot see the picture.",
+   "model": "Hey Jamal, are you sitting down? You’re not going to believe this. I’m in Stanley Park, and there is a robot walking three dogs. A real robot. It’s about my height, grey and silver, with a square body and a blue screen on its chest. Its head is like a box with two round green eyes, and there’s a little antenna on top with a red light that blinks. Its arms stretch out to the sides, and it’s holding three leashes – one for a big brown dog, one for a golden one, and one for a dark brown dog walking behind it. It’s moving at a normal walking pace, and the dogs actually seem pretty relaxed. Everyone in the park is stopping to stare, and someone is filming it on their phone. Honestly, I think it’s fascinating, but I don’t think you need to worry about your business yet. Dogs need more than just a walk – they need someone to play with them, notice if they’re hurt and pick up after them, and I didn’t see the robot doing any of that! Still, it might be something to keep an eye on. Should I try to find out who owns it?"
+  }
+ }
+}

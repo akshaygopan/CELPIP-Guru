@@ -1,0 +1,1879 @@
+{
+ "id": "t33",
+ "title": "Test 33",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two organizers of a cross-country ski club are dealing with poor snow conditions before their annual race.",
+    "sp": {
+     "A": {
+      "name": "Solveig",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.0
+     },
+     "B": {
+      "name": "Desmond",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 1.03
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Desmond, I just got back from walking the race course. It’s bad. The rain on Tuesday washed out most of the base, and what was left froze overnight into a sheet of ice. Some of the hills on the back loop are down to bare dirt."
+       ],
+       [
+        "B",
+        "I was afraid of that. And the loppet is a week from Saturday. How many people have registered now?"
+       ],
+       [
+        "A",
+        "Three hundred and forty-two as of this morning, including about eighty kids for the short race. And the forecast doesn’t help. Highs of plus four until at least Wednesday, and no real snow in sight after that."
+       ],
+       [
+        "B",
+        "So what are we saying? We cancel?"
+       ],
+       [
+        "A",
+        "I really don’t want to. This is the club’s main fundraiser. The registration fees pay for grooming fuel for the whole season. If we cancel and refund everybody, we’re looking at a hole of around twenty thousand dollars, and the sponsors have already paid for their banners."
+       ],
+       [
+        "B",
+        "Could we cancel without refunding? I’m sure our waiver says something about the weather."
+       ],
+       [
+        "A",
+        "It says we’re not responsible for conditions on the day. It doesn’t say we can keep people’s money if there’s no race at all. Legally, maybe we could argue it, but we’d lose half our members by next year. People remember that kind of thing."
+       ],
+       [
+        "B",
+        "Fair enough. I wouldn’t want to be the one answering those emails, either."
+       ],
+       [
+        "A",
+        "Exactly. So we need a race, somewhere, somehow, even if it isn’t the race we planned."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What condition is the race course in?",
+        "o": [
+         "It is buried under deep, wet snow after Tuesday’s storm.",
+         "It has been closed by the city because of flooding.",
+         "Much of it is icy, and parts have no snow at all.",
+         "Only the back loop is still in good condition."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "what was left froze overnight into a sheet of ice",
+        "x": "The base turned to ice, and some hills are bare dirt. It was rain, not snow, on Tuesday, and the back loop is the worst part, not the best."
+       },
+       {
+        "q": "Why does Solveig not want to cancel the race?",
+        "o": [
+         "It pays for an important part of the club’s yearly costs.",
+         "The sponsors have threatened to withdraw their support.",
+         "The children’s race has already been fully booked.",
+         "Most registered skiers have asked for the race to go ahead."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "The registration fees pay for grooming fuel for the whole season",
+        "x": "The fundraiser covers grooming fuel for the season, so cancelling would leave a large gap. The sponsors have already paid; nothing suggests they threatened to withdraw."
+       },
+       {
+        "q": "What is Solveig’s view on keeping the registration fees after cancelling?",
+        "o": [
+         "It is clearly allowed under the wording of the club’s waiver.",
+         "It would be fair because of the weather clause.",
+         "It would need approval from the sponsors first.",
+         "It would cost the club many of its members."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "we’d lose half our members by next year",
+        "x": "Even if it might be legally arguable, she believes members would leave. She says the waiver does not clearly allow keeping the money."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "What about Northcrest? They had a metre of snow last week, and their trails are groomed every day."
+       ],
+       [
+        "A",
+        "I called them yesterday. They’d host us, but only on the Sunday, because Saturday is their busiest day, and they want nine thousand dollars for the trail fee. Plus it’s two hours each way, and a lot of our skiers are families from town."
+       ],
+       [
+        "B",
+        "Nine thousand. Ouch. Could we postpone, then? Two or three weeks?"
+       ],
+       [
+        "A",
+        "I looked at that too. The provincial championships are the following weekend, so most of our racers and nearly all our volunteers will be away. And the week after that is March break. We’d lose half the field either way."
+       ],
+       [
+        "B",
+        "Right. What about the snow gun? We’ve been making snow on the stadium loop since December. That loop’s in decent shape, isn’t it?"
+       ],
+       [
+        "A",
+        "It’s the only thing in decent shape. It’s two and a half kilometres, and the base is solid, about thirty centimetres. But the main race is twenty-five kilometres. That’s ten laps. With three hundred skiers on one narrow loop, the fast ones would be lapping the slow ones constantly. It would be chaos."
+       ],
+       [
+        "B",
+        "Unless we change the race. Cut it to fifteen kilometres, so six laps, and send people off in waves instead of a mass start. Fastest skiers first, then everyone else every ten minutes."
+       ],
+       [
+        "A",
+        "Hmm. Six laps. Some of the serious racers will grumble that it’s not a real loppet."
+       ],
+       [
+        "B",
+        "They’d grumble a lot more about driving to Northcrest on a Sunday morning."
+       ],
+       [
+        "A",
+        "That’s probably true."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is Northcrest not a good option?",
+        "o": [
+         "Its trails have not been groomed this season.",
+         "It is expensive and available only on Sunday.",
+         "It is hosting the provincial championships that weekend.",
+         "Its trails are too difficult for the young skiers."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "only on the Sunday, because Saturday is their busiest day, and they want nine thousand dollars",
+        "x": "Northcrest would charge $9,000 and only allows Sunday, far from town. The championships are the following weekend, not at Northcrest."
+       },
+       {
+        "q": "Why does Solveig reject postponing the race?",
+        "o": [
+         "The snow gun would not work later in the season.",
+         "The sponsors want the race held on its original date.",
+         "March break is the club’s busiest week of the year.",
+         "Many racers and helpers would not be available."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "most of our racers and nearly all our volunteers will be away",
+        "x": "The championships and March break mean racers and volunteers would be away. March break is mentioned only as a reason people would be absent."
+       },
+       {
+        "q": "How does Solveig respond to Desmond’s final comment?",
+        "o": [
+         "She reluctantly accepts his point.",
+         "She insists the racers deserve a full race.",
+         "She suggests asking the racers to vote.",
+         "She decides to call Northcrest again."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "That’s probably true",
+        "x": "“That’s probably true” after her worry about grumbling shows she accepts his argument, though without enthusiasm. She makes no plan to call Northcrest again."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, let’s say we go with the stadium loop. How do we keep it from melting before race day?"
+       ],
+       [
+        "B",
+        "We make more snow. The gun only works when it’s minus five or colder, but the long-range forecast shows three nights next week that should get there. If we run it all three nights, we can build up the base and cover the worst patches."
+       ],
+       [
+        "A",
+        "Who’s going to stay up running it? Last time it needed someone there the whole night."
+       ],
+       [
+        "B",
+        "I’ll take Monday night myself. I’ll put out a call for the other two."
+       ],
+       [
+        "A",
+        "Good. And the kids’ race?"
+       ],
+       [
+        "B",
+        "That’s the easy part. It was only ever two kilometres. They’d do one lap of the loop, which is pretty much what they always do."
+       ],
+       [
+        "A",
+        "Okay. Then the money. I think we offer people a choice. Anyone who doesn’t want to ski the shorter course can get twenty dollars back, or they can put their whole fee toward next year."
+       ],
+       [
+        "B",
+        "Shall I email everyone tomorrow, once we’ve confirmed the snowmaking volunteers?"
+       ],
+       [
+        "A",
+        "No, let’s tell them tonight. People are booking hotels and arranging rides this weekend, and if we wait, rumours will be all over the club’s social media page anyway. We can say the volunteer details are still being sorted out."
+       ],
+       [
+        "B",
+        "Fair enough. I’ll draft it now, and you can look it over before it goes out."
+       ],
+       [
+        "A",
+        "Thanks. And put the new start times in bold. Nobody reads past the first paragraph."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What has to happen for more snow to be made?",
+        "o": [
+         "Volunteers must first be trained to use the snow gun.",
+         "The club must rent a second snow gun for the week.",
+         "Night temperatures must fall well below freezing.",
+         "The ice on the loop must be removed beforehand."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "The gun only works when it’s minus five or colder",
+        "x": "The snow gun needs minus five or colder, which the forecast shows on three nights. Volunteers are needed to run it overnight, but no training is mentioned."
+       },
+       {
+        "q": "Why does Solveig want to email the skiers tonight?",
+        "o": [
+         "So that they can sign up for the snowmaking shifts",
+         "So people get accurate news before making their plans",
+         "Because the volunteer schedule is now complete",
+         "Because registration closes at the end of the weekend"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "People are booking hotels and arranging rides this weekend",
+        "x": "Skiers are making travel plans now, and waiting would let rumours spread. The volunteer details are still being sorted out, so the schedule is not complete."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "Two friends are talking about a weekly farm vegetable subscription.",
+    "sp": {
+     "A": {
+      "name": "Maribel",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Anders",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 0.99
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Maribel, didn’t you sign up for one of those farm box things last year? A coworker was talking about it, and I’m thinking of joining."
+       ],
+       [
+        "A",
+        "The CSA? Yes, with Fiddlehead Farm. You pay at the start of the season, and then you get a box of whatever they’ve harvested every week for eighteen weeks, from June to October."
+       ],
+       [
+        "B",
+        "And how much was it?"
+       ],
+       [
+        "A",
+        "Six hundred and forty for the full share. That works out to about thirty-five dollars a week, which sounds like a lot, but the boxes were huge. In August I was getting enough tomatoes and zucchini to feed a small army."
+       ],
+       [
+        "B",
+        "That’s my worry. I live alone. I’d be throwing half of it out."
+       ],
+       [
+        "A",
+        "Honestly, that happened to me in July, and there are three of us. The first few weeks were mostly lettuce and kale. So much kale. I started bringing my extras to the swap table at the pickup, where you can leave things you don’t want and take something someone else left. That helped."
+       ],
+       [
+        "B",
+        "Is there a smaller option?"
+       ],
+       [
+        "A",
+        "There’s a half share for three-eighty, but it’s a full box every other week, not a smaller box every week. Personally, I wouldn’t bother. Two weeks is a long time for greens to sit in the fridge, and you miss whatever’s in season on your off weeks."
+       ],
+       [
+        "B",
+        "Hmm. What if I split a full share with someone? My neighbour Grace is always complaining about grocery prices."
+       ],
+       [
+        "A",
+        "That’s exactly what two people in my pickup group did. They took turns collecting the box and divided it on the spot. And if you register before March first, you get forty dollars off."
+       ],
+       [
+        "B",
+        "Is there any risk, though? I mean, what if the crops fail?"
+       ],
+       [
+        "A",
+        "That’s the deal with a CSA. You share the risk with the farmer. Last year there was a hailstorm in early July, and we got pretty thin boxes for two weeks. But they made up for it with extra squash in the fall. I didn’t mind. I’d rather my money went to them than to a supermarket chain."
+       ],
+       [
+        "B",
+        "Okay. I’m going to knock on Grace’s door tonight. Where’s the pickup?"
+       ],
+       [
+        "A",
+        "The church hall on Elm Street, Thursdays from four to seven."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does Maribel say about the full-share boxes?",
+        "o": [
+         "They were too expensive for what they contained.",
+         "At times they held more than her household could use.",
+         "They contained mostly tomatoes and zucchini all season.",
+         "They were smaller in August than earlier in the summer."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "that happened to me in July, and there are three of us",
+        "x": "Even her family of three had extras, which she took to the swap table. Tomatoes and zucchini came in August; the early weeks were mostly greens."
+       },
+       {
+        "q": "How did Maribel deal with produce she did not want?",
+        "o": [
+         "She gave it to her neighbours each week.",
+         "She froze it to use during the winter.",
+         "She asked the farm to leave it out of her box.",
+         "She exchanged it with other members."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "I started bringing my extras to the swap table at the pickup",
+        "x": "At the swap table, members leave items and take others, so she traded with other members. Grace is Anders’ neighbour, not Maribel’s."
+       },
+       {
+        "q": "What is Maribel’s opinion of the half share?",
+        "o": [
+         "Its pickup schedule makes it a poor choice.",
+         "It is the best choice for someone living alone.",
+         "It costs too much for the amount of food.",
+         "It would suit Anders if he shared it with Grace."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "Personally, I wouldn’t bother",
+        "x": "She dislikes collecting every other week because greens wilt and seasonal items are missed. She suggests splitting a full share, not the half share."
+       },
+       {
+        "q": "What does Maribel say about the hailstorm?",
+        "o": [
+         "It destroyed the farm’s squash crop.",
+         "Members were offered a partial refund for the lost weeks.",
+         "Boxes shrank briefly but were later topped up.",
+         "It made her decide not to join again."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "But they made up for it with extra squash in the fall",
+        "x": "The boxes were thin for two weeks, then extra squash came in the fall. No refund was given; sharing the risk is part of the deal."
+       },
+       {
+        "q": "What will Anders most likely do this evening?",
+        "o": [
+         "Register online to get the early discount",
+         "Propose sharing a subscription with his neighbour",
+         "Visit the church hall to see the pickup",
+         "Ask his coworker which farm to choose"
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "I’m going to knock on Grace’s door tonight",
+        "x": "He plans to talk to his neighbour Grace about splitting a full share. Registering may come later, but tonight he is speaking to Grace."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A man calls a conservation authority about volunteering to remove invasive plants.",
+    "sp": {
+     "A": {
+      "name": "Yvette",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.05
+     },
+     "B": {
+      "name": "Nikhil",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Greenbelt Conservation, volunteer office. This is Yvette."
+       ],
+       [
+        "B",
+        "Hi, I saw a poster at the library about volunteering to remove invasive plants, and I’d like to sign up. My daughter wants to come too."
+       ],
+       [
+        "A",
+        "Wonderful. How old is your daughter?"
+       ],
+       [
+        "B",
+        "She’s fifteen. She needs volunteer hours for school."
+       ],
+       [
+        "A",
+        "That’s no problem. Volunteers have to be at least fourteen, and anyone under sixteen needs a parent or guardian working alongside them. So as long as you’re with her, she’s welcome. Before your first work session, though, you both have to attend a two-hour training. We have one this Saturday morning, May tenth, at nine, and another on Wednesday evening, the fourteenth, at six thirty."
+       ],
+       [
+        "B",
+        "Saturday would be easiest. What happens at the training?"
+       ],
+       [
+        "A",
+        "You’ll learn to identify the main species we’re targeting, mostly garlic mustard and buckthorn, and how to remove them properly so they don’t spread. We also cover safety. The big one is giant hogweed. It looks a bit like an enormous Queen Anne’s lace, and its sap can cause serious burns when skin is exposed to sunlight. Volunteers never touch hogweed. If you see it, you mark the location on the app and report it, and our staff remove it wearing protective suits."
+       ],
+       [
+        "B",
+        "Good to know. What should we wear?"
+       ],
+       [
+        "A",
+        "Long sleeves, long pants and closed-toe boots, even if it’s hot. We provide gloves and tools. Also, it’s tick season, so tuck your pants into your socks and check yourselves carefully when you get home."
+       ],
+       [
+        "B",
+        "And when are the work sessions?"
+       ],
+       [
+        "A",
+        "Tuesday evenings from six to eight and Saturday mornings from nine to noon, from mid-May until the end of August. You can come whenever it suits you, but if your daughter needs a signed letter for school, she has to complete at least four sessions. We don’t issue letters for fewer than that."
+       ],
+       [
+        "B",
+        "Four sessions. Okay. Is there any cost?"
+       ],
+       [
+        "A",
+        "No, it’s completely free, and volunteers get a parking pass for the conservation area for the whole season, which normally costs sixty dollars. You pick it up at the training."
+       ],
+       [
+        "B",
+        "Great. One last thing. The poster mentioned a lakeside site. Is that one of the locations?"
+       ],
+       [
+        "A",
+        "It was, but we’ve moved those sessions to the Millrace Trail this year, because the lake site is closed for shoreline repairs until September. The poster is a bit out of date, sorry about that."
+       ],
+       [
+        "B",
+        "No problem. Can you put us both down for Saturday’s training?"
+       ],
+       [
+        "A",
+        "Done. I’ll email you a confirmation and a map."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is Nikhil’s daughter allowed to join the program?",
+        "o": [
+         "She is old enough to volunteer on her own.",
+         "Her school has arranged it with the conservation office.",
+         "She has already completed the training session.",
+         "She is old enough, provided her father works with her."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "anyone under sixteen needs a parent or guardian working alongside them",
+        "x": "At fifteen she meets the minimum age of fourteen but must have a parent with her. She is not old enough to volunteer alone, which requires being sixteen."
+       },
+       {
+        "q": "What are volunteers told to do if they find giant hogweed?",
+        "o": [
+         "Record where it is and leave it for staff.",
+         "Remove it carefully while wearing gloves.",
+         "Cover it so that sunlight cannot reach it.",
+         "Pull it out only on cloudy days."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "you mark the location on the app and report it",
+        "x": "Volunteers mark and report it; staff in protective suits remove it. Sunlight is mentioned because it worsens burns, not as something volunteers should block."
+       },
+       {
+        "q": "What advice does Yvette give about clothing?",
+        "o": [
+         "Light clothing is fine on very hot days.",
+         "Volunteers must bring their own gloves.",
+         "Clothing should be arranged to keep ticks out.",
+         "Boots are provided along with the tools."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "tuck your pants into your socks",
+        "x": "Tucking pants into socks prevents ticks from reaching the skin. Gloves and tools are provided, but boots are not."
+       },
+       {
+        "q": "What must the daughter do to receive a letter for school?",
+        "o": [
+         "Attend both of the training sessions",
+         "Take part in a minimum number of work sessions",
+         "Volunteer on Saturdays only",
+         "Work at the Millrace Trail site"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "she has to complete at least four sessions",
+        "x": "Letters are issued only after at least four sessions. Only one training session is required, not both."
+       },
+       {
+        "q": "What will Nikhil receive at the training?",
+        "o": [
+         "A sixty-dollar payment for volunteering",
+         "A map of the Millrace Trail site",
+         "A signed letter for his daughter’s school",
+         "A season parking pass at no charge"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "You pick it up at the training",
+        "x": "The free parking pass, normally $60, is picked up at the training. The map comes by email, and the school letter comes after four sessions."
+       },
+       {
+        "q": "What is true about the lakeside site?",
+        "o": [
+         "Work there has moved elsewhere because of repairs.",
+         "It will host sessions only from September onward.",
+         "It is the main location for removing hogweed.",
+         "It is still listed correctly on the library poster."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "we’ve moved those sessions to the Millrace Trail this year",
+        "x": "Sessions moved to the Millrace Trail because of shoreline repairs. The lake reopens in September, but no sessions are planned there."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report about drought conditions on the Prairies.",
+    "sp": {
+     "A": {
+      "name": "Marisol",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Lyle Brandvold",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.96
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "After the driest spring in more than sixty years, ranchers across the southern Prairies are making difficult decisions about their herds. Pasture conditions in much of the region are rated poor or very poor, and dugouts, the ponds farmers rely on to water livestock, are running dry. At last week’s auction in Coldwater, more than four thousand head of cattle were sold, roughly triple the number sold at the same sale last year. Lyle Brandvold, who runs about three hundred cows west of town, sold a third of his herd."
+       ],
+       [
+        "B",
+        "It’s not something you do lightly. Some of those cows came from lines my grandfather started. But hay is selling for double what it was last year, if you can even find it, and I’d rather sell some now while prices are decent than watch them go hungry in January."
+       ],
+       [
+        "A",
+        "Agricultural economists warn that selling breeding cows can have effects lasting years, because rebuilding a herd takes time. Brandvold says he hopes to buy back once the rain returns, but he isn’t counting on it."
+       ],
+       [
+        "B",
+        "The last time this happened, in the early two-thousands, it took my dad nearly six years to get back to where he was."
+       ],
+       [
+        "A",
+        "The dry conditions are affecting towns too. Coldwater has moved to Stage Three water restrictions, banning all lawn watering and car washing at home, and closing the splash pad for the summer. The town’s public works director said the reservoir is at forty-one percent of capacity, compared with seventy-five percent at this time last year. Meanwhile, the province announced on Monday that it will allow ranchers to graze cattle and cut hay in some provincial wildlife areas that are normally off-limits. Conservation groups have cautiously supported the move, but say grazing must stay away from the nesting areas of ground-nesting birds until mid-July. Forecasters say there’s some rain in the outlook for next week, but not nearly enough. One meteorologist described it as a drop in an empty bucket."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How did last week’s auction compare with the same sale last year?",
+        "o": [
+         "Prices were about double last year’s.",
+         "Roughly a third fewer cattle were sold.",
+         "About three times as many cattle were sold.",
+         "Most of the cattle came from one ranch."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "roughly triple the number sold at the same sale last year",
+        "x": "Triple the number means about three times as many. “Double” refers to hay prices, and “a third” is the share of Brandvold’s herd that he sold."
+       },
+       {
+        "q": "Why did Brandvold sell part of his herd?",
+        "o": [
+         "Feeding his whole herd through winter would be too hard.",
+         "He wanted to retire after many years of ranching.",
+         "Cattle prices are expected to rise sharply again by next year.",
+         "His grandfather’s cattle were too old to keep."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I’d rather sell some now while prices are decent than watch them go hungry in January",
+        "x": "With hay scarce and expensive, he could not feed them all through winter. His grandfather started the cattle lines; he never says the cows were old."
+       },
+       {
+        "q": "What does Brandvold suggest about buying cattle back?",
+        "o": [
+         "He plans to do it as soon as it rains next week.",
+         "Hay prices will make it impossible for years.",
+         "The province will help ranchers rebuild their herds.",
+         "It may take a long time to recover his losses."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "it took my dad nearly six years to get back to where he was",
+        "x": "He is not counting on a quick recovery and recalls his father needing six years. Next week’s rain is described as far from enough."
+       },
+       {
+        "q": "What has the province decided?",
+        "o": [
+         "To pay ranchers for cattle sold at auction",
+         "To open some protected land to livestock",
+         "To ban lawn watering across the region",
+         "To supply hay to ranchers at a lower price"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "it will allow ranchers to graze cattle and cut hay in some provincial wildlife areas that are normally off-limits",
+        "x": "Wildlife areas normally off-limits will be opened to grazing and haying. The watering ban is Coldwater’s town rule, not a provincial decision."
+       },
+       {
+        "q": "What do conservation groups want?",
+        "o": [
+         "The province to cancel the grazing decision",
+         "Ranchers to stop cutting hay until autumn",
+         "Grazing kept away from certain areas until mid-July",
+         "Birds moved out of the wildlife areas"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "grazing must stay away from the nesting areas of ground-nesting birds until mid-July",
+        "x": "They cautiously support grazing but want nesting areas avoided until mid-July. They do not oppose the decision itself."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three neighbours are discussing what to do about repeated basement flooding on their street.",
+    "sp": {
+     "A": {
+      "name": "Harriet",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 0.97
+     },
+     "B": {
+      "name": "Marco",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "C": {
+      "name": "Abdi",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1.0
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Thanks for coming over, both of you. I wanted to talk before the next big storm. That’s three times in two summers that water has come up through my basement floor drain, and the last time it was sewage, not just rainwater. The cleanup cost me four thousand dollars, and my insurance company has told me that if I claim again, they’ll drop my coverage for sewer backup altogether."
+       ],
+       [
+        "B",
+        "Same here, more or less. Ours was in the laundry room. The city inspector told me it’s because the storm sewers on Juniper Street are too small for the kind of rain we get now. They were built in the nineteen-fifties."
+       ],
+       [
+        "C",
+        "So the obvious answer is to get the city to replace them. I’ve already started a petition. Twenty-two signatures so far."
+       ],
+       [
+        "B",
+        "Good for you, Abdi, but I asked the inspector about that. The sewer replacement for this area is in the capital plan for 2031. Even if the petition works, we’re talking years."
+       ],
+       [
+        "C",
+        "Then we push harder. Go to council, call the local paper. If enough people show up, they’ll move it up."
+       ],
+       [
+        "A",
+        "Maybe, and I’ll sign it. But I can’t wait five years and hope it doesn’t rain. I need something for this summer."
+       ],
+       [
+        "B",
+        "That’s why I wanted to mention backwater valves. It’s a valve installed in the sewer pipe under your basement. When the sewer backs up, it closes, so the water can’t come into the house. The city covers up to fifteen hundred dollars of the cost through its flood protection program."
+       ],
+       [
+        "A",
+        "And what does it actually cost?"
+       ],
+       [
+        "B",
+        "The plumber quoted me about thirty-two hundred, because they have to cut through the basement floor. So you’d pay roughly seventeen hundred yourself."
+       ],
+       [
+        "C",
+        "I looked into those. The catch is you can’t use your sinks or toilet while the valve is closed. And if your downspouts drain right next to the house, the water just ends up in your basement anyway, through the walls instead of the drain."
+       ],
+       [
+        "B",
+        "True, which is why you also disconnect the downspouts and point them away from the house. That part’s cheap. Twenty minutes and a saw."
+       ],
+       [
+        "A",
+        "My downspouts go straight into the ground. I’ve never even thought about where that water goes."
+       ],
+       [
+        "B",
+        "Probably right into the same overloaded sewer. If everyone on the street disconnected theirs, that alone would take a lot of pressure off the system."
+       ],
+       [
+        "C",
+        "Okay, I’ll admit that’s a decent point. It’s something we could do this weekend, all of us together, without waiting for anybody."
+       ],
+       [
+        "A",
+        "What about those rain gardens I’ve seen over on Cedarvale? The ones with plants in a dip in the front yard?"
+       ],
+       [
+        "B",
+        "They’re lovely, but they’re more of a long-term project. And you need the right soil. Mine’s heavy clay; it would just turn into a pond."
+       ],
+       [
+        "A",
+        "Fair enough. So where does that leave us?"
+       ],
+       [
+        "C",
+        "Here’s what I’d suggest. We keep the petition going, because the sewer still needs replacing. But we also organize a downspout day for the street, maybe next Saturday, and anyone who can afford it applies for the valve program."
+       ],
+       [
+        "B",
+        "I’ll book the plumber this week. If several of us use the same one, he might give us a better price."
+       ],
+       [
+        "A",
+        "I’m in for the valve. Seventeen hundred is a lot less than another four-thousand-dollar cleanup, and I can’t afford to lose my insurance. Abdi, put me down for the downspout day, and I’ll bake something."
+       ],
+       [
+        "C",
+        "Deal. I’ll make a flyer tonight and drop it in every mailbox on the street."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is Harriet’s most serious worry?",
+        "o": [
+         "The city may refuse to pay for her cleanup.",
+         "Another claim could leave her without insurance protection.",
+         "Her basement walls may have been weakened by all of the water.",
+         "The plumber’s quote is far higher than she expected."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "they’ll drop my coverage for sewer backup altogether",
+        "x": "Her insurer will drop sewer-backup coverage after another claim. She paid for the last cleanup herself; nothing suggests the city refused to pay."
+       },
+       {
+        "q": "According to the city inspector, why are basements on the street flooding?",
+        "o": [
+         "Residents’ downspouts are connected to the sewer.",
+         "The basement floor drains on the street were badly installed.",
+         "The sewers were damaged by construction in 2031.",
+         "The pipes cannot handle the amount of rain that falls now."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "the storm sewers on Juniper Street are too small for the kind of rain we get now",
+        "x": "The inspector blamed undersized storm sewers built in the 1950s. 2031 is when replacement is planned, and downspouts are Marco’s later point, not the inspector’s."
+       },
+       {
+        "q": "Why is Marco doubtful about the petition?",
+        "o": [
+         "The sewer replacement is not planned for years.",
+         "Too few neighbours have signed it so far.",
+         "Council has already rejected similar requests.",
+         "The local paper is unlikely to report on it."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "The sewer replacement for this area is in the capital plan for 2031",
+        "x": "Even if successful, the petition would not bring quick relief, since the work is scheduled for 2031. He praises the twenty-two signatures rather than calling them too few."
+       },
+       {
+        "q": "What drawback of backwater valves does Abdi mention?",
+        "o": [
+         "They require the downspouts to be removed from the house completely.",
+         "They cannot be installed in houses with clay soil.",
+         "Plumbing in the house cannot be used while the valve is shut.",
+         "The city pays only for valves installed before summer."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "you can’t use your sinks or toilet while the valve is closed",
+        "x": "While the valve is closed, sinks and toilets cannot be used. Clay soil is Marco’s reason for avoiding a rain garden, not a problem with valves."
+       },
+       {
+        "q": "How much would Harriet probably pay for a valve herself?",
+        "o": [
+         "About $3,200",
+         "About $1,700",
+         "About $1,500",
+         "About $4,000"
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "So you’d pay roughly seventeen hundred yourself",
+        "x": "The $3,200 cost minus the city’s $1,500 contribution leaves about $1,700. $4,000 was the cost of her last cleanup."
+       },
+       {
+        "q": "How does Abdi react to the idea of disconnecting downspouts?",
+        "o": [
+         "He thinks it distracts from the petition.",
+         "He says it should be left to the city.",
+         "He doubts it would make a real difference.",
+         "He concedes that it is a worthwhile step."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "Okay, I’ll admit that’s a decent point",
+        "x": "“I’ll admit” shows he is conceding something he had not considered. He then suggests doing it together, so he does not see it as a distraction."
+       },
+       {
+        "q": "Why does Marco not recommend a rain garden for his property?",
+        "o": [
+         "His soil would not drain the water away.",
+         "Rain gardens take up too much of the front yard.",
+         "His yard does not have a natural dip.",
+         "Rain gardens are only allowed on Cedarvale."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Mine’s heavy clay; it would just turn into a pond",
+        "x": "Heavy clay soil would hold the water like a pond instead of absorbing it. The dip in the yard is part of a rain garden’s design, not a missing feature."
+       },
+       {
+        "q": "What do the neighbours finally decide?",
+        "o": [
+         "To stop the petition and focus on valves",
+         "To wait for the city to replace the sewers",
+         "To build rain gardens along the whole street",
+         "To combine a long-term campaign with immediate steps"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "We keep the petition going, because the sewer still needs replacing",
+        "x": "They continue the petition while also disconnecting downspouts and installing valves. The petition is kept, not dropped, and rain gardens are rejected."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "A reporter presents different views on what to do about the number of deer in a city park.",
+    "sp": {
+     "A": {
+      "name": "Owen",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.0
+     },
+     "B": {
+      "name": "Celeste",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "In Larchmere Park, a four-hundred-hectare forest on the edge of the city, the deer have become too successful. A count this winter found roughly a hundred and twenty white-tailed deer in the park, about six times what biologists consider sustainable for an area that size. With no wolves and hunting banned within city limits, the population has grown steadily for two decades. The consequences are visible to anyone who knows what to look for. Below about a metre and a half, the forest is almost bare. Wildflowers like trilliums have nearly vanished, young trees are eaten before they can grow, and birds that nest close to the ground have declined. A forest ecologist who has studied the park for fifteen years told me that if nothing changes, the forest will eventually stop renewing itself. When the old trees die, there will be nothing to replace them. Her recommendation, and the city’s proposal, is a controlled hunt carried out by licensed hunters over two winters, with the park closed on those days and the meat donated to food banks. Not surprisingly, the plan has met strong resistance. Celeste coordinates a local animal advocacy group."
+       ],
+       [
+        "B",
+        "Nobody’s denying there are too many deer. But killing them doesn’t solve the problem; it just resets it. If you remove sixty deer, the ones that remain have more food and produce more fawns, and in a few years you’re back where you started, holding another hunt. We’d like the city to invest in fertility control instead. It’s been used successfully in a few places, and it’s humane."
+       ],
+       [
+        "A",
+        "The ecologist doesn’t dismiss fertility control, but she points out that it works best on small, contained populations, because each deer has to be captured or darted, often more than once. In a park with open boundaries, she says, new deer simply wander in from surrounding farmland. In her view, fertility control might help maintain the population after a reduction, but it can’t achieve one on its own. There’s also a third perspective, from residents near the park, many of whom are tired of deer eating their gardens and causing collisions on the parkway. Last year, police recorded thirty-four deer-vehicle collisions on the road bordering the park. Some residents support the hunt, while others worry about safety and want guarantees that the park will be completely closed."
+       ],
+       [
+        "B",
+        "If the city really wanted to reduce collisions, it could lower the speed limit on the parkway tomorrow. That doesn’t require anyone to shoot anything."
+       ],
+       [
+        "A",
+        "City staff will present a final recommendation to council in March, after a public survey that closes at the end of January. Whatever council decides, both sides agree on one thing: doing nothing is no longer an option."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "According to the report, what is the main effect of the deer on the park?",
+        "o": [
+         "The forest cannot renew itself because young plants are eaten.",
+         "The large old trees are being killed by deer feeding on their bark.",
+         "Birds have left the park because of competition for food.",
+         "Visitors can no longer use the trails safely."
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "the forest will eventually stop renewing itself",
+        "x": "Deer eat young trees and plants, so nothing will replace the old trees. Ground-nesting birds have declined, but competition for food is not the reason given."
+       },
+       {
+        "q": "What does Celeste argue about a hunt?",
+        "o": [
+         "It would be dangerous for nearby residents.",
+         "It would waste meat that could feed people.",
+         "Its effect on deer numbers would only be temporary.",
+         "It would be illegal within city limits."
+        ],
+        "a": 2,
+        "t": "viewpoint",
+        "ev": "it just resets it",
+        "x": "She says surviving deer would breed more, so numbers would recover. Safety is a concern of some residents, not Celeste’s argument."
+       },
+       {
+        "q": "What is the ecologist’s view of fertility control?",
+        "o": [
+         "It is cruel and should not be considered.",
+         "It could help later but cannot lower numbers by itself.",
+         "It is the best long-term solution for the park.",
+         "It works well where deer move in from farms."
+        ],
+        "a": 1,
+        "t": "viewpoint",
+        "ev": "fertility control might help maintain the population after a reduction, but it can’t achieve one on its own",
+        "x": "She sees it as useful for maintaining numbers after a hunt, not for reducing them. She says it works poorly where deer arrive from farmland."
+       },
+       {
+        "q": "Why does the ecologist think fertility control would be difficult in Larchmere Park?",
+        "o": [
+         "The park is too large for staff to patrol.",
+         "The drugs used are too expensive for the city.",
+         "Hunting is already banned within city limits.",
+         "Deer can easily enter the park from outside."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "new deer simply wander in from surrounding farmland",
+        "x": "The park’s open boundaries let untreated deer move in, cancelling the effect. Cost is never mentioned."
+       },
+       {
+        "q": "What does Celeste suggest about collisions on the parkway?",
+        "o": [
+         "The city could reduce them without killing deer.",
+         "They are exaggerated by residents who want a hunt.",
+         "They will increase if the park is closed.",
+         "They prove that fertility control is urgently needed."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "it could lower the speed limit on the parkway tomorrow",
+        "x": "She proposes a lower speed limit as a non-lethal fix. She does not dispute the collision figures."
+       },
+       {
+        "q": "How are residents near the park described?",
+        "o": [
+         "Most strongly oppose any change to the park.",
+         "They mainly want the deer fed in winter.",
+         "They have asked council to reopen hunting.",
+         "They are divided, though many want something done."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Some residents support the hunt, while others worry about safety",
+        "x": "Many are frustrated with deer, but they differ on the hunt. No resident request to council to reopen hunting is reported."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Imogen Hart | To: Clive Hart | Subject: Life on the farm – and a question for you",
+   "text": "Dear Uncle Clive,\n\nI hope the harvest went well on your end. Mum says you finally sold the old combine – I can’t believe it lasted thirty years!\n\nI’ve been at Wildrose Organics for almost five months now, and I thought you of all people would understand what it’s been like. When I arrived in May, I honestly thought I knew a fair bit about growing food from summers at your place. I was wrong. Organic vegetable farming is a completely different world from growing canola. Everything here is done on a small scale and mostly by hand: weeding, transplanting, harvesting. My alarm goes off at 5:30, and by the end of a July day my back felt about eighty years old.\n\nBut I love it. I love knowing exactly where every carrot came from and seeing customers at the Saturday market come back week after week. In August, Joanne, the owner, put me in charge of the market stand, and our sales went up by almost a third over the next six weeks. I’d like to take some credit for that, although the tomatoes were also excellent this year.\n\nThat brings me to my question. Last week Joanne offered me a full-time position for next season, managing the market stand and the farm’s new online orders. The pay is modest, but it includes housing in the little cabin by the pond. The problem is that I’ve already deferred my place in the environmental science program once, and the university has told me it won’t hold it a second time. Mum and Dad want me to go in September as planned. They haven’t said much, but I know they’re worried I’ll never go back.\n\nYou’re the only person in the family who has made a living from the land, and you also went back to college in your forties. Do you think I’d be making a mistake if I stayed? Or would I regret leaving something I’m clearly good at? I’d really value your honest opinion – and please don’t just tell me what Mum wants to hear.\n\nLove,\nImogen",
+   "qs": [
+    {
+     "q": "What did Imogen discover after arriving at the farm?",
+     "o": [
+      "Her summers on her uncle’s farm had prepared her well.",
+      "Her past experience was less relevant than she thought.",
+      "Organic farming requires more machinery than she expected.",
+      "Growing canola is harder than growing vegetables."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "I honestly thought I knew a fair bit about growing food from summers at your place. I was wrong.",
+     "x": "She expected her summers at her uncle’s canola farm to help, but organic vegetables were a different world. She says the work is done mostly by hand, not by machine."
+    },
+    {
+     "q": "How does Imogen describe her role in the market stand’s success?",
+     "o": [
+      "She modestly shares the credit with other factors.",
+      "She claims full responsibility for the increase.",
+      "She says the owner deserves most of the credit.",
+      "She thinks the increase was only a coincidence."
+     ],
+     "a": 0,
+     "t": "attitude",
+     "ev": "I’d like to take some credit for that, although the tomatoes were also excellent this year",
+     "x": "She takes “some” credit but also credits the excellent tomatoes. She does not claim full responsibility, nor does she dismiss her contribution."
+    },
+    {
+     "q": "What does the job offer include?",
+     "o": [
+      "A high salary and a share of the online sales",
+      "Management of the whole farm next season",
+      "Help paying for her university program",
+      "A place to live on the farm"
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "it includes housing in the little cabin by the pond",
+     "x": "Housing in a cabin is part of the offer. The pay is described as modest, and the role covers the market stand and online orders, not the whole farm."
+    },
+    {
+     "q": "Why is this decision more difficult now than before?",
+     "o": [
+      "Her parents have told her she must go to university.",
+      "The farm needs an answer by the end of the week.",
+      "She cannot postpone her university place again.",
+      "The environmental science program is moving."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "the university has told me it won’t hold it a second time",
+     "x": "She already deferred once, and the university will not allow another deferral. Her parents want her to go but have not said much, so they have not ordered her."
+    },
+    {
+     "q": "What does Imogen suggest about her parents?",
+     "o": [
+      "They fear she might give up on her studies permanently.",
+      "They think the farm job pays too little to live on.",
+      "They have been openly critical of her choices.",
+      "They want her to work on her uncle’s farm instead."
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "I know they’re worried I’ll never go back",
+     "x": "She senses they fear she will never return to school. She says they “haven’t said much”, so they have not been openly critical."
+    },
+    {
+     "q": "Why does Imogen ask her uncle in particular for advice?",
+     "o": [
+      "He was the one who found her the job at the farm.",
+      "He once worked at Wildrose Organics himself.",
+      "He has experience of both farming and returning to study.",
+      "He has already discussed her plans in detail with her mother."
+     ],
+     "a": 2,
+     "t": "purpose",
+     "ev": "You’re the only person in the family who has made a living from the land, and you also went back to college in your forties",
+     "x": "He has farmed for a living and went back to college later in life, so he understands both paths. She asks him not to repeat her mother’s view, which suggests they have not discussed it."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Clive’s response to Imogen. Complete it by choosing the best option for each blank.",
+    "text": "Dear Imogen,\n\nThank you for your letter. It made me smile to think of you complaining about {1}, since I remember you hiding in the truck to avoid weeding when you were ten.\n\nI’m very proud of what you’ve done with the market stand. A jump of nearly a third in six weeks is no accident, whatever you say about {2}.\n\nAs for your question, I won’t tell you what your mother wants to hear, but I won’t tell you the opposite either. Going back to college in my forties was worthwhile, but it was {3}, with a mortgage and two kids. Before you decide, I’d ask the university whether you could {4}, perhaps by studying part-time or online. And ask Joanne whether the job could still be available in a year or two.\n\nWhatever you choose, the skills you’ve learned at Wildrose won’t {5}. Call me this weekend.\n\nUncle Clive",
+    "blanks": [
+     {
+      "o": [
+       "the early mornings and sore back",
+       "the price of the farm cabin",
+       "the customers at the market",
+       "the old combine on my farm"
+      ],
+      "a": 0,
+      "t": "paraphrase",
+      "ev": "by the end of a July day my back felt about eighty years old",
+      "x": "She mentions her 5:30 alarm and aching back, which he gently teases. She says she loves the customers, so they are not a complaint."
+     },
+     {
+      "o": [
+       "the online orders",
+       "the good weather",
+       "the excellent tomatoes",
+       "the new cabin"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "although the tomatoes were also excellent this year",
+      "x": "She partly credited the tomatoes for the sales increase, and he dismisses that modesty. Online orders are part of next year’s job, not this year’s success."
+     },
+     {
+      "o": [
+       "far easier than I expected",
+       "much harder at that age",
+       "a complete waste of time",
+       "paid for by my employer"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "with a mortgage and two kids",
+      "x": "“Worthwhile, but” followed by a mortgage and children signals that studying later in life was harder. He calls it worthwhile, so “a waste of time” contradicts him."
+     },
+     {
+      "o": [
+       "move into the cabin by the pond",
+       "skip the first year of courses",
+       "change to an agriculture program",
+       "combine study with the farm job"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "perhaps by studying part-time or online",
+      "x": "Part-time or online study would let her keep working at the farm while studying. Changing programs is not linked to “part-time or online”."
+     },
+     {
+      "o": [
+       "help you at university",
+       "ever go to waste",
+       "be valued by employers",
+       "make you any money"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "Whatever you choose, the skills you’ve learned at Wildrose",
+      "x": "He is reassuring her that her skills will be useful whichever path she takes. The negative “won’t” makes “ever go to waste” the only encouraging completion."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Maple Grove Fix-It Fair – Saturday, October 18, 10:00 a.m.–3:00 p.m., Community Hall",
+    "intro": "Bring your broken items and repair them with the help of volunteer fixers. Register at the front desk; first come, first served. Suggested donation: $5 per item. Children’s toys are repaired free.",
+    "table": {
+     "cols": [
+      "Station",
+      "What we fix",
+      "Hours",
+      "Max items per person",
+      "Parts"
+     ],
+     "rows": [
+      [
+       "Small appliances",
+       "Toasters, kettles, lamps, fans",
+       "10:00–3:00",
+       "2",
+       "Basic parts on site; special parts ordered at cost"
+      ],
+      [
+       "Bicycles",
+       "Brakes, gears, flat tires",
+       "10:00–1:00",
+       "1",
+       "Inner tubes $8; brake pads $12"
+      ],
+      [
+       "Clothing & textiles",
+       "Hems, zippers, tears, buttons",
+       "11:00–3:00",
+       "3",
+       "Zippers $4"
+      ],
+      [
+       "Electronics",
+       "Radios, speakers, game controllers",
+       "12:00–3:00",
+       "1",
+       "No phones or computers"
+      ],
+      [
+       "Furniture & wood",
+       "Wobbly chairs, loose joints",
+       "10:00–2:00",
+       "1 (one person must be able to carry it)",
+       "Glue and screws free"
+      ],
+      [
+       "Sharpening",
+       "Kitchen knives, garden shears",
+       "10:00–3:00",
+       "5 blades",
+       "None needed"
+      ]
+     ]
+    },
+    "notes": [
+     "Items that run on gas or contain refrigerant (for example mini-fridges or air conditioners) cannot be accepted.",
+     "The last registration at each station is 30 minutes before that station closes.",
+     "Bring the item’s charger, cord or remote; fixers cannot test items without them.",
+     "Visitors who stay to volunteer for 2 hours or more may register one extra item at any station, with no donation.",
+     "Fixers will not open items that are still under a manufacturer’s warranty."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the Fix-It Fair. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Benedikt,\n\nI’m going to the Fix-It Fair at the community hall on the 18th, and I wondered if you’d like to come along. Last spring I got my sewing machine working again there, and the volunteers were brilliant. I’m bringing Grandma’s lamp, the kettle that stopped heating and the old toaster, but because of the limit at the appliance station, {1}. Unless, of course, I {2}, which I’d be happy to do after lunch.\n\nYou said your bike needs new brake pads and that the back tire keeps going flat. If you need both parts, plus the suggested donation, you’d pay {3}. Make sure you register before {4}, though, because that’s the last chance at the bike station.\n\nAnd don’t bother bringing your laptop – the electronics fixers {5}. You’ll have to take it to a proper repair shop instead. I can give you the name of the one I used last year if you like.\n\nSee you there,\nRhoda",
+    "blanks": [
+     {
+      "o": [
+       "I’ll have to pay for parts",
+       "one item will have to wait",
+       "I’ll need to arrive by 10:30",
+       "all three will be free"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Small appliances",
+      "x": "The appliance station accepts 2 items per person, so the third must wait. Donations are suggested per item; nothing makes all three free."
+     },
+     {
+      "o": [
+       "bring the cords for all three",
+       "register before 2:30 p.m.",
+       "stay and help for at least two hours",
+       "pay the suggested donation twice over"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Visitors who stay to volunteer for 2 hours or more may register one extra item at any station",
+      "x": "Volunteering for two hours or more allows one extra item. Bringing cords is required for testing but does not raise the limit."
+     },
+     {
+      "o": [
+       "$20",
+       "$13",
+       "$30",
+       "$25"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "Inner tubes $8; brake pads $12",
+      "x": "$12 for brake pads + $8 for an inner tube + a $5 donation for one item = $25. $20 forgets the donation."
+     },
+     {
+      "o": [
+       "12:30",
+       "1:00",
+       "2:30",
+       "10:30"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "The last registration at each station is 30 minutes before that station closes",
+      "x": "The bike station closes at 1:00, so the last registration is 12:30. 2:30 is the cut-off for stations closing at 3:00."
+     },
+     {
+      "o": [
+       "only open on weekday evenings",
+       "won’t work on computers",
+       "charge extra for laptops",
+       "need the receipt first"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "No phones or computers",
+      "x": "The electronics station does not accept phones or computers, so a laptop cannot be fixed. No extra charge is mentioned."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A visitor arrives at 2:40 p.m. with a torn jacket and a coat with a broken zipper. What can she do?",
+     "o": [
+      "Register both items at the clothing station",
+      "Register one item and pay $4 for a zipper",
+      "Register only the jacket, since zippers take longer",
+      "Neither item can be registered that day"
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "The last registration at each station is 30 minutes before that station closes",
+     "x": "The clothing station closes at 3:00, so registration ends at 2:30. At 2:40 she is too late for both items, even though the limit is three."
+    },
+    {
+     "q": "A family brings a broken kettle, a child’s toy and a wobbly chair. What is the total suggested donation?",
+     "o": [
+      "$10",
+      "$15",
+      "$5",
+      "$20"
+     ],
+     "a": 0,
+     "t": "diagram",
+     "ev": "Children’s toys are repaired free",
+     "x": "The kettle and the chair are $5 each; the toy is free, so the total is $10. $15 wrongly charges for the toy."
+    },
+    {
+     "q": "Which of these items could be accepted at the fair?",
+     "o": [
+      "A mini-fridge that no longer keeps food cold",
+      "A two-month-old blender still under warranty",
+      "A pair of garden shears that need sharpening",
+      "A radio brought without its power cord"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Kitchen knives, garden shears",
+     "x": "Garden shears are accepted at the sharpening station. Fridges contain refrigerant, warranty items are not opened, and items cannot be tested without their cords."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Reading the Ice: Staying Safe on Frozen Lakes",
+   "paras": [
+    "Every winter, thousands of Canadians head onto frozen lakes and rivers to skate, fish or snowshoe, and most return safely. Those who do not are often people who misjudged the ice. Safety organizations use a widely shared guide: at least ten centimetres of clear, solid ice for one person walking, fifteen for a group or for skating, and considerably more for snowmobiles or vehicles. But thickness is only part of the story. The colour of ice matters too. Clear blue or black ice, which forms during long, cold, still periods, is the strongest. White, cloudy ice, which forms when snow freezes on top of the surface, contains air bubbles and is much weaker. Grey ice is a warning sign, since it usually means water is present. Experienced users treat any grey patch as unsafe, whatever its thickness.",
+    "Ice is rarely uniform across a lake, which is why a single measurement near the shore can be dangerously misleading. Moving water weakens ice from below, so areas near inlets, outlets, bridges and narrow channels may be thin even in the coldest weeks. A blanket of snow, though it looks reassuring, acts as insulation and slows the growth of new ice underneath. Pressure ridges, the jagged lines that form when sheets of ice push against each other, can hide open water. For these reasons, people who go out regularly carry a chisel or a small auger and test the ice every few steps as they move away from shore. Many also follow the advice never to go out alone, and to tell someone on land exactly where they are going and when they expect to return.",
+    "If the ice does break, what happens in the first minutes can decide the outcome. Rescue instructors teach a simple pattern known as one-ten-one. The first minute after falling into cold water brings a gasping reflex; the priority is simply to keep the head above water and control breathing. The next ten minutes or so are the window in which the arms and legs still work well enough for a person to get out. After that, hypothermia gradually sets in, and unconsciousness may follow within about an hour. To climb out, people should turn toward the direction they came from, where the ice was strong enough to hold them, kick their legs to bring the body level, and pull forward. Once out, they should roll away rather than stand up, spreading their weight across the ice.",
+    "Changing winters are making these skills more important. Across much of southern Canada, lakes now freeze later and thaw earlier than they did a few decades ago, and mid-winter thaws are more common. That means ice conditions can change dramatically from one week to the next, and local knowledge built up over generations is no longer as reliable as it once was. Some communities have responded creatively. Several lake associations now organize volunteers to drill test holes at the same spots each week and post the measurements online, complete with photos showing the colour of the ice. In some northern communities that rely on winter roads across lakes, crews now use ground-penetrating radar to map ice thickness. Organizers say these efforts are not a substitute for personal caution, but they give people better information before they step out."
+   ],
+   "qs": [
+    {
+     "q": "Ice that looks white and cloudy is not as strong as clear ice.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "White, cloudy ice, which forms when snow freezes on top of the surface, contains air bubbles and is much weaker",
+     "x": "Paragraph A says white, cloudy ice contains air bubbles and is much weaker than clear ice."
+    },
+    {
+     "q": "Snow lying on top of the ice can prevent it from becoming thicker.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "acts as insulation and slows the growth of new ice underneath",
+     "x": "Paragraph B explains that snow insulates the ice and slows the growth of new ice."
+    },
+    {
+     "q": "Most people who fall through ice are rescued by passers-by.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Falling through the ice and self-rescue are discussed in C, but no paragraph says who usually rescues people."
+    },
+    {
+     "q": "A person who has fallen through should try to climb out where they entered the water.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "turn toward the direction they came from, where the ice was strong enough to hold them",
+     "x": "Paragraph C advises turning back toward the direction the person came from, where the ice held them."
+    },
+    {
+     "q": "Traditional knowledge about local ice has become less dependable.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "local knowledge built up over generations is no longer as reliable as it once was",
+     "x": "Paragraph D says knowledge built over generations is no longer as reliable because winters are changing."
+    },
+    {
+     "q": "Ice near a bridge may be thin even during very cold weather.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "areas near inlets, outlets, bridges and narrow channels may be thin even in the coldest weeks",
+     "x": "Paragraph B says moving water near bridges and channels can keep ice thin in the coldest weeks."
+    },
+    {
+     "q": "Ice that has formed during cold, calm conditions is the most reliable.",
+     "a": "A",
+     "t": "inference",
+     "ev": "Clear blue or black ice, which forms during long, cold, still periods, is the strongest",
+     "x": "Paragraph A says clear blue or black ice formed in long, cold, still periods is the strongest."
+    },
+    {
+     "q": "Lake associations have been given government funding to measure ice thickness.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Lake associations measuring ice are described in D, but nothing is said about who pays for this work."
+    },
+    {
+     "q": "Some remote communities use specialized technology to check whether ice can support traffic.",
+     "a": "D",
+     "t": "inference",
+     "ev": "crews now use ground-penetrating radar to map ice thickness",
+     "x": "Paragraph D says some northern communities with winter roads use ground-penetrating radar to map ice."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Pay Farmers to Protect Nature – It’s a Bargain",
+   "byline": "Opinion | by Lindiwe Mabaso, agricultural economist",
+   "text": "Drive across the Prairies and you will see a landscape shaped by thousands of private decisions. Whether a slough is drained or left full of water, whether a row of old trees is kept as a windbreak or bulldozed, whether a field of native grass is ploughed – each of these choices is made by a farmer weighing costs and benefits. The trouble is that many of the benefits of keeping nature on the land do not show up on the farmer’s balance sheet. They show up somewhere else.\n\nConsider a small wetland. To the farmer, it is a wet patch that the seeder must steer around every spring, and draining it could add a few acres of cropland. To everyone else, that same wetland stores floodwater, filters fertilizer out of runoff before it reaches the river, provides habitat for ducks and pollinators, and holds carbon in its soil. When it is drained, the town downstream gets more flooding, the lake gets more algae, and taxpayers eventually pay for the consequences. The farmer, meanwhile, has done exactly what the market rewards.\n\nThis is why I believe governments should pay farmers directly for the environmental services their land provides. Not as charity, and not as a subsidy for production, but as a fair price for something the public values and currently receives for free.\n\nThe idea is not new or untested. In one Manitoba watershed, a program that paid landowners an average of about forty dollars per acre per year to keep wetlands and grasslands intact was found to reduce peak flows downstream during spring runoff. The cost of the payments was a fraction of what the municipality would have spent on flood repairs and new drainage infrastructure. Similar programs exist in several European countries, and farmers there consider them a normal part of business.\n\nCritics raise three main objections. The first is that we should not pay people to do the right thing. But we already pay farmers through crop insurance and other programs that, in effect, reward cultivating every possible acre. Paying for conservation simply balances that incentive. The second objection is about fairness to taxpayers. I would argue that taxpayers are already paying, only later and more expensively, through disaster relief and water treatment. The third is that it is hard to measure results. This one has some merit. Programs must be designed carefully, ideally paying for measurable outcomes, such as acres of wetland maintained or water quality downstream, rather than for promises.\n\nDesign matters in other ways too. Contracts should be long enough, perhaps ten years, for farmers to plan around them, and payments should be high enough to compete with the income from cropping the land. Programs should also avoid paying for changes that would have happened anyway, or the money will be wasted.\n\nFarmers are often portrayed as either the villains or the victims of environmental policy. In reality, they are business people responding to the signals we send them. If we want more wetlands, more grassland and cleaner rivers, the simplest approach is to make protecting them a sound business decision. At forty dollars an acre, it is one of the best bargains in public policy.",
+   "qs": [
+    {
+     "q": "What is the main problem the writer identifies?",
+     "o": [
+      "Farmers deliberately ignore the environmental damage they cause.",
+      "The market does not reward farmers for keeping natural features.",
+      "Governments spend too little on crop insurance programs.",
+      "Wetlands are too difficult to farm around in spring."
+     ],
+     "a": 1,
+     "t": "main",
+     "ev": "many of the benefits of keeping nature on the land do not show up on the farmer’s balance sheet",
+     "x": "The public benefits of nature do not appear in farmers’ income, so draining is rewarded. She says farmers respond to signals, not that they deliberately ignore damage."
+    },
+    {
+     "q": "Why does the writer describe the wetland from two points of view?",
+     "o": [
+      "To show that farmers and the public experience its value differently",
+      "To argue that farmers should not be allowed to drain wetlands",
+      "To explain why wetlands are disappearing faster across the Prairies than elsewhere",
+      "To suggest that towns should buy wetlands from farmers"
+     ],
+     "a": 0,
+     "t": "purpose",
+     "ev": "To the farmer, it is a wet patch",
+     "x": "She contrasts a nuisance for the farmer with major benefits for everyone else. She proposes payments, not bans or purchases."
+    },
+    {
+     "q": "How does the writer respond to the objection about measuring results?",
+     "o": [
+      "She dismisses it as a minor concern.",
+      "She says it applies only to European programs.",
+      "She argues that results are easy to measure.",
+      "She admits it is partly valid and suggests a solution."
+     ],
+     "a": 3,
+     "t": "viewpoint",
+     "ev": "This one has some merit",
+     "x": "She concedes the point has merit and recommends paying for measurable outcomes. She treats it more seriously than the other two objections."
+    },
+    {
+     "q": "What does the writer say about existing programs like crop insurance?",
+     "o": [
+      "They should be replaced by conservation payments.",
+      "They encourage farming as much land as possible.",
+      "They cost taxpayers more than disaster relief.",
+      "They have reduced flooding in some watersheds."
+     ],
+     "a": 1,
+     "t": "paraphrase",
+     "ev": "in effect, reward cultivating every possible acre",
+     "x": "She says these programs reward cultivating every acre, so conservation payments would balance them. She never calls for replacing them."
+    },
+    {
+     "q": "Which of the following would the writer most likely oppose?",
+     "o": [
+      "A ten-year contract with a set yearly payment",
+      "Payments based on water quality downstream",
+      "Paying a farmer to keep a wetland he never planned to drain",
+      "Payments matching what the land could earn from growing crops"
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "Programs should also avoid paying for changes that would have happened anyway",
+     "x": "Paying for something that would have happened anyway wastes money, in her view. She supports ten-year contracts and competitive payments."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I farm a section of land near the Saskatchewan border, and I appreciate an economist who actually understands that we are {1}. On our place, we kept two sloughs and a shelterbelt that my father planted, even though draining the sloughs would have given us eight more acres of canola. Nobody has ever paid us a cent for that.\n\nThat said, I’m nervous about the writer’s idea of paying for {2}. Water quality downstream depends on my neighbours, the weather and a dozen other things I can’t control. In a drought year, my wetlands might dry up through no fault of mine. I’d rather be paid for what I can actually manage.\n\nI also worry that programs designed to avoid paying for {3} could end up {4}, while the farmer who drained everything gets paid to put it back. That would be backwards.\n\nStill, I agree with her that {5}. Give us a fair price and a ten-year deal, and you’ll see a lot more ducks out here.",
+    "blanks": [
+     {
+      "o": [
+       "villains who carelessly damage the natural world",
+       "victims of the weather",
+       "business people responding to incentives",
+       "experts in water quality"
+      ],
+      "a": 2,
+      "t": "viewpoint",
+      "ev": "they are business people responding to the signals we send them",
+      "x": "He welcomes her view that farmers are business people reacting to incentives. She rejects the villain-or-victim portrayal, so those options misread her."
+     },
+     {
+      "o": [
+       "long-term contracts",
+       "measurable outcomes",
+       "new drainage systems",
+       "crop insurance"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "ideally paying for measurable outcomes, such as acres of wetland maintained or water quality downstream",
+      "x": "His worry is about payments tied to results like downstream water quality, which he cannot control. He supports ten-year contracts at the end."
+     },
+     {
+      "o": [
+       "changes that would have happened anyway",
+       "wetlands on rented land",
+       "programs in European countries",
+       "flood repairs in towns"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "Programs should also avoid paying for changes that would have happened anyway",
+      "x": "He repeats the article’s rule about not paying for changes that would have happened anyway. The other phrases do not appear as a program rule."
+     },
+     {
+      "o": [
+       "costing taxpayers less",
+       "paying farmers too much money for too little",
+       "ignoring farmers who already conserved",
+       "measuring results too strictly"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "Nobody has ever paid us a cent for that",
+      "x": "He kept his wetlands voluntarily and fears such rules would exclude farmers like him while rewarding those who drained land. Paying too much is not his concern."
+     },
+     {
+      "o": [
+       "farmers should pay for flood repairs",
+       "protecting nature must make business sense",
+       "crop insurance should be cancelled",
+       "wetlands are more valuable than cropland"
+      ],
+      "a": 1,
+      "t": "viewpoint",
+      "ev": "the simplest approach is to make protecting them a sound business decision",
+      "x": "His “fair price” remark echoes her point that conservation must be a sound business decision. Cancelling crop insurance is not proposed by either writer."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Last month, the city replaced the old streetlight outside your home with a new, much brighter LED light. The light now shines directly into your bedroom, and several neighbours have also complained. Write an email to the city’s public works department.",
+   "bullets": [
+    "Describe the problem with the new streetlight",
+    "Explain how it is affecting you and your neighbourhood",
+    "Suggest what the city could do to solve it"
+   ],
+   "model": "Dear Public Works Department,\n\nI am writing about the new LED streetlight installed outside 47 Hawthorn Avenue in early October. While I understand the city is replacing older lights to save energy, this particular fixture is causing real problems for our street.\n\nThe new light is far brighter than the old one and has a cold, bluish colour. Because it is mounted at an angle, it shines straight into my second-floor bedroom. Even with curtains closed, the room is bright enough to read in at midnight, and I have been sleeping badly ever since.\n\nI am not the only one affected. Two neighbours with young children say their kids are waking up during the night, and an elderly resident across the street told me the glare makes it difficult for her to see when she is driving home. I have also noticed far more insects gathering around the light, which I have read can harm local wildlife.\n\nCould the city install a shield to direct the light downward, or replace the bulb with a warmer, lower-intensity model like those used on nearby streets? I would be happy to show a staff member the problem in the evening.\n\nSincerely,\nWinifred Castellanos"
+  },
+  "t2": {
+   "intro": "Your provincial park is planning to improve its campground next year. It has enough money for only one of the following projects.",
+   "question": "Which option do you prefer?",
+   "a": "Add electrical hookups to 60 existing campsites, so that campers with trailers and RVs can run lights, fridges and heaters. Fees for these sites would rise by $15 a night.",
+   "b": "Build 40 new walk-in tent sites in a quiet wooded area, each a short walk from the parking lot, with no vehicles or generators allowed. Fees would stay the same.",
+   "model": "I would choose Option B, building forty new walk-in tent sites, because I believe it better reflects what a provincial park should offer.\n\nFirst of all, many families, students and newcomers to Canada cannot afford a trailer or an RV, and tent camping is the most affordable way for them to experience nature. Every summer, the park’s tent sites are booked within minutes, which shows how strong the demand is. Adding forty more would give many more people a chance to camp, and the fees would stay the same.\n\nSecondly, a quiet area without vehicles or generators would protect the very things that people come to the park for: the sound of birds, dark night skies and a sense of being away from the city. Electrical hookups, by contrast, tend to encourage campers to bring televisions and air conditioners, which can make a campground feel like a parking lot.\n\nI understand that older campers or people with health conditions might appreciate electricity, and perhaps a small number of sites could be upgraded in the future. However, if the park can fund only one project, I think more tent sites would serve a larger and more diverse group of visitors."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend has found a house they love at an attractive price, but it is on a river floodplain and the neighbourhood flooded six years ago. Give your friend some advice about what to consider before buying it.",
+   "model": "I can see why you love it, and the price is really tempting, but I’d be very careful before signing anything. First, I’d find out exactly what happened six years ago. Talk to the neighbours, because they’ll tell you things a seller won’t – how deep the water got, how long people were out of their homes and whether it has happened more than once. You can also check the city or conservation authority’s flood maps to see whether the house is in a high-risk zone. Second, and this is really important, call an insurance broker before you make an offer. In some flood-prone areas, coverage for overland flooding is either extremely expensive or not available at all, and some banks won’t approve a mortgage without it. That alone could change whether the house is affordable. Third, get a thorough home inspection and ask specifically about the basement, the foundation and any signs of mould. Ask the seller what was repaired after the flood and whether they have receipts. Finally, think about the future, not just today. With heavier storms becoming more common, a house that flooded once may well flood again. If you still want it after all of that, at least you’ll be going in with your eyes open."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you repaired something instead of throwing it away. What did you fix, and how did you feel about it?",
+   "model": "Last winter, the zipper on my favourite winter coat broke completely. It was a really warm parka that I’d had for about seven years, and my first thought was to just buy a new one. But when I looked at prices, a similar coat was over four hundred dollars, which felt ridiculous when the rest of it was in perfect condition. A friend told me about a small tailor’s shop near my office, so I took it there. The owner, an older man, looked at it for about two seconds and said he could replace the zipper in three days for forty dollars. When I picked it up, it looked brand new, and he’d even fixed a little tear in the pocket that I hadn’t noticed. I felt really proud, honestly. I saved a lot of money, kept a good coat out of the landfill, and now I go to that shop for all my repairs."
+  },
+  "t3": {
+   "scene": {
+    "bg": "winter",
+    "alt": "A snowy park on a bright winter afternoon. On the left, a man in a red jacket is pulling a small child on a sled-like box with a rope toward a hill, and a snowman with a hat stands nearby. In the centre, there is a frozen pond where a girl in a purple jacket is skating with her arms out and a boy in a blue jacket appears to be falling. Beside the pond, a sign says THIN ICE – KEEP OFF EAST SIDE. On the right, an older woman in a green coat sits on a bench holding a cup, and a brown dog is running in the snow. Snow-covered pine trees stand in the background.",
+    "items": [
+     [
+      "sun",
+      570,
+      55
+     ],
+     [
+      "cloud",
+      150,
+      60,
+      1
+     ],
+     [
+      "pine",
+      40,
+      300,
+      1.2
+     ],
+     [
+      "pine",
+      600,
+      290,
+      1
+     ],
+     [
+      "pine",
+      520,
+      280,
+      0.8
+     ],
+     [
+      "snowman",
+      70,
+      360
+     ],
+     [
+      "person",
+      130,
+      360,
+      {
+       "shirt": "#c0392b",
+       "pose": "walk",
+       "hat": "#2c3e50"
+      }
+     ],
+     [
+      "box",
+      165,
+      365,
+      40,
+      18,
+      "",
+      "#8e5a2b"
+     ],
+     [
+      "person",
+      180,
+      358,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "sit",
+       "s": 0.8
+      }
+     ],
+     [
+      "pond",
+      330,
+      345,
+      140
+     ],
+     [
+      "person",
+      300,
+      340,
+      {
+       "kid": true,
+       "shirt": "#8e44ad",
+       "pose": "both",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "person",
+      360,
+      342,
+      {
+       "kid": true,
+       "shirt": "#2980b9",
+       "pose": "run"
+      }
+     ],
+     [
+      "sign",
+      450,
+      360,
+      "THIN ICE – KEEP OFF EAST SIDE",
+      "#ffffff"
+     ],
+     [
+      "bench",
+      520,
+      365,
+      80
+     ],
+     [
+      "person",
+      545,
+      362,
+      {
+       "shirt": "#27ae60",
+       "pose": "sit",
+       "hair": "#bdc3c7",
+       "hold": "cup"
+      }
+     ],
+     [
+      "dog",
+      600,
+      380,
+      "#a0522d"
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a snowy park on a sunny winter afternoon. There are snow-covered pine trees in the background, and the sky is mostly clear. On the left, there’s a snowman wearing a hat, and next to it, a man in a red jacket is pulling a little child in a yellow coat on a small wooden sled with a rope. They seem to be heading toward the hill. In the middle, there’s a frozen pond. A girl in a purple jacket is skating with her arms stretched out for balance, and just beside her, a boy in a blue jacket looks like he’s slipping or about to fall. Next to the pond, there’s a sign that says the ice is thin on the east side. On the right, an older woman with grey hair is sitting on a bench holding a hot drink, and a brown dog is running through the snow."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the boy in the blue jacket is probably going to fall on the ice in the next few seconds. He looks off balance, and he’s moving pretty fast. Hopefully he’ll just land on his backside and laugh about it. The girl skating next to him will probably stop to help him up. I’m a bit worried about the sign, though. It says the east side of the pond is thin, and the kids are skating quite close to the edge, so the older woman on the bench might call out and warn them to stay on the safe side. Meanwhile, the brown dog seems very excited, and I wouldn’t be surprised if it runs straight onto the pond, slides around and makes everyone laugh. As for the man with the sled, he’ll probably reach the hill and take his child down a few times before they all head home for hot chocolate."
+  },
+  "t5": {
+   "intro": "You and another teacher are choosing a winter field trip for your Grade 5 class. Choose the option that you prefer. In the next section, you will need to persuade your co-teacher that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Maple sugar bush visit",
+     "details": [
+      "$9 per student",
+      "45-minute bus ride",
+      "Tour of sap collection and boiling",
+      "Pancake lunch included",
+      "Mostly outdoors; snow pants needed"
+     ]
+    },
+    {
+     "title": "Wetland nature reserve",
+     "details": [
+      "$6 per student",
+      "30-minute bus ride",
+      "Guided snowshoe walk to a beaver lodge",
+      "Bring own lunch; heated hut",
+      "Snowshoes provided"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Science centre",
+    "details": [
+     "$14 per student",
+     "20-minute bus ride",
+     "Indoor hands-on exhibits",
+     "Planetarium show included",
+     "Cafeteria available"
+    ]
+   },
+   "otherWho": "Your co-teacher prefers",
+   "persuade": "Your co-teacher prefers the science centre. Persuade your co-teacher that your choice is better.",
+   "model": "I know the science centre is easy and warm, but I really think the wetland reserve would be a better trip for this class. First, the cost. At six dollars a student, it’s less than half the price of the science centre, and you know a few families have told us money is tight this year. Second, think about what the kids will remember. They go to the science centre with their parents all the time, but most of them have never been on snowshoes or seen a real beaver lodge. That’s the kind of experience that sticks. And it fits our unit on habitats perfectly, so it’s not just a fun day out. I know you’re worried about the cold, but there’s a heated hut for lunch, and the snowshoes are provided, so we just need to remind parents about warm clothing. Honestly, I think the kids will talk about it all year."
+  },
+  "t6": {
+   "situation": "You and your partner own a canoe together. Last summer, your partner’s friend Russell borrowed it and returned it with a cracked seat and a large scratch along the hull, and never offered to pay for the repair. Now your partner has told Russell that he can borrow it again for a week-long trip next month, without asking you.",
+   "options": [
+    "Talk to Russell and explain your conditions for lending him the canoe.",
+    "Talk to your partner and explain why you are unhappy about the decision."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey, do you have a minute? I want to talk about the canoe, and I want to say first that I’m not trying to start a fight. I know Russell’s a good friend of yours, and I like him too. But I was really surprised that you told him he could borrow it again without checking with me first. It’s our canoe, and last time it came back with a cracked seat and that big scratch. We paid almost two hundred dollars to fix it, and he never even offered to help. I’m not saying he can’t borrow it, but I think we should agree on some conditions together. Maybe he could pay for the repair from last time, or leave a deposit this time. Could we talk to him about it together this weekend? I just want us to make these decisions as a team."
+  },
+  "t7": {
+   "prompt": "Some educators believe that elementary schools should hold at least one full day of classes outdoors every week, in all seasons. Others think this would take too much time away from regular learning. What is your opinion? Explain your reasons.",
+   "model": "In my opinion, holding classes outdoors one day a week is a great idea, especially for younger children, and I have two main reasons. First, I think it actually supports learning rather than taking time away from it. Many subjects can be taught outside just as well as in a classroom, and sometimes better. Children can measure trees for math, write poems about what they see for language arts, and study insects or weather for science. When I was in Grade 4, we spent a week at an outdoor education centre, and I still remember more from that week than from most of the year. Second, children today spend a huge amount of time indoors and on screens. Regular time outside improves their physical health, helps them concentrate and reduces stress. It also teaches them to care about nature, which is something our society badly needs. Of course, there are challenges. Some families can’t afford proper winter clothing, and teachers would need training and safety plans for bad weather. But schools could build up a supply of donated boots and snow pants, and on dangerous days, the class could simply stay inside. Overall, I believe the benefits clearly outweigh the difficulties."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "A town street on a sunny day. In the middle is a two-storey brick library building with a sign reading LIBRARY, and sitting on its flat roof is a gigantic brown owl-like bird, almost as tall as the building itself, looking down at the street. A small crowd watches: a woman in a yellow shirt is pointing up at the bird, a man in a grey suit is taking a photo, and a child holding a red balloon stands beside them. A blue car is parked on the street, and there is a tree and a streetlamp on the right.",
+    "items": [
+     [
+      "sun",
+      580,
+      55
+     ],
+     [
+      "cloud",
+      100,
+      60,
+      1
+     ],
+     [
+      "building",
+      220,
+      330,
+      200,
+      150,
+      "#a0522d",
+      "LIBRARY"
+     ],
+     [
+      "big",
+      "bird",
+      320,
+      180,
+      5
+     ],
+     [
+      "tree",
+      560,
+      330,
+      1
+     ],
+     [
+      "streetlamp",
+      480,
+      340
+     ],
+     [
+      "car",
+      430,
+      370,
+      "#2980b9"
+     ],
+     [
+      "person",
+      120,
+      365,
+      {
+       "shirt": "#f1c40f",
+       "pose": "point",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "person",
+      170,
+      368,
+      {
+       "shirt": "#7f8c8d",
+       "hold": "camera"
+      }
+     ],
+     [
+      "person",
+      210,
+      372,
+      {
+       "kid": true,
+       "shirt": "#16a085",
+       "hold": "balloon",
+       "holdColor": "#e74c3c"
+      }
+     ]
+    ]
+   },
+   "prompt": "Your town has placed a giant bird sculpture on the roof of the public library for one month as an art project, and council will vote on whether to keep it permanently. Your friend, who is a councillor, calls you. Describe what you see and explain whether you think the town should keep it. Your friend cannot see the picture.",
+   "model": "Hi! I’m standing right across from the library now, and it’s quite a sight. Picture the old brick library, and sitting on the flat roof is a huge brown bird – it looks like an owl – that’s almost as tall as the building itself. It’s leaning forward a little, as if it’s looking down at everyone on the street. There’s a small crowd here: a woman is pointing up at it, a man is taking photos, and a little kid with a red balloon looks absolutely amazed. Personally, I think the town should keep it. The owl is a symbol of wisdom, so it suits a library perfectly, and it’s already bringing people downtown. My only concerns would be safety and maintenance, especially with heavy snow on the roof in winter, so I’d ask staff to get an engineer to check it first."
+  }
+ }
+}

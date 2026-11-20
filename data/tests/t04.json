@@ -1,0 +1,1835 @@
+{
+ "id": "t04",
+ "title": "Test 4",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two friends are dealing with a problem with their camping trip.",
+    "sp": {
+     "A": {
+      "name": "Diego",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Fatima",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Fatima, I just checked the confirmation email for the long weekend. We have a problem."
+       ],
+       [
+        "B",
+        "Please don’t tell me the reservation didn’t go through. It took me forty minutes on the booking site."
+       ],
+       [
+        "A",
+        "Oh, it went through. But for the wrong weekend. The site is booked for the first weekend of August, not the long weekend in July."
+       ],
+       [
+        "B",
+        "What? I was sure I picked July. The calendar on that site is terrible on a phone."
+       ],
+       [
+        "A",
+        "It happens. The bigger issue is that everyone’s already arranged time off for July. Kenji switched shifts at the hospital, and the Murrays have their kids with them that weekend."
+       ],
+       [
+        "B",
+        "Okay, so can we just change the date? There must be a way to modify a booking."
+       ],
+       [
+        "A",
+        "There is, but changing it costs a ten-dollar fee, and the July long weekend is completely sold out at that park. I checked every site. Even the walk-in tent sites are gone."
+       ],
+       [
+        "B",
+        "Of course they are. People book those months ahead. What about a refund?"
+       ],
+       [
+        "A",
+        "We’d get the money back minus the fee, so that part is fine. The question is where we go instead."
+       ],
+       [
+        "B",
+        "Okay. Let’s not panic yet. Give me tonight to look at a few other places, and you do the same. We can compare notes tomorrow morning before anyone else hears about this."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What mistake was made?",
+        "o": [
+         "The campsite was booked at a different provincial park.",
+         "The booking was never confirmed.",
+         "The reservation was made for the wrong dates.",
+         "Too few sites were reserved."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "The site is booked for the first weekend of August, not the long weekend in July",
+        "x": "The site is booked for the first weekend of August instead of the July long weekend. The park itself is the right one, and the booking was confirmed."
+       },
+       {
+        "q": "Why can’t the group simply go in August?",
+        "o": [
+         "Several people have already made plans for the July weekend.",
+         "The park closes its campgrounds for most of August each year.",
+         "August is much more expensive.",
+         "Kenji is working in August."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "everyone’s already arranged time off for July",
+        "x": "Everyone has arranged time off for July (Kenji switched shifts, the Murrays have their kids)."
+       },
+       {
+        "q": "What does Diego say about changing the reservation?",
+        "o": [
+         "It must be done by phone.",
+         "It is free if they make the change before a deadline.",
+         "Only walk-in sites can be changed.",
+         "It is impossible because no sites are free in July."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "the July long weekend is completely sold out at that park",
+        "x": "Changing is technically possible but July is sold out, so it cannot work."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "What about private campgrounds? They’re not on the provincial booking site."
+       ],
+       [
+        "A",
+        "I found one about an hour north of the park, Pine Hollow. They have space, but it’s mostly RVs and it’s right beside the highway. The reviews say it’s noisy until midnight."
+       ],
+       [
+        "B",
+        "That’s not exactly what we had in mind. Kenji wanted to fish, and the kids wanted a beach."
+       ],
+       [
+        "A",
+        "I know. There’s another option: crown land. It’s free, no reservations, and there’s a spot on Moose Lake that my uncle has used for years. Beautiful beach, great fishing."
+       ],
+       [
+        "B",
+        "Free sounds great. What’s the catch?"
+       ],
+       [
+        "A",
+        "No facilities. No toilets, no drinking water, no fire pits. You have to bring everything in and take everything out. And the last eight kilometres are on a gravel logging road."
+       ],
+       [
+        "B",
+        "The Murrays drive a small car. Is the road even passable?"
+       ],
+       [
+        "A",
+        "My uncle says it’s fine when it’s dry, but after heavy rain it gets washed out. They could leave their car at the turnoff and ride in with us; we have the truck."
+       ],
+       [
+        "B",
+        "Hmm. With the kids, no toilets is a big deal, though. What about a portable camping toilet? They’re not expensive."
+       ],
+       [
+        "A",
+        "That works. And we can bring water jugs. I’m honestly leaning towards Moose Lake. My uncle says the sunsets over the lake are worth the drive on their own."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is Pine Hollow not a good choice?",
+        "o": [
+         "It is fully booked.",
+         "It would be loud and does not meet the group’s wishes.",
+         "It costs too much for a large group with several children.",
+         "It does not allow tents."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "The reviews say it’s noisy until midnight",
+        "x": "It is noisy and lacks fishing and a beach – not what the group wanted."
+       },
+       {
+        "q": "What is a disadvantage of Moose Lake?",
+        "o": [
+         "It has no services for campers.",
+         "Fishing is not allowed there.",
+         "It requires a reservation months ahead.",
+         "It is very crowded."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "No facilities. No toilets, no drinking water, no fire pits.",
+        "x": "Moose Lake has no toilets, drinking water or fire pits – no services at all. It needs no reservation, and the fishing there is described as great."
+       },
+       {
+        "q": "How do they plan to deal with the road to Moose Lake?",
+        "o": [
+         "The Murrays will rent a truck.",
+         "They will wait until the gravel road has been repaired.",
+         "The Murrays will park and travel in Diego’s truck.",
+         "They will walk the last eight kilometres."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "They could leave their car at the turnoff and ride in with us",
+        "x": "The Murrays will leave their small car at the turnoff and ride in with Diego. Nobody suggests renting a truck or waiting for road repairs."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Okay, Moose Lake it is, then. I’ll cancel the park reservation tonight."
+       ],
+       [
+        "A",
+        "Wait, before you cancel, check the cancellation policy. Some parks give a full refund if you cancel more than two weeks ahead."
+       ],
+       [
+        "B",
+        "Good thinking. We’re about five weeks out, so we should be fine. And I’ll message the group. Should I mention the toilets?"
+       ],
+       [
+        "A",
+        "Definitely. Better they know now than find out when they get there. Also, crown land has a fire ban sometimes in July, so tell everyone to bring a camp stove, just in case."
+       ],
+       [
+        "B",
+        "Got it. And this time, you’re in charge of anything involving a booking website."
+       ],
+       [
+        "A",
+        "Fair enough. I’ll also check the fire ban map the night before we leave. And someone should tell my uncle we’re using his spot, so he doesn’t turn up with his own group that weekend."
+       ],
+       [
+        "B",
+        "Ha, good point. Imagine driving eight kilometres of gravel road only to find your uncle already set up on the beach. Text him tonight, and I’ll send the group message once he replies."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Diego tell Fatima to check the cancellation policy?",
+        "o": [
+         "They might need to keep the August reservation.",
+         "They may be able to get all their money back.",
+         "They may have to cancel by phone.",
+         "The policy may have changed recently."
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "Some parks give a full refund if you cancel more than two weeks ahead",
+        "x": "Some parks give a full refund if you cancel more than two weeks ahead, and they are five weeks out. Keeping the August booking is never considered."
+       },
+       {
+        "q": "Why should everyone bring a camp stove?",
+        "o": [
+         "Cooking on a fire is too slow.",
+         "There is no wood at Moose Lake.",
+         "The Murrays asked for one.",
+         "Campfires might be prohibited."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "crown land has a fire ban sometimes in July",
+        "x": "Crown land sometimes has a fire ban in July, so a stove is a backup for cooking. Firewood and cooking speed are never mentioned."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A tenant is speaking with the building superintendent.",
+    "sp": {
+     "A": {
+      "name": "Tenant",
+      "g": "f",
+      "acc": "en-IN",
+      "rate": 1
+     },
+     "B": {
+      "name": "Superintendent",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Hi, Mr. Kowalski? I’m in 6D. I left a message yesterday about the ceiling in my bathroom."
+       ],
+       [
+        "B",
+        "Right, Ms. Sharma. Sorry, I was dealing with a boiler problem all day. What’s going on?"
+       ],
+       [
+        "A",
+        "There’s a brown stain on the ceiling above the bathtub, and it’s been getting bigger. This morning, there were drops of water falling into the tub."
+       ],
+       [
+        "B",
+        "That sounds like it’s coming from 7D, right above you. Probably their tub or toilet seal. Is the ceiling soft at all, like it’s sagging?"
+       ],
+       [
+        "A",
+        "A little, in the middle. I didn’t want to touch it."
+       ],
+       [
+        "B",
+        "Good, don’t. If it’s sagging, there may be water collecting above the drywall. I’ll go up to 7D right now and shut off their water if I have to. The tenant there works nights, so she might be sleeping, but this can’t wait."
+       ],
+       [
+        "A",
+        "Should I do anything in the meantime?"
+       ],
+       [
+        "B",
+        "Yes, put a bucket in the tub and move anything you don’t want to get wet, like towels on the shelf. And please don’t use the bathroom light today. Water and electricity are not a good mix."
+       ],
+       [
+        "A",
+        "Oh, I hadn’t thought of that. How long will the repair take?"
+       ],
+       [
+        "B",
+        "Stopping the leak, hopefully today. But the ceiling will need to dry out completely before we can patch and paint it, and that usually takes about a week. I’ll bring a fan up to help it dry."
+       ],
+       [
+        "A",
+        "A week with a hole in my ceiling? I have family visiting on Saturday."
+       ],
+       [
+        "B",
+        "I understand. I can put up a plastic sheet so it looks tidier and nothing falls. And if anything in your unit was damaged, take photos and contact your tenant insurance. The building’s insurance only covers the structure, not your belongings."
+       ],
+       [
+        "A",
+        "That’s a relief. I’ll take photos of the towels and the bath mat right now, before I move anything. Thanks for coming up so quickly."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why didn’t the superintendent respond sooner?",
+        "o": [
+         "He did not receive her message.",
+         "He was waiting for a plumber.",
+         "He was busy with another urgent repair.",
+         "He was away for the weekend."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "I was dealing with a boiler problem all day",
+        "x": "He was dealing with a boiler problem all day, another urgent repair. He did get her message, since he already knows her name and the problem."
+       },
+       {
+        "q": "Why will the superintendent go to 7D immediately?",
+        "o": [
+         "The problem is too serious to delay.",
+         "The tenant in 7D asked him to.",
+         "He needs to check the boiler there.",
+         "The tenant in 7D is about to leave for work."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "she might be sleeping, but this can’t wait",
+        "x": "Even though she may be sleeping, it “can’t wait” – too serious to delay."
+       },
+       {
+        "q": "Why does he tell Ms. Sharma not to use the bathroom light?",
+        "o": [
+         "The bulb is broken.",
+         "He needs to turn off the power to the building.",
+         "It will make the ceiling dry more slowly.",
+         "There is a risk of electrical danger."
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "Water and electricity are not a good mix",
+        "x": "He says water and electricity are not a good mix, so using the light could be dangerous. The building’s power is not being turned off."
+       },
+       {
+        "q": "Why will the ceiling repair take about a week?",
+        "o": [
+         "The plumber is not available until the next week.",
+         "The ceiling must be completely dry first.",
+         "The insurance company must approve it.",
+         "Paint is out of stock."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "the ceiling will need to dry out completely before we can patch and paint it",
+        "x": "The ceiling must dry out completely before it can be patched and painted, which takes about a week. No plumber or insurance approval is mentioned."
+       },
+       {
+        "q": "What does the superintendent say about insurance?",
+        "o": [
+         "Ms. Sharma’s own insurance should cover her possessions.",
+         "The building will pay for all damage.",
+         "The tenant in 7D will have to pay for every part of the repair.",
+         "Photos are not necessary."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "The building’s insurance only covers the structure, not your belongings",
+        "x": "The building’s insurance covers only the structure, so her belongings fall under her own tenant insurance. He never says the tenant in 7D must pay."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A parent is calling a child care centre.",
+    "sp": {
+     "A": {
+      "name": "Director",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Parent",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hello, my name is Alex Moreau. I’m calling about registering my daughter. She’s eighteen months old, and I’m going back to work in January."
+       ],
+       [
+        "A",
+        "Thanks for calling, Mr. Moreau. I’m the director, Wendy. I should tell you right away that our toddler room, for children eighteen months to two and a half, is full until next September. But we do keep a waitlist, and families often move or change their plans, so spots do open up during the year."
+       ],
+       [
+        "B",
+        "How long is the waitlist?"
+       ],
+       [
+        "A",
+        "Right now, there are fourteen families ahead of you for the toddler room. Priority goes first to siblings of children already enrolled, and then to families who live within the neighbourhood boundary. Do you live nearby?"
+       ],
+       [
+        "B",
+        "About two blocks away, on Laurier."
+       ],
+       [
+        "A",
+        "That helps. You’d be in the second priority group. Honestly, I can’t promise January, but I’d recommend joining the waitlist here and at two or three other centres."
+       ],
+       [
+        "B",
+        "What does it cost, if we do get a spot?"
+       ],
+       [
+        "A",
+        "Under the provincial program, full-time care is twenty-two dollars a day, so roughly four hundred and seventy a month. That includes lunch and two snacks. We ask families to provide diapers, wipes and a change of clothes."
+       ],
+       [
+        "B",
+        "That’s much less than I expected. What are your hours?"
+       ],
+       [
+        "A",
+        "We’re open from seven thirty to five thirty. There’s a late pickup fee of one dollar per minute after five thirty, because our staff have their own families to get home to."
+       ],
+       [
+        "B",
+        "That’s fair. How do I join the waitlist?"
+       ],
+       [
+        "A",
+        "Through the city’s online child care registry. You create one profile and can select up to five centres. There’s no fee. Once you’re on, please log in every six months to confirm you still need care, or your name is removed automatically."
+       ],
+       [
+        "B",
+        "Good to know. Could I visit the centre?"
+       ],
+       [
+        "A",
+        "Of course. We do tours on Wednesday afternoons at four, after nap time. Just send me an email to book."
+       ],
+       [
+        "B",
+        "Wonderful. Is there anything I should prepare before the visit?"
+       ],
+       [
+        "A",
+        "Just bring your questions. If your daughter has any allergies or medical needs, mention them on the tour, because that affects which staff would be best for her. And feel free to bring her along; children usually tell us more than any form."
+       ],
+       [
+        "B",
+        "I’ll do that. Thanks so much, Wendy."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does the director say about the toddler room?",
+        "o": [
+         "It will have a space available as soon as January.",
+         "It only accepts toddlers who are already two and a half years old.",
+         "It has no room now, though places can free up during the year.",
+         "It will close permanently at the end of next September."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "spots do open up during the year",
+        "x": "The toddler room is full until September, but families move or change plans, so spots open up during the year. She says she cannot promise January."
+       },
+       {
+        "q": "Which families get first priority?",
+        "o": [
+         "Families living closest to the centre",
+         "Families with brothers or sisters already at the centre",
+         "Families who joined the waitlist earliest",
+         "Families whose parents are going back to work in January"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Priority goes first to siblings of children already enrolled",
+        "x": "Siblings of children already enrolled come first; families inside the neighbourhood boundary are second, which is Mr. Moreau’s group. Returning to work gives no priority."
+       },
+       {
+        "q": "What does the director advise Mr. Moreau to do?",
+        "o": [
+         "Wait until next September to apply",
+         "Find a babysitter for January",
+         "Move closer to the centre",
+         "Register at several child care centres"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "I’d recommend joining the waitlist here and at two or three other centres",
+        "x": "The director recommends joining the waitlist here and at two or three other centres. She does not tell him to wait until September to apply."
+       },
+       {
+        "q": "What must parents supply?",
+        "o": [
+         "Lunch and snacks",
+         "A sleeping mat",
+         "Diapers and spare clothing",
+         "Toys from home"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "We ask families to provide diapers, wipes and a change of clothes",
+        "x": "Families provide diapers, wipes and a change of clothes. Lunch and two snacks are included in the daily fee, so parents do not supply them."
+       },
+       {
+        "q": "Why does the centre charge a late pickup fee?",
+        "o": [
+         "Out of consideration for staff",
+         "To cover the cost of extra meals",
+         "Because of provincial rules",
+         "To discourage parents from arriving early"
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "because our staff have their own families to get home to",
+        "x": "The fee exists because staff have their own families to get home to, so it shows consideration for them. No provincial rule is mentioned."
+       },
+       {
+        "q": "What will happen if Mr. Moreau does not log in to the registry regularly?",
+        "o": [
+         "He will have to pay a fee.",
+         "He will be contacted by phone.",
+         "He will lose his place in the priority group.",
+         "His name will be taken off the waitlist."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "or your name is removed automatically",
+        "x": "His name is removed automatically if he does not confirm every six months."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Store manager",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "A grocery chain in the region says it will stop throwing away edible food by the end of next year. Fresh Foods Market, which operates thirty-one stores, announced a plan today to cut food waste in half, beginning with a pilot at its Lakeshore location."
+       ],
+       [
+        "A",
+        "Under the pilot, produce that is bruised or close to its best-before date will be sold in discount bins at up to seventy percent off. Bread and baked goods left at the end of the day will be donated to local shelters, and food that can’t be eaten will be sent to a farm, where it will be used as animal feed or compost."
+       ],
+       [
+        "A",
+        "The store’s manager, Victor Tam, says the program has already changed shopping habits."
+       ],
+       [
+        "B",
+        "We expected students and seniors to use the discount bins, and they do. What surprised us is how many families come in specifically at four o’clock, when we restock them. Some of our regulars plan their dinners around what’s in the bin that day."
+       ],
+       [
+        "A",
+        "The company admits that the program has a financial motive. Disposing of food costs grocers money, and some provinces are considering rules that would require large stores to report how much they throw away."
+       ],
+       [
+        "A",
+        "Environmental groups have welcomed the plan but say it does not go far enough. They point out that most food waste happens in homes, not in stores, and want grocers to stop multi-buy promotions, such as two-for-one offers, which they say encourage shoppers to buy more than they can eat."
+       ],
+       [
+        "A",
+        "Fresh Foods says it will review its promotions as part of the program, and will publish its first food waste report next spring. Shoppers can find the discount bins near the store entrance, beside the flower display."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What happens to bread that is not sold by the end of the day?",
+        "o": [
+         "It is sold in discount bins.",
+         "It is given to shelters.",
+         "It is used as animal feed.",
+         "It is thrown away."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Bread and baked goods left at the end of the day will be donated to local shelters",
+        "x": "Bread and baked goods left at the end of the day are donated to local shelters. Only inedible food goes to the farm as feed or compost."
+       },
+       {
+        "q": "What surprised the store manager?",
+        "o": [
+         "Many families shop for the bins at a specific time.",
+         "Students did not use the discount bins.",
+         "The bins were too expensive for seniors.",
+         "Customers complained about the bruised produce in the bins."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "What surprised us is how many families come in specifically at four o’clock",
+        "x": "He was surprised by families coming at four o’clock when bins are restocked."
+       },
+       {
+        "q": "What does the report suggest about the company’s reasons?",
+        "o": [
+         "It is acting only for environmental reasons.",
+         "It was forced to act by a new law.",
+         "Saving money is also part of its motivation.",
+         "Customers demanded the change."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "The company admits that the program has a financial motive",
+        "x": "The company admits a financial motive, since disposing of food costs money. The reporting rules are only being considered, so no law has forced it to act."
+       },
+       {
+        "q": "Why do environmental groups criticize multi-buy promotions?",
+        "o": [
+         "They make food more expensive.",
+         "They lead people to buy food that goes to waste.",
+         "They are unfair to smaller stores that cannot match them.",
+         "They are not available in all stores."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "encourage shoppers to buy more than they can eat",
+        "x": "Environmental groups say two-for-one offers make shoppers buy more than they can eat, so food is wasted at home. Price and small stores are not mentioned."
+       },
+       {
+        "q": "What does Fresh Foods plan to do next spring?",
+        "o": [
+         "End all two-for-one offers",
+         "Expand the pilot to all stores",
+         "Open a farm",
+         "Release a report on its food waste"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "will publish its first food waste report next spring",
+        "x": "Fresh Foods will publish its first food waste report next spring. It will only review its promotions, not necessarily end two-for-one offers."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three family members are discussing where their grandmother should live.",
+    "sp": {
+     "A": {
+      "name": "Robert",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 0.97
+     },
+     "B": {
+      "name": "Linda",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.03
+     },
+     "C": {
+      "name": "Kevin",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "So, we all know why we’re here. After Mom’s fall last month, the doctor says she shouldn’t keep living alone in the house. We need to decide what comes next."
+       ],
+       [
+        "B",
+        "I’ve been thinking about it non-stop. Honestly, I think she should move in with us. We have the spare room on the main floor, and I work from home three days a week."
+       ],
+       [
+        "C",
+        "That’s generous, Linda, but are you sure? You have two teenagers and a demanding job. Caring for someone with mobility issues is a lot more than having a guest."
+       ],
+       [
+        "B",
+        "I know it won’t be easy. But Mom would hate a retirement home. She’s said so a hundred times."
+       ],
+       [
+        "A",
+        "She has. But I visited Maple Grove last week, the residence near my place, and it’s nothing like what she imagines. She’d have her own apartment, her own furniture. Meals are provided, there’s a nurse on site twenty-four hours, and they have a garden club. You know how much she loves her garden."
+       ],
+       [
+        "C",
+        "What does it cost?"
+       ],
+       [
+        "A",
+        "Around four thousand a month for the assisted-living option. Her pension and the rent from the house, if she rented it out, would cover most of it."
+       ],
+       [
+        "B",
+        "Rent out the house she lived in for fifty years? That would break her heart."
+       ],
+       [
+        "C",
+        "Can I say something? I think we’re making this decision for her, and we shouldn’t. She’s had a fall, but she’s still completely sharp. She should have the final say."
+       ],
+       [
+        "A",
+        "You’re right. I just want to go to her with real options, not just “what do you want to do?”"
+       ],
+       [
+        "B",
+        "Fair enough. But if she chooses to come to us, I don’t want to hear any more about how hard it’ll be."
+       ],
+       [
+        "C",
+        "No one’s saying you can’t do it. I’m just saying you shouldn’t have to do it alone. If she lives with you, Rob and I need to commit to regular help, maybe every second weekend each, so you get a break."
+       ],
+       [
+        "A",
+        "I can do that. And there’s another option we haven’t talked about: she stays in the house, but with home care visits. The province covers a few hours a week, and we could pay for more."
+       ],
+       [
+        "C",
+        "That might be her first choice, honestly. But the stairs are the problem. Her bedroom is upstairs."
+       ],
+       [
+        "B",
+        "We could convert the dining room into a bedroom. It’s right next to the main-floor bathroom."
+       ],
+       [
+        "C",
+        "That would work, and it’s much cheaper than a stair lift. We’d want an occupational therapist to look at the bathroom too, though. Grab bars, a shower seat, that sort of thing."
+       ],
+       [
+        "A",
+        "Good point. The hospital gave us a referral when she was discharged, so I’ll call them on Monday."
+       ],
+       [
+        "A",
+        "Okay. So we take three options to her: Maple Grove, living with Linda, or staying home with changes and home care. And we let her try Maple Grove for a respite week before deciding, if she wants to. They offer that."
+       ],
+       [
+        "C",
+        "Agreed. And whatever she chooses, we support it."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is the family discussing their mother’s living situation?",
+        "o": [
+         "She has asked to move.",
+         "Her house has been sold.",
+         "A doctor has advised that she should not live alone.",
+         "She can no longer afford to pay for the house’s upkeep."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "the doctor says she shouldn’t keep living alone in the house",
+        "x": "After their mother’s fall, the doctor said she should not keep living alone in the house. She has not asked to move, and money is not the trigger."
+       },
+       {
+        "q": "What is Kevin’s concern about Linda’s offer?",
+        "o": [
+         "The care would be very demanding for Linda.",
+         "Linda does not have enough space.",
+         "Their mother does not get along with Linda’s children.",
+         "Linda lives too far away."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Caring for someone with mobility issues is a lot more than having a guest",
+        "x": "He worries the care would be very demanding given her family and job."
+       },
+       {
+        "q": "Why does Robert mention the garden club?",
+        "o": [
+         "To show that their mother needs more exercise and time outside",
+         "To suggest that their mother sell her garden tools",
+         "To explain why Maple Grove is expensive",
+         "To show that Maple Grove would suit their mother’s interests"
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "You know how much she loves her garden",
+        "x": "Robert links the garden club to how much their mother loves her garden, showing Maple Grove fits her interests. It has nothing to do with the cost."
+       },
+       {
+        "q": "How does Linda react to the idea of renting out the house?",
+        "o": [
+         "She thinks it is a practical solution.",
+         "She believes it would upset their mother deeply.",
+         "She suggests selling it instead.",
+         "She wants to move into it herself."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "That would break her heart",
+        "x": "Linda says renting out the house “would break her heart”, so it would deeply upset their mother. She does not propose selling the house instead."
+       },
+       {
+        "q": "What is Kevin’s main point about the decision?",
+        "o": [
+         "Their mother should make the final choice.",
+         "Robert should decide because he visited Maple Grove.",
+         "The doctor should be consulted again.",
+         "The decision should be made quickly."
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "She should have the final say",
+        "x": "Kevin says their mother is still completely sharp and “should have the final say”. He does not want Robert to decide because of his visit."
+       },
+       {
+        "q": "What does Kevin suggest if their mother moves in with Linda?",
+        "o": [
+         "Linda should stop working from home.",
+         "They should hire a full-time nurse.",
+         "The brothers should regularly help so Linda can rest.",
+         "Their mother should stay with each child in turn."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "Rob and I need to commit to regular help",
+        "x": "Kevin says he and Rob should commit to regular help, perhaps every second weekend each, so Linda gets a break. A full-time nurse is never suggested."
+       },
+       {
+        "q": "What problem would there be if their mother stayed in her house?",
+        "o": [
+         "Home care visits are not offered in the area where she lives.",
+         "Her bedroom is on a floor that is hard for her to reach.",
+         "The house is too expensive to maintain.",
+         "She does not want visitors."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "But the stairs are the problem. Her bedroom is upstairs.",
+        "x": "Kevin says the stairs are the problem because her bedroom is upstairs. Home care is available, since the province covers a few hours a week."
+       },
+       {
+        "q": "What is the family’s final plan?",
+        "o": [
+         "To move their mother to Maple Grove next week",
+         "To hire home care immediately",
+         "To convert Linda’s dining room into a bedroom",
+         "To present several choices to their mother"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "So we take three options to her",
+        "x": "They will present three options and let her choose, possibly after a trial week."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about voting.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Political scientist",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "In the last provincial election, just over half of eligible voters cast a ballot. Among people under thirty, it was closer to one in three. Those numbers have revived an old idea: should voting be mandatory?"
+       ],
+       [
+        "A",
+        "Supporters often point to Australia, where citizens who don’t vote without a valid reason face a small fine, about twenty dollars. Turnout there is consistently above ninety percent. Advocates argue that when everyone votes, politicians have to address the concerns of all groups, not just the older, wealthier citizens who are most likely to vote now. One political scientist we spoke to explained."
+       ],
+       [
+        "B",
+        "Right now, campaigns spend most of their energy on people they know will show up. Compulsory voting changes the calculation. Suddenly young renters and low-income workers matter just as much as homeowners in their sixties. That tends to shift the debate towards issues like housing and wages."
+       ],
+       [
+        "A",
+        "Critics, however, see a problem of principle. In a free society, they say, choosing not to vote is itself a form of expression, and the state should not punish people for it. Others worry about the quality of the votes. If people are forced to the polls with no interest in politics, they may choose randomly, or simply pick the first name on the ballot. Australian researchers have in fact found a small advantage for candidates listed first."
+       ],
+       [
+        "A",
+        "There are also practical questions. Who would collect the fines, and what about people without a fixed address? Supporters respond that the fine is symbolic, that exemptions can be generous, and that a “none of the above” option on the ballot addresses the freedom argument."
+       ],
+       [
+        "A",
+        "Canada has some experience with a related debate. Several provinces have tried to make voting easier rather than compulsory, from mobile polling stations in seniors’ residences to voting offices on university campuses, and turnout among students rose noticeably in ridings where campus polls were offered. Some experts argue these smaller steps deserve more attention before any penalties are considered, including the political scientist we heard from earlier."
+       ],
+       [
+        "B",
+        "Compulsory voting is a powerful tool, but a blunt one. If you introduce it without first making voting easy, you’re essentially fining people for living far from a polling station or working two jobs. I’d start with the barriers and see how far that gets us."
+       ],
+       [
+        "A",
+        "For now, no party has adopted the idea as policy. But an all-party committee will study ways to increase turnout, including online voting and automatic registration, and report back in the fall. Committee members say they expect to hear from more than two hundred groups and individuals before then."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What prompted renewed interest in mandatory voting?",
+        "o": [
+         "A recent change in Australian law",
+         "Complaints about long lines at polling stations",
+         "Low voter participation, especially among young people",
+         "A proposal from a political party"
+        ],
+        "a": 2,
+        "t": "main",
+        "ev": "Among people under thirty, it was closer to one in three",
+        "x": "Turnout was just over half overall and about one in three among people under thirty, which revived the idea. No party has proposed it."
+       },
+       {
+        "q": "According to the political scientist, how does compulsory voting affect campaigns?",
+        "o": [
+         "Politicians pay more attention to groups who rarely vote now.",
+         "Campaigns become more expensive because more people must be reached.",
+         "Older voters stop voting.",
+         "Campaigns become shorter."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "Suddenly young renters and low-income workers matter just as much as homeowners in their sixties",
+        "x": "He says young renters and low-income workers would matter as much as older homeowners, so campaigns would court groups that rarely vote now. Cost is not discussed."
+       },
+       {
+        "q": "What is the critics’ objection based on principle?",
+        "o": [
+         "Fines are too small to be effective.",
+         "Voting should be done online.",
+         "Young people are not well informed enough to cast a sensible vote.",
+         "Not voting can be a legitimate choice that should be respected."
+        ],
+        "a": 3,
+        "t": "viewpoint",
+        "ev": "choosing not to vote is itself a form of expression",
+        "x": "Not voting is a form of expression the state should not punish."
+       },
+       {
+        "q": "Why does the reporter mention research from Australia?",
+        "o": [
+         "To show that mandatory voting has had no effect on election results",
+         "To support the concern that some forced voters choose carelessly",
+         "To prove that fines are rarely collected",
+         "To show that turnout is falling there"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "Australian researchers have in fact found a small advantage for candidates listed first",
+        "x": "An advantage for the first-listed name supports the worry about random choices."
+       },
+       {
+        "q": "How do supporters respond to the freedom argument?",
+        "o": [
+         "By suggesting a ballot option to reject all candidates",
+         "By proposing much higher fines",
+         "By arguing that freedom is less important than turnout",
+         "By limiting the rule to young people"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "a “none of the above” option on the ballot addresses the freedom argument",
+        "x": "Supporters say a “none of the above” option addresses the freedom argument. They actually describe the fine as symbolic, not something to raise."
+       },
+       {
+        "q": "What is likely to happen next?",
+        "o": [
+         "Mandatory voting will be introduced in the fall.",
+         "A party will adopt mandatory voting as policy.",
+         "A committee will examine different ways to raise turnout.",
+         "Online voting will replace polling stations."
+        ],
+        "a": 2,
+        "t": "prediction",
+        "ev": "an all-party committee will study ways to increase turnout",
+        "x": "An all-party committee will study ways to raise turnout and report in the fall. No party has adopted mandatory voting, so it will not be introduced then."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Chloe Martin  |  To: Ines Ferreira  |  Subject: Save the date (and a big question!)",
+   "text": "Dear Ines,\n\nI can’t believe it’s been almost a year since your farewell party! I hope Lisbon is treating you well and that your new job is everything you hoped. I miss our Sunday walks around the reservoir, though I can’t say I miss the hills.\n\nI have news: Andrew and I are getting married! We’re planning a small wedding next June 14 at his family’s farm near Kamloops, with about sixty guests. Nothing fancy: a ceremony in the orchard if the weather cooperates, and dinner in the barn either way. June is a lovely time in the interior, with warm days and cool evenings, and Andrew’s mother promises the cherries will be ripe. I know it’s a long trip from Portugal, so please don’t feel any pressure, but it would mean the world to me if you could be there.\n\nNow for the big question. You were the person who introduced Andrew and me, at that terrible trivia night where we came last, so we would love it if you would give a short speech at the reception. Five minutes, maximum. If you can’t come, we completely understand, and you could even record something that we could play on the night.\n\nIn terms of practical details, the nearest airport is Kamloops, which has connections through Vancouver and Calgary. Andrew’s aunt has offered rooms at her house for out-of-town guests, so you wouldn’t need to pay for a hotel. I know flights are expensive, so if you decide to come, let me know your dates and we’ll arrange for someone to pick you up.\n\nFormal invitations will go out in February. For now, I just wanted you to hear it from me first. Andrew sends his love, too.\n\nWith love,\nChloe",
+   "qs": [
+    {
+     "q": "What can be inferred about Ines?",
+     "o": [
+      "She has met Andrew’s family.",
+      "She recently moved to Portugal.",
+      "She is planning to return to Canada.",
+      "She works in Kamloops."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "it’s been almost a year since your farewell party! I hope Lisbon is treating you well",
+     "x": "A farewell party almost a year ago and a new job in Lisbon – she moved to Portugal recently."
+    },
+    {
+     "q": "Where will dinner be held?",
+     "o": [
+      "In the orchard",
+      "It depends on the weather.",
+      "At a hotel in Kamloops",
+      "In a barn"
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "dinner in the barn either way",
+     "x": "Dinner is in the barn “either way”; only the ceremony depends on weather."
+    },
+    {
+     "q": "Why does Chloe ask Ines to give a speech?",
+     "o": [
+      "Ines is her oldest friend.",
+      "Ines is a good public speaker.",
+      "Ines is the reason the couple met.",
+      "Ines organized the trivia night."
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "You were the person who introduced Andrew and me",
+     "x": "Chloe says Ines was the person who introduced Andrew and her at a trivia night. Ines only attended that night; she did not organize it."
+    },
+    {
+     "q": "What does Chloe suggest if Ines cannot attend?",
+     "o": [
+      "Sending a recorded message",
+      "Joining by video call during the ceremony",
+      "Sending a written letter",
+      "Visiting the couple later in the summer"
+     ],
+     "a": 0,
+     "t": "paraphrase",
+     "ev": "you could even record something that we could play on the night",
+     "x": "Chloe says Ines could record something to be played on the night. A live video call during the ceremony is never suggested."
+    },
+    {
+     "q": "What does Chloe offer to help with?",
+     "o": [
+      "Paying for Ines’s flight",
+      "Finding a cheaper flight through Calgary or Vancouver",
+      "Booking a hotel in Vancouver",
+      "Accommodation and a ride from the airport"
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "Andrew’s aunt has offered rooms at her house for out-of-town guests",
+     "x": "Free rooms at the aunt’s house and a pickup; she does not offer to pay for flights."
+    },
+    {
+     "q": "Why is Chloe writing now rather than waiting?",
+     "o": [
+      "The invitations have been delayed.",
+      "She wants Ines to hear the news personally.",
+      "She needs a reply by February.",
+      "The date of the wedding has changed."
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "For now, I just wanted you to hear it from me first",
+     "x": "Chloe says she wanted Ines to hear the news from her first, before formal invitations go out in February. The wedding date has not changed."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Ines’s reply. Complete it by choosing the best option for each blank.",
+    "text": "Dear Chloe,\n\nCongratulations to you both! I always knew that disastrous {1} would lead to something good. I would be honoured to give a speech, and I’ll make sure to keep it under {2}.\n\nI’ve already checked flights, and I can fly to Vancouver and then connect to {3}. I’m planning to arrive on June 11 so I can recover from jet lag before the big day. Please thank Andrew’s aunt for her kind offer; I’d be very happy to {4} rather than in a hotel.\n\nI do hope the weather is good so that the ceremony can take place in the {5}. I’ll keep my fingers crossed!\n\nAll my love,\nInes",
+    "blanks": [
+     {
+      "o": [
+       "trivia night",
+       "farewell party",
+       "Sunday walk",
+       "job interview"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "at that terrible trivia night where we came last",
+      "x": "Ines introduced the couple at the trivia night where they came last, so that was the “disastrous” event. The farewell party was for Ines herself."
+     },
+     {
+      "o": [
+       "two minutes",
+       "ten minutes",
+       "five minutes",
+       "an hour"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "Five minutes, maximum",
+      "x": "Chloe asked for a speech of five minutes maximum, so Ines promises to keep it under five minutes. Ten minutes would be far too long."
+     },
+     {
+      "o": [
+       "Calgary",
+       "Kamloops",
+       "Lisbon",
+       "the farm"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "the nearest airport is Kamloops, which has connections through Vancouver and Calgary",
+      "x": "Kamloops is the nearest airport, with connections through Vancouver. Calgary is another connecting city, not where Ines would land after Vancouver."
+     },
+     {
+      "o": [
+       "cook for her",
+       "pay for her room",
+       "pick her up",
+       "stay with her"
+      ],
+      "a": 3,
+      "t": "coherence",
+      "ev": "Andrew’s aunt has offered rooms at her house",
+      "x": "Andrew’s aunt offered rooms at her house, so Ines will stay with her instead of a hotel. Picking Ines up is a separate offer from Chloe."
+     },
+     {
+      "o": [
+       "barn",
+       "airport",
+       "orchard",
+       "reservoir"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "a ceremony in the orchard if the weather cooperates",
+      "x": "The ceremony will be in the orchard if the weather cooperates. The barn is used for dinner either way, so weather does not matter there."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Riverside College – Continuing Education, Spring Term",
+    "intro": "All courses run for 8 weeks starting the week of April 7. Seniors (65+) receive 25% off. Register by March 25 to avoid a $20 late fee.",
+    "table": {
+     "cols": [
+      "Course",
+      "Format",
+      "Schedule",
+      "Fee",
+      "Materials"
+     ],
+     "rows": [
+      [
+       "Conversational Spanish 1",
+       "In person",
+       "Mondays 6:30–8:30 p.m.",
+       "$240",
+       "Textbook $45 (not included)"
+      ],
+      [
+       "Digital Photography",
+       "In person",
+       "Saturdays 10:00 a.m.–12:00 p.m.",
+       "$280",
+       "Bring your own camera"
+      ],
+      [
+       "Bookkeeping Basics",
+       "Online (live)",
+       "Tuesdays & Thursdays 7:00–8:30 p.m.",
+       "$320",
+       "Software provided"
+      ],
+      [
+       "Creative Writing",
+       "Online (self-paced)",
+       "Any time; weekly deadlines",
+       "$195",
+       "None"
+      ],
+      [
+       "Introduction to Pottery",
+       "In person",
+       "Wednesdays 6:00–9:00 p.m.",
+       "$350",
+       "Clay and firing included"
+      ]
+     ]
+    },
+    "notes": [
+     "Courses with fewer than 8 registrations by March 30 may be cancelled; a full refund will be issued.",
+     "Withdrawals before the second class receive a refund minus $25.",
+     "Online (live) courses require a webcam."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email. Complete it by choosing the best option for each blank.",
+    "text": "Hi Gord,\n\nI’ve been looking at the Riverside College courses. Since you’re retired now and always talk about learning Spanish before your trip to Mexico, you should consider Conversational Spanish 1. With your seniors’ discount it would only be {1}, plus the textbook.\n\nI’m signing up for {2} myself, because I can never commit to fixed class times with my shift work. I was also tempted by pottery, but it’s on {3} evenings, when I usually work.\n\nIf you do register, make sure you do it before {4}, or you’ll pay an extra $20. And don’t worry if the class doesn’t fill up; if it’s {5}, you get all your money back.\n\nCheers,\nMarta",
+    "blanks": [
+     {
+      "o": [
+       "$180",
+       "$195",
+       "$225",
+       "$240"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "Seniors (65+) receive 25% off",
+      "x": "Spanish costs $240, and seniors get 25% off: $240 − $60 = $180. $195 is the price of Creative Writing, not discounted Spanish."
+     },
+     {
+      "o": [
+       "Creative Writing",
+       "Bookkeeping Basics",
+       "Digital Photography",
+       "Introduction to Pottery"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "Any time; weekly deadlines",
+      "x": "Creative Writing is self-paced with weekly deadlines, so it needs no fixed class times. Bookkeeping Basics is online but runs live at set times."
+     },
+     {
+      "o": [
+       "Monday",
+       "Tuesday",
+       "Saturday",
+       "Wednesday"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "Wednesdays 6:00–9:00 p.m.",
+      "x": "Introduction to Pottery runs on Wednesdays from 6:00 to 9:00 p.m. Monday is Spanish and Tuesday is Bookkeeping, so neither matches pottery."
+     },
+     {
+      "o": [
+       "March 30",
+       "March 25",
+       "April 7",
+       "the second class"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Register by March 25 to avoid a $20 late fee",
+      "x": "Registering by March 25 avoids the $20 late fee. March 30 is the date by which low-enrolment courses may be cancelled."
+     },
+     {
+      "o": [
+       "cancelled",
+       "moved online",
+       "rescheduled",
+       "full"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "may be cancelled; a full refund will be issued",
+      "x": "Courses with fewer than 8 registrations may be cancelled with a full refund. Withdrawing yourself costs $25, so only cancellation returns all the money."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "Which course would be suitable for someone who works every weekday evening?",
+     "o": [
+      "Conversational Spanish 1",
+      "Bookkeeping Basics",
+      "Digital Photography",
+      "Introduction to Pottery"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Saturdays 10:00 a.m.–12:00 p.m.",
+     "x": "Digital Photography meets on Saturday mornings. Spanish, Bookkeeping and Pottery all meet on weekday evenings, so they would clash with work."
+    },
+    {
+     "q": "A student withdraws from Bookkeeping Basics after the first class. How much is refunded?",
+     "o": [
+      "$0",
+      "$295",
+      "$300",
+      "$320"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Withdrawals before the second class receive a refund minus $25",
+     "x": "Withdrawing before the second class gives a refund minus $25, so $320 − $25 = $295. A full $320 refund applies only if the college cancels."
+    },
+    {
+     "q": "Which course has the lowest total cost for a non-senior who needs everything required?",
+     "o": [
+      "Conversational Spanish 1",
+      "Creative Writing",
+      "Bookkeeping Basics",
+      "Digital Photography"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "$195",
+     "x": "Creative Writing costs $195 with no materials. Spanish is $240 plus a $45 textbook, and Photography is $280 plus a camera."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Coyotes in the City",
+   "paras": [
+    "Residents of many Canadian cities have grown used to an unexpected neighbour: the coyote. Once found mainly on the prairies, coyotes have expanded their range across almost all of North America over the past century, and they have proven remarkably good at adapting to urban life. Ravines, rail corridors, golf courses and large parks provide shelter, while rodents, rabbits, fallen fruit and garbage provide food. Their adaptability is striking: some urban coyotes have been tracked crossing busy roads at night, and a few have even been spotted on downtown streets in the early morning.",
+    "Most urban coyotes go out of their way to avoid people, and many residents never see one. They are mostly active at dawn, dusk and night, and they typically weigh between ten and twenty kilograms, smaller than many people expect. However, sightings tend to increase in late winter, during mating season, and in spring, when coyotes are raising pups and may become protective of their dens. During this period, a coyote may follow a person walking a dog, not to attack, but to escort them away from its young.",
+    "Problems usually begin when coyotes lose their fear of humans, and the most common reason is feeding, whether deliberate or accidental. Coyotes that find pet food left outdoors, birdseed spilled on the ground or uncovered compost quickly learn to associate homes with meals. Wildlife officials stress that “a fed coyote is a dead coyote,” because animals that become bold around people may eventually have to be removed. Fruit trees can create the same problem in late summer, when fallen apples and plums are left to rot on lawns. Securing garbage bins and cleaning up under bird feeders are simple ways to prevent it.",
+    "Cities have responded in different ways. Some have relied on trapping and relocation, but experts say this is rarely effective, because new coyotes soon move into the empty territory. Increasingly, municipalities focus on education and “hazing,” which means teaching residents to make themselves look big and loud — shouting, waving their arms or shaking a can of coins — when they see a coyote, so that the animals keep their natural caution. Studies suggest that cities with strong public education programs report fewer conflicts. Some cities also post signs in parks where dens have been found."
+   ],
+   "qs": [
+    {
+     "q": "Coyotes can be seen more often at certain times of the year.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "sightings tend to increase in late winter, during mating season, and in spring",
+     "x": "Paragraph B says sightings increase in late winter, during mating season, and in spring."
+    },
+    {
+     "q": "Moving coyotes to another area usually does not solve the problem.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "experts say this is rarely effective, because new coyotes soon move into the empty territory",
+     "x": "Paragraph D says relocation is rarely effective because new coyotes soon move into the empty territory."
+    },
+    {
+     "q": "Coyotes have spread far beyond the region where they once lived.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "coyotes have expanded their range across almost all of North America",
+     "x": "Paragraph A says coyotes, once found mainly on the prairies, have expanded across almost all of North America."
+    },
+    {
+     "q": "Leaving food outside without meaning to can cause coyotes to approach homes.",
+     "a": "C",
+     "t": "inference",
+     "ev": "whether deliberate or accidental",
+     "x": "Paragraph C: accidental feeding (pet food, birdseed) teaches coyotes to approach homes."
+    },
+    {
+     "q": "Coyotes sometimes attack small dogs during the winter.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph B says a coyote may follow a dog walker to escort them away, “not to attack”. No paragraph says they attack dogs in winter. Not given (E)."
+    },
+    {
+     "q": "Many people overestimate the size of coyotes.",
+     "a": "B",
+     "t": "inference",
+     "ev": "smaller than many people expect",
+     "x": "Paragraph B says coyotes typically weigh ten to twenty kilograms, smaller than many people expect."
+    },
+    {
+     "q": "Some cities pay residents to report coyote sightings.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Coyote sightings are discussed, but no paragraph mentions cities paying residents to report them, so this is not given."
+    },
+    {
+     "q": "Coyotes that become too comfortable around people may be killed.",
+     "a": "C",
+     "t": "inference",
+     "ev": "animals that become bold around people may eventually have to be removed",
+     "x": "Paragraph C: “a fed coyote is a dead coyote” – bold animals may be removed."
+    },
+    {
+     "q": "Residents are encouraged to scare coyotes away with noise and movement.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "shouting, waving their arms or shaking a can of coins",
+     "x": "Paragraph D describes hazing: shouting, waving arms or shaking a can of coins to keep coyotes cautious."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Self-Checkout: Convenience for Whom?",
+   "byline": "Opinion | by Ruth Okafor, retail columnist",
+   "text": "The first time I used a self-checkout machine, about fifteen years ago, it felt like the future. No waiting for a cashier, no small talk, just scan, bag and go. Today, the novelty has worn off. In many supermarkets and pharmacies, the staffed lanes have quietly disappeared, replaced by rows of machines and a single overworked employee who rushes from one blinking light to the next. I have come to believe that self-checkout, at least as it is currently used, is a bad deal for shoppers.\n\nThe central problem is that we are now doing a job for free. Scanning, weighing produce, finding the code for loose onions, bagging and dealing with the infamous “unexpected item in the bagging area” — these are tasks that stores used to pay people to do. The savings from having fewer cashiers are real, but there is little sign that they have been passed on to shoppers in lower prices. Retailers argue that self-checkout gives customers choice and speed. But when the staffed lanes are closed, there is no choice, and when the machines freeze every third item, there is no speed.\n\nThere is also a human cost. Cashiers have long been one of the most common first jobs for teenagers and a source of flexible work for parents and older adults. Each machine that replaces a lane reduces those opportunities. A single attendant can supervise six or eight machines, which means one job can replace several. For some shoppers, especially seniors who live alone, a few words with a familiar cashier may be one of the only conversations they have all day.\n\nInterestingly, some retailers are beginning to reverse course. Several chains in the United Kingdom and the United States have reduced the number of machines or limited them to small baskets, citing theft and customer complaints. It turns out that when customers scan their own items, more goods leave the store unpaid for, sometimes deliberately, but often by mistake. Others have brought back staffed express lanes for shoppers with ten items or fewer.\n\nI am not calling for self-checkout to be banned. For someone buying a sandwich and a drink at lunch, it can genuinely save time. What I am asking is that stores use machines as an addition to staffed lanes, not a replacement for them. Keep enough cashiers so that a real choice exists. Limit machines to small purchases. And perhaps, as one grocer in my neighbourhood has done, offer a small discount to customers who choose to scan their own groceries. If we are going to do the work, we should at least share in the savings.",
+   "qs": [
+    {
+     "q": "What is the writer’s main criticism of self-checkout?",
+     "o": [
+      "The machines are too expensive for stores.",
+      "It has become much slower than it was fifteen years ago.",
+      "The machines cannot scan fresh produce.",
+      "Customers do unpaid work and often have no alternative."
+     ],
+     "a": 3,
+     "t": "main",
+     "ev": "The central problem is that we are now doing a job for free",
+     "x": "Customers do the work for free, and closed staffed lanes remove choice."
+    },
+    {
+     "q": "Why does the writer mention seniors who live alone?",
+     "o": [
+      "To show they have difficulty using machines",
+      "To argue that seniors should receive discounts",
+      "To illustrate the social value of cashiers",
+      "To explain why stores are reducing machines"
+     ],
+     "a": 2,
+     "t": "purpose",
+     "ev": "a few words with a familiar cashier may be one of the only conversations they have all day",
+     "x": "A few words with a familiar cashier may be one of the only conversations some seniors have, which shows cashiers’ social value. Discounts for seniors are not proposed."
+    },
+    {
+     "q": "According to the article, why have some retailers reduced self-checkout?",
+     "o": [
+      "Losses from unpaid goods and complaints.",
+      "Customers found the machines too complicated.",
+      "New laws in the United Kingdom.",
+      "Cashiers went on strike."
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "citing theft and customer complaints",
+     "x": "Retailers cited theft and customer complaints, which means losses from unpaid goods. No new laws or strikes are mentioned in the article."
+    },
+    {
+     "q": "What does the writer suggest about goods that leave stores unpaid for?",
+     "o": [
+      "Most of it is deliberate theft.",
+      "It is less common than stores claim.",
+      "It happens only in the United States.",
+      "Much of it happens accidentally."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "sometimes deliberately, but often by mistake",
+     "x": "The writer says goods leave unpaid “sometimes deliberately, but often by mistake”, so much of it is accidental. She does not say most of it is theft."
+    },
+    {
+     "q": "What is the writer’s attitude towards self-checkout in general?",
+     "o": [
+      "She wants it banned completely.",
+      "She accepts it in limited situations.",
+      "She thinks it is the future of retail.",
+      "She is indifferent to it."
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "I am not calling for self-checkout to be banned",
+     "x": "She says she is not calling for a ban and accepts machines for small purchases alongside staffed lanes, so she does not want it banned completely."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a reader’s comment. Complete it by choosing the best option for each blank.",
+    "text": "I work as the one “overworked employee” Ms. Okafor describes, supervising eight self-checkout machines at a large grocery store. She is absolutely right that the job is {1}. In one shift, I might help a confused customer, check ID for alcohol, fix a frozen screen and stop a shoplifter, often all within a few minutes.\n\nWhere I disagree is the idea that self-checkout is {2} for customers. Many of our younger shoppers actually prefer the machines, because they {3} chatting with a cashier. Some even wait in line for a machine when a staffed lane is open.\n\nI like her idea of a discount for scanning your own groceries, but I doubt my employer would {4} it. In my experience, savings from machines go to the company, not the customer.\n\nWhat would help most is simple: more staff on the floor. Then customers really would {5} between the two.\n\n– Danielle, Winnipeg",
+    "blanks": [
+     {
+      "o": [
+       "stressful",
+       "boring",
+       "well paid",
+       "temporary"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "a single overworked employee who rushes from one blinking light to the next",
+      "x": "Danielle lists many urgent tasks within minutes, matching the article’s “overworked employee”, so the job is stressful. Nothing suggests it is boring or well paid."
+     },
+     {
+      "o": [
+       "a great idea",
+       "too expensive",
+       "always a bad deal",
+       "too fast"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "self-checkout, at least as it is currently used, is a bad deal for shoppers",
+      "x": "The article calls self-checkout “a bad deal for shoppers”; Danielle disagrees that it is always bad, since younger shoppers prefer it. “Too expensive” is not the writer’s claim."
+     },
+     {
+      "o": [
+       "enjoy",
+       "would rather avoid",
+       "are used to",
+       "never mind"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "no small talk",
+      "x": "Younger shoppers prefer machines because they would rather avoid chatting with a cashier. “Enjoy” would contradict their choice to wait for a machine."
+     },
+     {
+      "o": [
+       "pay for",
+       "complain about",
+       "know about",
+       "agree to"
+      ],
+      "a": 3,
+      "t": "vocab",
+      "ev": "offer a small discount to customers who choose to scan their own groceries",
+      "x": "Danielle doubts her employer would agree to a discount, because savings go to the company. “Pay for” does not fit, since a discount costs customers nothing."
+     },
+     {
+      "o": [
+       "stop complaining",
+       "save money",
+       "have a choice",
+       "scan faster"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "Keep enough cashiers so that a real choice exists",
+      "x": "More staff would mean that customers really have a choice, echoing the article’s “real choice”. Saving money relates to the discount idea, not to staffing."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Your employer has offered to pay for a two-day professional training course related to your job. The course takes place on a Thursday and Friday next month, during your normal working days, in another city.",
+   "bullets": [
+    "Explain to your manager which course you would like to attend and why",
+    "Describe how it would benefit your team",
+    "Explain how your work will be covered while you are away"
+   ],
+   "model": "Dear Ms. Clarke,\n\nI am writing to request approval to attend the two-day course “Advanced Project Scheduling” offered by the Ontario Project Management Institute in Ottawa on Thursday, May 15, and Friday, May 16. As you mentioned during my performance review, the company is willing to support professional development this year, and I believe this course would be an excellent fit.\n\nThe course focuses on managing multiple projects at once, forecasting delays and using scheduling software more effectively. As you know, our team often struggles when several client deadlines fall in the same week. I would come back with practical tools that I could share with the rest of the team in a lunch-and-learn session, so the benefits would extend beyond my own work.\n\nI have already looked at our calendar, and there are no client meetings scheduled for those two days. Raj has agreed to monitor my inbox and respond to anything urgent, and I will make sure all my weekly reports are submitted by Wednesday afternoon before I leave. The total cost, including train fare and one night at the conference hotel, would be approximately $1,150.\n\nThank you for considering my request.\n\nBest regards,\nOmar Haddad"
+  },
+  "t2": {
+   "intro": "Your city has a limited budget for winter maintenance and is asking residents to choose a priority for next winter.",
+   "question": "Which option do you prefer?",
+   "a": "Clear all residential sidewalks within 12 hours after a snowfall.",
+   "b": "Clear and maintain all bicycle lanes so that people can cycle all winter.",
+   "model": "I would choose Option A, clearing residential sidewalks within twelve hours after a snowfall, because it would help the greatest number of residents stay safe and independent all winter.\n\nThe main reason is that almost everyone walks at some point every day, even if they also drive or take the bus. Children walk to school, parents push strollers, and seniors walk to the pharmacy or the bus stop. When sidewalks stay covered in snow and ice for days, these trips become difficult and even dangerous. Falls on icy sidewalks send many people to hospital every year, and some older residents simply stay home, which leaves them isolated.\n\nI do support cycling, and I understand that clear bike lanes would encourage more people to cycle year-round. However, the number of winter cyclists in our city is still quite small, and many of them can switch to public transit on the worst days. People who use wheelchairs or walkers, on the other hand, have no alternative to a clear sidewalk.\n\nOverall, fast sidewalk clearing is the fairest choice, because it protects the most vulnerable residents and benefits nearly everyone in the community."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend shares an apartment with a roommate who often leaves dirty dishes in the sink, has loud guests late at night, and is sometimes late paying their share of the rent. Your friend asks you for advice. What do you tell them?",
+   "model": "That sounds really frustrating, and I think you’re right to want to deal with it before it gets worse. My first piece of advice is to have one calm, honest conversation instead of dropping hints or leaving notes. Pick a time when you’re both relaxed, not right after an argument, and focus on the three specific problems – the dishes, the late-night guests and the rent – rather than saying things like “you’re always so messy.” Second, try to come up with clear rules together. For example, dishes have to be washed the same day, guests leave by eleven on weeknights, and rent is transferred on the first of the month. You could even write them down so there’s no confusion later. Third, about the rent, that’s the most serious issue, because if the landlord doesn’t get paid, you’re both at risk. Maybe set up automatic transfers so it happens without anyone having to remember. And finally, if nothing changes after a month or so, check your lease and think about whether it’s time to find a new roommate. Your home should be somewhere you can relax."
+  },
+  "t2": {
+   "prompt": "Talk about an achievement that you are proud of. What did you achieve, and why was it important to you?",
+   "model": "One achievement I’m really proud of is passing my driving test in Canada on the first try, about three years ago. It might not sound like a big deal, but for me it was huge. I had never driven before coming here, because in my home city everyone used public transit. When I moved to a small town in Alberta for work, I quickly realized that without a car, I couldn’t get to the grocery store, let alone visit friends. So I started taking lessons on the weekends. At first I was terrified, especially on the highway and in the snow. My instructor was very strict, and I remember coming home after the first winter lesson with my hands shaking. But I practised every weekend for five months, I studied the handbook, and I even practised parallel parking with plastic cones in an empty parking lot. On the day of the test, it was snowing lightly, but I stayed calm and passed. It was important to me because it gave me real independence. I could finally accept a better job in the next town, and I felt that I truly belonged in my new life."
+  },
+  "t3": {
+   "scene": {
+    "bg": "winter",
+    "alt": "A snowy park on a winter day. On the left, two children are building a snowman with a black hat, carrot nose and red scarf; one child in a red jacket is placing the head while the other in a blue jacket watches. In the centre, a frozen pond is being used as an outdoor skating rink, where a woman in a purple coat is skating and holding the hand of a small child. On the right, a man in a green jacket is pulling a sled, and a family is walking a dog wearing a coat. There are pine trees covered with snow in the background and a park bench partly covered in snow. Snow is falling lightly.",
+    "items": [
+     [
+      "pine",
+      60,
+      240,
+      1
+     ],
+     [
+      "pine",
+      560,
+      240,
+      1.2
+     ],
+     [
+      "pine",
+      610,
+      250,
+      0.8
+     ],
+     [
+      "pond",
+      330,
+      320,
+      120
+     ],
+     [
+      "snowman",
+      120,
+      350
+     ],
+     [
+      "person",
+      70,
+      350,
+      {
+       "kid": true,
+       "shirt": "#c0392b",
+       "pose": "both",
+       "hat": "#2c3e50"
+      }
+     ],
+     [
+      "person",
+      175,
+      355,
+      {
+       "kid": true,
+       "shirt": "#2980b9",
+       "flip": true,
+       "hat": "#f1c40f"
+      }
+     ],
+     [
+      "person",
+      300,
+      320,
+      {
+       "shirt": "#8e44ad",
+       "pose": "walk",
+       "hairStyle": "long",
+       "hat": "#ecf0f1"
+      }
+     ],
+     [
+      "person",
+      340,
+      322,
+      {
+       "kid": true,
+       "shirt": "#e67e22",
+       "pose": "walk",
+       "hat": "#c0392b"
+      }
+     ],
+     [
+      "person",
+      480,
+      360,
+      {
+       "shirt": "#27ae60",
+       "pose": "walk",
+       "hat": "#7f8c8d",
+       "flip": true
+      }
+     ],
+     [
+      "rect",
+      500,
+      352,
+      50,
+      8,
+      "#c0392b"
+     ],
+     [
+      "dog",
+      560,
+      375,
+      "#5d4037"
+     ],
+     [
+      "bench",
+      440,
+      290,
+      80
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a park on a cold, snowy winter day. Everything is covered in a thick layer of white snow, and there are a few snowflakes falling. In the background, there are some tall pine trees. On the left-hand side, two kids are building a snowman. It’s already finished, actually – it has three big snowballs, a black top hat, an orange carrot nose and a red scarf. One child, in a red jacket and a dark hat, has both arms up, like they’re celebrating, and the other child, in a blue jacket and a yellow hat, is standing next to it, looking at it. In the middle of the picture, there’s a small frozen pond that people are using as a skating rink. A woman in a purple coat and a white hat is skating, and a little child in an orange jacket is skating right beside her. On the right-hand side, a man in a green jacket is pulling a red sled, and there’s a dark brown dog walking near him. There’s also a park bench half buried in snow. It looks like a fun winter afternoon for families."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will happen in the next little while. First, the two kids who built the snowman will probably want a picture with it, so maybe a parent will come over with a phone and take a photo. After that, I wouldn’t be surprised if they start a snowball fight, since they’re surrounded by perfect snow. Second, the little child skating with the woman looks quite young, so there’s a good chance the child will lose balance and fall on the ice. The woman will most likely help them up, and since the child is wearing a thick jacket, they’ll probably laugh rather than cry. Third, the man pulling the sled is probably heading towards a hill somewhere in the park, so I think he’ll go sledding with his kids, or the dog might even jump onto the sled for a ride. And finally, because it’s snowing and getting colder, I think most of these families will head home soon for some hot chocolate."
+  },
+  "t5": {
+   "intro": "You and your siblings want to buy a gift for your father’s sixtieth birthday. You have found two options. Choose the one you prefer. In the next section, you will need to persuade one of your siblings that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Cooking class for two",
+     "details": [
+      "$300",
+      "Three-hour evening class with a chef",
+      "Dad could bring Mom",
+      "Recipes and apron to take home",
+      "Available any weekend in the next year"
+     ]
+    },
+    {
+     "title": "Tablet computer",
+     "details": [
+      "$450",
+      "Large screen, easy to read",
+      "Could video-call grandchildren",
+      "Comes with a setup lesson at the store",
+      "Two-year warranty"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Golf lessons package",
+    "details": [
+     "$500",
+     "Five private lessons with a pro",
+     "Club rental included",
+     "Only available April–September",
+     "Dad has never played golf"
+    ]
+   },
+   "otherWho": "Your sister prefers",
+   "persuade": "Your sister prefers the golf lessons package. Persuade her that your choice is better.",
+   "model": "I know golf lessons sound like a nice retirement gift, and Dad does like being outdoors, but I really think the cooking class is the better choice. First, think about what Dad actually enjoys. He’s never played golf in his life, and he’s never even mentioned wanting to learn. But he’s always in the kitchen on Sundays trying new recipes, and he watches cooking shows every night. The cooking class fits who he already is. Second, it’s something he can share with Mom. The golf lessons are private, so he’d be on his own, but the cooking class is for two – it would be like a date night for them, which would make it even more special for his sixtieth. Third, the price. The golf package is five hundred dollars, and the cooking class is three hundred, so we could use the extra two hundred to take them out for dinner afterwards or frame a nice family photo. And golf is only available from April to September, but his birthday is in November, so he’d have to wait five months to use it. The cooking class is available any weekend, so he could enjoy it right away."
+  },
+  "t6": {
+   "situation": "You hired a contractor, who is also a close family friend, to repaint your living room. When you got the bill, it was $400 higher than the price he quoted, and he did not explain the extra charge.",
+   "options": [
+    "Talk to the contractor about the extra charge.",
+    "Talk to your parent, who recommended the contractor, and ask for advice."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hi Michel, thanks for taking my call. First of all, I want to say again how great the living room looks. The colour is perfect, and the edges are so clean – everyone who’s come over has noticed. I did want to ask you about the bill, though. I think there might have been a mix-up. Your original quote was eleven hundred dollars, and the invoice came to fifteen hundred, so four hundred more than we discussed. I didn’t see an explanation for the difference on the invoice. I’m sure there’s a reason – maybe the walls needed extra repair, or you used more paint than expected? I just want to understand it, because I had budgeted for the original amount. Honestly, it would have been easier if you’d mentioned it while you were working, so we could decide together. If there was extra work, I’m happy to talk about a fair amount, but I hope you can understand that four hundred dollars is a lot for me right now. Could you send me a breakdown? I really value our friendship, and I don’t want something like this to come between us."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should public transit be free for everyone in large cities? Explain your reasons.",
+   "model": "In my opinion, public transit should not be completely free for everyone, but it should be much cheaper for people who need it most. My first reason is funding. Transit systems need money to run more buses, hire drivers and maintain the trains. If fares disappear, the city has to find that money somewhere else, usually through property taxes, or it simply cuts service. I would rather pay a fare and have a bus every ten minutes than ride for free on a bus that comes every forty minutes. Secondly, research from cities that tried free transit shows that many new riders are people who used to walk or cycle, not drivers. So the environmental benefits are smaller than people expect. That said, I strongly believe that low-income residents, students and seniors should get deep discounts, or even free passes. For a single parent working a minimum-wage job, a monthly pass can be a real burden. So, to sum up, I support targeted free or discounted transit for people who need it, and I think the rest of the money should be invested in making service faster and more reliable for everyone."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "A house built completely upside down: the brown triangular roof is resting on the grass, and the rest of the house, a peach-coloured box with windows and a brown front door, sits on top of the roof, so the door is near the top. A small grey chimney points down towards the ground, and some green plants and a little tree appear to grow from what is now the top of the house. A family stands in front of it taking a photo, and there is a sign that says \"OPEN HOUSE\".",
+    "items": [
+     [
+      "cloud",
+      90,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      480,
+      50,
+      0.9
+     ],
+     [
+      "upsideDownHouse",
+      320,
+      340
+     ],
+     [
+      "sign",
+      540,
+      350,
+      "OPEN HOUSE",
+      "#fff"
+     ],
+     [
+      "person",
+      110,
+      360,
+      {
+       "shirt": "#2980b9",
+       "hold": "camera"
+      }
+     ],
+     [
+      "person",
+      150,
+      362,
+      {
+       "shirt": "#e84393",
+       "hairStyle": "long",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      185,
+      365,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "point",
+       "flip": true
+      }
+     ],
+     [
+      "flowers",
+      450,
+      380,
+      5
+     ]
+    ]
+   },
+   "prompt": "You are looking at houses with a real estate agent, and you see this unusual house. Call your spouse, who is at work, and describe the house. Explain whether you think you should go inside and consider buying it. Your spouse cannot see the picture.",
+   "model": "Hi, it’s me. You won’t believe what I’m standing in front of right now. The agent brought me to a house that’s built completely upside down. I’m serious! The roof – a big brown triangle – is sitting right on the grass, and the whole house is balanced on top of it, the wrong way up. So the front door is way up at the top instead of at the bottom, and the windows are upside down too. The chimney is pointing down towards the ground, and there are even little plants and a small tree growing on what would normally be the bottom of the house, which is now the top. The walls are a nice peach colour. There’s an “open house” sign, and a family is taking pictures in front of it, so it’s obviously a bit of a tourist attraction. The agent says that inside, it’s actually a normal two-bedroom house – only the outside is designed this way. Honestly, I think it’s fun, but I’m not sure we should buy it. Strangers would be stopping to take photos all the time, and resale might be difficult. But let’s at least go in and look, just for the story!"
+  }
+ }
+}

@@ -1,0 +1,464 @@
+{
+ "id": "t27",
+ "title": "Test 27",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two organizers of a youth orchestra are dealing with a transportation problem a few days before a music festival.",
+    "sp": {
+     "A": {"name": "Ingrid", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Rafael", "g": "m", "acc": "en-US", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Rafael, sorry to ambush you before rehearsal, but I need ten minutes. Northline Coaches just called. The bus they were sending us on Friday failed its safety inspection this morning."],
+       ["B", "Failed? Can’t they just send another one? A company that size must have more than one coach."],
+       ["A", "That’s what I assumed. At first they told me a partner company in Barrie would cover the trip, but an hour later they phoned back. The partner’s coaches are all tied up with a hockey tournament that weekend. So, as of right now, we have nothing."],
+       ["B", "Wonderful. And our performance slot in Ottawa is at two on Friday, with the warm-up room booked from one fifteen. We can’t exactly ask the adjudicators to wait for us."],
+       ["A", "No. And it isn’t just forty-eight students and four chaperones. It’s the instruments. Two cellos, the double bass and four percussion cases. None of that fits on anybody’s lap."],
+       ["B", "Did Northline at least offer the deposit back?"],
+       ["A", "They’re refunding the full twelve hundred, which is something. But the parents’ council approved thirty-four hundred dollars for transportation, and I would really, really rather not go back to them for more. Half of them grumbled about the fee increase in September as it is."],
+       ["B", "Okay. So, fifty-two people plus a small truckload of instruments, in Ottawa by one fifteen on Friday, for thirty-four hundred or less."],
+       ["A", "Thirty-four hundred all in, return trip included. And we have to send families the plan by Wednesday night, because that’s when the permission forms go home."]
+      ],
+      "qs": [
+       {"q": "Why has the coach company’s backup arrangement fallen through?", "o": ["Its own bus also failed a safety inspection.", "It was unwilling to drive as far as Ottawa.", "Its vehicles were already booked for another event.", "It could not carry the orchestra’s large instruments."], "a": 2, "t": "paraphrase", "ev": "The partner’s coaches are all tied up with a hockey tournament that weekend", "x": "“Tied up with a hockey tournament” means the partner’s coaches are committed elsewhere. The failed safety inspection was Northline’s own bus, not the partner’s, and distance and instruments are never given as the partner’s reasons."},
+       {"q": "How does Ingrid feel about asking the parents’ council for more money?", "o": ["She expects them to agree once they hear about the refund.", "She would hate to, given earlier complaints about costs.", "She thinks it would be unfair to the four chaperones.", "She would ask only if the festival changed its schedule."], "a": 1, "t": "attitude", "ev": "I would really, really rather not go back to them for more", "x": "Repeating “really, really rather not” and recalling parents who “grumbled about the fee increase” show strong reluctance. The refund is mentioned only as a small consolation; she never suggests it would persuade the council."},
+       {"q": "By when must the organizers tell families about the new arrangements?", "o": ["By Friday at one fifteen", "Once the refund is processed", "By the end of rehearsal today", "By Wednesday evening"], "a": 3, "t": "detail", "ev": "we have to send families the plan by Wednesday night", "x": "The plan must reach families by Wednesday night, when permission forms go home. One fifteen on Friday is when the warm-up room is booked, not the deadline for informing families."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "What about the train? There’s a morning departure that gets into Ottawa just after eleven."],
+       ["A", "I looked. The group fare is decent, about forty dollars a head each way. But the railway won’t take the double bass or the percussion cases as checked baggage, and the station is twenty minutes from the concert hall. So we’d still need a truck for the instruments and a shuttle at the other end."],
+       ["B", "So the train solves half the problem."],
+       ["A", "Not even half. Forty dollars, times fifty-two people, times two directions. That’s over four thousand before we’ve rented a single truck."],
+       ["B", "Right, forget it. What about the board’s yellow buses? They’re practically free."],
+       ["A", "That was my first thought too. But board policy doesn’t allow them on trips longer than two hundred kilometres one way, and Ottawa is about three hundred and forty. The transportation office didn’t leave any wiggle room."],
+       ["B", "Parents, then? Plenty of them have minivans."],
+       ["A", "We’d need ten vehicles at least, and every volunteer driver needs a police check and proof of two million in liability coverage before they can take other people’s kids. We’d never collect all of that by Wednesday. And ten cars on the highway in March? If it snows, I’d spend the whole day staring at my phone."],
+       ["B", "Fair enough. Let me try something. My brother-in-law manages the fleet for a tour company in Peterborough, Lakeshore Tours. They mostly do seniors’ day trips, but I know they have some smaller coaches. Thirty-six seats, I think."],
+       ["A", "Two of those would give us seventy-two seats. Room for everybody, and the cellos. Call him."]
+      ],
+      "qs": [
+       {"q": "What is the final reason Ingrid gives for rejecting the train?", "o": ["The ticket cost alone would exceed their budget.", "The morning train arrives too late for the warm-up.", "The station is too far from the concert hall to walk.", "Group fares are only offered for one-way trips."], "a": 0, "t": "inference", "ev": "That’s over four thousand before we’ve rented a single truck", "x": "Forty dollars × 52 × 2 is over $4,000, above the $3,400 budget, before a truck is even added. The train arrives just after eleven, well before the 1:15 warm-up, so timing is not the problem."},
+       {"q": "Why can the school board buses not be used?", "o": ["The transportation office has no drivers that day.", "They cannot legally carry the larger instruments.", "The trip is longer than board rules permit.", "They are needed for regular school routes."], "a": 2, "t": "paraphrase", "ev": "board policy doesn’t allow them on trips longer than two hundred kilometres one way", "x": "Ottawa is about 340 km away, but board policy limits yellow buses to 200 km one way. Drivers and regular routes are never mentioned; “no wiggle room” refers to the policy, not to staffing."},
+       {"q": "What does Ingrid suggest about using parent drivers?", "o": ["It would be cheapest, but most parents would refuse to drive.", "It couldn’t be organized in time, and it would worry her.", "It would only be possible if the forecast were clear.", "Parents would not be allowed to carry instruments."], "a": 1, "t": "inference", "ev": "We’d never collect all of that by Wednesday", "x": "The police checks and insurance proof could never be collected by Wednesday, and she pictures herself staring at her phone if it snows – anxiety. She never says parents would refuse, and good weather would not solve the paperwork problem."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "Okay, I just got off the phone. Good news and slightly less good news."],
+       ["A", "Good news first. I need it after the morning I’ve had."],
+       ["B", "Lakeshore can do Friday with two coaches, leaving the school at eight sharp, which gets us to Ottawa around twelve thirty even with a rest stop. Total quote is twenty-nine hundred, taxes in."],
+       ["A", "That’s under budget even without the refund. Where’s the catch?"],
+       ["B", "Two catches, actually. First, the luggage bays underneath are too shallow for the bass and the percussion cases, so those would have to ride inside, strapped across the back rows."],
+       ["A", "That costs us maybe twelve seats. Sixty left for fifty-two people. I can live with that."],
+       ["B", "Second, the return. Their drivers can’t legally drive home Friday night after driving up in the morning and waiting all afternoon. Hours-of-service rules. So either we stay over in Ottawa and come back Saturday, or they send a second pair of drivers up by car to bring us home Friday evening. That’s another four hundred."],
+       ["A", "Twenty-nine plus four is thirty-three hundred. Still inside the limit. An overnight would mean hotel rooms, new permission forms, chaperones giving up their Saturday. Pay for the drivers."],
+       ["B", "I’ll ask him to email the contract this afternoon."],
+       ["A", "Good. And make sure it says in black and white that the instruments ride inside the coaches. After this morning, I’m not taking anyone’s word over the phone."]
+      ],
+      "qs": [
+       {"q": "What does Ingrid decide about the return journey?", "o": ["To stay overnight so the original drivers can rest", "To pay extra so the group can travel home on Friday", "To use part of the refund to rent a truck for the cases", "To return on Saturday to avoid new permission forms"], "a": 1, "t": "detail", "ev": "Pay for the drivers", "x": "She accepts the extra $400 for a second pair of drivers ($3,300 in total) so the group comes home Friday evening. An overnight stay would require new permission forms, which is why she rejects the Saturday return."},
+       {"q": "Why does Ingrid want the instrument arrangement written into the contract?", "o": ["The festival requires written proof of transport.", "Lakeshore normally charges extra for large items.", "Rafael’s relative might forget what was agreed.", "She no longer trusts arrangements made verbally."], "a": 3, "t": "inference", "ev": "After this morning, I’m not taking anyone’s word over the phone", "x": "Northline’s phoned promise of a partner bus collapsed that morning, so she wants everything in writing. She doesn’t single out Rafael’s relative, and no festival requirement or extra charge is mentioned."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A newcomer to Canada is speaking with a clerk at a driver licensing office.",
+    "sp": {
+     "A": {"name": "Gordon", "g": "m", "acc": "en-CA", "rate": 1.04},
+     "B": {"name": "Anjali", "g": "f", "acc": "en-IN", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Next, please. Hi there, what can I do for you?"],
+       ["B", "Hi. I moved here from Pune in August, and I’d like to switch my licence over. I’ve been driving for nine years, so I’m hoping I don’t have to start from scratch like a sixteen-year-old."],
+       ["A", "Let’s have a look. Licence, passport and proof of address? Thanks. Okay, so India isn’t one of the places we have an exchange agreement with, which means I can’t simply swap this for a provincial card today."],
+       ["B", "Oh no. So it’s the learner’s permit and the twelve-month wait? That’s what happened to a friend of mine."],
+       ["A", "Not necessarily. If you can prove at least two years of driving experience, we give you credit for it. You’d do the knowledge test and the eye exam, and then you could book the advanced road test right away, without going through the earlier stages."],
+       ["B", "That’s a relief. What counts as proof?"],
+       ["A", "An official letter from the authority that issued your licence, showing the date it was first issued. If it isn’t in English or French, it needs a translation from a certified translator."],
+       ["B", "I have the letter right here. But it’s in Marathi. It never occurred to me to get it translated."],
+       ["A", "Then I can’t accept it today, I’m afraid. But don’t waste the trip. You can still do the knowledge test and the eye exam now and bring the translation in later. Your results stay valid for a year."],
+       ["B", "Okay, let’s do that. And for the road test, how long is the wait?"],
+       ["A", "Here in the city, the next opening is about seven weeks away. The centre in Millbrook, about forty minutes north, usually has spots within ten days. A lot of people make the drive."],
+       ["B", "My cousin lives near Millbrook, actually. I could borrow her car."],
+       ["A", "That’s fine, as long as it’s insured and roadworthy. The examiner checks the signals and brake lights before you set off. One more thing, though. With foreign experience, you get a single attempt at the advanced test. If it doesn’t go well, you move to the intermediate stage like any other new driver."],
+       ["B", "No pressure, then. Honestly, I think I’ll book a couple of lessons first. The roundabouts here still throw me."],
+       ["A", "That’s probably wise. The knowledge test room is just behind you. It’s on a computer and takes about half an hour."]
+      ],
+      "qs": [
+       {"q": "What does Anjali fear when she hears there is no exchange agreement?", "o": ["Being unable to drive her cousin’s car", "Having to start over and wait a full year", "Having her original licence confiscated by the office", "Paying for a certified translation"], "a": 1, "t": "paraphrase", "ev": "So it’s the learner’s permit and the twelve-month wait?", "x": "She asks whether it means “the learner’s permit and the twelve-month wait” – starting over and waiting a year. The translation comes up later, and nobody suggests her licence would be taken away."},
+       {"q": "Why can the clerk not accept Anjali’s letter today?", "o": ["It does not show the date her licence was first issued.", "It shows less than two years of driving experience.", "It was issued by an authority the province does not recognize.", "It is written in a language the office cannot accept."], "a": 3, "t": "detail", "ev": "If it isn’t in English or French, it needs a translation from a certified translator", "x": "Her letter is in Marathi, and documents not in English or French need a certified translation. The letter is official and from the issuing authority; its dates and her nine years of experience are not a problem."},
+       {"q": "What does the clerk say about the Millbrook centre?", "o": ["Its examiners are known to be less strict.", "Applicants there must bring their own vehicle.", "It would let Anjali take her test much sooner.", "It is the only centre offering advanced tests."], "a": 2, "t": "paraphrase", "ev": "usually has spots within ten days", "x": "Millbrook usually has openings within ten days, compared with about seven weeks in the city. Nothing is said about how strict the examiners are, and borrowing a car is Anjali’s own idea, not a Millbrook rule."},
+       {"q": "According to the clerk, what would happen if Anjali failed the advanced road test?", "o": ["She would have to wait seven weeks for another try.", "She would no longer get credit for her experience.", "She would need to rewrite the knowledge test.", "She would have to restart with a learner’s permit."], "a": 1, "t": "inference", "ev": "you move to the intermediate stage like any other new driver", "x": "Failing means moving to the intermediate stage like any new driver, so the experience credit is lost. She would not go all the way back to a learner’s permit, and no new knowledge test is mentioned."},
+       {"q": "What does Anjali mean when she says “No pressure, then”?", "o": ["She feels the single-attempt rule raises the stakes.", "She is pleased that the test sounds fairly simple.", "She thinks she has plenty of time to get ready.", "She is relieved the examiner inspects the car first."], "a": 0, "t": "attitude", "ev": "No pressure, then.", "x": "Said ironically right after hearing she gets only one attempt, it means the stakes feel high, which is why she decides to book lessons. She is neither pleased nor relieved by the rule."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A man calls an accessible transit service to ask about door-to-door rides for his mother.",
+    "sp": {
+     "A": {"name": "Lorraine", "g": "f", "acc": "en-CA", "rate": 1.03},
+     "B": {"name": "Victor", "g": "m", "acc": "en-GB", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Accessible Transit Services, this is Lorraine speaking. How can I help?"],
+       ["B", "Hi, Lorraine. I’m calling about my mother. She had hip surgery three weeks ago, and she’s using a walker now. The regular bus stop is four blocks from her building, and there’s no way she can manage that in the snow. Someone at the hospital mentioned your door-to-door service."],
+       ["A", "Of course. To use the service, your mother has to register first. There are three kinds of eligibility. Unconditional is for people who can never use regular buses. Conditional covers people who can manage regular transit in some situations but not others, for example in winter. And temporary is for people who are recovering from surgery or an injury. From what you’re describing, your mother would most likely be temporary."],
+       ["B", "How long would that last?"],
+       ["A", "Up to six months. If she still needs the service after that, her doctor can request an extension."],
+       ["B", "And how does she apply? She has physio appointments starting on the twelfth, so we’re in a bit of a hurry."],
+       ["A", "There’s a two-part form. She fills in the first part, and a health professional, a doctor, nurse practitioner or physiotherapist, completes the second. Normally it takes up to twenty-one days to process. But if the form comes directly from a hospital discharge team, we fast-track it, and it usually takes about five business days."],
+       ["B", "She’s already been discharged, unfortunately. But her physiotherapist could do it, I suppose."],
+       ["A", "She could, but that would follow the standard timeline. Another option is to call the hospital’s discharge office. They can still submit it for patients discharged in the past thirty days."],
+       ["B", "That’s good to know. Once she’s registered, how does booking work?"],
+       ["A", "Trips can be booked up to seven days in advance, and the latest you can book is five p.m. the day before. When you book, you get a pickup time, and the vehicle can arrive any time within thirty minutes after that. The driver will wait five minutes, then leave."],
+       ["B", "Thirty minutes is quite a window. She’ll be standing in the lobby a while."],
+       ["A", "Many customers wait inside and watch for the vehicle through the window. And we strongly recommend booking the return trip at the same time, since afternoon slots fill up fast."],
+       ["B", "What about the fare?"],
+       ["A", "Same as the regular bus, three twenty-five a trip. If she’s registered as needing an attendant, the attendant rides free. Anyone else travelling with her as a companion pays the regular fare."],
+       ["B", "She’s pretty independent apart from the walker, so I’d just be along for company."],
+       ["A", "Then you’d pay the fare. One last thing: if she can’t make a trip, she must cancel at least two hours before pickup. Three no-shows in one calendar month lead to a two-week suspension."]
+      ],
+      "qs": [
+       {"q": "Which type of eligibility does the agent expect Victor’s mother to receive?", "o": ["Conditional, since she can’t reach the bus stop in winter", "Temporary, since she is healing after an operation", "Unconditional, since she now depends entirely on a walker", "Conditional, but only until her physiotherapy ends"], "a": 1, "t": "inference", "ev": "temporary is for people who are recovering from surgery or an injury", "x": "Lorraine says his mother would “most likely be temporary”, the category for people recovering from surgery. Winter difficulty is her example of conditional eligibility – a trap built from Victor’s mention of snow."},
+       {"q": "How could the application be processed faster?", "o": ["If her physiotherapist completes the second part", "If the hospital’s discharge staff send it in", "If Victor drops the completed form off in person", "If her doctor requests it within thirty days"], "a": 1, "t": "detail", "ev": "if the form comes directly from a hospital discharge team, we fast-track it", "x": "Forms sent by a hospital discharge team are fast-tracked to about five business days, and this still works for patients discharged within thirty days. A physiotherapist’s form follows the standard 21-day timeline."},
+       {"q": "Victor’s mother needs a ride on Thursday morning. What is the latest she can book it?", "o": ["Wednesday at 5 p.m.", "Thursday, two hours before pickup", "The previous Thursday", "Wednesday at midnight"], "a": 0, "t": "detail", "ev": "the latest you can book is five p.m. the day before", "x": "Bookings close at 5 p.m. the day before, so Wednesday at 5 p.m. Two hours before pickup is the cancellation deadline, and seven days ahead is the earliest booking, not the latest."},
+       {"q": "What is Victor’s attitude toward the pickup window?", "o": ["He thinks it is reasonable given the winter weather.", "He wants the driver to wait longer than five minutes.", "He’s uneasy about how long she might be waiting.", "He is surprised that the service is so punctual."], "a": 2, "t": "attitude", "ev": "Thirty minutes is quite a window.", "x": "“Quite a window” and picturing her “standing in the lobby a while” show concern about waiting. He never asks the driver to wait longer; the five-minute rule is Lorraine’s, and he does not comment on it."},
+       {"q": "How much will Victor pay if he travels with his mother?", "o": ["Nothing, since attendants ride free", "A special reduced companion rate", "Half of the regular bus fare", "The same fare his mother pays"], "a": 3, "t": "inference", "ev": "Anyone else travelling with her as a companion pays the regular fare", "x": "He would go “just … for company”, so he is a companion and pays the regular fare – the same $3.25 his mother pays. Free travel applies only to a registered attendant, which she does not need."},
+       {"q": "What would lead to a suspension from the service?", "o": ["Failing to book return trips in advance", "Cancelling three trips in one calendar month", "Not showing up three times in a month", "Keeping the driver waiting more than five minutes"], "a": 2, "t": "paraphrase", "ev": "Three no-shows in one calendar month lead to a two-week suspension", "x": "Three no-shows in a calendar month bring a two-week suspension. Cancelling at least two hours ahead is allowed, and booking return trips early is only a recommendation."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report about public transit.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "m", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Marisol Duarte", "g": "f", "acc": "en-GB", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Riders on Harbourview Regional Transit will soon stop having to do the math on whether a monthly pass is worth it. Starting February first, the agency is introducing fare capping for anyone who pays by tapping a credit card, debit card or phone. Once a rider’s taps in a single day add up to the price of a day pass, ten dollars, every further trip that day is free. And once they reach the price of a monthly pass, one hundred and twenty dollars, they ride free for the rest of the calendar month."],
+       ["A", "Until now, riders who wanted the monthly discount had to pay the full amount up front, on the first of the month. Agency spokesperson Marisol Duarte says that requirement fell hardest on the people who ride the most."],
+       ["B", "If you’re living paycheque to paycheque, finding a hundred and twenty dollars on the first of the month is a real barrier. So those riders were paying fare by fare and ending up spending more over the month than someone who could afford the pass. Capping means you get the pass price automatically, whether you have the money all at once or not."],
+       ["A", "There is a catch, however. The capping only applies to full adult fares for now. Seniors, students and youth, who pay reduced fares, will have to keep using the agency’s own reloadable card until a system upgrade planned for the fall. The agency estimates that the change will cost about three million dollars a year in lost revenue, which it hopes to recover partly by printing fewer paper tickets and closing two ticket offices."],
+       ["A", "The riders’ advocacy group Fair Fares Harbourview welcomed the announcement, but its chair said the agency had stopped short. Many shift workers and students, she argued, are paid weekly or every two weeks, and a weekly cap would help them far more than a monthly one. The agency says it will review ridership data after six months before considering any further changes."]
+      ],
+      "qs": [
+       {"q": "What is the main change being reported?", "o": ["Monthly passes will cost less starting in February.", "Tap payments will stop once they reach pass prices.", "Paper tickets will no longer be accepted on buses.", "Day passes will be sold through a new phone app."], "a": 1, "t": "main", "ev": "the agency is introducing fare capping for anyone who pays by tapping a credit card, debit card or phone", "x": "Fare capping means riders who tap stop being charged once they reach the day- or month-pass price. Pass prices themselves are not reduced, and fewer paper tickets will be printed rather than banned."},
+       {"q": "According to Marisol Duarte, who was disadvantaged under the old system?", "o": ["Frequent riders unable to pay a lump sum up front", "Seniors and students who were paying reduced fares", "Occasional riders who bought a monthly pass anyway", "Riders who preferred to pay with cash rather than cards"], "a": 0, "t": "inference", "ev": "If you’re living paycheque to paycheque, finding a hundred and twenty dollars on the first of the month is a real barrier", "x": "She says heavy riders living paycheque to paycheque couldn’t find $120 at once, so they paid more fare by fare. Reduced-fare riders are mentioned only as being excluded from the new capping for now."},
+       {"q": "What is true about riders who pay reduced fares?", "o": ["They will be able to use fare capping immediately.", "They will lose access to the reloadable card in the fall.", "They must wait for a technical change before benefiting.", "They will pay the full adult fare until the fall."], "a": 2, "t": "paraphrase", "ev": "will have to keep using the agency’s own reloadable card until a system upgrade planned for the fall", "x": "Concession riders keep using the reloadable card until a fall system upgrade, so they must wait for a technical change. They do not lose the card, and nothing says they will pay adult fares."},
+       {"q": "How does the chair of Fair Fares Harbourview feel about the change?", "o": ["She welcomes it but feels it is incomplete.", "She believes it will mainly benefit the transit agency.", "She objects to closing the two ticket offices.", "She wants the monthly cap lowered to one hundred dollars."], "a": 0, "t": "attitude", "ev": "the agency had stopped short", "x": "The group “welcomed” the move but said the agency “stopped short”, wanting a weekly cap – partial approval. She never discusses the ticket offices or a lower monthly price."},
+       {"q": "How does the agency hope to make up for lost revenue?", "o": ["By raising the price of a day pass", "By charging a small fee for each tap", "By reviewing ridership after six months", "By reducing its spending on ticketing"], "a": 3, "t": "paraphrase", "ev": "printing fewer paper tickets and closing two ticket offices", "x": "Printing fewer paper tickets and closing two ticket offices both cut ticketing costs. The six-month review is about considering further changes such as a weekly cap, not about recovering revenue."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "A family is discussing whether to keep their second car.",
+    "sp": {
+     "A": {"name": "Colette", "g": "f", "acc": "en-CA", "rate": 1.0},
+     "B": {"name": "Dev", "g": "m", "acc": "en-IN", "rate": 0.97},
+     "C": {"name": "Jonah", "g": "m", "acc": "en-US", "rate": 1.05}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Okay, before anyone disappears for the evening, we need to make a decision about the hatchback. The garage called back with the estimate: twenty-eight hundred for the timing belt and the rust on the rear frame. And the mechanic said he wouldn’t put another winter on it without fixing both."],
+       ["B", "Twenty-eight hundred. On a car that’s worth maybe four thousand."],
+       ["A", "Which is exactly my point. I think we sell it as is and live with one car. We already pay insurance on two vehicles that spend most of the week parked in the driveway."],
+       ["B", "Most of the week, sure. But you’re forgetting my night shifts. When I finish at the hospital at seven in the morning, fine, the buses are running. But when I start at eleven at night, the last bus that gets me there leaves at ten-ten, and it’s the route that’s late half the time."],
+       ["C", "And I need it this summer. The landscaping job starts at six-thirty in Riverbend, and there’s literally no bus out there before eight."],
+       ["A", "Jonah, you were going to cycle to that job. That was the whole plan in March."],
+       ["C", "That was before I knew we’d be hauling equipment between sites. Although, actually, the crew lead said they pick everyone up at the depot on Lakeview Road. That’s, what, fifteen minutes by bike?"],
+       ["A", "Twelve. I timed it when we dropped off your application."],
+       ["B", "Fine, so Jonah doesn’t really need it. That still leaves my nights. I’m not standing at a bus stop at ten at night in January hoping the ten-ten shows up."],
+       ["A", "What about the car-share? There are two of their cars parked behind the grocery store. It’s around fourteen dollars an hour, and the membership is a hundred a year."],
+       ["B", "For a nine-hour shift? I’d be paying for the car to sit in the hospital parking lot all night. That’s over a hundred and twenty dollars a shift. No thank you."],
+       ["C", "Couldn’t you just book it one way? Some of those services let you leave the car anywhere in the zone."],
+       ["A", "This one doesn’t. It has to go back to the same spot. But Dev, didn’t you say Rosalind from your unit lives near the arena?"],
+       ["B", "Rosalind? She does, and she works the same nights as me, three a week. She’s offered before, but I didn’t want to impose."],
+       ["A", "Offer to pay her for gas. Even fifty dollars a week is nothing next to twenty-eight hundred dollars plus insurance."],
+       ["B", "I suppose it’s worth asking. But if her schedule changes, I’m stuck."],
+       ["C", "Then you take a taxi on those nights. Even at thirty bucks each way, you’d need a lot of taxi nights to spend what the repair costs."],
+       ["B", "You two have clearly rehearsed this."],
+       ["A", "We haven’t, I promise. But think about it. Insurance on the hatchback is about a hundred and ten a month. That alone is over thirteen hundred a year."],
+       ["B", "All right. Here’s my condition. We don’t sell it tomorrow. I talk to Rosalind this week. If she agrees, we try carpooling and taxis for a month, with the hatchback parked and the insurance reduced to storage coverage. If it works, we sell it in the spring, when used cars go for more anyway."],
+       ["A", "A month’s trial. I can accept that, as long as we don’t pay for that timing belt in the meantime."],
+       ["C", "And if it works, can I have the money from the sale for university?"],
+       ["B", "Nice try. We’ll talk about that in the spring."]
+      ],
+      "qs": [
+       {"q": "What is Colette’s main argument for selling the hatchback?", "o": ["It is no longer safe to drive during the winter months.", "The family pays to insure a car that mostly sits idle.", "Selling it would help cover Jonah’s university costs.", "The repair would cost more than the car is worth."], "a": 1, "t": "main", "ev": "We already pay insurance on two vehicles that spend most of the week parked in the driveway", "x": "Colette stresses paying insurance on vehicles that sit parked most of the week, later adding that it costs over $1,300 a year. Dev, not Colette, compares the repair with the car’s value – and the repair actually costs less."},
+       {"q": "Why does Dev object to relying on the bus for his night shifts?", "o": ["The buses do not run when his shift ends in the morning.", "The bus he would need is unreliable and leaves early.", "The bus stop near the hospital is poorly lit at night.", "He would have to transfer twice to reach the hospital."], "a": 1, "t": "detail", "ev": "it’s the route that’s late half the time", "x": "For an 11 p.m. start, the last useful bus leaves at 10:10 and is late half the time. Buses are running when his shift ends at seven in the morning, so the morning is not his problem."},
+       {"q": "What can be inferred about Jonah’s claim that he needs the car?", "o": ["It is weaker than he first suggested.", "It is supported by his mother.", "It depends on whether he keeps the job.", "It is based on advice from his employer."], "a": 0, "t": "inference", "ev": "Fine, so Jonah doesn’t really need it.", "x": "Jonah admits the crew picks everyone up at a depot about twelve minutes away by bike, so his case collapses, as Dev points out. His mother contradicts him rather than supporting him."},
+       {"q": "Why does Dev reject the car-share service?", "o": ["The vehicles are parked too far from where he lives.", "The annual membership fee is too expensive.", "He would pay for hours when it was simply parked.", "Its cars cannot be booked late in the evening."], "a": 2, "t": "detail", "ev": "I’d be paying for the car to sit in the hospital parking lot all night", "x": "At about $14 an hour, a nine-hour shift would cost over $120 while the car just sits in the lot. The membership fee is mentioned without complaint, and distance is never raised."},
+       {"q": "What is true about the car-share service Colette mentions?", "o": ["Its cars must be returned to their pickup spot.", "Its cars can be left anywhere inside the zone.", "Members pay fourteen dollars for each trip.", "Only two members can use it at one time."], "a": 0, "t": "detail", "ev": "It has to go back to the same spot.", "x": "Colette says this service’s cars must go back to the same spot. Leaving cars anywhere is Jonah’s idea about other services, and $14 is an hourly rate, not a price per trip."},
+       {"q": "How does Dev first react to the idea of carpooling with Rosalind?", "o": ["He is keen, since she has offered before.", "He refuses, as they work different shifts.", "He agrees, provided she accepts no money.", "He is hesitant about depending on her."], "a": 3, "t": "attitude", "ev": "I suppose it’s worth asking. But if her schedule changes, I’m stuck.", "x": "“I suppose it’s worth asking” is reluctant, and he worries about being stuck if her schedule changes; earlier he didn’t want to impose. They work the same nights, and paying for gas is Colette’s idea."},
+       {"q": "What does Dev mean when he says “You two have clearly rehearsed this”?", "o": ["He is pleased they have planned so carefully.", "He suspects they have already sold the car.", "He feels outnumbered by his wife and son.", "He wants them to write their arguments down."], "a": 2, "t": "attitude", "ev": "You two have clearly rehearsed this.", "x": "After Colette and Jonah answer each of his objections in turn, he jokes that they rehearsed – he feels they are ganging up on him. Colette denies planning it, so he isn’t praising careful preparation."},
+       {"q": "What does the family finally agree to do?", "o": ["Sell the hatchback right away and use taxis at night", "Repair the timing belt and lend it to Jonah for summer", "Keep it until the sale can help pay for university", "Try a month without it before selling it in spring"], "a": 3, "t": "main", "ev": "we try carpooling and taxis for a month", "x": "Dev’s condition is a one-month trial of carpooling and taxis with the car parked, then a spring sale if it works. Colette accepts as long as the timing belt isn’t paid for in the meantime."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about speed cameras in a Canadian town.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "f", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "When the town of Fernvale installed its first automated speed cameras in school zones last September, the idea was simple: slow drivers down near children. A year later, the cameras are still flashing, and the debate over them is louder than ever."],
+       ["A", "The numbers the town released this month are striking. At the six camera sites, the share of drivers going more than ten kilometres over the limit fell from about one in four to fewer than one in twenty. Police Chief Alana Whitford calls that a result her officers could never have achieved on their own. With a small traffic unit, she says, officers might sit at a single school for an hour a week, and drivers quickly learn when they’re likely to be there. A camera, by contrast, never takes a coffee break."],
+       ["A", "But not everyone is persuaded. The regional drivers’ association points out that the cameras issued more than eleven thousand tickets in their first year, bringing in roughly one point four million dollars. Its spokesperson argues that if safety were really the priority, the town would have started with flashing signs and speed bumps, which slow traffic without fining anyone. She also notes that tickets go to the vehicle’s owner, not the driver, so no demerit points are recorded, and a habitual speeder who can afford the fines has little reason to change."],
+       ["A", "The town’s answer is that every dollar of camera revenue goes into a dedicated road safety fund, which this year paid for twelve new raised crosswalks. Councillor Bernard Achebe, who chairs the transportation committee, admits that the public has not been told this clearly enough. If people believe the money disappears into general revenue, he says, they will always see the cameras as a tax."],
+       ["A", "Researchers add a further complication. Dr. Miriam Osei, who studies traffic behaviour at a university in the region, says speed cameras work best when drivers can see them coming. Hidden or unexpected cameras catch more people, she notes, but they don’t change behaviour along the rest of the street. Her research suggests that large, visible warning signs, placed well before the camera, produce slower speeds over a longer stretch of road, even if they mean fewer tickets."],
+       ["A", "Some parents have a concern of their own: the cameras run only from seven in the morning until seven in the evening on school days, while the same streets are busy with children on weekends and summer evenings, when the parks next door are full."],
+       ["A", "Council will vote next month on a proposal to add eight more cameras. According to people familiar with the discussions, the likeliest outcome is approval, but on the condition that every camera is announced by a warning sign and that the town publishes an annual report showing exactly where the revenue goes."]
+      ],
+      "qs": [
+       {"q": "Why does Police Chief Whitford support the cameras?", "o": ["They free officers to concentrate on more serious crimes.", "They provide steady enforcement that patrols can’t match.", "They bring in extra funds for her small traffic unit.", "They cost much less than hiring additional officers."], "a": 1, "t": "viewpoint", "ev": "A camera, by contrast, never takes a coffee break.", "x": "She contrasts officers who can watch one school an hour a week – and whose patterns drivers learn – with a camera that “never takes a coffee break”. Funding and cost savings are not part of her argument."},
+       {"q": "What does the drivers’ association suggest about the town’s motives?", "o": ["The town cares more about revenue than about safety.", "The town ignored advice it received from the police.", "The town wants to replace speed bumps with cameras.", "The town plans to add demerit points to camera tickets."], "a": 0, "t": "inference", "ev": "if safety were really the priority, the town would have started with flashing signs and speed bumps", "x": "By saying “if safety were really the priority” the town would have tried measures that fine no one, she implies money is the real motive. She recommends speed bumps; she doesn’t say the town is replacing them."},
+       {"q": "What problem with camera tickets does the association raise?", "o": ["They are frequently mailed to the wrong address.", "They don’t penalize the actual driver’s record.", "They are more expensive than tickets from officers.", "They cannot be challenged in court."], "a": 1, "t": "paraphrase", "ev": "no demerit points are recorded", "x": "Tickets go to the owner, so no demerit points are recorded, and a speeder who can afford fines has little reason to change. Mailing errors, relative costs and court challenges are never mentioned."},
+       {"q": "What does Councillor Achebe admit?", "o": ["The road safety fund has been poorly managed.", "Some of the camera revenue went into the general budget.", "Twelve new crosswalks were too few for the town.", "Residents haven’t been told clearly how funds are used."], "a": 3, "t": "paraphrase", "ev": "admits that the public has not been told this clearly enough", "x": "He admits residents haven’t been told clearly that all revenue goes to the safety fund. He warns that people may believe the money disappears into general revenue; he doesn’t say it actually does."},
+       {"q": "According to Dr. Osei, what is the effect of visible warning signs?", "o": ["They slow drivers over a longer section of road.", "They lead to more tickets as well as slower speeds.", "They are effective only in the blocks near schools.", "They catch more speeders than hidden cameras do."], "a": 0, "t": "detail", "ev": "produce slower speeds over a longer stretch of road, even if they mean fewer tickets", "x": "Visible signs bring slower speeds over a longer stretch of road, though with fewer tickets. Hidden cameras are the ones that catch more people, so the last option reverses her point."},
+       {"q": "What is the most likely outcome of next month’s vote?", "o": ["Eight more cameras will be installed without changes.", "The cameras will run on weekends and summer evenings.", "Expansion will pass, with signs and public reporting.", "The proposal will be delayed until parents are consulted."], "a": 2, "t": "prediction", "ev": "the likeliest outcome is approval, but on the condition that every camera is announced by a warning sign", "x": "Approval is likely, but conditional on warning signs and an annual revenue report. Running cameras on weekends and summer evenings is the parents’ concern, not part of the proposal."}
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Tomasz Wierzba  |  To: Odile Marchetti  |  Subject: The train trip – the honest version",
+   "text": "Dear Odile,\n\nI’m finally home, unpacked, and only slightly less rattled than when I stepped off the train in Vancouver. You asked me to report back before you book anything for the kids, so here is the honest version rather than the postcard version.\n\nFirst, the good. I had worried that four nights in a cabin the size of a walk-in closet would drive me up the wall, but I barely noticed it. Most of my waking hours were spent in the observation car, where the seats face enormous curved windows, and somewhere between Winnipeg and Saskatoon I stopped checking my phone altogether. Meals were served in the dining car at shared tables, which I dreaded at first. As it turned out, those conversations with strangers – a retired grain inspector, two nurses from Moncton, a young couple on their honeymoon – were the highlight of the trip.\n\nNow the less good. Passenger trains on that line have to pull aside whenever a freight train needs the track, and freight always wins. We arrived nine hours behind schedule, which meant I missed the dinner my daughter had planned for my first evening. Nobody on board seemed surprised. The staff told me delays of half a day are common in the fall, when grain shipments are heaviest. I wish someone had mentioned that before I booked.\n\nAs for the cabin itself, the beds were comfortable enough, but the shared shower at the end of the car was not something I would write home about – and yet here I am, writing home about it.\n\nIf you do take Léo and Maëlle, I’d skip the economy seats. Sleeping upright for four nights might be an adventure for an eleven-year-old, but I suspect it would be less of one for you. A family cabin costs more, but they sell out months ahead, so don’t wait until the spring to decide. And please, whatever you do, don’t plan anything on the day you arrive.\n\nI’m enclosing a few photos. The one of the mountains at dawn is the reason I’m already thinking about going back.\n\nWarmly,\nTomasz",
+   "qs": [
+    {"q": "Why did Tomasz write this letter?", "o": ["To thank Odile for recommending the train journey", "To give Odile a candid review before she books", "To complain to Odile about the railway’s staff", "To invite Odile and her children on his next trip"], "a": 1, "t": "purpose", "ev": "here is the honest version rather than the postcard version", "x": "Odile asked for a report before booking, and he promises “the honest version”. Nothing suggests Odile recommended the trip, and he says nothing negative about the staff, who simply weren’t surprised by the delay."},
+    {"q": "How did Tomasz feel about the size of his cabin?", "o": ["It bothered him less than he had expected.", "It made the nights uncomfortable for him.", "It was larger than the photographs suggested.", "It forced him to spend his days in the dining car."], "a": 0, "t": "inference", "ev": "I barely noticed it", "x": "He feared the closet-sized cabin would drive him “up the wall” but “barely noticed it”. He spent his days in the observation car, not the dining car, and found the beds comfortable enough."},
+    {"q": "What does Tomasz suggest about the shared meals?", "o": ["He avoided them after the first evening.", "The food itself was the best part of the whole trip.", "They turned out better than he had anticipated.", "He preferred eating alone in his cabin."], "a": 2, "t": "attitude", "ev": "which I dreaded at first", "x": "He “dreaded” shared tables at first, but the conversations became “the highlight of the trip”. The highlight was the people, not the food, and nothing suggests he ate alone."},
+    {"q": "Why did the train arrive late?", "o": ["Grain shipments blocked the station in Vancouver.", "Bad weather slowed the train in the mountains.", "Staff on board had to deal with a medical emergency.", "Freight traffic was given precedence on the track."], "a": 3, "t": "paraphrase", "ev": "freight always wins", "x": "Passenger trains must pull aside whenever freight needs the track, and “freight always wins”. Grain shipments explain why fall delays are common, but nothing says grain blocked the Vancouver station."},
+    {"q": "What does Tomasz imply about the railway?", "o": ["It should have warned him about possible delays.", "It deliberately hides its schedule from customers.", "It offered him compensation for the late arrival.", "Its staff were unprepared for the long delay."], "a": 0, "t": "inference", "ev": "I wish someone had mentioned that before I booked.", "x": "He wishes someone had told him about the common half-day delays before he booked – the railway should have warned him. Staff were not unprepared: “Nobody on board seemed surprised.”"},
+    {"q": "What advice does Tomasz give Odile?", "o": ["Book economy seats, since children find them exciting.", "Wait until spring, when prices for cabins drop.", "Reserve a family cabin well in advance.", "Arrange a celebration for the evening of arrival."], "a": 2, "t": "detail", "ev": "they sell out months ahead, so don’t wait until the spring to decide", "x": "Family cabins sell out months ahead, so she shouldn’t wait until spring – she should book early. He advises skipping economy seats and planning nothing on the day she arrives."}
+   ],
+   "reply": {
+    "intro": "Here is Odile’s response to Tomasz. Complete it by choosing the best option for each blank.",
+    "text": "Dear Tomasz,\n\nThank you for such a vivid letter – I laughed out loud at your description of the shower. I’m glad the trip was worth it overall, and I’m not at all surprised that the {1} ended up being your favourite part; you’ve always been able to talk to anyone.\n\nI have to admit your warning about delays made me rethink things. Maëlle has a swim meet the morning after we would get to Vancouver, so I had planned to {2}. I’ll change that, obviously. I’m also taking your advice about where to sleep. Paying more for a {3} hurts, but you’re right that I would be the one suffering if we sat upright for four nights.\n\nSince the cabins {4}, I’ll call the railway this week instead of waiting. And I’ll ask about travelling in early summer, when {5} are lighter, so we’re less likely to lose half a day.\n\nI loved the mountain photo. You’re clearly hooked!\n\nOdile",
+    "blanks": [
+     {"o": ["view from the observation car", "people at your dinner table", "sunrise over the mountains", "quiet of your little cabin"], "a": 1, "t": "coherence", "ev": "those conversations with strangers", "x": "Tomasz calls the conversations with strangers at shared tables “the highlight of the trip”, and Odile adds that he can talk to anyone. The observation car is where he spent his time, not his favourite part."},
+     {"o": ["skip the observation car", "book the economy seats", "arrive only the evening before", "fly home the morning after"], "a": 2, "t": "inference", "ev": "don’t plan anything on the day you arrive", "x": "A swim meet the morning after arrival means she planned to arrive only the evening before – risky with nine-hour delays, so she will change it. Seating is dealt with separately in the next sentences."},
+     {"o": ["economy ticket", "observation pass", "dining package", "family cabin"], "a": 3, "t": "coherence", "ev": "A family cabin costs more", "x": "Paying more for a family cabin “hurts”, but it saves her from sitting upright for four nights, as Tomasz warned. An economy ticket is the cheaper option he told her to skip."},
+     {"o": ["fill up months ahead", "are cheaper in spring", "are smaller than they look", "need a large deposit"], "a": 0, "t": "paraphrase", "ev": "they sell out months ahead", "x": "Tomasz warns that family cabins sell out months ahead, so she’ll call this week. Cheaper spring prices are never mentioned; waiting until spring is exactly what he advised against."},
+     {"o": ["passenger crowds", "ticket prices", "dining menus", "grain shipments"], "a": 3, "t": "inference", "ev": "delays of half a day are common in the fall, when grain shipments are heaviest", "x": "Half-day delays are common in fall because grain shipments are heaviest then, so early summer should mean lighter freight. Crowds and ticket prices have nothing to do with the delays he described."}
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Northgate General Hospital – Parking Rates (effective April 1)",
+    "intro": "Pay at any pay station by licence plate, or through the ParkSmart app. Rates apply 7 days a week, including holidays.",
+    "table": {
+     "cols": ["Option", "Who may use it", "Rate", "Limits", "Where valid"],
+     "rows": [
+      ["Hourly", "Anyone", "$3.00 per hour or part hour (first 20 min free)", "Daily maximum $18", "Lots A, B and Parkade"],
+      ["Daily pass", "Anyone", "$14 flat", "Until 11:59 p.m. on day of purchase", "Lots A, B, C and Parkade"],
+      ["5-Visit pass", "Patients and visitors", "$45", "Any 5 days within 30 days; in-and-out privileges", "All lots"],
+      ["Weekly pass", "Patients and visitors", "$55", "7 consecutive days; in-and-out privileges", "All lots"],
+      ["Evening flat rate", "Anyone", "$6 flat", "Enter after 5:00 p.m., exit by 7:00 a.m.", "Parkade only"],
+      ["Staff monthly permit", "Hospital employees", "$95 (Lot D) / $140 (Parkade)", "Calendar month", "Lot D or Parkade"]
+     ]
+    },
+    "notes": [
+     "Patients attending dialysis, chemotherapy or radiation appointments park free in Lot C when they show a ticket validated by their clinic.",
+     "Visitors aged 65 and over receive 25% off 5-Visit and Weekly passes. The discount does not apply to hourly, daily or evening rates.",
+     "Lot C closes at 9:00 p.m. Vehicles remaining after closing are charged the following day’s daily pass rate, even if parking was validated.",
+     "Each pass is linked to one licence plate. A second plate may be added to a Weekly pass only, for $10.",
+     "App payments carry a $0.35 convenience fee per transaction."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about hospital parking. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Kofi,\n\nDad’s surgery is booked for Monday morning, and the surgeon expects him to stay in for seven days. Mom insists on being there every single day, so I spent last night going through the hospital’s parking options. For her, the best choice by far is the {1}. Because she’s over 65, it will cost her {2} rather than the full price. You mentioned that you’ll sometimes drive her in your own car, so I’d add your plate to her pass as well, which brings the total to {3}.\n\nAs for me, I can only get there after work. I’ll usually arrive around six and leave by ten, so I’m going to use the {4}. The only drawback is that I’ll have to park in {5} rather than in Lot A, right by the main entrance.\n\nLet me know if you think I’ve missed anything.\n\nSimone",
+    "blanks": [
+     {"o": ["5-Visit pass", "Daily pass", "Weekly pass", "Evening flat rate"], "a": 2, "t": "diagram", "ev": "7 consecutive days; in-and-out privileges", "x": "Seven consecutive daily visits fit the Weekly pass ($55). A 5-Visit pass covers only five days, and seven daily passes would cost $98."},
+     {"o": ["$41.25", "$33.75", "$51.25", "$55.00"], "a": 0, "t": "diagram", "ev": "Visitors aged 65 and over receive 25% off 5-Visit and Weekly passes", "x": "$55 less 25% ($13.75) = $41.25. $33.75 is the discounted 5-Visit pass, and $51.25 already includes the second-plate fee."},
+     {"o": ["$41.25", "$65.00", "$48.75", "$51.25"], "a": 3, "t": "diagram", "ev": "A second plate may be added to a Weekly pass only, for $10", "x": "The $10 second-plate fee is added to the discounted pass: $41.25 + $10 = $51.25. The seniors’ discount applies to the pass, not the plate fee, so $48.75 is wrong; $65 ignores the discount."},
+     {"o": ["hourly rate", "Evening flat rate", "Daily pass", "5-Visit pass"], "a": 1, "t": "diagram", "ev": "Enter after 5:00 p.m., exit by 7:00 a.m.", "x": "Arriving around six and leaving by ten fits the $6 Evening flat rate. Four hours at the hourly rate would cost about $12, and a daily pass costs $14."},
+     {"o": ["Lot B", "Lot C", "the Parkade", "Lot D"], "a": 2, "t": "diagram", "ev": "Parkade only", "x": "The Evening flat rate is valid in the Parkade only. Lot C closes at 9 p.m., and Lot D is reserved for staff permits."}
+    ]
+   },
+   "qs": [
+    {"q": "A visitor plans to park in Lot B from 10:00 a.m. to 4:20 p.m. What is the cheapest way to pay?", "o": ["Pay hourly, for a total of $18", "Buy a daily pass for $14", "Pay hourly, for a total of $21", "Buy a 5-Visit pass for $45"], "a": 1, "t": "diagram", "ev": "$14 flat", "x": "Six hours twenty minutes, minus 20 free minutes, is 6 hours × $3 = $18 (the daily maximum). A $14 daily pass is cheaper. $21 forgets the free 20 minutes."},
+    {"q": "A 70-year-old needs to visit on six separate days spread across the next four weeks. What is the lowest total cost?", "o": ["$33.75", "$45.00", "$47.75", "$67.50"], "a": 2, "t": "diagram", "ev": "Visitors aged 65 and over receive 25% off 5-Visit and Weekly passes", "x": "A discounted 5-Visit pass costs $33.75; adding a $14 daily pass for the sixth day gives $47.75. Two discounted 5-Visit passes would cost $67.50, and $33.75 covers only five days."},
+    {"q": "A patient’s validated chemotherapy session runs late, and her car stays in Lot C until 9:30 p.m. What will happen?", "o": ["She will park free because her ticket was validated.", "She will be charged the evening flat rate of $6.", "She will pay $3 for the extra half hour.", "She will be charged a $14 daily rate."], "a": 3, "t": "diagram", "ev": "Vehicles remaining after closing are charged the following day’s daily pass rate, even if parking was validated", "x": "Lot C closes at 9 p.m., and cars left after closing pay the next day’s daily rate ($14) even with validation. The evening flat rate applies only in the Parkade."}
+   ]
+  },
+  "p3": {
+   "title": "Roundabouts: Going in Circles?",
+   "paras": [
+    "Twenty years ago, roundabouts were a rarity in most Canadian towns, associated more with European holidays than with the drive to work. Today, several provinces build them by default whenever an intersection needs to be redesigned. Engineers point to a simple geometric advantage: at a traditional four-way intersection there are thirty-two points where vehicles’ paths can cross, while a single-lane roundabout has only eight, and none of them involves a head-on or right-angle crash. Collisions still happen, but they tend to be low-speed sideswipes in which drivers walk away with a damaged bumper rather than a trip to hospital. Insurance data from one province suggests that injury collisions fell by roughly three quarters at intersections converted to roundabouts, although total collisions dropped far less.",
+    "Supporters also make an environmental case. Because drivers yield rather than stop, vehicles spend less time idling, and studies of converted intersections have recorded noticeable reductions in fuel use. Roundabouts also keep working during power failures, when traffic lights go dark, and they require no electricity, signal maintenance or timing adjustments. Their up-front cost, however, can be considerably higher than that of a signal, especially when a town has to buy land at the corners to fit the circle. Municipal budget officers often find themselves defending a project that costs more in its first year in the hope of saving money over the next thirty. Many councils, faced with that trade-off, choose the cheaper option and plan to revisit it later.",
+    "Not everyone has been won over. Driving instructors report that many new drivers, and quite a few experienced ones, remain unsure about who has the right of way, and confusion is greatest at multi-lane roundabouts, where drivers must choose a lane before entering. Advocates for people who are blind or have low vision raise a different concern. At a signalized crossing, the sound of traffic stopping tells a pedestrian when it is safe to cross; at a roundabout, the flow never fully stops, and the gaps between cars can be hard to judge by ear. Some cities have responded by adding raised crossings, textured paving or pedestrian-activated beacons a few metres back from the circle, where drivers are moving more slowly.",
+    "Cyclists have mixed views as well. On a compact single-lane roundabout, a cyclist can usually take the middle of the lane and move with traffic at similar speeds. Larger roundabouts are another story: drivers circulate faster, and a cyclist hugging the outer edge is easy to miss as cars exit. Newer designs in some Canadian cities therefore separate bicycles entirely, guiding them along a ring of their own outside the main circle, with crossings at each exit. These protected designs take up even more space, which limits where they can be built, particularly in older downtowns where buildings sit close to the road, but early observations suggest that drivers yield to cyclists at the crossings more consistently than many had predicted."
+   ],
+   "qs": [
+    {"q": "Crashes at roundabouts usually cause less serious harm than those at ordinary intersections.", "a": "A", "t": "paraphrase", "ev": "they tend to be low-speed sideswipes in which drivers walk away with a damaged bumper rather than a trip to hospital", "x": "Paragraph A: roundabout collisions are typically low-speed sideswipes that damage bumpers rather than send people to hospital."},
+    {"q": "People who cannot see well may struggle to judge when it is safe to cross.", "a": "C", "t": "paraphrase", "ev": "the gaps between cars can be hard to judge by ear", "x": "Paragraph C: for blind or low-vision pedestrians, gaps in the constant flow are hard to judge by ear."},
+    {"q": "Roundabouts produce fewer collisions in winter than intersections with traffic lights.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph A compares collision types and injury rates, but no paragraph mentions winter or seasonal differences. Not given (E)."},
+    {"q": "Some local governments choose a less expensive design even though a roundabout might save money in the long run.", "a": "B", "t": "inference", "ev": "Many councils, faced with that trade-off, choose the cheaper option and plan to revisit it later", "x": "Paragraph B: despite possible savings over thirty years, many councils choose the cheaper option for now."},
+    {"q": "Drivers have respected cyclists’ crossings at newer designs better than some people expected.", "a": "D", "t": "paraphrase", "ev": "drivers yield to cyclists at the crossings more consistently than many had predicted", "x": "Paragraph D: early observations show drivers yielding to cyclists more consistently than predicted."},
+    {"q": "Roundabouts continue to function during an electrical outage.", "a": "B", "t": "paraphrase", "ev": "Roundabouts also keep working during power failures", "x": "Paragraph B: roundabouts keep working during power failures, when traffic lights go dark."},
+    {"q": "Having to pick a lane before entering adds to drivers’ uncertainty.", "a": "C", "t": "paraphrase", "ev": "confusion is greatest at multi-lane roundabouts, where drivers must choose a lane before entering", "x": "Paragraph C: confusion is greatest at multi-lane roundabouts, where a lane must be chosen before entering."},
+    {"q": "Roundabouts with a separate ring for bicycles are cheaper to build than multi-lane roundabouts.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph D says protected designs take up more space, but no paragraph compares their construction cost with multi-lane roundabouts. Not given (E)."},
+    {"q": "The layout of a roundabout rules out the most dangerous kinds of crashes.", "a": "A", "t": "inference", "ev": "none of them involves a head-on or right-angle crash", "x": "Paragraph A: none of a roundabout’s eight conflict points involves a head-on or right-angle crash."}
+   ]
+  },
+  "p4": {
+   "title": "It’s Time to End Right Turns on Red Downtown",
+   "byline": "Opinion | by Imogen Halvorsen, urban planner and pedestrian safety advocate",
+   "text": "Ask most Canadian drivers about turning right on a red light, and they will look at you as if you had questioned the law of gravity. For decades, with the notable exception of Montreal, the manoeuvre has been treated as a basic right of the road: come to a full stop, look left, and go if the way is clear. I have done it thousands of times myself. But after fifteen years of studying how people move through our downtowns, I have come to believe that the practice no longer belongs in the busiest parts of our cities, and that council should ban it within the downtown core.\n\nThe rule spread across much of North America in the 1970s, during an oil crisis, on the theory that letting cars turn instead of idle would save fuel. It made a certain sense on suburban roads with few pedestrians. Downtown, the picture is very different. A driver preparing to turn right on red is looking left, toward oncoming traffic, for a gap. The pedestrian stepping off the curb on the right, or the cyclist coming up alongside, is precisely where the driver is not looking. Our city’s own collision reports show that over the past five years, right turns accounted for nearly one in five collisions involving pedestrians downtown, although the reports do not separate turns on red from turns on green.\n\nCritics will say that the fuel and time savings are real. They are, but they are small. A city traffic study last year estimated that banning right turns on red downtown would add an average of eleven seconds to a typical car trip through the core. I would gladly trade eleven seconds for a child crossing safely to school.\n\nOthers argue that the problem is not the rule but drivers who ignore it, rolling through without stopping. They have a point. Enforcement is lax, and a driver who actually stops and looks properly poses much less danger. But a law that depends on every driver, every time, performing a careful head-check in both directions is a law designed for ideal drivers, not real ones. Good street design accepts that people make mistakes and limits the damage those mistakes can do.\n\nThere is also the question of consistency. Our city already bans right turns on red at a handful of intersections, each marked with a small sign that is easy to miss. Drivers who visit downtown only occasionally have to scan every corner for these signs while also watching for pedestrians, buses and delivery vans. A single, clear rule across the whole core would be easier to understand and easier to enforce.\n\nI am not proposing a city-wide ban. In residential areas and along suburban arterials, where pedestrians are few and intersections are wide, right turns on red can remain. Nor am I suggesting that a ban is enough on its own. It works best alongside leading pedestrian intervals, which give people on foot a head start of a few seconds before cars get a green light, so that walkers are already visible in the crosswalk when turning traffic begins to move.\n\nCouncil will debate the downtown transportation plan next month. The draft plan proposes adding more no-right-on-red signs at twelve problem intersections. That is a timid half-measure that will leave the confusing patchwork in place. Councillors should be bolder: make the downtown core a no-right-on-red zone, put signs at every entry point, and give drivers one rule to remember instead of dozens.",
+   "qs": [
+    {"q": "What is the writer’s main argument?", "o": ["Right turns on red should be banned throughout the city.", "Drivers who roll through red lights should face tougher fines.", "The manoeuvre should no longer be allowed in the city centre.", "More intersections should have no-right-on-red signs."], "a": 2, "t": "main", "ev": "council should ban it within the downtown core", "x": "She wants a ban in the downtown core only (“I am not proposing a city-wide ban”). Adding signs at more intersections is the draft plan she dismisses as a “timid half-measure”."},
+    {"q": "Why does the writer mention the oil crisis of the 1970s?", "o": ["To explain the original purpose of the rule", "To show that fuel savings are still significant", "To argue that suburban drivers waste fuel", "To criticize the governments of that time"], "a": 0, "t": "purpose", "ev": "on the theory that letting cars turn instead of idle would save fuel", "x": "She explains that the rule was adopted to save fuel during an oil crisis. Later she calls today’s savings “small”, so she is not arguing that they remain significant."},
+    {"q": "What weakness does the writer admit in the city’s collision reports?", "o": ["They show that most pedestrian collisions involve right turns.", "They cannot show how many crashes happened during red lights.", "They were published before last year’s traffic study.", "They include only collisions involving cyclists."], "a": 1, "t": "inference", "ev": "the reports do not separate turns on red from turns on green", "x": "Because the reports don’t separate turns on red from turns on green, they can’t isolate red-light crashes. Right turns caused nearly one in five pedestrian collisions, not most of them."},
+    {"q": "How does the writer respond to people who blame drivers who do not stop?", "o": ["She rejects their view as entirely mistaken.", "She argues that stricter enforcement would solve the problem.", "She says careful drivers are just as dangerous as careless ones.", "She partly agrees but says rules must allow for human error."], "a": 3, "t": "attitude", "ev": "They have a point.", "x": "“They have a point” concedes lax enforcement, but she argues laws must suit “real” drivers who make mistakes. She says a driver who stops and looks properly poses much less danger, so not equal danger."},
+    {"q": "What is the writer’s opinion of the draft downtown transportation plan?", "o": ["It is too cautious and keeps a confusing system.", "It goes too far by banning turns across the city.", "It is a sensible first step toward a full ban.", "It ignores the needs of suburban drivers."], "a": 0, "t": "attitude", "ev": "That is a timid half-measure that will leave the confusing patchwork in place.", "x": "She calls signs at twelve intersections “a timid half-measure” that keeps “the confusing patchwork” – too cautious. She doesn’t treat it as a sensible first step; she wants councillors to be bolder."}
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I drive a delivery van downtown five days a week, so I expected to hate this column. Instead, I found myself agreeing with more of it than I’d like to admit. The writer is right that when I’m waiting to turn right on red, my eyes are {1}, and I’ve had more than one close call with someone stepping off the curb on my right.\n\nWhere I part ways with her is the eleven-second figure. That may be the {2}, but a van making forty stops a day, many of them after right turns, could lose far more than that. I’d like to see the study before anyone tells me the cost is {3}.\n\nI do agree, though, that the current situation is a mess. One clear rule would be far easier to follow than hunting for {4} on every corner. And her idea of giving pedestrians a few seconds’ {5} is something I’d support even if the ban never happens. Councillors should at least try that first.",
+    "blanks": [
+     {"o": ["looking left for a gap in traffic", "fixed on pedestrians stepping off the curb", "watching for cyclists coming up beside me", "checking the signal for the green light"], "a": 0, "t": "coherence", "ev": "A driver preparing to turn right on red is looking left, toward oncoming traffic, for a gap.", "x": "The article says a driver turning right on red looks left for a gap, away from people on the right – which explains his close calls. Watching pedestrians or cyclists is exactly what he isn’t doing."},
+     {"o": ["average for a typical car", "total for an entire day", "figure for commercial vans", "delay for city buses"], "a": 0, "t": "inference", "ev": "would add an average of eleven seconds to a typical car trip through the core", "x": "The eleven seconds is an average for a typical car trip; he argues a van making forty stops could lose far more. The study did not measure vans, buses or a whole day."},
+     {"o": ["excessive", "temporary", "unknown", "negligible"], "a": 3, "t": "vocab", "ev": "They are, but they are small.", "x": "The writer calls the time savings “small”; he wants evidence before accepting that the cost is negligible. “Excessive” is his own suspicion, not what he is being told."},
+     {"o": ["delivery loading zones", "raised pedestrian crossings", "small turn-restriction signs", "leading pedestrian signals"], "a": 2, "t": "coherence", "ev": "each marked with a small sign that is easy to miss", "x": "The article describes bans at individual intersections, each marked with a small, easy-to-miss sign; one rule would end the hunt for them. Leading signals are the separate idea he praises next."},
+     {"o": ["warning", "delay", "crossing guard", "head start"], "a": 3, "t": "coherence", "ev": "give people on foot a head start of a few seconds before cars get a green light", "x": "Leading pedestrian intervals give walkers a head start before cars get a green light. They are not a warning to pedestrians or a delay imposed on them."}
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "When your car insurance policy was renewed, your premium went up by 18 percent. The renewal notice says the increase is mainly because of a collision you were involved in last winter. However, according to the police report, the other driver was completely at fault.",
+   "bullets": [
+    "Describe the collision and what the police report concluded",
+    "Explain why you believe the increase is unfair",
+    "Say what you would like the insurance company to do"
+   ],
+   "model": "Dear Customer Service Team,\n\nI am writing about the renewal notice for my auto policy, number HV-4482107, which I received last week. My annual premium has risen from $1,640 to $1,935, an increase of 18 percent, and the notice lists a collision on February 9 as the main reason.\n\nOn that date, my car was stopped at a red light on Kingsway Avenue when another vehicle slid into the back of it. The police report, which I have attached, states that the other driver was travelling too fast for icy conditions and was entirely at fault. Your own adjuster confirmed this in March, and the repairs were paid for by the other driver’s insurer.\n\nAs I understand it, a collision in which I bear no responsibility should not affect my rating. I have been insured with your company for eleven years without a single claim of my own.\n\nI would therefore ask you to review my file, correct the record and issue a revised renewal at the appropriate rate. If the higher premium has already been charged, please refund the difference.\n\nThank you for your prompt attention.\n\nSincerely,\nHarjit Sandhu"
+  },
+  "t2": {
+   "intro": "Your regional transit agency has enough money for one service improvement next year, and it is asking riders which one they would prefer.",
+   "question": "Which option do you prefer?",
+   "a": "Extend service on the ten busiest routes until 2:00 a.m., seven days a week. Service currently ends at 11:30 p.m.",
+   "b": "Add express buses during weekday rush hours on the four routes that link the suburbs to downtown, cutting average trip times by about 15 minutes.",
+   "model": "I would choose Option A, extending service on the busiest routes until 2 a.m., because it would help the riders who currently have the fewest alternatives.\n\nThe people stranded when buses stop at 11:30 are not mainly people out for a late dinner. They are restaurant staff, cleaners, hospital workers and students finishing evening shifts. Many of them earn modest wages, and right now they must either pay for a taxi, which can swallow an hour’s pay, or leave work early and risk their jobs. Later service would make transit a realistic choice for a whole group of workers the system currently overlooks.\n\nI do appreciate the appeal of Option B. Saving fifteen minutes on a rush-hour commute adds up over a year, and faster trips might persuade some drivers to leave their cars at home. However, suburban commuters already have frequent daytime service and, in many cases, the option of driving. Express buses would make a decent trip slightly better, whereas late-night service would make an impossible trip possible.\n\nFor that reason, Option A offers greater benefit to the community for the same budget."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend has just passed her driving test and wants to buy her first car. She is trying to decide between a brand-new small car paid for with a five-year loan and a ten-year-old used car she could pay for in cash. Advise your friend.",
+   "model": "Congratulations again on passing! Honestly, if I were in your shoes, I’d lean toward the used car, but only if you do your homework first. The biggest advantage is that you won’t be making loan payments for five years. A new car loses a big chunk of its value the moment you drive it off the lot, and as a new driver, you’re more likely to have a minor fender-bender in your first couple of years. It’s a lot less painful when that happens to a car you paid eight thousand dollars for. Plus, insurance for new drivers is really expensive, and it’s usually cheaper on an older car. That said, a ten-year-old car can turn into a money pit, so please don’t buy one just because it looks clean. Ask for the maintenance records, check whether it’s had any recalls, and pay a mechanic around a hundred and fifty dollars to inspect it before you hand over any money. If the seller won’t allow that, walk away. And keep an emergency fund for repairs, maybe a thousand dollars. If you can’t find a solid used car within a few weeks, then the new one with a warranty might make sense, but start with the used option."
+  },
+  "t2": {
+   "prompt": "Talk about a time when a trip you took did not go as planned because of a transportation problem. What happened, and what did you do?",
+   "model": "A few years ago, I was taking the ferry to visit a friend on an island for her birthday. I got to the terminal an hour early, feeling very organized, only to find out that the sailing had been cancelled because of high winds. The next one wasn’t until the following morning. At first I was really frustrated, because I’d already bought her a cake, and it was sitting on the passenger seat. But then I started chatting with a family beside me who were in the same situation, and they told me about a small motel nearby. We ended up having dinner together at a diner, and we even shared the cake! I caught the first sailing the next day and arrived just in time for brunch. Since then, I always check the forecast and the ferry website before I leave."
+  },
+  "t3": {
+   "scene": {
+    "bg": "street",
+    "alt": "A busy city street on a cloudy afternoon after rain. On the left, a blue city bus labelled “Route 7” has stopped in front of a beige library building. Beside a “Bus Stop” sign, a woman in a green coat sits on a bench reading a book, and a man in a grey jacket stands next to her looking at his phone. A young man in a red hoodie carrying a bag is running toward the bus from the right, about to run through a large puddle. In front of a bakery on the right, a woman pushes a stroller, and a man in a yellow jacket walks beside his bicycle. There is a fire hydrant, an orange traffic cone and a tall streetlamp on the sidewalk.",
+    "items": [
+     ["cloud", 120, 60, 1.1],
+     ["cloud", 470, 50, 0.9],
+     ["building", 10, 300, 190, 220, "#d8c8b0", "CITY LIBRARY"],
+     ["shop", 450, 300, 180, "BAKERY", "#d35400"],
+     ["streetlamp", 215, 305],
+     ["bus", 110, 372, "#2e86c1", "ROUTE 7"],
+     ["sign", 250, 330, "BUS STOP", "#fff"],
+     ["bench", 265, 335, 90],
+     ["person", 290, 335, {"shirt": "#27ae60", "pose": "sit", "hairStyle": "long", "hair": "#6b3e26", "hold": "book"}],
+     ["person", 345, 338, {"shirt": "#7f8c8d", "hold": "phone", "hair": "#222", "skin": "#c68642"}],
+     ["puddle", 395, 386],
+     ["person", 430, 370, {"shirt": "#c0392b", "pose": "run", "hold": "bag", "flip": true, "hair": "#3b2a1a"}],
+     ["person", 490, 375, {"shirt": "#8e44ad", "pose": "walk", "hairStyle": "bun", "skin": "#8d5524"}],
+     ["stroller", 535, 378],
+     ["person", 585, 380, {"shirt": "#f1c40f", "pose": "walk", "hat": "#2c3e50", "flip": true}],
+     ["bike", 620, 385, "#16a085", true],
+     ["hydrant", 225, 385],
+     ["cone", 365, 390]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This is a busy city street on a grey, cloudy afternoon, and it looks like it has just rained. On the left, a blue city bus marked Route 7 has pulled up in front of a large beige library. Next to the bus stop sign, a woman in a green coat is sitting on a bench, completely absorbed in a book, while a man in a grey jacket stands beside her checking his phone. In the middle, a young man in a red hoodie is sprinting toward the bus with a bag, and he’s about to run straight through a big puddle. On the right, in front of a bakery, a woman is pushing a stroller, and a man in a yellow jacket is walking his bicycle along the sidewalk. There’s also a fire hydrant, an orange traffic cone and a tall streetlamp."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the young man in the red hoodie is going to reach the bus just in time, but not without a price. He’s running so fast that he’ll probably splash right through the puddle and soak his shoes, and the water might even spray the woman with the stroller, so she’ll likely step back and give him an annoyed look. He’ll probably wave at the driver, and since the driver can likely see him in the mirror, the bus will wait an extra few seconds. Meanwhile, the woman on the bench is so focused on her book that she may not realize her bus has arrived until the man with the phone taps her on the shoulder. As for the man with the bicycle, he’ll probably lock it up and go into the bakery for a coffee."
+  },
+  "t5": {
+   "intro": "Your company is moving to a new office on the other side of the city, and you need to decide how to commute. Choose the option you prefer. In the next section, you will need to persuade a co-worker that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "Monthly transit pass", "details": ["$128 per month", "55-minute trip with one transfer", "Time to read or rest on the way", "Buses every 10 minutes at rush hour", "Employer pays 25% of the cost"]},
+    {"title": "Buying an electric scooter", "details": ["$900 one-time cost", "30-minute ride, mostly on bike lanes", "Charging costs about $5 a month", "Not practical in snow or heavy rain", "Secure storage at the new office"]}
+   ],
+   "other": {"title": "Joining a carpool", "details": ["$90 per month for gas and parking", "40-minute drive", "Four co-workers share one car", "Leaves at a fixed time: 7:30 a.m.", "Drivers rotate every week"]},
+   "otherWho": "Your co-worker prefers",
+   "persuade": "Your co-worker prefers joining a carpool. Persuade your co-worker that your choice is better.",
+   "model": "I understand why the carpool appeals to you. It’s cheaper, at ninety dollars a month, and forty minutes is faster than my bus trip. But I really think the transit pass is the smarter choice. First, think about flexibility. The carpool leaves at exactly seven-thirty every morning, and you’re tied to four other people’s schedules. If someone has a dentist appointment or needs to stay late, everyone’s day is affected. With buses every ten minutes, I can leave whenever I want. Second, the real cost difference is tiny, because our employer covers a quarter of the pass, so I’d actually pay ninety-six dollars. And finally, I get fifty-five minutes to read or answer emails, instead of sitting in traffic making small talk at seven-thirty in the morning. For six extra dollars, I’d much rather have that freedom."
+  },
+  "t6": {
+   "situation": "Your neighbour drives your two children to school three mornings a week as part of a shared arrangement; you drive her children the other two days. Yesterday, your daughter told you that the neighbour often reads and answers text messages while she is driving. You do not want to lose the arrangement, but you are worried about safety.",
+   "options": [
+    "Talk to your neighbour and explain your concern about her phone use while driving.",
+    "Talk to your partner and explain why you think you should end the shared driving arrangement."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hi Leanne, do you have a minute? First, I want to say how grateful we are for the school runs. It’s made our mornings so much easier. I hope you don’t mind me bringing this up, and please know I’m not trying to criticize you. Maya mentioned that you’ve been answering texts at red lights and sometimes while driving. I know how hectic mornings are, and I’ve caught myself reaching for my phone too, so I get it. But with the kids in the car, it really worries me. Would you be okay with putting your phone on do-not-disturb during the drive? If it helps, I’d be happy to take an extra morning each week so your schedule is a bit lighter. I really want to keep this arrangement going, because it works so well for both of us."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should cities close their downtown streets to private cars on weekends? Explain your reasons.",
+   "model": "In my opinion, cities should close at least part of their downtown to private cars on weekends, although I don’t think it should be every street. My main reason is that downtowns are at their best when people can walk freely. On weekdays, streets need to move commuters and deliveries, but on Saturdays and Sundays most people downtown are there to shop, eat or simply wander. When a main street is closed to traffic, it suddenly becomes a public space. Restaurants can put tables outside, buskers perform, and families with small children can relax instead of constantly watching for cars. In my city, they tried this on one street last summer, and many shop owners who were worried at first actually reported higher sales. Secondly, it encourages people to try transit or cycling, because they know parking downtown will be limited anyway. Of course, there are legitimate concerns. People with disabilities, seniors and delivery drivers still need access, so the city would have to keep some cross streets open and offer accessible drop-off zones nearby. But with sensible exceptions like those, I believe car-free weekends would make downtowns livelier, safer and more attractive for everyone."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "Outside a small bike rental shop on a sunny street stands an enormous red bicycle, about four times taller than a person; its wheels are taller than a car. A wooden ladder leans against the frame, and a young man in a blue shirt is standing partway up it, reaching toward the seat. A sign in front reads “GIANT BIKE $20/HR”. On the left, two tourists look up at it: one is pointing and the other is taking a photo with a camera. A small brown dog sits near the ladder, and a woman with a normal-sized green bicycle watches from beside the shop.",
+    "items": [
+     ["sun", 580, 55],
+     ["cloud", 110, 60, 1],
+     ["shop", 470, 300, 160, "BIKE RENTALS", "#2980b9"],
+     ["big", "bike", 320, 386, 4, "#e74c3c"],
+     ["ladder", 250, 386, 170],
+     ["person", 262, 300, {"shirt": "#2980b9", "pose": "both", "hair": "#222"}],
+     ["sign", 130, 300, "GIANT BIKE $20/HR", "#fff"],
+     ["person", 50, 380, {"shirt": "#e67e22", "pose": "point", "hat": "#c0392b"}],
+     ["person", 95, 384, {"shirt": "#16a085", "hold": "camera", "hairStyle": "long", "hair": "#d4a017", "dress": true}],
+     ["dog", 205, 390, "#a0522d"],
+     ["person", 520, 380, {"shirt": "#9b59b6", "hairStyle": "curly", "skin": "#8d5524", "flip": true}],
+     ["bike", 575, 386, "#27ae60", true]
+    ]
+   },
+   "prompt": "You are on holiday in a small town, and you see this unusual bicycle for rent outside a shop. Call a friend who is joining you tomorrow. Describe the bicycle and explain whether you think the two of you should rent it. Your friend cannot see the picture.",
+   "model": "Hey, you won’t believe what I’m looking at outside the bike rental shop. There’s a gigantic red bicycle parked on the sidewalk. I mean truly gigantic: the wheels are taller than a car, and the seat is about four times higher than my head. There’s a wooden ladder leaning against the frame, and some brave guy is climbing up toward the seat right now. A sign says you can ride it for twenty dollars an hour. Honestly, as fun as it looks, I don’t think we should rent it. Even if we managed to climb on, I have no idea how you’d reach the pedals or stop safely, and falling from that height would end our vacation pretty quickly. I think we should rent two normal bikes for the trail and just take a silly photo in front of the giant one instead."
+  }
+ }
+}

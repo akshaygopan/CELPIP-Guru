@@ -1,0 +1,1834 @@
+{
+ "id": "t05",
+ "title": "Test 5",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two business partners at a café are dealing with a problem before a large order.",
+    "sp": {
+     "A": {
+      "name": "Leah",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Carlos",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Carlos, the espresso machine just died. Completely. I turned it on this morning, and there was a burning smell, and then nothing."
+       ],
+       [
+        "B",
+        "Today? Of all days? We’ve got the catering order for the tech conference tomorrow. Three hundred coffees between eight and nine thirty."
+       ],
+       [
+        "A",
+        "I know. That’s why I’m panicking a little. I called the repair company, and the earliest they can send a technician is Thursday. That’s the day after the conference."
+       ],
+       [
+        "B",
+        "Did they say what’s wrong?"
+       ],
+       [
+        "A",
+        "Based on what I described, he thinks it’s the heating element. If so, it’s a part they have to order from Italy, so even Thursday is optimistic."
+       ],
+       [
+        "B",
+        "Okay. Let’s not panic. What about the café itself? We open at seven tomorrow. Our regulars are going to walk in expecting lattes."
+       ],
+       [
+        "A",
+        "I was going to put a sign on the door. We can still sell drip coffee and tea and all the baking. But honestly, I’m more worried about the conference. If we let them down, we lose the contract for their next three events."
+       ],
+       [
+        "B",
+        "Right. That contract is worth more than a month of regular sales. That has to be the priority."
+       ],
+       [
+        "A",
+        "And I promised them a full espresso bar in our proposal. The organizer specifically mentioned that their speakers love flat whites, so whatever we do has to look professional."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is the timing of the breakdown especially bad?",
+        "o": [
+         "The café is hosting a grand opening.",
+         "The repair company is closed for the rest of this week.",
+         "They have a large catering job the next day.",
+         "Their regular customers are on holiday."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "We’ve got the catering order for the tech conference tomorrow",
+        "x": "They have a catering order for three hundred coffees at the tech conference tomorrow. The repair company is open; its technician just cannot come until Thursday."
+       },
+       {
+        "q": "What does the technician suspect?",
+        "o": [
+         "A part that is not available locally has failed.",
+         "The machine was installed incorrectly by the last technician.",
+         "The power supply to the café is faulty.",
+         "The machine only needs cleaning."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "it’s a part they have to order from Italy",
+        "x": "The technician suspects the heating element, a part that must be ordered from Italy, so it is not available locally. Installation problems are never mentioned."
+       },
+       {
+        "q": "Why do they decide the conference is the priority?",
+        "o": [
+         "The conference organizers are close personal friends of theirs.",
+         "Their regulars prefer drip coffee.",
+         "The café will be closed tomorrow anyway.",
+         "It could lead to more valuable future business."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "If we let them down, we lose the contract for their next three events",
+        "x": "Letting the conference down would cost them the contract for three more events, worth more than a month of regular sales. Friendship with the organizers is never mentioned."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "What about renting a machine? There’s a restaurant supply place on Industrial Road."
+       ],
+       [
+        "A",
+        "I called them. They rent commercial machines, but it needs a dedicated two-hundred-and-forty-volt outlet, and the conference centre only confirmed regular outlets at our table. Plus, it’d take an hour just to heat up and calibrate."
+       ],
+       [
+        "B",
+        "Hmm. What about Ravi? He owns that café on Elm. We helped him out when his fridge broke last summer."
+       ],
+       [
+        "A",
+        "That’s a thought. His shop is only five minutes from the conference centre. But three hundred drinks is a lot to ask, and he’ll have his own morning rush."
+       ],
+       [
+        "B",
+        "What if we don’t ask him to make them? What if we ask to borrow his machine and space before he opens? He doesn’t open until eight on weekdays, right?"
+       ],
+       [
+        "A",
+        "Eight thirty, actually. So we’d have from six to eight thirty in his shop. We could pull shots there and transport them in insulated urns to the conference."
+       ],
+       [
+        "B",
+        "Espresso doesn’t travel well, though. It goes bitter in half an hour."
+       ],
+       [
+        "A",
+        "True. But milk drinks hold up better. We could change the menu to lattes and Americanos instead of straight espresso. Nobody at a conference at eight a.m. is ordering a single espresso anyway."
+       ],
+       [
+        "B",
+        "Good point. And our insulated urns keep milk drinks hot for about two hours, so the timing should work if we leave Ravi’s shop by seven forty-five."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is one problem with renting an espresso machine?",
+        "o": [
+         "The supply store has no commercial machines available to rent.",
+         "The venue cannot supply the electrical connection it needs.",
+         "It costs more to rent than buying a new machine.",
+         "It cannot be delivered in time for the conference."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "it needs a dedicated two-hundred-and-forty-volt outlet, and the conference centre only confirmed regular outlets",
+        "x": "A rented machine needs a dedicated 240-volt outlet, but the conference centre only confirmed regular outlets. The supply store does rent commercial machines, so availability is not the issue."
+       },
+       {
+        "q": "Why does Carlos think Ravi might help?",
+        "o": [
+         "Ravi owes them a favour.",
+         "Ravi is catering the same conference.",
+         "Ravi wants to buy their machine.",
+         "Ravi works for the conference centre."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "We helped him out when his fridge broke last summer",
+        "x": "Carlos reminds Leah that they helped Ravi when his fridge broke, so Ravi owes them a favour. Ravi is not catering the conference himself."
+       },
+       {
+        "q": "How do they plan to deal with the problem of espresso becoming bitter?",
+        "o": [
+         "Make all the espresso on site at the conference centre",
+         "Ask Ravi to deliver the drinks",
+         "Serve mainly milk-based drinks and Americanos",
+         "Start making coffee at eight thirty"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "We could change the menu to lattes and Americanos instead of straight espresso",
+        "x": "Milk drinks hold up better than straight espresso, so they will serve lattes and Americanos. They still make the drinks at Ravi’s shop, not at the conference centre."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Okay, I’ll call Ravi right now. If he says yes, what do we offer him?"
+       ],
+       [
+        "A",
+        "Pay for the milk and beans we use, obviously, and clean everything. Maybe also a free dozen of our cinnamon buns for his display case. He’s always asking for the recipe."
+       ],
+       [
+        "B",
+        "Ha. Buns, yes. Recipe, no. And we should let the conference organizer know about the menu change today, not tomorrow morning."
+       ],
+       [
+        "A",
+        "Agreed. I’ll email her as soon as Ravi confirms. If he says no, we’ll have to think about renting a generator, but I really hope it doesn’t come to that."
+       ],
+       [
+        "B",
+        "It won’t. Ravi’s a good guy. While you’re emailing, I’ll go through the stock. We’ll need at least twenty litres of milk and an extra case of oat milk for the non-dairy orders."
+       ],
+       [
+        "A",
+        "And let’s print a small sign for the conference table explaining the shorter menu. If people know why, they’re usually understanding."
+       ],
+       [
+        "B",
+        "I’ll do that tonight. And on Thursday morning, we stand right next to that technician until the machine is working again."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What will Leah do after Ravi confirms?",
+        "o": [
+         "Order a new heating element from the supplier in Italy",
+         "Inform the conference organizer about the menu",
+         "Give Ravi the cinnamon bun recipe",
+         "Rent a generator"
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "I’ll email her as soon as Ravi confirms",
+        "x": "Leah says she will email the organizer about the menu change as soon as Ravi confirms. Renting a generator is only the backup if Ravi says no."
+       },
+       {
+        "q": "How does Carlos feel about sharing the cinnamon bun recipe?",
+        "o": [
+         "He is willing to share it.",
+         "He wants to sell it to Ravi.",
+         "He thinks Ravi already knows it.",
+         "He is unwilling to share it."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "Buns, yes. Recipe, no.",
+        "x": "“Buns, yes. Recipe, no.” shows Carlos is happy to give buns but unwilling to share the recipe. It was Leah who mentioned that Ravi asks for it."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A passenger is speaking with an agent at an airport check-in counter.",
+    "sp": {
+     "A": {
+      "name": "Agent",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.05
+     },
+     "B": {
+      "name": "Passenger",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Good morning. Where are you flying today?"
+       ],
+       [
+        "B",
+        "To Halifax, with a connection in Montreal. Here’s my passport."
+       ],
+       [
+        "A",
+        "Thank you. Could you place your bag on the scale? Okay, it’s twenty-six kilos. I’m afraid the limit for your fare is twenty-three. The overweight fee is seventy-five dollars."
+       ],
+       [
+        "B",
+        "Seventy-five? It’s only three kilos over. Could I move a few things into my carry-on?"
+       ],
+       [
+        "A",
+        "You can, as long as your carry-on stays under ten kilos and fits in the sizer. There’s a counter just over there where you can repack."
+       ],
+       [
+        "B",
+        "Okay, give me a minute. … There. How’s that?"
+       ],
+       [
+        "A",
+        "Twenty-two point eight. Perfect. Now, I do need to let you know something. Your flight to Montreal is delayed by fifty minutes because of weather. That leaves you only twenty-five minutes to make your connection to Halifax, which is below the minimum connection time."
+       ],
+       [
+        "B",
+        "So I’ll miss it?"
+       ],
+       [
+        "A",
+        "It’s very likely. I can rebook you now on the next Halifax flight, which leaves Montreal at four fifteen, arriving at seven forty. Or, there’s a direct flight from here to Halifax at one p.m., which would get you there at four thirty. It has two seats left."
+       ],
+       [
+        "B",
+        "The direct one, definitely. Is there a charge?"
+       ],
+       [
+        "A",
+        "No. Since the delay is weather-related, we’re not able to offer compensation, but changes are free. Your bag will be retagged for the direct flight. You’ll have a bit of a wait, but there’s a quiet seating area past security, and your boarding pass will give you a meal voucher for fifteen dollars."
+       ],
+       [
+        "B",
+        "One more question. My sister is picking me up in Halifax. Will she get a message about the new arrival time?"
+       ],
+       [
+        "A",
+        "The booking will show the new flight automatically, but notifications only go to the contact number on file, which is yours. I’d send her a quick text to be safe."
+       ],
+       [
+        "B",
+        "That’s great. Thanks for catching that."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How does the passenger avoid the overweight fee?",
+        "o": [
+         "He pays a lower fee for three kilos.",
+         "He buys a second checked bag.",
+         "He moves items into his carry-on bag.",
+         "He upgrades his fare."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "Could I move a few things into my carry-on?",
+        "x": "He repacks into his carry-on, bringing the bag to 22.8 kg."
+       },
+       {
+        "q": "Why will the passenger probably miss his connection?",
+        "o": [
+         "A weather delay leaves too little time to connect.",
+         "He arrived at the airport too late to check his bag.",
+         "His first flight has been cancelled.",
+         "The Halifax flight is overbooked."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "Your flight to Montreal is delayed by fifty minutes because of weather",
+        "x": "His flight to Montreal is delayed fifty minutes by weather, leaving only twenty-five minutes, below the minimum connection time. The flight is delayed, not cancelled."
+       },
+       {
+        "q": "Why does the passenger choose the direct flight?",
+        "o": [
+         "It is cheaper than the original ticket.",
+         "It includes a free meal.",
+         "It leaves sooner than the original flight.",
+         "It arrives in Halifax earlier."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "which would get you there at four thirty",
+        "x": "The direct flight arrives at 4:30, while the rebooked connection arrives at 7:40. Changes are free, so price is not the reason."
+       },
+       {
+        "q": "What does the agent say about compensation?",
+        "o": [
+         "He will receive a travel credit for a future flight.",
+         "He is not entitled to any because of the weather.",
+         "He must apply for it online.",
+         "It will be added to his boarding pass."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Since the delay is weather-related, we’re not able to offer compensation",
+        "x": "The agent says weather delays are not eligible for compensation, although changes are free. A travel credit is never offered."
+       },
+       {
+        "q": "What will the passenger receive with his boarding pass?",
+        "o": [
+         "A voucher for food",
+         "Access to an airport lounge",
+         "A seat upgrade",
+         "A refund for his baggage"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "your boarding pass will give you a meal voucher for fifteen dollars",
+        "x": "His boarding pass gives him a fifteen-dollar meal voucher. He will wait in a quiet seating area past security, not an airport lounge."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A new employee is attending an orientation meeting with a human resources advisor.",
+    "sp": {
+     "A": {
+      "name": "HR advisor",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "New employee",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Welcome to the team, Grace. Let’s go over your benefits. First, health and dental. Your coverage starts after a three-month probation period, so the first day of your fourth month."
+       ],
+       [
+        "B",
+        "Three months? I have a dentist appointment next month. Will that be covered?"
+       ],
+       [
+        "A",
+        "Unfortunately not, unless you’re still covered under your previous employer’s plan. Some plans continue for thirty days after you leave, so it’s worth checking. Once you’re enrolled, our plan covers eighty percent of dental and ninety percent of prescriptions."
+       ],
+       [
+        "B",
+        "Okay, I’ll check. What about vacation?"
+       ],
+       [
+        "A",
+        "You start with fifteen days a year, which increases to twenty after three years. Vacation is earned monthly, so in your first few months, you’ll only have a day or two available. Up to five unused days can be carried over to the next year, but anything above that is lost."
+       ],
+       [
+        "B",
+        "And sick days?"
+       ],
+       [
+        "A",
+        "Eight paid sick days a year, available from day one. If you’re away for more than three days in a row, we need a doctor’s note."
+       ],
+       [
+        "B",
+        "Good to know. Is there any kind of retirement plan?"
+       ],
+       [
+        "A",
+        "Yes, and it’s one of our best benefits. If you contribute up to five percent of your salary to the group retirement plan, the company matches it, dollar for dollar. So if you put in five percent, the company adds another five. You can join at any time, but I’d recommend joining right away, because the match doesn’t apply retroactively."
+       ],
+       [
+        "B",
+        "That’s generous. And I saw something about a wellness account?"
+       ],
+       [
+        "A",
+        "Right. Every employee gets five hundred dollars a year to spend on things like gym memberships, fitness classes, or even running shoes. It doesn’t roll over, so use it before December thirty-first."
+       ],
+       [
+        "B",
+        "That’s great. One last thing: is there any flexibility with hours? I have a long commute."
+       ],
+       [
+        "A",
+        "Yes. Our core hours are ten to three, and you can start any time between seven and ten, as long as you work your full day. After probation, you can also apply to work from home up to two days a week, but that depends on your manager."
+       ],
+       [
+        "B",
+        "That’s really helpful. I’ll fill out the retirement plan form today, then."
+       ],
+       [
+        "A",
+        "Perfect. I’ll email you the enrolment link and the benefits booklet this afternoon, along with a dental claim form in case your old plan doesn’t cover you."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "When does Grace’s health and dental coverage begin?",
+        "o": [
+         "On her first day of work",
+         "After thirty days",
+         "After three months of employment",
+         "At the start of the next calendar year"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "Your coverage starts after a three-month probation period",
+        "x": "Coverage starts after a three-month probation period, on the first day of her fourth month. Thirty days refers to how long some old plans continue."
+       },
+       {
+        "q": "Why does the advisor suggest checking her previous employer’s plan?",
+        "o": [
+         "It might be cheaper than the new plan.",
+         "It may still cover her dental appointment.",
+         "She may be able to transfer it.",
+         "It may cover her vacation days."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "Some plans continue for thirty days after you leave",
+        "x": "Some plans continue for thirty days after you leave, so her old plan might still cover next month’s dentist visit. Cost and transfers are not discussed."
+       },
+       {
+        "q": "What happens to unused vacation days at the end of the year?",
+        "o": [
+         "All of them are paid out.",
+         "All of them are lost.",
+         "They are converted into extra sick days for next year.",
+         "A limited number can be used the following year."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "Up to five unused days can be carried over to the next year",
+        "x": "Up to five unused days can be carried over; anything above that is lost. So not all days are lost, and none are paid out."
+       },
+       {
+        "q": "When is a doctor’s note required?",
+        "o": [
+         "For any sick day",
+         "Only after all eight paid sick days have been used up",
+         "For an absence longer than three consecutive days",
+         "Only during the probation period"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "If you’re away for more than three days in a row, we need a doctor’s note",
+        "x": "A doctor’s note is needed for an absence of more than three days in a row. Sick days are available from day one, without a note for short absences."
+       },
+       {
+        "q": "Why does the advisor recommend joining the retirement plan immediately?",
+        "o": [
+         "She would miss out on matching contributions otherwise.",
+         "The plan closes to new members soon.",
+         "Her salary will increase after three months.",
+         "The company’s match will become smaller after the first year."
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "the match doesn’t apply retroactively",
+        "x": "The match is not applied to past months, so delaying means losing it."
+       },
+       {
+        "q": "What is true about the wellness account?",
+        "o": [
+         "Unused money is added to next year’s amount.",
+         "It can only be used for gym memberships.",
+         "It is available after probation.",
+         "It must be spent within the calendar year."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "It doesn’t roll over, so use it before December thirty-first",
+        "x": "The wellness money does not roll over and must be used before December 31. It covers gyms, fitness classes and even running shoes, not just gyms."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Physician",
+      "g": "f",
+      "acc": "en-IN",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Starting Monday, residents of the province will be able to book family doctor and walk-in clinic appointments through a single government app. The Health Connect app, which has been tested in three cities since the spring, will now be available everywhere."
+       ],
+       [
+        "A",
+        "The app shows available appointments at participating clinics in real time, sends reminders, and allows patients to cancel with a single tap. The province says that during the pilot, missed appointments fell by nearly twenty percent, freeing up thousands of time slots."
+       ],
+       [
+        "A",
+        "Dr. Meera Iyer, who runs a family practice in one of the pilot cities, says the biggest change has been at the front desk."
+       ],
+       [
+        "B",
+        "Our receptionists used to spend most of the morning on the phone. Now patients book themselves, and staff can focus on people who are actually in the clinic. The cancellations are the real win, though. When someone cancels in the app, that slot goes straight back into the system, and another patient usually takes it within the hour."
+       ],
+       [
+        "A",
+        "Not everyone is convinced. Seniors’ advocates point out that many older residents do not own smartphones, and they worry that patients who still phone the clinic will end up with fewer options. The province says at least half of each clinic’s appointments will remain bookable by phone for the next two years."
+       ],
+       [
+        "A",
+        "Privacy has also been raised. The app stores only the patient’s name, health card number and appointment history, not medical records, and the data is kept on servers within the province. Participation is voluntary for clinics, and so far about seventy percent have signed up. Clinics that have not yet joined can sign up at any time through the province’s health website, and officials expect most of the rest to join by the end of the year."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What happened during the pilot project?",
+        "o": [
+         "More patients missed their appointments.",
+         "Fewer patients failed to show up for appointments.",
+         "Clinics hired more receptionists.",
+         "Wait times for specialists increased."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "missed appointments fell by nearly twenty percent",
+        "x": "During the pilot, missed appointments fell by nearly twenty percent, so fewer patients failed to show up. Clinics did not hire more receptionists."
+       },
+       {
+        "q": "According to Dr. Iyer, what is the most valuable feature?",
+        "o": [
+         "The way cancelled slots are quickly reused",
+         "Online medical records",
+         "Video appointments with doctors",
+         "Automatic prescription renewals"
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "The cancellations are the real win, though",
+        "x": "Dr. Iyer calls cancellations “the real win”, because cancelled slots go straight back into the system and are filled within the hour. Online medical records are not part of the app."
+       },
+       {
+        "q": "What concern do seniors’ advocates have?",
+        "o": [
+         "The app is too expensive.",
+         "Clinics will stop answering their phones once the app launches.",
+         "Older people without smartphones may be disadvantaged.",
+         "The app is only available in English."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "many older residents do not own smartphones",
+        "x": "Advocates note many older residents do not own smartphones and may end up with fewer options. They do not claim clinics will stop answering phones."
+       },
+       {
+        "q": "How has the province responded to that concern?",
+        "o": [
+         "It will provide free smartphones to seniors who need them.",
+         "Some appointments will still be available by phone.",
+         "Seniors will get priority in the app.",
+         "It has delayed the launch."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "at least half of each clinic’s appointments will remain bookable by phone",
+        "x": "The province says at least half of each clinic’s appointments will stay bookable by phone for two years. Free smartphones are never offered."
+       },
+       {
+        "q": "What information does the app store?",
+        "o": [
+         "Full medical records",
+         "Test results",
+         "Prescription history",
+         "Basic identifying and appointment information"
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "stores only the patient’s name, health card number and appointment history, not medical records",
+        "x": "The app stores only name, health card number and appointment history, not medical records. Prescription history and test results are not stored."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three members of a recreational soccer league’s organizing committee are meeting.",
+    "sp": {
+     "A": {
+      "name": "Nicole",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Ahmed",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 1
+     },
+     "C": {
+      "name": "Pete",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, the main item tonight is fees. The city is raising field rental rates by twenty-five percent next season. If we do nothing, we’ll run a deficit of about six thousand dollars."
+       ],
+       [
+        "B",
+        "We’ve held the registration fee at a hundred and twenty dollars for four years. I think people will understand a modest increase. Maybe to a hundred and forty?"
+       ],
+       [
+        "C",
+        "A hundred and forty covers it on paper. But I’m worried about families with more than one kid playing. Some of our families have three children in the league. That’s an extra sixty dollars for them."
+       ],
+       [
+        "A",
+        "We already give a ten percent discount for the second child, don’t we?"
+       ],
+       [
+        "C",
+        "Second child only. The third gets nothing. We could extend it."
+       ],
+       [
+        "B",
+        "That would reduce revenue, though. We’d need to raise the base fee even more to make up for it."
+       ],
+       [
+        "C",
+        "Maybe not. What about the jerseys? Right now, every player gets a new jersey every season, and that costs us almost eighteen dollars each. Most kids grow out of them in a year, but the adults don’t. If adult players reused their jerseys, we’d save a few thousand."
+       ],
+       [
+        "A",
+        "That’s a good point. The adult division is about two hundred players. That’s three and a half thousand right there."
+       ],
+       [
+        "B",
+        "True, but the new jersey is part of what people like. It’s the one thing they get."
+       ],
+       [
+        "C",
+        "Adults would get over it. We could offer a new jersey for an extra twenty dollars for anyone who wants one."
+       ],
+       [
+        "B",
+        "Fine, I could live with that. What about sponsors? The hardware store on Main sponsored a team last year, and the owner said he’d do more."
+       ],
+       [
+        "A",
+        "I’ve been hesitant about sponsors. Once you have logos on youth jerseys, it changes the feel of the league."
+       ],
+       [
+        "C",
+        "Maybe sponsors for the adult division only? Adults don’t care, and it could cover the rest of the gap."
+       ],
+       [
+        "B",
+        "The hardware store alone said he could do around fifteen hundred. And the physiotherapy clinic near the fields has asked about it twice."
+       ],
+       [
+        "A",
+        "If we found two or three sponsors at that level, that would close most of the remaining gap. But I want a clear policy: no sponsors from alcohol or gambling businesses, even for the adults."
+       ],
+       [
+        "C",
+        "Fair. I can draft a one-page sponsorship policy before the next meeting, so we’re not making it up as we go."
+       ],
+       [
+        "A",
+        "I can agree to that. So, let me summarize: raise the fee to a hundred and thirty, not a hundred and forty; extend the sibling discount to the third child; adults keep their jerseys unless they pay for a new one; and we look for sponsors for the adult teams only."
+       ],
+       [
+        "B",
+        "One concern. If the sponsorship doesn’t come through, we’re short."
+       ],
+       [
+        "A",
+        "Then we draw from the reserve for one season and revisit it next year. The reserve has about twelve thousand. And Ahmed, could you call the hardware store owner this week, while he’s still keen to help?"
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is the committee discussing fees?",
+        "o": [
+         "Registration numbers have dropped.",
+         "They want to buy new equipment.",
+         "The cost of renting fields is increasing.",
+         "The city has cut its grant to the league."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "The city is raising field rental rates by twenty-five percent next season",
+        "x": "The city is raising field rental rates by twenty-five percent, creating a possible six-thousand-dollar deficit. Registration numbers and grants are never mentioned."
+       },
+       {
+        "q": "What is Pete’s concern about raising the fee to $140?",
+        "o": [
+         "It would be hard on families with several children.",
+         "It would not cover the deficit.",
+         "Adults would leave the league.",
+         "It is higher than other leagues."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Some of our families have three children in the league",
+        "x": "Pete says some families have three children in the league, so a $20 increase per child adds up to sixty dollars. He agrees $140 covers the deficit."
+       },
+       {
+        "q": "Why does Pete suggest that adults reuse their jerseys?",
+        "o": [
+         "Adults have complained about the jersey design.",
+         "Sponsors want to design new jerseys.",
+         "Jerseys are not required for adult games.",
+         "Adults do not outgrow their jerseys, so money could be saved."
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "Most kids grow out of them in a year, but the adults don’t",
+        "x": "Pete notes that kids outgrow jerseys within a year but adults do not, so reusing adult jerseys would save money. Nobody complained about the design."
+       },
+       {
+        "q": "What is Ahmed’s initial reaction to the jersey idea?",
+        "o": [
+         "He strongly supports it.",
+         "He is concerned players value receiving a new jersey.",
+         "He thinks it would cost more.",
+         "He wants to apply it to children too."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "the new jersey is part of what people like. It’s the one thing they get",
+        "x": "Ahmed says the new jersey is “the one thing they get”, so players value it. He only accepts the idea later, once a paid option is offered."
+       },
+       {
+        "q": "Why is Nicole hesitant about sponsors?",
+        "o": [
+         "Advertising on children’s uniforms would change the league’s feel.",
+         "She thinks sponsors would not pay enough to close the gap.",
+         "She believes the hardware store owner is unreliable about payments.",
+         "Sponsors would expect a say in how the teams and players are chosen."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Once you have logos on youth jerseys, it changes the feel of the league",
+        "x": "Nicole says logos on youth jerseys would change the feel of the league. She later accepts sponsors for adults, so the amount of money is not her concern."
+       },
+       {
+        "q": "What fee does the committee agree on?",
+        "o": [
+         "$120",
+         "$130",
+         "$140",
+         "$150"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "raise the fee to a hundred and thirty, not a hundred and forty",
+        "x": "Nicole’s summary sets the fee at a hundred and thirty, not the hundred and forty Ahmed first suggested. $120 is the current fee."
+       },
+       {
+        "q": "What is Ahmed worried about at the end?",
+        "o": [
+         "The sibling discount is too generous.",
+         "Adult players might refuse to pay twenty dollars for new jerseys.",
+         "There might not be enough money if sponsorship fails.",
+         "The reserve fund is too large."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "If the sponsorship doesn’t come through, we’re short",
+        "x": "Ahmed warns that if sponsorship does not come through, they will be short of money. Adults paying for new jerseys was already settled earlier."
+       },
+       {
+        "q": "What will happen if they do not find sponsors?",
+        "o": [
+         "They will cancel the adult division.",
+         "They will use savings for one season.",
+         "They will raise fees in the middle of the season.",
+         "They will ask the city for help."
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "Then we draw from the reserve for one season and revisit it next year",
+        "x": "Nicole says they would draw from the reserve for one season and revisit fees next year. No mid-season fee increase is proposed."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about lawns.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "For generations, the neatly trimmed green lawn has been a symbol of suburban pride. But in a growing number of Canadian municipalities, the lawn is facing competition from wildflowers, native grasses and vegetable gardens, and the rules about what you can grow in your front yard are changing."
+       ],
+       [
+        "A",
+        "Until recently, many towns had bylaws that required grass to be kept below a certain height, often twenty centimetres. Homeowners who let their yards grow wild could be fined. Several cities have now rewritten those rules to allow “naturalized” gardens, as long as they are intentional and maintained. Supporters say lawns use enormous amounts of water in summer, provide almost no food for pollinators, and require gas-powered mowers that pollute. A naturalized yard, they argue, can support dozens of species of bees and butterflies."
+       ],
+       [
+        "A",
+        "But the change has not been smooth everywhere. Some neighbours complain that a wild garden looks messy, and that it can be hard to tell the difference between a carefully planned meadow and a neglected property. Others worry about pests, such as ticks, or about weeds spreading into their own lawns. Bylaw officers, meanwhile, say they are now being asked to judge whether a garden is “intentional,” which they admit is subjective."
+       ],
+       [
+        "A",
+        "Ticks are a real concern in parts of the country, but entomologists say the risk depends more on location than on the height of the grass in a city yard. Most ticks are picked up in wooded areas and in long grass at the edges of forests, not in small urban gardens. Still, they recommend keeping a short, mowed path through any naturalized area."
+       ],
+       [
+        "A",
+        "Horticulturalists suggest a middle path. Small, clearly defined changes, such as a border of native plants along the sidewalk, or a lawn mowed less often, can make a significant difference without upsetting neighbours. A sign explaining that the garden is a pollinator habitat also seems to reduce complaints."
+       ],
+       [
+        "A",
+        "Some municipalities have gone further, offering rebates of up to five hundred dollars for residents who replace grass with native plants. Early results suggest the main barrier is not money but knowledge: many residents simply don’t know which plants are native or how to get started."
+       ],
+       [
+        "A",
+        "In one Ontario town that launched a rebate last year, only about forty residents applied in the first season, far fewer than expected. The town has since started free workshops at the public library and a spring sale of local native plants, and applications have already doubled. Organizers say many participants simply needed someone to show them where to start."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What did older bylaws in many towns require?",
+        "o": [
+         "That front yards contain native plants",
+         "That gardens be approved by the city",
+         "That residents water lawns in summer",
+         "That grass not grow above a set height"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "required grass to be kept below a certain height, often twenty centimetres",
+        "x": "Older bylaws required grass to be kept below a certain height, often twenty centimetres. No rule required native plants; that is the new trend."
+       },
+       {
+        "q": "According to supporters, what is one drawback of traditional lawns?",
+        "o": [
+         "They attract too many insects.",
+         "They lower property values.",
+         "They need a lot of water.",
+         "They are expensive to plant."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "lawns use enormous amounts of water in summer",
+        "x": "Supporters say lawns use enormous amounts of water in summer. Insects are a worry raised by critics about wild gardens, not about lawns."
+       },
+       {
+        "q": "Why do bylaw officers find the new rules difficult?",
+        "o": [
+         "They must decide whether a garden is deliberately planned.",
+         "They have too few staff.",
+         "They do not know which plants count as native to the region.",
+         "The fines are too low."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "they are now being asked to judge whether a garden is “intentional,” which they admit is subjective",
+        "x": "Officers must judge whether a garden is “intentional”, which they admit is subjective. Not knowing native plants is a problem for residents, not officers."
+       },
+       {
+        "q": "What do horticulturalists recommend?",
+        "o": [
+         "Replacing all grass immediately",
+         "Mowing more often",
+         "Avoiding native plants near sidewalks",
+         "Making small, visible changes"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "Small, clearly defined changes, such as a border of native plants along the sidewalk",
+        "x": "Horticulturalists suggest small, clearly defined changes like a native border or less frequent mowing. Mowing more often is the opposite of their advice."
+       },
+       {
+        "q": "Why might residents put up a sign in their garden?",
+        "o": [
+         "To meet bylaw requirements",
+         "To reduce complaints from neighbours",
+         "To qualify for a rebate",
+         "To keep pests away"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "A sign explaining that the garden is a pollinator habitat also seems to reduce complaints",
+        "x": "A sign explaining that the garden is a pollinator habitat seems to reduce complaints. Signs are not linked to rebates or bylaw requirements."
+       },
+       {
+        "q": "What do early results of the rebate programs suggest?",
+        "o": [
+         "Lack of information is a bigger obstacle than cost.",
+         "The rebates are too small.",
+         "Most residents have already replaced their lawns with plants.",
+         "Native plants are hard to buy."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "the main barrier is not money but knowledge",
+        "x": "Early results show the main barrier is knowledge, not money, so lack of information matters more. Nobody says the rebates are too small."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Maple Leaf Tours – Customer Care  |  To: Mr. and Mrs. Nguyen  |  Subject: Important changes to your Rocky Mountain Explorer tour",
+   "text": "Dear Mr. and Mrs. Nguyen,\n\nThank you for booking the eight-day Rocky Mountain Explorer tour departing Calgary on July 12. We are writing to inform you of changes to your itinerary.\n\nDue to an ongoing wildfire near Jasper, Parks Canada has temporarily closed several roads and campgrounds in the northern part of the park. Although the fire is not expected to threaten the town, we have decided, out of caution, to replace the two nights originally planned in Jasper with two nights in Golden, British Columbia. Golden offers spectacular scenery, white-water rafting and access to Yoho National Park, and we have booked the same category of hotel. Your tour guide, Martin, will remain with the group for the full eight days.\n\nAs a result, the Columbia Icefield excursion, which is located between Banff and Jasper, will now take place on day 4 as a day trip from Banff, rather than on day 5. All other activities, including the Lake Louise canoe trip and the gondola ride in Banff, remain unchanged.\n\nWe understand that visiting Jasper may have been an important part of your plans. If you would prefer not to travel on the revised itinerary, you may cancel your booking for a full refund, without the usual cancellation fee, until June 20. Alternatively, you may transfer your booking to our September 6 departure, which currently follows the original route, at no extra cost.\n\nShould the situation in Jasper improve significantly before departure, we will contact you, but please note that the hotel bookings in Golden cannot be cancelled after June 25, so a return to the original route is unlikely.\n\nWe apologize for the inconvenience and thank you for your understanding.\n\nWarm regards,\nAnnika Holm\nCustomer Care Manager",
+   "qs": [
+    {
+     "q": "Why has the tour been changed?",
+     "o": [
+      "A hotel in Jasper closed.",
+      "Not enough travellers registered.",
+      "A fire has caused closures in part of the park.",
+      "The roads to Golden were damaged."
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "Due to an ongoing wildfire near Jasper, Parks Canada has temporarily closed several roads and campgrounds",
+     "x": "A wildfire near Jasper led Parks Canada to close roads and campgrounds in part of the park. No hotel closure or low registration is mentioned."
+    },
+    {
+     "q": "What does the letter suggest about the danger to Jasper itself?",
+     "o": [
+      "The town is likely to be evacuated.",
+      "The town is probably not at risk.",
+      "The town has already been damaged.",
+      "The risk is unknown."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "the fire is not expected to threaten the town",
+     "x": "The fire is not expected to threaten the town; the change is “out of caution”."
+    },
+    {
+     "q": "What has changed about the Columbia Icefield excursion?",
+     "o": [
+      "It has been cancelled.",
+      "It now costs extra.",
+      "It will depart from Golden.",
+      "It will happen on a different day."
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "will now take place on day 4 as a day trip from Banff, rather than on day 5",
+     "x": "The Icefield trip moves from day 5 to day 4, as a day trip from Banff. It is not cancelled and does not leave from Golden."
+    },
+    {
+     "q": "What can the Nguyens do if they cancel by June 20?",
+     "o": [
+      "Receive a partial refund",
+      "Choose a different hotel",
+      "Receive all their money back",
+      "Join a tour to Jasper in August"
+     ],
+     "a": 2,
+     "t": "paraphrase",
+     "ev": "you may cancel your booking for a full refund, without the usual cancellation fee, until June 20",
+     "x": "Cancelling by June 20 gives a full refund without the usual fee. The alternative tour is in September, not August."
+    },
+    {
+     "q": "Why is a return to the original route unlikely?",
+     "o": [
+      "The Golden hotels become non-refundable after a certain date.",
+      "The September tour is fully booked.",
+      "Parks Canada has closed Jasper for the year.",
+      "The tour company has cancelled its contract with Jasper hotels."
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "the hotel bookings in Golden cannot be cancelled after June 25",
+     "x": "The Golden hotel bookings cannot be cancelled after June 25, so the company is locked in. Jasper has only been closed temporarily, not for the year."
+    },
+    {
+     "q": "What is the main purpose of the letter?",
+     "o": [
+      "To promote a new tour to Golden",
+      "To apologize for poor service on a previous tour",
+      "To ask customers to pay an extra fee",
+      "To inform customers of changes and their options"
+     ],
+     "a": 3,
+     "t": "main",
+     "ev": "We are writing to inform you of changes to your itinerary",
+     "x": "The letter explains the itinerary changes and offers options: cancel for a refund or transfer to September. It is not mainly promoting Golden."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Mrs. Nguyen’s reply. Complete it by choosing the best option for each blank.",
+    "text": "Dear Ms. Holm,\n\nThank you for letting us know about the changes. We were disappointed, as my husband has wanted to see Jasper for years, but we understand that safety comes first.\n\nAfter some discussion, we have decided to {1} rather than cancel. My husband’s retirement party is in early September, so the {2} would not work for us. We are actually quite excited about {3}, as our son went rafting there last summer and loved it.\n\nCould you please confirm that the Lake Louise {4} is still included? It was the activity I was most looking forward to. Also, since the Icefield trip is now on {5}, should we bring warm clothing for that day?\n\nBest regards,\nLinh Nguyen",
+    "blanks": [
+     {
+      "o": [
+       "transfer our booking",
+       "keep our booking",
+       "request a refund",
+       "change hotels"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "If you would prefer not to travel on the revised itinerary",
+      "x": "The Nguyens will keep their July booking instead of cancelling, since the September date clashes with a party. Transferring is therefore ruled out."
+     },
+     {
+      "o": [
+       "September 6 departure",
+       "July 12 tour",
+       "Jasper excursion",
+       "gondola ride"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "transfer your booking to our September 6 departure",
+      "x": "The September 6 departure follows the original route, but it clashes with the retirement party in early September. The July 12 tour is the one they keep."
+     },
+     {
+      "o": [
+       "Banff",
+       "Calgary",
+       "Golden",
+       "Jasper"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "Golden offers spectacular scenery, white-water rafting",
+      "x": "Their son went rafting there, and the letter says Golden offers white-water rafting. Jasper is no longer on the itinerary."
+     },
+     {
+      "o": [
+       "gondola ride",
+       "canoe trip",
+       "rafting excursion",
+       "hotel"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "the Lake Louise canoe trip",
+      "x": "The letter confirms the Lake Louise canoe trip is unchanged. The gondola ride is in Banff, not at Lake Louise."
+     },
+     {
+      "o": [
+       "day 3",
+       "day 8",
+       "day 5",
+       "day 4"
+      ],
+      "a": 3,
+      "t": "detail",
+      "ev": "will now take place on day 4",
+      "x": "The Icefield excursion now takes place on day 4 as a day trip from Banff. Day 5 was the original day."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Harbourfront Hotel – Meeting & Event Packages (per day)",
+    "intro": "All packages include Wi-Fi, a projector and screen, water service, and free parking for up to 10 vehicles. Additional parking: $15/vehicle/day. Prices exclude 13% tax.",
+    "table": {
+     "cols": [
+      "Room",
+      "Capacity (theatre / boardroom)",
+      "Half day (4 hrs)",
+      "Full day (8 hrs)",
+      "Natural light"
+     ],
+     "rows": [
+      [
+       "Birch",
+       "— / 12",
+       "$350",
+       "$600",
+       "Yes"
+      ],
+      [
+       "Cedar",
+       "40 / 24",
+       "$600",
+       "$1,000",
+       "No"
+      ],
+      [
+       "Willow",
+       "80 / 40",
+       "$900",
+       "$1,500",
+       "Yes"
+      ],
+      [
+       "Grand Ballroom",
+       "250 / —",
+       "$2,000",
+       "$3,500",
+       "No"
+      ]
+     ]
+    },
+    "cards": [
+     {
+      "h": "Catering (per person)",
+      "lines": [
+       "Coffee break (coffee, tea, pastries): $12",
+       "Working lunch (sandwiches, salad, dessert): $28",
+       "Hot buffet lunch: $42"
+      ]
+     },
+     {
+      "h": "Policies",
+      "lines": [
+       "Catering is required for full-day bookings (minimum: one coffee break per person).",
+       "Changes to final numbers must be made 72 hours in advance.",
+       "Bookings cancelled less than 14 days before the event are charged 50%."
+      ]
+     }
+    ]
+   },
+   "email": {
+    "intro": "Read the following email. Complete it by choosing the best option for each blank.",
+    "text": "Hi Sunil,\n\nI’m organizing our team’s planning day at the Harbourfront Hotel. There will be 20 of us, and we’ll sit around one big table, so I’ve chosen the {1} room for the full day. It doesn’t have windows, but it’s the right size, and the next size up costs {2} more.\n\nSince it’s a full-day booking, we have to order catering. I was thinking of a coffee break and a working lunch, which comes to {3} per person.\n\nA few people will drive, but we only have 10 free parking spaces, so anyone else will have to pay {4} for the day.\n\nIf our numbers change, I need to tell the hotel at least {5} before the event.\n\nThanks,\nMichelle",
+    "blanks": [
+     {
+      "o": [
+       "Birch",
+       "Willow",
+       "Cedar",
+       "Grand Ballroom"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "40 / 24",
+      "x": "Cedar seats 24 boardroom-style, enough for 20 people around one table, and has no natural light. Birch seats only 12."
+     },
+     {
+      "o": [
+       "$400",
+       "$500",
+       "$600",
+       "$900"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "$1,500",
+      "x": "The next size up is Willow at $1,500 for a full day, and $1,500 − $1,000 = $500. $600 is Birch’s full-day price."
+     },
+     {
+      "o": [
+       "$28",
+       "$40",
+       "$42",
+       "$54"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Coffee break (coffee, tea, pastries): $12",
+      "x": "A coffee break costs $12 and a working lunch $28, so $40 per person. $42 is the hot buffet lunch alone."
+     },
+     {
+      "o": [
+       "$10",
+       "$12",
+       "$15",
+       "$28"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Additional parking: $15/vehicle/day",
+      "x": "Parking beyond the 10 free spaces costs $15 per vehicle per day. $12 is the price of a coffee break per person."
+     },
+     {
+      "o": [
+       "24 hours",
+       "72 hours",
+       "7 days",
+       "14 days"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Changes to final numbers must be made 72 hours in advance",
+      "x": "Changes to final numbers must be made 72 hours in advance. Fourteen days is the cancellation deadline, not the deadline for changing numbers."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A group of 60 wants a half-day presentation in a room with windows. Which room should they book?",
+     "o": [
+      "Willow",
+      "Cedar",
+      "Birch",
+      "Grand Ballroom"
+     ],
+     "a": 0,
+     "t": "diagram",
+     "ev": "80 / 40",
+     "x": "Sixty people need theatre seating for more than 40; Willow holds 80 and has natural light. The Grand Ballroom is big enough but has no windows."
+    },
+    {
+     "q": "If an event costing $1,000 is cancelled 10 days before, what is charged (before tax)?",
+     "o": [
+      "Nothing",
+      "$130",
+      "$1,000",
+      "$500"
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "Bookings cancelled less than 14 days before the event are charged 50%",
+     "x": "Cancelling less than 14 days before is charged 50%, so half of $1,000 is $500. $130 would be the 13% tax, which is excluded."
+    },
+    {
+     "q": "What is NOT included in every package?",
+     "o": [
+      "A projector",
+      "Coffee and pastries",
+      "Water service",
+      "Wi-Fi"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "All packages include Wi-Fi, a projector and screen, water service",
+     "x": "Every package includes Wi-Fi, a projector and screen, and water service. Coffee and pastries are a paid catering item at $12 per person."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Apps or Classrooms? How Adults Learn Languages Today",
+   "paras": [
+    "Language-learning apps have become enormously popular, with some claiming hundreds of millions of users worldwide. Their appeal is obvious: they are cheap or free, available at any time and designed like games, with points, streaks and reminders that encourage daily practice. For busy adults who cannot attend a class at a fixed time, an app can feel like the only realistic option. Many apps also adapt to the learner, repeating words that a user has found difficult and skipping those already mastered, which makes short sessions feel efficient.",
+    "Research on the effectiveness of apps is mixed. Studies show that regular app users do make measurable progress in vocabulary and reading, especially at beginner levels. However, most apps focus on recognizing and translating short sentences, and offer limited opportunities to speak spontaneously or follow natural conversation. Learners who rely only on apps often report that they can understand written phrases but freeze when a real person speaks to them at normal speed. Some researchers also note that many studies are funded by the app companies themselves, so independent evidence is still limited.",
+    "Traditional classes, whether in person or online with a live teacher, offer something apps cannot easily replicate: real-time feedback and interaction. A teacher can notice a recurring pronunciation error or explain why a sentence sounds unnatural. Classes also create accountability, since learners who know a teacher and classmates are expecting them are less likely to skip a session. The downside, for many people, is cost and inflexibility. Group classes at community colleges can cost several hundred dollars per term, and they usually meet at fixed times on weekday evenings, which is difficult for shift workers and parents.",
+    "Many teachers now recommend combining the two. An app can be used for ten or fifteen minutes a day to build vocabulary, while a weekly class or conversation group provides speaking practice. Some community organizations and libraries in Canada offer free conversation circles, where newcomers and language learners meet to talk in a relaxed setting. Teachers say the most important factor is not the method but consistency: learners who practise a little every day progress faster than those who study for hours once a week."
+   ],
+   "qs": [
+    {
+     "q": "App users may struggle when they hear people talking naturally.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "freeze when a real person speaks to them at normal speed",
+     "x": "Paragraph B says app-only learners freeze when a real person speaks to them at normal speed."
+    },
+    {
+     "q": "Regular short practice is more effective than occasional long sessions.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "learners who practise a little every day progress faster than those who study for hours once a week",
+     "x": "Paragraph D says learners who practise a little every day progress faster than those studying for hours weekly."
+    },
+    {
+     "q": "Apps use game-like features to keep users motivated.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "designed like games, with points, streaks and reminders",
+     "x": "Paragraph A says apps are designed like games, with points, streaks and reminders to encourage practice."
+    },
+    {
+     "q": "Having others expect you to attend can help learners keep going.",
+     "a": "C",
+     "t": "inference",
+     "ev": "learners who know a teacher and classmates are expecting them are less likely to skip a session",
+     "x": "Paragraph C says learners who know a teacher and classmates expect them are less likely to skip sessions."
+    },
+    {
+     "q": "Some free speaking opportunities exist in Canadian communities.",
+     "a": "D",
+     "t": "detail",
+     "ev": "libraries in Canada offer free conversation circles",
+     "x": "Paragraph D says some community organizations and libraries in Canada offer free conversation circles."
+    },
+    {
+     "q": "Apps are most useful for people who are just starting a language.",
+     "a": "B",
+     "t": "inference",
+     "ev": "especially at beginner levels",
+     "x": "Paragraph B says app users make measurable progress, especially at beginner levels."
+    },
+    {
+     "q": "Most app users stop using them within a few months.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "No paragraph mentions how long people use apps. Not given (E)."
+    },
+    {
+     "q": "Teachers can identify mistakes that a learner repeats.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "A teacher can notice a recurring pronunciation error",
+     "x": "Paragraph C says a teacher can notice a recurring pronunciation error and explain unnatural sentences."
+    },
+    {
+     "q": "Language classes are usually more effective for children than adults.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "The paragraphs discuss only adult learners; no comparison between children and adults is made, so this is not given."
+    }
+   ]
+  },
+  "p4": {
+   "title": "It’s Time to Retire the Office Dress Code",
+   "byline": "Opinion | by Jonathan Lee, workplace consultant",
+   "text": "A few weeks ago, a client of mine, a mid-sized accounting firm, asked me to help them update their employee handbook. Buried on page twelve was a dress code that would not have looked out of place in 1995: suits for men, “professional skirts or trousers” for women, no sneakers, no visible tattoos. When I asked the managing partner when the policy had last been enforced, he laughed. “Probably before the pandemic,” he said. “Half our people work from home in sweatpants now.”\n\nHis answer sums up the problem. Formal dress codes are increasingly ignored, inconsistently enforced and, in my view, largely irrelevant to the quality of work people do. Yet they linger in handbooks, creating confusion for new employees and occasional unfairness when a manager decides to apply them to one person but not another. New hires, in particular, often arrive overdressed and uncomfortable because they have read a policy that nobody follows.\n\nThe usual defence of dress codes is that clients expect professionalism. That is sometimes true. A lawyer appearing in court, or a salesperson meeting a conservative client, may reasonably choose formal clothing. Nobody objects to that. But that is a judgment that employees can make for themselves, based on the situation, just as they decide how to write an email or run a meeting. Treating adults as though they cannot be trusted to dress appropriately sends a message that has nothing to do with clothing.\n\nThere is also an equity issue. Traditional business clothing is expensive, and the cost falls hardest on junior employees, who earn the least. Rules about hair, head coverings or tattoos can, intentionally or not, disadvantage people from particular cultures or religions. Several Canadian human rights complaints have involved exactly these issues. Even when such complaints are resolved, they cost employers time, legal fees and goodwill that a simpler policy would have saved.\n\nI am not suggesting that anything goes. Safety requirements, such as protective footwear in a warehouse, are essential, and a uniform may make sense where customers need to identify staff quickly. What I recommend instead is a short principle-based guideline: dress for your day, and consider who you will meet. Most employees, given that trust, will get it right. The few who do not can be spoken to individually, which is exactly what managers should be doing anyway. A conversation of that kind takes five minutes; rewriting and enforcing a detailed dress code takes far longer.\n\nThe accounting firm adopted a version of this guideline last month. So far, the partners tell me, no one has shown up to a client meeting in sweatpants.",
+   "qs": [
+    {
+     "q": "What does the managing partner’s answer reveal?",
+     "o": [
+      "The dress code is no longer followed in practice.",
+      "The dress code is strictly enforced.",
+      "Employees prefer formal clothing.",
+      "The firm plans to reintroduce suits."
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "Probably before the pandemic",
+     "x": "The policy has not been enforced since before the pandemic – it is ignored in practice."
+    },
+    {
+     "q": "According to the writer, how should employees decide what to wear?",
+     "o": [
+      "By following the example set by their own managers",
+      "By asking clients what they prefer",
+      "By using their own judgment about the situation",
+      "By wearing a uniform"
+     ],
+     "a": 2,
+     "t": "main",
+     "ev": "that is a judgment that employees can make for themselves, based on the situation",
+     "x": "The writer says employees can judge for themselves what to wear based on the situation. Following a manager’s example is never suggested."
+    },
+    {
+     "q": "Why does the writer mention junior employees?",
+     "o": [
+      "They are most likely to break dress codes.",
+      "Formal clothing costs are hardest on them.",
+      "They prefer formal dress.",
+      "They often meet clients."
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "the cost falls hardest on junior employees, who earn the least",
+     "x": "Formal business clothing is expensive, and the cost falls hardest on junior employees, who earn the least. Nothing says they break dress codes more often."
+    },
+    {
+     "q": "In which situation does the writer accept clothing rules?",
+     "o": [
+      "When managers want staff to look professional for clients",
+      "When employees are new",
+      "When employees work from home",
+      "When safety or easy identification of staff is involved"
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "Safety requirements, such as protective footwear in a warehouse, are essential",
+     "x": "The writer accepts safety rules, like protective footwear, and uniforms where customers must identify staff quickly. Wanting a professional look alone is not enough."
+    },
+    {
+     "q": "What is the tone of the final sentence?",
+     "o": [
+      "Angry",
+      "Worried",
+      "Lightly humorous",
+      "Formal and serious"
+     ],
+     "a": 2,
+     "t": "attitude",
+     "ev": "no one has shown up to a client meeting in sweatpants",
+     "x": "The final line jokes that no one has worn sweatpants to a client meeting, a lightly humorous way to show the guideline works. It is not formal or serious."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a reader’s comment. Complete it by choosing the best option for each blank.",
+    "text": "As an HR manager at a bank, I have to {1} with parts of this article. Yes, many dress codes are outdated, and I agree that rules about tattoos or head coverings can be {2}. We removed those from our policy years ago.\n\nHowever, Mr. Lee assumes that “most employees will get it right.” In my experience, a principle-based guideline creates its own {3}. One person’s idea of “dressing for your day” is very different from another’s, and managers end up having awkward conversations that a clear rule would have {4}.\n\nOur solution has been a short list of examples, with photos, of what works for client meetings and what works for office days. It is not as {5} as a full dress code, but it gives employees more guidance than a single sentence.\n\n– Paula, Calgary",
+    "blanks": [
+     {
+      "o": [
+       "partly disagree",
+       "agree completely",
+       "refuse to engage",
+       "strongly agree"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "I am not suggesting that anything goes",
+      "x": "Paula agrees that dress codes are outdated but argues against principle-based guidelines, so she partly disagrees. She does not agree completely."
+     },
+     {
+      "o": [
+       "practical",
+       "expensive",
+       "popular",
+       "discriminatory"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "can, intentionally or not, disadvantage people from particular cultures or religions",
+      "x": "The article says such rules can disadvantage people from certain cultures or religions, which is discriminatory. Cost relates to business clothing, not to these rules."
+     },
+     {
+      "o": [
+       "benefits",
+       "confusion",
+       "savings",
+       "traditions"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "creating confusion for new employees",
+      "x": "Paula says vague guidelines lead to different interpretations, which creates confusion. The article used the same word about outdated codes confusing new employees."
+     },
+     {
+      "o": [
+       "avoided",
+       "caused",
+       "required",
+       "encouraged"
+      ],
+      "a": 0,
+      "t": "vocab",
+      "ev": "The few who do not can be spoken to individually",
+      "x": "A clear rule would have avoided awkward conversations, since everyone would know the standard. “Caused” reverses her argument for clear rules."
+     },
+     {
+      "o": [
+       "modern",
+       "casual",
+       "strict",
+       "short"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "suits for men, “professional skirts or trousers” for women, no sneakers",
+      "x": "Her photo examples are less strict than a full dress code but give more guidance than one sentence. “Short” does not fit, since a list is longer than the guideline."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Last weekend, you stayed at a hotel in another city for a conference. After you returned home, you realized that you had left an important item in your room.",
+   "bullets": [
+    "Explain when you stayed at the hotel and which room you were in",
+    "Describe the item you left behind and why it is important to you",
+    "Explain how you would like the hotel to return it"
+   ],
+   "model": "Dear Guest Services Team,\n\nI stayed at the Riverside Grand Hotel from Thursday, October 9, to Sunday, October 12, while attending the National Nursing Conference, and I occupied room 1418 on the fourteenth floor. Unfortunately, after returning home to Winnipeg, I realized that I had left something very important in my room.\n\nThe item is a small black leather case containing a silver watch with a dark blue face. I believe I left it on the shelf above the bathroom sink when I was packing on Sunday morning. Although it is not especially valuable, the watch belonged to my late grandfather, who wore it every day for forty years, so it has enormous sentimental value for me.\n\nI would be very grateful if you could check whether it has been found by your housekeeping staff. If so, I would like it to be sent by registered courier to the address below, as I would not want it to be lost in the regular mail. I am happy to pay for shipping; you are welcome to charge the credit card I used for my stay.\n\nThank you very much for your help.\n\nSincerely,\nMaria Gonzalez\n45 Elm Crescent, Winnipeg, MB"
+  },
+  "t2": {
+   "intro": "Your employer wants to offer a new benefit to encourage healthy habits and is asking employees to choose between two options.",
+   "question": "Which option do you prefer?",
+   "a": "Build a small gym in the office building, with exercise equipment and showers, free for all employees.",
+   "b": "Pay 75% of the cost of a monthly public transit pass for every employee.",
+   "model": "In my view, Option B, paying 75% of a monthly transit pass, would be the better benefit for our company, because it would help far more employees in a practical, everyday way.\n\nFirst and foremost, almost everyone has to get to work, but not everyone wants to exercise at the office. A transit subsidy would save each employee who uses it more than a hundred dollars a month, which is a significant amount at a time when living costs are so high. It would also encourage colleagues who currently drive to try the bus or train, which reduces traffic and our company’s environmental impact.\n\nSecondly, using public transit is healthier than many people think. Most transit users walk to and from stations every day, which adds natural exercise to their routine without requiring extra time.\n\nAn office gym is an attractive idea, but I suspect it would be used by a small group of enthusiastic employees, while others would feel uncomfortable working out in front of colleagues. It would also take up valuable space and require ongoing maintenance.\n\nFor these reasons, I believe the transit subsidy is the fairer and more effective choice."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "A friend has just accepted a job in Montreal and wants to improve their French as quickly as possible before moving in six months. Give your friend advice on how to do this.",
+   "model": "Congratulations on the job! Six months isn’t a lot of time, but you can make real progress if you’re smart about it. My first piece of advice is to practise every single day, even if it’s only twenty or thirty minutes. Little and often works much better than studying for three hours on a Sunday. Second, focus on speaking and listening, not just grammar. You could sign up for an online class with a live teacher, or find a conversation group – many libraries and community centres run free ones. Even better, try a language exchange, where you help someone with English and they help you with French. Third, surround yourself with French. Switch your phone to French, listen to French podcasts or Quebec radio on your commute, and watch Quebec TV series with French subtitles. That way you’ll get used to the accent and the expressions people actually use in Montreal, which are a bit different from textbook French. And finally, don’t be afraid of making mistakes. Montrealers are usually very patient with people who are trying. The more you speak, the faster you’ll improve."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you had to make a difficult decision. What was the decision, and how did you make it?",
+   "model": "About four years ago, I had to decide whether to leave a stable job to go back to school. I was working in customer service at a large telecom company. The pay was decent and I liked my colleagues, but I felt stuck, and I had always wanted to become a dental hygienist. The problem was that the program was two years long and full time, so I would lose my salary, and I had a car loan and rent to pay. I spent weeks going back and forth. What really helped was making a list with my sister. We wrote down the costs, the possible salary afterwards, and how I would feel in five years if I didn’t try. When I saw it all on paper, it was clear that the long-term benefits were much greater. I also talked to two hygienists I knew, and they were very encouraging. In the end, I applied, got accepted, and worked part-time on weekends to cover my bills. It was a very tough two years, but now I love my job, and I earn more than before. I’m really glad I took the risk."
+  },
+  "t3": {
+   "scene": {
+    "bg": "market",
+    "alt": "An outdoor farmers’ market on a sunny Saturday morning. On the left, a stall with a red-and-white awning labelled \"FRESH FRUIT\" is selling colourful fruit; a vendor in a green apron stands behind it while a woman with a shopping bag points at the fruit. In the centre, a man in a blue shirt stands next to a grey stroller, and a young girl in a pink dress is holding a red balloon. A basket sits on the ground near the fruit stall. On the right, another stall with a green awning labelled \"BAKERY\" has a vendor holding a tray of bread, and a couple is tasting samples. A dog is sitting near the bakery stall. There are hanging banners reading \"SATURDAY MARKET\" and a few trees in the background.",
+    "items": [
+     [
+      "banner",
+      180,
+      30,
+      280,
+      "SATURDAY MARKET",
+      "#c0392b"
+     ],
+     [
+      "tree",
+      600,
+      260,
+      0.8
+     ],
+     [
+      "stall",
+      20,
+      300,
+      180,
+      "FRESH FRUIT",
+      "#c0392b"
+     ],
+     [
+      "person",
+      80,
+      230,
+      {
+       "shirt": "#27ae60",
+       "hairStyle": "bun",
+       "s": 0.85
+      }
+     ],
+     [
+      "person",
+      220,
+      330,
+      {
+       "shirt": "#f39c12",
+       "pose": "point",
+       "hairStyle": "long",
+       "hold": "bag",
+       "flip": true
+      }
+     ],
+     [
+      "stroller",
+      310,
+      360
+     ],
+     [
+      "person",
+      350,
+      360,
+      {
+       "shirt": "#2980b9",
+       "flip": true,
+       "pose": "stand"
+      }
+     ],
+     [
+      "person",
+      280,
+      365,
+      {
+       "kid": true,
+       "shirt": "#e84393",
+       "hold": "balloon",
+       "holdColor": "#e74c3c",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "stall",
+      430,
+      300,
+      170,
+      "BAKERY",
+      "#27ae60"
+     ],
+     [
+      "person",
+      500,
+      230,
+      {
+       "shirt": "#ecf0f1",
+       "hold": "tray",
+       "hat": "#fff",
+       "s": 0.85
+      }
+     ],
+     [
+      "person",
+      440,
+      360,
+      {
+       "shirt": "#8e44ad",
+       "hold": "cup",
+       "skin": "#c68642"
+      }
+     ],
+     [
+      "person",
+      470,
+      362,
+      {
+       "shirt": "#16a085",
+       "hairStyle": "curly",
+       "flip": true
+      }
+     ],
+     [
+      "dog",
+      600,
+      370,
+      "#7f5539",
+      true
+     ],
+     [
+      "basket",
+      190,
+      365
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows an outdoor farmers’ market on what looks like a sunny weekend morning. Across the top, there’s a red banner that says “Saturday Market.” On the left-hand side, there’s a fruit stall with a red-and-white striped awning and a sign that says “Fresh Fruit.” It’s full of colourful fruit – red, orange, green and purple – and a vendor wearing a green top is standing behind the counter. In front of the stall, a woman with long hair, wearing an orange top and carrying an orange shopping bag, is pointing at the fruit, probably asking about prices. There’s also a basket on the ground near her. In the middle of the picture, a man in a blue shirt is standing next to a grey stroller, and a little girl in a pink dress is holding a bright red balloon. On the right-hand side, there’s a bakery stall with a green awning. The baker, who’s wearing white and a white hat, is holding a tray, and two customers are standing in front – one is holding a cup, maybe a coffee or a sample. And at the far right, there’s a brown dog sitting near the stall, probably hoping for some bread. It looks like a cheerful, busy community event."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think several things will happen in the next few minutes. First, the woman pointing at the fruit will probably buy a few things – maybe strawberries or apples – and put them in her shopping bag, and since she has a basket too, she might fill that as well. Second, the dog near the bakery stall is clearly interested in the bread. I wouldn’t be surprised if the baker gives it a small piece, or if the dog tries to grab something and the owner has to call it back. Third, the little girl with the balloon is quite young, and balloons often slip out of children’s hands. There’s a good chance she’ll let go of it, and it’ll float up past the “Saturday Market” banner, and she might start to cry. Her father will probably comfort her, maybe by buying her a treat at the bakery. Finally, as it gets later in the morning, I think the market will get much busier, and the stalls might start to run out of their most popular items."
+  },
+  "t5": {
+   "intro": "Your team at work wants to celebrate finishing a big project. You have found two options. Choose the one you prefer. In the next section, you will need to persuade your manager that your choice is better than the one your manager prefers.",
+   "options": [
+    {
+     "title": "Escape room + pizza",
+     "details": [
+      "$45 per person",
+      "Teams of 6 solve puzzles for 1 hour",
+      "Pizza and drinks afterwards",
+      "Weekday evening",
+      "15-minute walk from the office"
+     ]
+    },
+    {
+     "title": "Half-day boat cruise",
+     "details": [
+      "$85 per person",
+      "Lunch on the boat",
+      "During work hours (Friday afternoon)",
+      "Relaxed, no planned activities",
+      "Bus provided from the office"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Fancy restaurant dinner",
+    "details": [
+     "$95 per person",
+     "Three-course meal",
+     "Saturday evening",
+     "Formal setting",
+     "30-minute drive from the office"
+    ]
+   },
+   "otherWho": "Your manager prefers",
+   "persuade": "Your manager prefers the restaurant dinner. Persuade your manager that your choice is better.",
+   "model": "I agree that a nice dinner would be a lovely way to say thank you, but I really think the boat cruise would work better for our team. My main reason is timing. The dinner is on a Saturday evening, and after this project, people have already given up a lot of evenings and weekends. Asking them to give up another Saturday night – and arrange babysitters – feels more like an obligation than a reward. The cruise is on a Friday afternoon during work hours, so everyone can come, and it shows we value their personal time. Second, cost. The cruise is eighty-five dollars per person, which is actually ten dollars less than the dinner, and it includes lunch and the bus. With the restaurant, people would have to drive thirty minutes or pay for taxis, and that adds up. And third, I think the relaxed atmosphere is exactly what the team needs. At a formal dinner, people tend to sit with the same colleagues and talk about work. On a boat, people walk around, enjoy the view and really chat with each other. I think we’d come back on Monday feeling more connected."
+  },
+  "t6": {
+   "situation": "You share an apartment with a roommate. For the last two months, your roommate has not paid their share of the electricity and internet bills, which are in your name. You have reminded them once, but nothing has changed. You now owe $280.",
+   "options": [
+    "Talk to your roommate about the unpaid bills.",
+    "Talk to your landlord and ask for advice."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Jess, do you have a few minutes? I need to talk to you about the bills. I don’t want this to be awkward, but it’s been two months now since you paid your share of the electricity and internet. I mentioned it a few weeks ago, and I know you’ve been busy, but the total is now two hundred and eighty dollars, and since the accounts are in my name, I’ve been covering all of it. Honestly, it’s starting to put a lot of pressure on my budget. I’m not upset with you, and if something’s going on, like a problem with work or money, I’d really rather you just tell me, and we can figure something out together. For example, you could pay half now and the rest at the end of the month. But going forward, I think we need a better system. What if we both set up an automatic transfer on the first of each month? That way neither of us has to remember or ask. I really like living with you, and I don’t want money to come between us. Can we agree on a plan today?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should restaurants be required to show the number of calories for each item on their menus? Explain your reasons.",
+   "model": "In my opinion, larger restaurant chains should be required to show calories on their menus, although I would exempt small independent restaurants. My main reason is that people have a right to know what they’re eating. When you buy food at a grocery store, there’s a nutrition label on almost everything. But when you eat out, you often have no idea that a salad might have more calories than a burger, because of the dressing and toppings. Clear information helps people make better choices, especially those who are managing diabetes, heart disease or their weight. Secondly, there is some evidence that calorie labels encourage restaurants to improve their recipes. Once the numbers are printed, companies don’t want their dishes to look unhealthy, so they reduce portion sizes or offer lighter options. On the other hand, I understand that small family restaurants change their menus often and may not have the resources to test every dish. That’s why I think the rule should apply to chains with many locations. Overall, I believe calorie labelling is a simple, low-cost way to support public health and give customers more control."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "A staircase in a city leading up to a train station, painted to look like giant piano keys: each white step has black rectangles like the black keys of a piano. Musical notes float in the air above it. People are walking up the stairs, one person is jumping on a step, and next to the stairs there is a regular escalator that no one is using.",
+    "items": [
+     [
+      "building",
+      0,
+      250,
+      160,
+      240,
+      "#bfc9d1",
+      "STATION"
+     ],
+     [
+      "pianoStairs",
+      380,
+      380
+     ],
+     [
+      "rect",
+      590,
+      160,
+      40,
+      220,
+      "#95a5a6"
+     ],
+     [
+      "person",
+      260,
+      360,
+      {
+       "shirt": "#c0392b",
+       "pose": "walk"
+      }
+     ],
+     [
+      "person",
+      350,
+      315,
+      {
+       "shirt": "#2980b9",
+       "pose": "both",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "person",
+      440,
+      270,
+      {
+       "shirt": "#27ae60",
+       "pose": "walk",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      520,
+      225,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "run"
+      }
+     ]
+    ]
+   },
+   "prompt": "You are visiting another city and you see this unusual staircase. Call a friend who works for your city council and describe it. Explain whether you think your city should build something similar. Your friend cannot see the picture.",
+   "model": "Hi Mark, it’s me. I’m in Vancouver, and I’m looking at something you have to hear about for the council. It’s a staircase leading up to the train station, but it’s been turned into a giant piano. Every step is painted white, and on each step there are black rectangles, exactly like the black keys on a piano keyboard. So from the bottom, the whole staircase looks like an enormous keyboard going up the hill. And here’s the clever part – when you step on a stair, it plays a musical note! There are even little musical notes painted on the wall above it. Right next to the stairs, there’s a regular escalator, and almost nobody is using it. People are choosing to walk up the stairs, and some are even jumping from step to step to play a tune. There’s a kid running up right now, and a woman with her arms in the air like she’s dancing. I honestly think we should do something like this at our central station. It encourages people to be more active, it’s fun, and it would be great for tourism. It probably isn’t cheap, so maybe we could find a sponsor. What do you think?"
+  }
+ }
+}

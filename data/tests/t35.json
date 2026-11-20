@@ -1,0 +1,1922 @@
+{
+ "id": "t35",
+ "title": "Test 35",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two housemates discover that their monthly rent payment never reached their landlord.",
+    "sp": {
+     "A": {
+      "name": "Noor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Callum",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Callum, did you send the rent on the first like we agreed? Mr. Petrakis just texted me asking whether we’d forgotten about him this month."
+       ],
+       [
+        "B",
+        "What? Yes, I sent it on the first, the whole two thousand one hundred and forty. Remember, you e-transferred me your half that same morning. He even emailed the week before to say he’d switched banks and wanted it sent to a new address."
+       ],
+       [
+        "A",
+        "Can you pull up that email? Because he says he hasn’t changed anything."
+       ],
+       [
+        "B",
+        "Hang on. Here. ‘Please note our new payment address, petrakis dot rentals at…’ Oh no. His real one doesn’t have a dot in it. It’s all one word."
+       ],
+       [
+        "A",
+        "Let me see. The logo’s copied, the signature’s the same, it even mentions our unit number. Whoever sent this knew exactly who to target."
+       ],
+       [
+        "B",
+        "I can’t believe I didn’t notice. Can’t we just cancel it? Banks let you cancel an e-transfer if it hasn’t been deposited yet."
+       ],
+       [
+        "A",
+        "Only if it’s still pending. Check the status."
+       ],
+       [
+        "B",
+        "It says ‘completed’. It went through about two minutes after I sent it, so it must have been set up for auto-deposit. There was never a security question."
+       ],
+       [
+        "A",
+        "Then whoever it is had the money before you’d even put your phone down. Look, don’t beat yourself up. Honestly, I would have fallen for it too. It looks completely legitimate."
+       ],
+       [
+        "B",
+        "That doesn’t make me feel much better. The lease says rent is late after the fifth, and then there’s a seventy-five dollar fee. Today’s the fourth."
+       ],
+       [
+        "A",
+        "So we have until tomorrow night, basically. Okay. First things first: we need to find the money for Mr. Petrakis, and then we deal with the bank and whoever did this."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How did the rent payment end up in the wrong account?",
+        "o": [
+         "Noor e-transferred her half to an outdated address.",
+         "Callum answered a fake message posing as the landlord.",
+         "The landlord switched banks without telling the tenants.",
+         "The bank deposited the payment into a similar account."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "His real one doesn’t have a dot in it.",
+        "x": "The email copied the landlord’s logo and signature but used a different address, so it was fake. The landlord says he has not changed anything, so “switched banks” was the scammer’s claim, not a fact."
+       },
+       {
+        "q": "Why is it impossible to cancel the transfer?",
+        "o": [
+         "It was sent more than three days ago.",
+         "Callum forgot to set a security question.",
+         "The bank does not allow cancellations after the first.",
+         "The receiving account accepted it immediately."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "It went through about two minutes after I sent it, so it must have been set up for auto-deposit",
+        "x": "A transfer can be cancelled only while pending, and this one was accepted automatically within minutes. The missing security question is a result of auto-deposit, not something Callum forgot to do."
+       },
+       {
+        "q": "How does Noor react to Callum’s mistake?",
+        "o": [
+         "She considers it an easy error to make.",
+         "She is annoyed that he paid without her.",
+         "She thinks he should have phoned the bank.",
+         "She suspects he typed the address wrongly."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "Honestly, I would have fallen for it too.",
+        "x": "Saying she would have “fallen for it too” and “don’t beat yourself up” shows she sees the mistake as understandable. She had sent him her half that morning, so she is not annoyed that he paid."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "I could take a cash advance on my credit card. The limit’s high enough to cover the whole thing."
+       ],
+       [
+        "A",
+        "Have you read the terms on that? With most cards, interest on cash advances starts the day you take the money, and it’s usually higher than the purchase rate. Plus there’s a fee on top. If the bank takes two months to sort this out, that adds up fast."
+       ],
+       [
+        "B",
+        "Twenty-three percent, I think, from day one. Yeah, okay, scratch that. My parents did say they’d help if I ever got stuck…"
+       ],
+       [
+        "A",
+        "Then why do you sound like you’d rather eat glass?"
+       ],
+       [
+        "B",
+        "Because they’re already covering my sister’s tuition this year, and I told them when I moved out that I wouldn’t ask for anything. It would be the first thing my dad brings up at every family dinner until I’m forty."
+       ],
+       [
+        "A",
+        "Fair enough. What about asking Mr. Petrakis to wait until the bank investigates?"
+       ],
+       [
+        "B",
+        "He’s been decent with us, but he’s got his own mortgage on this place. And didn’t he say last month that he’s thinking of selling? I don’t want us to look like tenants who cause problems."
+       ],
+       [
+        "A",
+        "Hmm, true. Okay, here’s another thought. I’ve got about three thousand in a term deposit. It doesn’t mature until March, but I checked once, and if you cash it early, you just give up the interest. You don’t lose any of the principal."
+       ],
+       [
+        "B",
+        "How much interest are we talking about?"
+       ],
+       [
+        "A",
+        "Maybe forty dollars by March. Which is less than what the cash advance fee alone would cost you."
+       ],
+       [
+        "B",
+        "I can’t ask you to do that. It was half my fault. No, actually, it was all my fault."
+       ],
+       [
+        "A",
+        "You’re not asking, I’m offering. And it’s not as if the money disappears. You can pay me back."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why do they reject the idea of a cash advance?",
+        "o": [
+         "Callum’s credit limit is too low to cover the rent.",
+         "The card company would charge the landlord a fee.",
+         "Charges would start building up right away.",
+         "The bank needs two months to approve an advance."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "interest on cash advances starts the day you take the money",
+        "x": "Interest begins the day the money is taken, plus a fee, so costs would grow while the bank investigates. Callum says his limit is high enough, and “two months” refers to the fraud investigation."
+       },
+       {
+        "q": "Why is Callum reluctant to accept his parents’ help?",
+        "o": [
+         "He promised them he would manage on his own.",
+         "His parents cannot afford the full amount.",
+         "His father would insist on calling the landlord.",
+         "His sister needs that money for her own rent."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I told them when I moved out that I wouldn’t ask for anything",
+        "x": "He told his parents when he moved out that he would not ask for anything. His sister’s tuition, not rent, is mentioned, and he never says his parents cannot afford to help."
+       },
+       {
+        "q": "What does Noor suggest about using her term deposit?",
+        "o": [
+         "She would lose part of the original amount.",
+         "It cannot be touched before it matures in March.",
+         "Its interest is higher than a cash advance’s.",
+         "Withdrawing early would cost relatively little."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "you just give up the interest. You don’t lose any of the principal",
+        "x": "She would give up only about forty dollars of interest, less than a cash-advance fee. She says the principal is safe, and March is when the deposit matures, not a date before which it is locked."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Right, I just got off the phone with the bank’s fraud department."
+       ],
+       [
+        "A",
+        "And? Will they give it back?"
+       ],
+       [
+        "B",
+        "She was nice, but she wouldn’t promise anything. She said they’ll try to freeze the receiving account, but if the money’s already been moved out, there may be nothing to recover. I have to file a written claim within thirty days and include a police report number."
+       ],
+       [
+        "A",
+        "So we report it to the police too. That’s easy enough online. Did you call Mr. Petrakis?"
+       ],
+       [
+        "B",
+        "Yeah. He was much calmer than I expected. It turns out two other tenants in his buildings got the same email. He said if the rent reaches him by Friday, he’ll forget about the late fee."
+       ],
+       [
+        "A",
+        "Friday? That gives us a couple of extra days. Then I don’t have to rush to the branch this afternoon. I’ll go tomorrow on my lunch break and break the deposit."
+       ],
+       [
+        "B",
+        "He also asked that we phone him to double-check the address before we send anything. I think he’s scared we’ll get caught twice."
+       ],
+       [
+        "A",
+        "Can’t blame him. And Callum, whatever the bank decides, let’s split the loss. We were both copied on that email, and neither of us spotted it."
+       ],
+       [
+        "B",
+        "You’re sure? Then I’ll pay you back my share at two hundred a month, starting with my next paycheque."
+       ],
+       [
+        "A",
+        "Deal. Now go and file that police report while the details are still fresh."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What did the bank representative tell Callum?",
+        "o": [
+         "The receiving account had already been frozen.",
+         "Recovery may be impossible if the funds were moved.",
+         "He must visit a branch within thirty days.",
+         "A police officer will contact him to discuss the claim."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "if the money’s already been moved out, there may be nothing to recover",
+        "x": "The bank will only try to freeze the account, and if the money has been moved there may be nothing to recover. Thirty days is the deadline for a written claim, not for a branch visit."
+       },
+       {
+        "q": "What will Noor most likely do tomorrow?",
+        "o": [
+         "Pay the landlord the late fee by e-transfer",
+         "Report the fraud to the police online",
+         "Withdraw her savings early at the bank",
+         "Phone the landlord’s other tenants"
+        ],
+        "a": 2,
+        "t": "prediction",
+        "ev": "I’ll go tomorrow on my lunch break and break the deposit.",
+        "x": "She plans to go to the branch at lunch and cash the term deposit early. The late fee will be waived if rent arrives by Friday, and Callum, not Noor, is told to file the police report."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A customer is speaking with a sales associate at an electronics store about a recent purchase.",
+    "sp": {
+     "A": {
+      "name": "Rohan",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Della",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hi, I bought a robot vacuum here about a week and a half ago, the Brisa 500, and I just saw this weekend’s flyer. It’s a hundred and fifty dollars cheaper now. I was hoping you could refund me the difference."
+       ],
+       [
+        "A",
+        "Sure, let me take a look. Do you have the receipt? Okay, purchased on the ninth, so you’re well within our fourteen-day price protection window. Normally that would be an easy adjustment."
+       ],
+       [
+        "B",
+        "Normally?"
+       ],
+       [
+        "A",
+        "The problem is that this weekend’s price is part of our Midnight Madness event. Those are what we call limited-quantity specials, and they’re excluded from price protection. It’s right here in the fine print at the bottom of the flyer."
+       ],
+       [
+        "B",
+        "You’re joking. So someone who walks in today pays four ninety-nine, and I’m stuck at six forty-nine because I bought it too early?"
+       ],
+       [
+        "A",
+        "I understand how that feels. One option is to return the vacuum and buy it again at the sale price. But since the box has been opened, there’s a fifteen percent restocking fee, which on six forty-nine works out to just under a hundred dollars."
+       ],
+       [
+        "B",
+        "So I’d save fifty dollars at best, and that’s assuming you still have one in stock. That hardly seems worth the trip home to repackage it."
+       ],
+       [
+        "A",
+        "That’s fair. Honestly, I’m not sure it’s worth it either. Let me check something. Okay, I can’t override the exclusion myself, but my manager can issue what we call a goodwill credit in situations like this. It wouldn’t be a refund to your card, though. It would be a store gift card."
+       ],
+       [
+        "B",
+        "For the full hundred and fifty?"
+       ],
+       [
+        "A",
+        "She usually approves half of the difference, so seventy-five. Sometimes a bit more if the customer has our store credit card, but I see you paid with debit."
+       ],
+       [
+        "B",
+        "Seventy-five on a gift card. I suppose that’s better than walking out with nothing. I do need new filters for it anyway. Do those come in packs?"
+       ],
+       [
+        "A",
+        "A three-pack is thirty-two dollars, so you could cover two packs with the credit and still have a little left over."
+       ],
+       [
+        "B",
+        "All right. Go ahead and ask her. And next time I’ll read the bottom of the flyer before I come in."
+       ],
+       [
+        "A",
+        "I’ll be right back. It should only take about five minutes."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does the customer’s purchase not qualify for price protection?",
+        "o": [
+         "She bought the vacuum more than fourteen days ago.",
+         "She did not bring her original receipt to the store.",
+         "The vacuum is now sold as a different model.",
+         "The new price is part of a special type of sale."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Those are what we call limited-quantity specials, and they’re excluded from price protection.",
+        "x": "The lower price belongs to a limited-quantity special, which is excluded from price protection. She is still inside the fourteen-day window, so option A misuses a number from the conversation."
+       },
+       {
+        "q": "Why does the customer reject returning the vacuum and buying it again?",
+        "o": [
+         "The savings would be too small for the effort.",
+         "The store has sold all the sale-priced units.",
+         "She has thrown away the original packaging.",
+         "The associate will not accept opened products."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "That hardly seems worth the trip home to repackage it.",
+        "x": "After a restocking fee of almost $100 she would save only about $50, which she says is hardly worth it. Stock is a possibility she raises, not a fact, and opened items are accepted with a fee."
+       },
+       {
+        "q": "What can the manager do for the customer?",
+        "o": [
+         "Refund half the difference to her debit card",
+         "Override the exclusion for loyal customers",
+         "Offer partial compensation as store credit",
+         "Waive the restocking fee on her return"
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "She usually approves half of the difference, so seventy-five.",
+        "x": "The manager usually approves half the difference as a gift card, which is partial compensation in store credit. It is explicitly not a refund to her card, and the exclusion itself cannot be overridden."
+       },
+       {
+        "q": "How does the customer feel about the gift card offer?",
+        "o": [
+         "She is delighted that it covers the difference.",
+         "She accepts it as better than nothing.",
+         "She suspects that it will expire quickly.",
+         "She would prefer the store’s credit card."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "I suppose that’s better than walking out with nothing.",
+        "x": "“I suppose” signals reluctant acceptance: the credit is only half of the difference but better than nothing. She never mentions expiry dates or wanting the store credit card."
+       },
+       {
+        "q": "What will the customer probably use the credit for?",
+        "o": [
+         "Supplies for the vacuum she already owns",
+         "A second robot vacuum at the sale price",
+         "Part of the restocking fee on a return",
+         "A three-pack of filters for a friend"
+        ],
+        "a": 0,
+        "t": "prediction",
+        "ev": "I do need new filters for it anyway.",
+        "x": "She needs new filters for her vacuum anyway, and the associate says the credit would cover two packs. She has decided not to return the vacuum, so no restocking fee applies."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A caller is asking a credit union representative about a savings account for first-time home buyers.",
+    "sp": {
+     "A": {
+      "name": "Mireille",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Tobias",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Good morning, Prairie Hollow Credit Union, Mireille speaking."
+       ],
+       [
+        "B",
+        "Hi, I saw an ad for your HomeStart Saver account and wanted to know more. My partner and I are hoping to buy our first place in maybe three years."
+       ],
+       [
+        "A",
+        "Great timing. The HomeStart Saver is designed exactly for that. It pays three point one percent interest, calculated daily and paid monthly, and on top of that, we add a matching bonus: one dollar for every twenty you deposit, up to two hundred and fifty dollars a year."
+       ],
+       [
+        "B",
+        "So to get the full two-fifty, I’d need to put in five thousand a year?"
+       ],
+       [
+        "A",
+        "Exactly. The bonus is paid each January for the previous year’s deposits. One important condition, though: if you make a withdrawal for anything other than a home purchase during the year, you lose that year’s bonus, and there’s a twenty-five dollar withdrawal fee."
+       ],
+       [
+        "B",
+        "Okay. Can my partner and I open it together?"
+       ],
+       [
+        "A",
+        "Unfortunately, no. It’s a single-owner account, but each of you can open one, so as a couple you could earn up to five hundred in bonuses a year. You both need to be members of the credit union first."
+       ],
+       [
+        "B",
+        "What does membership involve?"
+       ],
+       [
+        "A",
+        "A one-time purchase of a membership share for twenty-five dollars. It’s not really a fee, because you get it back if you ever close your membership."
+       ],
+       [
+        "B",
+        "And is there any rule about who can open the account? My partner owned a condo with her ex, but she sold it about five years ago."
+       ],
+       [
+        "A",
+        "The rule is that you can’t have owned a home in the past four years, so she’d still qualify. We’ll just ask her to sign a declaration."
+       ],
+       [
+        "B",
+        "Good. Is there a minimum deposit?"
+       ],
+       [
+        "A",
+        "You need to set up an automatic monthly transfer of at least fifty dollars. You can add more whenever you like, and you can change the amount, but you can’t pause it for more than two months in a row."
+       ],
+       [
+        "B",
+        "And can I do all of this online?"
+       ],
+       [
+        "A",
+        "You can start the application online, but we have to verify your identity within thirty days. You can do that at any branch, or we now offer a short video call with one of our advisors, which most people find more convenient."
+       ],
+       [
+        "B",
+        "What happens when we actually find a house? Is there a lot of paperwork?"
+       ],
+       [
+        "A",
+        "You’d just show us an accepted offer to purchase, and we release the funds directly to your lawyer. That takes about three business days, so don’t leave it until the day before closing."
+       ],
+       [
+        "B",
+        "That makes sense. One last thing: the ad mentioned a welcome offer?"
+       ],
+       [
+        "A",
+        "Yes, if you open the account before the end of this month, we’ll add a fifty-dollar welcome deposit. But it’s only added once your first automatic transfer has gone through."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is true about the matching bonus?",
+        "o": [
+         "It is paid monthly together with the interest.",
+         "It can still be earned after withdrawing money for a car.",
+         "It equals five percent of deposits, up to a cap.",
+         "It is doubled for couples who share an account."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "one dollar for every twenty you deposit, up to two hundred and fifty dollars a year",
+        "x": "One dollar for every twenty deposited is five percent, with a $250 yearly limit. The interest, not the bonus, is paid monthly; the bonus comes each January and is lost after non-home withdrawals."
+       },
+       {
+        "q": "Why can’t Tobias and his partner share one account?",
+        "o": [
+         "Couples must have owned a home together before.",
+         "The account can belong to only one person.",
+         "His partner has owned property in the past four years.",
+         "Only one member per household may join."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "It’s a single-owner account",
+        "x": "It is a single-owner account, so each partner must open their own. His partner sold her condo five years ago, outside the four-year rule, so her past ownership is not a problem."
+       },
+       {
+        "q": "What does Mireille say about the membership share?",
+        "o": [
+         "It is a yearly fee paid by every member.",
+         "It is waived for HomeStart Saver customers.",
+         "It is taken out of the welcome deposit.",
+         "The money is returned if the membership ends."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "you get it back if you ever close your membership",
+        "x": "The $25 share is refunded if the membership is closed, which is why she says it is not really a fee. It is a one-time purchase, not yearly, and it is unrelated to the welcome deposit."
+       },
+       {
+        "q": "What is the rule about the monthly automatic transfer?",
+        "o": [
+         "It may be paused, but not for long.",
+         "Its amount is fixed for the first year.",
+         "It must add up to five thousand a year.",
+         "It is paused automatically in December."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "you can’t pause it for more than two months in a row",
+        "x": "Pausing is allowed, but not for more than two months in a row. The amount can be changed, so it is not fixed, and $5,000 is only needed to earn the maximum bonus."
+       },
+       {
+        "q": "What does Mireille suggest about identity verification?",
+        "o": [
+         "It must be done at a branch before applying.",
+         "It can be skipped if the application is online.",
+         "It usually takes about three business days.",
+         "Most customers prefer to complete it remotely."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "which most people find more convenient",
+        "x": "She says most people find the video call more convenient, so most prefer verifying remotely. Three business days is how long it takes to release funds to a lawyer, not to verify identity."
+       },
+       {
+        "q": "What must happen before the welcome offer is added?",
+        "o": [
+         "The customer must deposit at least five thousand dollars in total.",
+         "The first scheduled monthly deposit must be completed.",
+         "The customer must verify their identity in a branch.",
+         "The customer must show an accepted offer to purchase."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "it’s only added once your first automatic transfer has gone through",
+        "x": "The $50 welcome deposit is added only after the first automatic transfer goes through. An accepted offer is needed to release savings for a purchase, not to receive the welcome offer."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Anil Mehra",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "For the past year, a group of volunteers in Fenwick Falls has been doing something most of us only grumble about: keeping track of grocery prices. Every second Saturday, about twenty volunteers visit the town’s five largest grocery stores with clipboards and phones, recording the prices of the same forty everyday items, from milk and eggs to rice, apples and laundry detergent. This week, the group published its first annual report, and the findings have surprised even the people who collected them."
+       ],
+       [
+        "A",
+        "According to the report, the same basket of forty items cost as little as one hundred and eighty-six dollars at one store and as much as two hundred and forty-four at another, a gap of more than thirty percent. The project’s coordinator, retired bookkeeper Anil Mehra, says the biggest surprise was not the gap itself but where it showed up."
+       ],
+       [
+        "B",
+        "We all assumed the discount store out on the highway would be cheapest, and for packaged goods it was. But for fresh produce, the small independent grocer downtown beat everyone, almost every single month. People have been driving past it for years because they assumed it was expensive."
+       ],
+       [
+        "A",
+        "The report also found that prices rose fastest not at the start of the year, as many shoppers expected, but in late summer, when several items increased by more than ten percent in a single month. Mehra stresses that the group is not trying to name and shame anyone."
+       ],
+       [
+        "B",
+        "We’re not economists, and we don’t know why a store charges what it charges. Costs for transport and rent are real. What we want is for families to be able to compare, so they can decide where their money goes."
+       ],
+       [
+        "A",
+        "Not everyone welcomed the report. A regional manager for one of the larger chains told us the volunteers’ method was, in his words, a snapshot that ignores weekly flyer deals and loyalty points, which he says can reduce a typical family’s bill by up to fifteen percent. The group acknowledges that it records shelf prices only, but points out that many residents, especially seniors, don’t use apps or loyalty cards."
+       ],
+       [
+        "A",
+        "The volunteers now plan to post their monthly numbers on the public library’s website, and they are looking for more help so they can expand the list to include baby products and pet food."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does the volunteer group do?",
+        "o": [
+         "Regularly compares what stores charge for the same items",
+         "Negotiates discounts with local grocers for low-income families",
+         "Collects donations of everyday items such as milk and eggs",
+         "Teaches residents how to use flyers and loyalty programs"
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "recording the prices of the same forty everyday items",
+        "x": "Volunteers record the prices of the same forty items at five stores every second Saturday. Milk and eggs are examples of items tracked, not donations, and they do not negotiate discounts."
+       },
+       {
+        "q": "What surprised Anil Mehra most?",
+        "o": [
+         "How large the gap was between the cheapest and dearest stores",
+         "That the discount store had the lowest prices on packaged goods",
+         "That a shop people saw as pricey was cheapest for fresh food",
+         "That prices rose sharply at the very beginning of the year"
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "for fresh produce, the small independent grocer downtown beat everyone",
+        "x": "The biggest surprise was not the gap but where it appeared: the downtown grocer people assumed was expensive was cheapest for produce. The discount store winning on packaged goods was expected."
+       },
+       {
+        "q": "What does the report say about when prices rose?",
+        "o": [
+         "Prices rose most in January, as shoppers had predicted.",
+         "The steepest rise came later than people had expected.",
+         "Prices went up by ten percent over the whole year.",
+         "Increases were smallest during the summer months."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "prices rose fastest not at the start of the year, as many shoppers expected, but in late summer",
+        "x": "The fastest rise came in late summer, not at the start of the year as shoppers expected. Ten percent was a one-month jump for some items, not the change over the whole year."
+       },
+       {
+        "q": "What is Mehra’s attitude toward the stores?",
+        "o": [
+         "He accuses them of hiding their real prices from seniors.",
+         "He believes they should find ways to cut transport costs.",
+         "He thinks the larger chains are treating shoppers unfairly.",
+         "He avoids blaming them and accepts their costs are real."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "Costs for transport and rent are real.",
+        "x": "He says the group is not trying to “name and shame” anyone and that transport and rent costs are real. He never accuses the chains of unfairness; his goal is to help families compare."
+       },
+       {
+        "q": "What is the regional manager’s criticism of the report?",
+        "o": [
+         "Volunteers only shopped on Saturdays, when prices are higher.",
+         "The forty items do not reflect what families really buy.",
+         "It overlooks ways shoppers pay less than the shelf price.",
+         "The group should have included baby products and pet food."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "a snapshot that ignores weekly flyer deals and loyalty points",
+        "x": "He argues the report ignores flyer deals and loyalty points that lower what families actually pay. Baby products and pet food are the volunteers’ own expansion plan, not his complaint."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three adult siblings are discussing how to help their mother with her finances.",
+    "sp": {
+     "A": {
+      "name": "Farah",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Desmond",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 0.96
+     },
+     "C": {
+      "name": "Samira",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Thanks for getting on the call, you two. I wanted to talk about Mom before things get any worse. Last Tuesday someone phoned her pretending to be from her bank, and she was about to read them the code on her card before she got suspicious and hung up."
+       ],
+       [
+        "B",
+        "She told me about that. Honestly, I thought she handled it pretty well. She did hang up."
+       ],
+       [
+        "A",
+        "She hung up after giving them her date of birth and the name of her bank, Des. And that’s not all. I found three unpaid bills on the kitchen counter, one of them from the hydro company with a disconnection warning. Dad always did all of this. She’s never had to."
+       ],
+       [
+        "C",
+        "Okay, that’s more serious than I realized. What are you thinking, Farah?"
+       ],
+       [
+        "A",
+        "I think the simplest thing is for me to open a joint account with her. I’m ten minutes away. I could pay everything online, keep an eye out for strange withdrawals, and she wouldn’t have to worry about any of it."
+       ],
+       [
+        "B",
+        "I get why that’s tempting, but she’s seventy-eight, not ninety-eight. She ran the school library for thirty years. If we take everything out of her hands the minute she makes a mistake, she’ll feel like we’ve decided she can’t cope. I’d rather show her how to do online banking herself."
+       ],
+       [
+        "A",
+        "Des, she still writes cheques. She asked me last month what a password manager was, and then she wrote her passwords on a sticky note on the fridge."
+       ],
+       [
+        "B",
+        "Which is exactly why someone needs to teach her. Nobody ever has."
+       ],
+       [
+        "C",
+        "Can I raise something about the joint account idea? I looked into this when Rahim’s father got sick. With most joint accounts, if one owner dies, the money goes straight to the other owner. It doesn’t go through the will."
+       ],
+       [
+        "A",
+        "I wouldn’t keep it, obviously. I’d split it three ways."
+       ],
+       [
+        "C",
+        "I know you would. I’m not worried about you. But legally it would be yours, and if you ever had debts or a legal dispute, that money could get tangled up in it. It creates complications that don’t need to exist."
+       ],
+       [
+        "A",
+        "Huh. I genuinely didn’t know that. Okay, so what would you do?"
+       ],
+       [
+        "C",
+        "A few things, and none of them involve taking her account away. First, most of her bills are the same every month, right? Hydro, phone, property tax, insurance. We set those up as automatic payments from her account, so nothing gets missed even if a letter gets buried. Second, her bank lets you name a trusted contact person. They can’t touch the money, but the bank can call them if they see something suspicious."
+       ],
+       [
+        "B",
+        "I could live with that. It’s still her account, and it’s still her decision."
+       ],
+       [
+        "A",
+        "It doesn’t help if someone talks her into sending a wire transfer, though."
+       ],
+       [
+        "C",
+        "No, which is why the third thing matters: a power of attorney for property, done properly with a lawyer, while she’s fully able to make that decision herself. It only comes into play when it’s needed, or when she chooses."
+       ],
+       [
+        "B",
+        "Hmm. I’ve always thought of that as, you know, the beginning of the end. But I suppose it’s better to arrange it now than to scramble later."
+       ],
+       [
+        "A",
+        "And the online banking lessons?"
+       ],
+       [
+        "B",
+        "I’ll do those. I’m over there every Sunday anyway. If she picks it up, great. If she doesn’t, at least the automatic payments are in place."
+       ],
+       [
+        "A",
+        "Fine, I’ll drop the joint account idea. But I’d like to go through her statements with her once a month, if she’s willing."
+       ],
+       [
+        "C",
+        "Ask her, don’t tell her. I’ll call the lawyer we used for Dad’s estate and see when Mom can come in. Let’s talk again in six months and see how it’s going."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why did Farah arrange the call?",
+        "o": [
+         "Her mother lost money to a phone scam last week.",
+         "She feels her mother is struggling with money matters.",
+         "Her mother asked for help learning online banking.",
+         "Her mother’s hydro service has been disconnected."
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "I wanted to talk about Mom before things get any worse.",
+        "x": "She describes a near-scam and unpaid bills, showing her mother is struggling with tasks her father used to handle. No money was lost, and the hydro bill only carried a disconnection warning."
+       },
+       {
+        "q": "How does Desmond first view the scam call?",
+        "o": [
+         "He believes it proves a joint account is needed.",
+         "He blames the bank for failing to protect her.",
+         "He thinks Farah overreacted when she heard about it.",
+         "He thinks his mother responded reasonably in the end."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "Honestly, I thought she handled it pretty well.",
+        "x": "He says she handled it “pretty well” because she hung up. It is Farah, not Desmond, who sees the call as a reason for a joint account, and he never blames the bank."
+       },
+       {
+        "q": "What is Desmond’s main objection to Farah’s plan?",
+        "o": [
+         "It could undermine his mother’s sense of independence.",
+         "Farah lives too far away to manage the bills.",
+         "It would cost more than teaching online banking.",
+         "Their mother would never agree to share an account."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "she’ll feel like we’ve decided she can’t cope",
+        "x": "He fears that taking everything out of her hands will make her feel she cannot cope. Farah lives only ten minutes away, and cost is never mentioned."
+       },
+       {
+        "q": "Why does Farah doubt that her mother can learn online banking?",
+        "o": [
+         "Her mother has always refused to use a computer.",
+         "Her mother has forgotten her banking password.",
+         "She seems unaware of basic online safety.",
+         "Her mother sent cheques to the wrong companies."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "she wrote her passwords on a sticky note on the fridge",
+        "x": "Writing passwords on a note on the fridge and not knowing what a password manager is suggest she does not understand online safety. Nobody says she refuses computers or forgot a password."
+       },
+       {
+        "q": "What concern does Samira raise about a joint account?",
+        "o": [
+         "The money could legally pass to Farah outside the will.",
+         "Farah might keep the money instead of sharing it.",
+         "The bank would charge higher fees for joint ownership.",
+         "Rahim’s father had lost his savings in a similar way."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "if one owner dies, the money goes straight to the other owner. It doesn’t go through the will.",
+        "x": "With most joint accounts, the money goes to the surviving owner rather than through the will. Samira says directly that she is not worried about Farah keeping it."
+       },
+       {
+        "q": "What is the role of a trusted contact person?",
+        "o": [
+         "To approve large withdrawals from the account",
+         "To be told when the bank notices unusual activity",
+         "To pay regular bills when letters get lost",
+         "To act for the account owner in an emergency"
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "the bank can call them if they see something suspicious",
+        "x": "A trusted contact cannot touch the money; the bank simply calls them about suspicious activity. Acting on someone’s behalf is the role of a power of attorney, not a trusted contact."
+       },
+       {
+        "q": "How does Desmond’s view of a power of attorney change?",
+        "o": [
+         "He rejects it until his mother’s health declines.",
+         "He insists that his mother choose her own lawyer.",
+         "He agrees only if Farah stops the monthly checks.",
+         "He reluctantly accepts that planning ahead is wise."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "But I suppose it’s better to arrange it now than to scramble later.",
+        "x": "He used to see it as “the beginning of the end” but now says “I suppose” it is better to arrange it early: reluctant acceptance. He sets no conditions about Farah’s monthly reviews."
+       },
+       {
+        "q": "What do the siblings finally decide?",
+        "o": [
+         "Farah will take over paying the bills online.",
+         "Desmond will open an online account for their mother.",
+         "Regular bills will be paid automatically from her account.",
+         "Samira will hold the power of attorney herself."
+        ],
+        "a": 2,
+        "t": "main",
+        "ev": "We set those up as automatic payments from her account",
+        "x": "Automatic payments from the mother’s own account are part of the final plan. Farah drops the joint-account idea, and nobody says who will hold the power of attorney."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a report about buy now, pay later services.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.01
+     },
+     "B": {
+      "name": "Beatrice Okonjo",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "At the checkout of almost any online store these days, shoppers see a new choice next to the familiar credit card logos: pay in four. Buy now, pay later services split a purchase into equal instalments, often every two weeks, usually with no interest as long as every payment is made on time. Their use has grown rapidly, especially among people under thirty-five, and they’ve moved well beyond fashion and electronics. Some shoppers now use them for groceries."
+       ],
+       [
+        "A",
+        "Supporters say the appeal is obvious. A credit card typically charges around twenty percent interest on an unpaid balance; a pay-in-four plan charges nothing if you stay on schedule. For a young person without a credit history, it can be the only form of short-term credit available. Several retailers we spoke with say the option increases the size of the average order and reduces the number of abandoned shopping carts. The owner of a small outdoor gear shop told us that the fee she pays the service, about five percent of each sale, is worth it, because customers who would have walked away now buy the tent and the sleeping bag."
+       ],
+       [
+        "A",
+        "But financial counsellors are increasingly uneasy. Beatrice Okonjo works with a non-profit credit counselling agency."
+       ],
+       [
+        "B",
+        "The problem isn’t any single plan. On its own, a sixty-dollar payment every two weeks looks harmless. The trouble starts when someone has five or six of these running at once, with different companies and different due dates, and none of them shows up in one place. People genuinely lose track. We now see clients who have more of these accounts than credit cards, and they often have no idea what they owe in total."
+       ],
+       [
+        "A",
+        "Okonjo points out that while the plans are interest-free, missed payments can bring late fees, and some providers may report repeated missed payments to credit bureaus. At the same time, on-time payments often don’t help users build a credit history the way a credit card would, which she calls the worst of both worlds."
+       ],
+       [
+        "B",
+        "I’m not saying ban them. Used once, for a planned purchase you could afford anyway, they’re fine. But they are designed to make spending feel smaller than it is, and that’s exactly what a tight budget doesn’t need."
+       ],
+       [
+        "A",
+        "Regulators have taken notice. Some provinces are reviewing whether these services should follow the same disclosure rules as credit cards. Industry groups argue that heavy regulation would push young shoppers toward more expensive options, such as payday loans, and they point to their own figures showing that most users pay every instalment on time. Critics counter that those figures come from the companies themselves and haven’t been independently checked."
+       ],
+       [
+        "A",
+        "For now, Okonjo’s advice is simple: before clicking ‘pay later’, add up every instalment you already owe. If you can’t name the total without checking, it may be time to stop."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does the reporter say about how these services are used today?",
+        "o": [
+         "They are used mainly for fashion and electronics.",
+         "They are most popular with shoppers over thirty-five.",
+         "They are accepted by fewer stores than credit cards.",
+         "Some people rely on them for everyday necessities."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "Some shoppers now use them for groceries.",
+        "x": "Using them for groceries means paying for everyday necessities. The services have moved “well beyond” fashion and electronics, and they are most popular with people under thirty-five."
+       },
+       {
+        "q": "Why is the gear shop owner willing to pay the service’s fee?",
+        "o": [
+         "It leads customers to make larger purchases.",
+         "It is lower than what credit cards charge her.",
+         "It lets her avoid charging customers interest.",
+         "It helps young customers build a credit history."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "customers who would have walked away now buy the tent and the sleeping bag",
+        "x": "Customers who would have left now buy more items, so the five percent fee pays off. She never compares the fee with what credit cards cost her."
+       },
+       {
+        "q": "According to Okonjo, what is the main danger?",
+        "o": [
+         "Each instalment is too large for a tight budget.",
+         "Interest rises sharply after the first payment.",
+         "Several plans make the total owed hard to see.",
+         "Providers hide fees until the purchase is complete."
+        ],
+        "a": 2,
+        "t": "main",
+        "ev": "they often have no idea what they owe in total",
+        "x": "She says no single plan is the problem; several plans with different due dates make people lose track of the total. The plans are interest-free when paid on time."
+       },
+       {
+        "q": "Why does Okonjo call the plans “the worst of both worlds”?",
+        "o": [
+         "They charge interest but offer no rewards.",
+         "Paying late may hurt credit, but paying on time may not help.",
+         "They are regulated like credit cards but cost far more.",
+         "They encourage extra spending yet strictly limit how much can be bought."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "on-time payments often don’t help users build a credit history the way a credit card would",
+        "x": "Missed payments may be reported to credit bureaus, while on-time payments often do not build credit: all downside, no upside. The plans charge no interest when payments are on time."
+       },
+       {
+        "q": "What is Okonjo’s position on these services?",
+        "o": [
+         "They should be banned for people under thirty-five.",
+         "They are safer than credit cards for young people.",
+         "They should be offered only by regulated banks.",
+         "They are acceptable when used rarely and carefully."
+        ],
+        "a": 3,
+        "t": "viewpoint",
+        "ev": "Used once, for a planned purchase you could afford anyway, they’re fine.",
+        "x": "She says she is not calling for a ban and that one planned, affordable use is fine. She never claims they are safer than credit cards or that only banks should offer them."
+       },
+       {
+        "q": "How do critics respond to the industry’s figures?",
+        "o": [
+         "They question whether the data can be trusted.",
+         "They argue the figures leave out payday loans.",
+         "They say late fees are not included in them.",
+         "They claim most users actually miss payments."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "those figures come from the companies themselves and haven’t been independently checked",
+        "x": "Critics note the figures come from the companies and have not been independently checked, so they doubt their reliability. They do not claim that most users miss payments."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Teodora Marsh | To: Kwame Asante | Subject: Asking for some advice",
+   "text": "Hi Kwame,\n\nI’ve been meaning to write since our coffee last month, when you mentioned that you had finally paid off your student loans. I didn’t say anything at the time, mostly out of embarrassment, but I’m in a hole of my own, and I could use the advice of someone who has climbed out of one.\n\nHere’s the honest picture: I owe just over eleven thousand dollars across three credit cards. It didn’t happen all at once. There was the car repair two winters ago, then the months between contracts last year, when I put groceries and rent top-ups on whatever card had room. I always made the minimum payments, so I told myself it was under control. Then I added up what I’d paid in interest last year, almost two thousand dollars, and felt sick.\n\nMy first idea was a consolidation loan from my bank. The rate would be about nine and a half percent, which sounds wonderful next to the twenty percent on my cards, but they only approved me for nine thousand. My brother thinks I should get one of those balance transfer cards instead: no interest for twelve months, but a three percent fee upfront. The math works, he says, as long as I pay it off within the year. I’m not convinced I could, and I know myself well enough to worry that an empty card would be very tempting.\n\nThen a colleague told me about a company she’d heard advertised on the radio that ‘negotiates your debt down by half’. I phoned them. The man was very friendly, but he wanted a six-hundred-dollar enrolment fee before doing anything, and he told me to stop paying my cards in the meantime. That set off alarm bells, so I politely ended the call.\n\nIn the meantime, I’ve cancelled two of my streaming subscriptions and I’m cooking at home most nights, although delivery apps remain my weakness on Friday nights. I’ve also booked an appointment with a non-profit credit counsellor next Thursday, which I gather is free.\n\nSo, my questions: what actually worked for you, and is there anything you wish you’d done sooner?\n\nThanks for listening,\nTeodora",
+   "qs": [
+    {
+     "q": "Why didn’t Teodora mention her debt when she met Kwame?",
+     "o": [
+      "She did not yet know how much she owed.",
+      "She did not want to ask him for a loan.",
+      "She felt ashamed of her situation.",
+      "She had not decided to look for help."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "I didn’t say anything at the time, mostly out of embarrassment",
+     "x": "She stayed quiet “mostly out of embarrassment”, which means she felt ashamed. She knew the debt existed; only later did she calculate the interest, and she never considers borrowing from Kwame."
+    },
+    {
+     "q": "What made Teodora realize her debt was a serious problem?",
+     "o": [
+      "Working out what the debt had cost her last year",
+      "Missing several minimum payments on her cards",
+      "Being refused a consolidation loan by her bank",
+      "Paying for an expensive car repair two winters ago"
+     ],
+     "a": 0,
+     "t": "paraphrase",
+     "ev": "Then I added up what I’d paid in interest last year",
+     "x": "Adding up nearly two thousand dollars of interest made her feel sick. She always made the minimum payments, and the bank approved a smaller loan rather than refusing her."
+    },
+    {
+     "q": "What is the problem with the consolidation loan?",
+     "o": [
+      "Its interest rate is higher than her cards’ rate.",
+      "It requires an upfront fee of three percent.",
+      "It would take over a year to be approved.",
+      "It would not cover all of her debt."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "they only approved me for nine thousand",
+     "x": "She owes just over $11,000 but was approved for only $9,000, so part of the debt would remain. The three percent fee belongs to the balance transfer card her brother suggested."
+    },
+    {
+     "q": "Why does Teodora hesitate about her brother’s suggestion?",
+     "o": [
+      "She thinks the upfront fee is too expensive.",
+      "She doubts her own self-discipline.",
+      "She would need her brother to co-sign.",
+      "She cannot be approved for a new card."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "an empty card would be very tempting",
+     "x": "She doubts she could repay it within the year and fears an empty card would tempt her, so she doubts her self-discipline. She accepts that “the math works”, so the fee is not her objection."
+    },
+    {
+     "q": "What made Teodora suspicious of the debt company?",
+     "o": [
+      "The colleague who suggested it had lost money.",
+      "The representative refused to explain how the process worked.",
+      "It wanted payment first and told her to stop paying her cards.",
+      "It promised to cut her debt by more than half."
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "he wanted a six-hundred-dollar enrolment fee before doing anything, and he told me to stop paying my cards",
+     "x": "An upfront fee plus advice to stop paying her cards “set off alarm bells”. The radio ad promised to reduce debt by half, not more, and the man was friendly rather than evasive."
+    },
+    {
+     "q": "What can be inferred about Teodora’s spending?",
+     "o": [
+      "She has cut back, though not completely.",
+      "She has stopped ordering food entirely.",
+      "She has cancelled every subscription.",
+      "She now spends more on groceries."
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "although delivery apps remain my weakness on Friday nights",
+     "x": "She cancelled two subscriptions and cooks more, yet still orders delivery on Fridays, so her cutbacks are partial. She cancelled only “two of” her subscriptions, not all of them."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Kwame’s response to Teodora. Complete the response by choosing the best option for each blank.",
+    "text": "Hi Teodora,\n\nThank you for trusting me with this. First, please don’t be hard on yourself; most of that debt came from {1}, not from careless spending.\n\nYou were absolutely right to end that call. No legitimate service would tell you to {2}, because missed payments would wreck your credit score.\n\nAs for the options, I’d lean toward the consolidation loan, even if it only covers part of the balance. You could use it to pay off the two cards with the highest rates and then {3} so you aren’t tempted to use them again. The remaining two thousand or so could stay on the third card while you attack it aggressively.\n\nWhat worked for me was automation. I set up a transfer the day after every payday, so the money was gone {4}. And if Friday nights are the problem, maybe {5}?\n\nDefinitely keep the counsellor appointment, and bring all your statements.\n\nYou’ve got this,\nKwame",
+    "blanks": [
+     {
+      "o": [
+       "online impulse purchases and holiday gifts",
+       "emergencies and gaps between contracts",
+       "takeout on too many Friday nights",
+       "a costly balance transfer"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "There was the car repair two winters ago, then the months between contracts last year",
+      "x": "The car repair and the months between contracts were unexpected costs rather than careless spending. Friday-night delivery is a current habit, not where most of the debt came from."
+     },
+     {
+      "o": [
+       "cancel your streaming services",
+       "see a non-profit counsellor",
+       "consolidate several cards",
+       "stop paying your creditors"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "he told me to stop paying my cards in the meantime",
+      "x": "The company told her to stop paying her cards, and Kwame explains that missed payments would ruin her credit score. Seeing a non-profit counsellor is something he actually encourages."
+     },
+     {
+      "o": [
+       "close those accounts",
+       "apply for a new card",
+       "raise their limits",
+       "transfer the balances"
+      ],
+      "a": 0,
+      "t": "inference",
+      "ev": "an empty card would be very tempting",
+      "x": "She fears an empty card would tempt her, so closing the paid-off accounts removes the temptation. Applying for a new card is exactly the risk she worried about with the balance transfer."
+     },
+     {
+      "o": [
+       "after the interest was charged",
+       "before my rent was due",
+       "before I could spend it",
+       "when the counsellor approved"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "I set up a transfer the day after every payday",
+      "x": "Moving money automatically right after payday removes it before it can be spent. Rent dates and interest charges do not explain why automation helped him save."
+     },
+     {
+      "o": [
+       "cancel one more streaming subscription",
+       "plan a cheap meal at home in advance",
+       "ask your brother for a short loan",
+       "use the balance transfer card"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "delivery apps remain my weakness on Friday nights",
+      "x": "Her weakness is ordering delivery on Friday nights, so planning a meal at home in advance targets that habit. Cancelling another subscription would not solve the Friday-night problem."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Harbourline Bank – Personal Chequing Packages (effective January 1)",
+    "intro": "Monthly fees are waived if you keep the minimum daily balance shown for the whole month. Full-time students and seniors (65+) receive 50% off the monthly fee of any package.",
+    "table": {
+     "cols": [
+      "Package",
+      "Monthly fee",
+      "Transactions included",
+      "Extra transactions",
+      "Minimum balance to waive fee",
+      "Other features"
+     ],
+     "rows": [
+      [
+       "Basic",
+       "$4.95",
+       "12 per month",
+       "$1.25 each",
+       "$2,000",
+       "None"
+      ],
+      [
+       "Everyday",
+       "$10.95",
+       "25 per month",
+       "$1.25 each",
+       "$3,000",
+       "Free paper statements"
+      ],
+      [
+       "Everyday Plus",
+       "$16.95",
+       "Unlimited",
+       "–",
+       "$4,000",
+       "Free e-Transfers; 50 free cheques per year"
+      ],
+      [
+       "Premier",
+       "$29.95",
+       "Unlimited",
+       "–",
+       "$6,000",
+       "$120 annual fee rebate on the Harbourline Travel card; free small safety deposit box"
+      ],
+      [
+       "Student",
+       "$0",
+       "Unlimited",
+       "–",
+       "Not applicable",
+       "Full-time students under 25 only; changes to Everyday after graduation"
+      ]
+     ]
+    },
+    "notes": [
+     "e-Transfers count as transactions on Basic and Everyday packages; on Everyday Plus and Premier they are free.",
+     "Fee waiver: your balance must stay at or above the minimum every day of the month. Dropping below it on a single day means the full fee applies.",
+     "The 50% student/senior discount cannot be combined with the balance waiver or any other offer, and it does not apply to the Student package.",
+     "Switching packages is free once every 12 months; additional switches cost $15.",
+     "Overdraft protection: $5 per month plus 21% interest on the overdrawn amount (all packages except Student)."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the bank packages. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Kenji,\n\nI went through the Harbourline packages last night. I make about twenty transactions a month, including six e-Transfers to my sister, so Basic isn’t as cheap as it looks: once you count the extra transactions, Everyday would cost me {1} less per month.\n\nYou turn twenty-seven next month, so you’re too old for the Student package, but because you’re still in your master’s program full-time, you’re entitled to {2}. Since you send so many e-Transfers for your share of the rent, I’d suggest Everyday Plus, which would cost you only {3} a month.\n\nOne thing I need to watch: my balance usually sits around $3,500, but it dips to about $2,600 the day before payday, so with Everyday I {4}. I might move some savings over to stay above the limit.\n\nFinally, if either of us realizes we picked the wrong package, the first switch {5}, so it isn’t a huge risk.\n\nTalk tonight,\nMarisol",
+    "blanks": [
+     {
+      "o": [
+       "$6.00",
+       "$10.00",
+       "$1.25",
+       "$4.00"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "12 per month",
+      "x": "Basic: $4.95 + 8 extra transactions × $1.25 = $14.95. Everyday: $10.95 with 25 transactions included. The difference is $4.00; $10.00 is only the extra-transaction charge."
+     },
+     {
+      "o": [
+       "a free Student account",
+       "half off any other package",
+       "the waiver plus 50% off",
+       "unlimited free e-Transfers"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Full-time students and seniors (65+) receive 50% off the monthly fee of any package",
+      "x": "As a full-time student over 25, Kenji gets 50% off any package except Student. The discount cannot be combined with the balance waiver, so “the waiver plus 50% off” is wrong."
+     },
+     {
+      "o": [
+       "$8.48",
+       "$16.95",
+       "$5.48",
+       "$10.95"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "receive 50% off the monthly fee of any package",
+      "x": "Everyday Plus costs $16.95; half of that is about $8.48. $16.95 ignores the student discount, and $10.95 is the full price of the Everyday package."
+     },
+     {
+      "o": [
+       "would never pay the monthly fee",
+       "could waive the Basic fee only",
+       "would still pay the full fee",
+       "would qualify for a 50% discount"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Dropping below it on a single day means the full fee applies.",
+      "x": "Everyday requires $3,000 every day; dipping to $2,600 even once means the full fee applies. Marisol is not a student or senior, so no 50% discount is available."
+     },
+     {
+      "o": [
+       "costs $15",
+       "must wait 12 months",
+       "requires a branch visit",
+       "is free of charge"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "Switching packages is free once every 12 months",
+      "x": "One switch every 12 months is free; only additional switches cost $15. Nothing requires waiting 12 months before the first change."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A 70-year-old customer on Premier keeps $5,000 in the account all month. What is her monthly fee?",
+     "o": [
+      "$0.00",
+      "$14.98",
+      "$29.95",
+      "$7.49"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Full-time students and seniors (65+) receive 50% off the monthly fee of any package",
+     "x": "$5,000 is below Premier’s $6,000 minimum, so there is no waiver, but the senior discount halves $29.95 to $14.98. $0.00 would require the full $6,000 balance every day."
+    },
+    {
+     "q": "A Basic customer makes 10 purchases and 5 e-Transfers in one month and keeps $2,500 in the account every day. How much does she pay?",
+     "o": [
+      "$0.00",
+      "$8.70",
+      "$3.75",
+      "$6.25"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "e-Transfers count as transactions on Basic and Everyday packages",
+     "x": "15 transactions minus 12 included = 3 extra × $1.25 = $3.75. The $4.95 fee is waived because her balance never falls below $2,000, so $8.70 wrongly adds it."
+    },
+    {
+     "q": "A customer switched from Basic to Everyday in March. In June she wants to move to Premier. What will happen?",
+     "o": [
+      "She will be charged $15 for the switch.",
+      "The switch will be free of charge.",
+      "She must wait until next March to switch.",
+      "She will lose her free paper statements."
+     ],
+     "a": 0,
+     "t": "diagram",
+     "ev": "additional switches cost $15",
+     "x": "Her free switch for the 12-month period was used in March, so a second switch in June costs $15. Switching is allowed; it simply is not free."
+    }
+   ]
+  },
+  "p3": {
+   "title": "The Hidden Cost of Free Returns",
+   "paras": [
+    "For many online shoppers, the words “free returns” have become as important as the price itself. Retailers discovered years ago that customers who know they can send something back at no cost are far more willing to click “buy”, especially for clothing and shoes, where fit is hard to judge from a photo. The result is a habit the industry calls bracketing: ordering the same item in two or three sizes, keeping one and returning the rest. For a shopper, it feels like the online version of a fitting room. For a retailer, it means that a single sale can generate two or three parcels travelling back across the country. Industry analysts estimate that clothing bought online is returned at several times the rate of clothing bought in stores, although figures vary widely between companies.",
+    "What happens next is less visible, and it is rarely mentioned in advertisements. A returned sweater cannot simply be put back on a shelf. It must be opened, inspected, refolded, sometimes cleaned and repackaged, and entered back into inventory, and by the time that is done, the season may have changed and the sweater may be worth far less. Electronics are even harder, because they must be tested and their data wiped. For many low-priced items, the cost of processing a return is higher than the item’s value, so retailers sell them in bulk to liquidation companies, donate them or, in some cases, send them to landfill. The extra trucking adds emissions too, which sits awkwardly beside the sustainability pledges printed on many shipping boxes. Some liquidation pallets are later resold online to bargain hunters.",
+    "Some retailers have begun to push back. A number of large clothing sellers now charge a small fee for returns sent by mail while keeping in-store returns free, betting that customers who come into a shop to drop off a parcel will buy something else while they are there. Others quietly track how often individual customers send items back, and a few have closed the accounts of so-called serial returners. Virtual fitting tools that ask for height, weight and preferred fit are another attempt to reduce bracketing before it starts. Customer reaction has been mixed: surveys suggest shoppers accept a modest return fee more readily than they once did, but they react angrily when policies change without warning. Several retailers now announce changes weeks in advance for that reason.",
+    "Consumer advocates, who handle thousands of complaints each year, say the most important step is simply to read the policy before buying. Many shoppers assume they have a legal right to return anything they change their mind about, but in most provinces, a store is only required to accept returns of goods that are defective or not as described. Everything else depends on the retailer’s own rules, which can include restocking fees on opened electronics, shorter windows during holiday sales, or “final sale” items that cannot be returned at all. Advocates also recommend keeping receipts and original packaging until the return window closes, and taking a photo of any parcel before it is dropped off, since disputes over lost returns are among the most common complaints they receive."
+   ],
+   "qs": [
+    {
+     "q": "Some companies keep records of which customers send goods back most frequently.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "Others quietly track how often individual customers send items back",
+     "x": "Paragraph C says some retailers quietly track how often individual customers return items."
+    },
+    {
+     "q": "Shoppers sometimes order extra items knowing they will send most of them back.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "ordering the same item in two or three sizes, keeping one and returning the rest",
+     "x": "Paragraph A describes bracketing: ordering several sizes, keeping one and returning the rest."
+    },
+    {
+     "q": "Mail return fees have been shown to cut return rates significantly.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph C mentions mail return fees and shoppers’ reactions, but no paragraph says what effect the fees have had on return rates."
+    },
+    {
+     "q": "Consumers are not always entitled to a refund just because they dislike a product.",
+     "a": "D",
+     "t": "inference",
+     "ev": "a store is only required to accept returns of goods that are defective or not as described",
+     "x": "Paragraph D: stores must only accept defective or misdescribed goods; anything else depends on store policy."
+    },
+    {
+     "q": "Handling certain returned products costs more than the products are worth.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "the cost of processing a return is higher than the item’s value",
+     "x": "Paragraph B states that for many low-priced items, processing costs exceed the item’s value."
+    },
+    {
+     "q": "Retailers hope that customers returning items in person will spend more money.",
+     "a": "C",
+     "t": "inference",
+     "ev": "customers who come into a shop to drop off a parcel will buy something else while they are there",
+     "x": "Paragraph C: free in-store returns are a bet that customers will buy something else while in the shop."
+    },
+    {
+     "q": "Electronics are returned more often than clothing.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Electronics are discussed in paragraphs B and D (testing, restocking fees), but their return rate is never compared with clothing."
+    },
+    {
+     "q": "The environmental impact of returns conflicts with some companies’ public commitments.",
+     "a": "B",
+     "t": "inference",
+     "ev": "which sits awkwardly beside the sustainability pledges printed on many shipping boxes",
+     "x": "Paragraph B says the emissions from extra trucking sit awkwardly beside companies’ sustainability pledges."
+    },
+    {
+     "q": "Recording the condition of a package before sending it back can help settle disputes.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "taking a photo of any parcel before it is dropped off",
+     "x": "Paragraph D recommends photographing parcels because disputes over lost returns are common."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Rewards Cards: A Perk Everyone Pays For",
+   "byline": "Opinion | by Halvard Quist, consumer affairs columnist",
+   "text": "Every time I pay for groceries, I earn points. Over a year, the premium card in my wallet returns roughly two percent of what I spend in travel credits, and last spring those credits paid for most of a flight to visit my sister in Halifax. I enjoyed that flight as much as anyone. But I have stopped pretending it is free, and I think it is time the rest of us did too.\n\nHere is how the system works. When you tap a credit card, the store pays a fee to the banks and card networks involved, typically between one and a half and three percent of the sale. The fanciest cards, the ones with lounge access and generous points, carry the highest fees, because those fees are what fund the rewards. A grocer operating on a margin of two or three cents on the dollar cannot simply absorb that cost. It ends up in the price of everything on the shelf.\n\nAnd that price is the same for everyone. The retiree paying with a debit card, the student counting out bills at the till, the family that was turned down for a premium card because its income was too low: all of them pay prices inflated by fees that fund someone else’s airport lounge. Because premium cards go mostly to higher earners, the effect is a quiet transfer from people with less to people with more. Economists have a blunt name for it: a reverse Robin Hood.\n\nDefenders of rewards cards make two arguments. The first is that consumers choose the card, so the benefit is earned. But the shopper paying cash did not choose to subsidize anyone; she simply has no way to avoid it. The second is that card payments save retailers money on handling cash, preventing theft and speeding up checkout lines. That is true, and it explains why basic credit and debit fees are reasonable. It does not explain why a premium card should cost the merchant twice as much as a basic one for exactly the same transaction.\n\nSome will say the answer is to let merchants charge more to customers who pay with premium cards. In theory, surcharges put the cost where it belongs. In practice, few shops use them, because no owner wants to argue with a customer at the till, and shoppers resent them anyway. A rule that almost nobody uses is not a solution.\n\nI am not calling for rewards cards to be banned. People who pay their balance in full every month have every right to enjoy the perks. What I am calling for is two modest changes. First, a cap on the fees charged for premium cards, so that they cost merchants no more than about one and a half times a basic card. Second, honest receipts: every bill should show the card fee the merchant paid, so customers can see what their points actually cost.\n\nWould rewards shrink? Probably a little. My flights to Halifax might come once every eighteen months instead of once a year. I can live with that if the person behind me in line stops paying for my ticket.",
+   "qs": [
+    {
+     "q": "What is the writer’s main argument?",
+     "o": [
+      "Rewards cards should be offered to people at every income level.",
+      "Shoppers who pay cash should receive discounts at checkout.",
+      "Retailers should stop accepting premium credit cards entirely.",
+      "Everyone pays for premium card perks, which is unfair."
+     ],
+     "a": 3,
+     "t": "main",
+     "ev": "all of them pay prices inflated by fees that fund someone else’s airport lounge",
+     "x": "He argues that premium-card fees raise prices for everyone, including those without such cards. He wants fees capped, not premium cards refused or cash discounts introduced."
+    },
+    {
+     "q": "Why do premium cards cost merchants more to accept?",
+     "o": [
+      "They are processed more slowly than basic cards.",
+      "The fees pay for the benefits cardholders receive.",
+      "Stores must buy special equipment to accept them.",
+      "Their holders are more likely to miss payments."
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "because those fees are what fund the rewards",
+     "x": "The higher fees are what fund lounge access and generous points. Processing speed, equipment and missed payments are never given as reasons."
+    },
+    {
+     "q": "What does the writer imply about the shopper paying cash?",
+     "o": [
+      "She is likely to be refused service by some merchants.",
+      "She saves the store money by avoiding card fees.",
+      "She bears a cost she never agreed to take on.",
+      "She probably earns more than premium cardholders."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "she simply has no way to avoid it",
+     "x": "She did not choose to subsidize anyone and has no way to avoid the higher prices: an unchosen cost. The writer says premium cards go mostly to higher earners, so option D reverses this."
+    },
+    {
+     "q": "Why does the writer reject surcharges as a solution?",
+     "o": [
+      "Businesses rarely use them for fear of customer conflict.",
+      "They are not permitted under the current rules.",
+      "They would raise prices for debit card users.",
+      "They would push banks to cancel rewards programs entirely."
+     ],
+     "a": 0,
+     "t": "viewpoint",
+     "ev": "few shops use them, because no owner wants to argue with a customer at the till",
+     "x": "He says few shops use surcharges because owners do not want arguments at the till, so a rarely used rule solves nothing. He never says surcharges are illegal."
+    },
+    {
+     "q": "How does the writer feel about giving up some of his own rewards?",
+     "o": [
+      "He hopes to keep them by switching to a basic card.",
+      "He resents paying for other people’s travel.",
+      "He worries the change would end his family visits.",
+      "He would accept a smaller benefit for fairness."
+     ],
+     "a": 3,
+     "t": "attitude",
+     "ev": "I can live with that if the person behind me in line stops paying for my ticket.",
+     "x": "He accepts less frequent flights if others stop paying for his rewards. His visits would become less frequent, not end, and he resents that others pay for his travel, not the reverse."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I own a small hardware store, and this article {1}. Last year card fees cost me more than I paid my part-time cashier, and the premium cards are by far the most expensive to accept. So yes, a cap on those fees would {2}.\n\nWhere I part ways with Mr. Quist is on {3}. He makes it sound as though customers paying with debit cost the store nothing, but debit has fees too, and handling cash means bank deposits, counting time and the occasional break-in. Every payment method {4}.\n\nI’m also not sure about his receipt idea. My customers already skim past the taxes at the bottom of the bill. Printing the card fee there would mostly {5}, and it would not change how anyone pays. A cap alone would do more good.\n\nStill, I’m glad someone is finally talking about who really pays for the points.",
+    "blanks": [
+     {
+      "o": [
+       "hit close to home",
+       "overstated my costs",
+       "ignored small shops",
+       "changed how I pay"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "Last year card fees cost me more than I paid my part-time cashier",
+      "x": "His own card fees exceed his cashier’s pay, so the article describes his situation closely. He goes on to agree about premium-card costs, so it did not overstate them."
+     },
+     {
+      "o": [
+       "end rewards programs",
+       "raise my prices",
+       "help businesses like mine",
+       "cut my cashier’s hours"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "a cap on the fees charged for premium cards",
+      "x": "A cap on premium-card fees would lower his biggest payment cost, helping small businesses. The article says it would shrink rewards a little, not end them."
+     },
+     {
+      "o": [
+       "the cost of premium cards",
+       "what other payment methods cost",
+       "whether rewards are fair",
+       "how large card fees are"
+      ],
+      "a": 1,
+      "t": "viewpoint",
+      "ev": "The retiree paying with a debit card",
+      "x": "He disagrees that debit and cash users cost the store nothing; both have handling costs. He agrees with Quist about the high cost of premium cards."
+     },
+     {
+      "o": [
+       "should be banned",
+       "is equally expensive",
+       "favours the wealthy",
+       "comes with a cost"
+      ],
+      "a": 3,
+      "t": "coherence",
+      "ev": "debit has fees too",
+      "x": "His point is that debit and cash also cost money, so every method has some cost. He does not claim all methods are equally expensive; premium cards are “by far” the costliest."
+     },
+     {
+      "o": [
+       "save customers money",
+       "reduce the fees I pay",
+       "go unnoticed",
+       "anger my customers"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "My customers already skim past the taxes at the bottom of the bill.",
+      "x": "Customers already ignore the taxes on receipts, so a printed card fee would go unnoticed. Customer anger was the article’s point about surcharges, not about receipts."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You recently moved to a new apartment and transferred your home internet service with the same provider, Lumenwave. Your first bill after the move charges you for service at both your old and new addresses, and it includes an installation fee that you were told would not apply.",
+   "bullets": [
+    "Explain what you arranged when you moved your service",
+    "Describe the problems with your bill",
+    "Say what you want the company to do and by when"
+   ],
+   "model": "Dear Lumenwave Customer Care,\n\nI am writing about my account, number 448-2071, which I transferred to a new address on September 15. When I called to arrange the move in August, the agent confirmed that service at my old apartment would end on moving day and that the usual installation fee would be waived because I am an existing customer.\n\nUnfortunately, my October bill reflects neither promise. It charges me for both addresses for the second half of September, even though I returned the old modem to your Elm Street store on September 16 and kept the receipt. It also includes a $120 installation fee.\n\nI would appreciate it if you could remove the duplicate charges and the installation fee and send me a corrected statement before the November 5 payment date. I would also like written confirmation that no late charges will be added while this is being resolved, and that my credit will not be affected.\n\nThank you for looking into this. I can be reached at 604-555-0138 on weekdays after 4 p.m.\n\nSincerely,\nYolanda Brekke"
+  },
+  "t2": {
+   "intro": "Your public library has received funding for one new free money-skills service for adults next year. It is asking residents which service it should offer.",
+   "question": "Which option do you prefer?",
+   "a": "A free tax clinic from February to April, where trained volunteers prepare and file simple tax returns for residents with modest incomes.",
+   "b": "Year-round one-on-one budgeting sessions with a certified financial coach, who helps residents build a budget and plan debt repayment and savings.",
+   "model": "I would choose Option B, the budgeting sessions with a financial coach, because they would have a deeper and longer-lasting effect on people’s lives.\n\nA tax clinic is certainly useful, and I know many residents dread filling in their returns. However, it only helps for a few weeks a year, and it solves a problem that already has other solutions: several community groups and online programs already help people with simple returns. Budgeting help, on the other hand, is hard to find unless you can pay for it.\n\nMore importantly, a coach could help people change their habits rather than simply complete a form. For example, a young family drowning in credit card interest could learn how to prioritize the most expensive debt, set up automatic savings and plan for irregular costs such as car repairs. Those skills would keep paying off for years. Because the service runs all year, people could also come back when their situation changes, such as after losing a job.\n\nIn short, a tax clinic helps people once; a budgeting coach could help them for life."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your cousin’s close friend has asked your cousin to co-sign a $25,000 car loan because the friend’s credit score is too low to qualify alone. Your cousin wants to help but is unsure. Advise your cousin about what to consider.",
+   "model": "Look, I can tell you really want to help Marco, and that says a lot about you as a friend. But before you sign anything, you need to understand what co-signing actually means. It isn’t just a reference. Legally, you’re promising to pay the whole loan if he can’t, and the lender can come after you directly. On top of that, the loan shows up on your credit report, so if you’re hoping to get a mortgage in the next few years, it could reduce how much you’re approved for. So my first piece of advice is to ask yourself honestly: if he stopped paying tomorrow, could you cover twenty-five thousand dollars without wrecking your own finances? If the answer is no, don’t sign. Second, have a frank conversation with him about why his score is low. If it’s because of one bad year, that’s very different from a pattern of missed payments. And finally, look for a middle ground. He could buy a cheaper used car, or save for a bigger down payment for a few months so he can qualify on his own. That way you stay friends, and your credit stays safe."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you bought something expensive and later regretted it. What happened, and what did you learn?",
+   "model": "A few years ago, I bought a really expensive espresso machine. I’d been watching videos of people making perfect lattes at home, and I convinced myself it would save me money because I’d stop buying coffee on the way to work. It cost almost nine hundred dollars, and I put it on my credit card. For the first two weeks, I used it every morning. But it took about twenty minutes to make one drink and clean everything up, and I’m always rushing in the morning. Pretty soon, I was back to buying coffee near the bus stop, and the machine just sat on the counter collecting dust. I eventually sold it online for less than half of what I’d paid. What I learned is to buy things for the life I actually have, not the life I imagine. Now I wait at least a week before any big purchase."
+  },
+  "t3": {
+   "scene": {
+    "bg": "market",
+    "alt": "A busy outdoor farmers’ market on a sunny autumn day. On the left is a red stall with a sign reading “FRESH APPLES $4/BAG”; a vendor in a green shirt and brown hat is pointing at his apples, and a wooden crate labelled APPLES sits on the ground. A woman in a dark blue dress is holding up her phone to pay. In the middle, an orange stall sells honey and jam, and a woman with her hair in a bun holds a tray of samples. A man in a purple shirt walks past carrying a shopping bag, next to a small boy in blue holding a red balloon. A light-brown dog sniffs near the apple stall. On the right are a white sign reading “CASH OR TAP”, a shopping cart and an older man with grey hair and glasses studying a map.",
+    "items": [
+     [
+      "sun",
+      575,
+      55
+     ],
+     [
+      "cloud",
+      120,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      400,
+      45,
+      0.8
+     ],
+     [
+      "stall",
+      40,
+      330,
+      170,
+      "FRESH APPLES $4/BAG",
+      "#c0392b"
+     ],
+     [
+      "stall",
+      290,
+      330,
+      160,
+      "HONEY & JAM",
+      "#e67e22"
+     ],
+     [
+      "box",
+      20,
+      385,
+      50,
+      30,
+      "APPLES",
+      "#a0522d"
+     ],
+     [
+      "person",
+      110,
+      350,
+      {
+       "shirt": "#27ae60",
+       "hat": "#7f4f24",
+       "pose": "point",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      190,
+      362,
+      {
+       "shirt": "#2c3e50",
+       "dress": true,
+       "hairStyle": "long",
+       "hold": "phone",
+       "skin": "#c68642"
+      }
+     ],
+     [
+      "dog",
+      245,
+      382,
+      "#d2b48c"
+     ],
+     [
+      "person",
+      360,
+      350,
+      {
+       "shirt": "#f1c40f",
+       "hairStyle": "bun",
+       "hold": "tray"
+      }
+     ],
+     [
+      "person",
+      425,
+      368,
+      {
+       "shirt": "#8e44ad",
+       "pose": "walk",
+       "hold": "bag",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "person",
+      460,
+      375,
+      {
+       "kid": true,
+       "shirt": "#3498db",
+       "hold": "balloon",
+       "holdColor": "#e74c3c"
+      }
+     ],
+     [
+      "sign",
+      520,
+      360,
+      "CASH OR TAP",
+      "#fff"
+     ],
+     [
+      "cart",
+      555,
+      378
+     ],
+     [
+      "person",
+      605,
+      372,
+      {
+       "shirt": "#7f8c8d",
+       "hair": "#bdc3c7",
+       "glasses": true,
+       "hold": "map",
+       "flip": true
+      }
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a busy outdoor farmers’ market on a sunny autumn day. On the left, there’s a red stall with a sign that says “Fresh apples, four dollars a bag”, and a vendor in a green shirt and a brown hat is pointing at his apples, maybe telling a customer which kind is sweetest. There’s also a wooden crate of apples on the ground in front of the stall. Next to him, a woman in a dark blue dress is holding up her phone, so I think she’s paying by tapping. In the middle, there’s an orange stall selling honey and jam, and a woman with her hair in a bun is holding a tray, probably offering free samples. A man in a purple shirt is walking past with a shopping bag, and a little boy in blue is holding a red balloon beside him. A light-brown dog is sniffing around near the apple stall. On the right, there’s a sign that says “Cash or tap”, a shopping cart, and an older man with grey hair and glasses who’s studying a map, as if he’s looking for something."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will probably happen in the next few minutes. First, the woman paying with her phone will finish her purchase, and the vendor will hand her a bag of apples. Since he’s pointing so enthusiastically, he might even talk her into buying a second bag. Second, the dog is wandering right next to the crate of apples, and nobody seems to be holding its leash, so I wouldn’t be surprised if it knocks the crate over or runs off with an apple, and the vendor will have to chase it. Meanwhile, the little boy with the balloon will probably notice the honey samples and pull the man toward the stall to try one, and they’ll likely end up buying a jar of jam. Finally, the older man with the map looks a bit lost, so he’ll probably ask one of the vendors for directions to another part of the market."
+  },
+  "t5": {
+   "intro": "Your family wants to switch to new mobile phone plans to save money. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Prepaid plans (one per person)",
+     "details": [
+      "$35 per person per month",
+      "15 GB of data each",
+      "No contract",
+      "Use the phones we already have",
+      "Data stops at the limit (no overage fees)"
+     ]
+    },
+    {
+     "title": "Two-year contracts",
+     "details": [
+      "$58 per person per month",
+      "50 GB of data each",
+      "New phone included",
+      "$300 fee to cancel early",
+      "Free calls to the US"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Family shared plan",
+    "details": [
+     "$140 per month for four people",
+     "40 GB shared by everyone",
+     "Two-year contract",
+     "Parental controls included",
+     "Extra lines $30 each"
+    ]
+   },
+   "otherWho": "Your brother prefers",
+   "persuade": "Your brother prefers the family shared plan. Persuade him that your choice is better.",
+   "model": "I get why the family plan looks attractive, but I really think the prepaid plans are the smarter choice. First, look at the cost. The family plan is a hundred and forty a month, which is exactly the same as four prepaid plans, but it locks us into a two-year contract. With prepaid, if a better deal comes along next year, we just switch. Second, I’m worried about sharing forty gigabytes. You know how much video the twins watch. With a shared pool, one person can use up everyone’s data by the middle of the month, and then we’ll be arguing about it. With prepaid, everyone has their own fifteen gigabytes, and the data simply stops at the limit, so there are no surprise overage charges. As for parental controls, we can set those up on the phones ourselves for free. It’s the same price, but simpler, fairer and more flexible."
+  },
+  "t6": {
+   "situation": "You share an apartment with a roommate. The utility and internet bills are in your name. For three months, your roommate has paid his half late, and this month he has not paid at all; you must pay $210 by Friday. He says he is short on money because of a new car payment. Your landlord, who lives downstairs, has offered to include the bills in the rent instead, but that would raise your own rent by about $40 a month.",
+   "options": [
+    "Talk to your roommate and ask him to pay his share on time.",
+    "Talk to your landlord and ask him to include the bills in the rent."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Julian, do you have a few minutes? I wanted to talk about the bills. I know things have been tight since you bought the car, and I’m not trying to make you feel bad. But the hydro and internet are both in my name, and for three months your half has come in late. This month I still haven’t received anything, and I have to pay two hundred and ten dollars by Friday. If it’s late, it’s my credit that takes the hit, not yours. So here’s what I’d like to suggest. Could you set up an automatic e-transfer to me on the first of every month, right after your payday? That way neither of us has to remember or chase anyone. And for this month, if you can’t manage the whole amount, could you send half now and the rest by the fifteenth? I’d really rather sort this out between us than pay the landlord more."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should personal finance be a required course in high school? Explain your reasons.",
+   "model": "In my opinion, yes, personal finance should definitely be a required course in high school. The main reason is that young people are making serious financial decisions much earlier than we assume. By the time they graduate, many of them already have a part-time job, a bank account and offers for their first credit card, and within a year or two, they might be signing a student loan agreement or a lease. Yet most of them have never been taught how interest works or what a credit score is. I saw this with my younger brother. He got a credit card at eighteen, paid only the minimum for a year, and was shocked to find out how much he had paid in interest. A single semester covering budgeting, credit, taxes and how to recognize scams would have saved him a lot of money and stress. Some people argue that parents should teach these things at home, and ideally they would. But many parents feel unsure about money themselves, so leaving it to families means that kids who already have advantages keep them. A required course would give every student the same basic tools, and that seems both practical and fair."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "An unusual pop-up shop in a city parking lot: a gigantic metal shopping cart, as tall as a two-storey building, has been turned into a small grocery store. A red banner across the top of the cart reads “POP-UP GROCERY”. A white sign beside it says “EVERYTHING $5”. A woman in an orange shirt is walking away from it carrying a shopping bag, and a man in a blue shirt is pointing up at the cart. A small blue car is parked on the left, and there is a streetlamp and a bush on the right.",
+    "items": [
+     [
+      "cloud",
+      90,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      470,
+      50,
+      0.9
+     ],
+     [
+      "big",
+      "cart",
+      320,
+      370,
+      4
+     ],
+     [
+      "banner",
+      210,
+      120,
+      220,
+      "POP-UP GROCERY",
+      "#c0392b"
+     ],
+     [
+      "sign",
+      520,
+      375,
+      "EVERYTHING $5",
+      "#fff"
+     ],
+     [
+      "car",
+      80,
+      385,
+      "#3498db"
+     ],
+     [
+      "person",
+      450,
+      380,
+      {
+       "shirt": "#e67e22",
+       "pose": "walk",
+       "hold": "bag",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "person",
+      180,
+      382,
+      {
+       "shirt": "#2980b9",
+       "pose": "point",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "streetlamp",
+      600,
+      385
+     ],
+     [
+      "bush",
+      570,
+      330,
+      0.9
+     ]
+    ]
+   },
+   "prompt": "You and a friend are planning to open a small business together. You saw this unusual pop-up shop in a parking lot. Describe it to your friend on the phone, and explain whether you think a similar idea would work for your business. Your friend cannot see the picture.",
+   "model": "You won’t believe what I just walked past in the parking lot near the mall. Imagine a shopping cart, a normal metal grocery cart, except it’s as tall as a two-storey building. Somebody has turned it into a little grocery store. There’s a big red banner across the top that says “Pop-up grocery”, and a sign next to it says “Everything five dollars”. People are actually shopping there; a woman just walked away with a full bag, and a man is standing there pointing up at it, probably as amazed as I was. Honestly, I think we could learn something from this for our coffee business. The cart itself is the advertisement. Nobody walks past without stopping, and everyone is taking photos. I don’t think we need anything this huge, because it must have cost a fortune and probably needs special permits. But something eye-catching, like serving coffee from a giant mug-shaped kiosk, could get us noticed without spending much on advertising. What do you think?"
+  }
+ }
+}

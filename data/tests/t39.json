@@ -1,0 +1,458 @@
+{
+ "id": "t39",
+ "title": "Test 39",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two volunteers with a community theatre group are dealing with a problem eight days before opening night.",
+    "sp": {
+     "A": {"name": "Nadia", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Gareth", "g": "m", "acc": "en-GB", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Gareth, sorry to call so late. Have you heard from Felix today?"],
+       ["B", "Not since rehearsal on Tuesday. Why? Don’t tell me he’s dropped out. We open in eight days."],
+       ["A", "Not by choice. He slipped on the ice outside his building this morning and broke his ankle in two places. He’s in a cast up to the knee, and the surgeon told him no weight on it for at least six weeks."],
+       ["B", "Oh no, poor guy. Is he okay otherwise?"],
+       ["A", "He’s in good spirits, considering. He actually offered to do the show on crutches, bless him, but the role has that whole sword fight in the second act, and he spends half of act one running up and down the staircase on the set. It’s just not realistic."],
+       ["B", "No, and the insurance people would have a fit. So we’re down a lead with eight days to go. What about the understudy situation? I thought we had someone covering him."],
+       ["A", "We did, on paper. Jonah was supposed to be learning the part, but he told me tonight he’s been concentrating on his own role and only knows maybe the first few scenes. I can’t really blame him. We never scheduled a single understudy rehearsal."],
+       ["B", "That’s on us, then. Okay, what happens if we push the opening back a week?"],
+       ["A", "That’s what worries me. The hall is booked solid after our run. There’s a dance recital moving in the following Monday, so there’s no adding nights at the end. And we’ve already sold about three quarters of the seats for opening weekend, mostly to season subscribers."],
+       ["B", "So every night we cancel is a night we have to refund."],
+       ["A", "Exactly. And the board was very clear in September: we can’t afford to end another season in the red."]
+      ],
+      "qs": [
+       {"q": "Why is it impossible for Felix to perform?", "o": ["The surgeon has told him to stay in hospital until opening.", "He has decided he no longer wants to take part.", "His injury makes the physical demands of the role unmanageable.", "The insurance company has refused to cover any actor on crutches."], "a": 2, "t": "inference", "ev": "the role has that whole sword fight in the second act", "x": "Nadia explains that the role includes a sword fight and lots of stair climbing, which a man in a knee-high cast cannot do. Felix actually offered to perform, and Gareth only guesses how the insurers would react."},
+       {"q": "How does Nadia feel about Jonah not knowing the part?", "o": ["She is angry that he ignored his responsibilities.", "She believes he could still learn it in eight days.", "She suspects he never wanted to cover the role.", "She thinks it is understandable given how things were organized."], "a": 3, "t": "attitude", "ev": "I can’t really blame him. We never scheduled a single understudy rehearsal.", "x": "She says she cannot blame him because the group never held understudy rehearsals, so the failure is partly the organizers’ fault. She shows no anger, and she never suggests he could learn it in time."},
+       {"q": "What is the main obstacle to delaying the opening?", "o": ["Season subscribers have refused to change their dates.", "Another group will be using the venue right after their run.", "The board has banned any changes to the schedule.", "Most of the opening-weekend seats are still unsold."], "a": 1, "t": "paraphrase", "ev": "There’s a dance recital moving in the following Monday", "x": "A dance recital takes over the hall immediately afterwards, so performances cannot be added at the end. The board only warned about losing money, and three quarters of the seats are already sold, not unsold."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "Okay, options. What about bringing someone in from outside? Didn’t Priyanka play this exact role a few years ago with the Riverside Players?"],
+       ["A", "She did, and I called her an hour ago. She’d love to help, but she’s directing a school production that opens the same week. She said if it were any other month, she’d have jumped at it."],
+       ["B", "That’s a shame. What about cutting the sword fight and having Jonah carry the script on stage?"],
+       ["A", "I thought about a staged reading, but honestly, people paid for a full production. If everyone else is in costume and one actor is holding a binder, it looks like we gave up. I’d rather refund people than do that."],
+       ["B", "Fair enough. Hmm. What about Dev? He’s been at every single rehearsal as assistant director. He must know the blocking better than anyone."],
+       ["A", "Dev? He knows the show inside out, I’ll give you that. He’s been prompting the actors since September, so he probably knows most of the lines too. But he hasn’t been on a stage in about fifteen years, and he told me once that he gets terrible stage fright."],
+       ["B", "People get over stage fright. And it’s not as if he’d be learning it from scratch."],
+       ["A", "I suppose that could work, if he’s willing. My other worry is the costume. Felix is about six foot three, and Dev is, well, not."],
+       ["B", "That’s the easy part. Marguerite can take in a costume in an afternoon. She did three alterations for the last show in one weekend."],
+       ["A", "True. All right, I’ll call Dev first thing tomorrow. If he says no, we’re back to square one."]
+      ],
+      "qs": [
+       {"q": "Why can Priyanka not help?", "o": ["She already has a commitment that week.", "She has never performed this particular role.", "She does not have time to learn the lines.", "She is only available later in the month."], "a": 0, "t": "paraphrase", "ev": "she’s directing a school production that opens the same week", "x": "She is directing another show that opens the same week, so she has a conflicting commitment. She has actually played the role before, and “any other month” describes when she would have agreed, not a later date she offered."},
+       {"q": "What is Nadia’s opinion of a staged reading?", "o": ["It would cost less than refunding the tickets.", "It would require cutting too many important scenes.", "It would disappoint people who expected a complete show.", "It would give Jonah more time to prepare the role."], "a": 2, "t": "attitude", "ev": "people paid for a full production", "x": "She says audiences paid for a full production and that a script on stage would look like giving up. She would actually prefer refunds to a reading, so she does not see it as the cheaper choice."},
+       {"q": "What does Nadia mean when she says, “I suppose that could work”?", "o": ["She is completely convinced that Dev is the right choice.", "She is cautiously open to the idea.", "She thinks Dev’s stage fright rules him out.", "She wants Gareth to make the final decision."], "a": 1, "t": "attitude", "ev": "I suppose that could work, if he’s willing", "x": "“I suppose” plus the condition “if he’s willing” signals hesitant, conditional agreement. She raises stage fright as a concern but does not reject him, and she plans to call Dev herself."}
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Gareth, good news and some not-so-good news. Dev said yes."],
+       ["B", "That’s fantastic! What’s the not-so-good part?"],
+       ["A", "He’ll do it, but on one condition. He wants the sword fight simplified. He says he can learn lines in a week, but not choreography. So I spoke to our fight director, and she’s going to rework it into something shorter, more like a scuffle."],
+       ["B", "Fine by me. Honestly, nobody comes to a community production for the swordplay. What about rehearsals?"],
+       ["A", "We’ll add three extra evenings this week, Wednesday to Friday, plus a full run-through on the weekend. I originally wanted Sunday for that, but the hall is booked for a wedding shower, so it has to be Saturday afternoon."],
+       ["B", "And who takes over Dev’s job? Someone has to be on book during the performances, in case anyone forgets a line."],
+       ["A", "Felix, actually. He called me this morning and asked whether he could help from the wings. He can sit on a stool with his leg up and prompt anyone who goes blank."],
+       ["B", "That’s perfect. He’ll feel involved instead of stuck at home feeling sorry for himself. Should we tell the subscribers about the cast change?"],
+       ["A", "Yes, but let’s not make a big announcement. I’ll add an insert to the program and post a short note on our page. Most people won’t mind, and the ones who know Felix will want to send him flowers anyway."],
+       ["B", "Good. I’ll let Marguerite know she needs Dev for a fitting tomorrow."]
+      ],
+      "qs": [
+       {"q": "What change will be made because of Dev’s condition?", "o": ["The fight scene will be removed from the play.", "Dev will be given an extra week to learn his lines.", "The fight director will perform part of the role.", "A fight scene will be made less complicated."], "a": 3, "t": "detail", "ev": "she’s going to rework it into something shorter, more like a scuffle", "x": "The fight director will turn the sword fight into a shorter scuffle, so it becomes simpler, not removed. Dev says he can learn the lines in a week; he is not given extra time."},
+       {"q": "What will Felix do during the performances?", "o": ["Help actors who cannot remember what to say", "Replace Dev as the show’s assistant director", "Sell programs and inserts at the entrance", "Appear briefly on stage using crutches"], "a": 0, "t": "paraphrase", "ev": "prompt anyone who goes blank", "x": "Felix will sit in the wings and prompt anyone who “goes blank”, which means forgets their lines. He takes over only the prompting job, not directing, and the crutches idea was rejected earlier."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A student is talking to his instructor at a pottery studio about a piece that was damaged.",
+    "sp": {
+     "A": {"name": "Ruth", "g": "f", "acc": "en-AU", "rate": 1.01},
+     "B": {"name": "Tomasz", "g": "m", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Hi Ruth, have you got a second? I just saw my bowl on the pickup shelf, and it’s got a huge crack right down the side."],
+       ["A", "Oh, Tomasz, I’m sorry. I saw it when I unloaded the kiln on Thursday. I was going to mention it at your next class. Can I have a look?"],
+       ["B", "Sure. I don’t get it. The other two pieces I made came out fine, and I did everything exactly the same way."],
+       ["A", "Hmm. See how the crack starts at the base and runs upward? That usually means the bottom was much thicker than the walls, so it dried unevenly. The walls shrink faster than the base, and something has to give."],
+       ["B", "So it’s my fault, then."],
+       ["A", "I wouldn’t put it that way. It’s probably the most common thing that happens to beginners. Your other pieces were smaller, so the difference in thickness didn’t matter as much. This one’s a serving bowl, so there’s a lot more clay at the bottom."],
+       ["B", "I was really hoping to give it to my sister for her housewarming. It’s on the twenty-first."],
+       ["A", "Well, there’s no way to truly repair a crack once it’s been fired, I’m afraid. Some people fill them with gold-coloured epoxy, which actually looks quite beautiful, but then it isn’t food-safe."],
+       ["B", "That kind of defeats the purpose of a serving bowl. Could I make another one in time?"],
+       ["A", "Let’s see. You’d throw it at Tuesday’s class, it would need about a week to dry slowly, then a bisque firing and a glaze firing. Each firing takes two days including cooling. Realistically, you’d be cutting it very fine for the twenty-first."],
+       ["B", "Ugh. Is there any way to speed that up?"],
+       ["A", "I wouldn’t recommend rushing the drying. That’s how you got the crack in the first place. But here’s an idea. The studio has a few bisque-fired pieces left over from the demonstration I did last month. You could pick one, glaze it however you like on Tuesday, and it would go into the glaze firing on Wednesday. You’d have it by Friday."],
+       ["B", "But then I didn’t really make it."],
+       ["A", "You’d be decorating it, which is half the work, and honestly the part people notice. And you can still make the new bowl properly, take your time with it, and give that to her later."],
+       ["B", "I guess she won’t know the difference. Okay, I’ll have a look at the demo pieces on Tuesday."]
+      ],
+      "qs": [
+       {"q": "According to Ruth, what most likely caused the crack?", "o": ["The kiln was heated up too quickly.", "Parts of the bowl lost moisture at different speeds.", "The walls were thicker than the base of the bowl.", "Tomasz used a different type of clay this time."], "a": 1, "t": "paraphrase", "ev": "so it dried unevenly", "x": "Ruth says the base was thicker than the walls, so the bowl dried unevenly. The option about thicker walls reverses what she said, and nothing suggests a kiln or clay problem."},
+       {"q": "Why does Ruth mention Tomasz’s other pieces?", "o": ["To show that his skills have been improving", "To suggest that he should only make small items", "To prove that the kiln was not to blame", "To explain why the same method gave different results"], "a": 3, "t": "purpose", "ev": "Your other pieces were smaller, so the difference in thickness didn’t matter as much.", "x": "Tomasz says he did everything the same way; Ruth explains that size made the difference, because thickness matters more in a large bowl. She does not recommend making only small pieces."},
+       {"q": "Why does Tomasz reject the idea of an epoxy repair?", "o": ["The bowl could no longer be used for food.", "The gold colour would not suit his sister’s home.", "Epoxy cannot be applied to fired clay.", "The repair would not be ready by the twenty-first."], "a": 0, "t": "inference", "ev": "That kind of defeats the purpose of a serving bowl.", "x": "After learning epoxy is not food-safe, he says it “defeats the purpose” of a serving bowl, meaning he could not serve food in it. Ruth actually says the gold looks beautiful."},
+       {"q": "What is Ruth’s view of making a new bowl before the housewarming?", "o": ["It is impossible because each firing takes a week.", "It can be done if the drying is sped up.", "It is possible but leaves almost no spare time.", "It would be ready by Friday if he starts Tuesday."], "a": 2, "t": "attitude", "ev": "you’d be cutting it very fine for the twenty-first", "x": "“Cutting it very fine” means it might just be possible but with almost no margin. She warns against speeding up drying, and the Friday date applies to the glazed demonstration piece, not a new bowl."},
+       {"q": "What will Tomasz most likely do on Tuesday?", "o": ["Fill the crack in his bowl with gold epoxy", "Decorate a piece that has already been fired once", "Ask Ruth to make a serving bowl for his sister", "Throw a new bowl to give at the housewarming"], "a": 1, "t": "prediction", "ev": "glaze it however you like on Tuesday", "x": "He agrees to look at the bisque-fired demonstration pieces, which he would glaze on Tuesday. He may make a new bowl too, but it would be given later, not at the housewarming."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A woman calls a curling club to ask about its program for beginners.",
+    "sp": {
+     "A": {"name": "Doug", "g": "m", "acc": "en-CA", "rate": 1.04},
+     "B": {"name": "Aisha", "g": "f", "acc": "en-US", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Good morning, Maple Ridge Curling Club, Doug speaking."],
+       ["B", "Hi, I’m calling about the learn-to-curl program. A friend and I saw a poster at the library, and we’re thinking of signing up, but we’ve never curled before. Like, never even stood on the ice."],
+       ["A", "That’s exactly who it’s for. Most of our beginners have only ever watched it on TV. The program runs for six weeks, Thursday evenings from seven to nine, starting January ninth."],
+       ["B", "Okay. The poster said it was a hundred and twenty dollars?"],
+       ["A", "Ah, that was last year’s poster, I’m afraid. A few of them are still floating around town. It’s a hundred and forty-five this season. But that includes all the equipment you need, the brooms, the sliders, and a stabilizer for the first couple of weeks. And if you decide to join a league afterwards, the full program fee is credited toward your membership."],
+       ["B", "Oh, that’s good to know. What should we wear? I don’t own any special shoes."],
+       ["A", "Just clean running shoes, ideally ones that haven’t been worn outside. Grit from the street is the enemy of good ice. Dress in layers. It’s about five degrees in the rink, so wear something warm but stretchy. Jeans aren’t great, they’re hard to lunge in."],
+       ["B", "Got it. And is it safe? My friend had knee surgery a couple of years ago, and she’s a bit nervous about falling."],
+       ["A", "That’s a fair question. Everyone gets a head protector for the first few sessions, and honestly, we recommend wearing it the whole way through. For anyone with knee or balance issues, there’s also stick curling, where you deliver the rock standing up with a long handle, so you never have to crouch. She could start with that and switch later if she feels comfortable."],
+       ["B", "That sounds perfect for her. Is there an age limit? My nephew is fifteen, and he might want to come along."],
+       ["A", "The adult program is sixteen and up. We do run a junior program on Saturday mornings for ages ten to fifteen, but that one’s already full for January. I could put him on the waiting list for the spring session, which starts in April."],
+       ["B", "Sure, please do. His name is Omar Haddad. And how do we register?"],
+       ["A", "Online, through our website. Registration opens December first at noon, and it usually fills within a week, so I wouldn’t wait. If you register as a pair, you’ll be put on the same team for the whole six weeks."],
+       ["B", "Great. And if one of us has to miss a night?"],
+       ["A", "We can’t offer make-up sessions, unfortunately, but you can send a friend in your place, as long as they sign the waiver at the front desk first."]
+      ],
+      "qs": [
+       {"q": "What does Doug suggest about the price on the poster?", "o": ["It did not include the cost of equipment.", "It applies only to people who are already members.", "It was printed incorrectly by the library.", "It is no longer the current fee."], "a": 3, "t": "inference", "ev": "that was last year’s poster", "x": "The poster is from last year, so its price is out of date; the fee is now $145. Equipment is included this season, and nothing suggests a printing error or a members-only price."},
+       {"q": "What happens if a participant joins a league after the program?", "o": ["The amount they paid is deducted from the membership cost.", "They receive free equipment for their first league season.", "They pay the lower price shown on last year’s poster.", "They can skip the stabilizer and use sliders right away."], "a": 0, "t": "paraphrase", "ev": "the full program fee is credited toward your membership", "x": "Being “credited toward your membership” means the $145 is subtracted from the membership fee. Equipment is included during the program only; free league equipment is never promised."},
+       {"q": "Why does Doug advise against wearing shoes that have been worn outdoors?", "o": ["They are too slippery for beginners on the ice.", "They are not warm enough for a five-degree rink.", "Dirt carried on them can damage the playing surface.", "They make it difficult to lunge when delivering a rock."], "a": 2, "t": "inference", "ev": "Grit from the street is the enemy of good ice.", "x": "Grit from the street harms the ice, so the concern is the playing surface. Difficulty lunging is what he says about jeans, and the five degrees relates to dressing in layers."},
+       {"q": "What does Doug recommend for Aisha’s friend?", "o": ["Waiting until her knee has completely healed", "Starting with a version of the game played upright", "Wearing a head protector for the first few sessions only", "Joining the Saturday program, which is less physical"], "a": 1, "t": "detail", "ev": "you deliver the rock standing up with a long handle, so you never have to crouch", "x": "Stick curling lets players stay standing, which suits someone with knee problems. He recommends wearing the head protector the whole way through, not only at first, and the Saturday program is for juniors."},
+       {"q": "What will happen regarding Aisha’s nephew?", "o": ["He will join the adult program with special permission.", "He will start the junior program in January.", "He will be considered for a session that begins later.", "He will register online on the first of December."], "a": 2, "t": "detail", "ev": "I could put him on the waiting list for the spring session", "x": "The January junior program is full, so Omar goes on the waiting list for April. At fifteen he is too young for the adult program, and online registration on December first is for Aisha and her friend."},
+       {"q": "What can a participant do if they cannot attend one evening?", "o": ["Attend a make-up session on a Saturday morning", "Receive a partial refund for the missed session", "Move to a different team for the following week", "Let someone else take their place after signing a form"], "a": 3, "t": "paraphrase", "ev": "you can send a friend in your place, as long as they sign the waiver", "x": "A substitute may come if they sign the waiver first. Doug clearly says make-up sessions are not offered, and refunds are never mentioned."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "f", "acc": "en-CA", "rate": 1.03},
+     "B": {"name": "Carnival director", "g": "m", "acc": "en-US", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Organizers of the Lakehead Winter Carnival are scrambling after an unusually mild January left them with a problem they’ve never faced in the event’s forty-one-year history: not enough ice. The carnival’s signature event, the international snow and ice sculpture competition, was set to begin Thursday on the frozen surface of Mirror Bay. But with daytime temperatures hovering above zero for most of the past two weeks, the city’s parks department has declared the bay unsafe for heavy equipment and large crowds."],
+       ["A", "Instead, the twelve competing teams will carve in the parking lot of the Northshore Arena, where crews have been trucking in snow from the city’s storage sites around the clock. Carnival director Raymond Okeke says the move was not an easy decision."],
+       ["B", "Mirror Bay is the heart of the carnival. People come because there’s something magical about walking out onto the lake at night with the sculptures all lit up. A parking lot is, frankly, not magical. But the alternative was cancelling, and with teams already arriving from Quebec, Minnesota and even Finland, cancelling was never really on the table."],
+       ["A", "The arena site does come with some advantages. It has power, washrooms and a covered area where visitors can warm up, none of which the lakeside site ever had. Organizers are also adding a free shuttle from downtown, since parking at the arena will obviously be limited."],
+       ["A", "Not everyone is pleased. Several food vendors who had paid for lakeside spots say the new location is farther from the downtown hotels, and they expect fewer customers. The carnival has offered to reduce their fees by a third, but some say that won’t cover their losses."],
+       ["A", "Climate researchers have warned for years that events like this one will face increasingly uncertain winters, and Okeke acknowledges that the carnival may need a permanent backup plan."],
+       ["B", "We’ve been lucky for four decades. I think after this year, the board will want to look seriously at a site we can guarantee, maybe with some refrigeration. But I don’t want to give up on the lake entirely. If conditions allow, we’ll go back."],
+       ["A", "The sculpture competition runs Thursday through Sunday, with judging on Saturday evening."]
+      ],
+      "qs": [
+       {"q": "Why has the sculpture competition been moved?", "o": ["The city has run out of stored snow.", "The teams asked for a site with electricity.", "The lake surface cannot safely hold the event.", "Temperatures are expected to rise on Thursday."], "a": 2, "t": "paraphrase", "ev": "declared the bay unsafe for heavy equipment and large crowds", "x": "The parks department declared the bay unsafe for equipment and crowds because of the mild weather. Snow is being trucked in from storage, so it has not run out, and teams did not request power."},
+       {"q": "How does Raymond Okeke feel about the new location?", "o": ["He prefers it because of its better facilities.", "He accepts it as better than calling off the event.", "He believes visitors will find it just as magical.", "He thinks it should become the permanent site."], "a": 1, "t": "attitude", "ev": "But the alternative was cancelling", "x": "He admits a parking lot is “not magical” but says the only alternative was cancelling, so he accepts it reluctantly. The facilities are mentioned by the anchor, not praised by Okeke as a reason to prefer it."},
+       {"q": "What is one advantage of the arena site?", "o": ["It is closer to the downtown hotels.", "It has more parking than the lake did.", "Sculptures will last longer in the cold there.", "Visitors will have shelter from the weather."], "a": 3, "t": "detail", "ev": "a covered area where visitors can warm up", "x": "The arena has a covered area to warm up, which is shelter from the weather. Vendors say it is farther from the hotels, and parking there is described as limited."},
+       {"q": "What do some food vendors think about the reduced fees?", "o": ["The reduction will not fully make up for lost sales.", "The reduction is fair because the arena has power.", "The fees should be refunded completely instead.", "The fees were already too high at the lakeside site."], "a": 0, "t": "inference", "ev": "some say that won’t cover their losses", "x": "Some vendors say a one-third reduction will not cover their losses, meaning it does not compensate for the customers they expect to lose. No vendor asks for a full refund in the report."},
+       {"q": "What will the carnival board most likely do in the future?", "o": ["Move the event permanently to the arena parking lot", "Stop using the lake for any part of the carnival", "Look into a location where conditions can be controlled", "Hold the carnival later in the winter when it is colder"], "a": 2, "t": "prediction", "ev": "a site we can guarantee, maybe with some refrigeration", "x": "Okeke expects the board to study a guaranteed site, possibly refrigerated, so conditions would be controlled. He does not want to give up the lake, and he never names the arena as the permanent site."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three board members of a free summer folk music festival are discussing its future.",
+    "sp": {
+     "A": {"name": "Lucille", "g": "f", "acc": "en-CA", "rate": 1.0},
+     "B": {"name": "Hamid", "g": "m", "acc": "en-GB", "rate": 1.02},
+     "C": {"name": "Bronwyn", "g": "f", "acc": "en-AU", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Okay, let’s get to the main item. As you’ve all seen in the treasurer’s report, last summer’s festival ran a deficit of about thirty-eight thousand dollars. The arts council grant was cut by a quarter, and the cost of fencing, security and sound goes up every year. We need a recommendation for the membership meeting in March."],
+       ["B", "I’ll say what everyone’s been avoiding. We have to start charging admission. We bring in eighteen thousand people over three days. Even ten dollars a head would wipe out the deficit several times over. Every other festival our size charges something."],
+       ["C", "And every other festival our size is a completely different event, Hamid. The whole point of Harbourfront Folk for thirty years is that anyone can wander in. Families who could never afford a forty-dollar concert ticket bring their kids here. The minute we put up a gate, we lose that."],
+       ["B", "We already have a fence. We put it up for security."],
+       ["C", "A fence with open gates is not the same as a ticket booth."],
+       ["A", "Let me push on the numbers, though. Hamid, if we charge, we also need ticketing staff, a ticketing platform and probably more security at the gates. Has anyone actually costed that?"],
+       ["B", "Not exactly. I’d guess eight to ten thousand."],
+       ["A", "So the net is lower than it looks, and attendance would almost certainly drop. I’m not saying no. I’m saying ten dollars times eighteen thousand isn’t the real number."],
+       ["C", "What about a suggested donation at the entrance? Lots of places do that. People who can pay, pay, and nobody’s turned away."],
+       ["B", "We tried that in twenty-nineteen, remember? We collected something like four thousand dollars. People walked right past."],
+       ["C", "We tried buckets, Hamid. Volunteers holding plastic buckets at the far end of the park. If people are asked directly at the gate, with a tap-to-pay machine, they give far more. That’s what other events have found."],
+       ["A", "That’s a fair distinction. Though I’d be nervous about building a budget on what people might give."],
+       ["B", "Here’s a thought, and it’s a compromise, so don’t anyone get too attached to it. What if Friday and Sunday stay free, the daytime stages stay free all weekend, but the Saturday night headline show on the main stage becomes ticketed? That’s the one show where we pay a big-name act, and it’s the one people would happily pay for."],
+       ["C", "Hmm. I could live with that more easily than a gate around the whole park. But Saturday night is also when the most families come, because the kids don’t have school the next day."],
+       ["A", "What if the tickets were cheap, say fifteen dollars, children under twelve free, and we set aside a block of free passes handed out through the public library and the community centres? Nobody would have to prove anything. They’d just pick them up."],
+       ["C", "That would go a long way. My worry is the passes running out in the first hour."],
+       ["A", "Then we make the block big enough. Say a thousand passes. We sell the remaining four thousand places, that’s sixty thousand dollars before costs, and even if we sell only two thirds, we come close to covering the deficit."],
+       ["B", "I’m on board. I’d still prefer something across the whole weekend, but I’ll take a partial solution over another year of deficits."],
+       ["C", "Fine, I’ll support it, on the condition that we review it after one year and look at who actually came. If attendance from the east-side neighbourhoods drops, I want us to reverse it."],
+       ["A", "That’s reasonable. So the recommendation is a one-year trial of ticketing for the Saturday night main stage only, with free passes through the library and community centres, and a review next fall. I’ll draft it tonight."]
+      ],
+      "qs": [
+       {"q": "Why does Hamid think the festival should charge admission?", "o": ["He believes even a small fee would bring in more than enough.", "He wants to pay for stronger fencing and extra security.", "He says the arts council will not renew its grant otherwise.", "He thinks charging would make the festival less crowded."], "a": 0, "t": "detail", "ev": "Even ten dollars a head would wipe out the deficit several times over.", "x": "Hamid argues that a modest fee would wipe out the deficit “several times over”. The fence is mentioned only as already existing, and he never links charging to the grant or to crowd size."},
+       {"q": "What is Bronwyn’s main objection to charging admission?", "o": ["It would require too many extra volunteers at the gates.", "It would cost more to organize than it would earn.", "It would make the festival look like every other event.", "It would shut out people the festival has always welcomed."], "a": 3, "t": "viewpoint", "ev": "Families who could never afford a forty-dollar concert ticket bring their kids here.", "x": "Bronwyn stresses that low-income families come because it is free and that a gate would lose them. The cost of ticketing is Lucille’s point, not Bronwyn’s."},
+       {"q": "What point is Lucille making about Hamid’s estimate?", "o": ["His figures are deliberately misleading the board.", "The real income would be lower than he implies.", "Charging admission should be rejected completely.", "The deficit is smaller than the report suggests."], "a": 1, "t": "inference", "ev": "ten dollars times eighteen thousand isn’t the real number", "x": "She notes that ticketing costs and lower attendance would reduce the net income. She explicitly says “I’m not saying no”, so she does not reject charging outright."},
+       {"q": "Why does Hamid mention twenty-nineteen?", "o": ["To show that ticket sales were higher in the past", "To remind the board that the fence was installed then", "To show that voluntary giving raised little money", "To prove that volunteers are unreliable at the gates"], "a": 2, "t": "purpose", "ev": "We collected something like four thousand dollars.", "x": "He uses the earlier attempt, which raised only about $4,000, to argue that donations do not work. Bronwyn later blames the buckets and their location, but Hamid does not criticize the volunteers."},
+       {"q": "How does Bronwyn respond to the twenty-nineteen example?", "o": ["She argues the earlier attempt was poorly designed.", "She admits that donations will never cover the deficit.", "She suggests holding the buckets nearer the stages.", "She says other festivals have also given up on donations."], "a": 0, "t": "inference", "ev": "Volunteers holding plastic buckets at the far end of the park.", "x": "She points out that the 2019 attempt used buckets in a poor location, implying a better-designed approach at the gate would raise more. She proposes tap-to-pay at the entrance, not buckets near the stages."},
+       {"q": "What is Bronwyn’s first reaction to Hamid’s compromise?", "o": ["She rejects it because families come on Saturday.", "She finds it acceptable but sees a drawback.", "She prefers it to her own donation proposal.", "She supports it only if tickets cost under ten dollars."], "a": 1, "t": "attitude", "ev": "I could live with that more easily than a gate around the whole park.", "x": "“I could live with that” shows reluctant acceptance, followed immediately by a concern about Saturday-night families. She does not reject it, and the ticket price is suggested later by Lucille."},
+       {"q": "How does Hamid feel about the final plan?", "o": ["It is exactly what he proposed from the start.", "It goes too far in limiting ticket sales.", "It will probably fail to reduce the deficit.", "It falls short of his preference but is acceptable."], "a": 3, "t": "attitude", "ev": "I’ll take a partial solution over another year of deficits", "x": "He would still prefer charging across the whole weekend but accepts a partial solution rather than further deficits. His first proposal was admission for everyone, not just Saturday night."},
+       {"q": "What does the board finally agree to recommend?", "o": ["Charging fifteen dollars for every day of the festival", "Replacing donation buckets with tap-to-pay machines", "A limited ticketing trial that will be evaluated after a year", "Free passes only for families from east-side neighbourhoods"], "a": 2, "t": "main", "ev": "a one-year trial of ticketing for the Saturday night main stage only", "x": "They agree on a one-year trial of tickets for one show, with a review next fall. Free passes go through libraries and community centres for anyone, not only east-side families."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about a debate over public art in a Canadian city.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "f", "acc": "en-CA", "rate": 1.02}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "When the city of Port Alder built its new water treatment plant last year, about four hundred thousand dollars of the budget went toward something that has nothing to do with clean water: a sixty-metre mural of salmon swimming upstream, painted along the plant’s outer wall. That spending was required by the city’s percent-for-art policy, which since two thousand and eight has set aside one percent of the budget of every major construction project for public art. Next month, council will vote on whether to suspend the policy for three years, and the debate has exposed some surprisingly deep divisions."],
+       ["A", "The motion’s sponsor, Councillor Elaine Brandt, says it’s a matter of priorities. With the city facing a backlog of road and pipe repairs, she argues that residents would rather see potholes filled than another sculpture in a roundabout. A survey commissioned by her office found that sixty-two percent of residents agreed that art spending should be paused. Critics point out, however, that the survey described the repair backlog in detail before asking about art, which may have nudged people toward a particular answer."],
+       ["A", "Artists, not surprisingly, are opposed. But their argument is not only about their own livelihoods. Several point out that one percent is a small share, and that suspending the policy would save the city far less than it would need to make a dent in the repair backlog. The local arts council estimates the savings at roughly one point two million dollars over three years, compared with a backlog it puts at more than ninety million."],
+       ["A", "Perhaps the most interesting voices come from the business community, which might have been expected to side with the cost-cutters. The Old Town Business Association has come out firmly against the suspension, citing a university study that found foot traffic on blocks with murals rose by about fifteen percent in the year after they were painted. The association’s director told me the murals have done more to bring people downtown than any advertising campaign the association has ever paid for."],
+       ["A", "Yet even some supporters of public art think the policy needs fixing. Community arts researcher Dr. Lionel Achebe argues that too much of the money goes to large, expensive pieces commissioned from well-known artists outside the region, and too little to neighbourhood projects that involve residents directly. He’d like part of the one percent set aside for smaller community-led works, and for maintaining existing pieces, several of which have been allowed to fade and peel. “A mural that’s falling apart,” he told me, “is worse advertising for public art than no mural at all.”"],
+       ["A", "There are signs that council may look for middle ground. Two undecided councillors have floated the idea of keeping the policy but lowering the share to half a percent for infrastructure that the public rarely sees, like pumping stations, while keeping the full one percent for libraries, parks and recreation centres."]
+      ],
+      "qs": [
+       {"q": "Why do critics question the councillor’s survey?", "o": ["Too few residents took part in it.", "The way it was worded may have influenced the results.", "It was paid for by people who oppose public art.", "It asked about potholes but never mentioned art."], "a": 1, "t": "inference", "ev": "which may have nudged people toward a particular answer", "x": "Describing the repair backlog first may have pushed respondents toward pausing art spending, so the wording could have shaped the results. The survey did ask about art, and its size is never criticized."},
+       {"q": "What argument do artists make against the suspension?", "o": ["It would do little to solve the city’s repair problem.", "It would put most local artists out of work.", "The salmon mural cost less than reported.", "One percent is too small a share for public art."], "a": 0, "t": "viewpoint", "ev": "suspending the policy would save the city far less than it would need to make a dent in the repair backlog", "x": "Artists argue the savings (about $1.2 million) are tiny compared with a $90 million backlog. The report says their argument is “not only” about livelihoods, and they call one percent small to show the saving is minor, not to ask for more."},
+       {"q": "What does the reporter suggest about the business association’s position?", "o": ["It is based on the association’s own advertising data.", "It changed after the mural was painted.", "It supports cutting costs on infrastructure.", "It is not what many people would have predicted."], "a": 3, "t": "inference", "ev": "which might have been expected to side with the cost-cutters", "x": "The reporter notes that business groups might have been expected to support cost-cutting, so their opposition is surprising. Their evidence is a university study, not their own advertising data."},
+       {"q": "What does Dr. Achebe criticize about the current policy?", "o": ["The decision to suspend it for three years", "The way the money is divided and how artworks are cared for", "The use of art on buildings the public never visits", "The lack of famous artists from outside the region"], "a": 1, "t": "viewpoint", "ev": "too much of the money goes to large, expensive pieces", "x": "He objects that money favours big commissions over community projects and that existing works are allowed to decay. He wants fewer outside commissions, not more, and the reduced share for unseen facilities is the councillors’ idea."},
+       {"q": "What does Dr. Achebe mean by his comment about a mural falling apart?", "o": ["Neglected artwork can harm public support for art.", "Old murals should be removed rather than repaired.", "Murals are a poor form of advertising for cities.", "Outdoor art always deteriorates within a few years."], "a": 0, "t": "attitude", "ev": "is worse advertising for public art than no mural at all", "x": "He means a decaying mural makes people think badly of public art, so maintenance matters. He is arguing for repairs, not removal, and he does not say murals are bad advertising in general."},
+       {"q": "What compromise are some councillors considering?", "o": ["Suspending the policy only for libraries and parks", "Doubling the art share for recreation centres", "Moving all art spending to pumping stations", "Spending less on art for facilities few people see"], "a": 3, "t": "prediction", "ev": "lowering the share to half a percent for infrastructure that the public rarely sees", "x": "They suggest cutting the share to half a percent for rarely seen facilities while keeping one percent for libraries, parks and recreation centres. Nobody proposes doubling any share."}
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Corinne Laflamme  |  To: Isabel Novak  |  Subject: Choir news – and a big favour",
+   "text": "Hi Isabel,\n\nI hope the move into your new office went smoothly and that you’ve finally unpacked the last of those boxes! I have news I’m almost embarrassed to be so excited about. You know the community choir I joined last fall, mostly because Dr. Ferreira told me I needed a hobby that didn’t involve a screen? Well, in the spring we sent a recording to the national amateur choir competition, never imagining anything would come of it, and we’ve just been invited to sing in the finals in Quebec City at the end of June.\n\nI say “we”, but I nearly wasn’t part of it. The director only takes twenty-four singers to the finals, and there are thirty-one of us. She chose by audition last week, and I was so nervous that my voice cracked on the very first note. She told me afterwards that she picked me for my reliability at rehearsals rather than my sight-reading, which I’ll happily take.\n\nHere’s where the favour comes in. We leave on June twenty-sixth and get back on the thirtieth, and Mateo is away at his conference that same week, so there’ll be nobody at home to look after Pepper. I know you said last time that cats aren’t really your thing, so please feel free to say no. She doesn’t need much: food twice a day, fresh water and a clean litter box. The only tricky part is her thyroid pill, which has to be hidden in a treat, or she’ll spit it out behind the sofa. I’d also need someone to bring in the mail and water the tomatoes on the balcony, though honestly, the tomatoes have survived worse.\n\nI asked my neighbour first, but she’ll be at her daughter’s that week. I could put Pepper in a boarding place, but the last time she stopped eating for two days and the vet was not impressed.\n\nOf course, I’d pay you for your time, or at the very least take you out for a proper dinner when I get back. And if you like, I can get you a ticket to our send-off concert at St. Brendan’s on the twentieth. It’s a fundraiser to cover our bus, so you’d be doing me two favours at once!\n\nLet me know either way. No hard feelings.\n\nCorinne",
+   "qs": [
+    {"q": "Why did Corinne originally join the choir?", "o": ["Her director invited her after hearing her sing.", "She hoped to compete in a national competition.", "She was advised to find an activity away from devices.", "A friend suggested it as a way to reduce stress."], "a": 2, "t": "paraphrase", "ev": "a hobby that didn’t involve a screen", "x": "Dr. Ferreira told her to find a hobby without a screen, meaning something away from phones and computers. The competition came later and was entered without any expectations."},
+    {"q": "What does Corinne suggest about the choir’s competition entry?", "o": ["The members did not expect it to lead anywhere.", "The director had prepared the recording for months.", "Only the best singers appeared on the recording.", "The choir had entered the competition several times."], "a": 0, "t": "inference", "ev": "never imagining anything would come of it", "x": "“Never imagining anything would come of it” shows the choir had no expectation of success. The audition for the twenty-four places happened after the invitation, not for the recording."},
+    {"q": "How does Corinne feel about the director’s reason for choosing her?", "o": ["Disappointed that her singing was not praised", "Surprised, because she had sung perfectly", "Satisfied, even though it was not about talent", "Doubtful, since she thinks the director was being kind"], "a": 2, "t": "attitude", "ev": "which I’ll happily take", "x": "She was chosen for reliability rather than skill and says she will “happily take” it, so she is pleased. Her voice cracked at the audition, so she did not sing perfectly."},
+    {"q": "Why might Isabel hesitate to help?", "o": ["She will be attending a conference that week.", "She has said she is not especially fond of cats.", "She is still busy unpacking at her new office.", "She is not comfortable giving pets medication."], "a": 1, "t": "inference", "ev": "cats aren’t really your thing", "x": "Corinne recalls Isabel saying cats “aren’t really” her thing, which is why she offers her a way to say no. It is Mateo who has the conference, and the unpacking was only a friendly greeting."},
+    {"q": "Why does Corinne prefer not to use a boarding facility?", "o": ["Her vet has said it is unsafe for cats taking pills.", "It would cost more than paying Isabel for her time.", "Her neighbour warned her against the place nearby.", "Her cat reacted badly the last time she stayed in one."], "a": 3, "t": "detail", "ev": "the last time she stopped eating for two days", "x": "Pepper stopped eating for two days during her last stay, which worried the vet. The vet’s reaction was to that event; there is no general warning about pills or boarding."},
+    {"q": "What is the purpose of the send-off concert?", "o": ["To choose the singers for the finals", "To raise money for the choir’s transportation", "To thank St. Brendan’s for rehearsal space", "To celebrate the choir’s return from Quebec"], "a": 1, "t": "detail", "ev": "It’s a fundraiser to cover our bus", "x": "The concert raises money for the bus, which is transportation. The singers were already chosen by audition, and the concert is on the twentieth, before the trip, not after it."}
+   ],
+   "reply": {
+    "intro": "Here is Isabel’s response to Corinne. Complete the response by choosing the best option for each blank.",
+    "text": "Hi Corinne,\n\nCongratulations! I’m thrilled for you, and frankly, a director who values {1} is a director worth singing for. Of course I’ll help. You’re right that I’m not a natural cat person, but Pepper and I came to an understanding the last time I visited, so I’m sure we’ll manage. Just leave me clear instructions about {2}, because I don’t want to spend the week fishing things out from behind your sofa.\n\nI can come by every morning before work and again in the evening. Since I’ll be there anyway, bringing in the mail is no problem, and I’ll do my best to keep {3} alive, although I make no promises. Please don’t even think about paying me. If you insist on doing something, I’d much rather have {4}, since it sounds like the choir could use the support and I haven’t heard you sing since university.\n\nOne question: should I start on the evening of {5}, or will you feed her before you leave that day?\n\nIsabel",
+    "blanks": [
+     {"o": ["perfect pitch above all", "people who simply show up and work", "quick sight-reading", "confident auditions"], "a": 1, "t": "paraphrase", "ev": "she picked me for my reliability at rehearsals rather than my sight-reading", "x": "The director chose Corinne for her reliability at rehearsals, that is, for showing up and working. She specifically did not choose her for sight-reading, and the audition went badly."},
+     {"o": ["cleaning the litter box", "her water bowl", "hiding her medication", "the boarding place"], "a": 2, "t": "coherence", "ev": "The only tricky part is her thyroid pill, which has to be hidden in a treat, or she’ll spit it out behind the sofa.", "x": "The pill must be hidden in a treat or Pepper spits it behind the sofa, which matches Isabel’s joke. The litter box is a routine task Corinne describes as simple."},
+     {"o": ["your neighbour’s garden", "the plants on your balcony", "the flowers at St. Brendan’s", "Mateo’s houseplants"], "a": 1, "t": "coherence", "ev": "water the tomatoes on the balcony", "x": "Corinne asks her to water the balcony tomatoes, and joked they have survived worse, so “no promises” fits. The neighbour and Mateo are away, but no plants of theirs are mentioned."},
+     {"o": ["a proper dinner out", "a ride to Quebec City", "a seat at your send-off concert", "a recording of the finals"], "a": 2, "t": "inference", "ev": "It’s a fundraiser to cover our bus", "x": "Isabel prefers something that supports the choir and lets her hear Corinne sing, which is the fundraising concert ticket. The dinner is the other offer, but it does not help the choir."},
+     {"o": ["June 20", "June 26", "June 30", "June 21"], "a": 1, "t": "detail", "ev": "We leave on June twenty-sixth and get back on the thirtieth", "x": "Corinne leaves on June 26, so Isabel’s first visit would be that evening. June 20 is the concert date and June 30 is when Corinne returns."}
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Brightwater Community Arts Centre – Winter Term (January 12 – March 22)",
+    "intro": "Members save 15% on class fees. Membership: $30/year individual, $50/year household (all members of one household). Material fees are paid separately and are never discounted.",
+    "table": {
+     "cols": ["Class", "Day & time", "Weeks", "Ages", "Class fee", "Materials"],
+     "rows": [
+      ["Wheel Throwing I", "Mon 6:30–9:00 p.m.", "10", "16+", "$260", "$45 (clay & firing)"],
+      ["Watercolour Basics", "Tue 10:00 a.m.–12:00 p.m.", "8", "16+", "$176", "$30"],
+      ["Teen Comic Art", "Wed 4:00–5:30 p.m.", "10", "12–17", "$150", "Included"],
+      ["Stained Glass Weekend", "Sat & Sun Feb 7–8, 9:00 a.m.–4:00 p.m.", "1 weekend", "18+", "$195", "$60"],
+      ["Family Printmaking", "Sun 1:00–3:00 p.m.", "6", "6+ with an adult", "$120 per pair", "$20 per pair"],
+      ["Life Drawing Drop-in", "Thu 7:00–9:30 p.m.", "–", "18+", "$18 per session ($15 members)", "Bring your own"]
+     ]
+    },
+    "notes": [
+     "The 15% member discount applies to multi-week classes only. Members’ drop-in rate is shown in the table.",
+     "Register by December 15 for an extra $20 off any class fee over $150 (members and non-members).",
+     "Wheel Throwing I: no class on February 16 (Family Day). The missed week is added on March 23.",
+     "Classes with fewer than 6 registrants one week before the start date are cancelled with a full refund.",
+     "Withdrawals: full refund of the class fee until the first class; 50% after the first class; no refund after the third class. Material fees are refunded only if materials have not been handed out."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the arts centre’s classes. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Kenji,\n\nI finally looked at the Brightwater winter schedule. I’m going to take Wheel Throwing I, and since we bought the household membership in October, the class itself will cost me {1}, plus materials. (I missed the December 15 deadline, unfortunately.) Because of the holiday, my last class will actually be on {2}.\n\nFor Hana, I’m thinking of Teen Comic Art, since she’s thirteen and it fits after school. I was also tempted by Family Printmaking for the two of us, but it’s held on {3}, which clashes with her swim practice.\n\nYou mentioned wanting to try life drawing. If you went every week of the term, that’s about ten sessions, so as a member you’d spend {4} in total.\n\nAnd if you’re thinking about the stained glass weekend, remember that participants must be at least {5}, so you couldn’t bring Hana along.\n\nTalk tonight,\nMei",
+    "blanks": [
+     {"o": ["$201.00", "$260.00", "$221.00", "$266.00"], "a": 2, "t": "diagram", "ev": "Members save 15% on class fees.", "x": "$260 minus 15% ($39) = $221. $201 would include the early-registration $20 off, which Mei missed; $266 wrongly adds the $45 materials."},
+     {"o": ["March 16", "March 22", "February 16", "March 23"], "a": 3, "t": "diagram", "ev": "The missed week is added on March 23.", "x": "Family Day cancels the February 16 class, and the missed week is made up on March 23, so that is her last class. March 22 is the official end of term."},
+     {"o": ["Sunday afternoons", "Saturday mornings", "Wednesday afternoons", "Thursday evenings"], "a": 0, "t": "diagram", "ev": "Sun 1:00–3:00 p.m.", "x": "Family Printmaking runs on Sundays from 1:00 to 3:00 p.m. Wednesday afternoon is Teen Comic Art, the class Mei has chosen for Hana."},
+     {"o": ["$127.50", "$150.00", "$153.00", "$180.00"], "a": 1, "t": "diagram", "ev": "$18 per session ($15 members)", "x": "Members pay $15 per drop-in session: 10 × $15 = $150. The 15% discount does not apply to drop-ins, so $127.50 double-counts it; $180 is the non-member rate."},
+     {"o": ["12", "16", "18", "6"], "a": 2, "t": "diagram", "ev": "18+", "x": "The Stained Glass Weekend is for ages 18 and over, so thirteen-year-old Hana cannot attend. Sixteen is the minimum for Wheel Throwing and Watercolour."}
+    ]
+   },
+   "qs": [
+    {"q": "A non-member registers for Watercolour Basics on December 10. How much will she pay in total, including materials?", "o": ["$156", "$176", "$206", "$186"], "a": 3, "t": "diagram", "ev": "Register by December 15 for an extra $20 off any class fee over $150", "x": "The $176 fee is over $150, so early registration gives $20 off: $156, plus $30 materials = $186. $156 forgets the materials, and $206 ignores the early discount."},
+    {"q": "A non-member withdraws from Wheel Throwing I after the second class, after the clay has been handed out. What refund will they receive?", "o": ["$130, with the material fee kept", "$152.50, half of all fees paid", "$260, the full class fee", "Nothing, because the clay was handed out"], "a": 0, "t": "diagram", "ev": "50% after the first class", "x": "After the first class and before the third, half the $260 fee is refunded ($130). The $45 materials are not refunded because the clay was distributed, so $152.50 is wrong."},
+    {"q": "A household of non-members wants Family Printmaking (one adult–child pair) and Teen Comic Art. Should they buy a household membership to save money?", "o": ["Yes – they would save about $40.", "Yes – they would save about $9.50.", "No – it would cost them $9.50 more.", "No – it would cost them $50 more."], "a": 2, "t": "diagram", "ev": "$50/year household", "x": "The discount is 15% of $270 in class fees = $40.50, but the membership costs $50, so they would pay $9.50 more. Materials are never discounted, so they do not change the result."}
+   ]
+  },
+  "p3": {
+   "title": "The Return of the Community Hall Dance",
+   "paras": [
+    "For much of the twentieth century, the Saturday night dance at the local community hall was the centre of social life in rural Canada. Farm families would arrive after the evening chores to dance to a fiddler and a pianist, and the night often ended with a midnight lunch of sandwiches and squares prepared by the hall’s women’s auxiliary. By the 1980s, however, most of these dances had disappeared. Better highways made it easy to drive into town for entertainment, television kept people at home, and many halls, built by volunteers in the 1920s and 1930s, fell into disrepair as the people who had looked after them grew older. In some districts, the hall was sold and turned into a storage shed, or simply left to collapse.",
+    "Over the past fifteen years, though, something unexpected has happened. In provinces from Nova Scotia to Alberta, old halls are filling up again, and many of the dancers are in their twenties and thirties. Organizers say the appeal lies partly in what these events are not: there are no screens, no cover bands playing radio hits, and no expectation that anyone already knows the steps. A caller stands at the front and teaches each dance before the music starts, so a complete beginner can be spinning around the floor within minutes. “People tell me it’s the only place they talk to strangers,” says one organizer in Saskatchewan, whose monthly dance now regularly draws more than a hundred and fifty people, compared with about thirty when she started.",
+    "The revival has brought money back into buildings that badly needed it. Admission is usually modest, often ten or fifteen dollars, but in many halls the dance is now the single largest source of income, paying for new roofs, accessible washrooms and, in some cases, proper heating so that the building can be used year-round. Several halls have applied for heritage status, which can make them eligible for provincial restoration grants. Some organizers also run free afternoon lessons for children, hoping to raise the next generation of dancers. Musicians benefit too. A new generation of young fiddlers and guitarists, many of whom learned at summer music camps, have found a steady circuit of paid work playing for dances, something their own teachers could only have dreamed of twenty years ago.",
+    "Not everyone is entirely comfortable with the change. Some long-time residents feel that the new crowds, many of whom drive in from nearby cities, have turned what was once a neighbourhood gathering into an event for outsiders. Others worry about the strain on a small group of volunteers who must set up, clean and manage parking for crowds several times larger than the hall was built for. A few halls have responded by limiting numbers or requiring advance tickets, while others have started holding a separate, smaller dance just for local families. Most organizers, however, see the newcomers as the reason the halls are still standing, and they point out that the original dances, too, drew people from far beyond the immediate district."
+   ],
+   "qs": [
+    {"q": "People can take part without having learned the dances beforehand.", "a": "B", "t": "paraphrase", "ev": "so a complete beginner can be spinning around the floor within minutes", "x": "Paragraph B: a caller teaches each dance first, so complete beginners can join within minutes."},
+    {"q": "Improvements in road travel contributed to the decline of the dances.", "a": "A", "t": "paraphrase", "ev": "Better highways made it easy to drive into town for entertainment", "x": "Paragraph A: better highways let people drive into town for entertainment instead, one cause of the decline."},
+    {"q": "Income from dances has allowed some halls to stay open in winter.", "a": "C", "t": "inference", "ev": "proper heating so that the building can be used year-round", "x": "Paragraph C: dance income has paid for heating so some halls can be used year-round, including winter."},
+    {"q": "Some halls now offer events aimed mainly at nearby residents.", "a": "D", "t": "paraphrase", "ev": "started holding a separate, smaller dance just for local families", "x": "Paragraph D: some halls hold a separate, smaller dance for local families."},
+    {"q": "Younger dancers attend more regularly than older dancers.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph B says many dancers are in their twenties and thirties, but no paragraph compares how often different age groups attend. Not given."},
+    {"q": "One organizer’s event has grown to about five times its original size.", "a": "B", "t": "inference", "ev": "more than a hundred and fifty people, compared with about thirty when she started", "x": "Paragraph B: from about thirty to over one hundred and fifty people, roughly five times larger."},
+    {"q": "Most halls that applied for heritage status have received provincial money.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph C says heritage status can make halls eligible for grants, but it never says how many applied successfully or received money. Not given."},
+    {"q": "Organizers argue that attracting dancers from elsewhere is nothing new.", "a": "D", "t": "inference", "ev": "the original dances, too, drew people from far beyond the immediate district", "x": "Paragraph D: organizers note that the original dances also drew people from far away, so outsiders are not new."},
+    {"q": "Today’s young musicians have more chances to be paid than their teachers once did.", "a": "C", "t": "inference", "ev": "something their own teachers could only have dreamed of twenty years ago", "x": "Paragraph C: steady paid work at dances was something their teachers could only dream of, so opportunities have increased."}
+   ]
+  },
+  "p4": {
+   "title": "Mandatory Volunteer Bonds Are Driving Families Out of Youth Sport",
+   "byline": "Opinion | by Graham Oduya, parent and former minor hockey board member",
+   "text": "Every September, along with the registration fee and the equipment list, parents in our city’s minor hockey association receive a form asking them to write a cheque for three hundred dollars. The cheque will not be cashed, we are told, as long as the family completes twenty hours of volunteer work over the season: running the clock, selling raffle tickets, managing the team’s finances, or standing in a cold parking lot directing traffic at the spring tournament. Fail to log the hours and the cheque is deposited. The association calls it a volunteer commitment. Most parents I know call it what it is: a fee with extra steps.\n\nI understand why these bonds exist. I spent six years on the association’s board, and I know how hard it is to find people willing to do the unglamorous work. Without volunteers, fees would be far higher, because paying staff to do everything a volunteer does would add hundreds of dollars per player. When the bond was introduced eight years ago, the share of families who volunteered at all rose from roughly forty percent to almost ninety. On paper, it was a triumph.\n\nBut look more closely, and the picture is less flattering. The families who struggle to meet the requirement are not, for the most part, the ones who don’t care. They are single parents working weekend shifts, families without a car who can’t get to an early-morning tournament across the city, and newcomers who would gladly help but don’t yet feel confident enough in English to handle the scoring system or a phone call with a referee. For a family already stretching to pay registration, a three-hundred-dollar penalty is not an incentive. It is a reason not to sign up next year.\n\nMeanwhile, the families with the most flexible schedules collect their hours easily, often far more than twenty. Some even pass their surplus hours to friends, which the rules technically forbid but nobody enforces. The result is a system that looks fair because everyone faces the same rule, but that falls hardest on exactly the families community sport is supposed to welcome.\n\nThere is also a quieter cost. Volunteering that is compelled is rarely volunteering done well. Anyone who has watched a resentful parent run a game clock while scrolling through their phone knows what I mean. The best volunteers I worked with never needed a cheque to motivate them. They came because someone asked them personally, explained why the job mattered, and thanked them afterwards.\n\nSo what would I do instead? First, keep the expectation but drop the penalty. Associations can make volunteering a clear norm without threatening families’ budgets. Second, offer a genuine range of roles, including ones that can be done from home, such as updating the website or organizing carpools, so that shift workers and parents without cars can contribute. Third, allow families who truly cannot volunteer to opt out by paying a modest, clearly labelled fee, perhaps a hundred dollars, without anyone pretending it is something else. And finally, recruit the old-fashioned way: by asking people directly.\n\nNone of this is as tidy as a single rule. But community sport survives on goodwill, and goodwill does not respond well to being held hostage. Our association’s registration numbers have fallen for three straight seasons. It is time to ask whether the bond is part of the reason.",
+   "qs": [
+    {"q": "What does the writer mean when he calls the bond “a fee with extra steps”?", "o": ["Volunteering involves too many separate tasks.", "The bond is really a payment under another name.", "Registration has become more complicated each year.", "Parents must pay several times during the season."], "a": 1, "t": "vocab", "ev": "The association calls it a volunteer commitment.", "x": "He contrasts the association’s label with what parents really experience: a charge disguised as a commitment. The many tasks are listed only as examples of the volunteer work."},
+    {"q": "Why does the writer mention his six years on the board?", "o": ["To show he understands why the policy was created", "To prove he completed more hours than most parents", "To explain why he left the association", "To criticize the board members who replaced him"], "a": 0, "t": "purpose", "ev": "I understand why these bonds exist.", "x": "His board experience shows he knows how hard it is to recruit volunteers, so he understands the bond’s purpose. He never mentions his own hours or why he left."},
+    {"q": "According to the writer, what happened after the bond was introduced?", "o": ["Registration began to fall almost immediately.", "Fees dropped by several hundred dollars per player.", "Far more families took part in volunteering.", "Most families paid the bond instead of volunteering."], "a": 2, "t": "detail", "ev": "rose from roughly forty percent to almost ninety", "x": "Participation in volunteering more than doubled, from about forty to ninety percent. The fall in registration is recent (three seasons), while the bond started eight years ago."},
+    {"q": "What does the writer suggest about families who fail to complete their hours?", "o": ["They are usually unwilling to help with team tasks.", "They often sell their hours to other families.", "They should be excused from paying registration.", "Their circumstances, not their attitude, usually explain it."], "a": 3, "t": "inference", "ev": "are not, for the most part, the ones who don’t care", "x": "He says these families mostly do care but face shift work, no car or language barriers. It is families with surplus hours who pass them on, not those who fall short."},
+    {"q": "Which of the following does the writer propose?", "o": ["Raising the bond so more parents take it seriously", "Letting families pay a smaller, honest charge instead", "Paying staff to replace volunteers at tournaments", "Removing every expectation that parents volunteer"], "a": 1, "t": "detail", "ev": "opt out by paying a modest, clearly labelled fee", "x": "He suggests an opt-out fee of about $100 that is honestly labelled. He wants to keep the expectation of volunteering, so removing all expectations is wrong, and he warns that paid staff would raise fees."}
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I coach in the same association, and I agree with Mr. Oduya more than I expected to. He is right that the families who {1} are usually juggling shifts or transportation, not avoiding responsibility. And his idea of offering roles that {2} is long overdue; half our team managers could do their paperwork from a kitchen table.\n\nWhere I part ways with him is on dropping the penalty entirely. Before the bond, I watched the same dozen parents do everything, season after season, until they {3}. The jump he describes did not happen by accident, and asking people personally had not achieved it in the years before.\n\nI also doubt his opt-out fee would work at {4}. If skipping twenty hours costs only that much, plenty of families who could easily volunteer would simply pay. Maybe the answer is a sliding scale, with the penalty waived for any family that already receives {5}. That way, we protect the families he worries about without losing the volunteers we need.",
+    "blanks": [
+     {"o": ["log extra hours", "fall short of their hours", "pass hours to friends", "serve on the board"], "a": 1, "t": "coherence", "ev": "The families who struggle to meet the requirement are not, for the most part, the ones who don’t care.", "x": "The commenter repeats the writer’s point about families who struggle to meet the requirement. Families who log extra hours are the flexible ones the article contrasts with them."},
+     {"o": ["involve dealing with referees", "come with a small wage", "can be done remotely", "require a vehicle"], "a": 2, "t": "paraphrase", "ev": "including ones that can be done from home", "x": "The writer proposes roles that can be done from home, and the commenter mentions paperwork at a kitchen table. Roles needing a car are exactly what the writer wants alternatives to."},
+     {"o": ["burned out and stepped away", "passed their hours to friends", "joined the board themselves", "paid the bond instead"], "a": 0, "t": "inference", "ev": "I watched the same dozen parents do everything, season after season", "x": "A small group doing everything for years would eventually become exhausted and quit, which is why the commenter values the bond. The bond did not yet exist, so they could not have paid it."},
+     {"o": ["three hundred dollars", "the tournament", "the amount he suggests", "the board level"], "a": 2, "t": "detail", "ev": "perhaps a hundred dollars", "x": "The commenter thinks the writer’s suggested opt-out fee of about $100 is too low, so families would pay it rather than volunteer. $300 is the current bond, not the proposed fee."},
+     {"o": ["volunteer awards", "registration fee assistance", "surplus hours from others", "English lessons"], "a": 1, "t": "inference", "ev": "For a family already stretching to pay registration", "x": "Waiving the penalty for families already receiving help with registration targets the low-income families the writer worries about. Surplus hours are an unfair practice the writer criticizes."}
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "For the past two years, you have attended a weekly drop-in pickleball session at your local community centre. Last month, the centre moved the session from weekday evenings to 1:00 p.m., and many regular players can no longer attend.",
+   "bullets": [
+    "Explain who used the evening session and how the change has affected them",
+    "Describe a problem the change has caused",
+    "Suggest a solution that could work for the centre and the players"
+   ],
+   "model": "Dear Ms. Gallant,\n\nI am writing on behalf of the regular players at the drop-in pickleball session at Elmwood Community Centre. Until last month, the session ran on Tuesday and Thursday evenings and usually attracted around twenty-five players, from university students to recent retirees. Since it moved to 1:00 p.m., attendance has dropped to fewer than eight, because most of us work during the day.\n\nThe change has also created an unexpected safety problem. Several former players now use the outdoor courts at Ridgeway Park after work, but those courts have no lights, so in November people are playing in near darkness. Last week, one of our members tripped over a loose net and sprained her wrist.\n\nI understand the gym may now be needed for other evening programs. However, would it be possible to restore at least one evening session, perhaps on Thursdays, while keeping the afternoon slot for those who prefer it? Our group would gladly set up and take down the nets ourselves to save staff time.\n\nThank you for considering this request.\n\nSincerely,\nVictor Almeida"
+  },
+  "t2": {
+   "intro": "Your town has received a one-time grant for arts and recreation and is asking residents how it should be spent. It can fund only one of the following projects.",
+   "question": "Which option do you prefer?",
+   "a": "A free outdoor summer concert series in the town park: ten Friday-evening concerts featuring local and touring musicians, with food trucks and activities for children.",
+   "b": "Free year-round arts classes for young people aged 10–17 at the community centre, including music, drama and visual arts, taught by professional artists.",
+   "model": "I would choose Option B, the free year-round arts classes for young people, because they would have a deeper and longer-lasting impact on our town.\n\nA concert series would certainly be enjoyable, but it would last only ten evenings, and most people would attend as spectators. Classes, on the other hand, would give teenagers something constructive to do every week, all year. Learning an instrument or rehearsing a play builds discipline, confidence and friendships, and for some young people it could even lead to a career. Many families here simply cannot afford private lessons, which often cost forty or fifty dollars an hour, so free classes would open doors that are currently closed.\n\nI also think the classes would benefit the whole community in the end. Students could perform at the end of each term, so residents would still get free shows, just on a smaller scale. In contrast, summer concerts depend heavily on good weather, and a few rainy Fridays could waste a significant part of the grant.\n\nFor these reasons, I believe investing in young people’s creativity is the wiser use of this one-time money."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your neighbour wants to start a book club in your apartment building, but she is worried that nobody will join or that the club will fizzle out after a few months. Give your neighbour some advice.",
+   "model": "Honestly, I think it’s a great idea, and I’d probably join myself! But you’re right that a lot of book clubs start strong and then quietly disappear, so here’s what I’d do. First, don’t just put a notice on the bulletin board and hope for the best. Talk to people in person, in the elevator or the laundry room, because people are much more likely to come if someone has actually invited them. Second, keep the first meeting really low-pressure. Maybe pick a short, popular novel, or even make the first session a “bring a book you loved” evening, so nobody feels they’ve failed if they haven’t finished something. Third, set a regular schedule, like the first Tuesday of every month, and stick to it. When the date keeps changing, people drift away. I’d also keep the group fairly small, maybe eight to ten people, so everyone gets a chance to talk. Another tip is to rotate who chooses the book, so members feel some ownership. And finally, make it social. Snacks, tea, maybe a potluck once a season. People come back for the company as much as for the books. If only four people show up at first, that’s fine. Small groups often last the longest."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you attended a celebration or festival from a culture different from your own. What happened, and what did you learn?",
+   "model": "A few years ago, a co-worker of mine invited me to celebrate Diwali with her family. I didn’t really know what to expect, except that it was called the festival of lights. When I arrived, the whole house was decorated with little clay lamps and strings of lights, and there were beautiful coloured patterns made of powder on the floor near the door. Her mother had cooked an incredible amount of food, and she kept refilling my plate, even after I said I was full, which everyone found very funny. Later, we went outside to watch fireworks with the neighbours. What really struck me was how much the celebration was about family and generosity. People were dropping by all evening with boxes of sweets to share. I learned that hospitality can look a little different in every culture, but the feeling behind it is exactly the same."
+  },
+  "t3": {
+   "scene": {
+    "bg": "street",
+    "alt": "A busy summer street festival on a closed city street. An orange banner across the top reads SUMMER STREET FEST. On the left, under a red-striped stall labelled FACE PAINT, a woman with a paintbrush is painting the face of a small girl who is sitting on a chair. In the middle, a man in a green shirt is taking a photo with a camera. On the right, under a green stall labelled SAMOSAS, a vendor in a white apron holds a tray of food. A boy in a yellow shirt holds red balloons, and a woman in a blue dress walks a small brown dog. A volunteer carries a box. There is a cone and a streetlamp.",
+    "items": [
+     ["banner", 150, 30, 340, "SUMMER STREET FEST", "#e67e22"],
+     ["streetlamp", 610, 300],
+     ["stall", 30, 300, 140, "FACE PAINT", "#c0392b"],
+     ["chair", 120, 340, "#2980b9"],
+     ["person", 140, 330, {"kid": true, "shirt": "#f1c40f", "dress": true, "hairStyle": "long", "pose": "sit"}],
+     ["person", 95, 345, {"shirt": "#8e44ad", "hairStyle": "bun", "hold": "paint", "skin": "#c68642"}],
+     ["person", 270, 360, {"shirt": "#27ae60", "hold": "camera", "hair": "#2c3e50"}],
+     ["stall", 430, 300, 150, "SAMOSAS", "#27ae60"],
+     ["person", 505, 330, {"shirt": "#ffffff", "hold": "tray", "skin": "#8d5524", "hair": "#111111", "hat": "#ffffff"}],
+     ["person", 360, 385, {"kid": true, "shirt": "#f39c12", "hold": "balloon", "holdColor": "#e74c3c", "pose": "walk"}],
+     ["person", 420, 390, {"shirt": "#2e86c1", "dress": true, "hairStyle": "long", "hold": "leash", "pose": "walk", "flip": true}],
+     ["dog", 380, 392, "#a0522d", true],
+     ["person", 210, 390, {"shirt": "#e67e22", "hold": "box", "pose": "walk"}],
+     ["cone", 590, 360]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a lively street festival on what looks like a bright summer day. The street has been closed to traffic, and there’s a big orange banner stretched across the top that says “Summer Street Fest.” On the left-hand side, there’s a booth with a red-and-white striped awning and a sign that says “Face Paint.” A woman in a purple top, with her hair in a bun, is holding a paintbrush and painting the face of a little girl, who’s sitting very still on a blue chair. Just to the right of them, a man in a green shirt is holding up a camera, probably taking photos of the festival. On the right-hand side, there’s a food stall with a green awning selling samosas, and a vendor in a white apron and white hat is holding a tray of food, maybe offering samples. In the foreground, a little boy in an orange shirt is walking along holding some red balloons, and a woman in a blue dress is walking a small brown dog on a leash. There’s also a volunteer in an orange T-shirt carrying a cardboard box, and on the far right, there’s a traffic cone and a streetlamp. Overall, it’s a cheerful, busy community scene."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things are likely to happen in the next few minutes. First of all, the little dog seems very interested in the samosa stall, so I wouldn’t be surprised if it starts pulling on its leash toward the food. The vendor might even give it a little piece, or the owner will have to apologize and tug it away. Second, the boy with the balloons is walking right toward the volunteer carrying the big box. Since the volunteer probably can’t see over the box very well, they might bump into each other, and the boy could let go of his balloons by accident. If that happens, he’ll probably start crying, and maybe the face painter will cheer him up by offering to paint his face for free. Third, the little girl’s face painting looks almost finished, so she’ll probably jump off the chair and run to look in a mirror, and then her parents will take her to get something to eat. Finally, the man with the camera will probably keep taking pictures, maybe for the local newspaper or the festival’s website, and he might ask the vendor to pose with his tray of samosas."
+  },
+  "t5": {
+   "intro": "Your extended family wants to spend a Saturday together this summer and has found two options. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "Riverside Jazz Festival day pass", "details": ["$35 per adult, children under 12 free", "Outdoor stages, 11 a.m. to 11 p.m.", "Food trucks and craft vendors", "Shaded lawn areas, bring your own chairs", "Free shuttle from downtown"]},
+    {"title": "Pioneer heritage village", "details": ["$22 per adult, $10 per child", "Costumed interpreters and working blacksmith", "Wagon rides and butter-making for kids", "Indoor and outdoor exhibits", "45-minute drive, free parking"]}
+   ],
+   "other": {"title": "Indoor escape rooms and arcade", "details": ["$40 per person for one escape room", "Groups of up to 6 per room", "Arcade tokens extra", "Air-conditioned", "Pizza buffet available for $15 each"]},
+   "otherWho": "Your brother prefers",
+   "persuade": "Your brother prefers the indoor escape rooms and arcade. Persuade him that your choice is better.",
+   "model": "I get why the escape rooms appeal to you. They’re air-conditioned, and they’re fun for a couple of hours. But I really think the heritage village is the better choice for a whole-family day. First, think about the cost. The escape room is forty dollars per person, and that’s before arcade tokens and the fifteen-dollar pizza buffet. For our group of twelve, we’d easily spend seven or eight hundred dollars. At the heritage village, adults pay twenty-two and kids pay ten, so we’d spend less than half of that. Second, the escape rooms only hold six people each, so we’d be split into separate groups and wouldn’t even see each other for most of the time. At the village, we can all stay together, and Grandma can sit in the shade while the kids do the wagon rides and butter-making. And it’s not only an outdoor thing, because there are indoor exhibits too, so if it gets really hot or rains, we’ll still have plenty to do. Finally, it’s something we can’t do every weekend. The kids will actually learn something about how people lived here a hundred and fifty years ago, and they’ll remember it far longer than an hour in a locked room. So let’s go for the village!"
+  },
+  "t6": {
+   "situation": "You play clarinet in a community concert band. The conductor has asked you to play the solo at the spring concert, a part that your friend Lena has played for the past three years. Lena heard about it and is clearly hurt, and the conductor wants your answer by tomorrow.",
+   "options": [
+    "Talk to the conductor and suggest that Lena keep the solo this year.",
+    "Talk to Lena and explain why you have decided to accept the solo."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hi Lena, have you got a few minutes before rehearsal? I wanted to talk to you myself, because I know you heard about the solo, and I didn’t want you to hear anything more second-hand. First of all, I really value our friendship, and I know how much that solo has meant to you. You’ve played it beautifully for three years, and honestly, you’re the reason I started taking clarinet seriously in the first place. When Daniel asked me, my first reaction was to say no. But after thinking it over, I’ve decided to accept, and I want to explain why. He told me he wants to give different players a chance to develop, and that next year he’s planning to rotate the solos, so you’ll almost certainly have one in the fall concert. I also think, and I hope this doesn’t sound strange, that I need you to help me. You know that piece better than anyone. Would you be willing to listen to me practise once or twice and give me some honest feedback? And if you’d rather not, I completely understand. I just didn’t want this to come between us. Could we grab a coffee after rehearsal on Thursday and talk properly?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should museums and art galleries be free for everyone? Explain your reasons.",
+   "model": "In my opinion, public museums and galleries should be free for everyone, or at least for the permanent collections. The main reason is fairness. Most of these institutions are already funded by taxpayers, and the art and history they hold belong, in a sense, to all of us. When a family of four has to pay eighty dollars to get in, many people simply never go, so the collections end up serving mostly tourists and people who are already well off. Second, free admission changes how people use a museum. If it costs nothing, you can drop in for twenty minutes during your lunch break and look at a single painting, instead of feeling that you have to spend the whole day there to get your money’s worth. That kind of casual, repeated visit is how people actually develop a love for art and history. Some people argue that museums would lose too much revenue. That’s a fair concern, but museums can still charge for special exhibitions, run cafés and gift shops, and ask for voluntary donations, which often bring in more than people expect. So overall, I believe the benefits of free access for the whole community clearly outweigh the financial costs."
+  },
+  "t8": {
+   "scene": {
+    "bg": "lake",
+    "alt": "A lake surrounded by grass and mountains on a sunny day. In the middle of the water floats an enormous white rubber duck with a green head and an orange beak, many times larger than the canoe and sailboat beside it. A small red canoe and a sailboat look tiny next to it. On the shore on the left, a man in a red shirt points at the giant duck, and a woman in a yellow shirt takes a photo with her camera. A child holds balloons. A real small duck swims near the shore, and a sign says LAKE FEST.",
+    "items": [
+     ["sun", 560, 60],
+     ["cloud", 120, 60, 1],
+     ["big", "duck", 380, 270, 6],
+     ["canoe", 230, 320, "#c0392b"],
+     ["boat", 560, 320, "#2980b9"],
+     ["duck", 180, 345],
+     ["person", 60, 380, {"shirt": "#c0392b", "pose": "point"}],
+     ["person", 105, 385, {"shirt": "#f1c40f", "hold": "camera", "hairStyle": "long", "skin": "#c68642"}],
+     ["person", 30, 390, {"kid": true, "shirt": "#2ecc71", "hold": "balloon", "holdColor": "#e74c3c"}],
+     ["sign", 140, 260, "LAKE FEST", "#ffffff"],
+     ["tree", 600, 230, 0.7]
+    ]
+   },
+   "prompt": "Your town is looking for a special attraction for next summer’s lake festival, and a rental company has sent this photo. Call the festival chair, describe the attraction to her, and explain whether you think the town should rent it. The chair cannot see the picture.",
+   "model": "Hi Margaret, it’s me. I’ve just been sent a photo of one of the attractions we could rent for Lake Fest, and you have to hear about this. Picture our lake on a sunny day, and floating right in the middle of it is a gigantic rubber duck, exactly like a bath toy, but the size of a small building. It’s white, with a dark green head and a bright orange beak, and it’s so huge that a canoe paddling past looks like a toothpick next to it. There’s a sailboat on the other side, and the duck is easily three or four times taller than the mast. In the photo, there are people on the shore pointing at it and taking pictures, and a little kid with balloons who looks absolutely amazed. Honestly, I think we should rent it. It would be the perfect thing for social media. Everyone would want a selfie with it, and it could attract visitors from all over the region, which would really help the food vendors. My only concerns are wind and safety. Something that big would need to be anchored very securely, and we’d have to keep boats away from it. But if the company handles that, I’d say let’s go for it."
+  }
+ }
+}

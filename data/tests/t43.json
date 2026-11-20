@@ -1,0 +1,443 @@
+{
+"id": "t43",
+"title": "Test 43",
+"L": { "parts": [
+{
+"n": 1,
+"context": "Two volunteers at a community theatre are dealing with a problem involving the theatre’s online box office.",
+"sp": { "A": {"name":"Odette","g":"f","acc":"en-CA","rate":1.02}, "B": {"name":"Kwame","g":"m","acc":"en-GB","rate":0.97} },
+"sections": [
+{
+"lines": [
+["A","Kwame, have you looked at the box office inbox today? There’s an email from Stagepass, the company that runs our online ticketing."],
+["B","The one about changes to our account? I skimmed it on the bus. I assumed they were raising their fees again."],
+["A","So did I, until I read the second paragraph. They’re not raising anything. They’re shutting down completely, and the last day the platform will work is September thirtieth."],
+["B","You can’t be serious. Our fall production opens on October seventeenth, and we’ve already sold, what, close to three hundred seats?"],
+["A","Three hundred and twelve, as of this morning. And here’s the part that really bothers me. On the closing date, they’ll automatically refund every ticket for any performance that hasn’t happened yet."],
+["B","So everyone gets their money back, and unless they buy again somewhere else, we open to an empty house."],
+["A","Pretty much. And honestly, a lot of people won’t bother buying twice. Some of our older patrons needed their grandchildren’s help to buy online the first time."],
+["B","Can we at least download the list of buyers before it disappears? If we have names and email addresses, we can reach people ourselves."],
+["A","The email says we can export our data until the twenty-fifth. After that, the account is locked for good. I downloaded everything this morning, just to be safe."],
+["B","Good thinking. Have you told Marguerite?"],
+["A","I called her at lunch. She said it’s our decision, since we run the box office, but she doesn’t want us signing anything that ties the theatre in for more than a year, at least not until the board meets in January."],
+["B","After the way this one ended, I can’t say I blame her."]
+],
+"qs": [
+{"q":"What has the ticketing company announced?","o":["It will begin charging the theatre higher fees.","It will stop operating before the show opens.","It will no longer refund tickets for future shows.","It will move its customers to a partner platform."],"a":1,"t":"paraphrase","ev":"They’re shutting down completely","x":"Stagepass is “shutting down completely” on September 30, before the October 17 opening. Higher fees were only what both volunteers first assumed, and the company will actually refund future tickets, not stop refunds."},
+{"q":"Why is Odette especially worried about the automatic refunds?","o":["The theatre will have to pay the refunds itself.","Patrons will end up being charged twice for exactly the same seat.","The refunds will arrive after the show has opened.","Some buyers may not go to the trouble of purchasing again."],"a":3,"t":"inference","ev":"a lot of people won’t bother buying twice","x":"She fears many people “won’t bother buying twice”, so seats will stay empty. “Twice” refers to buying again after a refund, not to being charged twice, and the refunds happen on September 30, before opening."},
+{"q":"What has Marguerite told them?","o":["They can decide, provided no agreement lasts beyond twelve months.","They must wait for the board meeting in January to choose.","They should ask the full board to approve any new contract.","They need to phone her again before they sign anything."],"a":0,"t":"paraphrase","ev":"she doesn’t want us signing anything that ties the theatre in for more than a year","x":"Marguerite leaves the decision to them but rules out commitments longer than a year. January is only when the limit might be reviewed; she does not tell them to wait for that meeting."}
+]
+},
+{
+"lines": [
+["B","So we need a new way to sell tickets, and fast. What about Hollowtree? The ballet school down the street switched to it last year, and they rave about it."],
+["A","I had a look last night. What they charge the theatre is actually lower than Stagepass, but they add three dollars and fifty cents to every ticket on the buyer’s side, and the minimum contract is two years."],
+["B","Which Marguerite has already ruled out. Okay, what if we went old school? Phone orders and walk-in sales at the lobby window, the way we did it before we went online."],
+["A","I’ve thought about that, but who would answer the phone? Half our volunteers are in rehearsal every evening, and the other half work days. And I’m not keen on keeping a cash box in the lobby again."],
+["B","Fair enough. I’d forgotten about the cash box."],
+["A","There is one more possibility I hadn’t even considered until this morning. The regional arts council runs a shared online box office for its member groups, and it’s free to use."],
+["B","Free? Are we members?"],
+["A","We were. We let the membership lapse two years ago, but rejoining is only a hundred and fifty dollars a year."],
+["B","That’s less than we paid Stagepass in fees in a single month. There must be a catch."],
+["A","The catch is time. They need ten business days to build our seating chart and test the whole system before it goes live."],
+["B","Ten business days from today puts us awfully close to the deadline."],
+["A","Close, but not past it, as long as nothing goes wrong."]
+],
+"qs": [
+{"q":"Why is Hollowtree not a suitable choice?","o":["It charges the theatre more than Stagepass did.","The ballet school had problems with it last year.","Its agreement would last longer than the board allows.","It does not let theatres add a fee for ticket buyers."],"a":2,"t":"inference","ev":"the minimum contract is two years","x":"A two-year minimum breaks Marguerite’s one-year limit. Hollowtree’s charge to the theatre is actually lower than Stagepass, and the ballet school “raves about it” rather than having problems."},
+{"q":"How does Odette feel about selling tickets only by phone and in person?","o":["She doubts they have enough people to run it.","She thinks it is safer than selling online.","She prefers it to joining the arts council.","She believes older patrons would find it confusing."],"a":0,"t":"attitude","ev":"who would answer the phone?","x":"Her question “who would answer the phone?” and the busy volunteers show she doubts they can staff it. She calls the cash box a worry, so she does not consider it safer than online sales."},
+{"q":"What is the main risk of using the arts council’s box office?","o":["The yearly membership fee is higher than expected.","The theatre may not be allowed to rejoin the council.","It cannot create a chart for the theatre’s seating.","There is little margin if the setup is delayed."],"a":3,"t":"inference","ev":"Ten business days from today puts us awfully close to the deadline","x":"Setup takes ten business days, which is “awfully close” to the closing date, so any delay is a problem. The fee is described as cheap, and building the seating chart is part of the setup, not impossible."}
+]
+},
+{
+"lines": [
+["A","Then we can’t afford to wait around. If I fill in the membership form this afternoon, could you deal with the box office application?"],
+["B","Actually, it makes more sense the other way round. I’m the one with the treasurer’s login, so I’ll pay the fee and send in both forms today. You know the seating chart better than anyone."],
+["A","Fine by me. I’ll walk their technician through the balcony, since that’s the section Stagepass always got wrong."],
+["B","And the three hundred and twelve buyers? My instinct is to email all of them tonight, so nobody panics when a refund suddenly shows up on their credit card."],
+["A","I’d hold off. If we tell people to rebuy and the new link isn’t working yet, we’ll look disorganized, and they’ll give up on us. Let’s wait until the council confirms the system has passed testing, and then send one clear message with the new link."],
+["B","I suppose I can live with that, although I’d rather people heard it from us first. What about the patrons who don’t use email? About forty people on the export only have a phone number."],
+["A","I’ll call them myself. Most of them are long-time subscribers, and they’d rather hear a familiar voice anyway."],
+["B","Sounds like a plan. I’ll forward you the council’s confirmation the minute it arrives, and I’ll update the website tonight."]
+],
+"qs": [
+{"q":"What will Kwame do today?","o":["Explain the balcony seating section to the council’s technician","Cover the cost of rejoining and send the paperwork","Email the ticket buyers about their refunds","Phone the patrons who have no email address"],"a":1,"t":"detail","ev":"I’ll pay the fee and send in both forms today","x":"Kwame reverses Odette’s first plan and takes both forms and the fee because he has the treasurer’s login. Odette will brief the technician and phone the patrons; emailing tonight was his idea, but it was postponed."},
+{"q":"What is Kwame’s attitude toward delaying the email to buyers?","o":["He thinks waiting will cause patrons to panic.","He insists on contacting all buyers tonight.","He goes along with it despite some reservations.","He believes subscribers should be emailed first."],"a":2,"t":"attitude","ev":"I suppose I can live with that, although I’d rather people heard it from us first","x":"“I suppose I can live with that, although…” signals reluctant agreement. He wanted to email tonight, but he does not insist; panic was his original reason, not his final position."}
+]
+}
+]
+},
+{
+"n": 2,
+"context": "A customer is calling his internet provider about a problem with his home Wi-Fi.",
+"sp": { "A": {"name":"Devika","g":"f","acc":"en-IN","rate":1.03}, "B": {"name":"Graham","g":"m","acc":"en-CA","rate":0.98} },
+"sections": [
+{
+"lines": [
+["A","Thanks for calling Northlink support, this is Devika. I see you’re calling from the number on the Ashworth account. How can I help?"],
+["B","Hi, yes, this is Graham Ashworth. I’m having trouble with my internet, but it’s strange. It works fine in some rooms and terribly in others. I moved my home office down to the basement last month, and since then my video calls keep freezing or dropping altogether."],
+["A","Okay. Let me run a quick test on your modem from here. One moment… Right, you’re on our five hundred megabit plan, and the modem is receiving about four hundred and eighty. So the signal reaching your house is basically what you’re paying for."],
+["B","Then why is it so slow downstairs?"],
+["A","Where is the modem located?"],
+["B","In the living room on the second floor, right next to the dining room. That’s where the cable comes in."],
+["A","That explains a lot. Wi-Fi has a hard time getting through floors, especially concrete ones. The simplest fix would be to plug your computer straight into the modem with a cable."],
+["B","I thought of that, but it would mean running a cable down two floors and through the laundry room. My wife would not be thrilled."],
+["A","It can be done, but it’s usually more hassle than it’s worth. The other option is a mesh extender. It’s a second unit you put halfway, say at the bottom of the stairs, and it passes the signal along. You can buy one for a hundred and sixty dollars or rent it from us for seven dollars a month."],
+["B","Buying sounds better in the long run. Seven a month adds up."],
+["A","It does, although with the rental, if it ever fails, we replace it free. And let me check when your contract ends… you’re in the last eight months of your term."],
+["B","Eight months? Then never mind buying. I’ve been meaning to compare prices when the contract’s up, and if I switch, I don’t want to be stuck with equipment that might not work with another company’s modem. Let’s go with the rental."],
+["A","Done. It ships in two to three business days, and setup takes about ten minutes with the app."],
+["B","Two to three days. I’ve got a big client presentation on Thursday morning."],
+["A","If it hasn’t arrived by then, I’d set up your laptop near the modem for that call, just to be safe."],
+["B","The dining room table it is, then. Thanks, Devika."]
+],
+"qs": [
+{"q":"What problem is Graham having?","o":["His internet stopped working after he moved house.","His video calls fail whenever his wife is online.","His connection is unreliable in one area of his home.","His modem receives less speed than he pays for."],"a":2,"t":"paraphrase","ev":"It works fine in some rooms and terribly in others","x":"The service is good in some rooms but poor in the basement office. He moved his office, not his house, and the test shows the modem gets nearly the full speed he pays for."},
+{"q":"What does the test show?","o":["The connection arriving at the modem is nearly as fast as promised.","The plan Graham has chosen is too slow for video calls.","The modem needs to be replaced with a newer model.","The cable coming into the house is damaged."],"a":0,"t":"inference","ev":"So the signal reaching your house is basically what you’re paying for","x":"480 out of 500 megabits means the service reaching the modem is close to what he pays for, so the problem is inside the house. Nothing suggests the plan, modem or cable is faulty."},
+{"q":"What does Devika imply about running a cable to the basement?","o":["It would not improve his connection speed.","It is the solution she would recommend above all others.","It must be installed by a technician.","It is doable but probably too much trouble."],"a":3,"t":"inference","ev":"it’s usually more hassle than it’s worth","x":"She says it “can be done” but is “more hassle than it’s worth”. She first called a cable the simplest fix, but after hearing about two floors and the laundry room she moves on to the extender."},
+{"q":"Why does Graham decide to rent the extender?","o":["The monthly fee is cheaper than buying it.","He might change providers when his term ends.","Northlink does not sell extenders to customers.","The rental arrives sooner than a purchased unit."],"a":1,"t":"inference","ev":"if I switch, I don’t want to be stuck with equipment","x":"With eight months left, he may switch companies and does not want equipment that might not work elsewhere. He actually thought buying was cheaper “in the long run”; Northlink does sell the unit."},
+{"q":"What will Graham probably do on Thursday if the extender is late?","o":["Pick up the extender from a Northlink store","Give his presentation from the basement office","Ask a technician to install the extender early","Move upstairs temporarily for his client call"],"a":3,"t":"prediction","ev":"The dining room table it is, then.","x":"Devika suggests working near the modem, which is next to the dining room, and Graham agrees. The basement is the problem area, and the extender is shipped and self-installed, not collected."}
+]
+}
+]
+},
+{
+"n": 3,
+"context": "A woman calls a provincial information line about a new digital identity app.",
+"sp": { "A": {"name":"Bastien","g":"m","acc":"en-CA","rate":1.04}, "B": {"name":"Mei-Ling","g":"f","acc":"en-US","rate":0.99} },
+"sections": [
+{
+"lines": [
+["B","Hi, I’m calling about the new digital ID app the province launched. I’d like to set it up for myself and my son, but the website left me with more questions than answers."],
+["A","Happy to help. My name is Bastien. First, just so you know, the app is completely optional and free. Your plastic cards stay valid whether you use it or not."],
+["B","Good to know. My son is seventeen. Can he use it too?"],
+["A","Not yet, I’m afraid. You have to be at least eighteen to register. He can apply on or after his birthday, but there’s no way to pre-register him."],
+["B","His birthday is in March, so that’s not far off. What about me? Which documents do I need? I was planning to use my passport, since it’s the newest."],
+["A","Unfortunately the passport won’t work for setup, because it doesn’t show a home address. You’ll need either your provincial driver’s licence or the provincial photo card. You scan the front and back with your phone."],
+["B","Okay, the licence then. And after that?"],
+["A","Then the app asks you to record a short video selfie, and it compares your face to the photo on the licence. Most people are verified within fifteen minutes. If the system can’t confirm a match, though, you’ll be asked to visit a service centre in person within thirty days. If you don’t, the application is cancelled and you’d have to start over."],
+["B","And once it’s set up, where can I actually use it?"],
+["A","At any provincial service counter, for online government services, and to prove your age at stores and licensed restaurants that display the digital ID sticker. It isn’t accepted for flights or at the border, at least not for now."],
+["B","So could I leave my wallet at home when I drive?"],
+["A","I’d strongly advise against that. The app doesn’t replace your physical licence behind the wheel. You’re still legally required to carry the card when you’re driving."],
+["B","Huh. That’s a bit disappointing. One more thing: my phone is about six years old. Will that be a problem?"],
+["A","Possibly. The app needs an operating system that’s been updated in the last three years. With a six-year-old phone, I wouldn’t count on it, but check the settings first. Sometimes older models can still get the update."],
+["B","And if I lose my phone?"],
+["A","Call this line right away so we can deactivate the ID. When you install it on a new phone, you’ll go through the video selfie step again, but you won’t need to rescan your licence."],
+["B","That seems fair. Thanks, Bastien."]
+],
+"qs": [
+{"q":"Why can the caller’s son not register now?","o":["He does not have a driver’s licence yet.","He has not reached the minimum age.","Pre-registration for youth has already closed.","His birthday falls after the launch period."],"a":1,"t":"detail","ev":"You have to be at least eighteen to register.","x":"He is seventeen and the minimum is eighteen. Pre-registration does not exist at all, so it cannot have “closed”, and nothing is said about him lacking a licence."},
+{"q":"Why can Mei-Ling not use her passport to set up the app?","o":["It is not a document issued by the province.","It is too new to be in the system yet.","It lacks a piece of information the app requires.","It cannot be scanned on both sides."],"a":2,"t":"paraphrase","ev":"it doesn’t show a home address","x":"The passport is refused because it shows no home address. Option A sounds logical but is not the reason given, and “newest” was only her reason for wanting to use it."},
+{"q":"What happens if the automatic check cannot confirm her identity?","o":["She will need to go to an office within a month.","She will have to record a second video selfie right away.","Her application will be cancelled immediately.","She must wait fifteen minutes and try again."],"a":0,"t":"detail","ev":"you’ll be asked to visit a service centre in person within thirty days","x":"A failed match means an in-person visit within thirty days. Cancellation happens only if she does not go, and fifteen minutes is the usual verification time, not a waiting rule."},
+{"q":"What does Bastien say about using the app while driving?","o":["It can be shown to police instead of a licence.","It is accepted once the licence has been scanned.","It will replace the plastic licence next year.","It does not remove the need to carry the card."],"a":3,"t":"paraphrase","ev":"You’re still legally required to carry the card when you’re driving.","x":"Drivers must still carry the physical licence. Scanning the licence is part of setup, but it does not make the app a substitute behind the wheel."},
+{"q":"What is Bastien’s attitude toward the caller’s phone?","o":["He is sure it will not run the app.","He is doubtful but suggests she check.","He recommends she use a tablet instead.","He thinks it only needs a quick restart."],"a":1,"t":"attitude","ev":"I wouldn’t count on it, but check the settings first","x":"“I wouldn’t count on it, but check the settings first” shows doubt, not certainty, since some older models can still update. Tablets and restarting are never mentioned."},
+{"q":"What would Mei-Ling have to do if she lost her phone?","o":["Report it and repeat one verification step on a new device","Rescan her licence when she sets up a replacement phone","Visit a service centre in person to cancel her ID","Apply for a new driver’s licence card right away"],"a":0,"t":"detail","ev":"you’ll go through the video selfie step again, but you won’t need to rescan your licence","x":"She must call to deactivate the ID and redo the video selfie. Rescanning the licence is specifically not needed, and deactivation is done by phone, not at a service centre."}
+]
+}
+]
+},
+{
+"n": 4,
+"context": "You will hear a local news report.",
+"sp": { "A": {"name":"Lucas Ferreira","g":"m","acc":"en-CA","rate":1.02}, "B": {"name":"Teodora Vance","g":"f","acc":"en-GB","rate":0.97} },
+"sections": [
+{
+"lines": [
+["A","In local news tonight, the Millbrook Courier, which has been delivered to doorsteps in this region for one hundred and twelve years, will stop printing most of its editions at the end of February. Starting in March, the paper will publish online only from Monday to Friday, with a single printed edition on Saturdays."],
+["A","The decision follows the announced closure of the regional printing plant in Port Hadley, which has printed the Courier and four other community papers since the nineteen-nineties. The nearest alternative printer is more than three hours away, and the paper says trucking the papers in daily would nearly double its delivery costs. Editor-in-chief Teodora Vance spoke with us this afternoon."],
+["B","Nobody in our newsroom wanted this. I started here as a carrier when I was twelve, so believe me, I feel it. But if we tried to keep printing six days a week, we’d be cutting reporters within a year, and I would rather lose the paper than lose the people who fill it with news."],
+["A","Digital subscriptions will cost nine dollars a month, while the Saturday print edition will rise from two dollars to three. Current print subscribers will receive the digital edition free until their subscription ends. For readers who are not comfortable online, the Millbrook Public Library has agreed to host weekly drop-in sessions, and the Courier is lending ten tablets to the library so readers can browse the paper there."],
+["A","The Courier is also applying to become a registered non-profit news organization, a status that would allow readers who donate to receive a tax receipt. Vance says the paper hopes donations will eventually cover the salary of a full-time reporter dedicated to covering town council and the school board."],
+["B","Those meetings are where decisions about people’s taxes and their kids’ schools are made, and right now there are nights when nobody from the press is in the room. That worries me far more than paper versus screen."],
+["A","The Courier says it will hold a public meeting about the changes on January fifteenth at the Legion hall."]
+],
+"qs": [
+{"q":"What is the main point of the news report?","o":["A regional printing plant is laying off its staff.","A local newspaper is closing after over a century.","A library is starting a new program to teach computer skills.","A community paper is shifting mostly to online publishing."],"a":3,"t":"main","ev":"the paper will publish online only from Monday to Friday, with a single printed edition on Saturdays","x":"The Courier will go online on weekdays and keep one print edition, so it is changing, not closing. The plant closure and library sessions are background details, not the main point."},
+{"q":"Why is the Courier making this change?","o":["Fewer readers are buying the printed paper.","Producing and delivering a daily print edition will become too costly.","The paper wants to reduce its number of reporters.","Four other community papers have already gone online."],"a":1,"t":"paraphrase","ev":"trucking the papers in daily would nearly double its delivery costs","x":"The local plant is closing, and bringing papers from a distant printer would nearly double delivery costs. Cutting reporters is what Vance wants to avoid, and the four other papers were only printed at the same plant."},
+{"q":"How does Teodora Vance feel about the decision?","o":["She is relieved that print is finally ending.","She doubts the online edition will succeed.","She regrets it but sees it as the lesser loss.","She blames the printing plant for the situation."],"a":2,"t":"attitude","ev":"I would rather lose the paper than lose the people who fill it with news","x":"She says nobody wanted this and she “feels it”, yet she would rather lose print than lose staff, so she accepts it as the lesser evil. She shows no relief and does not blame the plant."},
+{"q":"What will current print subscribers receive?","o":["Online access at no extra cost until their plan runs out","A free Saturday paper delivered for one more year","A tablet on loan from the public library","A discount on a nine-dollar digital subscription"],"a":0,"t":"detail","ev":"Current print subscribers will receive the digital edition free until their subscription ends.","x":"Existing subscribers get the digital edition free for the rest of their subscription. The ten tablets are lent to the library for use there, not to individual subscribers."},
+{"q":"What does Vance suggest concerns her most?","o":["Older readers being unable to use tablets","The higher price of the Saturday edition","Local government meetings going unreported","Readers not receiving tax receipts on time"],"a":2,"t":"inference","ev":"there are nights when nobody from the press is in the room","x":"She worries that council and school board meetings happen with no reporter present, which matters to her “far more than paper versus screen”. Tablets and prices are mentioned by the anchor, not presented as her main worry."}
+]
+}
+]
+},
+{
+"n": 5,
+"context": "Three people at a small graphic design studio are discussing which online collaboration tool to use.",
+"sp": { "A": {"name":"Ingrid","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Tariq","g":"m","acc":"en-US","rate":1.03}, "C": {"name":"Fiona","g":"f","acc":"en-AU","rate":0.96} },
+"sections": [
+{
+"lines": [
+["A","Thanks for staying late, both of you. I’ll get right to it. Our project tracking is a mess. Last week we sent the Harbourview brochure to the printer with the old logo, because the final version was sitting in someone’s chat messages and nobody could find it. I want us on one proper collaboration platform by the new year, and I’m leaning toward Corkboard."],
+["B","I saw the demo you forwarded. It looks slick, but it’s fourteen dollars per person per month. For eight of us, that’s over thirteen hundred a year for something that mostly does what our chat app and a free task board already do."],
+["A","Except they don’t do it together, Tariq. That’s the whole problem. Files live in one place, comments in another, and deadlines in a spreadsheet that only I update."],
+["C","Can I raise something before we go too far? Whatever we pick has to meet the terms of the Provincial Parks contract. Their agreement says client files have to be stored on servers located in Canada. I checked, and the standard Corkboard plan stores everything in the United States."],
+["A","Oh. I didn’t know that was in the contract."],
+["C","It’s on page eleven. I only noticed because their IT manager asked me about it on our last call."],
+["B","Well, that settles it, doesn’t it? Stick with what we have."],
+["C","Not necessarily. Our current file-sharing service is American too, as far as I know. So technically we may already be in breach."],
+["B","Seriously? Then we have a problem either way."],
+["C","Exactly. Corkboard does have a Business tier that lets you choose Canadian storage. It’s twenty-two dollars a user, though."],
+["A","Twenty-two. Well, I suppose if that’s what the contract requires, we’ll have to find the money somewhere. It’s not as if we can afford to lose that client."],
+["B","Hang on, let me look at the Business tier page… Okay, this is interesting. It includes a client portal. Clients log in, see the latest proofs, and approve them right there. Do you know how many hours I spend chasing approvals by email? Last month alone I counted about fifteen."],
+["A","So now you’re a fan?"],
+["B","I wouldn’t go that far. But if the portal saves me even half that time, it pays for my licence several times over. I’m still not convinced everyone will actually use it, though. We tried a task board two years ago and it was abandoned within a month."],
+["C","That’s because nobody was shown how to use it. We just got a link and an email that said, ‘Good luck.’"],
+["A","Fair point. So how about this: instead of signing up all eight of us for a year, we run a one-month trial of the Business tier with just two projects, the Parks account and one smaller client."],
+["C","I like that. And we move the Parks files over first, so we’re compliant as soon as possible."],
+["B","If we’re doing a trial, I’ll volunteer to run the training sessions. I’d rather do it properly than watch it fail again."],
+["A","Perfect. And I’ll contact Corkboard about an annual discount, in case we decide to keep it. Let’s review everything at the end of January."]
+],
+"qs": [
+{"q":"What problem does Ingrid describe at the start?","o":["Important material was hard to locate, which led to a mistake.","A printer lost the studio’s files for a client brochure.","A client rejected the new logo the studio designed.","Staff have been missing deadlines in the spreadsheet."],"a":0,"t":"paraphrase","ev":"the final version was sitting in someone’s chat messages and nobody could find it","x":"Nobody could find the final logo, so the brochure went out with the old one. The printer did not lose anything, and the spreadsheet is mentioned later as a symptom, not as missed deadlines."},
+{"q":"What is Tariq’s first objection to Corkboard?","o":["It is too complicated for the staff to learn.","It cannot store client files in Canada.","It largely duplicates tools they have, at a cost.","It does not include any way to chat directly with clients."],"a":2,"t":"detail","ev":"mostly does what our chat app and a free task board already do","x":"He objects to paying over $1,300 a year for features they already have. The Canadian storage issue is raised later by Fiona, and his doubt about staff using it comes at the end."},
+{"q":"Why does Fiona mention page eleven of the contract?","o":["To show that Ingrid had already approved the terms","To point to a rule about where data must be kept","To explain why the client’s IT manager called her","To prove that the client already uses Corkboard"],"a":1,"t":"purpose","ev":"Their agreement says client files have to be stored on servers located in Canada.","x":"She cites page eleven as the location of the Canadian storage requirement. The IT manager’s question is only how she noticed it; Ingrid did not even know the clause existed."},
+{"q":"What does Fiona suggest about the studio’s current file-sharing service?","o":["It is cheaper than any of Corkboard’s plans.","It has already caused problems with clients.","It should be cancelled before the trial starts.","It may not meet the contract’s terms either."],"a":3,"t":"inference","ev":"So technically we may already be in breach.","x":"Because their current service is American too, they may already be breaking the contract, so keeping it does not solve anything. Tariq had assumed staying put was safe."},
+{"q":"How does Ingrid react to the price of the Business tier?","o":["She refuses to pay more than the standard rate.","She thinks it is a good deal for the features.","She asks Fiona to negotiate a lower price.","She accepts it reluctantly because of the client."],"a":3,"t":"attitude","ev":"I suppose if that’s what the contract requires, we’ll have to find the money somewhere","x":"“I suppose… we’ll have to find the money somewhere” shows unwilling acceptance driven by the contract. She later plans to ask for an annual discount herself; Fiona is not asked to negotiate."},
+{"q":"What changes Tariq’s opinion of Corkboard?","o":["Learning that it can store files in Canada","A feature that could save him a lot of time","Ingrid’s promise to find a cheaper plan","Fiona’s warning about the client contract"],"a":1,"t":"inference","ev":"Do you know how many hours I spend chasing approvals by email?","x":"The client approval portal could cut the many hours he spends chasing approvals. The Canadian storage and contract warning made him see a problem “either way”, but they did not make him favour Corkboard."},
+{"q":"Why did the earlier task board fail, according to Fiona?","o":["Staff never received proper instruction.","It was too expensive to keep for long.","Tariq refused to use it with clients.","Its sign-up link stopped working after a month."],"a":0,"t":"detail","ev":"nobody was shown how to use it","x":"Fiona says people only received a link and “Good luck”, with no training. “A month” is how quickly it was abandoned, not when a link stopped working."},
+{"q":"What do they decide to do?","o":["Sign all eight staff up for a full year","Wait until January before choosing a tool","Test the platform on a limited basis first","Use the standard plan for smaller clients"],"a":2,"t":"main","ev":"we run a one-month trial of the Business tier with just two projects","x":"They agree on a one-month trial with two projects. Signing everyone up for a year is the option Ingrid explicitly replaces, and January is when they will review the trial, not start choosing."}
+]
+}
+]
+},
+{
+"n": 6,
+"context": "You will hear a reporter presenting different views on a proposed law about social media.",
+"sp": { "A": {"name":"Anika Rowe","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Jonah","g":"m","acc":"en-US","rate":1.05} },
+"sections": [
+{
+"lines": [
+["A","This week, the provincial government introduced a bill that would require social media platforms to verify that every user in the province is at least sixteen years old. Platforms that fail to do so could face fines of up to two percent of their Canadian revenue. Supporters say it’s overdue, pointing to similar rules being discussed in several other countries. Critics say it could create bigger problems than it solves."],
+["A","Dr. Priyanka Sood, a child psychologist, says she sees the effects of constant scrolling in her clinic every week, from disrupted sleep to anxiety about appearance. She is careful to point out, though, that she doesn’t believe social media causes these problems on its own. Her argument is about timing. Young teens, she says, are at a stage where they are especially sensitive to comparison, and delaying access by even two or three years gives them a chance to build other sources of confidence first. She compares it to learning to drive: we don’t hand teenagers the car keys simply because the car happens to be available."],
+["A","Not everyone is convinced the bill will work as intended. Marcus Oyelowo, a lawyer who specializes in privacy, notes that the only way to verify age reliably is to collect something like a government ID or a face scan, and that would apply to adults as well as teens. In his words, the province would be asking millions of people to hand sensitive documents to the very companies it says it doesn’t trust. He would prefer that the age check be done once, by a government service, which would then simply confirm yes or no to the platform."],
+["A","Then there’s the question of whether teens will simply find a way around it. I spoke to Jonah, a grade eleven student, who had a more mixed view than I expected."],
+["B","Honestly, most kids I know would just borrow an older sibling’s account, or use one of those apps that hides where you’re connecting from. So I don’t think it would keep people off. But I’ll admit, if my little sister couldn’t sign up until she was sixteen, I wouldn’t complain. Grade seven was rough for her online."],
+["A","Parents I spoke to were divided too. Several said a law would make it easier to say no, because they could point to the rules instead of being the bad guy. Others worried it would push younger kids toward smaller, less regulated apps where there’s even less supervision and where reporting harassment is much harder."],
+["A","The bill will be debated in committee next month, and the committee is expected to hear from teachers, platform representatives and youth groups. The government has said it is open to amendments, including the idea of a single government-run age check."]
+],
+"qs": [
+{"q":"What would the proposed law require?","o":["Parents must approve accounts for users under sixteen.","Platforms must pay two percent of revenue to the province.","Companies must confirm that their users are old enough.","Teens must show government ID at school to go online."],"a":2,"t":"paraphrase","ev":"require social media platforms to verify that every user in the province is at least sixteen years old","x":"Platforms would have to check that users are at least sixteen. Two percent is the maximum fine for failing, not a payment every platform makes."},
+{"q":"What is Dr. Sood’s main argument?","o":["Social media is the main cause of teen anxiety.","Teens should not be allowed phones at night.","Parents should monitor all of their children’s accounts.","Postponing access helps teens during a sensitive period."],"a":3,"t":"viewpoint","ev":"Her argument is about timing.","x":"She argues that delaying access protects young teens while they are most sensitive to comparison. She explicitly says social media does not cause the problems on its own, so option A is wrong."},
+{"q":"What is Marcus Oyelowo’s concern about the bill?","o":["Adults would have to give personal documents to tech firms.","Teens would find it too easy to create fake ID.","The government would gain access to users’ messages.","Age checks done by a public agency would be too slow."],"a":0,"t":"viewpoint","ev":"would apply to adults as well as teens","x":"Verification would force adults too to hand sensitive documents to platforms. A government age check is his preferred solution, not his concern, and fake ID is never mentioned."},
+{"q":"What does Oyelowo suggest instead?","o":["Letting parents decide when children may join","Having a public agency confirm age without sharing details","Requiring face scans only for users under sixteen","Lowering the minimum age from sixteen to thirteen"],"a":1,"t":"detail","ev":"which would then simply confirm yes or no to the platform","x":"He wants a government service to check age once and only tell the platform yes or no. Face scans are one of the methods he criticizes, not his solution."},
+{"q":"What is Jonah’s attitude toward the law?","o":["He is skeptical it would work but sees some value in it.","He supports it strongly, mainly because of his younger sister.","He opposes it because it would limit his own use.","He thinks it would work if location apps were blocked."],"a":0,"t":"attitude","ev":"So I don’t think it would keep people off. But I’ll admit","x":"He doubts the law would keep teens off, yet admits he would welcome it for his sister, a mixed view. “I wouldn’t complain” is mild acceptance, not strong support."},
+{"q":"Why do some parents support the law?","o":["It would steer younger kids toward smaller apps.","It would remove the need to supervise teens.","It would let them see what their children post.","It would give them an outside reason to refuse."],"a":3,"t":"inference","ev":"they could point to the rules instead of being the bad guy","x":"These parents like being able to blame the rules when saying no. Smaller, less regulated apps are what the other group of parents fears, not a reason for support."}
+]
+}
+]
+}
+]},
+"R": {
+"p1": {
+"meta": "From: Nadia Oyelaran  |  To: Simone Achterberg  |  Subject: I finally finished (and I need your HR eyes)",
+"text": "Hi Simone,\n\nRemember last winter, when I told you I was thinking about signing up for that online data analytics certificate and you said, “Just do it before you talk yourself out of it”? Well, I did it, and as of last Friday, I’m officially finished. Nine months of evenings, a lot of cold coffee, and one very patient husband.\n\nI won’t pretend it was easy. The first two modules were fine, mostly spreadsheets and basic charts, which I already use at the warehouse. The statistics module nearly broke me, though. I failed the first quiz and seriously considered asking for a refund. What saved me was the online study group. There were six of us, from Moncton to Kamloops, so finding a time to meet across four time zones was a puzzle in itself, but we kept each other going. One of them, a retired nurse named Dolores, explained standard deviation better in twenty minutes than the course videos did in two hours.\n\nThe final project was my favourite part. We were given three years of data from a city bike-share program and asked to recommend where to add new stations. I suggested two locations near the college that the city hadn’t considered, and my instructor said she was forwarding my report to the program manager. I’m trying not to get my hopes up.\n\nThe cost was $3,400. My employer agreed to reimburse half, but only if I stay with the company for at least a year after finishing. That seemed fair at the time. Now it feels a bit more complicated, because last Tuesday I was contacted by Fairhaven Logistics about a junior analyst position. They want to interview me on the 14th.\n\nThat’s where you come in. You’ve sat on the other side of the table more times than I can count. Could you look over my résumé this week and maybe do a practice interview with me by video on Sunday? I’m especially nervous about the question everyone seems to ask: “Tell me about a time you failed.” I suppose I have a statistics quiz I could talk about.\n\nHugs to the twins,\nNadia",
+"qs": [
+{"q":"Why does Nadia mention Simone’s advice from last winter?","o":["To blame Simone for the stress of the course","To credit her with encouraging the decision","To remind her that Simone had doubts about it","To explain why she delayed signing up"],"a":1,"t":"purpose","ev":"Just do it before you talk yourself out of it","x":"Simone pushed her to enrol, and Nadia opens by showing she took that advice. Nadia, not Simone, was the one at risk of doubting herself, and there is no blame in the tone."},
+{"q":"What does Nadia suggest about the first two modules?","o":["They covered skills she had partly used at work.","They were harder than the statistics module.","They nearly made her ask for her money back.","They were explained best of all by a retired nurse."],"a":0,"t":"inference","ev":"which I already use at the warehouse","x":"Spreadsheets and charts were familiar from her warehouse job. It was the statistics module, not the first two, that made her consider a refund and that Dolores helped with."},
+{"q":"What does Nadia say about the study group?","o":["Its members all lived in the same time zone.","It met mainly to discuss the course videos.","It was organized by the course instructor.","Scheduling it was hard but it kept her motivated."],"a":3,"t":"paraphrase","ev":"finding a time to meet across four time zones was a puzzle in itself, but we kept each other going","x":"Meeting across four time zones was difficult, yet the group kept her going. The videos are mentioned only in comparison with Dolores, and the instructor appears only in the final project."},
+{"q":"How does Nadia feel about her final project being forwarded?","o":["She is certain the city will build new stations.","She is disappointed that the city ignored her ideas.","She is hopeful but trying to stay realistic.","She is worried her instructor misunderstood the report."],"a":2,"t":"attitude","ev":"I’m trying not to get my hopes up.","x":"Trying “not to get my hopes up” means she is hopeful but cautious. The city had not considered the locations before, but nothing shows it ignored her report."},
+{"q":"Why does the job contact make Nadia’s situation more complicated?","o":["Fairhaven requires a full certificate she still lacks.","Leaving soon could affect her tuition repayment.","Her employer has offered her an analyst job too.","The interview falls on the day of her final exam."],"a":1,"t":"inference","ev":"but only if I stay with the company for at least a year after finishing","x":"Her employer pays half the $3,400 only if she stays a year, so changing jobs could cost her. She has already finished the certificate, and the analyst job is Fairhaven’s, not her employer’s."},
+{"q":"What does Nadia imply at the end of her letter?","o":["She has never failed at anything important.","She wants Simone to ask only easy questions.","Her struggle in the course could be a useful answer.","She plans to avoid questions about failure."],"a":2,"t":"inference","ev":"I suppose I have a statistics quiz I could talk about.","x":"She jokes that the failed statistics quiz could be her answer to the failure question. She is nervous about the question, but she does not plan to avoid it."}
+],
+"reply": {
+"intro": "Here is Simone’s response to Nadia. Complete the response by choosing the best option for each blank.",
+"text": "Hi Nadia,\n\nCongratulations! I knew you’d finish, even if you {1}. Nine months of evenings is no small thing, especially with a full-time job.\n\nOf course I’ll help. Send me your résumé by Thursday, and make sure the bike-share project is near the top. Anyone hiring a junior analyst will care more about {2} than about the certificate itself.\n\nA practice interview by video on Sunday is perfect. It also means you’ll be well prepared before {3}. And you’re right about the failure question. Your story about {4} is ideal, because it shows you asked for help and kept going instead of quitting.\n\nOne thing I’d think about before the 14th: check exactly what your agreement says about the reimbursement. If you accept an offer from Fairhaven, you may {5}, so you’ll want to factor that into any salary discussion.\n\nSo proud of you,\nSimone",
+"blanks": [
+{"o":["actually asked for a refund in the end","had help from your instructor","skipped some of the modules","nearly gave up partway through"],"a":3,"t":"paraphrase","ev":"The statistics module nearly broke me","x":"Nadia almost quit during statistics but did not. She only “considered” a refund, so saying she asked for one in the end is wrong."},
+{"o":["what you can actually do with real data","how many modules you completed","where your study group members lived","how much your employer paid for it"],"a":0,"t":"inference","ev":"We were given three years of data from a city bike-share program","x":"The bike-share project shows practical skill with real data, which matters more to employers than the certificate. Module counts and fees are not what a hiring manager values."},
+{"o":["you finish the certificate","your employer’s one-year deadline","your meeting with Fairhaven","the bike-share report is published"],"a":2,"t":"detail","ev":"They want to interview me on the 14th.","x":"The interview with Fairhaven is on the 14th, after the Sunday practice. The certificate is already finished, so option A makes no sense."},
+{"o":["the online study group from Moncton","struggling with that early quiz","choosing locations near the college","the cold coffee and late evenings"],"a":1,"t":"inference","ev":"I failed the first quiz","x":"The failed first quiz is a story of failure followed by getting help, exactly what the interview question needs. The study group is part of that story but is not itself a failure."},
+{"o":["have to repay part of the course fee","lose access to your certificate","need to finish another module first","be asked to stay at the warehouse"],"a":0,"t":"inference","ev":"My employer agreed to reimburse half, but only if I stay with the company for at least a year after finishing","x":"Leaving within a year breaks the reimbursement condition, so she may owe back part of the $1,700. Nothing suggests she would lose the certificate itself."}
+]
+}
+},
+"p2": {
+"diagram": {
+"title": "The Loft Collective – Coworking Memberships",
+"intro": "All memberships include high-speed Wi-Fi, coffee and tea, and up to 50 printed pages per month. Prices are per month, plus tax. Members who pay for 6 months in advance get 10% off the monthly rate.",
+"table": {
+"cols": ["Plan","Access","Workspace","Meeting-room hours included / month","Price"],
+"rows": [
+["Day Pass","Any 1 weekday, 8:00–18:00","Shared table","0","$25 per day"],
+["Flex 5","Any 5 weekdays per month, 8:00–18:00","Shared table","1","$95 / month"],
+["Part-Time","Mon–Wed or Wed–Fri, 7:00–21:00","Shared table","3","$189 / month"],
+["Full-Time","Mon–Fri, 24/7 keycard","Shared table","5","$289 / month"],
+["Dedicated Desk","Mon–Sun, 24/7 keycard","Your own desk + locked drawer","8","$379 / month"],
+["Private Office (2 people)","Mon–Sun, 24/7 keycard","Lockable office","15","$820 / month"]
+]
+},
+"cards": [
+{"h":"Extra meeting-room time","lines":["Small room (seats 4): $15 per hour","Boardroom (seats 10): $40 per hour","Part-Time members and above: 25% off extra hours"]},
+{"h":"Add-ons","lines":["Mail and parcel handling: $30/month (free with Dedicated Desk and Private Office)","Personal locker: $20/month","Business address for registration: $45/month"]}
+],
+"notes": [
+"Included hours are for the small room; one boardroom hour uses two included hours.",
+"Unused meeting-room hours do not carry over to the next month.",
+"The 10% prepayment discount applies to the plan price only, not to add-ons or extra hours.",
+"Flex 5 days must be used within the calendar month.",
+"Students with valid ID: Flex 5 for $75.",
+"Day passes cannot be converted into a membership after purchase."
+]
+},
+"email": {
+"intro": "Read the following email about the coworking space. Complete the email by choosing the best option for each blank.",
+"text": "Hi Lucia,\n\nI went through the Loft Collective price list. Since you’re only in town from Tuesday to Thursday and need the space in the evenings for your calls with Vancouver, the {1} plan is the cheapest one that actually fits your schedule. I’d like somewhere to leave my second monitor overnight, so I’m looking at the Dedicated Desk, which also includes {2}.\n\nOur monthly client workshop needs the boardroom for three hours. If I book it on my plan, it would use {3} of my included hours, which still leaves me some time for smaller meetings.\n\nIf I pay six months up front, my plan would come to {4} per month, before tax. Keep in mind that the discount would {5}, so if you add a locker, budget the full $20 for it.\n\nLet me know what you think, and we can sign up together next week.\n\nRowan",
+"blanks": [
+{"o":["Flex 5","Part-Time","Full-Time","Dedicated Desk"],"a":2,"t":"diagram","ev":"Mon–Fri, 24/7 keycard","x":"Part-Time is Mon–Wed or Wed–Fri, so it cannot cover Tuesday to Thursday, and Flex 5 ends at 18:00. Full-Time is the cheapest plan with all weekdays and evening access."},
+{"o":["a personal locker at no charge","a registered business address","a lockable private office","mail handling at no extra cost"],"a":3,"t":"diagram","ev":"Mail and parcel handling: $30/month (free with Dedicated Desk and Private Office)","x":"Mail handling is free with the Dedicated Desk. The locker and business address are paid add-ons, and a lockable office comes only with the Private Office plan."},
+{"o":["three","six","all eight","none"],"a":1,"t":"diagram","ev":"one boardroom hour uses two included hours","x":"Each boardroom hour uses two included hours, so three hours use six of his eight. “Three” ignores the boardroom rule in the notes."},
+{"o":["$341.10","$379.00","$311.10","$284.25"],"a":0,"t":"diagram","ev":"Members who pay for 6 months in advance get 10% off the monthly rate.","x":"$379 minus 10% ($37.90) is $341.10. $284.25 wrongly applies the 25% discount meant for extra meeting-room hours."},
+{"o":["also lower the cost of extra boardroom time","apply to a locker as well as the plan","be combined with the student rate","not apply to any add-ons we choose"],"a":3,"t":"diagram","ev":"applies to the plan price only, not to add-ons or extra hours","x":"The prepayment discount covers only the plan price, so a locker stays at $20. Option A is also excluded because extra hours are not discounted by prepayment."}
+]
+},
+"qs": [
+{"q":"A student wants to work at the space on 6 weekdays in March, during the day. What is the least she can pay for March?","o":["$75","$100","$120","$150"],"a":1,"t":"diagram","ev":"Students with valid ID: Flex 5 for $75.","x":"Student Flex 5 ($75) covers five days, plus one Day Pass ($25) for the sixth, which totals $100. $120 uses the regular Flex 5 price; six Day Passes cost $150."},
+{"q":"A Part-Time member uses the small meeting room for 5 hours in one month. How much will the extra time cost?","o":["$30.00","$75.00","$22.50","$11.25"],"a":2,"t":"diagram","ev":"Part-Time members and above: 25% off extra hours","x":"Three hours are included, so two extra hours at $15 = $30, minus 25% = $22.50. $30 forgets the member discount; $75 charges all five hours."},
+{"q":"Which statement about a Flex 5 member is correct?","o":["They cannot use the space on a Saturday.","Unused days can be moved to the next month.","They receive no meeting-room hours.","They may enter the building at 7:00 a.m."],"a":0,"t":"diagram","ev":"Any 5 weekdays per month, 8:00–18:00","x":"Flex 5 covers weekdays only, so Saturdays are excluded. Days must be used within the month, the plan includes one meeting-room hour, and access starts at 8:00, not 7:00."}
+]
+},
+"p3": {
+"title": "Building Their Own Internet",
+"paras": [
+"When the residents of Larch Hollow asked the country’s large internet providers to bring high-speed service to their village, the answer was always the same: with only 340 households spread across a river valley, the cost of laying fibre-optic cable could never be recovered. For years, families made do with expensive satellite plans that slowed to a crawl in bad weather, or with mobile data that ran out before the end of the month. Students did their homework in the parking lot of the community hall, where the signal was strongest. In 2021, a retired electrical engineer named Agnes Thorburn invited neighbours to her kitchen to discuss an unusual idea. Rather than waiting for a company to arrive, she argued, the village could build and own a network itself. Twenty-two people turned up, and by the end of the evening they had formed a co-operative.",
+"The system they built is known as a mesh network. A single high-capacity fibre line, purchased wholesale from a regional supplier, runs to an antenna on the roof of the community hall. From there, the signal is beamed to small antennas mounted on members’ houses, barns and even a grain silo. Each of these antennas, or nodes, does more than receive a connection; it also relays the signal to its neighbours. This means that the network does not depend on one central tower. If a node fails, traffic simply finds another path. It also means that every new member makes the network stronger rather than slower, a point Thorburn likes to make when recruiting reluctant neighbours. The main weakness is line of sight: antennas need a clear view of one another, and a single tall spruce can cut a farm off entirely.",
+"Keeping the network running depends on a mix of money and goodwill. Members pay a one-time joining fee of $200 and $45 a month, which covers the wholesale fibre contract and the salary of a part-time technician. The towers and the first batch of equipment were paid for by a provincial grant for rural connectivity, something the co-op admits it could not have managed alone. Almost everything else is done by volunteers, who climb roofs to install antennas and hold a “tech café” every second Saturday to help older members with their devices. The arrangement has its strains. Several volunteers have described feeling burnt out, particularly in spring, when new leaves suddenly block signals that worked perfectly all winter and dozens of antennas need to be adjusted at once.",
+"Three years on, most members receive speeds that would be considered ordinary in a city, which in Larch Hollow feels nothing short of remarkable. The local school now streams lessons from specialist teachers, and at least a dozen families have moved to the valley because they can work remotely. Yet the co-op’s success has brought an unexpected challenge. A national provider has announced plans to run fibre to the area by 2028, and some fear it could offer low introductory prices that lure members away. Thorburn says she is not worried, arguing that people value a network whose decisions are made at the community hall rather than in a distant head office. Others on the board are less certain and have proposed expanding into the neighbouring township to give the co-op more financial stability before any competition arrives."
+],
+"qs": [
+{"q":"Adding more users improves how well the network performs.","a":"B","t":"paraphrase","ev":"every new member makes the network stronger rather than slower","x":"Paragraph B: because each node relays the signal, every new member makes the network stronger rather than slower."},
+{"q":"Some leaders of the co-op believe that growing larger would protect it from a future rival.","a":"D","t":"inference","ev":"have proposed expanding into the neighbouring township to give the co-op more financial stability before any competition arrives","x":"Paragraph D: board members who are less certain than Thorburn want to expand before the national provider arrives."},
+{"q":"Members now pay less each month than they used to pay for satellite service.","a":"E","t":"notgiven","ev":"","x":"Paragraph A calls satellite plans expensive and C gives the $45 fee, but no paragraph compares the two amounts."},
+{"q":"Young people once had to leave home to find a usable connection.","a":"A","t":"inference","ev":"Students did their homework in the parking lot of the community hall, where the signal was strongest","x":"Paragraph A: students did homework in the community hall parking lot because the signal was strongest there."},
+{"q":"Changes in nature at a certain time of year create extra work for helpers.","a":"C","t":"paraphrase","ev":"particularly in spring, when new leaves suddenly block signals","x":"Paragraph C: in spring new leaves block signals and volunteers must adjust dozens of antennas. Paragraph B mentions trees but not seasons or volunteers."},
+{"q":"The improved connection has drawn new households to the area.","a":"D","t":"paraphrase","ev":"at least a dozen families have moved to the valley because they can work remotely","x":"Paragraph D: at least a dozen families moved to the valley because remote work became possible."},
+{"q":"The national provider has promised to match the co-op’s monthly price.","a":"E","t":"notgiven","ev":"","x":"Paragraph D says only that some people fear low introductory prices; no promise to match the co-op’s price is reported."},
+{"q":"The idea of community ownership came from someone with a technical background.","a":"A","t":"inference","ev":"a retired electrical engineer named Agnes Thorburn invited neighbours to her kitchen","x":"Paragraph A: a retired electrical engineer proposed that the village build and own its network."},
+{"q":"The network can keep working when one part of it breaks down.","a":"B","t":"paraphrase","ev":"If a node fails, traffic simply finds another path.","x":"Paragraph B: there is no single central tower, so traffic is rerouted when a node fails."}
+]
+},
+"p4": {
+"title": "Stop Making Me Change My Password",
+"byline": "Opinion | by Desmond Achebe-Lowry, IT security consultant",
+"text": "Every ninety days, a message appears on my screen at work: “Your password will expire in 3 days.” And every ninety days, I watch the people around me do exactly the same thing. They take their old password, change the final number, and add an exclamation mark. Maple7 becomes Maple8!, or Summer24 becomes Summer25. Then they write the new version on a sticky note, just in case.\n\nI don’t blame them. I blame the rules.\n\nFor decades, organizations have insisted that frequent password changes and complicated requirements – one capital letter, one number, one symbol, no repeated characters – keep us safe. The logic seemed sound: if a password is stolen, changing it regularly limits how long a criminal can use it. But the evidence has caught up with the theory, and it is not flattering. When people are forced to invent new passwords constantly, they create predictable ones. Attackers know the patterns as well as we do. A password that has been changed by adding one digit offers almost no protection, and one written on a note stuck to a monitor offers even less.\n\nSeveral national cybersecurity agencies quietly changed their advice years ago. They now recommend that passwords be changed only when there is evidence they have been compromised, and that length matters far more than complexity. A phrase of four or five random, unrelated words is both easier to remember and harder to crack than a short string of symbols. Yet many workplaces, schools and even banks still enforce rules designed for the computers of the 1990s.\n\nWhy? Partly habit, and partly, I suspect, because forcing everyone to change their password looks like action. It produces a policy document and a reminder email. It allows an IT department to say it is doing something. What it does not do, in most cases, is stop anyone from getting in.\n\nWhat would? The single most effective step is two-step verification, where logging in requires both a password and a second proof, such as a code sent to your phone or a small physical key. Even if a criminal obtains your password, they cannot use it alone. The second is a password manager, an app that creates and stores a long, unique password for every account so that you only need to remember one strong master phrase. I recognize that some people are uneasy about keeping all their passwords in one place. But the alternative most people actually use – the same three passwords everywhere – is far riskier.\n\nI am not arguing that passwords no longer matter. A careless password is still an open door. I am arguing that we have spent twenty years training people to be careless by giving them rules they cannot reasonably follow, and then blaming them for failing.\n\nSo here is my request to every IT manager reading this: drop the ninety-day rule. Spend the time you would have spent sending reminders on setting up two-step verification for everyone, and teach your staff to use passphrases. Your help desk will receive fewer calls about forgotten passwords, and your organization will be safer. The sticky notes can finally go in the recycling bin.",
+"qs": [
+{"q":"Why does the writer describe his colleagues changing their passwords?","o":["To illustrate how the rules lead to easily guessed choices","To criticize staff for ignoring their IT department","To explain how attackers steal passwords at work","To show that sticky notes are a common security tool"],"a":0,"t":"purpose","ev":"When people are forced to invent new passwords constantly, they create predictable ones.","x":"The example of adding one digit shows how forced changes produce guessable passwords. He says “I don’t blame them”, so he is not criticizing staff."},
+{"q":"What does the writer say about the original reason for regular password changes?","o":["It was never based on any real logic.","It was designed to make passwords longer.","It was originally meant to reduce calls to help desks.","It made sense but has not held up in practice."],"a":3,"t":"inference","ev":"The logic seemed sound","x":"He grants that the reasoning “seemed sound” but says the evidence is “not flattering”. So it was logical, which rules out option A; length is what the newer advice emphasizes."},
+{"q":"What does the writer suggest about why organizations keep the old rules?","o":["Staff have asked to receive regular reminders.","Newer advice has not yet been published.","The rules make it appear that something is being done.","Banks are legally required to enforce them."],"a":2,"t":"inference","ev":"because forcing everyone to change their password looks like action","x":"He suspects the rules survive partly because they look like action. Agencies changed their advice “years ago”, so it has been published, and banks are mentioned only as examples."},
+{"q":"How does the writer respond to concerns about password managers?","o":["He agrees they are too risky for most people.","He admits the worry but considers the usual habit worse.","He says they should only be used at work.","He argues they are unnecessary with two-step verification."],"a":1,"t":"viewpoint","ev":"is far riskier","x":"He acknowledges that some people are uneasy but says reusing three passwords everywhere is “far riskier”. He recommends both tools, so he does not call managers unnecessary."},
+{"q":"What is the writer’s main argument?","o":["Passwords are no longer necessary for good security.","Staff should be trained to make passwords more complex.","Organizations should replace outdated rules with better tools.","Help desks should stop resetting forgotten passwords."],"a":2,"t":"main","ev":"drop the ninety-day rule","x":"He asks IT managers to drop forced changes and adopt two-step verification and passphrases. He explicitly says passwords still matter, and he argues length matters more than complexity."}
+],
+"comment": {
+"intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+"text": "I’ve worked at a hospital help desk for eleven years, so this article hit home. The writer is absolutely right that {1}. Every quarter, our phones ring nonstop with people locked out because they can’t remember which version of their password they’re on.\n\nWhere I part ways with him is on password managers. He makes it sound as if {2}. In my experience, that isn’t the case for many of our older staff. Some still struggle to log in to email, and asking them to manage a master phrase and an app on two devices is a big step. If they forget that one phrase, {3}.\n\nI’d also push back on the idea that IT departments keep the old rules {4}. In our case, the ninety-day rule is written into the requirements of our insurance policy, so dropping it isn’t up to us.\n\nStill, his main recommendation, {5}, is one I’d support tomorrow. It would solve more problems than any policy we have now.",
+"blanks": [
+{"o":["two-step verification is far too costly to set up properly","stealing passwords has become more difficult","sticky notes should be banned in every office","forced changes cause more problems than they solve"],"a":3,"t":"viewpoint","ev":"we have spent twenty years training people to be careless","x":"The reader agrees that the ninety-day rule backfires, as shown by constant lockouts. The article never says two-step verification is costly or that stealing has become harder."},
+{"o":["everyone already uses the same three passwords","the tools are simple enough for anyone to adopt","people should keep a written list instead","the apps are only useful for IT staff"],"a":1,"t":"inference","ev":"so that you only need to remember one strong master phrase","x":"The writer presents managers as easy: remember one phrase. The reader says this is not true for older staff. Option A is something the writer says, but the reader does not dispute it."},
+{"o":["they could lose access to everything at once","they will receive a code on their phone","they can simply add a number to the end","the help desk can easily recover it for them"],"a":0,"t":"inference","ev":"I recognize that some people are uneasy about keeping all their passwords in one place.","x":"If all passwords sit behind one forgotten phrase, every account is locked at once – the “one place” worry the writer mentions. Adding a number is the bad habit from the article, not a consequence."},
+{"o":["because banks instruct them to","because staff prefer the reminders","simply to look as though they are acting","because two-step verification is unreliable"],"a":2,"t":"viewpoint","ev":"It allows an IT department to say it is doing something.","x":"The writer suspects IT departments keep the rule to appear active; the reader replies that her rule comes from insurance requirements. Banks are mentioned in the article only as places with old rules."},
+{"o":["lengthening the time between changes","adding a second step to every login","replacing all passwords with physical keys","rewriting the rules for modern computers"],"a":1,"t":"main","ev":"The single most effective step is two-step verification","x":"The writer’s key recommendation is two-step verification for everyone. A physical key is only one example of a second proof, not a replacement for all passwords."}
+]
+}
+}
+},
+"W": {
+"t1": {
+"situation": "Your apartment building recently replaced its plastic key fobs with a smartphone app that unlocks the front entrance and the parking garage. Since the change, you and some of your neighbours have had several problems with the new system.",
+"bullets": ["Describe the problems you have experienced with the app","Explain how these problems have affected you or others in the building","Suggest what the property manager should do"],
+"model": "Dear Ms. Delacroix,\n\nI am writing about the smartphone entry system that replaced our key fobs on October 1. While I understand the goal of improving security, the app has caused me several serious problems.\n\nFirst, it frequently fails to connect to the reader at the garage gate. Three times last week I waited more than five minutes before it opened, and once I had to call a neighbour to let me in. Second, the app logs me out after every update, and the password reset email often takes twenty minutes to arrive.\n\nThese issues affect more than just me. My elderly neighbour in 4B does not own a smartphone, so she now depends on others to enter her own building. Last Sunday, a delivery driver left her groceries outside in the rain because nobody answered the intercom.\n\nI would suggest that management offer physical fobs as a backup to any resident who requests one, and ask the provider to repair the garage reader as soon as possible. A short help session in the lobby would also be appreciated.\n\nThank you for your attention.\n\nSincerely,\nAlexei Moreau"
+},
+"t2": {
+"intro": "Your city library has received a one-time grant to improve residents’ access to technology. The library is asking residents how the money should be spent.",
+"question": "Which option do you prefer? Explain the reasons for your choice.",
+"a": "Option A: Buy 200 mobile Wi-Fi hotspots and 100 laptops that library members can borrow for up to three weeks at a time.",
+"b": "Option B: Hire two staff members for three years to run free daily digital skills classes and one-on-one technology help.",
+"model": "I would prefer Option B, hiring staff to run digital skills classes and one-on-one help.\n\nAlthough lending hotspots and laptops would certainly benefit families without internet at home, I believe equipment alone does not solve the real problem. Many residents, particularly seniors and newcomers, already own a device but do not know how to use it confidently. My own father has a tablet, yet he still asks me to book his medical appointments online because he is afraid of making a mistake. A patient staff member could teach him to do this himself in a single session.\n\nIn addition, skills last longer than equipment. Laptops break, batteries wear out, and within five years most of the devices would likely need replacing. By contrast, someone who learns how to apply for jobs online or recognize a fraudulent email will benefit for the rest of their life.\n\nFinally, Option A could create long waiting lists, since 300 devices would not go far in a city of our size. Daily classes, on the other hand, could serve hundreds of people every month.\n\nFor these reasons, I believe Option B is the wiser investment."
+}
+},
+"S": {
+"t1": {
+"prompt": "Your friend wants to start posting cooking videos online and hopes to earn money from it eventually. They have a full-time job and have never edited a video before. Advise your friend about how to get started.",
+"model": "That’s a great idea, and honestly, your lasagna alone could get you followers. But since you’ve got a full-time job and you’ve never edited video before, I’d start small and keep it manageable. First, don’t rush out and buy expensive equipment. Your phone camera is more than good enough to begin with. What really matters is good lighting and clear sound, so film near a window during the day and maybe pick up an inexpensive clip-on microphone. Second, set yourself a realistic schedule. If you promise one video a week and then disappear for a month, people will stop watching. I’d suggest filming two or three recipes on a Sunday and releasing them gradually. Third, learn editing step by step. There are free editing apps with simple tutorials, and you don’t need fancy effects – short, well-paced videos tend to do better anyway. As for making money, I’d be patient. It usually takes a long time to build an audience, so think of this as a hobby for the first year and definitely keep your job. Finally, check whether your employer has any rules about side businesses or posting online. You don’t want a fun project to cause problems at work. Most of all, enjoy it – that will come through on camera."
+},
+"t2": {
+"prompt": "Talk about a time when technology let you down at an important moment. What happened, and how did you deal with it?",
+"model": "A couple of years ago, I had a final job interview over video for a position I really wanted. I’d tested everything the night before, but five minutes before the call, my laptop decided to install a huge update and simply wouldn’t restart. I honestly panicked for a moment. Then I grabbed my phone, propped it up on a stack of books, and joined the call from there. I explained what had happened right at the start, and the interviewer laughed and said it happened to her all the time. The connection was a bit shaky, but we got through it. What I took away from that experience was the importance of having a backup plan. Now, before any important call, I restart my computer an hour early and keep my phone charged and ready. And yes, I got the job."
+},
+"t3": {
+"scene": {
+"bg": "classroom",
+"alt": "A computer class for seniors at a community centre. On the green chalkboard at the front are the words “Tablet Basics for Seniors”. On the left, a female instructor in a blue top with her hair in a bun is pointing at the board, and a speech bubble shows her saying “Tap the green button!”. In the middle, an older man with grey hair and glasses sits at a wooden desk in front of a laptop, with an orange mug beside him. Next to him, a man in a green shirt stands holding a cup of coffee. On the right, an older woman with white hair in a purple dress sits at another desk with a laptop, looking at her phone. Behind her, a young volunteer in a teal shirt is waving. There is a clock on the wall, a window, and a potted plant in the corner.",
+"items": [
+["text",320,110,"Tablet Basics for Seniors",20,"#ffffff"],
+["clock",560,70],
+["window",500,110,110,90],
+["plant",30,390,1.2],
+["person",110,340,{"shirt":"#2e86c1","pose":"point","hairStyle":"bun","hair":"#3b2a1a","skin":"#c68642","dress":true}],
+["speech",150,215,"Tap the green button!"],
+["desk",200,375,130],
+["laptop",245,323],
+["mug",290,323,"#e67e22"],
+["person",230,370,{"pose":"sit","hair":"#bdc3c7","shirt":"#c0392b","glasses":true,"hairStyle":"short"}],
+["person",370,370,{"shirt":"#27ae60","hold":"cup","hair":"#7f8c8d","flip":true}],
+["desk",420,375,130],
+["laptop",470,323],
+["person",450,370,{"pose":"sit","hairStyle":"bun","hair":"#ecf0f1","shirt":"#8e44ad","dress":true,"hold":"phone","skin":"#f1c27d"}],
+["person",590,365,{"shirt":"#16a085","pose":"wave","hair":"#1c1c1c","skin":"#8d5524","flip":true}]
+]
+},
+"prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+"model": "This picture shows a computer class, probably at a community centre, and most of the students are seniors. On the chalkboard at the front, it says “Tablet Basics for Seniors.” On the left, an instructor in a blue top, with her hair in a bun, is pointing at the board, and a speech bubble shows she’s saying, “Tap the green button!” In the middle, an older man with grey hair and glasses is sitting at a desk in front of a laptop, with an orange mug beside him. Next to him, a man in a green shirt is standing and holding a cup of coffee. On the right, an older woman in a purple dress is sitting at another desk, looking at her phone. Behind her, a young volunteer is waving. There’s also a clock, a window and a plant in the corner."
+},
+"t4": {
+"prompt": "In this picture, what do you think will most probably happen next?",
+"model": "I think the instructor is about to walk over to the students and help them one by one. The man in the green shirt will probably put down his coffee and sit at a laptop, since it looks like he’s fallen a little behind. The older man with glasses will most likely tap the green button and start a video call, maybe with his grandchildren, and I imagine he’ll look surprised and delighted when someone appears on the screen. Meanwhile, the woman in the purple dress seems a bit confused by her phone, so I expect the young volunteer will come over and show her how to do the same thing on her own device. By the end of the class, I’d guess everyone will have made at least one successful call, and they’ll leave feeling much more confident about technology."
+},
+"t5": {
+"intro": "Your grandmother wants a device so that she can video-chat with family and read the news. Your family has found two options. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+"options": [
+{"title":"Large-screen tablet","details":["$420 with case and stand","Touch screen, no keyboard","Battery lasts 10 hours","Easy video-call app built in","13-inch screen"]},
+{"title":"Refurbished laptop","details":["$350","Physical keyboard and mouse","Battery lasts about 4 hours","Runs email, banking and full programs","1-year warranty"]}
+],
+"other": {"title":"Smart display with camera","details":["$180","Stays on the kitchen counter","Voice commands only, no typing","Video calls with one tap","Cannot install new apps"]},
+"otherWho": "Your brother prefers",
+"persuade": "Your brother prefers the smart display with camera. Persuade him that your choice is better.",
+"model": "I understand why you like the smart display. It’s cheap, and Grandma could start a video call with one tap. But I really think the large-screen tablet is the better choice. First, it’s portable. The smart display would stay on the kitchen counter, but Grandma likes reading the news in her armchair, and with the tablet she can take it anywhere, even to her friend’s place. Second, the display only works with voice commands. You know how frustrated she gets when her phone doesn’t understand her. With the tablet, she can just touch what she wants. And finally, the display can’t install new apps, so if she wants to play word games or read e-books later, she’d be stuck. Yes, the tablet costs more, but the stand and case are included, so it’s ready to go."
+},
+"t6": {
+"situation": "Your sister is away on a work trip, and your 15-year-old nephew is staying with you for a week. Before she left, your sister asked you to make sure he hands in his phone at 10 p.m. every night. Your nephew says his mother never really enforces this rule at home, and that he needs his phone at night because he is working on a school project with friends in another time zone.",
+"options": ["Talk to your nephew and explain why you will follow his mother’s rule.","Talk to your sister and suggest relaxing the rule while he stays with you."],
+"note": "Choose ONE option and speak to that person.",
+"model": "Hey Daniel, can we talk for a minute about the phone thing? I get that it feels unfair, especially if your mom isn’t strict about it at home. And I know this project with your friends in Vancouver matters to you. But your mom asked me directly to make sure you hand in your phone at ten, and while you’re staying here, I have to respect that. If I ignore her rule and she finds out, she won’t trust me to look after you again. So here’s what I can do. You can use my laptop at the kitchen table until ten thirty, as long as it’s just schoolwork. And tomorrow you could ask your group to meet a bit earlier in their day. If your mom agrees to change the rule when she calls tonight, I’m fine with that too. Deal?"
+},
+"t7": {
+"prompt": "Answer the following question: Should cities fine pedestrians who use their phones while crossing the street? Explain your reasons.",
+"model": "I understand the concern behind this idea – we’ve all seen someone step off the curb while staring at a screen – but I don’t think fining pedestrians is the right approach. First, it would be very hard to enforce fairly. Police officers can’t be at every intersection, so fines would be handed out almost randomly, and that tends to make people feel targeted rather than safer. There’s also a question of definition. Does glancing at a map count? What about changing a song? The rules would become confusing very quickly. Second, I think it shifts responsibility in the wrong direction. Pedestrians are the most vulnerable people on the road. Most serious collisions are caused by drivers who are speeding or distracted themselves, so I’d rather see cities spend money on better crosswalks, longer crossing signals and lower speed limits near schools. Those changes protect everyone, including people who are paying attention. That said, I do think education campaigns could make a real difference, especially for teenagers. A few clever ads or school presentations would probably change more habits than a seventy-dollar ticket. So overall, my answer is no. Distracted walking is a real problem, but fines would punish people without dealing with the main causes of accidents."
+},
+"t8": {
+"scene": {
+"bg": "street",
+"alt": "A city sidewalk with an unusual bus shelter built in the shape of a giant smartphone, about three metres tall, standing upright. It has a black frame, a grey metal roof sticking out over the top, and a huge blue screen showing the words “BUS 7” and “3 MIN” in white letters. Under the roof is a wooden bench where a woman in a red shirt sits looking at her own phone. A man in a yellow shirt is taking a photo of the shelter with a camera, and a small child in a green shirt is pointing at it. A yellow bus is approaching on the road on the right, and there is a street lamp on the left.",
+"items": [
+["streetlamp",60,385],
+["rect",220,100,200,12,"#7f8c8d"],
+["rect",250,112,140,270,"#1c1c1c"],
+["rect",262,128,116,210,"#5dade2"],
+["text",320,190,"BUS 7",26,"#ffffff"],
+["text",320,230,"3 MIN",22,"#ffffff"],
+["rect",305,350,30,14,"#555555"],
+["bench",270,392,100],
+["person",300,385,{"pose":"sit","shirt":"#c0392b","hairStyle":"long","hair":"#3b2a1a","hold":"phone"}],
+["person",150,390,{"shirt":"#f1c40f","hold":"camera","hair":"#1c1c1c","skin":"#c68642"}],
+["person",200,392,{"kid":true,"shirt":"#27ae60","pose":"point","hairStyle":"curly","hair":"#a0522d"}],
+["bus",540,330,"#f1c40f","7"],
+["cloud",120,60,1],
+["bird",480,70]
+]
+},
+"prompt": "You are visiting a new town and see this bus shelter. Call your friend who works for your city’s transit department. Describe the shelter to your friend, and explain whether you think your city should build something similar. Your friend cannot see the picture.",
+"model": "Hey Jordan, you work for transit, so you have to hear about this. I’m standing in front of a bus shelter that’s been built to look like a giant smartphone. It’s taller than a person, maybe three metres high, with a black frame and a huge blue screen in the middle. The screen shows the next bus in real time – right now it says the number seven is arriving in three minutes. There’s a metal roof sticking out over the top, and a wooden bench underneath, where a woman is sitting and checking her own phone. A tourist is taking photos of it, and a little kid is pointing at it. Honestly, I think we should build something similar back home, maybe at the main terminal. Real-time screens are genuinely useful, and the design is fun. My only question is whether the screen would survive our winters."
+}
+}
+}

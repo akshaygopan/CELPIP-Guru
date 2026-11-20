@@ -1,0 +1,1914 @@
+{
+ "id": "t36",
+ "title": "Test 36",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "A couple are discussing the result of their mortgage pre-approval.",
+    "sp": {
+     "A": {
+      "name": "Lindiwe",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1
+     },
+     "B": {
+      "name": "Mateus",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.03
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "So, the mortgage broker emailed. Do you want the good news or the bad news first?"
+       ],
+       [
+        "A",
+        "Bad news. Always bad news first."
+       ],
+       [
+        "B",
+        "We’re pre-approved, but only for five hundred and twenty thousand. Not the six hundred we were counting on."
+       ],
+       [
+        "A",
+        "Five twenty? That’s eighty thousand less. Did she say why? We both got raises this year."
+       ],
+       [
+        "B",
+        "She did. Our income is fine. It’s mostly my car loan. Apparently the four-hundred-and-ninety-dollar monthly payment counts against us almost as much as if I earned a whole lot less. And she had to qualify us at a rate two points higher than what we’d actually pay, because of the stress test."
+       ],
+       [
+        "A",
+        "So the bank pretends interest rates are higher than they are, just to make sure we could survive if they went up."
+       ],
+       [
+        "B",
+        "Exactly. Which, to be fair, after the last few years, is not a crazy thing to worry about."
+       ],
+       [
+        "A",
+        "I suppose not. But every semi in Larchmont that we’ve liked has been listed between six hundred and six-fifty. Five twenty doesn’t even get us a two-bedroom there."
+       ],
+       [
+        "B",
+        "I know. I checked the listings again this morning. There were exactly two under five-thirty, and one of them needs a new foundation."
+       ],
+       [
+        "A",
+        "Then it’s not really under five-thirty, is it? Okay. So the question is whether we change what we’re looking for, change where we’re looking, or change our numbers."
+       ],
+       [
+        "B",
+        "Or change our timing. The pre-approval is only good for ninety days anyway, so we don’t have to decide anything tonight."
+       ],
+       [
+        "A",
+        "No, but I don’t want to spend another year paying rent to Mrs. Vandersloot without a plan. Let’s at least go through the options properly, one by one, and see what’s realistic."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why was the couple approved for less than they expected?",
+        "o": [
+         "Their combined income fell over the past year.",
+         "The broker found an error in their credit history.",
+         "An existing debt reduced what they could borrow.",
+         "Interest rates rose sharply after they applied."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "It’s mostly my car loan.",
+        "x": "The broker says Mateus’s car loan payment counts heavily against them. Their income is fine because both got raises, and the higher rate is a stress-test assumption, not an actual rise in rates."
+       },
+       {
+        "q": "What does Mateus imply about the stress test?",
+        "o": [
+         "He thinks its caution is understandable.",
+         "He believes it is unfair to first-time buyers.",
+         "He expects it to be removed within a year.",
+         "He thinks the broker applied it incorrectly."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "to be fair, after the last few years, is not a crazy thing to worry about",
+        "x": "“To be fair … not a crazy thing to worry about” shows he accepts the reasoning behind the test. Lindiwe sounds more sceptical (“the bank pretends”), but Mateus never calls it unfair."
+       },
+       {
+        "q": "What does Lindiwe mean about the house listed under $530,000?",
+        "o": [
+         "It is in a part of the city they dislike.",
+         "Its asking price is likely to drop further soon.",
+         "It is too small for their needs.",
+         "Repairs would make its real cost much higher."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "Then it’s not really under five-thirty, is it?",
+        "x": "Because it needs a new foundation, the true cost would be far above the asking price. Nothing suggests the price will fall or that the neighbourhood is the problem; it is in Larchmont, where they want to live."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Option one: we look further out. Millbrook has new townhouses for around five hundred."
+       ],
+       [
+        "B",
+        "I looked. They’re nice, and you get a garage. But from there, my commute would be seventy minutes each way, and the train only runs every half hour. I’d basically be paying for the house with my evenings."
+       ],
+       [
+        "A",
+        "Fair. And I’d need to drive to the hospital for night shifts, so we’d need a second car, which brings us right back to the loan problem."
+       ],
+       [
+        "B",
+        "Option two: your parents. Your dad mentioned the forty thousand again on Sunday."
+       ],
+       [
+        "A",
+        "He did. But you heard how he put it. He wants it written up as a loan, with his name on the title until it’s paid back. I love him, but I’m not buying a house with my father."
+       ],
+       [
+        "B",
+        "And the broker said a loan from family would count as another debt anyway. If it’s a gift, the bank wants a signed letter saying it never has to be repaid."
+       ],
+       [
+        "A",
+        "Which he won’t sign. So that’s out, at least for now."
+       ],
+       [
+        "B",
+        "Option three is the boring one. I get rid of the car loan."
+       ],
+       [
+        "A",
+        "You still owe, what, eleven thousand? If we pay that off from our savings, our down payment shrinks."
+       ],
+       [
+        "B",
+        "Not if I sell the car. It’s worth about fourteen. I pay off the loan, and the extra three thousand buys something old and reliable for cash. The broker ran the numbers: without that payment, we’d qualify for about five eighty-five."
+       ],
+       [
+        "A",
+        "That’s still short of six hundred, but it’s close. And honestly, I never liked that car anyway. It was always too big for our street."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Mateus reject the townhouses in Millbrook?",
+        "o": [
+         "They do not come with a garage.",
+         "Living there would cost him too much time.",
+         "Their prices are higher than the bank allows.",
+         "The train station is too far from the homes."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "I’d basically be paying for the house with my evenings.",
+        "x": "A seventy-minute commute each way would use up his evenings. The townhouses do include a garage, and at about $500,000 they are within the pre-approval."
+       },
+       {
+        "q": "What is Lindiwe’s objection to her father’s offer?",
+        "o": [
+         "The amount is too small to make a difference.",
+         "Her father expects to live in the new house.",
+         "The bank refuses to accept money from parents.",
+         "She does not want to share ownership with him."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "I’m not buying a house with my father.",
+        "x": "Her father wants his name on the title until the money is repaid, and she refuses to co-own a house with him. The bank would accept a gift with a signed letter, so it does not refuse parental money."
+       },
+       {
+        "q": "Why would selling the car help?",
+        "o": [
+         "It would clear a monthly debt without using their savings.",
+         "It would let them use the car’s value as a down payment.",
+         "It would allow Lindiwe to drive to her night shifts.",
+         "It would raise their pre-approval to six hundred thousand."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I pay off the loan, and the extra three thousand buys something old and reliable for cash.",
+        "x": "The sale covers the $11,000 loan, removing the monthly payment without touching savings. The new approval would be about $585,000, still below $600,000, and the extra money buys another car."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, so if we do the car plan, when could we actually start looking again?"
+       ],
+       [
+        "B",
+        "The broker said once the loan shows as paid on my credit report, she can redo the pre-approval. That usually takes one or two billing cycles. So realistically, we could be shopping in March."
+       ],
+       [
+        "A",
+        "March. That’s the start of the spring market, so there’ll be more listings, but more competition too."
+       ],
+       [
+        "B",
+        "True. And the lease. When does ours end again? June?"
+       ],
+       [
+        "A",
+        "The end of August. I was going to say we sign another full year, but if we find something in the spring, we’d be stuck paying both. Let’s ask Mrs. Vandersloot about going month to month after August."
+       ],
+       [
+        "B",
+        "She did that for the couple upstairs, so she might agree. Meanwhile, I think we should widen the search a bit. Not Millbrook, but maybe the east side of Larchmont, near the rail yard. It’s less fashionable, so it’s cheaper."
+       ],
+       [
+        "A",
+        "And noisier. But I’d rather have trains at night than a seventy-minute commute. Fine, let’s add it."
+       ],
+       [
+        "B",
+        "Great. I’ll list the car this weekend. And I’ll call your dad and explain."
+       ],
+       [
+        "A",
+        "No, I’ll call my dad. If anyone is going to tell him we’re not taking his loan, it should be me. I’ll tell him that if he ever changes his mind about making it a gift, the door’s open."
+       ],
+       [
+        "B",
+        "Fair enough. Honestly, I feel better than I did an hour ago."
+       ],
+       [
+        "A",
+        "Me too. It’s not the house we pictured last month, but at least it’s a plan we can actually stick to."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What do they decide about their lease?",
+        "o": [
+         "They will sign another twelve-month lease in June.",
+         "They will move out at the end of August.",
+         "They will ask the landlord for a flexible arrangement.",
+         "They will ask the couple upstairs to take over the lease."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "Let’s ask Mrs. Vandersloot about going month to month after August.",
+        "x": "They will ask to rent month to month after August so they are not paying rent and a mortgage at once. Lindiwe drops her first idea of signing another full year, and June was Mateus’s mistaken date."
+       },
+       {
+        "q": "Why does Lindiwe insist on phoning her father herself?",
+        "o": [
+         "Mateus does not get along with her father.",
+         "She feels responsible for turning down his offer.",
+         "She wants to persuade him to lend them more.",
+         "Her father prefers to discuss money only with her."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "If anyone is going to tell him we’re not taking his loan, it should be me.",
+        "x": "She feels that refusing her own father’s loan is her responsibility. Nothing suggests Mateus and her father dislike each other, and she hopes for a gift, not a bigger loan."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A customer is speaking with an advisor at his bank about a fee on his account.",
+    "sp": {
+     "A": {
+      "name": "Imogen",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Hector",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 0.99
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hi, I’m hoping you can help me with a fee on my chequing account. I was charged forty-eight dollars on Tuesday for something called a non-sufficient funds fee."
+       ],
+       [
+        "A",
+        "Let me pull up your account. Okay, I see it. On Monday, a pre-authorized payment of sixty-two dollars to Ironpeak Fitness was presented, and your balance at the time was thirty-one dollars, so the payment was returned unpaid."
+       ],
+       [
+        "B",
+        "Right, but that’s only because my paycheque came a day late. Monday was a holiday, and normally it’s deposited first thing in the morning. It showed up on Tuesday."
+       ],
+       [
+        "A",
+        "I can see that, yes. Your pay was deposited Tuesday at six a.m. Unfortunately, the system processes pre-authorized payments in the order they arrive, and it doesn’t know a deposit is coming."
+       ],
+       [
+        "B",
+        "So I’m being punished for a statutory holiday."
+       ],
+       [
+        "A",
+        "I understand why it feels that way. Here’s what I can do. You haven’t had a fee reversed in the past twelve months, so I’m able to refund this one as a courtesy. It’s a one-time thing, though, so it won’t be possible again until next year."
+       ],
+       [
+        "B",
+        "Thank you. I appreciate that. The gym also charged me a twenty-five dollar returned payment fee. Can you reverse that too?"
+       ],
+       [
+        "A",
+        "I’m afraid not. That’s the gym’s own fee, so you’d need to speak to them directly. Some businesses waive it if you explain, especially if it’s the first time."
+       ],
+       [
+        "B",
+        "Okay. How do I stop this from happening again? Next month has a holiday on the Monday too."
+       ],
+       [
+        "A",
+        "A couple of options. We offer overdraft protection for five dollars a month, which would cover a shortfall of up to five hundred dollars, although you’d pay interest on whatever you use. Or you could ask the gym to move your payment date to the fifth instead of the first."
+       ],
+       [
+        "B",
+        "Five dollars a month for something I need maybe twice a year? I don’t think so. Changing the date makes more sense. Is there a way to get a warning if my balance gets low?"
+       ],
+       [
+        "A",
+        "Yes, you can set up a low-balance alert in the app. You choose the amount, and it sends you a text whenever your balance drops below it."
+       ],
+       [
+        "B",
+        "Let’s set it at a hundred. And I’ll call the gym this afternoon about the date and that fee."
+       ],
+       [
+        "A",
+        "Perfect. I’ve set up the alert, and you should see the refund of the forty-eight dollars by tomorrow morning."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why did Hector’s payment to the gym fail?",
+        "o": [
+         "His salary arrived after the payment was processed.",
+         "The gym tried to withdraw more than the agreed amount.",
+         "His bank branch was closed for the holiday.",
+         "His account had been frozen by the bank."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Your pay was deposited Tuesday at six a.m.",
+        "x": "The gym payment came on Monday, but his pay arrived on Tuesday because of the holiday, so his balance was too low. The payment of $62 was the normal amount, and the account was never frozen."
+       },
+       {
+        "q": "What does the advisor say about refunding the bank’s fee?",
+        "o": [
+         "It will appear on his account after twelve months.",
+         "It is available to everyone affected by the holiday.",
+         "It requires him to sign up for overdraft protection.",
+         "It is an exception she cannot repeat soon."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "It’s a one-time thing, though, so it won’t be possible again until next year.",
+        "x": "The refund is a one-time courtesy that cannot be repeated until next year. Twelve months refers to his clean record, not to when the refund appears; it arrives tomorrow morning."
+       },
+       {
+        "q": "What does the advisor suggest about the gym’s fee?",
+        "o": [
+         "The bank will negotiate with the gym for him.",
+         "The gym may cancel it if he asks.",
+         "It will be refunded along with the bank fee.",
+         "It is not allowed under banking rules."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "Some businesses waive it if you explain, especially if it’s the first time.",
+        "x": "She cannot reverse the gym’s own fee but says businesses sometimes waive it if the customer explains. The bank refunds only its own $48 fee and will not negotiate for him."
+       },
+       {
+        "q": "How does Hector feel about overdraft protection?",
+        "o": [
+         "He thinks its interest rate is unreasonably high.",
+         "He wants to try it for a few months first.",
+         "He feels it costs too much for how rarely he needs it.",
+         "He worries it would encourage him to overspend each month."
+        ],
+        "a": 2,
+        "t": "attitude",
+        "ev": "Five dollars a month for something I need maybe twice a year? I don’t think so.",
+        "x": "Paying a monthly fee for something he needs about twice a year seems poor value to him. He never comments on the interest rate or on overspending."
+       },
+       {
+        "q": "What will Hector probably do next?",
+        "o": [
+         "Apply for overdraft protection in the app",
+         "Cancel his membership at the gym",
+         "Ask his employer to move his pay date",
+         "Contact the gym about his payment"
+        ],
+        "a": 3,
+        "t": "prediction",
+        "ev": "And I’ll call the gym this afternoon about the date and that fee.",
+        "x": "He plans to call the gym to change the payment date and ask about its fee. He rejects overdraft protection, and it is the gym’s date, not his pay date, that he wants moved."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A caller is asking a volunteer coordinator about a free tax clinic.",
+    "sp": {
+     "A": {
+      "name": "Wendell",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Agnieszka",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Riverbend Free Tax Clinic, this is Wendell."
+       ],
+       [
+        "B",
+        "Hi, I’m calling to find out whether I can get my taxes done at your clinic, and possibly my mother’s too."
+       ],
+       [
+        "A",
+        "Happy to help. The clinic is for people with modest incomes and simple tax situations. For a single person, that means total income under thirty-five thousand dollars a year; for a couple, under forty-five thousand, plus two and a half thousand for each dependant."
+       ],
+       [
+        "B",
+        "I’m a full-time student. I made about nineteen thousand from my part-time job at a pharmacy, and I also did some tutoring, which was paid in cash. About eight hundred dollars."
+       ],
+       [
+        "A",
+        "The tutoring is self-employment income, which normally we can’t handle. But we make an exception when it’s under a thousand dollars for the year and you have no business expenses to claim. So you’d be fine."
+       ],
+       [
+        "B",
+        "Great. And my mother? She’s sixty-eight and on a pension. Her income is lower than mine, but she rents out our basement apartment."
+       ],
+       [
+        "A",
+        "Ah. Unfortunately, rental income is one of the things our volunteers aren’t trained for, regardless of the amount. The same goes for capital gains, bankruptcies and returns for someone who has passed away. I’d suggest a paid preparer for her; many of them offer seniors’ discounts."
+       ],
+       [
+        "B",
+        "Oh, that’s a pity. So how do appointments work for me?"
+       ],
+       [
+        "A",
+        "We run from March first to April thirtieth. Appointments are on Tuesday and Thursday evenings from six to nine and on Saturday mornings. There’s also a drop-in on Wednesday mornings, but that one is reserved for seniors."
+       ],
+       [
+        "B",
+        "What should I bring?"
+       ],
+       [
+        "A",
+        "All your tax slips, including your tuition slip from your school, which you can usually download from your student account. Also photo ID, last year’s notice of assessment if you have it, and a void cheque or your banking details if you want direct deposit."
+       ],
+       [
+        "B",
+        "Is direct deposit faster?"
+       ],
+       [
+        "A",
+        "Much faster. We file everything electronically, and with direct deposit, most people get their refund in about two weeks. With a cheque by mail, it can take six or eight."
+       ],
+       [
+        "B",
+        "One more question. I didn’t file anything for the year before last. Is that a problem?"
+       ],
+       [
+        "A",
+        "Not at all. We can do returns for up to three previous years at the same appointment. Just bring the slips for those years too. And it’s worth doing, because as a low-income student you may be owed credits you never received."
+       ],
+       [
+        "B",
+        "Okay. Can I book now?"
+       ],
+       [
+        "A",
+        "Bookings open on February fifteenth, online or by phone. Saturday slots tend to go within a day, so if that’s what you want, I’d book that morning."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why can the clinic help Agnieszka despite her tutoring income?",
+        "o": [
+         "Tutoring is not considered taxable income.",
+         "The amount is small and involves no expenses.",
+         "Students are exempt from the income limits.",
+         "Her employer reported the tutoring for her."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "we make an exception when it’s under a thousand dollars for the year and you have no business expenses to claim",
+        "x": "Self-employment income is normally excluded, but an exception applies under $1,000 with no expenses; she earned $800. Tutoring is taxable, and students still face the same income limits."
+       },
+       {
+        "q": "Why can’t the clinic prepare her mother’s return?",
+        "o": [
+         "Her mother’s income is above the clinic’s limit.",
+         "Seniors must attend the Wednesday morning drop-in instead.",
+         "Part of her income is something volunteers don’t handle.",
+         "Her mother is neither a student nor a dependant."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "rental income is one of the things our volunteers aren’t trained for, regardless of the amount",
+        "x": "Her basement rental income is outside the volunteers’ training, whatever the amount. Her income is actually lower than her daughter’s, so the income limit is not the issue."
+       },
+       {
+        "q": "What is true about the Wednesday sessions?",
+        "o": [
+         "Only older clients may attend them.",
+         "They run in the evening from six to nine.",
+         "They require an appointment made online.",
+         "They are meant for clients with rental income."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "that one is reserved for seniors",
+        "x": "The Wednesday morning drop-in is reserved for seniors. Six to nine refers to the Tuesday and Thursday evening appointments, and a drop-in needs no appointment."
+       },
+       {
+        "q": "According to Wendell, how can she receive her refund sooner?",
+        "o": [
+         "By filing on paper rather than electronically",
+         "By booking a Saturday morning appointment",
+         "By bringing last year’s notice of assessment",
+         "By giving the clinic her bank account details"
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "with direct deposit, most people get their refund in about two weeks",
+        "x": "Direct deposit, which requires banking details or a void cheque, brings the refund in about two weeks instead of six to eight. The clinic files everything electronically anyway."
+       },
+       {
+        "q": "What does Wendell imply about her unfiled return?",
+        "o": [
+         "Filing it could result in money for her.",
+         "She will be charged a penalty for filing late.",
+         "It must be filed before her current return.",
+         "It requires a separate appointment."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "as a low-income student you may be owed credits you never received",
+        "x": "He says she may be owed credits she never received, so filing could bring her money. Past years can be done at the same appointment, and no penalty is mentioned."
+       },
+       {
+        "q": "What does Wendell advise about Saturday appointments?",
+        "o": [
+         "They should be booked by phone rather than online.",
+         "They are available only between February 15 and March 1.",
+         "They should be booked as soon as bookings open.",
+         "They are best for clients filing several years at once."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "Saturday slots tend to go within a day",
+        "x": "Saturday slots fill within a day, so she should book on the morning bookings open. February 15 is when booking starts, not when Saturday sessions run, and both phone and online are possible."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.01
+     },
+     "B": {
+      "name": "Ingrid Solberg",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Police in Westbury are warning residents about a surge in text messages that claim to come from parcel delivery companies. The messages say a package could not be delivered because of an unpaid fee or an incomplete address, and they include a link to a website where recipients are asked to pay a small charge, usually between one and three dollars."
+       ],
+       [
+        "A",
+        "Detective Ingrid Solberg of the force’s financial crimes unit says the small amount is exactly what makes the scam work."
+       ],
+       [
+        "B",
+        "Nobody thinks twice about two dollars. That’s the point. The fraudsters aren’t after the two dollars at all. They want the card number, the expiry date and the security code, and within a few days, they’re using that card for purchases in the hundreds or thousands."
+       ],
+       [
+        "A",
+        "Police received more than three hundred reports in October alone, three times the number from the same month last year. Solberg says the timing is no accident. With holiday shopping beginning and many people expecting deliveries, a message about a missed parcel seems entirely believable."
+       ],
+       [
+        "A",
+        "One Westbury resident, a retired teacher who asked us not to use her name, told us she paid a one-dollar-ninety-nine redelivery fee after ordering a gift for her grandson. Four days later, her bank called about two purchases at an electronics website totalling more than eleven hundred dollars. Her bank refunded the money, but she says the experience has left her nervous about shopping online at all."
+       ],
+       [
+        "A",
+        "Solberg says legitimate delivery companies do not ask for payment by text message, and anyone who is unsure should go directly to the company’s official website or app rather than clicking a link."
+       ],
+       [
+        "B",
+        "If you’ve already entered your card details, call your bank immediately, using the number on the back of your card. Don’t wait to see whether anything happens. And please report it to us, even if you didn’t lose money. Every report helps us find where the messages are coming from."
+       ],
+       [
+        "A",
+        "Police say many of the messages are sent from overseas, which makes prosecution difficult. For now, they say, the best protection is a healthy dose of suspicion."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is the main purpose of the fake messages?",
+        "o": [
+         "To collect small fees from many people at once",
+         "To find out where residents live",
+         "To persuade people to order holiday gifts",
+         "To obtain details for larger fraudulent purchases"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "They want the card number, the expiry date and the security code",
+        "x": "The small fee is bait; the real goal is the card details, used later for purchases in the hundreds or thousands. Solberg says the fraudsters “aren’t after the two dollars at all”."
+       },
+       {
+        "q": "Why does Solberg believe the scam is especially effective now?",
+        "o": [
+         "Fewer people are reporting fraud to the police.",
+         "People are more likely to be waiting for parcels.",
+         "Delivery companies have recently started charging fees.",
+         "Messages sent from overseas cannot be blocked."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "many people expecting deliveries",
+        "x": "With holiday shopping under way, many people expect deliveries, so a missed-parcel message seems believable. Reports have actually tripled, and real delivery companies do not ask for payment by text."
+       },
+       {
+        "q": "What happened to the retired teacher?",
+        "o": [
+         "She recovered her losses but became more anxious.",
+         "She lost eleven hundred dollars that were not refunded.",
+         "She noticed the fraud before any purchases were made.",
+         "She was charged a fee for redelivering her grandson’s gift."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Her bank refunded the money, but she says the experience has left her nervous about shopping online at all.",
+        "x": "Her bank refunded the $1,100, but she is now nervous about shopping online. The purchases did happen; it was her bank, not she, that noticed them."
+       },
+       {
+        "q": "What does Solberg advise people who have already entered their card details?",
+        "o": [
+         "Wait a few days to see whether charges appear",
+         "Reply to the message to cancel the payment",
+         "Contact their bank without delay",
+         "Visit the delivery company’s office"
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "call your bank immediately",
+        "x": "She says to call the bank immediately and explicitly not to wait and see. Going to the company’s official website is advice for people who are unsure about a message, not for those already affected."
+       },
+       {
+        "q": "Why does Solberg ask people to report messages even when they lost nothing?",
+        "o": [
+         "So that the bank can refund the small fee",
+         "To help police trace the source of the scam",
+         "Because reports are needed for insurance claims",
+         "To warn delivery companies about their customers"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "Every report helps us find where the messages are coming from.",
+        "x": "Each report helps police find where the messages come from. Bank refunds and insurance claims are not linked to reporting in the news item."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three members of a condominium board are discussing how to pay for a new roof.",
+    "sp": {
+     "A": {
+      "name": "Gustavo",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     },
+     "B": {
+      "name": "Helena",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.02
+     },
+     "C": {
+      "name": "Kofi",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, let’s get started. Everyone’s read the reserve fund study, I assume? The short version is that the roof needs replacing within two years, the quote is three hundred and ten thousand, and we have one ninety in the reserve. So we’re a hundred and twenty thousand short."
+       ],
+       [
+        "B",
+        "Which works out to two thousand five hundred per unit if we do a special assessment. I know nobody likes the word, but it’s the cleanest way. We collect it, we pay the roofer, we’re done. No interest, no lingering debt."
+       ],
+       [
+        "C",
+        "Clean for the people who have two and a half thousand lying around, Helena. Half the owners in this building are retirees. Mrs. Abernathy on the third floor told me last month she had to choose between her dental work and her property taxes. A bill like that would be a crisis for her."
+       ],
+       [
+        "B",
+        "I’m not dismissing that. But what’s the alternative?"
+       ],
+       [
+        "C",
+        "The corporation borrows the money. There are lenders who specialize in condo loans. Spread over five years, it would add around fifty dollars a month to each unit’s fees. People can absorb fifty dollars a month far more easily than a lump sum."
+       ],
+       [
+        "A",
+        "Fifty a month for sixty months is three thousand, though. So every owner ends up paying five hundred more than with an assessment, just in interest."
+       ],
+       [
+        "C",
+        "Yes, it costs more overall. I’m not pretending otherwise. But it’s affordable, and affordable matters."
+       ],
+       [
+        "A",
+        "Can I put a different idea on the table? The engineer said within two years, not tomorrow. What if we patch the worst sections now, maybe fifteen thousand, and raise the regular fees gradually so the reserve covers the full roof in three or four years? No assessment, no loan."
+       ],
+       [
+        "B",
+        "Gustavo, the engineer also said patching a roof at the end of its life is throwing good money after bad. And there’s something else. I spoke to our insurance broker on Friday. If we knowingly put off a recommended replacement and the roof leaks, the insurer may refuse to cover the water damage."
+       ],
+       [
+        "A",
+        "Refuse? Even for the units below?"
+       ],
+       [
+        "B",
+        "That’s what she said. She was quite clear that it would be up to the adjuster, but she wouldn’t rule it out."
+       ],
+       [
+        "A",
+        "Well, that changes things. I’m not going to be the person who explains to the fourth floor why their ceilings aren’t covered. Fine, delaying is off the table."
+       ],
+       [
+        "C",
+        "So it’s assessment versus loan."
+       ],
+       [
+        "A",
+        "What about something in between? An assessment, but owners can choose to pay it in instalments over twelve months, interest-free, directly to the corporation?"
+       ],
+       [
+        "B",
+        "Can we afford that? The roofer will want a deposit."
+       ],
+       [
+        "A",
+        "The deposit’s thirty percent, about ninety-three thousand. We can pay that from the reserve. The balance is due when the work is finished, which won’t be until late summer. If people start paying in February, most of it will be in by then."
+       ],
+       [
+        "C",
+        "I could support that. It doesn’t help someone who can’t pay two hundred a month either, though."
+       ],
+       [
+        "B",
+        "Then for those few owners, we look at a longer arrangement case by case. I’d rather do that for three people than take out a loan for forty-eight."
+       ],
+       [
+        "C",
+        "Okay. That I can live with. Mrs. Abernathy would at least have a choice."
+       ],
+       [
+        "A",
+        "Good. So we propose a special assessment with an optional twelve-month payment plan, and hardship cases handled individually. It has to be approved at the general meeting in January. Kofi, would you draft the letter to owners? You’ll explain it more gently than either of us."
+       ],
+       [
+        "C",
+        "Ha. Sure, I’ll have a draft by next Friday."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does Helena see as the main advantage of a special assessment?",
+        "o": [
+         "It settles the cost quickly without extra charges.",
+         "It is easier for retired owners to afford.",
+         "It allows the roof to be replaced sooner.",
+         "It is the option preferred by the insurer."
+        ],
+        "a": 0,
+        "t": "viewpoint",
+        "ev": "No interest, no lingering debt.",
+        "x": "She values a quick, one-time payment with no interest or ongoing debt. Kofi argues that the lump sum is actually harder for retirees, and the insurer never states a preference."
+       },
+       {
+        "q": "Why does Kofi mention Mrs. Abernathy?",
+        "o": [
+         "To show that some owners have complained about the leaking roof",
+         "To suggest that she should be excused from paying",
+         "To illustrate that a lump sum would hurt some owners",
+         "To argue that property taxes are already too high"
+        ],
+        "a": 2,
+        "t": "purpose",
+        "ev": "A bill like that would be a crisis for her.",
+        "x": "Her struggle with dental bills and property taxes illustrates how a $2,500 bill would be a crisis for retirees. He never suggests excusing her from paying."
+       },
+       {
+        "q": "What is Gustavo’s concern about the loan?",
+        "o": [
+         "Lenders rarely approve loans for condo corporations.",
+         "Monthly fees would rise by more than fifty dollars.",
+         "Owners trying to sell their units would be affected.",
+         "Owners would pay more in total because of interest."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "So every owner ends up paying five hundred more than with an assessment, just in interest.",
+        "x": "He calculates that $50 a month for 60 months is $3,000, or $500 more per owner than the assessment. Kofi says specialist lenders exist, and fifty dollars is the monthly increase itself."
+       },
+       {
+        "q": "How does Kofi respond to the point about the loan’s total cost?",
+        "o": [
+         "He disputes Gustavo’s calculation.",
+         "He admits it but values affordability more.",
+         "He suggests a shorter loan to cut interest.",
+         "He agrees to drop the idea of a loan."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "Yes, it costs more overall. I’m not pretending otherwise. But it’s affordable, and affordable matters.",
+        "x": "He accepts that the loan costs more but argues that affordability matters more. He only gives up the loan later, after the instalment compromise is proposed."
+       },
+       {
+        "q": "Why does Gustavo abandon his plan to delay the replacement?",
+        "o": [
+         "The engineer said the roof could fail tomorrow.",
+         "Patching the worst sections would cost more than replacement.",
+         "Fees would have to rise too quickly to cover it.",
+         "Damage from a leak might not be covered by insurance."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "the insurer may refuse to cover the water damage",
+        "x": "The possibility that insurance would not cover leak damage changes his mind. The engineer said “within two years, not tomorrow”, and patching costs about $15,000, far less than a new roof."
+       },
+       {
+        "q": "How certain was the insurance broker that coverage would be refused?",
+        "o": [
+         "She considered it possible but not certain.",
+         "She said a refusal was almost guaranteed.",
+         "She thought only the top floor would be affected.",
+         "She said the adjuster had already decided."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "it would be up to the adjuster, but she wouldn’t rule it out",
+        "x": "Leaving it to the adjuster while not ruling it out means a refusal is possible, not certain. No decision has been made, and Gustavo asks about the units below, not just the top floor."
+       },
+       {
+        "q": "How do they plan to pay the roofer’s deposit?",
+        "o": [
+         "From the first instalments paid by owners",
+         "With a short-term loan from a condo lender",
+         "Using money already held in the reserve fund",
+         "By asking owners to pay thirty percent early"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "We can pay that from the reserve.",
+        "x": "The $93,000 deposit will come from the existing reserve. Owners’ instalments start in February and will cover the balance due at the end; thirty percent is the size of the deposit, not an owner payment."
+       },
+       {
+        "q": "Why does Gustavo ask Kofi to write the letter?",
+        "o": [
+         "Kofi was the first to propose the payment plan.",
+         "He thinks Kofi will communicate more sensitively.",
+         "Kofi has more free time before the January meeting.",
+         "Kofi knows the owners who need hardship plans."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "You’ll explain it more gently than either of us.",
+        "x": "Gustavo says Kofi will explain the plan more gently, meaning more sensitively. It was Gustavo himself who proposed the payment plan, and nothing is said about Kofi’s free time."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a report about whether young people should get credit cards early.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Ravi Dhaliwal",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "For many young Canadians, turning eighteen brings a flood of offers: student credit cards with no annual fee, a free pizza for signing up, cash back on textbooks. Banks say these cards are a valuable first step into financial adulthood. Critics say they are a trap. So should young people get a credit card as early as possible?"
+       ],
+       [
+        "A",
+        "The case for starting early rests on one idea: credit history. Lenders, landlords and even some employers look at credit reports, and a report with little or nothing on it can be almost as unhelpful as a bad one. A student who gets a card at eighteen, uses it for a phone bill and pays it in full every month will, by graduation, have four years of on-time payments. That can mean a lower interest rate on a first car loan, or simply getting the apartment instead of losing it to another applicant."
+       ],
+       [
+        "A",
+        "Twenty-year-old nursing student Corinne Laplante says her card has worked exactly as intended. She keeps it in a drawer, uses it only for her music subscription, and has the full balance paid automatically. ‘It’s boring,’ she told us, ‘and boring is the point.’"
+       ],
+       [
+        "A",
+        "But Ravi Dhaliwal, who teaches money management workshops for first-year students, says Corinne is not typical."
+       ],
+       [
+        "B",
+        "The students who come to me in trouble didn’t plan to get into debt. They used the card for one emergency, then paid the minimum because the minimum looked manageable. On a two-thousand-dollar balance at twenty percent, paying only the minimum can take well over a decade. That’s not a credit history anyone wants."
+       ],
+       [
+        "A",
+        "Dhaliwal isn’t opposed to young people having credit. His objection is to how and when."
+       ],
+       [
+        "B",
+        "If you don’t have a steady income yet, I’d rather see a secured card, where your limit is backed by your own deposit. It builds history the same way, but you can’t spend money you don’t have. And no student should be signing up for a card because of a free T-shirt."
+       ],
+       [
+        "A",
+        "Another popular approach is for parents to add a teenager as an authorized user on their own card. Supporters say it gives young people a head start without any risk to them. Dhaliwal is more cautious: it helps, he says, only if the parent’s own payment record is spotless, because the child’s history can reflect the parent’s habits, good or bad."
+       ],
+       [
+        "A",
+        "Banks, for their part, point out that student cards come with low limits, usually five hundred to a thousand dollars, precisely to limit the damage. Consumer groups respond that a low limit still charges a high rate."
+       ],
+       [
+        "A",
+        "Where nearly everyone agrees is on the basics: pay in full, pay on time, and treat the limit as a ceiling, not a target."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "According to the report, why might having no credit history be a problem?",
+        "o": [
+         "It prevents young students from opening their own bank accounts.",
+         "It causes banks to send them more marketing offers.",
+         "It leaves lenders and landlords with little to judge.",
+         "It is treated by lenders as worse than bad credit."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "a report with little or nothing on it can be almost as unhelpful as a bad one",
+        "x": "An empty report gives lenders and landlords little information; it is “almost as unhelpful” as a bad one. Option D overstates this by saying it is worse than bad credit."
+       },
+       {
+        "q": "What does Corinne mean by saying “boring is the point”?",
+        "o": [
+         "She finds managing a credit card tiresome.",
+         "She wishes her card offered more exciting rewards.",
+         "She rarely remembers that she has a card.",
+         "Limited, routine use is what makes it effective."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "and boring is the point",
+        "x": "She uses the card for one subscription and pays it automatically; this dull routine is exactly what builds good credit. She is not complaining, and she clearly knows the card is there."
+       },
+       {
+        "q": "According to Dhaliwal, how do students typically get into trouble?",
+        "o": [
+         "They apply for several cards to get free gifts.",
+         "One emergency leads to years of minimum payments.",
+         "They use their cards mainly for online shopping.",
+         "Their parents add them to badly managed accounts."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "They used the card for one emergency, then paid the minimum because the minimum looked manageable.",
+        "x": "Students use a card for one emergency and then pay only the minimum, which can take over a decade to clear. Free gifts are mentioned as a bad reason to sign up, not as the usual source of trouble."
+       },
+       {
+        "q": "Why does Dhaliwal recommend secured cards for students without steady income?",
+        "o": [
+         "Spending is limited to money the student has put down.",
+         "They charge much lower interest rates than student cards.",
+         "They build credit history more quickly.",
+         "They come with gifts that are actually useful."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "you can’t spend money you don’t have",
+        "x": "The limit is backed by the student’s own deposit, so they cannot overspend. He says it builds history “the same way”, not faster, and he says nothing about lower interest."
+       },
+       {
+        "q": "What is Dhaliwal’s view of being added as an authorized user?",
+        "o": [
+         "It carries no risk and should be encouraged.",
+         "It should only be done after age twenty-one.",
+         "Its value depends on the parent’s own record.",
+         "It is less effective than a secured card."
+        ],
+        "a": 2,
+        "t": "viewpoint",
+        "ev": "it helps, he says, only if the parent’s own payment record is spotless",
+        "x": "He says it helps only if the parent’s payment record is spotless. “No risk” is what supporters claim; Dhaliwal is more cautious than they are."
+       },
+       {
+        "q": "How do consumer groups respond to the banks’ point about low limits?",
+        "o": [
+         "They argue limits should be raised for students.",
+         "They say most students ignore their limits.",
+         "They agree that low limits solve the problem.",
+         "They note that interest rates remain high regardless."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "a low limit still charges a high rate",
+        "x": "Consumer groups reply that a low limit does not change the high interest rate. They do not agree with the banks or ask for higher limits."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Odile Ferrante | To: Bram Hollister | Subject: Need your fighting spirit",
+   "text": "Dear Bram,\n\nI hope the new job is treating you well. I’m writing partly to catch up, but mostly because I remember how you fought that airline over your cancelled flight last year and won, and I suspect I’m about to need some of your stubbornness.\n\nYou may remember the fridge I bought when we renovated the kitchen, the stainless one that cost far more than I wanted to spend. At the store, the salesman talked me into a five-year extended warranty for two hundred and twenty-nine dollars. ‘Complete peace of mind,’ he said. Last week, in the middle of that heat wave, the fridge stopped cooling. I lost about three hundred dollars’ worth of food, including everything in the freezer.\n\nThe technician the warranty company sent said the compressor had failed, probably because of a power surge during the storm on the weekend. Two days later, the company emailed to say that damage caused by power surges is excluded from my plan. I’ve read the contract since, and to be fair, it does say that, on page eleven, in very small print. But how would anyone prove what caused a compressor to fail?\n\nThen it got stranger. My neighbour, who used to sell appliances, told me that most manufacturers cover the compressor for five years on their own, regardless of any extended warranty. She was right: the manufacturer confirmed the part is covered. The labour, however, is not, and the repair quote is six hundred and forty dollars, of which three hundred and eighty is labour. So I would essentially have paid for an extended warranty that duplicates coverage I already had, and still be left with a large bill.\n\nMy home insurance might cover the spoiled food, but my deductible is five hundred dollars, so there’s no point claiming.\n\nWhat I’m considering now is a complaint to the provincial consumer protection office, arguing that the extended warranty was sold to me under false pretences. Before I do, I wanted your opinion. Is that worth the effort, or should I just pay the labour and move on? And did you ever regret taking the airline to small claims court?\n\nIn the meantime, I’m living on takeout and a cooler full of ice.\n\nWarmly,\nOdile",
+   "qs": [
+    {
+     "q": "Why is Odile writing to Bram in particular?",
+     "o": [
+      "He works for a company that sells extended warranties.",
+      "He has experience challenging a company successfully.",
+      "He helped her choose her fridge last year.",
+      "He recently had a problem with the same store."
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "I remember how you fought that airline over your cancelled flight last year and won",
+     "x": "Bram won a dispute with an airline, so she wants his “stubbornness” and advice. The neighbour, not Bram, used to sell appliances, and nothing links him to the store."
+    },
+    {
+     "q": "How did Odile feel about the fridge when she bought it?",
+     "o": [
+      "She was proud of finding such a good deal.",
+      "She thought it was too small for her kitchen.",
+      "She was sure it would last for many years.",
+      "She felt it cost more than she had planned."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "the stainless one that cost far more than I wanted to spend",
+     "x": "She says it cost far more than she wanted to spend, so it was over her budget. Being talked into a warranty does not show certainty that the fridge would last."
+    },
+    {
+     "q": "Why did the warranty company refuse her claim?",
+     "o": [
+      "The suspected cause of the breakdown is not covered.",
+      "The technician could not find a fault in the compressor.",
+      "She had not read page eleven before signing the contract.",
+      "Her extended warranty had expired before the heat wave."
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "damage caused by power surges is excluded from my plan",
+     "x": "The technician blamed a power surge, and surges are excluded from her plan. The technician did find a fault, and she read page eleven only after the refusal; that was not the reason given."
+    },
+    {
+     "q": "What does Odile suggest about the power-surge exclusion?",
+     "o": [
+      "It is far clearer than the salesman’s explanation.",
+      "It covers food that spoils during a breakdown.",
+      "It could be applied without any real proof.",
+      "It was added after she bought the fridge."
+     ],
+     "a": 2,
+     "t": "attitude",
+     "ev": "But how would anyone prove what caused a compressor to fail?",
+     "x": "Her question suggests the company can blame a surge without being able to prove it. She admits the exclusion was always in the contract, so it was not added later."
+    },
+    {
+     "q": "What did Odile learn from the manufacturer?",
+     "o": [
+      "The part is covered, but the labour to fit it is not.",
+      "The compressor is covered only by the extended warranty.",
+      "Labour costs are covered for five years after purchase.",
+      "The repair will cost three hundred and eighty in total."
+     ],
+     "a": 0,
+     "t": "paraphrase",
+     "ev": "The labour, however, is not",
+     "x": "The manufacturer covers the compressor but not the labour. The total repair is $640; $380 is only the labour part, so option D misuses a number from the letter."
+    },
+    {
+     "q": "Why won’t Odile claim the spoiled food on her home insurance?",
+     "o": [
+      "Her home policy excludes all damage caused by power surges.",
+      "The warranty company has already paid for the food.",
+      "She does not have receipts for the food she lost.",
+      "The loss is smaller than the amount she must pay first."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "my deductible is five hundred dollars, so there’s no point claiming",
+     "x": "Her food loss of about $300 is below the $500 deductible, so a claim would pay nothing. The surge exclusion belongs to the extended warranty, not her home policy."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Bram’s response to Odile. Complete the response by choosing the best option for each blank.",
+    "text": "Dear Odile,\n\nWhat a mess, and in a heat wave too! First, the good news: you are in a better position than you think. Since the manufacturer already covers the compressor, the real fight is only about {1}.\n\nMy advice is to write to the store before going to the consumer protection office. Point out that the salesman promised ‘complete peace of mind’ while selling you coverage that {2}. Ask for a full refund of the two hundred and twenty-nine dollars, which would {3} the labour bill. Stores often settle quietly rather than deal with a formal complaint.\n\nIf they refuse, then yes, file the complaint. As for small claims court, I never regretted it, although it took {4} than I expected. Keep every email and note the date of each phone call.\n\nAnd please, don’t throw away {5} until this is settled. It may be the only evidence of what actually failed.\n\nHang in there,\nBram",
+    "blanks": [
+     {
+      "o": [
+       "the cost of the new part",
+       "the food in your freezer",
+       "three hundred and eighty dollars",
+       "the original price of the fridge"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "of which three hundred and eighty is labour",
+      "x": "With the part covered, only the $380 labour is still in dispute. The new part costs her nothing, and the food is a separate loss below her insurance deductible."
+     },
+     {
+      "o": [
+       "largely repeated what you already had",
+       "fully protected you against power surges",
+       "expired after only two years",
+       "included food spoilage"
+      ],
+      "a": 0,
+      "t": "paraphrase",
+      "ev": "So I would essentially have paid for an extended warranty that duplicates coverage I already had",
+      "x": "The extended warranty duplicated the manufacturer’s compressor coverage. It explicitly excluded power surges, so option B contradicts the letter."
+     },
+     {
+      "o": [
+       "be about equal to",
+       "fully pay for",
+       "be more than",
+       "cover more than half of"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "of which three hundred and eighty is labour",
+      "x": "$229 is about 60% of the $380 labour bill, so it covers more than half. It is not equal to or greater than the bill, and it cannot pay for all of it."
+     },
+     {
+      "o": [
+       "less money",
+       "more patience",
+       "fewer forms",
+       "less time"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "did you ever regret taking the airline to small claims court?",
+      "x": "“Although” introduces a drawback, so court took more patience than expected. “Less time” would be an advantage, which does not fit after “although”."
+     },
+     {
+      "o": [
+       "your receipts for the food",
+       "the extended warranty contract",
+       "the broken compressor",
+       "your cooler full of ice"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "the compressor had failed",
+      "x": "The failed compressor is physical evidence of what broke and possibly why. The contract matters too, but it does not show “what actually failed”."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Cobaltline Mobile – Monthly Plans (prices before tax)",
+    "intro": "All plans include unlimited Canada-wide calling and texting. Prices below are per line, per month. No plan requires a contract.",
+    "table": {
+     "cols": [
+      "Plan",
+      "Price",
+      "Data",
+      "If you go over",
+      "Canada–US roaming"
+     ],
+     "rows": [
+      [
+       "Lite",
+       "$29",
+       "5 GB",
+       "$10 per extra GB",
+       "$12 per day"
+      ],
+      [
+       "Standard",
+       "$45",
+       "25 GB",
+       "Speed reduced (no charge)",
+       "$12 per day"
+      ],
+      [
+       "Plus",
+       "$60",
+       "60 GB",
+       "Speed reduced (no charge)",
+       "Included (up to 5 GB)"
+      ],
+      [
+       "Max",
+       "$80",
+       "Unlimited",
+       "–",
+       "Included (up to 15 GB)"
+      ],
+      [
+       "Senior 65+",
+       "$25",
+       "10 GB",
+       "$10 per extra GB",
+       "Not available"
+      ]
+     ]
+    },
+    "notes": [
+     "Autopay discount: $5 off per line per month when bills are paid automatically from a bank account (not a credit card).",
+     "Family discount: accounts with 3 or more lines get 10% off each line’s price after the autopay discount. Senior plans cannot be part of a family account.",
+     "Overage is charged for each full or partial GB over the limit.",
+     "Roaming day passes are charged only on days when the phone uses data, calls or texts while abroad.",
+     "Device financing: phones can be paid over 24 months at 0% interest. If you cancel your plan early, the remaining device balance is due immediately.",
+     "Plan changes take effect at the start of the next billing cycle."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the phone plans. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Elio,\n\nI compared the Cobaltline plans last night. If all three of us, you, me and Nico, take Standard and pay by autopay from our joint account, the total would be {1} a month, which is less than we pay now for just two lines.\n\nI know you mentioned adding your mother so she’d get the discount too, but she {2}. She’d still save money on the Senior plan by herself, though.\n\nThe only thing I’m unsure about is our Seattle trip in July. We’re there for six days, and I’ll probably only use my phone on four of them, so on Standard the roaming would cost me {3}. If I switch to Plus instead, roaming is included and my monthly price, with both discounts, would be {4}. Since I travel for work a few times a year, that might be worth it.\n\nFinally, about your new phone: financing is interest-free, but if we leave Cobaltline next year, {5}.\n\nLove,\nPriyanka",
+    "blanks": [
+     {
+      "o": [
+       "$108.00",
+       "$121.50",
+       "$120.00",
+       "$135.00"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "10% off each line’s price after the autopay discount",
+      "x": "($45 − $5) = $40, minus 10% = $36 per line × 3 = $108. $121.50 forgets autopay, and $120.00 forgets the family discount."
+     },
+     {
+      "o": [
+       "would get the same 10% discount",
+       "would need to pay for roaming",
+       "can’t be part of our family account",
+       "must choose the Max plan"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Senior plans cannot be part of a family account",
+      "x": "Senior plans cannot be part of a family account, so she cannot share the discount. Option A is exactly what Elio wrongly hoped for."
+     },
+     {
+      "o": [
+       "$72",
+       "$12",
+       "$60",
+       "$48"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "Roaming day passes are charged only on days when the phone uses data, calls or texts while abroad.",
+      "x": "She pays $12 only on the four days she uses the phone: 4 × $12 = $48. $72 would charge all six days of the trip."
+     },
+     {
+      "o": [
+       "$54.00",
+       "$49.50",
+       "$55.00",
+       "$60.00"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Autopay discount: $5 off per line per month",
+      "x": "Plus: $60 − $5 autopay = $55, minus 10% family discount = $49.50. $55.00 forgets the family discount; $54.00 applies 10% before autopay."
+     },
+     {
+      "o": [
+       "the rest of the phone would be due at once",
+       "he would start paying interest on the phone",
+       "he couldn’t change plans for 24 months",
+       "the phone would be cheaper with autopay"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "If you cancel your plan early, the remaining device balance is due immediately.",
+      "x": "Cancelling before 24 months makes the remaining device balance due immediately. Financing stays at 0% interest, and plans can be changed at the next billing cycle."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A customer on Lite uses 7.5 GB in one month and pays by credit card. What is the bill before tax?",
+     "o": [
+      "$54",
+      "$49",
+      "$44",
+      "$59"
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "Overage is charged for each full or partial GB over the limit.",
+     "x": "7.5 GB is 2.5 GB over, charged as 3 GB × $10 = $30, plus $29 = $59. Paying by credit card means no autopay discount, and $54 charges only 2.5 GB."
+    },
+    {
+     "q": "Which of these customers pays the least per month?",
+     "o": [
+      "A 70-year-old on Senior paying by credit card, using 8 GB",
+      "A 30-year-old on Lite paying by autopay, using 4 GB",
+      "A member of a 3-line family account on Standard with autopay",
+      "A 66-year-old on Senior with autopay, using 12 GB"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Autopay discount: $5 off per line per month when bills are paid automatically from a bank account (not a credit card).",
+     "x": "Lite with autopay and no overage costs $24. Senior by credit card is $25; the family Standard line is $36; Senior with autopay at 12 GB is $20 + $20 overage = $40."
+    },
+    {
+     "q": "A customer on Max switches to Lite on the 10th of the month. When does the lower price apply?",
+     "o": [
+      "Immediately, from the 10th",
+      "After the 24-month period",
+      "From the next billing cycle",
+      "After a pro-rated refund"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Plan changes take effect at the start of the next billing cycle.",
+     "x": "Plan changes take effect at the start of the next billing cycle, not immediately. The 24-month period refers to device financing, not plan changes."
+    }
+   ]
+  },
+  "p3": {
+   "title": "The Personalized Grocery Bill",
+   "paras": [
+    "Not long ago, a grocery loyalty program meant a paper card stamped at the checkout, with a free coffee or a small discount after ten visits. Today, most large grocery chains in Canada run loyalty apps that record every item a member buys, along with when and where. In return, members receive points and, increasingly, offers designed for them alone. A shopper who regularly buys one brand of yogurt might be offered a discount on a competing brand; another who has not visited in a month might suddenly receive a generous coupon. Many shoppers sign up at the till simply to get the member price on a single item. Programs that began as simple rewards schemes have become, in the words of one marketing professor, “the most detailed record of household life that most families never think about.”",
+    "The technology behind these offers is not mysterious, even if companies rarely explain it. Software groups shoppers by their habits and predicts which discount is most likely to change their behaviour, whether that means trying a new product, buying a larger size or returning to a store they have abandoned. For disciplined shoppers, the savings can be real; some members report saving several hundred dollars a year by planning their trips around personalized offers. Retailers benefit in a second way as well. Food and household brands now pay grocery chains to place their offers in front of carefully selected customers, using the chains’ data. This business, sometimes called retail media, has become an important new source of profit for an industry known for thin margins.",
+    "Critics see a less comfortable side. When offers are personalized, two neighbours standing in the same aisle may effectively pay different prices for the same box of cereal, and neither can see what the other was offered. Privacy is another concern. A list of purchases can reveal far more than taste: buying a pregnancy test, diabetic supplies or large quantities of alcohol says something about a person’s health and private life. Consent is usually given by ticking a box during sign-up, and the full privacy policy can run to several thousand words. Some privacy advocates argue that shoppers cannot meaningfully agree to uses of their data that they would never imagine, such as having their habits analyzed on behalf of a cereal manufacturer.",
+    "For shoppers who want the benefits without giving up too much, consumer groups offer some simple, practical advice. Compare regular shelf prices across stores, not just the discounts, since a chain with a generous app may still be more expensive overall than a discount grocer with no program at all. Check the app’s privacy settings, which often allow members to limit how their data is shared, even if they cannot stop it from being collected. Watch for changes to the value of points, which programs can reduce with little notice. And remember that the app is designed by the store, for the store: an offer that feels like a gift is often an invitation to spend more than planned. A shopping list written before opening the app remains the best defence."
+   ],
+   "qs": [
+    {
+     "q": "Companies that make food products pay for access to selected shoppers.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "Food and household brands now pay grocery chains to place their offers in front of carefully selected customers",
+     "x": "Paragraph B describes brands paying chains to reach carefully selected customers, a business called retail media."
+    },
+    {
+     "q": "Belonging to a store’s rewards program does not guarantee lower prices overall.",
+     "a": "D",
+     "t": "inference",
+     "ev": "a chain with a generous app may still be more expensive overall than a discount grocer with no program at all",
+     "x": "Paragraph D warns that a chain with a generous app can still be more expensive overall than a discount grocer."
+    },
+    {
+     "q": "Most loyalty app members save several hundred dollars a year.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph B says only that “some members report” such savings; no paragraph says most members save that much."
+    },
+    {
+     "q": "Customers who stop shopping at a store may be tempted back with special offers.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "another who has not visited in a month might suddenly receive a generous coupon",
+     "x": "Paragraph A gives the example of a shopper who has not visited for a month receiving a generous coupon."
+    },
+    {
+     "q": "Shoppers may be unable to compare the deals they receive with those given to others.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "neither can see what the other was offered",
+     "x": "Paragraph C says two neighbours may pay different prices and neither can see the other’s offer."
+    },
+    {
+     "q": "The government plans to ban the sale of loyalty data to manufacturers.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Data use for manufacturers is discussed in B and C, but no government plan or ban is mentioned anywhere."
+    },
+    {
+     "q": "Offers are chosen according to how likely they are to influence what a shopper does.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "predicts which discount is most likely to change their behaviour",
+     "x": "Paragraph B explains that software predicts which discount is most likely to change a shopper’s behaviour."
+    },
+    {
+     "q": "A record of purchases can expose sensitive personal information.",
+     "a": "C",
+     "t": "inference",
+     "ev": "says something about a person’s health and private life",
+     "x": "Paragraph C notes that buying items like pregnancy tests or diabetic supplies reveals health and private details."
+    },
+    {
+     "q": "Members may be able to restrict the sharing of their data but not its collection.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "allow members to limit how their data is shared, even if they cannot stop it from being collected",
+     "x": "Paragraph D says privacy settings can limit sharing even though collection cannot be stopped."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Charging for Paper Statements Punishes the Wrong People",
+   "byline": "Opinion | by Marguerite Dacosta, retired credit union manager",
+   "text": "Last month, my neighbour Albert, who is eighty-one, showed me his chequing account statement. Tucked between a pharmacy purchase and his pension deposit was a new line: ‘Paper statement fee – $2.95’. Albert has had an account at the same bank for fifty-four years. He does not own a computer, and his flip phone cannot open a website. He was, in effect, being fined for being old.\n\nAlbert is not alone. Over the past few years, banks, phone companies and utilities have quietly made electronic statements the default and attached a fee to paper. The amounts are small, usually between two and five dollars a month, and the companies present them as a nudge toward greener, more efficient habits. For most customers, the nudge works. I spent thirty years managing a credit union branch, and I would be the last person to argue that everyone should receive paper. Online statements are faster, searchable and, for the vast majority of people, simply better.\n\nBut a fee does not fall evenly. The people who still rely on paper are disproportionately seniors, people in rural areas with unreliable internet, people with visual impairments who use magnifiers rather than screens, and low-income households without a computer at home. Three dollars a month means little to a young professional; for a pensioner juggling several accounts, it can add up to well over a hundred dollars a year for the privilege of seeing her own money.\n\nThere is also a safety argument that the companies prefer not to mention. In my years at the branch, the customers who caught fraud earliest were often the ones who sat down with a paper statement and a pencil once a month. A printed page is hard to ignore. An email that says ‘Your statement is ready’ is easy to delete unopened, and fraudsters know it: fake ‘statement ready’ emails are among the most common phishing messages.\n\nThe environmental case for the fee is weaker than it sounds. Paper statements are a tiny share of any company’s footprint, and if the goal were truly environmental, the fee would be paired with a plan, such as donating the revenue to tree planting. Instead, it simply goes to the bottom line.\n\nLet me be clear about what I am not proposing. I am not asking companies to stop encouraging electronic statements. Offer incentives, make the online version easy to use, send a friendly reminder. What I object to is penalizing those who cannot switch.\n\nThe solution is simple. Any customer over sixty-five, any customer with a disability, and anyone who declares that they lack reliable internet access should receive paper statements free of charge, no questions asked. Some institutions already do this voluntarily, and they have not gone bankrupt as a result. The rest should be required to, and regulators should check that the exemption is actually explained to customers rather than hidden on page nine of a fee schedule.\n\nAlbert eventually got his fee waived, but only after I spent forty minutes on the phone with his bank on his behalf. Not everyone has a former bank manager living next door.",
+   "qs": [
+    {
+     "q": "Why does the writer describe Albert’s situation?",
+     "o": [
+      "To show how the fee affects people who cannot easily switch",
+      "To criticize Albert’s bank for its poor customer service",
+      "To explain why many seniors prefer to keep their old accounts",
+      "To show that fees have risen sharply over fifty years"
+     ],
+     "a": 0,
+     "t": "purpose",
+     "ev": "He was, in effect, being fined for being old.",
+     "x": "Albert, with no computer and a basic phone, illustrates how the fee penalizes people who cannot go digital. His fifty-four years show loyalty, not rising fees over time."
+    },
+    {
+     "q": "What is the writer’s attitude toward electronic statements?",
+     "o": [
+      "She believes they make fraud more common.",
+      "She considers them suitable only for young people.",
+      "She thinks they are better for most customers.",
+      "She doubts that they save companies any money."
+     ],
+     "a": 2,
+     "t": "attitude",
+     "ev": "for the vast majority of people, simply better",
+     "x": "She calls online statements faster, searchable and “simply better” for most people. Her objection is to penalizing those who cannot switch, not to electronic statements."
+    },
+    {
+     "q": "According to the writer, why are paper statements useful in preventing fraud?",
+     "o": [
+      "Banks print warnings about scams on them.",
+      "Fraudsters cannot copy printed statements.",
+      "Paper statements arrive faster than emails.",
+      "People are more likely to review them carefully."
+     ],
+     "a": 3,
+     "t": "paraphrase",
+     "ev": "A printed page is hard to ignore.",
+     "x": "Customers who sat down with a printed statement caught fraud earliest, because paper is hard to ignore. She says online statements are faster, so option C reverses her point."
+    },
+    {
+     "q": "What does the writer suggest about the environmental reason for the fee?",
+     "o": [
+      "The fee is too small to change customers’ habits.",
+      "The real motive is likely to be financial.",
+      "Digital statements harm the environment more.",
+      "Companies already give the fee to tree planting."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "Instead, it simply goes to the bottom line.",
+     "x": "The fee goes to profits rather than any green plan, implying a financial motive. Tree planting is her hypothetical example of what a truly green plan might include."
+    },
+    {
+     "q": "What does the final paragraph imply?",
+     "o": [
+      "Most affected customers lack the help Albert had.",
+      "Banks usually waive the fee if asked politely.",
+      "The writer plans to return to work at a bank.",
+      "Albert’s bank has changed its policy for everyone."
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "Not everyone has a former bank manager living next door.",
+     "x": "Albert succeeded only with forty minutes of expert help, which most customers do not have. Only his fee was waived; the bank’s policy did not change."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I’m sixty-eight and I do all my banking online, so I {1} that seniors automatically need paper. Plenty of us are perfectly comfortable with apps, and lumping us all together feels a little patronizing.\n\nThat said, Ms. Dacosta is right about my older sister, who lives on a farm where the internet {2}. For her, a paper statement is the only practical option, and the fee she pays every month {3}.\n\nI’m less convinced by the fraud argument. In my experience, an app that sends a notification for every purchase catches fraud {4} than a statement that arrives weeks later. My bank texted me within a minute when someone used my card in another province.\n\nSo my suggestion would be to base the free paper option on {5} rather than age. If you can’t get online reliably, you shouldn’t pay extra. If you can, a small nudge is fair.",
+    "blanks": [
+     {
+      "o": [
+       "fully agree",
+       "don’t accept",
+       "can confirm",
+       "often hear"
+      ],
+      "a": 1,
+      "t": "viewpoint",
+      "ev": "Any customer over sixty-five",
+      "x": "As a senior who banks online, she rejects the idea that all seniors need paper, which is why she calls the grouping patronizing. “Fully agree” contradicts the next sentence."
+     },
+     {
+      "o": [
+       "is fast and cheap",
+       "was installed recently",
+       "is shared with neighbours",
+       "cuts out most evenings"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "people in rural areas with unreliable internet",
+      "x": "Her sister matches the article’s rural group with unreliable internet, so the connection keeps failing. Fast, cheap internet would not make paper “the only practical option”."
+     },
+     {
+      "o": [
+       "is waived on request",
+       "goes to tree planting",
+       "is simply unfair",
+       "covers the printing cost"
+      ],
+      "a": 2,
+      "t": "viewpoint",
+      "ev": "What I object to is penalizing those who cannot switch.",
+      "x": "She agrees with the article that people who cannot switch should not be penalized, so the fee is unfair. The article says the money goes to profits, not tree planting."
+     },
+     {
+      "o": [
+       "far sooner",
+       "less reliably",
+       "more cheaply",
+       "less often"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "My bank texted me within a minute",
+      "x": "Her bank alerted her within a minute, compared with a statement arriving weeks later, so apps catch fraud far sooner. Her example contradicts “less reliably”."
+     },
+     {
+      "o": [
+       "income level",
+       "internet access",
+       "account type",
+       "disability"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "anyone who declares that they lack reliable internet access",
+      "x": "Her next sentence (“If you can’t get online reliably…”) shows the test should be internet access, one of the article’s own criteria. She does not mention income or disability."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Three weeks ago, you ordered a $340 standing desk from an online store, Tallowmere Home. It arrived while you were travelling, and a neighbour accepted the delivery for you. When you returned and opened the box, you found that the desktop was cracked. The store has told you that its 14-day return period has ended.",
+   "bullets": [
+    "Explain what happened with the delivery",
+    "Describe the damage and why you could not report it sooner",
+    "Explain what you want the store to do"
+   ],
+   "model": "Dear Tallowmere Home Customer Service,\n\nI am writing about order number TH-58213, a standing desk that I purchased on October 2 for $340. The desk was delivered on October 6 while I was away on a business trip, so my neighbour kindly accepted the parcel and stored it in her garage.\n\nWhen I returned on October 21 and opened the box, I discovered a crack about thirty centimetres long running across the corner of the desktop. The outer box showed no obvious damage, so neither my neighbour nor I had any reason to suspect a problem. I have attached photos of the crack and the packaging.\n\nI understand that your return period is fourteen days. However, this is not a case of a customer changing their mind. The product was damaged when it arrived, and I reported it within a day of seeing it.\n\nI would therefore ask you to send a replacement desktop or, if that is not possible, to refund the full purchase price and arrange collection of the damaged desk at no cost to me.\n\nI look forward to your reply.\n\nSincerely,\nCaspian Moreau"
+  },
+  "t2": {
+   "intro": "Your bank needs to reduce costs at its branch in your small town. It is asking customers which of the following options they would prefer.",
+   "question": "Which option do you prefer?",
+   "a": "Keep the branch open, but only three days a week (Tuesday, Thursday and Saturday), with the ATM available every day.",
+   "b": "Close the branch and replace it with a mobile banking van that visits the town every Wednesday, plus a free phone line with banking advisors seven days a week.",
+   "model": "I would prefer Option A, keeping the branch open three days a week, because it protects the things that matter most to a small town.\n\nFirst, a permanent branch with a daily ATM guarantees access to cash. Many local businesses, such as the farmers’ market and the hockey arena canteen, still depend on cash, and a van that visits once a week cannot replace a machine that is always there. If the van is delayed by a snowstorm, the whole town could be without banking services for two weeks.\n\nSecond, three days a week, including Saturday, is actually quite convenient. People who work Monday to Friday could still speak to someone in person on the weekend, whereas the van would only be available on Wednesdays, when most people are at work.\n\nI admit that the seven-day phone line is attractive, and younger customers might use it often. However, sensitive matters like mortgages or a death in the family are much easier to handle face to face.\n\nFor these reasons, a part-time branch is the better compromise for our community."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your nephew has just started his first full-time job. He plans to move into an expensive downtown apartment and buy a new car right away. Advise him on how to manage his money in his first year of work.",
+   "model": "Congratulations on the job, Sami! That’s huge. I know you’re excited to finally have a real salary, but the first few months are when it’s easiest to lock yourself into costs you’ll regret. So here’s my advice. Before you sign a lease downtown or walk into a car dealership, sit down and work out your actual take-home pay, after tax, pension contributions and benefits. It’s usually quite a bit less than people expect. Then try the fifty-thirty-twenty idea: roughly half for needs like rent, transit and groceries, thirty percent for fun, and at least twenty percent for savings and debt. If the downtown apartment takes more than a third of your pay on its own, it’s probably too much, at least for now. As for the new car, honestly, I’d wait. If you live downtown, you might not even need one, and a car loan plus insurance and parking could easily eat four or five hundred dollars a month. Also, set up an automatic transfer into savings the day after payday, so you never see that money. Build an emergency fund of three months’ expenses first. Once that’s there, you can treat yourself with a clear conscience."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you lost money because of a mistake or an oversight. What happened, and what did you learn?",
+   "model": "A couple of years ago, I signed up for a free thirty-day trial of a meal-kit service. I fully intended to cancel before the trial ended, but I was moving apartments that month, and I completely forgot. About three months later, I was going through my credit card statement and noticed that I’d been charged seventy-nine dollars every two weeks. I’d been paying for boxes of food that were being delivered to my old address! I called the company, and they cancelled the subscription, but they only refunded the last charge, because, according to them, the deliveries had been made. In total, I lost about four hundred dollars. I was really annoyed, mostly with myself. Since then, whenever I sign up for a free trial, I set a reminder on my phone two days before it ends, and I check my statements every month."
+  },
+  "t3": {
+   "scene": {
+    "bg": "indoor",
+    "alt": "Inside an electronics store, at a grey service counter under a yellow sign that reads “RETURNS & EXCHANGES”. Behind the counter, an employee in a blue shirt stands next to a cash register and an open laptop. In front of the counter, a man in a red shirt is holding a large box and looks upset. Behind him, a woman in a green shirt is waiting in line while looking at her phone, and a small child in an orange shirt stands beside her. On the left, an older man with glasses and a shopping bag walks past a shelf with boxes labelled TV. A clock hangs on the wall, there is a window on the right and a potted plant in the corner.",
+    "items": [
+     [
+      "window",
+      440,
+      60,
+      170,
+      100
+     ],
+     [
+      "clock",
+      320,
+      60
+     ],
+     [
+      "sign",
+      330,
+      200,
+      "RETURNS & EXCHANGES",
+      "#f1c40f"
+     ],
+     [
+      "shelf",
+      30,
+      320,
+      150
+     ],
+     [
+      "box",
+      45,
+      270,
+      45,
+      40,
+      "TV",
+      "#7f8c8d"
+     ],
+     [
+      "box",
+      110,
+      270,
+      45,
+      40,
+      "TV",
+      "#7f8c8d"
+     ],
+     [
+      "person",
+      340,
+      300,
+      {
+       "shirt": "#2980b9",
+       "hairStyle": "short",
+       "skin": "#c68642"
+      }
+     ],
+     [
+      "counter",
+      230,
+      330,
+      220,
+      "#95a5a6"
+     ],
+     [
+      "register",
+      280,
+      300
+     ],
+     [
+      "laptop",
+      385,
+      300
+     ],
+     [
+      "person",
+      270,
+      372,
+      {
+       "shirt": "#c0392b",
+       "hold": "box",
+       "holdColor": "#d35400",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      480,
+      372,
+      {
+       "shirt": "#16a085",
+       "hold": "phone",
+       "hairStyle": "long",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "person",
+      530,
+      378,
+      {
+       "kid": true,
+       "shirt": "#f39c12"
+      }
+     ],
+     [
+      "person",
+      170,
+      372,
+      {
+       "shirt": "#7f8c8d",
+       "pose": "walk",
+       "hold": "bag",
+       "glasses": true,
+       "hair": "#bdc3c7"
+      }
+     ],
+     [
+      "plant",
+      605,
+      385,
+      1
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows the returns counter at an electronics store, and it looks fairly busy. In the middle, there’s a long grey counter with a yellow sign above it that says “Returns and Exchanges”. Behind the counter, a store employee in a blue shirt is standing next to a cash register and an open laptop, probably looking up a receipt. In front of the counter, a man in a red shirt is holding a large box, and from his body language, he doesn’t seem very happy, so maybe he’s returning something that doesn’t work. Behind him, there’s a short line. A woman in a green shirt is waiting her turn and looking at her phone, and a little child in an orange shirt is standing next to her, looking a bit bored. On the left, an older man with grey hair and glasses is walking past with a shopping bag, near a shelf with a couple of TV boxes on it. There’s a clock on the back wall, a window on the right and a potted plant in the corner."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the next few minutes will be all about the man with the box. He’ll probably put it on the counter and explain what’s wrong with it, and the employee will check his receipt on the laptop. If he’s past the return period, they might have a bit of a disagreement, and the employee may end up calling a manager over. Meanwhile, the woman in line will probably get impatient, because her child already looks bored. I wouldn’t be surprised if the little one starts wandering toward the TV boxes on the shelf, and she’ll have to put her phone away and go after them. As for the older man with the shopping bag, he seems to have finished shopping, so he’ll most likely head for the exit. Eventually, I think the man with the box will get an exchange or store credit, and the woman will finally reach the counter."
+  },
+  "t5": {
+   "intro": "Your daughter is starting university and needs a laptop. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Refurbished laptop",
+     "details": [
+      "$650",
+      "1-year warranty",
+      "Two-year-old model",
+      "Small scratches on the lid",
+      "New battery already installed"
+     ]
+    },
+    {
+     "title": "New laptop on sale",
+     "details": [
+      "$1,050 (regularly $1,300)",
+      "2-year warranty",
+      "Latest model",
+      "Sale ends Sunday",
+      "Lighter and thinner"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Leased laptop",
+    "details": [
+     "$45 per month",
+     "Upgrade every 2 years",
+     "Repairs included",
+     "Must be returned at the end",
+     "Minimum 24-month lease"
+    ]
+   },
+   "otherWho": "Your partner prefers",
+   "persuade": "Your partner prefers leasing a laptop. Persuade your partner that your choice is better.",
+   "model": "I understand why leasing sounds easy, with repairs included and a new laptop every two years, but I really think the refurbished one is the better choice for Maya. First, let’s look at the real cost. Forty-five dollars a month for twenty-four months is over a thousand dollars, and at the end we have to hand it back and we own nothing. The refurbished laptop is six hundred and fifty, once, and it’s ours. Second, she’s a first-year student, and laptops get dropped, stuffed into backpacks and covered in coffee. A couple of scratches on the lid won’t bother her, and the battery has already been replaced, which is usually the first thing to fail. It also comes with a one-year warranty, so we’re covered if something goes wrong early. And honestly, for essays and video calls, she doesn’t need the latest model. We could put the money we save toward her textbooks."
+  },
+  "t6": {
+   "situation": "Your sister has asked to borrow $3,000 to buy a used car so that she can get to her new job, which is far from any bus route. You and your partner have saved exactly that amount for a vacation in May and have already paid a non-refundable deposit. Your partner does not yet know about your sister’s request.",
+   "options": [
+    "Talk to your sister and explain why you cannot lend her the full amount.",
+    "Talk to your partner and ask whether you could lend your sister the money."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hi Leena, thanks for coming over. I’ve been thinking about what you asked me on Sunday, and I wanted to talk to you face to face rather than by text. First of all, I really want to help you get a car, especially with your new job being so far from the bus route. But I have to be honest. Three thousand dollars is almost exactly what Daniel and I have saved for our trip in May, and we’ve already paid a deposit we can’t get back. If I lent you the whole amount, we’d have to cancel, and that wouldn’t be fair to him. So here’s what I can offer. I could lend you a thousand dollars now, and you could pay it back at a hundred a month. Also, Daniel’s cousin sells used cars, and I know he has some reliable ones under five thousand. Maybe we could go and see him together this weekend. Would that help?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should businesses be allowed to refuse cash and accept only card or phone payments? Explain your reasons.",
+   "model": "In my opinion, businesses should not be allowed to refuse cash, at least not for everyday essentials like groceries, pharmacies and public transit. I understand why some businesses want to go cashless. Card payments are faster, there’s no risk of robbery, and staff don’t have to count the till at the end of the night. For a small café, that can save real time and money. However, a cashless policy shuts out people who are already struggling. Not everyone has a bank account or a smartphone, and many seniors, newcomers and people on low incomes rely on cash because it helps them stick to a budget. When my grandmother goes shopping, she takes exactly the amount she plans to spend, and that’s how she avoids debt. There’s also the question of resilience. Last winter, a power outage knocked out payment terminals in my neighbourhood for an entire day, and the only stores that could sell anything were the ones that accepted cash. That said, I don’t think every business must handle cash forever. A reasonable compromise would be to require essential services to accept it, while letting restaurants or online-style shops choose for themselves."
+  },
+  "t8": {
+   "scene": {
+    "bg": "beach",
+    "alt": "An unusual small vacation cottage on a beach. Instead of a normal roof, a gigantic red-and-white beach umbrella is planted right through the middle of the cottage, towering above it and shading the whole house. A sign in front reads “$89/NIGHT”. A woman in a yellow shirt is pointing at the umbrella while a man in a green shirt takes a photo with a camera. A sandcastle and a striped towel are on the sand, the sun is shining and a bird flies overhead.",
+    "items": [
+     [
+      "sun",
+      570,
+      60
+     ],
+     [
+      "bird",
+      160,
+      80
+     ],
+     [
+      "cloud",
+      380,
+      55,
+      0.8
+     ],
+     [
+      "house",
+      320,
+      340,
+      "#f5deb3",
+      "#c0392b"
+     ],
+     [
+      "big",
+      "umbrellaBeach",
+      320,
+      300,
+      3,
+      "#e74c3c"
+     ],
+     [
+      "sign",
+      520,
+      370,
+      "$89/NIGHT",
+      "#fff"
+     ],
+     [
+      "person",
+      110,
+      375,
+      {
+       "shirt": "#f1c40f",
+       "pose": "point",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "person",
+      170,
+      378,
+      {
+       "shirt": "#27ae60",
+       "hold": "camera",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "sandcastle",
+      470,
+      385
+     ],
+     [
+      "towel",
+      560,
+      390,
+      "#3498db"
+     ]
+    ]
+   },
+   "prompt": "You and a friend are looking for a cheap place to stay on a beach holiday, and you have found this cottage on a rental website. Describe it to your friend on the phone, and explain whether you think you should book it. Your friend cannot see the picture.",
+   "model": "Okay, I found something, but you have to hear this. It’s a small beach cottage, cream-coloured, right on the sand. But instead of a normal roof, there’s a gigantic red-and-white beach umbrella stuck right through the middle of the house, towering over it. It’s about three times taller than the cottage itself, like someone planted it there to keep the whole place in the shade. There’s a sign out front that says eighty-nine dollars a night, which is the cheapest thing I’ve seen anywhere near the beach. In the photo, there’s even a couple outside pointing at it and taking pictures. Honestly, I think we should book it. The price is great, and it would definitely be memorable. My only worry is the weather. If it gets windy or there’s a storm, I’m not sure how that umbrella holds up, or whether the rain gets in around it. So before we pay, I’d like to message the owner and ask about the cancellation policy and any reviews. What do you think?"
+  }
+ }
+}

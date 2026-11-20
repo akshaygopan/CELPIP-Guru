@@ -1,0 +1,1834 @@
+{
+ "id": "t02",
+ "title": "Test 2",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two employees at a furniture company are dealing with a delivery problem.",
+    "sp": {
+     "A": {
+      "name": "Nadia",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Owen",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Owen, I need your help with something urgent. Remember the Delacroix order? The dining table and eight chairs for the restaurant on Queen Street?"
+       ],
+       [
+        "B",
+        "Sure, that was supposed to go out yesterday. Did something happen?"
+       ],
+       [
+        "A",
+        "It went out, all right. Just not to the restaurant. The driver delivered everything to a Delacroix Dental Clinic on the other side of town. Same surname, completely different customer."
+       ],
+       [
+        "B",
+        "You’re kidding. How did nobody catch that?"
+       ],
+       [
+        "A",
+        "The address in our system was auto-filled from an old order. I’ve already checked, and the clinic signed for it without looking. Their receptionist assumed it was office furniture they’d ordered."
+       ],
+       [
+        "B",
+        "Okay, so the furniture isn’t lost, at least. What’s the problem with just picking it up again?"
+       ],
+       [
+        "A",
+        "Timing. The restaurant reopens after renovations on Friday night, and they have a fully booked dinner service. Mrs. Delacroix called me this morning, and, to put it mildly, she was not impressed. She said if the table isn’t there by Thursday at noon, she’ll cancel the order and post about it online."
+       ],
+       [
+        "B",
+        "Thursday at noon. That gives us two days. Where are our trucks this week?"
+       ],
+       [
+        "A",
+        "Both are fully scheduled until Friday. That’s the real headache."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What went wrong with the Delacroix order?",
+        "o": [
+         "The table and chairs were damaged during delivery.",
+         "The restaurant refused to sign for the delivery.",
+         "The furniture was taken to the wrong customer.",
+         "The order was delivered a day late."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "The driver delivered everything to a Delacroix Dental Clinic on the other side of town",
+        "x": "It was delivered to a dental clinic with the same surname, i.e. the wrong customer. It went out on time, nothing was damaged, and the clinic (not the restaurant) signed."
+       },
+       {
+        "q": "Why did the clinic accept the furniture?",
+        "o": [
+         "Its staff thought it was something they had ordered.",
+         "The driver insisted that someone at the front desk sign for it.",
+         "It belonged to the same owner as the restaurant.",
+         "It had ordered the same table the week before."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Their receptionist assumed it was office furniture they’d ordered",
+        "x": "The receptionist assumed it was their own office furniture. There is no link between the owners – only the surname is the same."
+       },
+       {
+        "q": "What has Mrs. Delacroix threatened to do?",
+        "o": [
+         "Ask for a full refund but keep the table and chairs anyway",
+         "Report the company to a consumer agency",
+         "Delay the restaurant’s reopening",
+         "Cancel the order and criticize the company publicly"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "she’ll cancel the order and post about it online",
+        "x": "Cancel + post online = cancel and criticize publicly. No refund request, no consumer agency."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "What about a courier? Some of those freight companies do same-day pickups."
+       ],
+       [
+        "A",
+        "I called two. The cheaper one can’t take anything over two metres long, and the table is two point four. The other one can do it, but they want six hundred dollars, and they need forty-eight hours’ notice."
+       ],
+       [
+        "B",
+        "Forty-eight hours puts us right at the deadline. Too risky. Could we rent a truck ourselves? There’s a rental place near the warehouse."
+       ],
+       [
+        "A",
+        "I thought about that. A cube van would fit everything. But you need two people to carry a table that size, and our insurance doesn’t cover staff moving furniture in a rented vehicle. If someone gets hurt, we’re on the hook."
+       ],
+       [
+        "B",
+        "Hmm. What about swapping a route? If one of our regular deliveries can wait a day, we could free up a truck on Thursday morning."
+       ],
+       [
+        "A",
+        "That’s exactly what I was hoping you’d say. You’re the one who builds the schedules. Is there anything on Thursday that’s flexible?"
+       ],
+       [
+        "B",
+        "Let me look. Thursday morning, truck two has three stops in the west end. One is a mattress for a customer who told us she’d be away until the weekend anyway. If I move her to Friday afternoon, the truck could swing by the clinic first thing and still make the restaurant by ten."
+       ],
+       [
+        "A",
+        "Owen, you’re a lifesaver."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Owen reject the more expensive courier?",
+        "o": [
+         "It cannot carry a table that long.",
+         "It would arrive too close to the deadline.",
+         "It does not do same-day pickups.",
+         "It would cost more than the furniture is worth."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "Forty-eight hours puts us right at the deadline. Too risky.",
+        "x": "The 48-hour notice would put delivery right at the deadline – too risky. The length limit applies to the cheaper courier."
+       },
+       {
+        "q": "What is the problem with renting a truck?",
+        "o": [
+         "Employees would not be insured while moving the furniture.",
+         "The rental office is too far from the warehouse to be practical.",
+         "No rental trucks are large enough.",
+         "Only one employee is available on Thursday."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "our insurance doesn’t cover staff moving furniture in a rented vehicle",
+        "x": "Their insurance does not cover staff in a rented vehicle. A cube van would fit, and the rental place is near the warehouse."
+       },
+       {
+        "q": "Why can the mattress delivery be moved?",
+        "o": [
+         "The customer has asked for a refund.",
+         "The mattress is not in stock yet.",
+         "The customer will not be home until later.",
+         "The west-end route has too many stops."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "One is a mattress for a customer who told us she’d be away until the weekend anyway",
+        "x": "The customer is away until the weekend, so a Friday delivery suits her."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, so truck two picks up at the clinic around eight and goes straight to Queen Street. Should I call Mrs. Delacroix now?"
+       ],
+       [
+        "B",
+        "I would. But don’t just give her a time. She needs to hear that we’re taking responsibility. Maybe offer her something for the trouble."
+       ],
+       [
+        "A",
+        "I was thinking a discount. Ten percent off the order?"
+       ],
+       [
+        "B",
+        "That’s fair. Or, and this might mean more to a restaurant owner, offer to have the installers set up the table and chairs and take away all the packaging. She’s reopening the next night; the last thing she wants is cardboard everywhere."
+       ],
+       [
+        "A",
+        "Good point. I’ll offer both and let her choose. And I’ll call the clinic to apologize and make sure someone is there at eight to let the driver in."
+       ],
+       [
+        "B",
+        "And then we need to fix the auto-fill problem, or this will happen again."
+       ],
+       [
+        "A",
+        "Already on it. I emailed IT an hour ago."
+       ],
+       [
+        "B",
+        "Good. And when you talk to the clinic, ask whether anything got scratched while it was sitting in their waiting room. I’d rather we find a mark ourselves than have Mrs. Delacroix find it on Friday night."
+       ],
+       [
+        "A",
+        "Agreed. I’ll ask the driver to check every piece at the clinic and text me photos before he loads anything onto the truck."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does Owen think is most important when Nadia calls Mrs. Delacroix?",
+        "o": [
+         "Giving her an exact time for the morning delivery",
+         "Showing that the company accepts the blame",
+         "Explaining how the mistake happened",
+         "Asking her to delete her online post"
+        ],
+        "a": 1,
+        "t": "main",
+        "ev": "She needs to hear that we’re taking responsibility",
+        "x": "“Don’t just give her a time … she needs to hear that we’re taking responsibility.” The time alone is not enough."
+       },
+       {
+        "q": "Why does Owen suggest offering setup and packaging removal?",
+        "o": [
+         "It would cost the company less than offering a ten percent discount.",
+         "Mrs. Delacroix asked for it on the phone.",
+         "The installers are already scheduled to visit her.",
+         "It might be more useful to someone about to reopen a restaurant."
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "this might mean more to a restaurant owner",
+        "x": "He thinks it “might mean more to a restaurant owner” reopening the next night. Cost is not compared."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A patient is calling a dental clinic.",
+    "sp": {
+     "A": {
+      "name": "Receptionist",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Patient",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Good morning, Harbourview Dental, this is Kim speaking."
+       ],
+       [
+        "B",
+        "Hi, Kim. My name is Raj Patel. I have an appointment for a cleaning next Tuesday at three, but I need to change it. My company just moved our team meeting to Tuesday afternoon."
+       ],
+       [
+        "A",
+        "No problem, Mr. Patel. Let me pull up your file. Okay, I see you’re with the hygienist, Marta. She’s fully booked the rest of next week, I’m afraid. Her next opening is the twenty-ninth, a Monday, at eight a.m."
+       ],
+       [
+        "B",
+        "The twenty-ninth? That’s almost three weeks away. Is there anyone else?"
+       ],
+       [
+        "A",
+        "Our other hygienist, Daniel, has a cancellation this Thursday at four thirty. Would that work?"
+       ],
+       [
+        "B",
+        "This Thursday… I could make that if I leave work a bit early. Actually, I should mention, I had a filling fall out a couple of days ago. It doesn’t hurt, but there’s a bit of a gap."
+       ],
+       [
+        "A",
+        "Oh, okay. In that case, I’d rather book you with Dr. Lam directly so she can look at the filling at the same time as the cleaning. Otherwise you’d need two visits. She has an hour free on Thursday at four. Is that too early?"
+       ],
+       [
+        "B",
+        "Four is tight, but I’ll manage. Will my insurance cover the filling?"
+       ],
+       [
+        "A",
+        "Your plan covers eighty percent of basic restorations, so a filling would fall under that. The cleaning is fully covered once every nine months, and your last one was in March, so you’re fine. I’ll send the claim directly to your insurer, so you’ll only pay the difference on the day."
+       ],
+       [
+        "B",
+        "Great. And sorry, one more thing. You used to send reminder emails, but I didn’t get one this time."
+       ],
+       [
+        "A",
+        "We switched to text reminders last month. I see we don’t have a mobile number for you. Could I add one now?"
+       ],
+       [
+        "B",
+        "Sure, it’s four one six, five five five, zero one nine two."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Mr. Patel want to change his appointment?",
+        "o": [
+         "He has a new appointment with his doctor.",
+         "He forgot about a previous meeting.",
+         "A work commitment has been rescheduled.",
+         "He is going on a business trip."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "My company just moved our team meeting to Tuesday afternoon",
+        "x": "His company moved its team meeting to Tuesday afternoon, so a work commitment changed. He never mentions a doctor’s appointment or a meeting he forgot about."
+       },
+       {
+        "q": "Why does the receptionist book him with Dr. Lam?",
+        "o": [
+         "Both problems can be treated in one visit.",
+         "Daniel is not available on Thursday.",
+         "Dr. Lam is the only one covered by his insurance.",
+         "His filling is causing him a lot of pain."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Otherwise you’d need two visits",
+        "x": "Dr. Lam can look at the filling during the cleaning, so he avoids two visits. He says it does not hurt."
+       },
+       {
+        "q": "What will Mr. Patel pay for on Thursday?",
+        "o": [
+         "The full cost of the cleaning only",
+         "Nothing at all",
+         "The full cost of the filling",
+         "Part of the cost of the filling"
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "Your plan covers eighty percent of basic restorations",
+        "x": "The cleaning is fully covered; the filling is 80% covered, so he pays the remaining 20% – part of its cost."
+       },
+       {
+        "q": "Why didn’t Mr. Patel receive a reminder?",
+        "o": [
+         "His email address in their file was out of date.",
+         "The clinic now sends reminders by text message.",
+         "The clinic stopped sending reminders.",
+         "He had asked not to receive them."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "We switched to text reminders last month",
+        "x": "Reminders are now by text, and they did not have his mobile number."
+       },
+       {
+        "q": "What is Mr. Patel’s attitude towards the new appointment time?",
+        "o": [
+         "He finds it inconvenient but accepts it.",
+         "He is delighted with it.",
+         "He refuses it and asks for Monday.",
+         "He is worried it is too late in the day."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "Four is tight, but I’ll manage",
+        "x": "“Four is tight, but I’ll manage” shows the time is inconvenient but he accepts it. He does not ask for the Monday opening on the twenty-ninth."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A college student is meeting with an academic advisor.",
+    "sp": {
+     "A": {
+      "name": "Advisor",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     },
+     "B": {
+      "name": "Student",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Come on in, Hana. Your email said you were thinking about switching programs?"
+       ],
+       [
+        "B",
+        "Yes. I’m in the first year of Business Administration, but I’ve realized I’m much more interested in the graphic design electives than the accounting courses. I’d like to move to Graphic Design for next September."
+       ],
+       [
+        "A",
+        "That’s a common switch, actually. A few things to know. First, Graphic Design has a portfolio requirement. You’ll need to submit ten to fifteen pieces by the end of February. They don’t all have to be digital; drawings and photography count too."
+       ],
+       [
+        "B",
+        "And is there a deadline to apply for the switch itself, separate from the portfolio?"
+       ],
+       [
+        "A",
+        "Internal transfer applications open in January and close on March first, so you’d be sending in the form and the portfolio at almost the same time. There’s no application fee for current students, at least."
+       ],
+       [
+        "B",
+        "I have quite a few pieces from my electives. Would those count?"
+       ],
+       [
+        "A",
+        "Absolutely, as long as they’re your own work. Second, credits. Your general education courses, like English and Psychology, will transfer automatically. Your two design electives will count as program courses, so you’d start second semester partly ahead. But the business courses, accounting, marketing, and so on, won’t count towards Design, except as general electives, and there are only two elective slots."
+       ],
+       [
+        "B",
+        "So I’d lose some credits."
+       ],
+       [
+        "A",
+        "Probably two courses’ worth. The bigger issue is the timeline. Graphic Design is a three-year advanced diploma, and the first-year design studio course is only offered in the fall. So even with your transfers, you’d most likely graduate a semester later than your friends who started in Design."
+       ],
+       [
+        "B",
+        "A semester later. Hmm. What about money? My tuition is paid for this year through a scholarship."
+       ],
+       [
+        "A",
+        "Good that you asked. The entrance scholarship you have is tied to Business Administration. If you switch, you’d lose the remaining value, which looks like fifteen hundred dollars. However, Design has its own awards based on portfolio, and students who transfer in are eligible, so it’s worth applying."
+       ],
+       [
+        "B",
+        "Okay. What would you do in my position?"
+       ],
+       [
+        "A",
+        "I can’t make the decision for you. But I’d suggest booking a tour of the design studios and sitting in on a class. Students who do that tend to be much more confident about the switch, either way."
+       ],
+       [
+        "B",
+        "That makes sense. I’ll email the department about a tour this week."
+       ],
+       [
+        "A",
+        "Good. Mention that you’re a possible transfer student; they sometimes pair visitors with someone in second year who can answer questions honestly."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does the advisor say about the portfolio?",
+        "o": [
+         "It must contain only digital designs.",
+         "It must be submitted before December.",
+         "It can include work from her current courses.",
+         "It is optional for students already at the college."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "Absolutely, as long as they’re your own work",
+        "x": "Work from her electives counts as long as it is her own. Drawings and photography count too, and the deadline is the end of February."
+       },
+       {
+        "q": "Which courses will NOT help her complete the Design program, except as general electives?",
+        "o": [
+         "English and Psychology",
+         "Accounting and marketing",
+         "Her design electives",
+         "The first-year studio course"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "the business courses, accounting, marketing, and so on, won’t count towards Design",
+        "x": "Accounting and marketing are business courses that count only as general electives. English and Psychology transfer automatically, and her design electives count as program courses."
+       },
+       {
+        "q": "Why will she probably finish later than students who started in Design?",
+        "o": [
+         "She will need to wait for her portfolio results.",
+         "She must repeat her general education courses.",
+         "The Design program is longer than Business.",
+         "A required course is offered only once a year."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "the first-year design studio course is only offered in the fall",
+        "x": "The required studio course is only offered in the fall, which delays her by a semester."
+       },
+       {
+        "q": "What will happen to her scholarship if she switches?",
+        "o": [
+         "It will transfer automatically to Design.",
+         "She will have to pay it back.",
+         "She will lose the rest of it.",
+         "It will be reduced to fifteen hundred dollars."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "you’d lose the remaining value",
+        "x": "She would lose the remaining value ($1,500). Nothing is said about paying it back."
+       },
+       {
+        "q": "What does the advisor say about Design awards?",
+        "o": [
+         "Transfer students can apply for them.",
+         "They are only for students who start in first year.",
+         "They are worth more than her current scholarship.",
+         "They are based on grades in business courses."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "students who transfer in are eligible",
+        "x": "Transfer students are eligible. Their value is never compared to her scholarship."
+       },
+       {
+        "q": "What does the advisor recommend?",
+        "o": [
+         "Staying in Business and taking more design electives",
+         "Switching programs immediately",
+         "Speaking with her friends in Design",
+         "Visiting the Design program before deciding"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "I’d suggest booking a tour of the design studios and sitting in on a class",
+        "x": "He will not decide for her but suggests touring the studios and sitting in on a class."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Transit official",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Commuters in Northgate will soon wait for the bus in a little more comfort. The city announced today that twenty bus shelters along its busiest routes will be replaced with heated, fully enclosed shelters before the end of January."
+       ],
+       [
+        "A",
+        "The new shelters use infrared heaters that switch on only when someone presses a button, and they turn off automatically after ten minutes. They also include real-time arrival screens and a phone charging port. Each shelter costs about thirty-eight thousand dollars, roughly three times the price of a standard one."
+       ],
+       [
+        "A",
+        "The city’s transit director, Paul Mbeki, says the investment is aimed at a specific group of riders."
+       ],
+       [
+        "B",
+        "For a healthy commuter, five minutes at minus twenty-five is uncomfortable. For a senior or someone with a disability, it can be dangerous, and frankly it keeps a lot of people from using transit in winter at all. Our data shows ridership among seniors drops by almost a third between December and March."
+       ],
+       [
+        "A",
+        "The locations were chosen based on how many people board at each stop and how close the stop is to seniors’ residences and medical clinics. Critics on council argued the money would be better spent on more frequent buses, so people don’t have to wait at all. Mbeki says the two goals are not in competition, as the shelters are funded by a federal accessibility grant that cannot be used for operating costs such as drivers’ wages."
+       ],
+       [
+        "A",
+        "If the shelters are well used, the city plans to add thirty more next year. Riders can comment on the locations through the city’s website until November thirtieth. The first ten shelters are expected to open by mid-December, beginning with the stops outside Northgate General Hospital and the Elm Street seniors’ residence."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How do the new shelters save energy?",
+        "o": [
+         "They use solar power during the day.",
+         "The heaters work only on demand and for a limited time.",
+         "They are heated only when it is below minus twenty-five.",
+         "They turn off when no buses are expected."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "switch on only when someone presses a button, and they turn off automatically after ten minutes",
+        "x": "Heat comes on only when someone presses a button and turns off after ten minutes."
+       },
+       {
+        "q": "Who is the program mainly intended for?",
+        "o": [
+         "Older and disabled riders",
+         "Students who travel early in the morning",
+         "Office workers commuting downtown",
+         "Tourists visiting in winter"
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "For a senior or someone with a disability, it can be dangerous",
+        "x": "Mbeki points to seniors and people with disabilities, whose winter ridership drops."
+       },
+       {
+        "q": "What does Mbeki say about ridership?",
+        "o": [
+         "Seniors prefer buses with more frequent service.",
+         "Total ridership has dropped by a third.",
+         "Fewer seniors ride the bus during winter months.",
+         "Ridership is highest near medical clinics."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "ridership among seniors drops by almost a third between December and March",
+        "x": "Seniors’ ridership drops by almost a third in winter – not total ridership."
+       },
+       {
+        "q": "How does Mbeki respond to the critics on council?",
+        "o": [
+         "He agrees that buses should be more frequent.",
+         "He says the grant cannot pay for extra bus service.",
+         "He promises to hire more drivers next year.",
+         "He says the shelters cost less than buying new buses."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "cannot be used for operating costs such as drivers’ wages",
+        "x": "The grant cannot pay operating costs such as wages, so it could not fund more frequent buses anyway."
+       },
+       {
+        "q": "What can residents do until November thirtieth?",
+        "o": [
+         "Apply for a seniors’ transit pass",
+         "Test the shelters at a demonstration site",
+         "Vote on whether to build more shelters",
+         "Give feedback on where the shelters are placed"
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "Riders can comment on the locations through the city’s website",
+        "x": "Riders can comment on the shelter locations online, which means giving feedback on placement. Adding thirty more shelters depends on use; residents do not vote on it."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three members of a condominium board are discussing a proposal.",
+    "sp": {
+     "A": {
+      "name": "Gerald",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 0.96
+     },
+     "B": {
+      "name": "Mei",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.05
+     },
+     "C": {
+      "name": "Luis",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Next item: the request from residents to install electric vehicle chargers in the underground garage. We’ve now had eleven owners ask for them. Mei, you got the quotes?"
+       ],
+       [
+        "B",
+        "I did. The electrician’s estimate for a basic system, ten chargers on a shared circuit, is about ninety thousand dollars. The main cost isn’t the chargers themselves, it’s upgrading the building’s electrical panel, which would need to be done regardless of how many chargers we install."
+       ],
+       [
+        "C",
+        "Ninety thousand. And we have, what, a hundred and forty units? So every owner would pay over six hundred dollars, including the ones who don’t drive, or don’t even have a parking spot."
+       ],
+       [
+        "B",
+        "That’s one option, but not the only one. The province has a rebate that covers up to fifty percent for multi-unit buildings, and we could charge the users a monthly fee to recover the rest over time."
+       ],
+       [
+        "C",
+        "Over how much time, though? If it takes fifteen years, the owners who paid upfront may have sold and moved on by then."
+       ],
+       [
+        "A",
+        "Fair point. Luis, are you against the idea in general, or just the funding?"
+       ],
+       [
+        "C",
+        "Honestly, the funding. I know electric cars are the future. My concern is fairness. I’m on a fixed income now that I’ve retired, and I don’t want to subsidize my neighbour’s Tesla."
+       ],
+       [
+        "B",
+        "I understand, but think about resale value. Buyers are already asking about chargers. A realtor told me units in buildings without them are starting to sit on the market longer. So even owners who never charge a car benefit in the long run."
+       ],
+       [
+        "C",
+        "That may be true downtown. I’m not sure it applies to our neighbourhood yet."
+       ],
+       [
+        "A",
+        "Let me suggest a middle path. The panel upgrade is the part that benefits the building as a whole, so it could come from the reserve fund, after the rebate. The individual chargers, which are about two thousand dollars each, would be paid for entirely by the owners who want them. And their electricity would be metered separately."
+       ],
+       [
+        "B",
+        "I could support that. It might slow things down, though; some people won’t want to pay two thousand dollars upfront."
+       ],
+       [
+        "C",
+        "That’s a lot closer to fair. My only question is whether the reserve fund can take that hit. We’ve got the roof membrane coming up in three years."
+       ],
+       [
+        "A",
+        "That’s exactly the right question. Mei, could you ask the property manager to update the reserve fund study with this scenario before our next meeting?"
+       ],
+       [
+        "C",
+        "And while she’s at it, could she find out how other buildings handle the metering? I don’t want the board reading meters and sending out bills every month."
+       ],
+       [
+        "A",
+        "Good idea. The electrician mentioned that most systems now bill users automatically through an app, so it shouldn’t add any work for us."
+       ],
+       [
+        "B",
+        "Will do. And I’ll confirm the rebate deadline. I think applications close in the spring."
+       ],
+       [
+        "C",
+        "Then I’d like to see the numbers before I commit. But I won’t block it if the reserve fund is healthy."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "According to Mei, what makes the project expensive?",
+        "o": [
+         "The chargers themselves",
+         "The number of residents requesting chargers",
+         "The work needed on the building’s electrical system",
+         "The cost of separate meters"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "it’s upgrading the building’s electrical panel",
+        "x": "Mei says the main cost is upgrading the building’s electrical panel, not the chargers themselves, and the panel work is needed however many chargers are installed."
+       },
+       {
+        "q": "Why does Luis object to dividing the cost among all owners?",
+        "o": [
+         "He thinks people who do not use chargers should not pay for them.",
+         "He believes electric cars will soon be replaced by something else.",
+         "He does not trust the electrician’s estimate.",
+         "He plans to sell his unit soon."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I don’t want to subsidize my neighbour’s Tesla",
+        "x": "He objects on fairness grounds – non-users and people without parking would pay. He says EVs are the future."
+       },
+       {
+        "q": "What is Luis’s concern about recovering costs through user fees?",
+        "o": [
+         "Users might refuse to pay the monthly fees once they were installed.",
+         "The rebate does not allow user fees.",
+         "Fees would be higher than in other buildings.",
+         "It could take so long that the original payers have moved away."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "the owners who paid upfront may have sold and moved on by then",
+        "x": "If repayment takes 15 years, those who paid upfront may have sold by then."
+       },
+       {
+        "q": "Why does Mei mention the realtor?",
+        "o": [
+         "To suggest that owners should sell their units",
+         "To show that chargers may benefit all owners’ property values",
+         "To prove that units in downtown buildings sell for higher prices",
+         "To find a buyer for a unit in the building"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "even owners who never charge a car benefit in the long run",
+        "x": "The realtor supports her point that chargers help resale value for everyone."
+       },
+       {
+        "q": "How does Luis react to Mei’s argument about resale value?",
+        "o": [
+         "He doubts it applies to their area.",
+         "He fully agrees with it.",
+         "He says it is irrelevant because he will not sell.",
+         "He asks for evidence from the realtor."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "I’m not sure it applies to our neighbourhood yet",
+        "x": "He thinks it may be true downtown but doubts it applies to their neighbourhood."
+       },
+       {
+        "q": "Under Gerald’s proposal, who would pay for each individual charger?",
+        "o": [
+         "All owners, divided equally",
+         "The building’s reserve fund",
+         "The owners who want one",
+         "The provincial rebate program"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "would be paid for entirely by the owners who want them",
+        "x": "The chargers themselves are paid for entirely by owners who want them; the panel would come from the reserve fund."
+       },
+       {
+        "q": "What does Mei think might happen under Gerald’s proposal?",
+        "o": [
+         "The reserve fund might not cover the roof membrane.",
+         "Fewer owners might install chargers at first.",
+         "The rebate might be cancelled.",
+         "Luis might block the project."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "some people won’t want to pay two thousand dollars upfront",
+        "x": "She worries it might “slow things down” because some owners will not pay $2,000 upfront, so fewer chargers at first. The reserve fund and roof are Luis’s concern, not hers."
+       },
+       {
+        "q": "What will Luis most likely do at the next meeting?",
+        "o": [
+         "Vote against the proposal regardless of the numbers",
+         "Ask for a second electrician’s quote",
+         "Propose replacing the roof membrane first",
+         "Support the plan if the reserve fund can afford it"
+        ],
+        "a": 3,
+        "t": "prediction",
+        "ev": "I won’t block it if the reserve fund is healthy",
+        "x": "He wants the numbers but will not block it if the reserve fund is healthy."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about school start times.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Should high school start later in the morning? The question has divided parents, teachers and bus operators across the region since the school board proposed moving the high school bell from eight o’clock to nine fifteen next September."
+       ],
+       [
+        "A",
+        "The board’s case rests largely on sleep research. Teenagers’ internal clocks shift during puberty, which means many genuinely can’t fall asleep before eleven at night. Studies from districts that have made the change report that students sleep about forty minutes more on school nights, and some saw modest improvements in attendance and in grades for first-period classes. Student council representatives have been among the loudest supporters, though they admit that many students will simply stay up later."
+       ],
+       [
+        "A",
+        "The strongest opposition comes from an unexpected direction: logistics. The region’s school buses currently run in tiers, picking up high school students first and then elementary children. If high schools start later, the order would flip, and some elementary students would be waiting at bus stops in the dark before seven thirty. The bus company says that running both groups at once would require forty more buses and drivers it simply does not have."
+       ],
+       [
+        "A",
+        "Working parents have mixed views. Some welcome the change; others say they rely on older children to walk younger siblings to school or care for them after classes, which would be harder with a later dismissal. Coaches, meanwhile, worry that practices pushed into the evening will collide with part-time jobs."
+       ],
+       [
+        "A",
+        "Then there is the question of cost. The board estimates that reorganizing bus routes, even without new vehicles, would add about one point two million dollars a year to its transportation budget, largely because of extra driver hours. Board staff say that figure could come down if some elementary schools shifted their hours slightly as well, but elementary principals have not yet been formally consulted."
+       ],
+       [
+        "A",
+        "Teachers’ representatives have taken a cautious position. They support the goal but want guarantees that their own working day will not be extended, and they point out that research on academic gains is more mixed than the board’s summary suggests."
+       ],
+       [
+        "A",
+        "Students’ own views, however, are more divided than the student council’s campaign suggests. A survey run at two high schools found that about sixty percent of grade nine and ten students favoured the later start, compared with just under half of grade twelve students, many of whom already work part-time after school and worry about finishing their shifts later in the evening."
+       ],
+       [
+        "A",
+        "The board will hold three public consultations in February. Officials say a compromise, such as an eight forty-five start, is not off the table."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is the main reason the board gives for the change?",
+        "o": [
+         "Parents have complained about buses arriving too early.",
+         "Students need more time for part-time jobs.",
+         "Teenagers are biologically inclined to sleep later.",
+         "Teachers have requested a later start."
+        ],
+        "a": 2,
+        "t": "main",
+        "ev": "Teenagers’ internal clocks shift during puberty",
+        "x": "The board’s case rests on sleep research showing that teenagers’ internal clocks shift during puberty. Complaints about early buses are not part of the board’s reasoning."
+       },
+       {
+        "q": "What do student representatives acknowledge?",
+        "o": [
+         "Some students may go to bed later as a result.",
+         "Grades will not improve.",
+         "Most students oppose the change.",
+         "First-period classes should be cancelled."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "many students will simply stay up later",
+        "x": "Student representatives support the change but admit that many students will simply stay up later. They never say grades will fail to improve."
+       },
+       {
+        "q": "Why does the bus company oppose the proposal?",
+        "o": [
+         "Its drivers are unwilling to work later shifts in the afternoon.",
+         "Its buses would have to pick up young children in the dark.",
+         "It would lose money running the elementary routes on a later schedule.",
+         "It does not have enough vehicles or staff to serve both at once."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "would require forty more buses and drivers it simply does not have",
+        "x": "Running both groups at once would need forty more buses and drivers that the company does not have. Children waiting in the dark is a result of flipping the tiers, not the company’s objection."
+       },
+       {
+        "q": "Why are some working parents worried?",
+        "o": [
+         "They would have to drive their children to school.",
+         "Their teenagers help look after younger children.",
+         "They cannot afford after-school programs.",
+         "Their children would miss sports practices."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "they rely on older children to walk younger siblings to school or care for them after classes",
+        "x": "They rely on teenagers to care for younger siblings, which a later dismissal would make harder."
+       },
+       {
+        "q": "What is the teachers’ position?",
+        "o": [
+         "They support the aim but have reservations.",
+         "They support it without conditions.",
+         "They strongly oppose the change.",
+         "They have not taken a position."
+        ],
+        "a": 0,
+        "t": "viewpoint",
+        "ev": "They support the goal but want guarantees",
+        "x": "They support the goal but want guarantees and question the research – support with reservations."
+       },
+       {
+        "q": "What does the reporter suggest about the final decision?",
+        "o": [
+         "The nine fifteen start is certain to be approved.",
+         "The proposal will probably be withdrawn.",
+         "A start time between the two options is possible.",
+         "Elementary schools will also start later."
+        ],
+        "a": 2,
+        "t": "prediction",
+        "ev": "a compromise, such as an eight forty-five start, is not off the table",
+        "x": "Officials say an 8:45 compromise is “not off the table”, so a time between the two options is possible. Nothing suggests the 9:15 start is certain."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Brian Holloway, Holloway Property Management  |  To: Ms. Teresa Alvarez, Unit 3B  |  Subject: Upcoming renovations at 220 Maple Street",
+   "text": "Dear Ms. Alvarez,\n\nI am writing to let you know about renovation work planned for your building this spring. As you may be aware, the windows at 220 Maple Street are original to the building, which was constructed in 1978, and several tenants have reported drafts and condensation over the past two winters. After an energy audit last fall, the owners have decided to replace all windows and balcony doors.\n\nThe work is scheduled to begin on April 7 and will be completed floor by floor. Our contractor estimates that each unit will require one full working day. Your unit is tentatively scheduled for April 15. You will receive written confirmation of the exact date at least seventy-two hours in advance. You do not need to be home, but the workers will need clear access to all windows, so we ask that you move furniture, plants and blinds at least one metre away from them the evening before.\n\nI understand that this may be inconvenient, particularly for tenants who work from home. The contractor will seal off work areas with plastic sheeting to limit dust, and the building’s common room on the ground floor will be available as a quiet workspace throughout the project, with Wi-Fi and coffee provided.\n\nPlease note that this work is considered a capital improvement. Under provincial rules, the owners may apply for an above-guideline rent increase to recover part of the cost. No decision has been made yet, and you will receive formal notice if an application is filed. You would have the right to dispute it at a hearing.\n\nIf you have pets, medical equipment, or any other special circumstances we should know about, please contact me by March 20 so that we can make arrangements.\n\nSincerely,\nBrian Holloway\nProperty Manager",
+   "qs": [
+    {
+     "q": "Why are the windows being replaced?",
+     "o": [
+      "The building is being converted into condominiums.",
+      "Tenants complained and an assessment confirmed problems.",
+      "The windows were damaged in a storm.",
+      "New provincial rules require more energy-efficient windows."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "several tenants have reported drafts and condensation over the past two winters. After an energy audit last fall",
+     "x": "Tenant reports plus an energy audit led to the decision. No new rules or storm damage are mentioned."
+    },
+    {
+     "q": "What does Mr. Holloway say about the date of work in Ms. Alvarez’s unit?",
+     "o": [
+      "It is final and cannot be changed.",
+      "It depends on the weather.",
+      "It will be the first day of the project.",
+      "It is not yet confirmed."
+     ],
+     "a": 3,
+     "t": "paraphrase",
+     "ev": "Your unit is tentatively scheduled for April 15",
+     "x": "“Tentatively scheduled” means the date is not yet confirmed; written confirmation will come 72 hours ahead. April 7 is when the whole project starts, not her unit’s date."
+    },
+    {
+     "q": "What must Ms. Alvarez do before the work in her unit?",
+     "o": [
+      "Stay home to let the workers in",
+      "Remove her blinds and store them outside",
+      "Clear the area near her windows",
+      "Seal her windows with plastic sheeting"
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "move furniture, plants and blinds at least one metre away from them the evening before",
+     "x": "She must move items at least one metre from the windows. She does not need to be home; the contractor seals off areas."
+    },
+    {
+     "q": "Why does the letter mention the common room?",
+     "o": [
+      "It offers tenants a place to work during the noise and dust.",
+      "It will be used to store tenants’ furniture.",
+      "It will be the meeting place for a hearing on the rent increase.",
+      "It is the next area scheduled for renovation."
+     ],
+     "a": 0,
+     "t": "purpose",
+     "ev": "will be available as a quiet workspace throughout the project",
+     "x": "It is offered as a quiet workspace for tenants who work from home."
+    },
+    {
+     "q": "What is true about a possible rent increase?",
+     "o": [
+      "It has already been approved.",
+      "It would apply only to the tenants who work from home.",
+      "Tenants cannot challenge it.",
+      "The owners have not decided whether to request one."
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "No decision has been made yet",
+     "x": "No decision has been made; tenants would have the right to dispute it."
+    },
+    {
+     "q": "What is the overall tone of the letter?",
+     "o": [
+      "Apologetic and emotional",
+      "Informative and considerate",
+      "Threatening and formal",
+      "Casual and humorous"
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "I understand that this may be inconvenient",
+     "x": "It gives clear information and acknowledges inconvenience, offering accommodations – informative and considerate."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Ms. Alvarez’s reply. Complete the reply by choosing the best option for each blank.",
+    "text": "Dear Mr. Holloway,\n\nThank you for the advance notice about the window replacement. I am glad the drafts will finally be addressed, as my bedroom window has had {1} every morning since November.\n\nI do have one concern. I have a cat who is very nervous around strangers, and I worry she may escape when the {2} are being replaced. Could the workers let me know when they arrive so that I can {3} before they start? I work from home, so I will probably use the {4} that day anyway.\n\nI also noticed that the owners might apply for a rent increase. I would appreciate it if you could let me know as soon as possible if this happens, as I would like to understand my right to {5}.\n\nBest regards,\nTeresa Alvarez",
+    "blanks": [
+     {
+      "o": [
+       "condensation",
+       "a crack",
+       "insects",
+       "a broken latch"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "several tenants have reported drafts and condensation",
+      "x": "Tenants reported drafts and condensation, and moisture on a bedroom window every morning is condensation. A crack or a broken latch is never mentioned in the letter."
+     },
+     {
+      "o": [
+       "blinds",
+       "carpets",
+       "balcony doors",
+       "locks"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "replace all windows and balcony doors",
+      "x": "An open balcony door is a likely escape route for a cat; balcony doors are being replaced."
+     },
+     {
+      "o": [
+       "move my furniture",
+       "put her in a carrier",
+       "leave the building",
+       "buy new blinds"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "If you have pets, medical equipment, or any other special circumstances",
+      "x": "To prevent the cat escaping, she would put her in a carrier when the workers arrive."
+     },
+     {
+      "o": [
+       "parking garage",
+       "balcony",
+       "contractor’s office",
+       "common room"
+      ],
+      "a": 3,
+      "t": "detail",
+      "ev": "the building’s common room on the ground floor will be available as a quiet workspace",
+      "x": "The common room on the ground floor is offered as a quiet workspace with Wi-Fi. The contractor’s office is never offered to tenants."
+     },
+     {
+      "o": [
+       "refuse the renovations",
+       "end my lease early",
+       "dispute it at a hearing",
+       "request new windows"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "You would have the right to dispute it at a hearing",
+      "x": "The letter says tenants could dispute an increase at a hearing. Nothing gives tenants a right to refuse the renovations or to end their lease early."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Easy Haul Truck Rental – Local Moves (within 100 km)",
+    "intro": "All rentals include basic insurance. Return with the same fuel level or pay $3.50/litre. Weekend rates apply from Friday 12:00 p.m. to Monday 9:00 a.m.",
+    "table": {
+     "cols": [
+      "Vehicle",
+      "Best for",
+      "Weekday daily rate",
+      "Weekend daily rate",
+      "Per km"
+     ],
+     "rows": [
+      [
+       "Cargo van",
+       "Studio or small one-bedroom",
+       "$59",
+       "$79",
+       "$0.49"
+      ],
+      [
+       "12-foot truck",
+       "One-bedroom apartment",
+       "$79",
+       "$99",
+       "$0.59"
+      ],
+      [
+       "16-foot truck",
+       "Two-bedroom apartment",
+       "$99",
+       "$129",
+       "$0.69"
+      ],
+      [
+       "20-foot truck",
+       "Three-bedroom house",
+       "$129",
+       "$159",
+       "$0.79"
+      ]
+     ]
+    },
+    "cards": [
+     {
+      "h": "Add-ons (per rental)",
+      "lines": [
+       "Furniture dolly: $10",
+       "Moving blankets (12): $15",
+       "Premium insurance (reduces deductible from $1,500 to $0): $29/day"
+      ]
+     },
+     {
+      "h": "Driver requirements",
+      "lines": [
+       "Minimum age 21; drivers under 25 pay a $15/day surcharge",
+       "Valid full licence (Class G or equivalent); no special licence needed for any vehicle"
+      ]
+     }
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about renting a truck. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Jordan,\n\nThanks again for offering to help me move! I checked the Easy Haul rates. Since it’s just my one-bedroom apartment, the {1} should be big enough. I’d like to pick it up on Saturday morning, which means we’ll pay the {2} rate.\n\nThe new place is only about 20 km away, so even with two trips the mileage won’t cost much. I’m planning to add a dolly and blankets for {3} total, because my grandmother’s dresser is really heavy.\n\nOne question: would you mind driving? You’re 27, so we won’t have to pay the {4} that I’d be charged, since I’m only 23. I was also thinking of getting the premium insurance, just so neither of us has to worry about the {5} deductible if something goes wrong.\n\nSee you Saturday!\nAmira",
+    "blanks": [
+     {
+      "o": [
+       "12-foot truck",
+       "cargo van",
+       "16-foot truck",
+       "20-foot truck"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "One-bedroom apartment",
+      "x": "The 12-foot truck is listed as best for a one-bedroom apartment. The cargo van suits only a studio or a small one-bedroom, so it is the riskier choice."
+     },
+     {
+      "o": [
+       "$59",
+       "$79",
+       "$99",
+       "$129"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Weekend rates apply from Friday 12:00 p.m. to Monday 9:00 a.m.",
+      "x": "Saturday falls within the weekend period, so the 12-foot truck costs $99 a day, not the $79 weekday rate for the same truck."
+     },
+     {
+      "o": [
+       "$10",
+       "$15",
+       "$25",
+       "$29"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Furniture dolly: $10",
+      "x": "A dolly costs $10 and twelve moving blankets cost $15, so together they total $25. $29 is the daily price of premium insurance."
+     },
+     {
+      "o": [
+       "fuel charge",
+       "licence fee",
+       "insurance fee",
+       "young driver surcharge"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "drivers under 25 pay a $15/day surcharge",
+      "x": "At 23, Amira would pay the under-25 surcharge; Jordan, 27, would not."
+     },
+     {
+      "o": [
+       "$0",
+       "$29",
+       "$1,500",
+       "$3.50"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "reduces deductible from $1,500 to $0",
+      "x": "Premium insurance reduces the deductible from $1,500 to $0, so the $1,500 deductible is what they avoid. $29 is the daily price of that insurance."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A customer picks up a 16-foot truck on Friday at 2:00 p.m. What daily rate applies?",
+     "o": [
+      "$79",
+      "$99",
+      "$129",
+      "$159"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Weekend rates apply from Friday 12:00 p.m. to Monday 9:00 a.m.",
+     "x": "Friday 2 p.m. is after noon, so the weekend rate for a 16-foot truck ($129) applies."
+    },
+    {
+     "q": "What will happen if a renter returns the truck with less fuel than at pickup?",
+     "o": [
+      "The basic insurance will cover it.",
+      "They will be charged for the missing fuel.",
+      "They will lose their deposit.",
+      "They must return to refill it within 24 hours."
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Return with the same fuel level or pay $3.50/litre",
+     "x": "The intro says renters who do not return the same fuel level pay $3.50 per litre for it. No deposit or refill deadline is mentioned."
+    },
+    {
+     "q": "Which statement about licences is true?",
+     "o": [
+      "Any vehicle can be driven with a regular full licence.",
+      "Drivers under 25 cannot rent the largest truck.",
+      "A special licence is required to drive the 20-foot truck.",
+      "Only Class G licences are accepted."
+     ],
+     "a": 0,
+     "t": "diagram",
+     "ev": "no special licence needed for any vehicle",
+     "x": "A valid full licence (Class G or equivalent) works for any vehicle."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Fix It, Don’t Toss It: The Rise of Repair Cafés",
+   "paras": [
+    "On the first Saturday of every month, the basement of a church in Guelph fills with broken toasters, torn jackets and lamps that flicker. People bring them to the local repair café, a free event where volunteer “fixers” help visitors repair their own belongings. The concept began in Amsterdam in 2009 and has since spread to more than two thousand locations worldwide, including dozens in Canada. Organizers stress that the goal is not simply to fix things for people but to repair alongside them, so that visitors learn skills they can use again.",
+    "The volunteers are a mix of retired engineers, tailors, bicycle mechanics and hobbyists who learned to solder from online videos. Most say they are motivated less by environmental concerns than by the satisfaction of solving a puzzle. “Every item is a mystery,” says one long-time volunteer, a former television technician. “Sometimes it is a three-cent fuse, sometimes it is hopeless. But you rarely know until you open it up.” Organizers estimate that roughly two thirds of items are successfully repaired. Some cafés now keep a logbook of every item, noting what was wrong and how it was fixed.",
+    "Repair cafés have also become part of a wider campaign for the so-called “right to repair.” Many fixers complain that manufacturers increasingly glue devices shut, use unusual screws or refuse to sell spare parts. Advocates argue that such practices force consumers to replace products that could easily have been fixed. Several provinces are now studying legislation that would require companies to make parts and repair manuals available for a minimum number of years after a product is sold. Manufacturers, for their part, say some restrictions exist to protect users from injury and to keep counterfeit parts off the market.",
+    "Not every attempt ends well, and organizers are careful about safety. Items such as microwaves, which store dangerous electrical charges, are generally refused, and visitors must sign a form accepting that the volunteers are not responsible if something breaks further. Still, for many participants the social side matters as much as the repairs. Regular visitors describe the events as a rare place where neighbours of different generations sit at the same table, and some cafés now serve soup and coffee while people wait. Children are welcome too, as long as they come with an adult."
+   ],
+   "qs": [
+    {
+     "q": "Volunteers often take on repairs simply because they enjoy the challenge.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "motivated less by environmental concerns than by the satisfaction of solving a puzzle",
+     "x": "Paragraph B: they are motivated by the satisfaction of solving a puzzle."
+    },
+    {
+     "q": "Some products are deliberately made difficult to open.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "manufacturers increasingly glue devices shut, use unusual screws",
+     "x": "Paragraph C says manufacturers increasingly glue devices shut or use unusual screws, making products hard to open."
+    },
+    {
+     "q": "Visitors are expected to take part in fixing their items.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "the goal is not simply to fix things for people but to repair alongside them",
+     "x": "Paragraph A: they repair alongside visitors so visitors learn skills."
+    },
+    {
+     "q": "Certain types of appliances are usually not accepted.",
+     "a": "D",
+     "t": "detail",
+     "ev": "Items such as microwaves, which store dangerous electrical charges, are generally refused",
+     "x": "Paragraph D says items such as microwaves, which store dangerous electrical charges, are generally refused."
+    },
+    {
+     "q": "Repair cafés receive funding from local governments.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Repair cafés are described as free events, but no paragraph says who funds them, so this is not given."
+    },
+    {
+     "q": "The success rate of repairs is higher than fifty percent.",
+     "a": "B",
+     "t": "inference",
+     "ev": "roughly two thirds of items are successfully repaired",
+     "x": "Paragraph B: about two thirds (≈67%) are repaired – more than half."
+    },
+    {
+     "q": "New laws might oblige companies to supply parts for a certain period.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "require companies to make parts and repair manuals available for a minimum number of years",
+     "x": "Paragraph C: possible legislation on parts and manuals for a minimum number of years."
+    },
+    {
+     "q": "The events help people of different ages connect.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "neighbours of different generations sit at the same table",
+     "x": "Paragraph D says regular visitors meet neighbours of different generations at the same table."
+    },
+    {
+     "q": "Most volunteers have professional repair qualifications.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph B lists retirees, tailors and hobbyists but gives no information on how many are certified. Not given (E)."
+    }
+   ]
+  },
+  "p4": {
+   "title": "It’s Time to Rethink the Tip Screen",
+   "byline": "Opinion | by Marcus Feld, consumer affairs writer",
+   "text": "It used to be simple. You tipped your server at a sit-down restaurant, your hairdresser and maybe your taxi driver. Today, the payment terminal is turned towards you almost everywhere: at the coffee counter, the self-serve frozen yogurt shop, even the hardware store. Suggested amounts start at eighteen percent and climb to twenty-five, and the option to leave nothing is often hidden in small grey text at the bottom of the screen.\n\nMany Canadians are fed up. Surveys show that a majority feel pressured to tip in situations where they never did before, and a growing number say they now avoid businesses that ask. That is a sign that something has gone wrong, and it is not the customers’ fault.\n\nLet me be clear: I am not against tipping. For many service workers, tips make the difference between scraping by and paying rent, and I would never argue that a server who has looked after a table of eight for two hours deserves nothing extra. The problem is that the tip screen has stopped being a reward for service and has become a way for businesses to quietly shift part of their labour costs onto customers, while advertising prices that look lower than they really are. When a muffin listed at four dollars ends up costing nearly five at the till, customers have every right to feel misled.\n\nThe defence I hear most often is that wages in the industry are too low, and tips fill the gap. That is true. But it is an argument for higher wages, not for more tip screens. Several restaurants in Toronto and Vancouver have adopted a no-tipping model, with menu prices raised by around fifteen percent and staff paid a guaranteed wage. Some have struggled to keep customers who compare menu prices without realizing tips are already included. Others report lower staff turnover and less tension between kitchen and front-of-house employees, who traditionally share tips unequally.\n\nThere is a role for regulation here, though perhaps not the one people expect. Rather than banning tip requests, governments could require that suggested percentages be calculated on the price before tax, which is not always the case now, and that a “no tip” option appear as prominently as the others. Those two changes alone would restore some honesty to the transaction.\n\nUltimately, though, the solution lies with businesses. Put the real price on the menu. Pay your staff properly. And if you want to give customers the chance to say thank you, let them do it because they want to, not because a screen is staring at them.",
+   "qs": [
+    {
+     "q": "What is the writer’s main complaint?",
+     "o": [
+      "Service workers receive too much in tips.",
+      "Customers no longer tip enough when they eat at sit-down restaurants.",
+      "Tipping requests have spread and are being used to hide real costs.",
+      "Payment terminals are too difficult to use."
+     ],
+     "a": 2,
+     "t": "main",
+     "ev": "a way for businesses to quietly shift part of their labour costs onto customers",
+     "x": "He objects to tip screens everywhere being used to shift labour costs and make prices look lower."
+    },
+    {
+     "q": "What does the writer say about servers at sit-down restaurants?",
+     "o": [
+      "They should no longer receive tips.",
+      "They often deserve to be tipped.",
+      "They earn more than kitchen staff.",
+      "They prefer a guaranteed wage."
+     ],
+     "a": 1,
+     "t": "viewpoint",
+     "ev": "I would never argue that a server who has looked after a table of eight for two hours deserves nothing extra",
+     "x": "He supports tipping for real service, such as a server looking after a large table."
+    },
+    {
+     "q": "According to the article, what problem have some no-tipping restaurants faced?",
+     "o": [
+      "Staff have left for better-paid jobs.",
+      "Kitchen staff have demanded higher wages.",
+      "Governments have refused to approve the no-tipping model.",
+      "Customers think their menu prices are too high."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "Some have struggled to keep customers who compare menu prices without realizing tips are already included",
+     "x": "Customers compare menu prices without realizing the tip is included, so prices seem too high. Turnover actually fell."
+    },
+    {
+     "q": "What kind of regulation does the writer support?",
+     "o": [
+      "A complete ban on tip requests",
+      "A law requiring a fifteen percent tip",
+      "Rules to make tip screens fairer and clearer",
+      "Government-set wages for service workers"
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "Rather than banning tip requests, governments could require that suggested percentages be calculated on the price before tax",
+     "x": "He wants pre-tax calculation and an equally visible “no tip” option, not a ban."
+    },
+    {
+     "q": "What is the tone of the final paragraph?",
+     "o": [
+      "Direct and persuasive",
+      "Sarcastic and dismissive",
+      "Uncertain and hesitant",
+      "Nostalgic and sentimental"
+     ],
+     "a": 0,
+     "t": "attitude",
+     "ev": "Put the real price on the menu. Pay your staff properly.",
+     "x": "The final paragraph uses short commands addressed to businesses, which is direct and persuasive. Nothing in it mocks anyone, so it is not sarcastic or dismissive."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader. Complete the comment by choosing the best option for each blank.",
+    "text": "I’ve worked as a barista for six years, and I have mixed feelings about this article. Mr. Feld is right that the screens make people {1}; I see customers hesitate and glance at the line behind them before pressing a button. Nobody enjoys that moment.\n\nBut he makes it sound as if tips simply {2} for business owners. In my café, every cent of tips goes to the staff, and on a busy weekend it can add forty percent to my income. If my employer switched to a {3}, I would need a much bigger raise than fifteen percent to break even.\n\nI do agree with his idea of making the “no tip” button {4}. People should feel free to choose. And honestly, I would rather get a smaller tip from someone who {5} than a big one from someone who felt cornered.\n\n– Sam, Halifax",
+    "blanks": [
+     {
+      "o": [
+       "generous",
+       "confused",
+       "impatient",
+       "uncomfortable"
+      ],
+      "a": 3,
+      "t": "coherence",
+      "ev": "a majority feel pressured to tip",
+      "x": "Customers hesitate and glance at the line – the screens make them uncomfortable (pressured)."
+     },
+     {
+      "o": [
+       "increase menu prices",
+       "reduce labour costs",
+       "attract customers",
+       "complicate accounting"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "shift part of their labour costs onto customers",
+      "x": "Feld says tip screens let businesses shift labour costs onto customers; Sam disputes this, since in her café every cent of tips goes to staff."
+     },
+     {
+      "o": [
+       "no-tipping model",
+       "tip-sharing system",
+       "pre-tax calculation",
+       "self-serve counter"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "Several restaurants in Toronto and Vancouver have adopted a no-tipping model",
+      "x": "A no-tipping model with ~15% higher prices is what the article describes."
+     },
+     {
+      "o": [
+       "smaller",
+       "the default choice",
+       "as visible as the others",
+       "disappear"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "a “no tip” option appear as prominently as the others",
+      "x": "Feld proposes that a “no tip” option appear as prominently as the others, and Sam agrees. Making it the default choice was never suggested."
+     },
+     {
+      "o": [
+       "felt obliged",
+       "genuinely wanted to give it",
+       "was in a hurry",
+       "had read the article"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "let them do it because they want to",
+      "x": "Sam contrasts this with someone who “felt cornered”, so the blank needs a willing tipper. “Felt obliged” means much the same as cornered, so it does not fit."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You recently applied for a scholarship to study in a one-year post-graduate program. The application requires a reference letter from a former teacher or employer. You would like to ask a former supervisor, whom you have not spoken to for about two years.",
+   "bullets": [
+    "Remind your former supervisor who you are and how you worked together",
+    "Explain the program and why you are applying",
+    "Ask for the reference letter and give the necessary details"
+   ],
+   "model": "Dear Ms. Robichaud,\n\nI hope you are well. You may remember me from the summer of 2022, when I worked as a research assistant in your water-quality lab at Riverbend Environmental. I was the student who helped redesign the sampling schedule for the Thompson River project, and I still use many of the data-management habits you taught me.\n\nI am writing because I have applied for the Northern Futures Scholarship to support my studies in a one-year post-graduate certificate in Environmental Data Analytics at Lakeshore College. The program focuses on using statistics and mapping software to monitor ecosystems, which builds directly on the work I did in your lab. My long-term goal is to work in watershed planning for a municipality.\n\nThe application requires a reference letter from a former supervisor, and I would be very grateful if you would consider writing one. The letter should comment on my reliability, analytical skills and teamwork, and it must be uploaded through the scholarship portal by March 15. I would be happy to send you my résumé and a short summary of the projects we worked on together.\n\nThank you very much for considering my request.\n\nKind regards,\nElena Petrova"
+  },
+  "t2": {
+   "intro": "Your employer has a budget for a staff appreciation event this year and is asking employees for their opinion.",
+   "question": "Which option do you prefer?",
+   "a": "An evening holiday party at a restaurant, with dinner and entertainment, for all employees.",
+   "b": "An extra paid day off for every employee, to be taken at any time during the year.",
+   "model": "If I had to choose, I would definitely vote for Option B, the extra paid day off, because it would benefit every employee in a way that suits their own lives.\n\nFirst of all, our staff are very diverse. Some colleagues have young children, others care for elderly parents, and many have long commutes. An evening party may sound fun, but for these people it means arranging babysitting, travelling late at night or simply missing out. A flexible day off, on the other hand, is something everyone can use, whether to rest, spend time with family or deal with appointments that are hard to schedule around work.\n\nSecondly, I believe a day off would have a longer-lasting effect on morale. A party is over in one evening, and not everyone enjoys large social events, especially those involving alcohol. Being trusted to choose a day off shows that the company values our well-being and recognizes our hard work.\n\nThat said, I understand the value of team spirit. Perhaps the company could also organize an inexpensive potluck lunch during working hours. Overall, though, the extra day off is fairer, more inclusive and more meaningful."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "A friend is thinking about adopting a dog from an animal shelter. However, your friend lives alone in a small apartment and works long hours at an office. Give your friend advice about this decision.",
+   "model": "I think it’s wonderful that you want to adopt a dog, and shelters really do need people like you. But before you commit, I’d think carefully about your schedule. Most dogs shouldn’t be left alone for more than about six or seven hours, and with your long days at the office, your dog could be alone for ten hours or more. So one option is to look into a dog walker or a doggy daycare a few days a week – but find out the cost first, because it can easily add a few hundred dollars a month. Another thing to consider is the type of dog. Instead of a young, energetic puppy, you might be happier with an older, calmer dog. Many shelters have senior dogs that are already house-trained and actually enjoy relaxing in a small apartment. I’d also check your lease, because some buildings have rules about pets or size limits. And if you’re still not sure, why not try fostering first? Many shelters let you foster for a few weeks, so you can see whether a dog really fits your lifestyle before making a permanent decision."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you learned a new skill as an adult. What was the skill, how did you learn it, and how has it helped you?",
+   "model": "A few years ago, when I was about thirty, I decided to learn how to swim properly. Growing up, I never had lessons, so I could only paddle a little, and honestly, I was a bit embarrassed about it, especially when friends invited me to the lake. So I signed up for an adult beginner class at the community pool – it was twice a week in the evenings. The first few classes were really tough. I was nervous putting my face in the water, and I remember swallowing a lot of chlorine! But the instructor was very patient. She broke everything into small steps – breathing first, then floating, then kicking. After about two months, I could swim a full length of the pool without stopping, and I was so proud. Now I swim three times a week before work. It’s helped me in so many ways. Physically, I’m much fitter and my back pain has improved. But the biggest change is my confidence. Last summer I went kayaking with my friends, which I would never have done before, and I wasn’t afraid at all."
+  },
+  "t3": {
+   "scene": {
+    "bg": "street",
+    "alt": "A busy city street on a sunny day. On the left is a café with a green awning called “Corner Café”, with a small table outside where a woman in a yellow jacket sits drinking coffee and using a laptop. In the centre, a white food truck with “TACOS” written on it is parked by the sidewalk, and two people are lining up in front of it, one holding a phone. A man on a teal bicycle is riding past on the road. On the right there is a bus stop sign where a woman in a red coat holding a purple umbrella and a man carrying a box are waiting, and a yellow city bus is approaching. There is a fire hydrant, an orange traffic cone and a street lamp, and tall buildings in the background.",
+    "items": [
+     [
+      "building",
+      380,
+      250,
+      130,
+      210,
+      "#bfc9d1"
+     ],
+     [
+      "building",
+      520,
+      250,
+      120,
+      170,
+      "#d5c4a1"
+     ],
+     [
+      "shop",
+      10,
+      250,
+      170,
+      "CORNER CAFÉ",
+      "#16a085"
+     ],
+     [
+      "streetlamp",
+      200,
+      250
+     ],
+     [
+      "table",
+      60,
+      250,
+      60
+     ],
+     [
+      "person",
+      70,
+      250,
+      {
+       "shirt": "#f1c40f",
+       "pose": "sit",
+       "hairStyle": "long",
+       "hair": "#3b2a1a"
+      }
+     ],
+     [
+      "laptop",
+      100,
+      205
+     ],
+     [
+      "mug",
+      85,
+      205,
+      "#fff"
+     ],
+     [
+      "truck",
+      300,
+      288,
+      "#ecf0f1",
+      "TACOS"
+     ],
+     [
+      "person",
+      230,
+      288,
+      {
+       "shirt": "#2c3e50",
+       "hold": "phone",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      205,
+      290,
+      {
+       "shirt": "#d35400",
+       "hairStyle": "curly",
+       "skin": "#8d5524",
+       "flip": true
+      }
+     ],
+     [
+      "bike",
+      440,
+      345,
+      "#16a085"
+     ],
+     [
+      "person",
+      440,
+      330,
+      {
+       "shirt": "#2980b9",
+       "pose": "sit",
+       "s": 0.85
+      }
+     ],
+     [
+      "sign",
+      570,
+      288,
+      "BUS STOP",
+      "#fff"
+     ],
+     [
+      "person",
+      530,
+      288,
+      {
+       "shirt": "#c0392b",
+       "hold": "umbrella",
+       "holdColor": "#8e44ad",
+       "hairStyle": "bun",
+       "dress": true
+      }
+     ],
+     [
+      "person",
+      610,
+      290,
+      {
+       "shirt": "#27ae60",
+       "hold": "box",
+       "flip": true
+      }
+     ],
+     [
+      "bus",
+      680,
+      360,
+      "#f1c40f",
+      "CITY"
+     ],
+     [
+      "hydrant",
+      180,
+      288
+     ],
+     [
+      "cone",
+      350,
+      380
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a busy downtown street on a bright, sunny day. On the left-hand side, there’s a little café with a green awning – the sign says “Corner Café.” Outside it, a woman in a yellow jacket is sitting at a small table, working on her laptop with a cup of coffee next to her. Just beside the café, there’s a tall street lamp and a red fire hydrant. In the middle of the picture, a white food truck is parked at the curb, and it says “Tacos” on the side. Two people are lining up in front of it – one man is looking at his phone, probably checking the menu or paying, and a woman with curly hair is waiting behind him. On the road, a man on a teal bicycle is riding past, and there’s an orange traffic cone near the front of the picture. On the right-hand side, there’s a bus stop. A woman in a red dress is waiting there holding a purple umbrella, maybe to block the sun, and a man next to her is carrying a cardboard box. A yellow city bus is just pulling in. In the background, there are a couple of tall office buildings. It looks like lunchtime in the city."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the next few minutes will be pretty busy on this street. First, the yellow bus is pulling up to the stop, so the woman with the purple umbrella and the man carrying the box will most likely get on. The man might have some trouble getting through the doors with that big box, so maybe the woman will help him or hold the umbrella out of the way. Next, the man at the front of the food truck line will probably get his tacos in a minute or two. Since there’s an empty seat at the café table, he might even walk over and ask the woman with the laptop if he can share her table to eat his lunch. I also think the cyclist needs to be careful, because the bus is about to pull in right where he’s riding. He’ll probably slow down or move around the bus. Finally, as it’s lunchtime, I’d guess the line at the food truck will get longer, as more office workers come out of the buildings in the background."
+  },
+  "t5": {
+   "intro": "You are moving to a new city for work and have found two apartments for rent. Choose the one you prefer. In the next section, you will need to persuade the person you are moving with that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Downtown one-bedroom",
+     "details": [
+      "$1,950 per month",
+      "10-minute walk to work",
+      "Small balcony, no parking",
+      "Gym in the building",
+      "Busy, noisy street"
+     ]
+    },
+    {
+     "title": "Suburban two-bedroom",
+     "details": [
+      "$1,750 per month",
+      "40 minutes by train to work",
+      "Private backyard",
+      "One parking spot",
+      "Quiet residential street"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Mid-town studio loft",
+    "details": [
+     "$1,600 per month",
+     "25 minutes by bus to work",
+     "Large windows, one open room",
+     "Shared rooftop terrace",
+     "Close to restaurants and nightlife"
+    ]
+   },
+   "otherWho": "Your partner prefers",
+   "persuade": "Your partner prefers the mid-town studio loft. Persuade your partner that your choice is better.",
+   "model": "I agree the loft looks really stylish, and it’s the cheapest option, but I honestly think the suburban two-bedroom would make us much happier day to day. The biggest issue with the loft is that it’s just one open room. You work from home three days a week, and I often have calls in the evenings. With no walls, we’d be listening to each other’s meetings all the time. In the two-bedroom, you’d have a proper office with a door. Second, yes, the loft is a hundred and fifty dollars cheaper, but the two-bedroom comes with a parking spot. Downtown and mid-town parking can cost two hundred a month, so we’d actually save money. And instead of a shared rooftop terrace, we’d have our own backyard, so we could finally get a barbecue, plant a garden or even adopt a dog. I know the train ride is longer for me, but forty minutes on a train means I can read or relax, not stand on a crowded bus. And being near nightlife sounds fun, but it also means noise at two in the morning. I really think we’d sleep better and have more space to grow."
+  },
+  "t6": {
+   "situation": "Your neighbour in the apartment next door has been playing loud music late at night several times a week. You have to get up very early for work, and you are exhausted. You have not spoken to your neighbour about it yet, and you do not know them well.",
+   "options": [
+    "Talk to your neighbour directly about the noise.",
+    "Talk to your building manager and ask them to deal with the problem."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hi, sorry to bother you – I’m Kai, I live right next door in 4C. I don’t think we’ve properly met yet. Do you have a minute? I wanted to talk to you about something a little awkward. Over the last few weeks, I’ve noticed that music has been pretty loud from your place late at night, sometimes past midnight, a few nights a week. I’m sure you didn’t realize it, because the walls in this building are really thin – I can sometimes hear my other neighbour’s TV too. The thing is, I start work at six, so I have to get up at about four forty-five, and I’ve been really struggling to sleep. I’m not asking you to stop playing music at all – I just wonder if you could turn it down after around ten thirty on weeknights, or maybe use headphones late at night. Weekends are totally fine. And if I’m ever making noise that bothers you, please just knock and tell me. I’d really rather sort this out between us than go to the building manager. Thanks so much for understanding."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should cities close their downtown streets to cars on weekends to create pedestrian areas? Explain your reasons.",
+   "model": "I believe cities should close at least some downtown streets to cars on weekends, and here’s why. First of all, it brings people back downtown. When streets are full of traffic, people just drive through. But when a street becomes a pedestrian area, families walk around, sit on patios and visit shops they would never have noticed from a car. In my own city, they closed the main street on summer Saturdays, and local businesses reported higher sales, not lower, which surprised a lot of people. Secondly, it’s better for health and the environment. Less traffic means cleaner air and less noise, and it encourages people to walk or cycle. It also makes the area safer for children and seniors. Of course, some people argue that it’s hard for drivers to get downtown, and that people with disabilities may struggle without close parking. I think that’s a fair concern, so cities should make sure there are accessible drop-off points and extra transit service on those days. But overall, I strongly believe that giving streets back to people for two days a week makes downtowns more lively, more welcoming and more profitable."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "A bright red car shaped like a giant sneaker (running shoe), with white laces across the top, a white sole running along the bottom, a windshield set into the top of the shoe, two black wheels and a yellow headlight at the toe. It is parked on a city street in front of buildings. Two people stand on the sidewalk staring at it; one is pointing.",
+    "items": [
+     [
+      "building",
+      20,
+      250,
+      140,
+      190,
+      "#bfc9d1"
+     ],
+     [
+      "building",
+      480,
+      250,
+      150,
+      220,
+      "#d5c4a1"
+     ],
+     [
+      "shoeCar",
+      320,
+      360
+     ],
+     [
+      "person",
+      80,
+      288,
+      {
+       "shirt": "#8e44ad",
+       "pose": "point"
+      }
+     ],
+     [
+      "person",
+      120,
+      290,
+      {
+       "shirt": "#f39c12",
+       "hairStyle": "long",
+       "flip": true
+      }
+     ],
+     [
+      "cone",
+      560,
+      380
+     ]
+    ]
+   },
+   "prompt": "You are helping to plan a friend’s wedding, and you want an unusual car to take the couple from the ceremony to the reception. You have found this car for rent. Call the groom and describe the car. Explain whether you think it would be a good choice. The groom cannot see the picture.",
+   "model": "Hey, Daniel, it’s me. Okay, I’ve found a car for the wedding, and it’s definitely unusual – just hear me out. Picture a giant running shoe on wheels. Seriously. The whole car is shaped like a bright red sneaker, about the size of a normal car. Along the bottom there’s a thick white sole, just like a real running shoe, and across the top there are big white laces – they’re actually painted stripes over the roof. The windshield is built into the top of the shoe, where your foot would go in, so the driver sits inside the shoe. It has two black wheels and a yellow headlight at the very front, right at the toe. I think it could be perfect for you two, because you met at that running club, right? It would be such a fun story, and the photos would be amazing – maybe with a “Just Married” sign on the heel. My only worry is space. It doesn’t look very big, so Amira’s dress might not fit easily. We should probably ask if we can see it in person first. What do you think?"
+  }
+ }
+}

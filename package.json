@@ -1,0 +1,27 @@
+{
+  "name": "celpip-guru",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Unofficial CELPIP-General practice: 50 full original mock tests, real test timing and layout, strict AI scoring on the official performance standards.",
+  "scripts": {
+    "bank": "node scripts/build-bank.mjs",
+    "predev": "node scripts/build-bank.mjs",
+    "dev": "vite",
+    "build": "node scripts/build-bank.mjs && vite build",
+    "preview": "vite preview",
+    "validate": "node scripts/validate-bank.mjs"
+  },
+  "dependencies": {
+    "framer-motion": "^12.23.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-icons": "^5.5.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@vitejs/plugin-react": "^4.6.0",
+    "tailwindcss": "^4.1.11",
+    "vite": "^7.0.0"
+  }
+}

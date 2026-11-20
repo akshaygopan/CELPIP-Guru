@@ -1,0 +1,860 @@
+{
+ "id": "t48",
+ "title": "Test 48",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two staff members at a municipal election office are dealing with a problem before advance voting begins.",
+    "sp": {
+     "A": {"name": "Nadia", "g": "f", "acc": "en-CA", "rate": 1.03},
+     "B": {"name": "Hamish", "g": "m", "acc": "en-GB", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Hamish, have you got a second? A candidate in Ward Six just called me, and she’s not happy. Her name is printed wrong on the advance ballots."],
+       ["B", "Wrong how? We sent every candidate a proof two weeks ago."],
+       ["A", "We did, and she signed it. The proof had her name right, Yolanda Abernethy-Cruz, but the printed ballots dropped the hyphen and the second surname. They just say Yolanda Abernethy."],
+       ["B", "How many ballots are we talking about?"],
+       ["A", "All the Ward Six advance ballots. Just over nine thousand. And advance voting opens Saturday morning, which is three days from now."],
+       ["B", "Okay. But is it really that serious? Her first name and her first surname are there. Voters will know who she is."],
+       ["A", "I thought the same thing at first. But she pointed out that there’s another candidate in the same ward called Gordon Abernathy, spelled with an a. With her second surname missing, the two names look almost identical on the page."],
+       ["B", "Ah. That changes things. If even a handful of people confuse them in a close race, we’ve got a contested result on our hands."],
+       ["A", "That’s exactly what she said, and she mentioned her lawyer twice in five minutes. Under the act, a ballot error that could mislead voters can be grounds for challenging the result."],
+       ["B", "Then we fix it, no question. Do we have spare paper stock in the building?"],
+       ["A", "We have blank ballot paper, but not the security printing. Only the vendor can do that part."]
+      ],
+      "qs": [
+       {
+        "q": "What is the problem with the advance ballots?",
+        "o": ["They were printed for the wrong ward.", "A candidate’s full name is not shown correctly.", "The candidate never approved the printer’s proof.", "Two candidates’ names appear in the wrong order."],
+        "a": 1, "t": "paraphrase",
+        "ev": "the printed ballots dropped the hyphen and the second surname",
+        "x": "The ballots dropped the hyphen and her second surname, so her full name is incomplete. She did sign the proof, which was correct, and nothing suggests the ballots were printed for the wrong ward."
+       },
+       {
+        "q": "Why does Hamish change his mind about how serious the error is?",
+        "o": ["The candidate has threatened to leave the race.", "Nine thousand ballots would be costly to replace.", "The vendor admitted the mistake was its own.", "Voters might confuse her with another candidate."],
+        "a": 3, "t": "inference",
+        "ev": "the two names look almost identical on the page",
+        "x": "Once he learns that her shortened name looks almost identical to Gordon Abernathy’s, he sees that voters could mix them up. The number of ballots is mentioned, but cost is not what changes his mind."
+       },
+       {
+        "q": "How does Nadia describe the candidate’s reaction?",
+        "o": ["She is upset and hinting at legal action.", "She is calm because the error is minor.", "She blames herself for signing the proof.", "She wants advance voting to be postponed."],
+        "a": 0, "t": "attitude",
+        "ev": "she mentioned her lawyer twice in five minutes",
+        "x": "She is “not happy” and mentioned her lawyer twice, which signals possible legal action. It was Hamish, not the candidate, who first thought the error might be minor."
+       }
+      ]
+     },
+     {
+      "lines": [
+       ["B", "So, option one: the vendor reprints everything."],
+       ["A", "I called them on the way in. A full reprint of nine thousand ballots with the security features takes four business days, plus a day for the courier. Best case, they’d arrive Thursday, and the advance poll runs Saturday to Wednesday."],
+       ["B", "So we’d have nothing for the first four or five days. What about stickers? I’ve seen other cities put a correction label over a name."],
+       ["A", "I looked into it. Our act allows correction labels if they’re applied before the ballots are handed out and the scrutineers for every candidate are invited to watch. That part is doable. The problem is the Abernathy campaign. His agent already emailed to say they’d object to stickers, because a label makes her name stand out on the page."],
+       ["B", "He’s got a point, honestly. A shiny label is basically free advertising."],
+       ["A", "I suppose so, though I suspect he’d object to almost anything we did."],
+       ["B", "And we can’t just close the Ward Six advance poll for a few days until the reprint arrives?"],
+       ["A", "Not legally. Advance voting has to be available on every day we’ve advertised."],
+       ["B", "What about handing out the ballots as they are, with a notice in each booth explaining the mistake?"],
+       ["A", "I raised that with the clerk. She said absolutely not. A notice could be seen as the office influencing voters, and it doesn’t fix the ballot itself."],
+       ["B", "Fair enough. So none of the quick fixes really work."]
+      ],
+      "qs": [
+       {
+        "q": "Why is a full reprint by the vendor not a complete solution?",
+        "o": ["The vendor refuses to print the security features.", "The courier cannot deliver until the next month.", "New ballots would miss the opening days of voting.", "The clerk has no authority to order a reprint."],
+        "a": 2, "t": "inference",
+        "ev": "Best case, they’d arrive Thursday",
+        "x": "Even in the best case, reprinted ballots would arrive on Thursday, after most advance voting days have passed. The courier adds one day; it is not delayed by a month."
+       },
+       {
+        "q": "How does Hamish feel about the Abernathy campaign’s objection to stickers?",
+        "o": ["He thinks it is a reasonable concern.", "He believes it is only a delaying tactic.", "He wants Nadia to ignore it completely.", "He doubts that the agent sent the email."],
+        "a": 0, "t": "attitude",
+        "ev": "He’s got a point, honestly.",
+        "x": "Hamish says the agent has “got a point”, since a shiny label works like advertising. It is Nadia who suspects the campaign would object to almost anything."
+       },
+       {
+        "q": "Why did the clerk reject putting a notice in the voting booths?",
+        "o": ["Voters would not have time to read it carefully.", "It might look as if officials were swaying votes.", "It would reveal the candidate’s legal threat.", "Scrutineers would have to approve every notice."],
+        "a": 1, "t": "paraphrase",
+        "ev": "A notice could be seen as the office influencing voters",
+        "x": "The clerk worried a notice could look like the office influencing voters. Scrutineers are linked to the sticker option, not to notices, and the lawyer is never part of the clerk’s reasoning."
+       }
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Here’s what the clerk and I sketched out. We print a small batch of corrected ballots ourselves, on the blank stock, just enough for the first four days."],
+       ["B", "Without the security printing? Is that allowed?"],
+       ["A", "It is if each ballot is initialled by the deputy returning officer before it’s handed to a voter. That’s the rule for emergency ballots. It’s slow, but it’s legal, and both campaigns can live with it, because her name will look exactly like every other name on the page."],
+       ["B", "How many would we need?"],
+       ["A", "Last election, Ward Six had about eleven hundred advance voters in the first four days. Let’s print fifteen hundred to be safe. The vendor’s reprint arrives Thursday, and we switch over for the last day."],
+       ["B", "And the nine thousand wrong ones?"],
+       ["A", "They get counted, sealed and stored, in case anyone challenges the result. Nobody touches them."],
+       ["B", "Okay. I’ll book extra staff for the initialling. It’s going to slow the lines, so I’ll put a second table in the Ward Six location."],
+       ["A", "Good. And I’ll call both candidates this afternoon, before they hear about it from somebody else."],
+       ["B", "Should we say anything to the media?"],
+       ["A", "The clerk will issue a short statement tomorrow morning, once the plan is confirmed in writing. Until then, let’s keep it between us and the two campaigns, and the deputy returning officers, of course."]
+      ],
+      "qs": [
+       {
+        "q": "What is true about the ballots the office will print itself?",
+        "o": ["They will replace all nine thousand advance ballots.", "They will carry a label correcting her name.", "They will be used on every day of advance voting.", "Each must carry an official’s initials before use."],
+        "a": 3, "t": "detail",
+        "ev": "if each ballot is initialled by the deputy returning officer",
+        "x": "Emergency ballots are legal only if the deputy returning officer initials each one. They cover just the first four days, and no labels are used."
+       },
+       {
+        "q": "What will Nadia do this afternoon?",
+        "o": ["Issue a statement to the local media", "Book extra staff for the Ward Six poll", "Inform the candidates about the plan", "Seal and store the incorrect ballots"],
+        "a": 2, "t": "detail",
+        "ev": "I’ll call both candidates this afternoon",
+        "x": "Nadia will phone both candidates this afternoon. The clerk, not Nadia, will make a media statement tomorrow, and Hamish is the one booking extra staff."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A newcomer is speaking with a receptionist at a settlement agency.",
+    "sp": {
+     "A": {"name": "Receptionist", "g": "f", "acc": "en-CA", "rate": 1.04},
+     "B": {"name": "Arjun", "g": "m", "acc": "en-IN", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Good morning. My name is Arjun Mehra. I’d like to register for English classes, please. A friend told me the evening classes here are very good."],
+       ["A", "Welcome, Mr. Mehra. Before we register you, you’ll need a language assessment, so we know which level to place you in. Have you had one yet?"],
+       ["B", "No. Is that a test? I’m a bit nervous about tests."],
+       ["A", "It’s more of a conversation, plus some reading and writing. It takes about two and a half hours, and it’s free. The assessment centre is on the third floor, and the next opening is Thursday at nine."],
+       ["B", "Thursday morning is difficult. I work at a warehouse from seven until three."],
+       ["A", "There’s also a Saturday session at nine thirty next week. Would that be better?"],
+       ["B", "Yes, Saturday is perfect. And after the assessment, I can start the evening class right away?"],
+       ["A", "That depends on your level. Evening classes for levels four and five are full until January. If you place at level six or higher, there’s space now."],
+       ["B", "I think I’m probably level four or five. My speaking is okay, but my writing is weak."],
+       ["A", "Then you might consider our online class. It runs Tuesday and Thursday evenings from seven to nine, with a live teacher, and there are still seats. Many people who work shifts prefer it."],
+       ["B", "Online? Hmm. I was hoping to meet people, actually. I only know my co-workers here, and we don’t talk much."],
+       ["A", "I understand. In that case, you could do both. Take the online class now, and we’ll put your name on the waitlist for the in-person evening class. You wouldn’t lose your place on the list just because you’re already studying with us. And every Friday evening, there’s a free conversation circle in the community room, with no registration needed."],
+       ["B", "A conversation circle sounds good. So, assessment on Saturday, then the online class, and the waitlist. What should I bring on Saturday?"],
+       ["A", "Your permanent resident card or your confirmation of permanent residence, and that’s it. Oh, and if you have a laptop at home, check that the camera works. If not, we lend tablets for the online class."],
+       ["B", "I only have my phone. I’ll ask about the tablet on Saturday, then."]
+      ],
+      "qs": [
+       {
+        "q": "What must Mr. Mehra do before he can join a class?",
+        "o": ["Complete an evaluation of his English level", "Show proof of his current employment", "Pass a written exam on the third floor", "Register online for an evening session"],
+        "a": 0, "t": "paraphrase",
+        "ev": "you’ll need a language assessment, so we know which level to place you in",
+        "x": "He needs a language assessment to determine his level. The receptionist says it is mostly a conversation rather than an exam to pass, and employment proof is never requested."
+       },
+       {
+        "q": "Why does Mr. Mehra choose the Saturday assessment?",
+        "o": ["He is nervous about taking tests in the morning.", "The Thursday session is already completely full.", "His job hours clash with the earlier opening.", "He wants to bring a friend who is free on weekends."],
+        "a": 2, "t": "inference",
+        "ev": "I work at a warehouse from seven until three",
+        "x": "The Thursday 9:00 opening falls during his 7-to-3 warehouse shift. He is nervous about tests in general, not mornings, and the Thursday session is available, not full."
+       },
+       {
+        "q": "Why is Mr. Mehra hesitant about the online class?",
+        "o": ["He does not have reliable internet at home.", "He would prefer to study during the daytime.", "He thinks a live teacher would cost too much.", "He wants a chance to build social connections."],
+        "a": 3, "t": "attitude",
+        "ev": "I was hoping to meet people, actually.",
+        "x": "His “Hmm” and comment that he hoped to meet people show he wants social contact. His only device problem is that he has no laptop, and cost is never mentioned."
+       },
+       {
+        "q": "What does the receptionist say about the waitlist?",
+        "o": ["It is only open to students at level six.", "Taking the online class will not affect his spot.", "He is guaranteed a seat in person in January.", "He must leave it if he studies online."],
+        "a": 1, "t": "paraphrase",
+        "ev": "You wouldn’t lose your place on the list just because you’re already studying with us.",
+        "x": "She says he would not lose his place on the list by studying online. January is when the full classes may open, but no seat is guaranteed; level six has space now."
+       },
+       {
+        "q": "What will Mr. Mehra most likely do on Saturday?",
+        "o": ["Bring his laptop to test the camera", "Attend the conversation circle", "Ask about borrowing a device", "Start his first online class"],
+        "a": 2, "t": "prediction",
+        "ev": "I’ll ask about the tablet on Saturday, then.",
+        "x": "He has only a phone, so he will ask about borrowing a tablet on Saturday. He has no laptop, and the conversation circle takes place on Friday evenings."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A newcomer calls the provincial health insurance office for information.",
+    "sp": {
+     "A": {"name": "Gerald", "g": "m", "acc": "en-CA", "rate": 1.03},
+     "B": {"name": "Caller", "g": "f", "acc": "en-US", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Provincial Health Insurance Plan, my name is Gerald. How can I help?"],
+       ["B", "Hi, Gerald. My family and I arrived in the province two weeks ago as permanent residents, and I’d like to apply for health cards. I’ve heard there’s a waiting period. Is that true?"],
+       ["A", "There is, yes. Coverage begins on the first day of the third month after the month you arrived. When did you arrive?"],
+       ["B", "On October twenty-eighth."],
+       ["A", "Then your coverage would start on January first."],
+       ["B", "That’s more than two months with nothing."],
+       ["A", "It is, which is why we strongly recommend buying private insurance for the gap. Most newcomers do. A basic plan for a family usually costs between two and four hundred dollars for that period, depending on your ages."],
+       ["B", "Okay. And what about my daughter? She’s eight months old. Does she have to wait too?"],
+       ["A", "Children born outside Canada follow the same rule as their parents, I’m afraid. A baby born here would be covered from birth, but that doesn’t apply to her."],
+       ["B", "I see. What do I need to apply?"],
+       ["A", "Three things for each person. Proof of your immigration status, like your confirmation of permanent residence; proof that you live in the province, like a lease or a utility bill with your name on it; and an identity document with a signature, usually a passport."],
+       ["B", "Our lease is in my husband’s name only. Is that a problem for me?"],
+       ["A", "Not if you live at the same address. He can sign a short declaration, which we give you at the office, confirming that you live with him."],
+       ["B", "Great. Can I apply online?"],
+       ["A", "Not for a first application, no. Each family member has to come to a service centre in person, because we take photos for the cards. The baby doesn’t need a photo, but she still needs to be there with one parent."],
+       ["B", "Even the baby? Okay. Do we need an appointment?"],
+       ["A", "Appointments are recommended. Walk-ins are accepted, but the wait at the downtown centre can be two or three hours, especially on Mondays. The centre on Harmon Road is usually quieter."],
+       ["B", "Harmon Road is closer to us anyway. And once we apply, when will the cards arrive?"],
+       ["A", "By mail, within six to eight weeks. But the coverage date doesn’t depend on the card. If you need care after January first and the card hasn’t arrived, keep your application receipt. Clinics can use the number on it."],
+       ["B", "Perfect. I’ll book appointments at Harmon Road this week, and I’ll look into private insurance today."]
+      ],
+      "qs": [
+       {
+        "q": "When will the caller’s family be covered by the provincial plan?",
+        "o": ["Two weeks after they apply", "From the start of the new year", "From the end of October", "Three months after they arrived"],
+        "a": 1, "t": "detail",
+        "ev": "Then your coverage would start on January first.",
+        "x": "Coverage starts on the first day of the third month after the arrival month, which is January 1. October is when they arrived, and “three months after arrival” would be late January."
+       },
+       {
+        "q": "What does the agent recommend for the waiting period?",
+        "o": ["Buying temporary private coverage", "Visiting clinics that accept newcomers", "Applying online to shorten the wait", "Paying a fee of two hundred dollars"],
+        "a": 0, "t": "paraphrase",
+        "ev": "we strongly recommend buying private insurance for the gap",
+        "x": "He recommends private insurance for the gap. Two to four hundred dollars is the usual price of such a plan, not a fee paid to the province, and first applications cannot be made online."
+       },
+       {
+        "q": "What is true about the caller’s daughter?",
+        "o": ["She is covered from birth because she is a baby.", "She does not need to attend the service centre.", "She needs a passport-style photo for her card.", "She must wait the same period as her parents."],
+        "a": 3, "t": "detail",
+        "ev": "Children born outside Canada follow the same rule as their parents",
+        "x": "Children born outside Canada follow the parents’ waiting period. Coverage from birth applies only to babies born here, and the daughter must attend even though she needs no photo."
+       },
+       {
+        "q": "How can the caller prove that she lives in the province?",
+        "o": ["By adding her name to the lease", "By showing a utility bill in her name", "Through a statement signed by her husband", "With her confirmation of permanent residence"],
+        "a": 2, "t": "inference",
+        "ev": "He can sign a short declaration",
+        "x": "Because the lease is only in her husband’s name, he can sign a declaration confirming she lives with him. Her confirmation of permanent residence proves status, not where she lives."
+       },
+       {
+        "q": "Why does the caller choose the Harmon Road centre?",
+        "o": ["It is the only centre taking appointments.", "It is less crowded and closer to her home.", "It stays open later than the downtown centre.", "It is the only place that photographs babies."],
+        "a": 1, "t": "inference",
+        "ev": "Harmon Road is closer to us anyway",
+        "x": "The agent says Harmon Road is usually quieter, and she adds that it is closer. Appointments are recommended everywhere, and opening hours are never compared."
+       },
+       {
+        "q": "What should the caller do if she needs care before the cards arrive?",
+        "o": ["Pay the clinic and ask for a refund later", "Call the agent to request a temporary card", "Use private insurance until the cards come", "Give the clinic the number on her receipt"],
+        "a": 3, "t": "detail",
+        "ev": "Clinics can use the number on it.",
+        "x": "After January 1, clinics can use the number on the application receipt. Private insurance is for the period before coverage begins, not for the wait for the card itself."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report about changes to the court system.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "m", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Anita Ramaswamy", "g": "f", "acc": "en-GB", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Starting next month, people in the province will be able to sue for larger amounts in small claims court, and they’ll be able to do much of it without leaving home. The province’s justice ministry announced yesterday that the limit for small claims will rise from thirty-five thousand to fifty thousand dollars on the first of the month, the first increase in nearly a decade."],
+       ["A", "Small claims court is designed for people without lawyers: disputes with contractors, unpaid invoices, damaged property, deposits that landlords refuse to return. Court services director Anita Ramaswamy says the old limit had simply fallen behind."],
+       ["B", "Thirty-five thousand dollars doesn’t go as far as it used to. A roofing job or a used car can easily cost more than that now. People with a forty-thousand-dollar claim were being pushed into the higher court, where the process is slower and much more expensive, and where, frankly, most people can’t manage without a lawyer."],
+       ["A", "Along with the higher limit, the court is moving filings online. Claims, defences and supporting documents can now be submitted through a web portal at any time of day, and settlement conferences, the meetings where both sides try to reach an agreement before trial, will be held by video by default. Trials themselves will still take place in person."],
+       ["A", "Not everyone is celebrating. A group representing small landlords warned that the higher limit could bring more complex cases into a court that already has long delays. Right now, the average wait for a trial is about fourteen months. Ms. Ramaswamy acknowledges the concern."],
+       ["B", "It’s a fair point. We’re adding six deputy judges this year, and we expect the online system to free up staff time. But I won’t pretend the backlog will vanish overnight."],
+       ["A", "Filing fees will stay the same, at one hundred and fifteen dollars for most claims. People who don’t have internet access can still file in person at any courthouse, where staff will help them use public computer terminals."]
+      ],
+      "qs": [
+       {
+        "q": "What change was announced?",
+        "o": ["Lawyers will be required for larger claims.", "Small claims trials will be held by video.", "Filing fees will rise for the largest claims.", "Bigger disputes can go to small claims court."],
+        "a": 3, "t": "main",
+        "ev": "the limit for small claims will rise from thirty-five thousand to fifty thousand dollars",
+        "x": "Raising the limit to $50,000 lets larger disputes be heard in small claims court. Settlement conferences, not trials, move to video, and filing fees stay the same."
+       },
+       {
+        "q": "According to Ms. Ramaswamy, what happened under the old limit?",
+        "o": ["Contractors refused to accept small claims.", "Some people had to use a slower, costlier court.", "Landlords kept most of their tenants’ deposits.", "Car buyers could not sue sellers at all."],
+        "a": 1, "t": "paraphrase",
+        "ev": "People with a forty-thousand-dollar claim were being pushed into the higher court",
+        "x": "People with claims above the old limit had to use the higher court, which is slower and more expensive. Deposits and cars are only examples of typical disputes."
+       },
+       {
+        "q": "What will still happen in person?",
+        "o": ["The trials themselves", "Settlement conferences", "Submitting defences", "Filing supporting documents"],
+        "a": 0, "t": "detail",
+        "ev": "Trials themselves will still take place in person.",
+        "x": "Trials remain in person. Settlement conferences move to video by default, and claims, defences and documents can be filed through the online portal."
+       },
+       {
+        "q": "How does Ms. Ramaswamy respond to the landlords’ concern?",
+        "o": ["She dismisses it as exaggerated.", "She promises delays will end soon.", "She admits long waits will continue for now.", "She says landlords should use another court."],
+        "a": 2, "t": "attitude",
+        "ev": "I won’t pretend the backlog will vanish overnight.",
+        "x": "She calls the concern fair and admits the backlog will not vanish overnight. Adding judges is meant to help, but she does not promise the delays will end soon."
+       },
+       {
+        "q": "What can people without internet access do?",
+        "o": ["Get help filing on terminals at a courthouse", "Pay a lower fee to file their claim by mail", "Ask a deputy judge for a phone hearing", "Request a free lawyer from the court"],
+        "a": 0, "t": "detail",
+        "ev": "staff will help them use public computer terminals",
+        "x": "They can file at any courthouse, where staff help them use public terminals. The fee stays at $115 for everyone, and mail filing is never mentioned."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three members of a city parks advisory committee are discussing a proposal.",
+    "sp": {
+     "A": {"name": "Inès", "g": "f", "acc": "en-US", "rate": 1.0},
+     "B": {"name": "Callum", "g": "m", "acc": "en-AU", "rate": 1.04},
+     "C": {"name": "Seun", "g": "m", "acc": "en-CA", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Okay, item three. Staff want our recommendation on whether food trucks should be allowed to operate in city parks. Right now they’re banned in every park, but council has had dozens of requests. Callum, you asked for this to be on the agenda, so go ahead."],
+       ["B", "Thanks, Inès. Look, I think it’s overdue. Families spend whole afternoons at Riverside Park, and there’s nowhere to buy so much as a sandwich. The trucks would pay a permit fee, the city gets revenue, and the parks get busier and safer. Other cities have done this for years without the sky falling."],
+       ["C", "I’m not against food trucks. But I want to point out who loses here. The café at the Lindsay Park pavilion is run by a non-profit that trains young people who’ve been out of work. It barely breaks even in summer. Put two trucks fifty metres away, and that program could close."],
+       ["B", "That’s a fair point about Lindsay Park, and I wouldn’t want to hurt them. So leave Lindsay Park out. Most parks don’t have any food at all."],
+       ["A", "Before we go further, did staff say how much interest there actually is from operators?"],
+       ["B", "They did. Fourteen truck owners have already contacted the city asking about permits, mostly small local businesses, not big chains. A couple of them told staff they’d happily pay extra for a spot at Riverside on summer weekends."],
+       ["C", "That tells me there’s money in it for them. It doesn’t tell me what it costs the parks."],
+       ["C", "Then there’s the waste. Our crews already struggle to empty the bins on hot weekends. Trucks mean more cups, more napkins, more containers, and they mean generators running beside picnic areas."],
+       ["A", "Do we know what other cities do about that?"],
+       ["B", "Most require the operator to provide their own bins and take away all their waste at the end of the day. And newer trucks can plug into electrical outlets instead of running generators."],
+       ["C", "Can they? Our parks don’t have outlets for that."],
+       ["A", "Riverside does, actually. The festival stage has power connections near the parking lot. Maple Flats was upgraded for the summer concerts too."],
+       ["C", "Hmm. Well, that does help. If the trucks are near the parking lot and not beside the playground, I could probably support a small trial. But I’d want a limit on numbers. Three trucks, not ten."],
+       ["B", "Three is a bit timid, but I’ll take it for a pilot. What about hours?"],
+       ["C", "Nothing after eight p.m. Some of the homes on the Maple Flats side back right onto the park."],
+       ["B", "Eight is early for summer, honestly. People are just arriving after work."],
+       ["A", "Let’s compromise at nine, but only on Fridays and Saturdays; eight on the other days."],
+       ["C", "I can accept that."],
+       ["A", "So the recommendation is a pilot at Riverside and Maple Flats from June to September, a maximum of three trucks per park, operators remove all their own waste, no generators, and Lindsay Park excluded. Staff report back in October on complaints, revenue and the bin data."],
+       ["B", "And the permit fee? Staff suggested twelve hundred dollars for the season."],
+       ["C", "Fine by me, as long as some of it goes toward extra waste pickups."],
+       ["A", "I’ll add that as a note. Good work, both of you."]
+      ],
+      "qs": [
+       {
+        "q": "What is Callum’s main argument for food trucks?",
+        "o": ["They would replace the café at Lindsay Park.", "They would reduce litter in busy parks.", "They would fill a gap and benefit the city.", "They would give young people job training."],
+        "a": 2, "t": "viewpoint",
+        "ev": "there’s nowhere to buy so much as a sandwich",
+        "x": "Callum argues that parks have no food at all and that trucks would bring revenue and activity. Job training describes the Lindsay Park café, which Seun wants to protect."
+       },
+       {
+        "q": "Why is Seun concerned about the Lindsay Park café?",
+        "o": ["Competition could endanger a worthwhile program.", "It already produces too much waste.", "Its prices are higher than food trucks’.", "It has no electrical outlets for cooking."],
+        "a": 0, "t": "inference",
+        "ev": "that program could close",
+        "x": "The café supports a youth training program and barely breaks even, so nearby trucks could force it to close. Waste and outlets are separate concerns about parks in general."
+       },
+       {
+        "q": "How does Callum respond to Seun’s concern about the café?",
+        "o": ["He argues the café should compete fairly.", "He suggests moving the café to Riverside.", "He says the non-profit should pay less.", "He agrees to keep that park out of the plan."],
+        "a": 3, "t": "detail",
+        "ev": "So leave Lindsay Park out.",
+        "x": "Callum accepts the point and proposes excluding Lindsay Park. He never argues for competition or suggests moving the café."
+       },
+       {
+        "q": "What makes Seun more open to a trial?",
+        "o": ["Trucks would pay a high permit fee.", "Some parks can supply power to the trucks.", "Other cities have reported no problems.", "Operators would empty the city’s bins."],
+        "a": 1, "t": "inference",
+        "ev": "The festival stage has power connections near the parking lot.",
+        "x": "After hearing that Riverside and Maple Flats have power connections, so no generators are needed, Seun says “that does help”. Operators remove their own waste, not the city’s bins."
+       },
+       {
+        "q": "How does Callum feel about limiting each park to three trucks?",
+        "o": ["He thinks it is exactly the right number.", "He rejects it and insists on ten trucks.", "He fears it will reduce the city’s revenue.", "He finds it cautious but acceptable."],
+        "a": 3, "t": "attitude",
+        "ev": "Three is a bit timid, but I’ll take it for a pilot.",
+        "x": "Calling it “a bit timid” but agreeing for a pilot shows reluctant acceptance. Ten trucks was Seun’s example of what he did not want, not Callum’s demand."
+       },
+       {
+        "q": "What is decided about operating hours?",
+        "o": ["Trucks must close at eight every evening.", "Trucks may stay open until nine every day.", "Closing time depends on the day of the week.", "Staff will set hours after the pilot ends."],
+        "a": 2, "t": "detail",
+        "ev": "Let’s compromise at nine, but only on Fridays and Saturdays; eight on the other days.",
+        "x": "Trucks close at nine on Fridays and Saturdays and at eight on other days. Eight every evening was Seun’s first proposal, which was changed."
+       },
+       {
+        "q": "Why does Seun want an early closing time?",
+        "o": ["Some residents live right next to one park.", "Families leave the parks early in the evening.", "Generators are too loud after dark.", "Waste crews do not work after eight."],
+        "a": 0, "t": "inference",
+        "ev": "Some of the homes on the Maple Flats side back right onto the park.",
+        "x": "Homes back directly onto Maple Flats, so late activity could disturb residents. Generators are banned anyway, and Callum says people actually arrive in the evening."
+       },
+       {
+        "q": "What condition does Seun attach to the permit fee?",
+        "o": ["It should be reduced for the first season.", "Part of it should fund more garbage collection.", "It must be paid before the pilot begins.", "It should be shared with the non-profit café."],
+        "a": 1, "t": "detail",
+        "ev": "as long as some of it goes toward extra waste pickups",
+        "x": "Seun agrees to the $1,200 fee if part of it pays for extra waste pickups. He never suggests reducing it or sharing it with the café."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a report about automated speed cameras in school zones.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Sanjay Kulkarni", "g": "m", "acc": "en-IN", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Two years ago, the city installed automated speed cameras in twelve school zones. The cameras photograph the licence plates of vehicles going more than ten kilometres an hour over the limit, and a ticket arrives by mail. Council will vote next month on whether to add thirty more. The program has strong supporters, but also critics who say it’s more about money than safety."],
+       ["A", "The city’s own data show that, at the twelve camera sites, the share of drivers speeding fell from about forty percent in the first month to under fifteen percent after a year. Sanjay Kulkarni chairs the parent council at Glenwood Elementary, which has had a camera since the start."],
+       ["B", "Before the camera, I wouldn’t let my kids walk to school alone. Cars came down that hill at sixty, seventy. Now traffic is noticeably calmer, and you see more children walking. I can’t prove the camera prevented an accident, but I can tell you parents feel the difference."],
+       ["A", "Critics raise several objections. Some drivers argue that the cameras are placed where they will catch the most people rather than where the danger is greatest, pointing to a camera on a wide, four-lane road near a high school that issued more than a third of all tickets last year. Others say a ticket that arrives two weeks later does little to change behaviour in the moment, compared with a police officer pulling someone over. And because the ticket goes to the vehicle’s owner, not the driver, no demerit points are ever applied."],
+       ["A", "There is also the question of revenue. The program brought in about four million dollars last year, well above its operating costs. The city says the surplus goes into a road safety fund for crosswalks and sidewalks, but some councillors want a guarantee written into the bylaw, saying residents won’t trust the program unless they can see where the money goes."],
+       ["B", "Honestly, I don’t mind if it makes money, as long as it goes back into safer streets. What I would object to is cameras being moved to wherever the profit is highest."],
+       ["A", "Researchers who study traffic safety say both sides have a point. Cameras clearly reduce speeding at the sites where they are installed, but the effect tends to fade a few hundred metres away. Their view is that cameras work best as one tool among several, alongside physical changes like raised crosswalks and narrower lanes, which slow drivers whether or not anyone is watching."],
+       ["A", "When council votes next month, the key questions are likely to be where the new cameras go, and whether the money they raise will be legally tied to road safety. Whatever the outcome, the debate shows how a technology meant to protect children has become a test of public trust in city hall."]
+      ],
+      "qs": [
+       {
+        "q": "What do the city’s figures show?",
+        "o": ["Fewer drivers speed where cameras are installed.", "Collisions near schools have fallen by forty percent.", "Most tickets go to parents dropping off children.", "Speeding has dropped across the whole city."],
+        "a": 0, "t": "paraphrase",
+        "ev": "the share of drivers speeding fell from about forty percent in the first month to under fifteen percent",
+        "x": "At the camera sites, speeding fell from about 40% to under 15%. Forty percent was the share of speeders, not a drop in collisions, and the effect fades away from the cameras."
+       },
+       {
+        "q": "What does Mr. Kulkarni say about the camera at his school?",
+        "o": ["It has clearly prevented several accidents.", "It caused traffic to back up on the hill.", "It should be moved to a busier road.", "It has changed how safe families feel."],
+        "a": 3, "t": "viewpoint",
+        "ev": "parents feel the difference",
+        "x": "He says parents “feel the difference” and more children walk. He explicitly says he cannot prove the camera prevented an accident."
+       },
+       {
+        "q": "Why do some drivers criticize the camera near the high school?",
+        "o": ["It photographs vehicles going under the limit.", "It was installed without consulting the school.", "It seems placed to issue tickets, not to protect.", "It breaks down more often than other cameras."],
+        "a": 2, "t": "inference",
+        "ev": "the cameras are placed where they will catch the most people rather than where the danger is greatest",
+        "x": "Drivers point to this camera, which issued over a third of all tickets on a wide road, as proof that locations are chosen to catch people rather than for danger."
+       },
+       {
+        "q": "What do some councillors want?",
+        "o": ["The program to be cancelled next month", "A legal rule on how the money is spent", "Police officers to replace the cameras", "Lower fines for drivers caught speeding"],
+        "a": 1, "t": "detail",
+        "ev": "some councillors want a guarantee written into the bylaw",
+        "x": "They want the bylaw to guarantee that camera revenue goes to road safety. Next month is when council votes on expansion, not cancellation."
+       },
+       {
+        "q": "What is Mr. Kulkarni’s attitude toward the program’s revenue?",
+        "o": ["He thinks the program should make no profit.", "He wants the money given directly to schools.", "He worries the city will lose money on it.", "He accepts it as long as one condition is met."],
+        "a": 3, "t": "attitude",
+        "ev": "I don’t mind if it makes money, as long as it goes back into safer streets",
+        "x": "He doesn’t mind the profit as long as it funds safer streets – conditional acceptance. He objects only to moving cameras for profit, not to profit itself."
+       },
+       {
+        "q": "What do traffic safety researchers suggest?",
+        "o": ["Cameras work best alongside changes to street design.", "Cameras should replace raised crosswalks near schools.", "Cameras slow drivers for several kilometres around them.", "Cameras are less effective than police officers."],
+        "a": 0, "t": "main",
+        "ev": "cameras work best as one tool among several",
+        "x": "Researchers see cameras as one tool among several, combined with physical changes like raised crosswalks. The effect fades a few hundred metres away, not several kilometres."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Beatriz Lindholm, Volunteer Coordinator, Harbourview Settlement Services | To: Owen Tremblay | Subject: Your first tutoring assignment",
+   "text": "Dear Owen,\n\nThank you again for completing our volunteer orientation last Saturday. Your police check has now come back clear, so I am delighted to confirm your first assignment as a conversation tutor.\n\nYou will be matched with Mr. Tesfaye Gebremariam, a 52-year-old accountant who arrived in the spring with his wife and two teenage sons. His reading and writing are already quite advanced, but he told us that he struggles to follow fast conversations, especially on the phone, and that he freezes during job interviews. His goal is to return to accounting, so practising interview answers and workplace small talk would be especially valuable.\n\nOriginally, I had planned for you to meet on Wednesday evenings at our main office. However, Mr. Gebremariam has just started a warehouse job with rotating shifts, so the schedule will need to be more flexible. Instead, please arrange your sessions with him directly each week, either at our office or at the Westgate public library, which has free study rooms that can be booked online. For your safety and his, sessions should not take place in either of your homes.\n\nA few reminders from the orientation. Sessions should last between sixty and ninety minutes, and we ask for a commitment of at least four months. Please record the date and length of each session in the online log by the end of the week, because our funding depends on these numbers. If you are asked for advice on immigration, legal or tax matters, kindly refer Mr. Gebremariam to his settlement counsellor rather than answering yourself, even if you think you know the answer.\n\nFinally, some tutors find it difficult at first to know what to talk about. I have attached our list of conversation topics, but honestly, the best sessions usually come from the learner’s own life. Ask about his week, his family or the news, and let him lead.\n\nPlease reply to let me know whether you accept this match, and I will send you his contact details.\n\nWarm regards,\nBeatriz Lindholm\nVolunteer Coordinator",
+   "qs": [
+    {
+     "q": "Why has Beatriz written to Owen now?",
+     "o": ["To invite him to a volunteer orientation", "To ask him to complete a police check", "To offer him his first learner", "To ask him to work at the main office"],
+     "a": 2, "t": "purpose",
+     "ev": "I am delighted to confirm your first assignment as a conversation tutor",
+     "x": "Now that his police check is clear, she is giving him his first tutoring match. The orientation and police check are already completed, not requests."
+    },
+    {
+     "q": "What does Mr. Gebremariam find most difficult?",
+     "o": ["Keeping up with quick spoken exchanges", "Reading formal documents in English", "Writing reports for accounting work", "Understanding his sons’ teachers"],
+     "a": 0, "t": "paraphrase",
+     "ev": "he struggles to follow fast conversations",
+     "x": "He struggles to follow fast conversations, especially on the phone. His reading and writing are described as already quite advanced."
+    },
+    {
+     "q": "Why did Beatriz change the original meeting plan?",
+     "o": ["The main office is closed on Wednesday evenings.", "Owen would rather meet at the public library.", "The learner prefers to meet at his own home.", "The learner’s new job has changing hours."],
+     "a": 3, "t": "inference",
+     "ev": "has just started a warehouse job with rotating shifts",
+     "x": "Rotating shifts at his new job make a fixed Wednesday meeting impossible. The library is one possible place, not Owen’s request, and meeting at home is not allowed."
+    },
+    {
+     "q": "Why must Owen fill in the online log?",
+     "o": ["To prove he has met the four-month commitment", "Because the organization’s funding relies on it", "So the counsellor can see what was discussed", "To book a study room at the library"],
+     "a": 1, "t": "detail",
+     "ev": "our funding depends on these numbers",
+     "x": "The log is required because funding depends on the numbers. Library rooms are booked separately online, and the counsellor is never linked to the log."
+    },
+    {
+     "q": "What should Owen do if he is asked about taxes?",
+     "o": ["Answer only if he is sure he is correct", "Look up the information at the library", "Discuss it with Beatriz before the next session", "Direct the learner to a different staff member"],
+     "a": 3, "t": "inference",
+     "ev": "kindly refer Mr. Gebremariam to his settlement counsellor rather than answering yourself",
+     "x": "He must send the learner to his settlement counsellor, even if he thinks he knows the answer. Option A directly contradicts this instruction."
+    },
+    {
+     "q": "What does Beatriz suggest about the list of conversation topics?",
+     "o": ["It is less useful than the learner’s own experiences.", "It must be followed closely in every session.", "It was written by previous learners at the agency.", "It focuses mainly on preparing for interviews."],
+     "a": 0, "t": "attitude",
+     "ev": "the best sessions usually come from the learner’s own life",
+     "x": "Her “but honestly” shows the list is secondary: the best sessions come from the learner’s own life. Nothing says it must be followed or who wrote it."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Owen’s response. Complete it by choosing the best option for each blank.",
+    "text": "Dear Beatriz,\n\nThank you for the match – I’m happy to accept. Mr. Gebremariam sounds like an ideal partner, and since I worked in human resources for many years, I think I can really help him {1}.\n\nThe flexible schedule is fine with me. I work from home, so I can easily meet {2}. I’ll book a room at the Westgate library rather than {3}, as you asked.\n\nI noticed that sessions should last at least sixty minutes. Would it be all right to occasionally do a short practice phone call between sessions? Since he finds the phone difficult, that might be {4}. Of course, I would still {5} for our main sessions.\n\nPlease send his contact details when you can. I’m really looking forward to getting started.\n\nBest wishes,\nOwen",
+    "blanks": [
+     {
+      "o": ["prepare his tax returns", "get ready for job interviews", "find a warehouse position", "improve his written English"],
+      "a": 1, "t": "inference",
+      "ev": "practising interview answers and workplace small talk would be especially valuable",
+      "x": "An HR background suits interview practice, which Beatriz called especially valuable. Tax advice must go to the counsellor, and his writing is already advanced."
+     },
+     {
+      "o": ["only on Wednesday evenings", "at the main office only", "at my home on weekends", "around his changing shifts"],
+      "a": 3, "t": "coherence",
+      "ev": "the schedule will need to be more flexible",
+      "x": "Working from home lets Owen fit around the learner’s rotating shifts. Wednesday evenings was the cancelled plan, and homes are not allowed."
+     },
+     {
+      "o": ["meeting at the main office", "booking it online", "meeting at either of our homes", "using the topics list"],
+      "a": 2, "t": "detail",
+      "ev": "sessions should not take place in either of your homes",
+      "x": "“As you asked” refers to the rule against meeting in either person’s home. The main office is an allowed location, so avoiding it is not something Beatriz requested."
+     },
+     {
+      "o": ["especially good practice for him", "required by his counsellor", "easier to record in the log", "a way to shorten the four months"],
+      "a": 0, "t": "inference",
+      "ev": "especially on the phone",
+      "x": "Because the learner struggles on the phone, short calls would be useful practice. The counsellor and log have nothing to do with the reason for the calls."
+     },
+     {
+      "o": ["ask for his tax documents", "follow the topics list exactly", "record each one in the log", "meet him at his warehouse"],
+      "a": 2, "t": "detail",
+      "ev": "Please record the date and length of each session in the online log",
+      "x": "Owen promises to keep logging sessions, as Beatriz requires. She said the topics list need not be followed closely, and tax matters go to the counsellor."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "City of Harrowgate – Home Flood Protection Subsidy Program 2027",
+    "intro": "Homeowners can receive a subsidy for approved flood-protection work completed by a licensed contractor. Apply before work begins; work started before approval is not eligible.",
+    "table": {
+     "cols": ["Measure", "Subsidy rate", "Maximum subsidy", "Permit required?", "Proof of completion"],
+     "rows": [
+      ["Backwater valve", "80% of cost", "$1,250", "Yes ($150 plumbing permit)", "City inspection"],
+      ["Sump pump with battery backup", "50% of cost", "$1,000", "No", "Photo of installation"],
+      ["Downspout disconnection", "100% of cost", "$500", "No", "Photo of installation"],
+      ["Window well covers", "50% of cost", "$300 per window, max. 2 windows", "No", "Photo of installation"],
+      ["Lot regrading", "50% of cost", "$2,000", "Yes ($250 grading permit)", "City inspection"]
+     ]
+    },
+    "notes": [
+     "Total subsidy per property is capped at $3,500 over the life of the program.",
+     "Permit fees are not eligible costs and are not included in the subsidy calculation.",
+     "Homes in Flood Priority Zones A and B receive an extra 10 percentage points on each subsidy rate (maximum amounts do not change).",
+     "Payment is made within 60 days of a passed inspection or an approved photo.",
+     "Tenants may apply only with the written consent of the property owner."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the subsidy program. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Graham,\n\nI finally got quotes for the flood-proofing work at our place. The backwater valve will cost $1,400, and because we’re in Flood Priority Zone B, the city will cover {1} of that. I’ll also have to pay {2} for the permit out of my own pocket.\n\nWe have three basement windows, and the covers are $400 each, so the most the city could pay towards those is {3}. I’m still deciding whether it’s worth doing all three.\n\nYou asked about Ines next door. Since she rents her house, she can’t apply until she gets {4}. I’ve told her to ask soon, because the contractors are booking up for spring.\n\nThe nice part is that we won’t wait forever for the money: it should arrive {5} after the inspector signs off. Just remember not to let anyone start before the application is approved, or we’ll get nothing.\n\nTalk soon,\nShirin",
+    "blanks": [
+     {
+      "o": ["$1,250", "$1,120", "$1,260", "$1,400"],
+      "a": 0, "t": "diagram",
+      "ev": "maximum amounts do not change",
+      "x": "Zone B raises the rate to 90%: 90% of $1,400 = $1,260, but the backwater valve maximum of $1,250 still applies. $1,120 uses the basic 80% rate."
+     },
+     {
+      "o": ["$0", "$250", "$150", "$300"],
+      "a": 2, "t": "diagram",
+      "ev": "Yes ($150 plumbing permit)",
+      "x": "A backwater valve needs a $150 plumbing permit, and permit fees are not covered. $250 is the grading permit for lot regrading."
+     },
+     {
+      "o": ["$720", "$480", "$600", "$400"],
+      "a": 1, "t": "diagram",
+      "ev": "$300 per window, max. 2 windows",
+      "x": "In Zone B the rate is 60%: 60% of $400 = $240 per window, within the $300 cap, but only two windows qualify, so $480. $720 wrongly counts all three windows."
+     },
+     {
+      "o": ["a city inspection first", "a plumbing permit", "to live in Zone A or B", "written permission from the owner"],
+      "a": 3, "t": "diagram",
+      "ev": "Tenants may apply only with the written consent of the property owner.",
+      "x": "Tenants need the owner’s written consent before applying. Inspections happen after the work, and living in a priority zone only increases the rate."
+     },
+     {
+      "o": ["on the same day", "within two months", "after one full year", "before the work begins"],
+      "a": 1, "t": "diagram",
+      "ev": "Payment is made within 60 days of a passed inspection or an approved photo.",
+      "x": "Payment comes within 60 days – about two months – of a passed inspection. Money is never paid before the work, which must not even start before approval."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A homeowner outside the priority zones spends $1,200 disconnecting her downspouts. How much subsidy will she receive?",
+     "o": ["$1,200", "$600", "$0", "$500"],
+     "a": 3, "t": "diagram",
+     "ev": "Downspout disconnection 100% of cost $500",
+     "x": "Downspout work is covered at 100%, but only up to a maximum of $500. $1,200 ignores the cap, and $600 wrongly applies a 50% rate."
+    },
+    {
+     "q": "A homeowner has already received the full maximum subsidies for lot regrading and a sump pump. She now installs a $1,400 backwater valve outside the priority zones. How much more can she receive?",
+     "o": ["$500", "$1,120", "$1,250", "$0"],
+     "a": 0, "t": "diagram",
+     "ev": "Total subsidy per property is capped at $3,500 over the life of the program.",
+     "x": "She has received $2,000 + $1,000 = $3,000, leaving $500 under the $3,500 lifetime cap. 80% of $1,400 would be $1,120, but the cap limits her to $500."
+    },
+    {
+     "q": "Which of the following projects would NOT receive a subsidy?",
+     "o": ["A sump pump installed by a licensed contractor in Zone A", "Window well covers on a rental home, with the owner’s written consent", "A backwater valve installed in March and approved in April", "Lot regrading with a $250 grading permit and a city inspection"],
+     "a": 2, "t": "diagram",
+     "ev": "work started before approval is not eligible",
+     "x": "Work done in March, before April approval, started before approval and is not eligible. The rental option is acceptable because the owner gave written consent."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Paramedics at the Door: The Growth of Community Paramedicine",
+   "paras": [
+    "For most people, a paramedic is someone who arrives with flashing lights, treats an emergency and rushes a patient to hospital. In community paramedicine programs, the job looks very different. Paramedics visit patients at home on a scheduled basis, often older adults living with chronic conditions such as heart failure, lung disease or diabetes. They check blood pressure and oxygen levels, review medications, look for hazards that could cause a fall and watch for early signs that a patient’s condition is getting worse. The idea first emerged in rural and remote areas where doctors are scarce and the nearest hospital may be hours away, but it has since spread to many cities. Programs vary widely in how they are organized: some are run by ambulance services, others by hospitals, regional health authorities or partnerships between several agencies.",
+    "Early results have been encouraging. A program in one mid-sized Ontario city enrolled residents who had called 911 most frequently in the previous year, and their emergency calls fell by about a third in the first twelve months. Participants reported that they felt less anxious about their health because they knew someone would be checking on them regularly, and several said they no longer called an ambulance simply because they were frightened and alone. Paramedics, for their part, have described the work as rewarding, since it allows them to spend time getting to know patients instead of rushing between calls. Researchers, however, urge caution. Many evaluations so far have been small and short, and it is not yet clear whether any savings to the health system last over the long term or simply shift costs elsewhere.",
+    "The programs also face practical challenges. Funding is often temporary, coming from grants that last two or three years, and when the money ends, some programs close and patients lose a service they had come to rely on. Paramedic unions have raised concerns that home visits could pull staff away from emergency coverage, particularly in small communities where only one or two ambulances may be on duty at night. For this reason, most programs now use separate staff and vehicles for home visits. There are questions, too, about professional boundaries. Some home care nurses feel that paramedics are taking on work that falls within nursing, while paramedics argue that their training in rapid assessment makes them well suited to spotting problems early.",
+    "Looking ahead, several provinces are considering changes that would expand what paramedics can do. One proposal would allow them to treat certain patients at home rather than taking them to hospital, for example by treating a diabetic patient’s low blood sugar on the spot and leaving a care plan. Supporters say this would ease crowding in emergency departments; critics worry that serious conditions could occasionally be missed. Technology is also changing the work, with video links that let paramedics consult an emergency physician in real time from a patient’s living room. Advocates agree on one point: the programs succeed only when they are connected to the rest of the health system, and in particular when family doctors receive a report after every visit."
+   ],
+   "qs": [
+    {"q": "Some people fear that home visits could reduce ambulance coverage in smaller places.", "a": "C", "t": "paraphrase", "ev": "home visits could pull staff away from emergency coverage, particularly in small communities", "x": "Paragraph C reports union concerns that home visits could pull paramedics away from emergency coverage in small communities."},
+    {"q": "This type of program began in areas where few doctors were available.", "a": "A", "t": "paraphrase", "ev": "The idea first emerged in rural and remote areas where doctors are scarce", "x": "Paragraph A says community paramedicine first emerged in rural and remote areas where doctors are scarce."},
+    {"q": "Treating patients through these programs costs less than keeping them in hospital.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph B mentions possible savings but says it is unclear whether they last; no paragraph compares program costs with hospital stays."},
+    {"q": "Paramedics may soon be allowed to treat some patients without transporting them.", "a": "D", "t": "paraphrase", "ev": "allow them to treat certain patients at home rather than taking them to hospital", "x": "Paragraph D describes a proposal allowing paramedics to treat certain patients at home instead of taking them to hospital."},
+    {"q": "People enrolled in one program felt calmer about their health.", "a": "B", "t": "paraphrase", "ev": "they felt less anxious about their health", "x": "Paragraph B says participants felt less anxious because they knew someone would check on them regularly."},
+    {"q": "Different kinds of organizations run these programs.", "a": "A", "t": "detail", "ev": "some are run by ambulance services, others by hospitals, regional health authorities or partnerships", "x": "Paragraph A explains that programs may be run by ambulance services, hospitals, health authorities or partnerships."},
+    {"q": "Most paramedics would rather do home visits than work on ambulances.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph B says paramedics find home visits rewarding, but nothing states that most would prefer them to ambulance work."},
+    {"q": "Some programs have shut down after their grants ended.", "a": "C", "t": "detail", "ev": "when the money ends, some programs close", "x": "Paragraph C explains that temporary grants run out and some programs then close."},
+    {"q": "Keeping family doctors informed is essential to the programs’ success.", "a": "D", "t": "inference", "ev": "the programs succeed only when they are connected to the rest of the health system", "x": "Paragraph D says programs succeed only when connected to the health system, especially when family doctors receive a report after every visit."}
+   ]
+  },
+  "p4": {
+   "title": "Licensing Landlords Would Protect Tenants – and Good Landlords Too",
+   "byline": "Opinion | by Delphine Arsenault, housing researcher",
+   "text": "When we buy a sandwich from a food truck, we expect the operator to hold a licence and pass regular health inspections. When we get a haircut, the salon is licensed. Yet in most Canadian cities, anyone can rent out a basement apartment or an entire building without registering with the city at all. For something as important as the place where people sleep, that gap is hard to justify.\n\nRental licensing is not a radical idea. Several Canadian cities already require landlords to obtain a yearly licence, usually for a fee of a few hundred dollars per building. To qualify, owners must show proof of insurance, provide a maintenance plan and allow an initial inspection for basic safety: working smoke alarms, safe electrical wiring, a second exit from basement units and heat that meets the bylaw. The licence number must appear in every rental advertisement, which makes illegal units easier to spot.\n\nThe main benefit is obvious: fewer people living in dangerous conditions. Under the current complaint-based system, the city only inspects a unit when a tenant calls bylaw enforcement. But the tenants in the worst housing are often the least likely to complain. Newcomers may not know their rights, and people with few options fear that a complaint will lead to eviction or a rent increase. A licensing system shifts the burden from the tenant to the landlord, where it belongs.\n\nLicensing also produces something cities badly need: information. Most municipalities have no reliable count of how many rental units exist within their borders, let alone where they are or what condition they are in. Without that data, planning for housing, transit and emergency services is guesswork. In one city that introduced licensing, officials discovered nearly twice as many secondary suites as their estimates had suggested.\n\nCritics argue that licensing adds costs that landlords will simply pass on to tenants. This concern deserves to be taken seriously, but the numbers are modest. A fee of three hundred dollars a year on a building with six units amounts to about four dollars a month per unit. Cities can also waive or reduce fees for owners who rent out a single basement suite, the kind of small landlord who is most likely to be stretched.\n\nA more serious objection is that cities lack the staff to inspect thousands of units. Here, too, there are solutions. Inspections can be phased in, starting with older buildings and basement units, where risks are greatest. Landlords with a clean record can move to inspections every three years instead of every year, which rewards responsible owners and frees inspectors to focus on the worst cases.\n\nIn fact, good landlords have the most to gain. Today they compete with owners who cut corners on safety and maintenance and can therefore operate at lower cost. A licence would give responsible owners a visible mark of quality and make it harder for the worst operators to undercut them.\n\nNo program will eliminate every bad landlord. But a licence requirement would move cities from reacting to emergencies toward preventing them. Councils that are serious about housing should stop asking whether they can afford licensing and start asking whether they can afford to keep going without it.",
+   "qs": [
+    {
+     "q": "Why does the writer mention food trucks and hair salons?",
+     "o": ["To show that small businesses face too many rules", "To point out an inconsistency in what cities regulate", "To argue that rental fees should match other licences", "To compare the profits of landlords and businesses"],
+     "a": 1, "t": "purpose",
+     "ev": "For something as important as the place where people sleep, that gap is hard to justify.",
+     "x": "She contrasts licensed sandwich sellers and salons with unlicensed landlords to show an illogical gap. She never says businesses face too many rules or compares fees."
+    },
+    {
+     "q": "According to the writer, what is the main weakness of the complaint-based system?",
+     "o": ["Bylaw officers are too slow to answer calls.", "Landlords can easily hide illegal units.", "Those in the worst housing rarely report it.", "Inspections are too expensive for tenants."],
+     "a": 2, "t": "paraphrase",
+     "ev": "the tenants in the worst housing are often the least likely to complain",
+     "x": "The system relies on complaints, yet those in the worst housing seldom complain. Spotting illegal units is a benefit of licence numbers in ads, not her criticism of the current system."
+    },
+    {
+     "q": "What point does the writer make about secondary suites?",
+     "o": ["Cities have underestimated how many exist.", "They are more dangerous than apartments.", "Their owners should not pay any fees.", "Most were built without proper permits."],
+     "a": 0, "t": "inference",
+     "ev": "officials discovered nearly twice as many secondary suites as their estimates had suggested",
+     "x": "One city found nearly twice as many suites as estimated, showing cities lack accurate data. She suggests reducing fees for small owners, not eliminating all fees."
+    },
+    {
+     "q": "How does the writer respond to the argument that tenants will pay more?",
+     "o": ["She denies that landlords would pass costs on.", "She suggests the province should pay the fees.", "She proposes that tenants share inspection costs.", "She argues the effect on rent would be small."],
+     "a": 3, "t": "viewpoint",
+     "ev": "amounts to about four dollars a month per unit",
+     "x": "She takes the concern seriously but shows the cost is about four dollars a month per unit. She does not deny that costs could be passed on."
+    },
+    {
+     "q": "Why does the writer believe responsible landlords would benefit?",
+     "o": ["They could avoid inspections altogether.", "They would face less unfair competition.", "They could raise their rents more easily.", "They would receive grants for repairs."],
+     "a": 1, "t": "inference",
+     "ev": "make it harder for the worst operators to undercut them",
+     "x": "Licensing would stop corner-cutting owners from undercutting good landlords on cost. Owners with clean records get less frequent inspections, not none."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I own a duplex and rent out the lower unit, so I started this article with some suspicion. To be fair, Ms. Arsenault makes a good case. I have personally seen basement apartments in my neighbourhood without {1}, which she rightly lists as a basic safety requirement, and I agree that the people living in them are unlikely to call bylaw enforcement because they are afraid of {2}.\n\nHowever, her cost figures assume a building with several units. For someone like me, with only one rental, the whole fee falls on {3}. I was glad she suggested {4} for small owners, but that should be written into the bylaw from the first day, not left as an option for later.\n\nI also like the idea that owners with a clean record would {5}. If the city genuinely rewards those of us who do things properly, I would accept a licence without complaint.",
+    "blanks": [
+     {
+      "o": ["a licence number in their ads", "a written maintenance plan", "a rental insurance policy", "smoke alarms that actually work"],
+      "a": 3, "t": "coherence",
+      "ev": "working smoke alarms",
+      "x": "Only working smoke alarms are listed as a basic safety requirement. Licence numbers, maintenance plans and insurance are licensing conditions, not safety features."
+     },
+     {
+      "o": ["losing their homes", "paying licence fees", "failing an inspection", "the city’s rental data"],
+      "a": 0, "t": "paraphrase",
+      "ev": "fear that a complaint will lead to eviction or a rent increase",
+      "x": "The article says tenants fear eviction if they complain – losing their homes. Licence fees and inspections are landlords’ concerns, not tenants’."
+     },
+     {
+      "o": ["the tenant upstairs", "the city’s inspectors", "a single unit", "the whole building"],
+      "a": 2, "t": "inference",
+      "ev": "A fee of three hundred dollars a year on a building with six units amounts to about four dollars a month per unit.",
+      "x": "The article’s figure spreads the fee over six units; with one rental, it falls on a single unit. He lives upstairs himself, so there is no upstairs tenant."
+     },
+     {
+      "o": ["phased-in inspections", "lower or waived fees", "three-year licences", "visible quality marks"],
+      "a": 1, "t": "detail",
+      "ev": "Cities can also waive or reduce fees for owners who rent out a single basement suite",
+      "x": "The article suggests waiving or reducing fees for single-suite owners. Phased inspections address staff shortages, not costs for small owners."
+     },
+     {
+      "o": ["pay a smaller yearly fee", "skip the first inspection", "receive a quality award", "be inspected less often"],
+      "a": 3, "t": "paraphrase",
+      "ev": "Landlords with a clean record can move to inspections every three years instead of every year",
+      "x": "Clean-record landlords would be inspected every three years instead of yearly. Every unit still needs an initial inspection, and no fee reduction is linked to a clean record."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Six weeks ago, you mailed an application for an accessible parking permit on behalf of your father, who recently had hip surgery and cannot walk long distances. The permit has not arrived, and when you called the provincial office, you were told there was no record of the application.",
+   "bullets": [
+    "Explain what you sent and when",
+    "Describe how the delay is affecting your father",
+    "Request specific actions to solve the problem quickly"
+   ],
+   "model": "Dear Accessible Parking Permit Office,\n\nI am writing about an application I mailed on September 4 on behalf of my father, Mr. Rolf Andersen, for an accessible parking permit. The envelope contained the completed application form, a medical certificate signed by his surgeon, Dr. Patel, and a copy of his driver’s licence. When I called your office yesterday, I was told there was no record of it.\n\nThe delay is causing real difficulties. My father had hip replacement surgery in August and cannot walk more than about fifty metres without pain. He has physiotherapy three times a week at a busy clinic where the regular parking is far from the entrance, so he has already missed two appointments because the walk was too much for him.\n\nI would be grateful if you could search for the application under his name and date of birth, which are listed below. If it cannot be found, please tell me how to resubmit it so that it is processed as a priority, and whether a temporary permit could be issued in the meantime.\n\nThank you for your help.\n\nSincerely,\nKarin Andersen"
+  },
+  "t2": {
+   "intro": "Your city has funding for one new public service and is asking residents which option it should choose.",
+   "question": "Which option do you prefer? Explain the reasons for your choice.",
+   "a": "Extend the hours of all public library branches to 9 p.m. on weekdays and open them on Sunday afternoons.",
+   "b": "Open a free drop-in youth centre with sports, homework help and counselling in a rented building near the main bus terminal.",
+   "model": "I would choose Option A, extending library hours, because it would benefit the widest range of residents for the same amount of money.\n\nAt the moment, most of our branches close at six on weekdays and stay closed all day Sunday. That means people who work full time can rarely use them. Longer hours would give students a quiet place to study in the evening, allow job seekers to use computers and printers after work, and give families something free to do on Sunday afternoons. The libraries already exist in every neighbourhood, so the service would be close to home for almost everyone.\n\nI do think a youth centre is a valuable idea, and teenagers certainly need safe places to go. However, a single building near the bus terminal would mainly serve young people in that area, and renting a building means a large share of the funding would go to rent rather than to programs. In addition, libraries already offer homework clubs and youth activities, so longer hours would partly meet the same need.\n\nOverall, Option A makes better use of existing resources and helps more people."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend is thinking about running for the local school board in the next municipal election. She is passionate about education but has never been involved in politics. Give her advice about how to prepare.",
+   "model": "First of all, I think it’s fantastic that you’re considering this, and honestly, the school board needs people who actually care about kids rather than just politics. But I’d prepare carefully before you put your name forward. My first suggestion is to start attending board meetings now, even a few months before you decide. You’ll learn how decisions are made, what the budget looks like, and which issues keep coming up, like overcrowded classrooms or school closures. That way, when people ask you questions, you’ll sound informed rather than idealistic. Second, talk to a current or former trustee. They can tell you how much time the job really takes, because it’s usually a lot more than people expect, especially during budget season. Third, think about your support team. You’ll need a few volunteers to help with signs, door-knocking and social media, and someone organized to keep track of donations, because there are strict rules about campaign finances. Finally, figure out your two or three main priorities and practise explaining them in a minute or less. Parents at the door won’t have time for a speech. And whatever happens, you’ll learn a huge amount, and I’ll definitely help you put up signs."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you volunteered to help in your community. What did you do, and how did you feel about it?",
+   "model": "Last spring, my neighbourhood association organized a cleanup of the ravine behind our street, and I signed up mostly because my neighbour kept asking me. To be honest, I wasn’t expecting much. On the day, about thirty of us showed up with gloves and garbage bags, and the city lent us some long grabbers and a pickup truck. We spent the whole morning pulling out plastic bottles, old tires and even a shopping cart that had been stuck in the creek for years. What surprised me most was how much fun it was. I met people who had lived two doors away from me for years, and we ended up having a barbecue afterwards. I felt really proud when I walked through the ravine the next week and it looked completely different. Now I actually help organize the cleanup every year."
+  },
+  "t3": {
+   "scene": {
+    "bg": "park",
+    "alt": "A busy emergency preparedness fair in a park on a sunny day. A green banner reads EMERGENCY PREPAREDNESS FAIR. On the left, a red fire truck is parked, and a firefighter in a red helmet is showing a fire extinguisher to two children. In the middle, a woman behind a booth labelled BE READY hands a flyer to a man holding a shopping bag. Boxes labelled KIT sit on a table beside her. On the right, a man in a blue shirt waves to the crowd under a white tent, and a girl holds a bunch of balloons. A dog sits near an orange cone.",
+    "items": [
+     ["sun", 580, 55],
+     ["cloud", 260, 50, 0.8],
+     ["banner", 180, 90, 280, "EMERGENCY PREPAREDNESS FAIR", "#27ae60"],
+     ["truck", 110, 330, "#c0392b", "FIRE"],
+     ["person", 200, 350, {"shirt": "#2c3e50", "hat": "#c0392b", "pose": "point", "hold": "box", "holdColor": "#e74c3c"}],
+     ["person", 240, 360, {"kid": true, "shirt": "#f1c40f", "flip": true}],
+     ["person", 265, 362, {"kid": true, "shirt": "#3498db", "hairStyle": "long", "flip": true}],
+     ["stall", 320, 330, 120, "BE READY", "#2980b9"],
+     ["box", 340, 312, 30, 20, "KIT", "#e67e22"],
+     ["person", 380, 330, {"shirt": "#8e44ad", "hairStyle": "bun", "hold": "book"}],
+     ["person", 440, 355, {"shirt": "#16a085", "hold": "bag", "flip": true, "skin": "#8d5524"}],
+     ["tent", 540, 320, "#ecf0f1"],
+     ["person", 545, 350, {"shirt": "#2e86de", "pose": "wave"}],
+     ["person", 600, 365, {"kid": true, "shirt": "#e84393", "hold": "balloon", "holdColor": "#f39c12"}],
+     ["dog", 480, 375, "#a0522d"],
+     ["cone", 505, 380]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows an emergency preparedness fair in a park on a bright, sunny day. There’s a big green banner across the top that says “Emergency Preparedness Fair”. On the left, a red fire truck is parked on the grass, and a firefighter wearing a red helmet is holding what looks like a fire extinguisher and explaining something to two young children, who seem really interested. In the middle, there’s a blue booth with a sign that says “Be Ready”. A woman with her hair in a bun is handing out information to a man carrying a shopping bag, and there are orange boxes labelled “Kit” on the table. On the right, under a white tent, a man in a blue shirt is waving to people, and a little girl is holding some balloons. There’s also a brown dog sitting near an orange traffic cone."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the two children will probably get a chance to try the fire extinguisher, or at least practise how to hold it, because the firefighter seems to be getting ready for a demonstration. After that, he might invite them to climb into the fire truck, which kids always love. The man at the booth will most likely take the flyer and maybe buy one of the emergency kits, since he’s already carrying a bag and looks interested. The man waving under the tent is probably about to start a presentation, so a small crowd will gather in front of him. As for the little girl with the balloons, I wouldn’t be surprised if the dog runs over to sniff her, and she might let go of a balloon by accident. Overall, the fair will probably get busier as the afternoon goes on."
+  },
+  "t5": {
+   "intro": "Your neighbourhood association has $2,000 to spend on one summer event. Choose the option that you prefer. In the next section, you will need to persuade a neighbour that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "Cleanup day and barbecue", "details": ["Costs about $900", "Morning cleanup of the local park", "Free barbecue lunch afterwards", "City provides gloves and bags", "Leftover money saved for winter event"]},
+    {"title": "Outdoor movie night", "details": ["Costs about $1,800", "Large inflatable screen", "Family film at sunset", "Free popcorn", "Cancelled if it rains"]}
+   ],
+   "other": {"title": "Fireworks show", "details": ["Costs $2,000", "15-minute professional display", "Needs a city permit and fire inspection", "Not suitable for some pets", "Held at 10 p.m."]},
+   "otherWho": "Your neighbour prefers",
+   "persuade": "Your neighbour prefers the fireworks show. Persuade your neighbour that your choice is better.",
+   "model": "I know fireworks are exciting, but I really think the cleanup day and barbecue is a smarter choice. First, think about value. The fireworks would use all two thousand dollars for fifteen minutes of entertainment. The cleanup and barbecue costs about nine hundred, so we’d have over a thousand left for a winter event. Second, the fireworks start at ten at night, which is too late for young children, and they’re hard on pets. Half the street has dogs, and some of them panic at loud noises. There’s also the permit and fire inspection, which could fall through at the last minute. The cleanup actually improves our park, and the barbecue gives everyone time to talk and get to know each other, which fireworks don’t really do. Honestly, people will remember the afternoon together much longer than a quick show."
+  },
+  "t6": {
+   "situation": "You are the only person named on the lease of the apartment you share with a roommate. Your roommate has been hosting loud parties on weeknights, and yesterday a bylaw officer gave you a written warning. If there is another complaint, you could be fined $500, and your landlord has said he may not renew the lease. Your roommate says you are overreacting.",
+   "options": [
+    "Talk to your roommate and explain that the parties must stop.",
+    "Talk to your landlord and explain how you are dealing with the problem."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey, Marco, can we sit down for a minute? I need to talk to you about the parties, and I’m not trying to be dramatic. Yesterday a bylaw officer came to the door and gave me a written warning, and because my name is the only one on the lease, it’s on me. If there’s one more complaint, I could be fined five hundred dollars, and the landlord has already hinted he might not renew the lease. That would mean both of us looking for a new place. I’m not saying you can never have people over. Weekends are fine if the music is off by eleven. But weeknights have to stop, because the neighbours have work too. And if anyone does get fined, I’d expect you to cover it. Can we agree on that, so we can keep living here?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should the voting age for municipal elections be lowered to 16? Explain your reasons.",
+   "model": "Personally, I think the voting age for municipal elections should be lowered to sixteen, at least as a trial. My first reason is that local government affects teenagers directly. City councils make decisions about public transit, parks, libraries, recreation centres and youth programs, and sixteen-year-olds use those services more than almost anyone. Many of them also have part-time jobs and pay taxes on their income, so it seems fair that they should have a say in how that money is spent. My second reason is about building habits. Research suggests that people who vote in the first election they are eligible for are more likely to keep voting for the rest of their lives. At sixteen, most young people are still living at home and still in school, where teachers can explain how local elections work. By eighteen or nineteen, many have moved away or started college, and voting is easy to forget. Some people argue that sixteen-year-olds aren’t mature enough or will simply vote like their parents. That’s a reasonable concern, but plenty of adults aren’t well informed either, and we don’t test them. Overall, I believe giving teenagers a vote locally would make them more engaged citizens."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "A town square surrounded by shops, with an enormous wooden park bench in the middle, about four times the normal size. Its seat is higher than the head of an adult. A man in a red shirt is climbing up a ladder leaning against the bench, while a woman takes a photo with a camera. Two children are sitting underneath the seat, and a woman in a dress points at it. A sign beside the bench reads SUMMER FESTIVAL. Shops and a streetlamp are in the background, and an ordinary bench sits nearby for comparison.",
+    "items": [
+     ["cloud", 100, 60, 1],
+     ["cloud", 520, 45, 0.8],
+     ["shop", 20, 290, 150, "BAKERY", "#f5cba7"],
+     ["shop", 480, 290, 150, "BOOKS", "#aed6f1"],
+     ["big", "bench", 210, 360, 4, 60],
+     ["ladder", 200, 360, 120],
+     ["person", 205, 300, {"shirt": "#c0392b", "pose": "both"}],
+     ["person", 290, 368, {"kid": true, "shirt": "#f1c40f", "pose": "sit"}],
+     ["person", 330, 368, {"kid": true, "shirt": "#2ecc71", "pose": "sit"}],
+     ["person", 470, 370, {"shirt": "#9b59b6", "hairStyle": "long", "hold": "camera", "flip": true}],
+     ["person", 120, 372, {"shirt": "#e67e22", "dress": true, "pose": "point"}],
+     ["sign", 560, 380, "SUMMER FESTIVAL", "#ffffff"],
+     ["bench", 540, 340, 60],
+     ["streetlamp", 610, 340]
+    ]
+   },
+   "prompt": "Your town has placed this in the main square for its summer festival. A friend who is visiting next week has heard about it and calls you. Describe it to your friend and explain whether you think it is a good idea for the town. Your friend cannot see the picture.",
+   "model": "Oh, you have to see this when you visit. They’ve put a gigantic wooden park bench right in the middle of the main square. I mean truly enormous, about four times the size of a normal one. The seat is higher than an adult’s head, so you actually need a ladder to get up there, and when I walked by, a guy in a red shirt was climbing up while his girlfriend took pictures. Kids were sitting underneath it like it was a fort. There’s a regular bench right next to it, which makes it look even more ridiculous. Personally, I think it’s a great idea. It’s fun, it gets people downtown, and everyone stops to take photos, which is good for the shops. My only concern is safety, because someone could easily fall off the top."
+  }
+ }
+}

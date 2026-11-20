@@ -1,0 +1,1742 @@
+{
+ "id": "t10",
+ "title": "Test 10",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two friends on a road trip are dealing with a problem.",
+    "sp": {
+     "A": {
+      "name": "Jess",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Kofi",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Kofi, the dashboard light just came on. The one that looks like a thermometer. And there’s steam coming from under the hood."
+       ],
+       [
+        "B",
+        "Pull over. Right now, onto the shoulder. Don’t keep driving if it’s overheating."
+       ],
+       [
+        "A",
+        "Okay, okay. I’m pulling over. Hazard lights are on."
+       ],
+       [
+        "B",
+        "Good. Turn the engine off. And don’t open the hood yet, the radiator could be extremely hot."
+       ],
+       [
+        "A",
+        "Where even are we? The last sign I saw said Wawa was sixty kilometres."
+       ],
+       [
+        "B",
+        "We’re in the middle of nowhere on the Trans-Canada, basically. And I’ve got one bar of cell signal."
+       ],
+       [
+        "A",
+        "This is my brother’s car. He’s going to kill me. He specifically said, “Check the coolant before you leave.”"
+       ],
+       [
+        "B",
+        "Did you?"
+       ],
+       [
+        "A",
+        "I… forgot. We were in such a rush to get on the road before the traffic."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Kofi tell Jess to stop immediately?",
+        "o": [
+         "They are about to run out of gas.",
+         "Continuing to drive could damage the car.",
+         "They have arrived in Wawa.",
+         "A police officer is signalling them."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "Don’t keep driving if it’s overheating",
+        "x": "Driving an overheating car can damage it."
+       },
+       {
+        "q": "Why shouldn’t Jess open the hood yet?",
+        "o": [
+         "It might be dangerously hot.",
+         "It is locked.",
+         "Her brother told her not to.",
+         "It is raining."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "the radiator could be extremely hot",
+        "x": "The radiator could be extremely hot."
+       },
+       {
+        "q": "What did Jess forget to do before the trip?",
+        "o": [
+         "Fill the gas tank",
+         "Check the coolant",
+         "Charge her phone",
+         "Tell her brother about the trip"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Check the coolant before you leave",
+        "x": "She forgot to check the coolant."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Okay, options. Do you have roadside assistance?"
+       ],
+       [
+        "A",
+        "My brother does, through his insurance. The card should be in the glove box. … Here it is. It says towing is free up to fifty kilometres."
+       ],
+       [
+        "B",
+        "Wawa is sixty. So we’d pay for the extra ten. That’s probably fine. Call them."
+       ],
+       [
+        "A",
+        "I just did. They say a tow truck can reach us in about two and a half hours. It’s a long weekend, and they’re very busy."
+       ],
+       [
+        "B",
+        "Two and a half hours on the side of the highway. Hmm. Alternatively, once the engine cools down, which takes maybe forty minutes, we could add coolant and try to drive slowly to Wawa. There’s a jug of coolant in the trunk; I saw it when we packed."
+       ],
+       [
+        "A",
+        "But what if there’s a leak? If the coolant just pours out, we’ll overheat again halfway there, and then we’re in an even worse spot."
+       ],
+       [
+        "B",
+        "True. We’d have to check for a leak first. If there’s a puddle under the car after we fill it, we wait for the tow."
+       ],
+       [
+        "A",
+        "Okay. I’ll keep the tow request open just in case."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How much of the tow would the friends have to pay for?",
+        "o": [
+         "The whole distance",
+         "The last ten kilometres",
+         "Nothing",
+         "The first fifty kilometres"
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "It says towing is free up to fifty kilometres",
+        "x": "Wawa is 60 km; 50 km free, so they pay for 10 km."
+       },
+       {
+        "q": "Why will the tow truck take so long?",
+        "o": [
+         "The road is closed.",
+         "It is a busy holiday weekend.",
+         "The truck has broken down.",
+         "They are outside the service area."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "It’s a long weekend, and they’re very busy",
+        "x": "It is a long weekend."
+       },
+       {
+        "q": "What is Jess’s concern about Kofi’s plan?",
+        "o": [
+         "They do not have any coolant.",
+         "A leak could cause the car to overheat again.",
+         "Adding coolant is illegal on the highway.",
+         "It would take too long."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "If the coolant just pours out, we’ll overheat again halfway there",
+        "x": "A leak would cause overheating again."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Okay, the engine’s cooled. I’ve added the coolant… and I don’t see anything dripping. Let’s give it five more minutes to be sure."
+       ],
+       [
+        "A",
+        "Still dry. I think it was just low. Should we cancel the tow?"
+       ],
+       [
+        "B",
+        "Not yet. Let’s drive, but slowly, and watch the temperature gauge. If it starts climbing, we pull over again and call them back. Once we’re in Wawa, we’ll get a mechanic to check it properly before we go any further."
+       ],
+       [
+        "A",
+        "Agreed. And I’m calling my brother tonight to confess. Better he hears it from me."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What did they discover after adding coolant?",
+        "o": [
+         "There was a large leak.",
+         "The car probably did not have a leak.",
+         "The engine would not start.",
+         "The coolant was the wrong type."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "I don’t see anything dripping",
+        "x": "No dripping – probably just low coolant."
+       },
+       {
+        "q": "What will they do in Wawa?",
+        "o": [
+         "Rent a different car",
+         "Have a mechanic inspect the car",
+         "Wait for the tow truck",
+         "Return the car to Jess’s brother"
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "we’ll get a mechanic to check it properly before we go any further",
+        "x": "Have a mechanic check it."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A customer is speaking with an employee at a furniture store.",
+    "sp": {
+     "A": {
+      "name": "Employee",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Customer",
+      "g": "f",
+      "acc": "en-IN",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hello. I bought a sectional sofa here three weeks ago, and it was supposed to be delivered yesterday between nine and noon. I took the morning off work, and nobody came."
+       ],
+       [
+        "A",
+        "I’m really sorry about that. May I have your order number?"
+       ],
+       [
+        "B",
+        "It’s four eight two nine one."
+       ],
+       [
+        "A",
+        "Thank you. Okay, I see the problem. The sofa arrived at our warehouse damaged. One of the legs was cracked, so the warehouse held it back and ordered a replacement part. Someone should have called you. That’s our mistake."
+       ],
+       [
+        "B",
+        "Nobody called. I waited all morning. When will it arrive?"
+       ],
+       [
+        "A",
+        "The replacement part is expected on Thursday. The earliest delivery after that would be Saturday, between one and five."
+       ],
+       [
+        "B",
+        "Saturday afternoon works, I suppose. But I lost half a day’s pay yesterday."
+       ],
+       [
+        "A",
+        "I understand, and I apologize. I can waive the eighty-nine-dollar delivery fee. And since the sofa was damaged, would you prefer a brand-new one from the next shipment instead of a repaired one? That would take about two weeks."
+       ],
+       [
+        "B",
+        "Hmm. If the leg is replaced properly, I don’t mind. I just want my sofa. My living room has been empty since I moved in."
+       ],
+       [
+        "A",
+        "Then let’s keep Saturday. I’ll put a note on your file so the warehouse calls you on Friday to confirm the time window. And here’s my direct line, in case anything changes."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why was the sofa not delivered?",
+        "o": [
+         "The delivery truck broke down.",
+         "The sofa was damaged and held at the warehouse.",
+         "The customer gave the wrong address.",
+         "The sofa was out of stock."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "The sofa arrived at our warehouse damaged",
+        "x": "It arrived damaged and was held back."
+       },
+       {
+        "q": "What does the employee admit?",
+        "o": [
+         "The customer should have been informed.",
+         "The sofa was the wrong colour.",
+         "The delivery fee was too high.",
+         "The warehouse lost the order."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Someone should have called you. That’s our mistake.",
+        "x": "They should have called her."
+       },
+       {
+        "q": "What does the employee offer as compensation?",
+        "o": [
+         "A full refund",
+         "Free delivery",
+         "A discount on another item",
+         "Payment for her lost wages"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "I can waive the eighty-nine-dollar delivery fee",
+        "x": "He waives the delivery fee."
+       },
+       {
+        "q": "Why does the customer choose the repaired sofa?",
+        "o": [
+         "It is cheaper.",
+         "She wants it as soon as possible.",
+         "The new one is a different colour.",
+         "She does not trust the warehouse."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "I just want my sofa. My living room has been empty since I moved in.",
+        "x": "She wants it quickly; the new one would take two weeks."
+       },
+       {
+        "q": "What will happen on Friday?",
+        "o": [
+         "The sofa will be delivered.",
+         "The warehouse will call to confirm the delivery time.",
+         "The replacement part will arrive.",
+         "The customer will visit the store."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "the warehouse calls you on Friday to confirm the time window",
+        "x": "The warehouse will call to confirm."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A homeowner is calling a utility company about an energy rebate program.",
+    "sp": {
+     "A": {
+      "name": "Agent",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Homeowner",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hi, I saw an ad for your Home Energy Savings program. I’m thinking of replacing my old furnace and wondering what’s available."
+       ],
+       [
+        "A",
+        "Thanks for calling. The first step for most of our rebates is a home energy assessment. A certified advisor visits your home, checks your insulation, windows, furnace and so on, and gives you a report with recommendations. The assessment normally costs about three hundred and fifty dollars, but we reimburse it if you complete at least one recommended upgrade within a year."
+       ],
+       [
+        "B",
+        "Okay. And what rebates are there for furnaces?"
+       ],
+       [
+        "A",
+        "For a high-efficiency gas furnace, the rebate is five hundred dollars. But if you install an air-source heat pump instead, which heats and cools your home, the rebate is up to five thousand dollars. Heat pumps have become much more efficient in cold weather."
+       ],
+       [
+        "B",
+        "Five thousand is a big difference. Does the heat pump have to replace the furnace completely?"
+       ],
+       [
+        "A",
+        "No. Many people in colder regions keep a backup furnace for the coldest days. That’s called a hybrid system, and it still qualifies for the full rebate."
+       ],
+       [
+        "B",
+        "What about insulation? My attic is pretty bad."
+       ],
+       [
+        "A",
+        "Attic insulation qualifies for up to one thousand five hundred dollars, depending on how much you add. Honestly, it’s often the most cost-effective upgrade, because heat rises and escapes through the roof."
+       ],
+       [
+        "B",
+        "Good to know. Is there a deadline?"
+       ],
+       [
+        "A",
+        "The program runs until funding is used up. Rebates are paid after the work is complete and a second assessment confirms it. Please don’t start any work before your first assessment, or the work won’t qualify."
+       ],
+       [
+        "B",
+        "How long does it take to get an assessment?"
+       ],
+       [
+        "A",
+        "Right now, about four to six weeks. Since you’re planning a furnace replacement, I’d book soon, before winter demand picks up."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "When will the homeowner get the assessment fee back?",
+        "o": [
+         "Immediately after the visit",
+         "If he completes a recommended upgrade within a year",
+         "Only if he installs a heat pump",
+         "Never; it is not refundable"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "we reimburse it if you complete at least one recommended upgrade within a year",
+        "x": "If he completes one upgrade within a year."
+       },
+       {
+        "q": "Why is the heat pump rebate attractive?",
+        "o": [
+         "It is ten times larger than the gas furnace rebate.",
+         "It includes free installation.",
+         "It covers insulation too.",
+         "It has no conditions."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "the rebate is up to five thousand dollars",
+        "x": "$5,000 vs $500."
+       },
+       {
+        "q": "What is a hybrid system?",
+        "o": [
+         "A heat pump with a backup furnace",
+         "A system that uses solar panels",
+         "Two heat pumps",
+         "A furnace with air conditioning"
+        ],
+        "a": 0,
+        "t": "vocab",
+        "ev": "Many people in colder regions keep a backup furnace for the coldest days. That’s called a hybrid system",
+        "x": "A heat pump plus a backup furnace."
+       },
+       {
+        "q": "Why does the agent recommend attic insulation?",
+        "o": [
+         "It is required for other rebates.",
+         "It is often very cost-effective because heat escapes upward.",
+         "It is the most expensive upgrade.",
+         "It is free."
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "it’s often the most cost-effective upgrade, because heat rises and escapes through the roof",
+        "x": "Cost-effective, since heat escapes upward."
+       },
+       {
+        "q": "What could cause work to be ineligible?",
+        "o": [
+         "Using a local contractor",
+         "Starting work before the first assessment",
+         "Keeping the old furnace",
+         "Completing it in winter"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Please don’t start any work before your first assessment, or the work won’t qualify",
+        "x": "Starting work before the assessment."
+       },
+       {
+        "q": "Why does the agent suggest booking soon?",
+        "o": [
+         "The program ends next month.",
+         "Waiting times may increase as winter approaches.",
+         "Prices will rise.",
+         "The advisor is retiring."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "I’d book soon, before winter demand picks up",
+        "x": "Demand rises before winter."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "City engineer",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "The opening of the new pedestrian and cycling bridge over the Assiniboine River has been delayed again, this time until next spring. The bridge was originally scheduled to open last July."
+       ],
+       [
+        "A",
+        "City officials say the latest delay is due to a problem with the bridge’s deck. During final inspections, engineers found that some of the concrete panels had developed small cracks after being exposed to last winter’s freeze-thaw cycles."
+       ],
+       [
+        "B",
+        "The cracks are not a safety risk right now, but over twenty or thirty years, water could get in and damage the steel inside. Fixing it properly now is far cheaper than repairing it in ten years. We would rather open late than open with a defect."
+       ],
+       [
+        "A",
+        "The repairs will be paid for by the contractor under the terms of its warranty, the city says, but the delay is still costing taxpayers. Temporary detours for cyclists and pedestrians, which require additional lighting and traffic control staff, cost the city about twelve thousand dollars a month."
+       ],
+       [
+        "A",
+        "Local business owners near the bridge had been hoping the crossing would bring more foot traffic. One café owner told us she hired two extra staff last summer in anticipation of the opening and has since had to reduce their hours."
+       ],
+       [
+        "A",
+        "The city says a public opening celebration is still planned, and it will release a final opening date in February."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why has the bridge opening been delayed?",
+        "o": [
+         "The contractor went out of business.",
+         "Defects were found in part of the bridge.",
+         "The city ran out of money.",
+         "The river flooded."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "some of the concrete panels had developed small cracks",
+        "x": "Cracks in concrete panels."
+       },
+       {
+        "q": "What does the engineer say about the cracks?",
+        "o": [
+         "They are dangerous now.",
+         "They could cause long-term damage if not repaired.",
+         "They are normal and need no repair.",
+         "They were caused by heavy trucks."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "over twenty or thirty years, water could get in and damage the steel inside",
+        "x": "Long-term damage if water gets in."
+       },
+       {
+        "q": "Who will pay for the repairs?",
+        "o": [
+         "The city",
+         "The province",
+         "The contractor",
+         "Local businesses"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "The repairs will be paid for by the contractor under the terms of its warranty",
+        "x": "The contractor, under warranty."
+       },
+       {
+        "q": "What cost is the city paying because of the delay?",
+        "o": [
+         "Repair costs",
+         "The cost of temporary detours",
+         "Compensation to businesses",
+         "A new inspection"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Temporary detours for cyclists and pedestrians, which require additional lighting and traffic control staff",
+        "x": "Detour costs of about $12,000 a month."
+       },
+       {
+        "q": "Why does the reporter mention the café owner?",
+        "o": [
+         "To show how the delay has affected local businesses",
+         "To suggest the café should move",
+         "To advertise the café",
+         "To show support for the delay"
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "has since had to reduce their hours",
+        "x": "It shows the economic impact on businesses."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three staff members at a restaurant are discussing a proposal to remove tipping.",
+    "sp": {
+     "A": {
+      "name": "Owner, Marco",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     },
+     "B": {
+      "name": "Server, Tanya",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.05
+     },
+     "C": {
+      "name": "Chef, Ravi",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Thanks for staying after close. I want to talk about an idea before I decide anything. I’m thinking of removing tipping. Menu prices would go up about eighteen percent, and everyone, servers and kitchen, would get a higher base wage plus a share of profits."
+       ],
+       [
+        "B",
+        "I’ll be honest, Marco, that makes me nervous. On a good Saturday, I make more in tips than in wages. A lot of my regulars tip twenty-five percent. Are you sure a fixed wage would match that?"
+       ],
+       [
+        "A",
+        "I’ve done the math based on last year’s numbers. On average, servers would earn about the same, slightly less on the busiest nights, but more on slow nights. Your income would be steadier."
+       ],
+       [
+        "C",
+        "From the kitchen’s side, I think it’s overdue. My cooks work just as hard on a Saturday, and right now they get a tiny share of tips. Some of them earn barely above minimum wage, and two have left this year for other jobs."
+       ],
+       [
+        "B",
+        "I understand that, Ravi, and I agree the kitchen deserves more. But tips also motivate us. If I know a great table means a bigger tip, I go the extra mile."
+       ],
+       [
+        "C",
+        "With respect, we all go the extra mile because we take pride in the food and the service, not just because of tips."
+       ],
+       [
+        "A",
+        "Let’s not make this personal. Tanya’s raising a real point about motivation. What about the customers, though? How do you think they’d react to higher prices?"
+       ],
+       [
+        "B",
+        "Some will be confused at first. They’ll see a twenty-eight-dollar pasta and not realize it includes the tip. Then they’ll leave a tip anyway, out of habit."
+       ],
+       [
+        "A",
+        "We’d have to explain it clearly on the menu and the website. And if people still leave something, it could go to a staff fund."
+       ],
+       [
+        "C",
+        "What if we did a trial? Three months. If sales drop or staff are unhappy, we go back."
+       ],
+       [
+        "B",
+        "A trial I could live with. But I’d want a guarantee that no server earns less than they did on average last year. If they do, the difference gets made up."
+       ],
+       [
+        "A",
+        "That’s fair. I can commit to that for the trial period. Let me write it up and we’ll present it to the whole team on Monday."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is Marco proposing?",
+        "o": [
+         "Cutting staff wages",
+         "Replacing tips with higher prices and wages",
+         "Hiring more servers",
+         "Closing on Saturdays"
+        ],
+        "a": 1,
+        "t": "main",
+        "ev": "Menu prices would go up about eighteen percent, and everyone, servers and kitchen, would get a higher base wage",
+        "x": "Higher prices and wages instead of tips."
+       },
+       {
+        "q": "Why is Tanya nervous?",
+        "o": [
+         "She thinks customers will complain about the food.",
+         "She worries she will earn less than she does now.",
+         "She does not trust the kitchen staff.",
+         "She plans to quit."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "Are you sure a fixed wage would match that?",
+        "x": "She worries about lower earnings."
+       },
+       {
+        "q": "According to Marco, how would servers’ earnings change?",
+        "o": [
+         "They would rise significantly.",
+         "They would be similar on average but more stable.",
+         "They would fall on slow nights.",
+         "They would depend on customer ratings."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Your income would be steadier",
+        "x": "About the same on average but steadier."
+       },
+       {
+        "q": "Why does Ravi support the change?",
+        "o": [
+         "Kitchen staff are underpaid and some have left.",
+         "He wants to become a server.",
+         "He thinks prices are too low.",
+         "He dislikes the customers."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Some of them earn barely above minimum wage, and two have left this year",
+        "x": "Kitchen staff are underpaid; some left."
+       },
+       {
+        "q": "How does Ravi respond to Tanya’s point about motivation?",
+        "o": [
+         "He agrees completely.",
+         "He disagrees, saying staff are motivated by pride.",
+         "He suggests bonuses for good service.",
+         "He changes the subject."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "we all go the extra mile because we take pride in the food and the service",
+        "x": "He says pride, not tips, motivates them."
+       },
+       {
+        "q": "What does Tanya predict customers will do?",
+        "o": [
+         "Stop coming to the restaurant",
+         "Continue tipping out of habit",
+         "Complain to the owner",
+         "Order cheaper dishes"
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "they’ll leave a tip anyway, out of habit",
+        "x": "They will tip anyway out of habit."
+       },
+       {
+        "q": "What condition does Tanya set for the trial?",
+        "o": [
+         "Servers must earn at least as much as last year’s average.",
+         "The trial must last a year.",
+         "Tips must be shared equally.",
+         "Menu prices must not change."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "I’d want a guarantee that no server earns less than they did on average last year",
+        "x": "A guarantee of last year’s average earnings."
+       },
+       {
+        "q": "What will happen next?",
+        "o": [
+         "The new system starts tomorrow.",
+         "Marco will present the plan to all staff.",
+         "The idea is cancelled.",
+         "Customers will be surveyed."
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "we’ll present it to the whole team on Monday",
+        "x": "Present it to the team on Monday."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about youth sports.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Hockey parent",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "In many minor sports leagues across Canada, children under the age of eight or nine play games where no score is officially kept and no standings are published. The policy, adopted by organizations in soccer, hockey and other sports, was designed to keep young children focused on learning skills and having fun. But it remains controversial, especially among parents."
+       ],
+       [
+        "A",
+        "Supporters of the approach, including many coaches and child development experts, argue that young children drop out of sports when the pressure to win becomes too intense. Without scores, they say, coaches are more likely to give every child equal playing time, rather than relying on their strongest players. Research suggests that the main reason children quit sports is that it stops being fun."
+       ],
+       [
+        "A",
+        "Critics argue that removing scores doesn’t remove competition. Children keep score themselves, they point out, and know exactly who won. One hockey parent put it this way:"
+       ],
+       [
+        "B",
+        "My seven-year-old comes off the ice and says, “We won eight to three.” Every kid knows. Pretending otherwise just tells them that adults think they can’t handle losing. Learning to lose is part of growing up."
+       ],
+       [
+        "A",
+        "Some leagues are trying a different approach: smaller fields, fewer players per team and more time with the ball or puck. These changes mean every child is more involved in the game, and some coaches say the question of scoring becomes less important when everyone is busy playing."
+       ],
+       [
+        "A",
+        "Most organizations introduce official scoring and standings around age ten, and many parents and coaches agree that, at that point, healthy competition becomes an important part of the experience."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What was the original goal of not keeping score?",
+        "o": [
+         "To reduce costs for leagues",
+         "To keep young children focused on skills and enjoyment",
+         "To shorten games",
+         "To prepare children for competition"
+        ],
+        "a": 1,
+        "t": "main",
+        "ev": "designed to keep young children focused on learning skills and having fun",
+        "x": "To focus on skills and fun."
+       },
+       {
+        "q": "According to supporters, what happens when scores are not kept?",
+        "o": [
+         "Children play less.",
+         "Coaches are more likely to share playing time fairly.",
+         "Parents become more involved.",
+         "Games become longer."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "coaches are more likely to give every child equal playing time",
+        "x": "Equal playing time."
+       },
+       {
+        "q": "What is the hockey parent’s view?",
+        "o": [
+         "Children should not know the score.",
+         "Children know the score and can handle losing.",
+         "Scoring should start at age five.",
+         "Hockey is too competitive."
+        ],
+        "a": 1,
+        "t": "viewpoint",
+        "ev": "Learning to lose is part of growing up",
+        "x": "Children know the score and should learn to lose."
+       },
+       {
+        "q": "What do critics argue?",
+        "o": [
+         "Competition still exists without official scores.",
+         "Scores make children more aggressive.",
+         "Coaches cannot count goals.",
+         "Leagues should be eliminated."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Critics argue that removing scores doesn’t remove competition",
+        "x": "Competition remains."
+       },
+       {
+        "q": "What alternative approach are some leagues trying?",
+        "o": [
+         "Banning parents from games",
+         "Changing game formats so every child is more involved",
+         "Awarding prizes to every player",
+         "Playing only practice games"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "smaller fields, fewer players per team and more time with the ball or puck",
+        "x": "Smaller fields and teams for more involvement."
+       },
+       {
+        "q": "What do many parents and coaches agree on?",
+        "o": [
+         "Scores should never be kept.",
+         "Competition becomes more appropriate around age ten.",
+         "Children should start sports later.",
+         "Standings should be kept from age five."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "at that point, healthy competition becomes an important part of the experience",
+        "x": "Around age ten, competition becomes appropriate."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Sofia Lindgren  |  To: Grace Adeyemi  |  Subject: Interview next week – help!",
+   "text": "Hi Grace,\n\nI have exciting (and slightly terrifying) news: I have an interview next Thursday for the communications coordinator position at the Children’s Hospital Foundation! You know how long I’ve wanted to move into the non-profit sector, so this feels like a huge opportunity.\n\nSince you’ve been on hiring panels at your organization, I was hoping you could give me some advice. It’s a panel interview with three people: the communications director, someone from HR and a board member. I’ve never done a panel interview before. Should I direct my answers to the person who asked the question, or to everyone?\n\nI’m also worried about one question in particular. They’ll probably ask why I’m leaving my current job after only fourteen months. The honest answer is that my manager is very difficult and I’m unhappy, but I don’t want to sound negative. How would you handle that?\n\nThe job posting says they want someone with “experience managing social media campaigns and creating content for diverse audiences.” I ran our company’s Instagram account and produced a video series last year that doubled our followers, but that was for a software company, not a charity. Do you think that experience will count?\n\nFinally, they’ve asked me to prepare a five-minute presentation on how I would promote their annual fundraising gala. I have some ideas, but I’d love to run them by you. Would you have time for a call this weekend, maybe Saturday afternoon?\n\nThanks so much. I owe you a coffee (or three).\n\nSofia",
+   "qs": [
+    {
+     "q": "Why is Sofia excited about the interview?",
+     "o": [
+      "It offers a much higher salary.",
+      "It would allow her to work in a sector she has wanted to join.",
+      "It is close to her home.",
+      "She knows someone at the foundation."
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "You know how long I’ve wanted to move into the non-profit sector",
+     "x": "She has long wanted to join the non-profit sector."
+    },
+    {
+     "q": "Why does Sofia ask Grace for advice?",
+     "o": [
+      "Grace works at the foundation.",
+      "Grace has experience interviewing candidates.",
+      "Grace is her former manager.",
+      "Grace works in social media."
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "Since you’ve been on hiring panels at your organization",
+     "x": "Grace has served on hiring panels."
+    },
+    {
+     "q": "What does Sofia want to avoid when explaining why she is leaving?",
+     "o": [
+      "Mentioning her salary",
+      "Sounding critical of her current situation",
+      "Talking about her video series",
+      "Discussing the non-profit sector"
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "but I don’t want to sound negative",
+     "x": "She does not want to sound negative."
+    },
+    {
+     "q": "What is Sofia unsure about regarding her experience?",
+     "o": [
+      "Whether her social media success is impressive enough",
+      "Whether experience from a different sector will be valued",
+      "Whether she has enough education",
+      "Whether video counts as content"
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "but that was for a software company, not a charity. Do you think that experience will count?",
+     "x": "Whether software-company experience counts for a charity."
+    },
+    {
+     "q": "What must Sofia prepare?",
+     "o": [
+      "A written report",
+      "A short presentation about promoting an event",
+      "A social media campaign",
+      "A list of references"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "prepare a five-minute presentation on how I would promote their annual fundraising gala",
+     "x": "A five-minute presentation on promoting the gala."
+    },
+    {
+     "q": "What is the tone of Sofia’s email?",
+     "o": [
+      "Formal and distant",
+      "Excited and somewhat anxious",
+      "Angry and frustrated",
+      "Calm and confident"
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "I have exciting (and slightly terrifying) news",
+     "x": "Excited but nervous."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Grace’s reply. Complete it by choosing the best option for each blank.",
+    "text": "Hi Sofia,\n\nCongratulations! This sounds like a perfect fit for you. Here are my quick thoughts.\n\nIn a panel interview, start by answering the person who {1}, but make eye contact with everyone as you continue. Panel members notice when they are ignored.\n\nAs for why you’re leaving, focus on what you’re moving {2}, not what you’re moving away from. For example, you could say you’re looking for work with a stronger sense of purpose.\n\nYour Instagram results are absolutely relevant. Doubling your followers shows you can {3}, whatever the sector. Just be ready to explain how you’d adapt your approach for donors and families.\n\nI’d be happy to talk on {4}. Bring your ideas for the {5}, and we’ll practise until it’s under five minutes.\n\nGrace",
+    "blanks": [
+     {
+      "o": [
+       "asked the question",
+       "leads the panel",
+       "works in HR",
+       "sits closest"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "Should I direct my answers to the person who asked the question, or to everyone?",
+      "x": "Start with the person who asked the question."
+     },
+     {
+      "o": [
+       "towards",
+       "away from",
+       "around",
+       "without"
+      ],
+      "a": 0,
+      "t": "vocab",
+      "ev": "I don’t want to sound negative",
+      "x": "Focus on what you’re moving towards."
+     },
+     {
+      "o": [
+       "grow an audience",
+       "manage a team",
+       "raise money",
+       "design websites"
+      ],
+      "a": 0,
+      "t": "inference",
+      "ev": "produced a video series last year that doubled our followers",
+      "x": "Doubling followers shows she can grow an audience."
+     },
+     {
+      "o": [
+       "Thursday",
+       "Saturday afternoon",
+       "Sunday morning",
+       "Friday evening"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "maybe Saturday afternoon",
+      "x": "Saturday afternoon."
+     },
+     {
+      "o": [
+       "social media campaign",
+       "gala presentation",
+       "video series",
+       "board meeting"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "how I would promote their annual fundraising gala",
+      "x": "The gala presentation."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "City Transit – Route Changes Effective September 2",
+    "intro": "Changes support the opening of the new Riverside LRT line. Regular fares apply; transfers are free for 90 minutes.",
+    "table": {
+     "cols": [
+      "Route",
+      "Change",
+      "Weekday frequency",
+      "Weekend frequency"
+     ],
+     "rows": [
+      [
+       "5 Westbrook",
+       "Extended to Riverside LRT Station",
+       "Every 10 min",
+       "Every 20 min"
+      ],
+      [
+       "12 Hillcrest",
+       "No longer goes downtown; ends at Hillcrest LRT Station",
+       "Every 15 min",
+       "Every 30 min"
+      ],
+      [
+       "19 University",
+       "Night service added (12 a.m.–3 a.m., Fri & Sat only)",
+       "Every 8 min",
+       "Every 15 min"
+      ],
+      [
+       "27 Airport Express",
+       "Discontinued – use Riverside LRT to Airport Station",
+       "—",
+       "—"
+      ],
+      [
+       "40 Lakeshore",
+       "New route",
+       "Every 20 min",
+       "Every 30 min"
+      ]
+     ]
+    },
+    "notes": [
+     "Riverside LRT runs every 5 minutes, 5 a.m.–1 a.m. daily.",
+     "Seniors (65+) ride free on weekdays between 9:30 a.m. and 3:30 p.m.",
+     "Paper tickets are no longer accepted after September 2; use a fare card or tap a bank card."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email. Complete it by choosing the best option for each blank.",
+    "text": "Hi Mom,\n\nJust a heads-up about the transit changes in September. Your usual bus downtown, the {1}, will now end at the LRT station, so you’ll need to switch to the train. Don’t worry, the transfer is {2}.\n\nAlso, since you’re 67, you can ride for free if you travel on weekdays between {3}, so your Tuesday morning appointments at 10 should be free.\n\nWhen you fly to see Aunt Lucy, the Airport Express bus won’t exist anymore, but the {4} goes straight to the airport.\n\nLast thing: you’ll need to stop using those paper tickets in your drawer. Get a {5} or use your bank card instead.\n\nLove,\nPaula",
+    "blanks": [
+     {
+      "o": [
+       "5 Westbrook",
+       "12 Hillcrest",
+       "19 University",
+       "40 Lakeshore"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "No longer goes downtown; ends at Hillcrest LRT Station",
+      "x": "Route 12 now ends at the LRT station."
+     },
+     {
+      "o": [
+       "free",
+       "$2",
+       "not allowed",
+       "only on weekends"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "transfers are free for 90 minutes",
+      "x": "Transfers are free."
+     },
+     {
+      "o": [
+       "5 a.m. and 1 a.m.",
+       "9:30 a.m. and 3:30 p.m.",
+       "12 a.m. and 3 a.m.",
+       "10 a.m. and 2 p.m."
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "between 9:30 a.m. and 3:30 p.m.",
+      "x": "9:30 a.m. to 3:30 p.m."
+     },
+     {
+      "o": [
+       "5 Westbrook",
+       "Riverside LRT",
+       "19 University",
+       "40 Lakeshore"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "use Riverside LRT to Airport Station",
+      "x": "Riverside LRT to Airport Station."
+     },
+     {
+      "o": [
+       "fare card",
+       "paper ticket",
+       "transfer",
+       "seniors’ pass"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "use a fare card or tap a bank card",
+      "x": "A fare card."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A student needs a bus home from campus at 1:30 a.m. on a Saturday night. What is true?",
+     "o": [
+      "No buses run at that time.",
+      "Route 19 has night service then.",
+      "The LRT runs until 3 a.m.",
+      "Route 40 runs all night."
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Night service added (12 a.m.–3 a.m., Fri & Sat only)",
+     "x": "Route 19 night service on Friday and Saturday."
+    },
+    {
+     "q": "Which route runs least often on weekends?",
+     "o": [
+      "5 Westbrook",
+      "12 Hillcrest and 40 Lakeshore",
+      "19 University",
+      "Riverside LRT"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Every 30 min",
+     "x": "Routes 12 and 40 run every 30 minutes on weekends."
+    },
+    {
+     "q": "A 70-year-old travels on Saturday morning. What will they pay?",
+     "o": [
+      "Nothing",
+      "The regular fare",
+      "Half fare",
+      "A paper ticket"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Seniors (65+) ride free on weekdays between 9:30 a.m. and 3:30 p.m.",
+     "x": "Free travel is weekdays only, so the regular fare applies."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Can Heat Pumps Handle a Canadian Winter?",
+   "paras": [
+    "Heat pumps work by moving heat rather than creating it. In winter, an air-source heat pump draws heat from the outdoor air, even when it feels cold, and transfers it inside; in summer, the process reverses to cool the home. Because moving heat requires much less energy than generating it by burning fuel or using electric resistance, a heat pump can deliver two to three units of heat for every unit of electricity it uses.",
+    "For years, the common belief was that heat pumps were useless in a real Canadian winter. Older models did lose efficiency quickly below about minus ten degrees, and many required a backup system. Newer cold-climate models, however, can continue operating at minus twenty-five or even lower, although they become less efficient as temperatures drop. Field tests in the Yukon and northern Quebec have found that well-installed systems can heat homes through most of the winter.",
+    "Cost remains a significant barrier. A cold-climate heat pump typically costs more to buy and install than a new gas furnace, and in regions where natural gas is cheap, savings on monthly bills may be modest. In homes heated by oil, propane or electric baseboards, on the other hand, the savings can be substantial. Government rebates and low-interest loans have helped many households cover the upfront cost.",
+    "Installation quality matters as much as the equipment itself. A unit that is too small will struggle on the coldest days, while one that is too large will turn on and off frequently, wasting energy. Experts recommend a professional assessment of the home’s insulation and air leaks before choosing a system. In many cases, sealing drafts and adding insulation first allows a smaller, less expensive heat pump to do the job."
+   ],
+   "qs": [
+    {
+     "q": "Heat pumps can be used for both heating and cooling.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "in summer, the process reverses to cool the home",
+     "x": "Paragraph A."
+    },
+    {
+     "q": "Improving a home’s insulation can reduce the size of heat pump needed.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "sealing drafts and adding insulation first allows a smaller, less expensive heat pump to do the job",
+     "x": "Paragraph D."
+    },
+    {
+     "q": "Older heat pumps performed poorly in very cold weather.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "Older models did lose efficiency quickly below about minus ten degrees",
+     "x": "Paragraph B."
+    },
+    {
+     "q": "Households heated by oil may benefit most financially.",
+     "a": "C",
+     "t": "inference",
+     "ev": "In homes heated by oil, propane or electric baseboards, on the other hand, the savings can be substantial",
+     "x": "Paragraph C."
+    },
+    {
+     "q": "Heat pumps have been tested in Canada’s northern regions.",
+     "a": "B",
+     "t": "detail",
+     "ev": "Field tests in the Yukon and northern Quebec",
+     "x": "Paragraph B."
+    },
+    {
+     "q": "An oversized system can waste energy.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "one that is too large will turn on and off frequently, wasting energy",
+     "x": "Paragraph D."
+    },
+    {
+     "q": "Heat pumps last longer than gas furnaces.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Lifespan is never compared. Not given (E)."
+    },
+    {
+     "q": "Financial assistance has helped people afford heat pumps.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "Government rebates and low-interest loans have helped many households cover the upfront cost",
+     "x": "Paragraph C."
+    },
+    {
+     "q": "Most new homes in Canada are now built with heat pumps.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "New construction is never mentioned. Not given (E)."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Short-Term Rentals Are Hollowing Out Our Neighbourhoods",
+   "byline": "Opinion | by Leah Mortimer, tenant advocate",
+   "text": "On my street in the old part of town, five of the eleven houses are no longer homes. They are short-term rentals, booked by tourists for a weekend or a week and then cleaned and booked again. Some weekends, the street feels lively; most weekdays, it feels like a film set. The families who once lived in those houses, renting from local landlords, have moved away, many of them to suburbs an hour from their jobs.\n\nI do not blame individual homeowners who rent out a spare room or their own home while they travel. That kind of home sharing can help people pay their mortgages and gives visitors a different way to see a city. My concern is with investors who buy entire properties for the sole purpose of operating them as year-round hotels, without the rules, taxes or inspections that real hotels face.\n\nThe numbers are striking. In our city, the number of entire homes listed on short-term rental platforms has roughly tripled in five years, while the rental vacancy rate has fallen below one percent. Not every lost long-term rental is due to short-term rentals, of course; population growth and interest rates also matter. But when a landlord can earn in ten nights what a tenant pays in a month, it is not hard to see why so many units are leaving the long-term market.\n\nSeveral cities have shown that sensible rules can make a difference. Some allow short-term rentals only in a person’s principal residence, meaning the owner must live there most of the year. Others require a licence, a registration number displayed in every listing and regular safety inspections. Where these rules are enforced, studies have found that thousands of units have returned to the long-term rental market.\n\nCritics argue that restrictions will hurt tourism and the local businesses that depend on it. That concern deserves attention, but our city already has a wide range of hotels, and visitors will still come. In any case, a city that its own workers cannot afford to live in will eventually struggle to serve tourists at all.\n\nCouncil will vote next month on a principal-residence rule. I urge councillors to support it. Homes should be for people who live in them.",
+   "qs": [
+    {
+     "q": "What is the writer’s main argument?",
+     "o": [
+      "All short-term rentals should be banned.",
+      "Investor-owned short-term rentals should be limited to protect housing.",
+      "Tourists should stay only in hotels.",
+      "Homeowners should not rent out rooms."
+     ],
+     "a": 1,
+     "t": "main",
+     "ev": "My concern is with investors who buy entire properties for the sole purpose of operating them as year-round hotels",
+     "x": "She targets investor-owned rentals, not home sharing."
+    },
+    {
+     "q": "Why does the writer describe her street as feeling “like a film set”?",
+     "o": [
+      "It is often used for movies.",
+      "It looks real but lacks permanent residents.",
+      "It is very noisy.",
+      "It is beautifully decorated."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "Some weekends, the street feels lively; most weekdays, it feels like a film set",
+     "x": "It looks like a neighbourhood but no one really lives there."
+    },
+    {
+     "q": "What does the writer admit about the housing shortage?",
+     "o": [
+      "Short-term rentals are its only cause.",
+      "Other factors also contribute to it.",
+      "It has been exaggerated.",
+      "It will end soon."
+     ],
+     "a": 1,
+     "t": "viewpoint",
+     "ev": "Not every lost long-term rental is due to short-term rentals, of course",
+     "x": "Population growth and interest rates also matter."
+    },
+    {
+     "q": "What is a principal-residence rule?",
+     "o": [
+      "Owners can rent only the home they mainly live in.",
+      "Owners must live in another city.",
+      "Rentals must be at least one month long.",
+      "Only hotels may rent rooms."
+     ],
+     "a": 0,
+     "t": "vocab",
+     "ev": "allow short-term rentals only in a person’s principal residence, meaning the owner must live there most of the year",
+     "x": "Only in the owner’s main home."
+    },
+    {
+     "q": "How does the writer respond to concerns about tourism?",
+     "o": [
+      "She ignores them.",
+      "She accepts them but believes visitors will still come.",
+      "She agrees tourism will decline sharply.",
+      "She suggests building more hotels."
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "That concern deserves attention, but our city already has a wide range of hotels, and visitors will still come",
+     "x": "She takes it seriously but thinks visitors will still come."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a reader’s comment. Complete it by choosing the best option for each blank.",
+    "text": "I run a short-term rental in the basement suite of my own home, so I was {1} to read that Ms. Mortimer does not object to people like me. The income helps me pay my mortgage, and I enjoy meeting guests from around the world.\n\nHowever, I think her article {2} the role of rules that already exist. Our city already requires a licence, but it is almost never {3}. Many of the listings on my street don’t display any registration number.\n\nSo while I support a {4} rule, I worry that without more inspectors, it will make little difference. Council should spend as much time on enforcement as on {5} new rules.\n\n– Daniel, Victoria",
+    "blanks": [
+     {
+      "o": [
+       "upset",
+       "relieved",
+       "confused",
+       "surprised and angry"
+      ],
+      "a": 1,
+      "t": "attitude",
+      "ev": "I do not blame individual homeowners who rent out a spare room",
+      "x": "He is relieved she does not object to home sharing."
+     },
+     {
+      "o": [
+       "overstates",
+       "overlooks",
+       "explains",
+       "praises"
+      ],
+      "a": 1,
+      "t": "vocab",
+      "ev": "Where these rules are enforced",
+      "x": "She overlooks that existing rules are not enforced."
+     },
+     {
+      "o": [
+       "enforced",
+       "discussed",
+       "paid",
+       "changed"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "Where these rules are enforced, studies have found that thousands of units have returned",
+      "x": "The licence rule is rarely enforced."
+     },
+     {
+      "o": [
+       "principal-residence",
+       "tourism",
+       "hotel",
+       "parking"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "Council will vote next month on a principal-residence rule",
+      "x": "The principal-residence rule."
+     },
+     {
+      "o": [
+       "passing",
+       "cancelling",
+       "ignoring",
+       "opposing"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "Council will vote next month",
+      "x": "Enforcement matters as much as passing new rules."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You recently flew home from a vacation, and your checked suitcase did not arrive. The airline delivered it four days later, and some items inside were damaged.",
+   "bullets": [
+    "Explain which flight you took and what happened to your suitcase",
+    "Describe the problems this caused and the damage to your belongings",
+    "Say what compensation you would like from the airline"
+   ],
+   "model": "Dear Customer Relations Team,\n\nI am writing about my checked suitcase on Flight AC 457 from Lisbon to Toronto on June 3. When I arrived, my suitcase did not appear on the baggage carousel. I filed a report at the airport (reference TOR-88214), and the bag was finally delivered to my home on June 7, four days later.\n\nThis delay caused me considerable difficulty. I had to return to work on June 4, and since all my work clothes and my prescription glasses were in the suitcase, I spent $230 on replacement shirts, toiletries and a temporary pair of glasses. I have attached copies of all the receipts.\n\nIn addition, when the suitcase arrived, one wheel was broken and the zipper was torn. Inside, a ceramic bowl I had bought as a gift was shattered, even though it had been carefully wrapped.\n\nI would therefore like the airline to reimburse my $230 in expenses, cover the cost of repairing or replacing my suitcase, and compensate me for the broken bowl, which cost about $85. I would also appreciate an explanation of why the bag was delayed.\n\nI look forward to your prompt reply.\n\nSincerely,\nNathalie Gagnon"
+  },
+  "t2": {
+   "intro": "Your city can afford only one recreation project in your neighbourhood this year and is asking residents to choose.",
+   "question": "Which project do you prefer?",
+   "a": "Renovate the old indoor swimming pool, which has been closed for two years, so it can reopen year-round.",
+   "b": "Build a new outdoor splash pad for children in the neighbourhood park, open from June to September.",
+   "model": "I strongly prefer Option A, renovating and reopening the indoor swimming pool, because it would serve far more people throughout the entire year.\n\nThe most important reason is that an indoor pool can be used twelve months a year, while a splash pad is only open for about four months. In our climate, that makes a huge difference. A pool would offer swimming lessons for children, aquafit classes for seniors, lane swimming for adults and rehabilitation programs for people recovering from injuries. A splash pad, by contrast, is mainly for young children on hot days.\n\nSecondly, learning to swim is an important safety skill. Canada has thousands of lakes, and drowning is a leading cause of accidental death among children. Since the pool closed, many families in our area have had to drive across the city for lessons, and some simply cannot do that.\n\nI understand that a splash pad would be cheaper and that children love them. However, reopening the pool would also restore jobs for lifeguards and instructors, many of whom are local teenagers.\n\nFor all these reasons, I believe the pool renovation would be the better long-term investment for our community."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your 19-year-old niece is in her first year of university. She is unhappy with her program and is thinking about dropping out. She asks for your advice.",
+   "model": "I’m really glad you told me how you’re feeling, and I want you to know it’s completely normal to have doubts in first year. Lots of people do. Before you make a big decision, though, I’d try to figure out exactly what’s making you unhappy. Is it the program itself, the courses, living away from home, or something else, like stress or loneliness? Those are very different problems with different solutions. If it’s the program, talk to an academic advisor. Many universities let you switch programs without losing all your credits, so you might not need to drop out at all. If it’s more about stress or feeling isolated, the student wellness centre can really help, and joining a club or a sports team can make a big difference. Also, think about finishing this semester at least, so you don’t lose the money you’ve already paid. And if, after all that, you still want to leave, that’s okay too. You could work for a year, try a college program or an apprenticeship. Just make sure you leave towards something, not just away from something."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you helped to organize an event. What was the event, and what did you do?",
+   "model": "Last year, I helped organize a fundraising walk for my local food bank. A friend of mine volunteers there, and she told me that donations had dropped while demand was higher than ever, so a group of us decided to do something about it. I was in charge of finding sponsors and promoting the event. I visited about twenty local businesses – coffee shops, a hardware store, a dental clinic – and asked them to sponsor the walk or donate prizes. It was a little intimidating at first, but most of them were really generous. I also created posters and set up a social media page, where I posted updates and photos every week. On the day of the walk, it was raining, and I was so worried nobody would show up. But almost two hundred people came, many of them with their kids and dogs, all wearing raincoats. In the end, we raised more than eleven thousand dollars, which was double our goal. I learned a lot about planning, and I discovered that people really want to help their community – sometimes they just need someone to ask."
+  },
+  "t3": {
+   "scene": {
+    "bg": "kitchen",
+    "alt": "A family kitchen during a birthday party. In the centre, a table holds a birthday cake with three lit candles and some balloons are tied to a chair. A young girl in a pink dress is about to blow out the candles while her grandmother, with grey hair, stands behind her clapping. On the left, a father in an apron is taking a tray out of the oven area and a mother is pouring drinks. On the right, a teenager is taking a photo with a phone, and a dog is sitting under the table looking up at the cake. There is a banner on the wall that says \"HAPPY BIRTHDAY\".",
+    "items": [
+     [
+      "banner",
+      190,
+      40,
+      260,
+      "HAPPY BIRTHDAY",
+      "#e84393"
+     ],
+     [
+      "window",
+      470,
+      70,
+      120,
+      70
+     ],
+     [
+      "counter",
+      10,
+      330,
+      160,
+      "#bdc3c7"
+     ],
+     [
+      "person",
+      60,
+      330,
+      {
+       "shirt": "#fdfefe",
+       "hold": "tray",
+       "hair": "#1c1c1c"
+      }
+     ],
+     [
+      "person",
+      130,
+      330,
+      {
+       "shirt": "#3498db",
+       "hold": "cup",
+       "hairStyle": "long",
+       "flip": true
+      }
+     ],
+     [
+      "table",
+      240,
+      345,
+      160,
+      "#a0703c"
+     ],
+     [
+      "cake",
+      320,
+      301
+     ],
+     [
+      "balloons",
+      420,
+      300
+     ],
+     [
+      "chair",
+      410,
+      345,
+      "#7f5539"
+     ],
+     [
+      "person",
+      290,
+      350,
+      {
+       "kid": true,
+       "shirt": "#e84393",
+       "dress": true,
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "person",
+      360,
+      330,
+      {
+       "shirt": "#8e44ad",
+       "pose": "both",
+       "hair": "#bdc3c7",
+       "hairStyle": "bun",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      520,
+      340,
+      {
+       "shirt": "#27ae60",
+       "hold": "phone",
+       "flip": true,
+       "hairStyle": "curly",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "dog",
+      300,
+      395,
+      "#d4ac0d"
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a family celebrating a birthday in their kitchen. On the wall, there’s a pink banner that says “Happy Birthday,” and there’s a window letting in daylight. In the middle of the kitchen, there’s a wooden table with a pink birthday cake on it, and the cake has three lit candles. A little girl in a pink dress with long hair is standing at the table – I think it’s her birthday, and she’s about to blow out the candles. Behind her, an older woman with grey hair in a bun, probably her grandmother, has her arms up, cheering. Next to the table, there are three balloons – red, yellow and blue – tied near a chair. On the left side of the kitchen, near the counter, a man in a white shirt is carrying a tray of food, and a woman in a blue top with long hair is holding a cup, maybe serving drinks. On the right side, a teenager with curly hair is taking a photo or a video with a phone. And under the table, a golden dog is sitting, looking up – probably hoping some cake will fall on the floor. It looks like a very happy family moment."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the next few minutes are going to be really fun. First, the little girl will probably take a big breath and blow out all three candles, and everyone will clap and cheer. The teenager is already filming, so they’ll probably send the video to relatives who couldn’t be there. Then, the grandmother or the mother will most likely take the candles out and start cutting the cake. I imagine the birthday girl will get the first slice, probably the biggest one with the most icing. After that, the father will put the tray of food on the table, and the family will sit down to eat. As for the dog, I wouldn’t be surprised if someone drops a piece of cake – maybe the little girl – and the dog will grab it right away, which will make everyone laugh. Later, the girl will probably open her presents and play with the balloons."
+  },
+  "t5": {
+   "intro": "Your family has saved money to renovate one part of your home this year. Choose the option you prefer. In the next section, you will need to persuade your partner that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "New kitchen",
+     "details": [
+      "$28,000",
+      "New cabinets, counters and appliances",
+      "About 6 weeks without a kitchen",
+      "Adds the most to resale value",
+      "More space for cooking together"
+     ]
+    },
+    {
+     "title": "New main bathroom",
+     "details": [
+      "$15,000",
+      "Walk-in shower and double sink",
+      "About 2 weeks of work",
+      "Fixes an existing leak problem",
+      "Easier for elderly parents who visit"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Backyard deck",
+    "details": [
+     "$12,000",
+     "Large cedar deck with built-in benches",
+     "Usable only May–September",
+     "About 1 week of work",
+     "Great for summer barbecues"
+    ]
+   },
+   "otherWho": "Your partner prefers",
+   "persuade": "Your partner prefers the backyard deck. Persuade your partner that your choice is better.",
+   "model": "I know you’ve been dreaming about a deck for summer barbecues, and I love that idea too, but I really think the bathroom has to come first. The biggest reason is the leak. Right now, every time someone takes a shower, water is getting behind the tiles, and if we wait another year, it could damage the floor underneath, or even the ceiling in the kitchen below. That could easily cost more to fix than the deck itself. Second, think about your parents. Your dad had trouble getting in and out of that bathtub last Christmas, and he almost slipped. A walk-in shower would make their visits so much safer and more comfortable, and we’d use it every single day ourselves. The deck, on the other hand, we’d only use from May to September. Yes, the bathroom costs three thousand more, but it adds real value to the house and solves a problem we already have. And the work only takes two weeks. Let’s fix the bathroom this year, and if we save carefully, we can build the deck next spring, just in time for barbecue season."
+  },
+  "t6": {
+   "situation": "A close friend has asked to borrow $800 to pay a bill. Last year, you lent this friend $500, and they only paid back half of it after many months. You value the friendship but are worried about lending money again.",
+   "options": [
+    "Talk to your friend and explain that you will not lend the money this time.",
+    "Talk to your friend and agree to lend the money, but with clear conditions."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Chris, thanks for being honest with me about the bill. I can tell this is really stressful for you, and I want to help. But I need to be honest too. When I lent you the five hundred last year, it took a long time to get half of it back, and we never really talked about the rest. That was hard for me, because I had to cut back on some things myself. I don’t want money to come between us again, because our friendship matters a lot more to me than any amount of money. So here’s what I can do. I can lend you the eight hundred, but I’d like us to write down a simple plan together – something like a hundred dollars a month, starting next month, sent on the first. And I’d ask that before we do this, we agree on a plan for the two hundred and fifty from last time too, even if it’s just small payments. If that doesn’t work for you right now, I completely understand, and I’d be happy to help you look at other options, like asking the company for a payment plan. Does that sound fair?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should cities spend more money building protected bike lanes, even if it means less space for cars? Explain your reasons.",
+   "model": "In my opinion, yes, cities should invest more in protected bike lanes, even if it means taking some space from cars. My main reason is safety. Many people would like to cycle to work or school, but they’re afraid of sharing the road with fast traffic. Painted lines don’t really protect anyone, but a lane separated by a curb or posts makes a huge difference. In cities like Montreal, when protected lanes were built, the number of cyclists increased dramatically, including families and older people. Secondly, every person on a bike is one less car on the road. That means less congestion for the drivers who really need to drive, like delivery workers and people with disabilities, as well as cleaner air and lower emissions. Of course, some business owners worry that losing parking will hurt their sales. That’s a fair concern, but several studies have found that cyclists and pedestrians actually visit local shops more often, even if they spend a bit less each time. So overall, I think protected bike lanes are a smart investment that makes cities safer, healthier and more pleasant for everyone."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "A very long green bicycle with five seats in a row and two wheels, one at each end. Each seat has its own set of pedals, so five people can ride it together, but only the front seat has handlebars for steering. It is parked on a path in a park, and a family of four is looking at it next to a rental sign that says \"RENT ME $25/HR\".",
+    "items": [
+     [
+      "tree",
+      60,
+      280,
+      1
+     ],
+     [
+      "tree",
+      600,
+      270,
+      0.9
+     ],
+     [
+      "cloud",
+      300,
+      60,
+      1
+     ],
+     [
+      "longBike",
+      320,
+      330
+     ],
+     [
+      "sign",
+      560,
+      360,
+      "RENT ME $25/HR"
+     ],
+     [
+      "person",
+      120,
+      380,
+      {
+       "shirt": "#2980b9",
+       "pose": "point"
+      }
+     ],
+     [
+      "person",
+      160,
+      382,
+      {
+       "shirt": "#e84393",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "person",
+      195,
+      385,
+      {
+       "kid": true,
+       "shirt": "#f1c40f"
+      }
+     ],
+     [
+      "person",
+      225,
+      386,
+      {
+       "kid": true,
+       "shirt": "#27ae60",
+       "flip": true
+      }
+     ]
+    ]
+   },
+   "prompt": "You are at a park with your family and see this unusual bicycle available for rent. Call your sister, who is meeting you at the park later with her children, and describe the bicycle. Explain whether you think you should rent it together. Your sister cannot see the picture.",
+   "model": "Hi Mei, it’s me. Are you still coming to the park this afternoon? Because I’ve found something the kids will go crazy for. Imagine a bicycle, but super long – about as long as a car – painted bright green. It has just two wheels, one at the very front and one at the very back, and between them there are five seats in a row, one behind the other. Each seat has its own pedals, so five people can pedal together. The funny thing is that only the person at the front can steer, because they’re the only one with handlebars. Everyone else just has to pedal and trust them! There’s a sign next to it that says you can rent it for twenty-five dollars an hour. I honestly think we should do it together. With your two kids and my two, plus one adult at the front, it’s exactly five people. It would be a great workout and an amazing photo. My only worry is whether the little ones can reach the pedals. Maybe you could steer and I’ll ride in the middle to keep everyone in order. What do you think?"
+  }
+ }
+}

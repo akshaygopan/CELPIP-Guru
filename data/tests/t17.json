@@ -1,0 +1,1925 @@
+{
+ "id": "t17",
+ "title": "Test 17",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "A couple are discussing a problem with their bathroom renovation.",
+    "sp": {
+     "A": {
+      "name": "Henrike",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.01
+     },
+     "B": {
+      "name": "Dariusz",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Darek, I finally got through to Brightline Renovations. Well, not to anyone at Brightline, exactly. Their phone line now goes to a recording from a trustee. The company has filed for bankruptcy."
+       ],
+       [
+        "B",
+        "You’re kidding. They were here on Tuesday. The guy even left his tile saw in our hallway."
+       ],
+       [
+        "A",
+        "I know. Apparently the owner told the crew on Wednesday morning. So here’s where we are: the old bathroom is completely gutted, the new pipes are roughed in, but there’s no drywall, no tub, nothing. And we paid them fifty percent up front."
+       ],
+       [
+        "B",
+        "Eleven thousand dollars. Can we get any of it back?"
+       ],
+       [
+        "A",
+        "The recording said customers can file a claim with the trustee, so I filled out the form. But from what I’ve read, people like us usually get a few cents on the dollar, and it takes a year or more. I wouldn’t count on it."
+       ],
+       [
+        "B",
+        "Great. And we have exactly one bathroom in this house, which is currently a hole in the floor."
+       ],
+       [
+        "A",
+        "That’s the urgent part. My mother arrives on the fourteenth for three weeks. I am not having her walk to the gym on the corner to shower."
+       ],
+       [
+        "B",
+        "Okay. What about the materials? The tub and the vanity were ordered, weren’t they?"
+       ],
+       [
+        "A",
+        "They were ordered through Brightline, but the supplier says Brightline never paid for them, so they won’t release them. We’d have to buy them again ourselves."
+       ],
+       [
+        "B",
+        "So we’re paying twice for the same tub."
+       ],
+       [
+        "A",
+        "Pretty much. Unless the credit card company helps. I paid the deposit on my Visa, so I’m going to call them this afternoon and ask about a chargeback for services that were never provided."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What has happened to the renovation company?",
+        "o": [
+         "It has closed down because it ran out of money.",
+         "Its crew walked off the job after a dispute.",
+         "It handed the project over to its supplier.",
+         "It has paused all jobs until a trustee arrives."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "The company has filed for bankruptcy.",
+        "x": "Filing for bankruptcy means the company has failed financially and stopped operating. The trustee handles claims; nothing suggests jobs are only paused."
+       },
+       {
+        "q": "What does Henrike think about the claim she filed with the trustee?",
+        "o": [
+         "It will probably return the full deposit eventually.",
+         "It must be filed again by her credit card company.",
+         "It is unlikely to bring back much money, if any.",
+         "It will be settled before her mother’s visit."
+        ],
+        "a": 2,
+        "t": "attitude",
+        "ev": "I wouldn’t count on it.",
+        "x": "She expects only “a few cents on the dollar” after a year or more and says she would not count on it. A full refund is the opposite of her view."
+       },
+       {
+        "q": "Why will Henrike call her credit card company?",
+        "o": [
+         "To pay the supplier for the tub and vanity directly",
+         "To try to recover money paid for work that was not done",
+         "To ask for a higher credit limit to pay the new contractor",
+         "To report the tile saw that the crew left behind"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "ask about a chargeback for services that were never provided",
+        "x": "A chargeback could return the deposit for services never provided. Paying the supplier is what they may be forced to do, not the reason for the call."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "So who finishes the job? We need a new contractor, and fast."
+       ],
+       [
+        "A",
+        "I called three this morning. The first one laughed, politely. He’s booked until March. The second one, Cormac, can start next Monday, but he wants to redo the plumbing rough-in, because he didn’t install it himself and he won’t guarantee another company’s work."
+       ],
+       [
+        "B",
+        "How much would that add?"
+       ],
+       [
+        "A",
+        "About two thousand. And his total is around nineteen thousand, which is more than Brightline’s entire price."
+       ],
+       [
+        "B",
+        "Ouch. And the third?"
+       ],
+       [
+        "A",
+        "The third was a handyman, Ferdinand. He’s cheaper, maybe nine thousand plus materials, and he could start right away. But he isn’t licensed for plumbing, and the city inspection still has to happen before the walls are closed up."
+       ],
+       [
+        "B",
+        "So we’d need a plumber anyway."
+       ],
+       [
+        "A",
+        "Right. What about doing some of it ourselves? You tiled your parents’ backsplash."
+       ],
+       [
+        "B",
+        "A backsplash is not a shower, Henrike. If I get the waterproofing wrong, we’ll be ripping out tiles in two years with mould behind them. I’m happy to paint and put up the towel bars. That’s it."
+       ],
+       [
+        "A",
+        "Fair enough. I’d rather pay a bit more now than pay for it twice."
+       ],
+       [
+        "B",
+        "Me too. And honestly, after this week, I’d rather have someone we can actually reach on the phone than save a few hundred dollars."
+       ],
+       [
+        "A",
+        "Agreed. Let me call Ferdinand back and ask a few more questions before we decide anything."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Cormac want to redo the plumbing?",
+        "o": [
+         "The city inspector has rejected the existing pipes.",
+         "Brightline installed the pipes in the wrong location.",
+         "The pipes were damaged when the old bathroom walls were removed.",
+         "He will not stand behind work installed by another firm."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "he won’t guarantee another company’s work",
+        "x": "He will not guarantee pipes he did not install, so he wants to redo them. No inspection has taken place yet, and no damage or wrong location is mentioned."
+       },
+       {
+        "q": "What is the main drawback of hiring Ferdinand?",
+        "o": [
+         "He cannot legally carry out one part of the job.",
+         "He is unable to start the work until after March.",
+         "His price does not include any of the labour.",
+         "He refuses to work alongside a city inspector."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "he isn’t licensed for plumbing",
+        "x": "Ferdinand is not licensed for plumbing, so another tradesperson would be needed. It is the first contractor who is booked until March."
+       },
+       {
+        "q": "How does Dariusz feel about doing the tiling himself?",
+        "o": [
+         "He is confident because he tiled his parents’ kitchen.",
+         "He would rather handle the plumbing than the tiles.",
+         "He worries that a mistake could cause costly damage later.",
+         "He thinks it would take too long to finish before the visit."
+        ],
+        "a": 2,
+        "t": "attitude",
+        "ev": "If I get the waterproofing wrong",
+        "x": "He fears bad waterproofing could lead to mould and torn-out tiles later. He rejects the backsplash comparison, so he is not confident."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, so what if we combine things? Ferdinand does the drywall, the tub and the tiling, and we hire a licensed plumber just for the connections and to be here for the inspection."
+       ],
+       [
+        "B",
+        "Would Ferdinand be okay with that?"
+       ],
+       [
+        "A",
+        "I asked him. He works with a plumber named Bogdan all the time. Together they quoted thirteen and a half thousand, including the plumbing, but not the materials."
+       ],
+       [
+        "B",
+        "Thirteen and a half, plus the tub and vanity, which are what, three thousand?"
+       ],
+       [
+        "A",
+        "Thirty-two hundred. So under seventeen thousand total. Still more than we planned, but less than Cormac. And they can start Monday, so we might have a working shower by the twelfth."
+       ],
+       [
+        "B",
+        "“Might” is the key word. Let’s say yes, but this time I want a written contract with a schedule, and payments tied to stages. No more fifty percent up front."
+       ],
+       [
+        "A",
+        "Agreed. Ten percent to start, and the rest as each stage is finished. And I’ll book my mother a hotel for the first few nights, just in case."
+       ],
+       [
+        "B",
+        "Or she stays with your sister for the first weekend. That’s cheaper."
+       ],
+       [
+        "A",
+        "Ha. I’ll ask, but don’t get your hopes up."
+       ],
+       [
+        "B",
+        "Either way, I’ll call Ferdinand tonight and ask him to email the contract, so we can read it properly before Monday."
+       ],
+       [
+        "A",
+        "Good. And let’s ask him for references from his last two jobs, just so we’re not caught out again."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Approximately how much will the new arrangement cost, including materials?",
+        "o": [
+         "A little under seventeen thousand dollars",
+         "Thirteen and a half thousand dollars in total",
+         "About nineteen thousand dollars",
+         "Around twenty-one thousand dollars"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "So under seventeen thousand total.",
+        "x": "$13,500 for labour and plumbing plus $3,200 in materials is just under $17,000. $13,500 leaves out materials, and nineteen thousand was Cormac’s price."
+       },
+       {
+        "q": "What change does Dariusz insist on this time?",
+        "o": [
+         "Paying half of the price before work begins",
+         "Delaying the work until his mother-in-law leaves",
+         "Hiring Cormac to supervise the inspection",
+         "Paying in instalments as each part is completed"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "payments tied to stages",
+        "x": "He wants payments linked to stages of the work instead of a large deposit. Paying fifty percent up front is exactly what he refuses to repeat."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A home buyer is talking with his real estate agent after viewing a house.",
+    "sp": {
+     "A": {
+      "name": "Yolanda",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Callum",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "So, Callum, what did you think? Be honest. You were very quiet in the kitchen."
+       ],
+       [
+        "B",
+        "Honestly? I loved the layout, and the backyard is bigger than I expected. But I kept noticing little things. Did you see the water stain on the ceiling in the back bedroom?"
+       ],
+       [
+        "A",
+        "I did. The listing says the roof was replaced four years ago, so that stain could be from before then. But I wouldn’t assume that. If you make an offer, I’d make it conditional on an inspection, and I’d ask the sellers for the roofing invoice."
+       ],
+       [
+        "B",
+        "Can we do that? I thought, with the market the way it is, conditions make your offer weaker."
+       ],
+       [
+        "A",
+        "They can, a little. But this house has been listed for thirty-eight days. In this neighbourhood, that’s a long time. The sellers have already dropped the price once. I don’t think we’re competing with anyone right now."
+       ],
+       [
+        "B",
+        "That’s reassuring. So what do you think it’s worth? They’re asking five eighty-nine."
+       ],
+       [
+        "A",
+        "The three most comparable sales this fall were between five fifty and five seventy, and two of them had updated kitchens, which this one doesn’t. I’d start at five fifty-five and be prepared to go to around five seventy."
+       ],
+       [
+        "B",
+        "Five fifty-five feels low. Won’t they be insulted?"
+       ],
+       [
+        "A",
+        "Some sellers are, at first. But a reasonable offer backed by real numbers usually gets a counter-offer, not a slammed door. If they’re offended by data, they’re probably not ready to sell."
+       ],
+       [
+        "B",
+        "Fair. What about the closing date? My lease ends on March thirty-first."
+       ],
+       [
+        "A",
+        "The sellers want a long closing, ideally in April. So we could offer mid-April, which helps them, and you could ask your landlord about staying two extra weeks. Being flexible on the date is sometimes worth as much as a few thousand dollars."
+       ],
+       [
+        "B",
+        "My landlord’s pretty easygoing. I can ask him tonight."
+       ],
+       [
+        "A",
+        "Do that. If he agrees, I’ll draft the offer first thing tomorrow, and we can present it by the afternoon."
+       ],
+       [
+        "B",
+        "Great. And thanks for being straight with me about the stain. My last agent told me everything was perfect."
+       ],
+       [
+        "A",
+        "That’s my job. I’d rather you buy a house with your eyes open than regret it in a year."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does Yolanda say about the water stain?",
+        "o": [
+         "It almost certainly came from the roof before it was replaced.",
+         "The sellers have already had it repaired.",
+         "Its cause should be checked rather than assumed.",
+         "It is a good reason not to make an offer."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "But I wouldn’t assume that.",
+        "x": "She says the stain might predate the new roof but refuses to assume so, recommending an inspection and the roofing invoice. She does not advise against an offer."
+       },
+       {
+        "q": "Why does Yolanda think adding a condition is acceptable for this house?",
+        "o": [
+         "The sellers have specifically asked buyers to include an inspection.",
+         "It has been on the market for a while with little interest.",
+         "The roof was replaced only four years ago.",
+         "Conditions no longer weaken offers in this market."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "this house has been listed for thirty-eight days",
+        "x": "After thirty-eight days and a price drop, there are likely no competing buyers. She admits conditions can still weaken an offer “a little”."
+       },
+       {
+        "q": "Why does Yolanda recommend offering less than the asking price?",
+        "o": [
+         "The sellers have said they will accept less.",
+         "Similar homes sold for less and had better kitchens.",
+         "The house has a serious problem with its roof.",
+         "Prices in the neighbourhood are expected to fall this spring."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "two of them had updated kitchens, which this one doesn’t",
+        "x": "Comparable sales were $550,000–$570,000, and two had updated kitchens. The roof problem is unconfirmed, and no forecast of falling prices is given."
+       },
+       {
+        "q": "What is Yolanda’s view of sellers who are offended by a low offer?",
+        "o": [
+         "They usually refuse to make a counter-offer.",
+         "They should be avoided by serious buyers.",
+         "They tend to accept once they see the data.",
+         "They may not be truly ready to sell."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "If they’re offended by data, they’re probably not ready to sell.",
+        "x": "She suggests sellers upset by a reasonable, data-based offer are not serious about selling. She says such offers usually do get a counter-offer."
+       },
+       {
+        "q": "What will Callum most likely do this evening?",
+        "o": [
+         "Ask about extending his stay in his rental",
+         "Sign the offer so it can be presented",
+         "Request the roofing invoice from the sellers",
+         "Look at other homes in the neighbourhood"
+        ],
+        "a": 0,
+        "t": "prediction",
+        "ev": "I can ask him tonight.",
+        "x": "He will ask his landlord about staying two extra weeks. The offer will only be drafted tomorrow, and the invoice request is part of the offer."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A homeowner calls the city’s permit office about two projects.",
+    "sp": {
+     "A": {
+      "name": "Permit clerk",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Homeowner",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 0.99
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Building Permits and Inspections, this is Gwen. How can I help?"
+       ],
+       [
+        "B",
+        "Hi. I’m planning a couple of projects this spring, a deck and a garden shed, and I’m trying to figure out whether I need permits."
+       ],
+       [
+        "A",
+        "Sure. Let’s start with the shed, because that one’s simpler. If it’s under ten square metres in floor area and doesn’t have plumbing, you don’t need a building permit. But it still has to follow the zoning rules: it has to be at least sixty centimetres from the property line, and it can’t be in the front yard."
+       ],
+       [
+        "B",
+        "Mine would be about eight square metres, in the back corner. My neighbour suggested putting it right up against the fence to save space."
+       ],
+       [
+        "A",
+        "That’s a common idea, but it’s not allowed. Sixty centimetres from the line, even if your neighbour agrees. The space is there partly so you can maintain the wall, and partly so water from the roof doesn’t drain onto the next property."
+       ],
+       [
+        "B",
+        "Okay. And the deck?"
+       ],
+       [
+        "A",
+        "The deck depends on height. If the deck surface is more than sixty centimetres above the ground at any point, or if it’s attached to the house, you need a permit. Most decks off a back door are attached, so most people do need one."
+       ],
+       [
+        "B",
+        "Mine would be attached, and it’s about a metre high at the back, because the yard slopes."
+       ],
+       [
+        "A",
+        "Then you definitely need a permit. The fee for a deck is a flat two hundred and ten dollars, plus a small charge for each inspection beyond the two that are included. You’ll need to submit a drawing showing the size, the height and where it sits on the lot."
+       ],
+       [
+        "B",
+        "Does it have to be drawn by an architect?"
+       ],
+       [
+        "A",
+        "No. For a residential deck, a clear hand-drawn plan with measurements is fine. Lots of homeowners do their own. Processing usually takes ten business days, but in April and May, when everybody’s thinking about decks, I’d allow closer to four weeks."
+       ],
+       [
+        "B",
+        "Four weeks? I was hoping to start building on the long weekend in May."
+       ],
+       [
+        "A",
+        "Then I’d apply by the end of March. And one more thing: the first inspection happens after the holes for the footings are dug, but before the concrete is poured. People who pour first sometimes have to dig everything up again."
+       ],
+       [
+        "B",
+        "Ouch. Good to know. Is there a railing requirement?"
+       ],
+       [
+        "A",
+        "Yes. Any deck more than sixty centimetres high needs a guard at least ninety centimetres tall, and the openings can’t be big enough for a small child to slip through."
+       ],
+       [
+        "B",
+        "Got it. Thanks, Gwen. This has been really helpful."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why can the shed not be built right against the fence?",
+        "o": [
+         "The neighbour has formally objected to the plan.",
+         "The fence is located on the neighbour’s property.",
+         "Sheds placed close to a fence always require a building permit.",
+         "A set distance is required even with the neighbour’s consent."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Sixty centimetres from the line, even if your neighbour agrees.",
+        "x": "The sixty-centimetre gap is required whether or not the neighbour agrees. It was the neighbour who suggested the fence location, so he has not objected."
+       },
+       {
+        "q": "What is one reason for the required gap?",
+        "o": [
+         "To keep rainwater from running into the next yard",
+         "To allow the city to inspect the shed’s roof",
+         "To give firefighters access to the backyard",
+         "To prevent the shed from blocking sunlight"
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "so water from the roof doesn’t drain onto the next property",
+        "x": "The gap stops roof water draining onto the neighbour’s land and allows maintenance. Inspections, fire access and sunlight are not mentioned."
+       },
+       {
+        "q": "Why does the caller need a permit for the deck?",
+        "o": [
+         "It will be connected to the house and over the height limit.",
+         "It will be larger than ten square metres.",
+         "It will be built in the front yard instead of behind the house.",
+         "It will include plumbing for an outdoor kitchen."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Mine would be attached, and it’s about a metre high at the back",
+        "x": "Either being attached or over sixty centimetres high requires a permit, and his deck is both. The ten-square-metre rule applies to sheds."
+       },
+       {
+        "q": "What does the clerk say about the deck drawing?",
+        "o": [
+         "It must be stamped by a licensed architect.",
+         "It needs to be submitted after the first inspection.",
+         "The homeowner may prepare it himself.",
+         "It must show the location of all footings."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "a clear hand-drawn plan with measurements is fine",
+        "x": "A hand-drawn plan with measurements is acceptable, so no architect is needed. The drawing shows size, height and position, and is submitted with the application."
+       },
+       {
+        "q": "Why does the clerk suggest applying by the end of March?",
+        "o": [
+         "The permit fee increases in April.",
+         "Permits take longer during the busy spring season.",
+         "Inspectors are not available on the long weekend in May.",
+         "Applications are only accepted until then."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "in April and May, when everybody’s thinking about decks, I’d allow closer to four weeks",
+        "x": "Spring demand stretches processing to about four weeks, so applying in March lets him start in May. No fee increase or deadline is mentioned."
+       },
+       {
+        "q": "When does the first inspection take place?",
+        "o": [
+         "After the footings are poured",
+         "Once the railing has been installed",
+         "Before any holes are dug",
+         "After digging but before concrete is added"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "after the holes for the footings are dug, but before the concrete is poured",
+        "x": "The inspector checks the holes before concrete goes in. Pouring first is the mistake that forces people to dig everything up again."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Homeowner",
+      "g": "f",
+      "acc": "en-IN",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "A program that matches older homeowners who have spare rooms with university students looking for affordable housing is expanding across the region. The Shared Roof program, run by a non-profit agency, began as a pilot two years ago with just fourteen pairs. This fall, it has more than ninety."
+       ],
+       [
+        "A",
+        "Here’s how it works. Homeowners over sixty offer a furnished room at a reduced rent, usually between three and five hundred dollars a month, well below the average for the area. In exchange, students agree to help around the house for a set number of hours each week, typically between five and seven, with tasks like grocery shopping, shovelling snow or simply sharing a meal. Personal care, such as bathing or giving medication, is specifically not part of the arrangement."
+       ],
+       [
+        "A",
+        "Every applicant goes through an interview and a police background check, and the agency meets with both people before they are matched. Agreements are reviewed after the first month and then every term."
+       ],
+       [
+        "A",
+        "Pushpa Natarajan, a retired pharmacist, has hosted two students."
+       ],
+       [
+        "B",
+        "When my husband died, the house felt enormous and very quiet. My children wanted me to move into a condo, but I wasn’t ready. Having Tomás here means someone notices if I haven’t come downstairs in the morning. And honestly, he’s taught me more about my phone than my grandchildren ever did. It isn’t always perfect. We had to negotiate about music after ten o’clock. But it works."
+       ],
+       [
+        "A",
+        "The agency says demand from students far outstrips the supply of rooms, with nearly four students on the waiting list for every available host. Organizers say many older homeowners are interested but worry about their insurance or about losing their privacy."
+       ],
+       [
+        "A",
+        "The agency has received provincial funding to hire two more coordinators and hopes to reach two hundred matches by next September. It is holding information sessions for potential hosts at public libraries throughout the month. Anyone interested in hosting can also contact the agency through its website, and organizers stress that either person can end an arrangement with two weeks’ notice if it is not working out."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is true about the size of the program?",
+        "o": [
+         "It has grown considerably since it began.",
+         "It operates in fourteen different cities.",
+         "It has reached its goal of two hundred pairs.",
+         "It has been reduced to ninety participants."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "This fall, it has more than ninety.",
+        "x": "It grew from fourteen pairs to more than ninety. Two hundred is a future target, and fourteen was the number of pairs, not cities."
+       },
+       {
+        "q": "Which task would a student NOT be expected to do?",
+        "o": [
+         "Picking up groceries for the homeowner",
+         "Clearing snow from the property",
+         "Helping the homeowner take medicine",
+         "Eating meals with the homeowner"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "Personal care, such as bathing or giving medication, is specifically not part of the arrangement.",
+        "x": "Giving medication is personal care, which is excluded. Shopping, shovelling and shared meals are all listed as typical tasks."
+       },
+       {
+        "q": "Why did Pushpa Natarajan decide to take part?",
+        "o": [
+         "Her children asked her to find a student to help her at home.",
+         "She needed help with her medication.",
+         "She preferred staying in her home to moving into a condo.",
+         "She wanted to learn how to use her phone."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "My children wanted me to move into a condo, but I wasn’t ready.",
+        "x": "She was not ready to leave her house, and a student made staying possible. Learning about her phone was a bonus, not her reason."
+       },
+       {
+        "q": "How does Natarajan describe the arrangement?",
+        "o": [
+         "Mostly positive, though it has needed some compromise",
+         "Perfect in every way since the first month",
+         "Useful, but too demanding for older hosts",
+         "Lonely, because students are rarely at home"
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "We had to negotiate about music after ten o’clock.",
+        "x": "She says “It isn’t always perfect” and mentions negotiating about music, but concludes “it works”. So it is not perfect in every way."
+       },
+       {
+        "q": "According to organizers, what is currently limiting the program?",
+        "o": [
+         "Too few students are applying to join.",
+         "Insurance companies will not provide coverage for hosts.",
+         "The province has refused to provide funding.",
+         "There are not enough older people offering rooms."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "demand from students far outstrips the supply of rooms",
+        "x": "There are about four students for every host, so rooms are the shortage. Hosts worry about insurance, but insurers have not refused, and the province has provided funding."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three friends are discussing buying a home together.",
+    "sp": {
+     "A": {
+      "name": "Marguerite",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1
+     },
+     "B": {
+      "name": "Obi",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 1.03
+     },
+     "C": {
+      "name": "Shreya",
+      "g": "f",
+      "acc": "en-IN",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Okay, I’ve been doing the math all week, and I’m more convinced than ever. If the three of us pool our down payments, we can afford a triplex in the east end. Each of us gets our own floor and our own kitchen, and we stop paying off someone else’s mortgage."
+       ],
+       [
+        "C",
+        "I love the idea, Obi, I really do. But I keep thinking about what happens in five years. What if one of us gets married, or gets a job in Vancouver? You can’t just sell a third of a house."
+       ],
+       [
+        "B",
+        "That’s what a co-ownership agreement is for. We write down now what happens if someone wants out. The others get the first chance to buy them out at market value."
+       ],
+       [
+        "C",
+        "And if neither of the others can afford to?"
+       ],
+       [
+        "B",
+        "Then we sell, and everyone gets their share."
+       ],
+       [
+        "C",
+        "That sounds simple while we’re all getting along. It sounds a lot less simple if two of us want to sell in a bad market and one doesn’t."
+       ],
+       [
+        "A",
+        "Can I raise something a bit awkward? You two have saved a lot more than I have. Obi, you’ve got, what, eighty thousand? Shreya, about seventy? I’ve got forty. If we split everything three ways, I’m getting a much better deal than you are, and I don’t want that hanging over us."
+       ],
+       [
+        "B",
+        "I hadn’t thought of it as a problem. We’re friends."
+       ],
+       [
+        "A",
+        "That’s exactly why I’m bringing it up. Friends are the people you end up not speaking to over money."
+       ],
+       [
+        "C",
+        "Marguerite’s right. I think ownership shares should match what each person puts in. So if you put in less, you own less, and you get less when we sell."
+       ],
+       [
+        "A",
+        "That would make me feel much better, honestly."
+       ],
+       [
+        "B",
+        "Fine, but then the monthly costs get complicated. Do we split the mortgage by share or by floor? The top floor is smaller."
+       ],
+       [
+        "C",
+        "That’s exactly the kind of thing a lawyer can help us sort out. I’m not signing anything until we’ve each had independent legal advice and the agreement is in writing."
+       ],
+       [
+        "B",
+        "Independent? Not one lawyer for all three of us?"
+       ],
+       [
+        "C",
+        "Independent. If something goes wrong later, I don’t want anybody saying the lawyer was really representing someone else."
+       ],
+       [
+        "B",
+        "Okay, okay. You’re both more cautious than I am, but I suppose that’s not a bad thing. What about the triplex, though? The ones in the east end are close to nine hundred thousand."
+       ],
+       [
+        "A",
+        "My mortgage broker said that with my income, I’d struggle to qualify for my part of something that size. Could we look at duplexes in Millbrook instead? They’re about six hundred thousand, and the commuter train is twenty-five minutes."
+       ],
+       [
+        "B",
+        "A duplex for three people? Who gets the basement?"
+       ],
+       [
+        "A",
+        "Some of them have legal basement suites. It’d be three units, just smaller ones."
+       ],
+       [
+        "C",
+        "I’d actually prefer that. Lower price, smaller mortgage, less risk if one of us has to leave."
+       ],
+       [
+        "B",
+        "I’m not thrilled about the commute, but I’d rather own something in Millbrook than nothing in the east end. Fine. Let’s look at both, but focus on Millbrook."
+       ],
+       [
+        "A",
+        "So, next steps: we each get our own mortgage pre-approval, and Shreya, could you find a lawyer who specializes in co-ownership?"
+       ],
+       [
+        "C",
+        "I’ll find two or three names, and each of us can pick our own. Let’s try to meet with them before we look at any houses."
+       ],
+       [
+        "B",
+        "Agreed. No open houses until the paperwork has started. That’ll be hard for me."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is Obi’s main reason for wanting to buy together?",
+        "o": [
+         "To live closer to his job in the east end",
+         "To earn rental income from other tenants",
+         "To share one large kitchen with his friends",
+         "To stop paying rent that benefits a landlord"
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "we stop paying off someone else’s mortgage",
+        "x": "Paying “someone else’s mortgage” means paying rent to a landlord. Each friend would have a separate kitchen, and no outside tenants are planned."
+       },
+       {
+        "q": "What is Shreya’s first concern?",
+        "o": [
+         "How the arrangement would work if someone wanted to leave",
+         "Whether the triplex would be large enough for three separate households",
+         "Whether Obi has really saved eighty thousand dollars",
+         "How the mortgage payments would be divided by floor"
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "What if one of us gets married, or gets a job in Vancouver?",
+        "x": "She worries about what happens if one of them needs to leave, since a third of a house cannot be sold. Dividing payments by floor is Obi’s later question."
+       },
+       {
+        "q": "Why is Shreya not fully satisfied with Obi’s buy-out plan?",
+        "o": [
+         "She believes it depends on everyone continuing to agree.",
+         "She thinks market value is too difficult to calculate.",
+         "She cannot afford to buy out either of the others.",
+         "She wants the right to sell her share to anyone."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "That sounds simple while we’re all getting along.",
+        "x": "She points out that the plan works only while they agree, not if two want to sell and one does not. She never discusses her own ability to buy them out."
+       },
+       {
+        "q": "Why does Marguerite raise the subject of savings?",
+        "o": [
+         "She hopes the others will lend her part of her share.",
+         "She wants to avoid future resentment over unequal amounts.",
+         "She thinks the purchase should be delayed until she saves more.",
+         "She believes the others should pay a larger mortgage share."
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "Friends are the people you end up not speaking to over money.",
+        "x": "She fears that unequal contributions could damage the friendship. She does not ask for a loan or suggest waiting."
+       },
+       {
+        "q": "What does Shreya propose about ownership?",
+        "o": [
+         "Each person should own exactly one third of the home.",
+         "Marguerite should pay the others back when they sell.",
+         "The person living on the smaller top floor should own less of the house.",
+         "Each person’s portion should reflect the money they contribute."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "ownership shares should match what each person puts in",
+        "x": "Ownership would be proportional to each person’s contribution. Equal thirds is the arrangement Marguerite objects to."
+       },
+       {
+        "q": "Why does Shreya want each person to have a separate lawyer?",
+        "o": [
+         "To make the agreement faster to complete",
+         "To avoid doubts later about whose interests were protected",
+         "Because one lawyer is not allowed to handle three separate mortgages",
+         "Because Obi already has a lawyer he trusts"
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "I don’t want anybody saying the lawyer was really representing someone else",
+        "x": "Independent advice prevents later claims that a shared lawyer favoured one person. Speed and mortgage handling are not mentioned."
+       },
+       {
+        "q": "How does Obi feel about focusing on Millbrook?",
+        "o": [
+         "He is excited because the prices are much lower.",
+         "He refuses until the others visit the east end first.",
+         "He accepts it, although he has a reservation.",
+         "He prefers it because of the basement suites."
+        ],
+        "a": 2,
+        "t": "attitude",
+        "ev": "I’m not thrilled about the commute",
+        "x": "He dislikes the commute but would rather own something in Millbrook than nothing – reluctant acceptance. It is Shreya who prefers the duplex option."
+       },
+       {
+        "q": "What have the friends agreed to do before looking at houses?",
+        "o": [
+         "Attend open houses in both areas",
+         "Choose one lawyer for the whole group",
+         "Meet with legal advisers",
+         "Sign a co-ownership agreement"
+        ],
+        "a": 2,
+        "t": "prediction",
+        "ev": "Let’s try to meet with them before we look at any houses.",
+        "x": "They will each meet a lawyer before viewing homes. They want separate lawyers, and only want the paperwork “started”, not signed."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about indoor temperatures in rental housing.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Most Canadian provinces have rules requiring landlords to keep apartments warm in winter, usually at twenty or twenty-one degrees. But there is almost nothing about the opposite problem. As summers grow hotter, a growing number of tenants, advocates and doctors are calling for a maximum indoor temperature, typically twenty-six degrees, which landlords would be required to maintain."
+       ],
+       [
+        "A",
+        "Emergency physician Dr. Lionel Achebe says the health case is overwhelming. During heat waves, he says, most people who die are not outdoors. They are older adults, often living alone, in apartments that become ovens at night because the building cannot cool down. In his view, air conditioning should be treated the way we treat heating: as basic safety equipment, not a luxury."
+       ],
+       [
+        "A",
+        "Landlords say they are not opposed in principle, but they worry about the practicalities. Fiona Castellano manages twelve older buildings, most built in the 1960s. Their electrical systems, she explains, were never designed for every unit to run an air conditioner, and upgrading them can cost tens of thousands of dollars per building. She argues that if governments impose the rule, they need to help pay for it, or the cost will simply be passed on to tenants through higher rents."
+       ],
+       [
+        "A",
+        "Energy experts add another layer. Climate researcher Hyun-woo Park points out that if millions of old window units are switched on during a heat wave, the extra demand could strain the power grid and increase emissions. He favours heat pumps, which provide both heating and cooling far more efficiently, but admits they are expensive to install and that replacing equipment across thousands of buildings would take years. In the meantime, he says, simpler measures such as window shades, better insulation and cooling rooms in each building could save lives quickly."
+       ],
+       [
+        "A",
+        "Some tenants are frustrated by the pace of the debate. Ruth Abernathy, who is seventy-eight and lives on the top floor of a downtown high-rise, says her landlord bans window air conditioners because of the building’s appearance. She spent last July’s heat wave sleeping in her car with the engine running in an underground garage, which she knows was dangerous. She says she understands that solutions take time, but asks why a rule to protect tenants from cold was possible decades ago, while protection from heat still seems so far away."
+       ],
+       [
+        "A",
+        "One city has already passed a bylaw requiring a maximum of twenty-six degrees in rental units, which will take effect in three years to give landlords time to prepare. Other cities say they are watching closely before deciding. Whatever they decide, advocates say the next heat wave will not wait for the debate to end, and they are urging landlords to open air-conditioned common rooms this summer as a temporary measure."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is the main point of Dr. Achebe’s argument?",
+        "o": [
+         "Older adults should avoid going outdoors during heat waves.",
+         "Cooling should be considered a basic safety requirement in homes.",
+         "Hospitals need far more resources to treat heat-related illnesses.",
+         "Heating rules in winter should be made less strict."
+        ],
+        "a": 1,
+        "t": "main",
+        "ev": "air conditioning should be treated the way we treat heating: as basic safety equipment",
+        "x": "He argues cooling is basic safety equipment, like heating. He notes most victims are indoors, so staying inside is not the solution."
+       },
+       {
+        "q": "According to Dr. Achebe, who is most at risk during heat waves?",
+        "o": [
+         "Older people alone in apartments that stay hot",
+         "People who work outside during the day",
+         "Families living in buildings from the 1960s",
+         "Tenants who rely on window air conditioners"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "They are older adults, often living alone",
+        "x": "Most victims are older adults living alone in apartments that do not cool down at night. He says most people who die are not outdoors."
+       },
+       {
+        "q": "What is Fiona Castellano’s position on the proposed rule?",
+        "o": [
+         "She rejects it because old buildings cannot be upgraded.",
+         "She supports it as long as rents are frozen.",
+         "She thinks tenants should buy their own air conditioners.",
+         "She would accept it if public money helped cover the cost."
+        ],
+        "a": 3,
+        "t": "viewpoint",
+        "ev": "if governments impose the rule, they need to help pay for it",
+        "x": "She is “not opposed in principle” but wants government help with costs. Upgrades are expensive, not impossible."
+       },
+       {
+        "q": "What does Hyun-woo Park recommend for the short term?",
+        "o": [
+         "Replacing all window units with heat pumps right away",
+         "Inexpensive measures that keep buildings cooler",
+         "Limiting electricity use during heat waves",
+         "Requiring every apartment to have air conditioning"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "simpler measures such as window shades, better insulation and cooling rooms",
+        "x": "In the meantime he suggests shades, insulation and cooling rooms. Heat pumps are his long-term preference, which he admits will take years."
+       },
+       {
+        "q": "Why does the reporter describe Ruth Abernathy’s experience?",
+        "o": [
+         "To show how current rules can push tenants into risky choices",
+         "To criticize tenants who use cars to stay cool",
+         "To explain why window units damage a building’s appearance",
+         "To prove that heat waves are rarer in downtown areas"
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "which she knows was dangerous",
+        "x": "Her story shows a senior forced into a dangerous solution because air conditioners are banned. The report does not criticize her."
+       },
+       {
+        "q": "What does Abernathy question?",
+        "o": [
+         "Why landlords are allowed to ban window air conditioners in their buildings",
+         "Why heat pumps are so expensive to install",
+         "Why her city waited three years to introduce a rule",
+         "Why heat protection is taking so much longer than cold protection"
+        ],
+        "a": 3,
+        "t": "viewpoint",
+        "ev": "why a rule to protect tenants from cold was possible decades ago",
+        "x": "She asks why cold protection came decades ago while heat protection is still far off. The three-year delay belongs to a different city’s bylaw."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Ingrid Solberg | To: Matteo Ricci | Subject: Need your sensible advice",
+   "text": "Hi Matteo,\n\nI hope Montreal is treating you well and that your new place has finally stopped smelling like paint. I’m writing partly to catch up and partly because I need someone sensible to talk to, and you were the first person I thought of.\n\nYou know my building on Carrick Street, the one with the green awnings that I’ve lived in for nine years? It was sold in September to a company called Halvard Properties. Last week, a very polite young man knocked on my door and offered me twelve thousand dollars to move out by the end of February. He called it a “voluntary relocation payment”. Apparently, they want to renovate every unit and rent them for nearly twice what I pay now.\n\nMy first reaction was to say yes on the spot. Twelve thousand dollars is a lot of money, and the idea of living through months of construction noise isn’t exactly appealing. But then I started looking at listings. A one-bedroom anywhere near my work now costs at least $2,100 a month, and I pay $1,180. When I did the math, I realized the payment would cover the difference for barely a year. After that, I’d just be paying more forever.\n\nI also called the tenant hotline, and the woman there told me something I didn’t know: they can’t force me out simply because they want higher rents. If they want to do renovations that require the unit to be empty, they have to give me proper notice and, in most cases, I have the right to move back in at a similar rent afterward. She also said I don’t have to answer the offer quickly, and that these offers often go up if tenants wait.\n\nSo now I’m leaning toward staying put, at least for now. Three of my neighbours have already accepted, though, and I’ll admit that makes me nervous. It’s strange watching people carry boxes out of a building you’ve been part of for so long.\n\nHere’s my question: when you left your place on Dunmore Avenue two years ago, did you get any kind of payment? And would you do it the same way again? I trust your judgment more than mine right now.\n\nTake care,\nIngrid",
+   "qs": [
+    {
+     "q": "What is the main reason Ingrid is writing to Matteo?",
+     "o": [
+      "To ask him to help her find a new apartment",
+      "To get the opinion of someone she trusts",
+      "To tell him that she has accepted the offer",
+      "To find out whether he enjoys living in Montreal"
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "I need someone sensible to talk to",
+     "x": "She wants advice from someone whose judgment she trusts. She has not accepted the offer and is leaning toward staying."
+    },
+    {
+     "q": "How did Ingrid feel when she first heard the offer?",
+     "o": [
+      "Suspicious of the young man who made it",
+      "Insulted by how little money was offered",
+      "Tempted to accept it immediately",
+      "Confused about what the payment meant"
+     ],
+     "a": 2,
+     "t": "attitude",
+     "ev": "My first reaction was to say yes on the spot.",
+     "x": "Her first impulse was to agree on the spot. She calls the man “very polite” and the sum “a lot of money”, so she was neither suspicious nor insulted."
+    },
+    {
+     "q": "Why did Ingrid change her mind about the payment?",
+     "o": [
+      "The renovations would take less time than expected.",
+      "Apartments near her work were cheaper than she thought.",
+      "It would not make up for higher rent for very long.",
+      "The new owners reduced the amount they offered."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "the payment would cover the difference for barely a year",
+     "x": "The extra $920 a month in rent would use up $12,000 in about a year. Listings were more expensive, not cheaper."
+    },
+    {
+     "q": "What did Ingrid learn from the tenant hotline?",
+     "o": [
+      "Wanting higher rent is not a valid reason to remove her.",
+      "She must leave if her unit is going to be renovated.",
+      "She has to reply to the offer within a month.",
+      "The offer cannot be increased once it is made."
+     ],
+     "a": 0,
+     "t": "paraphrase",
+     "ev": "they can’t force me out simply because they want higher rents",
+     "x": "The landlord cannot evict her just to raise the rent. Even for renovations she can usually return, and offers often go up."
+    },
+    {
+     "q": "How does Ingrid feel about her neighbours’ decisions?",
+     "o": [
+      "Uneasy",
+      "Relieved",
+      "Indifferent",
+      "Angry"
+     ],
+     "a": 0,
+     "t": "attitude",
+     "ev": "I’ll admit that makes me nervous.",
+     "x": "Seeing neighbours accept makes her nervous, so she feels uneasy. She does not blame them or feel relieved."
+    },
+    {
+     "q": "What can be inferred about Matteo?",
+     "o": [
+      "He works for a tenant hotline in Montreal.",
+      "He once lived in Ingrid’s building on Carrick Street.",
+      "He moved out of a previous home a couple of years ago.",
+      "He recently renovated his apartment himself."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "when you left your place on Dunmore Avenue two years ago",
+     "x": "He left a place on Dunmore Avenue two years ago. His new place was painted, but nothing says he did it himself or lived on Carrick Street."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Matteo’s response to Ingrid. Complete the response by choosing the best option for each blank.",
+    "text": "Hi Ingrid,\n\nThe paint smell is gone, thank goodness. I’m sorry you’re dealing with this, but I think your instincts are good. When I left Dunmore, I {1}, and within eighteen months I’d spent all of it on higher rent. I wouldn’t do it the same way again.\n\nThe woman at the hotline is right that there’s no rush. If Halvard needs every unit empty to renovate, your staying puts {2}, and that’s exactly when offers tend to {3}. Don’t sign anything without having someone look at it first.\n\nAs for your neighbours, try not to {4}. Their situations may be different; one of them might have been planning to move anyway.\n\nIf construction does start, keep a written record of the noise and any loss of services. If the building becomes {5}, you may be entitled to a rent reduction.\n\nLove,\nMatteo",
+    "blanks": [
+     {
+      "o": [
+       "refused every offer they made",
+       "took a smaller payment than yours",
+       "asked the tenant hotline for help",
+       "moved back in after the renovation"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "within eighteen months I’d spent all of it on higher rent",
+      "x": "He spent “all of it” on rent, so he must have accepted a payment. Refusing every offer would leave nothing to spend."
+     },
+     {
+      "o": [
+       "your lease at serious risk",
+       "you in breach of your lease",
+       "the renovation on hold forever",
+       "you in a strong bargaining position"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "these offers often go up if tenants wait",
+      "x": "If the owner needs every unit empty, a tenant who stays has leverage. Staying is her right, so it does not put her in breach."
+     },
+     {
+      "o": [
+       "be withdrawn",
+       "expire",
+       "get better",
+       "get smaller"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "these offers often go up if tenants wait",
+      "x": "The hotline said offers often go up when tenants wait, so they “get better”. Withdrawal or a smaller offer contradicts this."
+     },
+     {
+      "o": [
+       "help them carry their boxes",
+       "let their choices make yours for you",
+       "ask them how much they received",
+       "tell the landlord about them"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "Three of my neighbours have already accepted, though, and I’ll admit that makes me nervous.",
+      "x": "He tells her not to let her neighbours’ decisions pressure her, since their situations may differ. The other options do not fit “Their situations may be different”."
+     },
+     {
+      "o": [
+       "more expensive to heat",
+       "sold to another company",
+       "empty of other tenants",
+       "difficult to live in during the work"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "the idea of living through months of construction noise isn’t exactly appealing",
+      "x": "A rent reduction would be linked to disruption from construction. A sale or empty building does not by itself reduce what she receives."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Harbourview Towers – Amenity Booking Guide for Residents",
+    "intro": "All amenities are booked through the resident portal. Booking fees are non-refundable unless the amenity is closed by management. Deposits are returned within 10 days if no damage or cleaning is required.",
+    "table": {
+     "cols": [
+      "Amenity",
+      "Maximum guests",
+      "Booking fee",
+      "Refundable deposit",
+      "Hours"
+     ],
+     "rows": [
+      [
+       "Party Room",
+       "40",
+       "$75 per booking",
+       "$300",
+       "10 a.m.–11 p.m."
+      ],
+      [
+       "Rooftop Terrace (with barbecues)",
+       "20",
+       "$40 per booking",
+       "$150",
+       "11 a.m.–10 p.m."
+      ],
+      [
+       "Guest Suite",
+       "4 overnight guests",
+       "$95 per night",
+       "$200",
+       "Check-in 3 p.m., check-out 11 a.m."
+      ],
+      [
+       "Theatre Room",
+       "12",
+       "Free",
+       "$100",
+       "9 a.m.–10 p.m."
+      ],
+      [
+       "Games Room",
+       "15",
+       "$25 per booking",
+       "None",
+       "9 a.m.–10 p.m."
+      ]
+     ]
+    },
+    "notes": [
+     "Bookings must be made at least 7 days in advance by a resident who will attend the entire event.",
+     "Guest Suite: maximum 3 consecutive nights; maximum 6 nights per unit per calendar month.",
+     "Party Room bookings on Friday or Saturday evenings carry a $50 security surcharge (a guard is required after 7 p.m.).",
+     "If a room is not left clean, a $120 cleaning charge is deducted from the deposit.",
+     "The Party Room and Rooftop Terrace may be booked together for $95 (a single $300 deposit applies).",
+     "The Rooftop Terrace closes automatically in winds over 50 km/h or during thunderstorms; booking fees are then refunded in full."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about booking amenities. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Bastien,\n\nGood news: I can host Mom’s 70th birthday at my building on Saturday the 21st! With about 35 guests, the {1} is the only room big enough. Since it’s a Saturday evening, I’ll pay the booking fee plus the security surcharge, so {2} in fees, plus the deposit.\n\nI thought about adding the rooftop for a barbecue, but the forecast is for thunderstorms, so I’ll skip it. Instead, could your family stay in the guest suite? You’d arrive Friday and leave Monday, so that’s {3} nights, which is within the limit, and the cost would be {4} plus a deposit.\n\nOne problem: I only booked the party today, the 16th, which is {5}. I need to speak to the manager about whether she’ll make an exception.\n\nMom has no idea about any of this, so please keep it quiet. Let me know by Wednesday whether the guest suite works for your family.\n\nSee you soon,\nCécile",
+    "blanks": [
+     {
+      "o": [
+       "Rooftop Terrace",
+       "Theatre Room",
+       "Party Room",
+       "Games Room"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "40",
+      "x": "Only the Party Room allows 40 guests; the terrace takes 20 and the others even fewer."
+     },
+     {
+      "o": [
+       "$75",
+       "$145",
+       "$175",
+       "$125"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "Party Room bookings on Friday or Saturday evenings carry a $50 security surcharge",
+      "x": "$75 booking fee + $50 Saturday-evening surcharge = $125. $145 would apply the combined rooftop price."
+     },
+     {
+      "o": [
+       "two",
+       "four",
+       "three",
+       "six"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Guest Suite: maximum 3 consecutive nights",
+      "x": "Friday, Saturday and Sunday nights make three nights, exactly the maximum of three consecutive nights. Four would break the rule."
+     },
+     {
+      "o": [
+       "$285",
+       "$380",
+       "$485",
+       "$295"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "$95 per night",
+      "x": "3 nights × $95 = $285. $485 adds the $200 deposit, which she mentions separately."
+     },
+     {
+      "o": [
+       "a full week before the party",
+       "after the guest suite was full",
+       "too late to get my deposit back",
+       "only five days ahead, which breaks the rule"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "Bookings must be made at least 7 days in advance",
+      "x": "The 16th to the 21st is only five days, less than the seven required – hence the need for an exception."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A resident books the Party Room and Rooftop Terrace together for a Sunday afternoon and leaves both rooms dirty. How much of the deposit will be returned?",
+     "o": [
+      "$30",
+      "$180",
+      "$300",
+      "$330"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "If a room is not left clean, a $120 cleaning charge is deducted from the deposit.",
+     "x": "The combined booking has one $300 deposit; $300 − $120 = $180. $330 wrongly adds the two separate deposits."
+    },
+    {
+     "q": "A resident wants to watch a hockey game with 14 friends on a Thursday at 8 p.m. What is the cheapest room that can hold the group?",
+     "o": [
+      "The Theatre Room, free of charge",
+      "The Rooftop Terrace, for $40",
+      "The Party Room, for $75",
+      "The Games Room, for $25"
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "$25 per booking",
+     "x": "The free Theatre Room holds only 12, so the cheapest room that fits is the Games Room (15) at $25."
+    },
+    {
+     "q": "A resident wants the Guest Suite for visiting relatives for four nights in a row at the start of a month. What can the resident do?",
+     "o": [
+      "Book four nights, because the monthly limit is six",
+      "Book a maximum of three nights in a row",
+      "Book four nights by paying a second deposit",
+      "Book six nights at a reduced nightly rate"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "maximum 3 consecutive nights",
+     "x": "Stays are limited to three consecutive nights. Six nights is the monthly total, which does not allow four in a row."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Why Your Apartment Is So Noisy",
+   "paras": [
+    "Ask apartment dwellers about their biggest complaint, and noise usually tops the list, ahead of rent increases and slow maintenance. Sound travels through buildings in two main ways. Airborne noise, such as voices, music or a television, passes through walls and through gaps around pipes and electrical outlets. Impact noise, such as footsteps, dropped objects or a chair dragged across the floor, travels directly through the structure itself and is often far harder to block. Many residents assume that a thick wall solves the problem, but acoustic engineers point out that a single unsealed opening can undo most of the benefit of an expensive wall, in the same way that a small hole can empty a bucket. Understanding which kind of noise is causing the problem is therefore the first step toward fixing it.",
+    "Building codes in Canada set minimum standards for sound insulation between units, but critics say those standards treat airborne noise much more strictly than impact noise. Until recently, many codes did not regulate impact sound at all. The rise of hard flooring has made the gap more noticeable. When carpet was standard in apartments, it absorbed much of the sound of footsteps; today, buyers and renters overwhelmingly prefer laminate, tile or hardwood, which look modern but transmit every step to the unit below. Some condo corporations now require owners to install an approved underlay beneath new hard floors, and a few have ordered owners to remove floors that were installed without one. Tenants, however, rarely have any say over what flooring is installed above them.",
+    "For tenants, the options are more limited. Acoustic consultant Elodie Brandt recommends starting with the cheapest measures: heavy rugs with thick pads, door sweeps, and foam gaskets behind the covers of outlets on shared walls. Bookshelves filled with books and placed against a shared wall can also help, although she cautions that the effect is often more psychological than measurable. What does not work, she says, are the thin foam panels sold online as soundproofing. They can reduce echo inside a room, making it sound less harsh, but they do almost nothing to stop sound passing between units. Many renters, she adds, spend hundreds of dollars on them before discovering this. For serious problems, she says, the only real solutions involve construction, which is the landlord’s responsibility.",
+    "Noise disputes also have a human side. Mediators who handle conflicts between neighbours say that in many cases, the person making noise has no idea how loud it is downstairs, because impact sound is much quieter for the person creating it. A calm conversation, ideally before frustration builds, resolves a surprising number of complaints. Mediators recommend avoiding notes taped to doors, which tend to be read as hostile, and instead inviting the neighbour to listen from the affected unit. Hearing their own footsteps from below, several mediators report, often changes people’s behaviour more quickly than any rule or warning letter could. Where conversations fail, many cities now offer free community mediation services."
+   ],
+   "qs": [
+    {
+     "q": "The sound of walking moves through the building’s frame.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "travels directly through the structure itself",
+     "x": "Paragraph A: impact noise such as footsteps travels directly through the structure."
+    },
+    {
+     "q": "One small gap can greatly reduce the value of a well-built wall.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "a single unsealed opening can undo most of the benefit of an expensive wall",
+     "x": "Paragraph A compares an unsealed opening to a small hole that empties a bucket."
+    },
+    {
+     "q": "Changing tastes in flooring have made one type of noise more of a problem.",
+     "a": "B",
+     "t": "inference",
+     "ev": "which look modern but transmit every step to the unit below",
+     "x": "Paragraph B: the shift from carpet to hard floors made impact noise more noticeable."
+    },
+    {
+     "q": "Some owners have been told to take out flooring they installed.",
+     "a": "B",
+     "t": "detail",
+     "ev": "a few have ordered owners to remove floors that were installed without one",
+     "x": "Paragraph B: some condos ordered owners to remove floors installed without an approved underlay."
+    },
+    {
+     "q": "Certain products sold for soundproofing improve sound inside a room but not between units.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "They can reduce echo inside a room",
+     "x": "Paragraph C: foam panels reduce echo but do almost nothing to stop sound passing between units."
+    },
+    {
+     "q": "People often do not realize how much noise they make for others.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "the person making noise has no idea how loud it is downstairs",
+     "x": "Paragraph D: the person making the noise often has no idea how loud it is below."
+    },
+    {
+     "q": "Most noise disputes are eventually decided by a tenancy tribunal.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph D discusses mediation and conversations, but nothing is said about how many disputes reach a tribunal."
+    },
+    {
+     "q": "Bookshelves on a shared wall cut noise levels by about half.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph C says bookshelves may help but the effect is often “more psychological than measurable”; no figure is given."
+    },
+    {
+     "q": "Written messages are a poor way to raise a noise complaint.",
+     "a": "D",
+     "t": "inference",
+     "ev": "avoiding notes taped to doors, which tend to be read as hostile",
+     "x": "Paragraph D advises against notes on doors because they are read as hostile."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Let Residents Grow Food in Their Front Yards",
+   "byline": "Opinion | by Wendell Aspinall, community garden coordinator",
+   "text": "Two summers ago, a retired teacher in a quiet suburb received a letter from her city. Her front yard, which she had turned into neat raised beds of tomatoes, beans, kale and marigolds, violated a bylaw requiring front yards to be “predominantly landscaped with grass or ornamental plantings”. She had thirty days to restore her lawn or face a fine of up to five hundred dollars. A neighbour, it turned out, had complained that the garden made the street look “untidy”.\n\nStories like hers are more common than you might think. Across the country, municipal bylaws and, even more often, the rules of homeowners’ associations and condominium corporations restrict what people can grow in front of their own homes. Some ban vegetables outright. Others limit the height of plants, require a minimum percentage of lawn, or forbid anything that could be described as “agricultural”. I believe these rules are outdated, and that it is time to change them.\n\nThe first argument is practical. Food prices have risen sharply in recent years, and for many households, a productive garden is not a hobby but a real saving. In many homes, the front yard is also the sunniest spot on the lot; the backyard may be shaded by trees, a garage or the house itself. Telling people they can grow food only where vegetables will not grow well is not much of a choice.\n\nThe second argument is environmental. Lawns are thirsty, and in many cities, summer watering of grass accounts for a large share of residential water use. A well-planned vegetable or pollinator garden, especially one that is properly mulched, often needs less water than turf and supports bees and other insects that a lawn does not.\n\nThe third argument is social, and it is the one I find most persuasive. Front-yard gardens are conversation starters. In my own neighbourhood, the people who grow vegetables out front know far more of their neighbours than those of us who hide in the back. Children stop to ask what is growing; seniors trade seeds and advice. A lawn, by contrast, is something people look at but rarely gather around.\n\nTo be fair, the critics are not entirely wrong. A neglected garden can look worse than a neglected lawn, and rotting vegetables can attract rats. Some gardeners build structures that block drivers’ views at intersections. These are legitimate concerns. But they are concerns about maintenance and safety, not about vegetables as such, and they can be addressed directly: rules on height near corners, requirements to remove rotting produce, and the same standards of upkeep that already apply to lawns.\n\nSeveral cities have already rewritten their bylaws to allow food gardens in front yards, with sensible limits. None of them, as far as I can tell, has seen property values fall or neighbourhoods descend into chaos. Condo corporations and homeowners’ associations, which are often stricter than cities, should follow their lead.\n\nThe retired teacher, by the way, appealed. Her city eventually changed its bylaw, and her tomatoes are still there. Her neighbour, I am told, now accepts the occasional bag of beans.",
+   "qs": [
+    {
+     "q": "Why did the retired teacher receive a letter from her city?",
+     "o": [
+      "Her neighbour had reported rats in her garden.",
+      "She had used too much water during the summer.",
+      "Her raised beds were blocking drivers’ views at a nearby corner.",
+      "Her yard did not meet a rule on what must cover front yards."
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "violated a bylaw requiring front yards to be",
+     "x": "The bylaw required front yards to be mainly grass or ornamental plants. The neighbour complained about untidiness, not rats."
+    },
+    {
+     "q": "Why does the writer point out that front yards are often the sunniest part of a lot?",
+     "o": [
+      "To show that current rules can make food gardening impractical",
+      "To argue that lawns in the backyard need less watering",
+      "To explain why vegetables attract more insects in front yards",
+      "To suggest that homeowners should cut down shade trees"
+     ],
+     "a": 0,
+     "t": "purpose",
+     "ev": "Telling people they can grow food only where vegetables will not grow well is not much of a choice.",
+     "x": "If only the shady backyard is allowed, the rules effectively prevent productive gardens. He does not suggest cutting trees."
+    },
+    {
+     "q": "Which argument does the writer find most convincing?",
+     "o": [
+      "Gardens save households a great deal of money on food.",
+      "Gardens use less water than grass.",
+      "Gardens help neighbours get to know each other.",
+      "Gardens support bees and other insects."
+     ],
+     "a": 2,
+     "t": "viewpoint",
+     "ev": "it is the one I find most persuasive",
+     "x": "He calls the social argument – gardens as conversation starters – the most persuasive. Saving money and water are his first two arguments."
+    },
+    {
+     "q": "How does the writer deal with the critics’ concerns?",
+     "o": [
+      "He dismisses them as complaints from a few neighbours.",
+      "He accepts some of them but says specific rules can solve them.",
+      "He argues that lawns cause the same problems more often.",
+      "He agrees that vegetables should be limited to backyards and balconies."
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "These are legitimate concerns.",
+     "x": "He calls the concerns legitimate but says they concern upkeep and safety and can be handled with targeted rules. He does not dismiss them."
+    },
+    {
+     "q": "What does the writer suggest about cities that changed their bylaws?",
+     "o": [
+      "They have not suffered the problems opponents predicted.",
+      "Their property values have risen as a result.",
+      "Their condo corporations quickly followed their example.",
+      "They have seen a large drop in water use."
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "None of them, as far as I can tell, has seen property values fall",
+     "x": "He says none saw falling property values or chaos. He does not claim values rose, and condo corporations “should” follow – they have not yet."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "As a member of my condo board, I have mixed feelings about this. I agree with Mr. Aspinall that blanket bans on vegetables {1}. Several of our owners asked last year to grow herbs in the shared front beds, and our refusal was, frankly, based on habit rather than any real problem.\n\nBut his article {2} the difference between a house and a condominium. In a condo, the front garden usually belongs to everyone, so one owner’s vegetables become everyone’s responsibility. If that owner moves away or loses interest, it’s the corporation that {3}.\n\nI also think he is a little optimistic about rats. Our building backs onto a ravine, and even our compost bins {4}.\n\nSo here is my compromise: allow food gardens in shared spaces, but only through a committee of volunteers who {5}, rather than leaving it to individual owners.",
+    "blanks": [
+     {
+      "o": [
+       "protect property values",
+       "are rarely enforced",
+       "are hard to justify",
+       "should be made stricter"
+      ],
+      "a": 2,
+      "t": "viewpoint",
+      "ev": "I believe these rules are outdated",
+      "x": "She agrees with the writer that the bans are outdated and admits her board’s refusal was based only on habit."
+     },
+     {
+      "o": [
+       "exaggerates",
+       "explains carefully",
+       "overlooks",
+       "is based on"
+      ],
+      "a": 2,
+      "t": "viewpoint",
+      "ev": "Condo corporations and homeowners’ associations, which are often stricter than cities, should follow their lead.",
+      "x": "She says he treats condos like houses without considering shared ownership – he overlooks the difference. He never explains it."
+     },
+     {
+      "o": [
+       "receives the produce",
+       "is left to pay for the upkeep",
+       "gets fined by the owner",
+       "decides what to plant next"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "the same standards of upkeep that already apply to lawns",
+      "x": "When the gardener leaves, the shared garden must still be maintained, at the corporation’s expense. Receiving produce would not be a concern."
+     },
+     {
+      "o": [
+       "have reduced our water use",
+       "were banned by the city",
+       "need less care than lawns",
+       "have attracted unwanted animals"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "rotting vegetables can attract rats",
+      "x": "She doubts his optimism about rats because even her compost bins have attracted animals. The other options do not relate to rats."
+     },
+     {
+      "o": [
+       "sell the vegetables to owners",
+       "agree to look after them",
+       "write new bylaws for the city",
+       "decide which owners may move"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "A neglected garden can look worse than a neglected lawn",
+      "x": "A committee responsible for upkeep solves her worry about abandoned gardens. Selling produce or writing city bylaws does not."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You rent an apartment. Your elderly father is having hip surgery next month and will stay with you for about three months while he recovers. To make the bathroom safe for him, you would like to make some changes to the apartment, which requires your landlord’s permission.",
+   "bullets": [
+    "Explain the situation",
+    "Describe the changes you would like to make",
+    "Explain how you will deal with any concerns the landlord may have"
+   ],
+   "model": "Dear Mr. Okonkwo,\n\nI am writing to ask for your permission to make a few small changes to the bathroom in unit 3B. My father, who is 81, is having hip surgery on March 4, and he will be staying with me for roughly three months while he recovers. His surgeon has warned that the first weeks are when falls are most likely, particularly in the bathroom.\n\nSpecifically, I would like to install two stainless-steel grab bars, one beside the toilet and one inside the bathtub, and replace the fixed shower head with a handheld one. I would also place a non-slip mat in the tub, which requires no installation.\n\nI understand you may be concerned about damage or cost. All of the work would be done at my expense by a licensed contractor, who would anchor the bars securely into the wall studs. If you prefer, I will remove everything when my father leaves and have the tiles professionally repaired. Alternatively, you are welcome to keep the bars for future tenants.\n\nI would be very grateful for your reply by February 20.\n\nSincerely,\nNadia Brennan"
+  },
+  "t2": {
+   "intro": "Your city has money to encourage the creation of more housing and is asking residents to choose between two programs. Choose the option you prefer and explain your reasons.",
+   "question": "Which option do you prefer?",
+   "a": "Option A: Offer homeowners grants of up to $40,000 to build small rental cottages in their backyards, adding new homes in existing neighbourhoods.",
+   "b": "Option B: Offer developers tax breaks to convert empty downtown office buildings into apartments, creating hundreds of units in a few large projects.",
+   "model": "I would choose Option A, the backyard cottage grants, although I can see the appeal of converting empty offices.\n\nMy main reason is that this option spreads new housing across the whole city. Backyard cottages allow people to live in established neighbourhoods close to schools, parks and family, rather than concentrating everyone downtown. For example, an older couple could build a cottage for an adult child, or a young family could rent one while saving for a house. The homes are also built at a human scale, so neighbours are more likely to accept them.\n\nSecond, I think the grants offer better value and less risk. Office conversions are complicated: many older towers need new plumbing, windows and elevators, and if one large project is delayed, hundreds of units disappear at once. With grants, hundreds of homeowners build in parallel, and each new cottage starts producing housing as soon as it is finished.\n\nOf course, downtown conversions could help revive empty business districts, which matters too. However, developers already have financial reasons to convert offices, whereas ordinary homeowners need help to get started. For these reasons, I believe Option A is the wiser use of public money."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend is about to sign a one-year lease on an apartment with a roommate they found through an online ad. They have only met this person once. Advise your friend about what to consider before signing.",
+   "model": "I’m happy you found a place, because I know how stressful the search has been. But since you’ve only met this person once, I’d slow down a little before signing anything.\n\nFirst, try to spend more time with them. Meet for coffee, or better yet, talk about everyday habits. Ask about their schedule, whether they have guests over a lot, how they feel about cleaning, and whether they smoke or have pets. A lot of roommate problems come from small things that nobody mentioned at the start.\n\nSecond, think about the lease itself. If you both sign the same lease, you’re usually both responsible for the full rent. So if your roommate suddenly stops paying or moves out, the landlord can come to you for all of it. That’s a big risk with someone you barely know. Ask the landlord whether you can each have a separate agreement.\n\nThird, I’d recommend writing a simple roommate agreement. It should cover how you split rent and bills, quiet hours, guests and what happens if one of you wants to leave early.\n\nAnd finally, check their references, maybe from a previous landlord or roommate. It might feel awkward, but it’s much less awkward than a year of conflict."
+  },
+  "t2": {
+   "prompt": "Talk about a time when something broke or stopped working in your home. What happened, and how did you deal with it?",
+   "model": "Last winter, during a really cold week in January, the furnace in our house stopped working in the middle of the night. I woke up at about three in the morning because the bedroom was freezing, and when I checked the thermostat, it was down to fourteen degrees.\n\nI called an emergency repair company, but they couldn’t send anyone until the afternoon. So I got some space heaters out of the basement, put everyone in the living room and wrapped the kids in blankets. We actually turned it into a kind of indoor camping night.\n\nThe technician eventually found that a small part called an igniter had failed, and he replaced it in about twenty minutes. Since then, I’ve signed up for a yearly maintenance check, and I always keep a couple of space heaters ready, just in case."
+  },
+  "t3": {
+   "scene": {
+    "bg": "street",
+    "alt": "A yard sale on the sidewalk in front of a yellow house with a red roof on a sunny day. A yellow sign reads YARD SALE. An older man with grey hair and glasses sits on a chair holding a coffee cup next to a long wooden table with a small box marked $1, a red mug and a clock on it. A woman in a purple dress with a shopping bag is looking at the table. In the middle, a cardboard box marked FREE sits on the sidewalk and a grey dog is sniffing it. A small boy in a blue shirt is pointing at a red bicycle for sale. On the right, a man in an orange shirt is walking away carrying a box, beside a tall floor lamp, while a blue car drives toward the sale on the road.",
+    "items": [
+     [
+      "sun",
+      580,
+      55
+     ],
+     [
+      "cloud",
+      300,
+      50,
+      0.9
+     ],
+     [
+      "house",
+      100,
+      250,
+      "#f9e79f",
+      "#922b21"
+     ],
+     [
+      "sign",
+      40,
+      292,
+      "YARD SALE",
+      "#f1c40f"
+     ],
+     [
+      "chair",
+      150,
+      292,
+      "#7f5539"
+     ],
+     [
+      "person",
+      162,
+      292,
+      {
+       "pose": "sit",
+       "shirt": "#16a085",
+       "hold": "cup",
+       "glasses": true,
+       "hair": "#bdc3c7"
+      }
+     ],
+     [
+      "table",
+      200,
+      292,
+      120,
+      "#a0703c"
+     ],
+     [
+      "box",
+      212,
+      248,
+      30,
+      20,
+      "$1"
+     ],
+     [
+      "mug",
+      265,
+      248,
+      "#e74c3c"
+     ],
+     [
+      "clock",
+      300,
+      235
+     ],
+     [
+      "person",
+      345,
+      292,
+      {
+       "shirt": "#8e44ad",
+       "dress": true,
+       "hairStyle": "long",
+       "hold": "bag",
+       "flip": true
+      }
+     ],
+     [
+      "box",
+      380,
+      292,
+      40,
+      30,
+      "FREE",
+      "#d4a373"
+     ],
+     [
+      "dog",
+      440,
+      300,
+      "#7f8c8d",
+      true
+     ],
+     [
+      "bike",
+      490,
+      300,
+      "#e74c3c"
+     ],
+     [
+      "person",
+      530,
+      302,
+      {
+       "kid": true,
+       "shirt": "#3498db",
+       "pose": "point",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      585,
+      292,
+      {
+       "shirt": "#d35400",
+       "pose": "walk",
+       "hold": "box",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "lamp",
+      625,
+      292
+     ],
+     [
+      "car",
+      520,
+      375,
+      "#2980b9",
+      true
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a yard sale on a sunny day, set up on the sidewalk in front of a yellow house with a red roof. There’s a bright yellow sign on the left that says “YARD SALE”, so people driving by can see it.\n\nAn older man with grey hair and glasses is sitting on a wooden chair beside a long table, holding a cup of coffee. He seems relaxed, so I’m guessing he’s the one selling things. On the table there are a few items: a small box marked “one dollar”, a red mug and an old clock.\n\nA woman in a purple dress, carrying a shopping bag, is standing next to the table and looking at the things for sale. In the middle of the sidewalk there’s a cardboard box labelled “FREE”, and a grey dog is sniffing it with a lot of interest.\n\nOn the right side, a little boy in a blue shirt is pointing excitedly at a red bicycle. I think he’s asking someone to buy it for him. Behind him, a man in an orange shirt is walking away carrying a box he probably just bought, right next to a tall floor lamp that’s also for sale.\n\nOn the road, a blue car is driving toward the sale, maybe with more shoppers inside."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things are likely to happen in the next few minutes.\n\nFirst, the little boy pointing at the red bicycle is clearly excited, so I expect he’ll run over to the older man and ask how much it costs. The man looks friendly, so he’ll probably give him a good price, or maybe call the boy’s parents over to talk about it. I wouldn’t be surprised if the boy rides it home today.\n\nSecond, the grey dog is very interested in the free box. My guess is that it will pull something out, perhaps an old toy or a shoe, and run off with it, and someone will have to chase it down the sidewalk.\n\nThird, the woman in the purple dress will probably pick up the old clock and ask about it. She might try to bargain a little, and then put it in her shopping bag.\n\nThe man carrying the box is walking very close to the tall floor lamp. If he isn’t careful, he could bump into it and knock it over.\n\nFinally, the blue car on the road will likely pull over and park, and more people will get out to look around, so the sale will get even busier."
+  },
+  "t5": {
+   "intro": "Your neighbourhood association has received a $20,000 grant to improve the community and must choose one project. Choose the option that you prefer. In the next section, you will need to persuade a neighbour that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Outdoor skating rink",
+     "details": [
+      "Open December to March",
+      "Free public skating every day",
+      "Volunteers needed to flood the ice",
+      "Boards, lights and a warming shed",
+      "Used for hockey and lessons"
+     ]
+    },
+    {
+     "title": "Community vegetable garden",
+     "details": [
+      "30 garden plots for residents",
+      "Open May to October",
+      "Water supply and tool shed",
+      "Plots rented for $20 a season",
+      "Produce shared with the food bank"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Annual street festival",
+    "details": [
+     "One weekend every summer",
+     "Live music and food trucks",
+     "Activities for children",
+     "Local businesses can set up booths",
+     "Grant covers about three years"
+    ]
+   },
+   "otherWho": "Your neighbour prefers",
+   "persuade": "Your neighbour prefers the annual street festival. Persuade your neighbour that your choice is better.",
+   "model": "I agree the street festival would be a lot of fun, and I’d definitely go. But I think the community garden would do much more for the neighbourhood with the same money.\n\nThe biggest difference is how long the benefit lasts. The festival is one weekend a year, and the grant only covers about three years. After that, the money is gone and we’re back where we started. The garden, on the other hand, would be built once and could be used for decades. The water supply and the tool shed are permanent improvements.\n\nIt’s also about how often people would connect. With a festival, you see your neighbours for two days. With thirty garden plots, people would be meeting every week from May to October, sharing tips and swapping vegetables. That’s how real friendships form.\n\nAnd the garden helps people who are struggling. Some of the produce would go to the food bank, and plots only cost twenty dollars a season, so families on tight budgets could grow fresh food cheaply. A festival is great, but food trucks aren’t cheap.\n\nIf we really want a festival, we could hold a small harvest party at the garden every fall. That way, we’d get the celebration too."
+  },
+  "t6": {
+   "situation": "Six months ago, your younger sister lost her job, and you invited her to stay with you and your partner rent-free until she found a new one. She started a new full-time job two months ago, but she has not offered to contribute to rent or groceries and has not mentioned moving out. Your partner is becoming increasingly frustrated and wants you to deal with it.",
+   "options": [
+    "Talk to your sister and ask her to start contributing or make plans to move out.",
+    "Talk to your partner and ask them to be patient a little longer."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey, Lina, do you have a few minutes? I want to talk about something, and I hope you know it’s coming from a good place.\n\nFirst of all, I’m really proud of you for landing the new job. I know the last few months were hard, and I was glad we could help when you needed it. That’s what family is for.\n\nBut now that things are more stable, I think we need to talk about how we share the costs. When you moved in, we all understood it was temporary, until you got back on your feet. It’s been six months, and our grocery and utility bills have gone up quite a bit. Malik and I have been feeling the pressure, especially since we’re trying to save for a down payment.\n\nSo here’s what I’d like to suggest. Starting next month, could you contribute something toward rent and groceries? Maybe four hundred dollars a month would be fair. And it would also help if we set a rough timeline for when you might move into your own place, say by the end of the summer. I’m happy to help you look at apartments.\n\nI don’t want this to come between us. I just think it’s better to talk now than let anyone get frustrated. What do you think?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should landlords be allowed to refuse to rent to people who smoke? Explain your reasons.",
+   "model": "In my opinion, landlords should be allowed to prohibit smoking inside their units, but they should not be allowed to refuse someone simply because the person is a smoker.\n\nThe first reason is health. In apartment buildings, smoke does not stay in one unit. It travels through ventilation systems, electrical outlets and gaps under doors, and it can seriously affect neighbours, including children and people with asthma. So I think it’s completely reasonable for a landlord to make a building smoke-free, just as many workplaces are.\n\nSecond, smoking indoors causes real damage. Landlords often have to replace carpets, repaint walls several times and clean ventilation ducts to get rid of the smell, which can cost thousands of dollars. A no-smoking rule protects their property.\n\nHowever, refusing to rent to smokers at all goes too far. What someone does outside, or away from the property, is their own business. If a tenant agrees to follow a no-smoking lease and actually respects it, they should be treated like anyone else. Otherwise, we risk making it even harder for some people to find housing during a shortage.\n\nSo overall, landlords should regulate the behaviour, not the person."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "A quiet residential street with a pale-green two-storey house with a brown roof. Sitting on top of the roof is an enormous orange cat sculpture, almost as wide as the house itself, with pointed ears and a curled tail, as if a giant cat were resting on the roof. On the sidewalk, a woman in a red shirt is pointing up at it, a man in a grey shirt is taking a photo with a camera, and a child in a yellow shirt is waving. A blue car is driving past slowly on the road. There is a tree and a street lamp beside the house, and clouds in the sky.",
+    "items": [
+     [
+      "cloud",
+      70,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      500,
+      45,
+      0.8
+     ],
+     [
+      "tree",
+      120,
+      255,
+      0.9
+     ],
+     [
+      "house",
+      330,
+      255,
+      "#c8e6c9",
+      "#7b3f00"
+     ],
+     [
+      "big",
+      "cat",
+      300,
+      160,
+      4,
+      "#e67e22"
+     ],
+     [
+      "streetlamp",
+      470,
+      290
+     ],
+     [
+      "person",
+      180,
+      292,
+      {
+       "shirt": "#c0392b",
+       "pose": "point",
+       "hairStyle": "long",
+       "hair": "#3b2a1a"
+      }
+     ],
+     [
+      "person",
+      530,
+      292,
+      {
+       "shirt": "#7f8c8d",
+       "hold": "camera",
+       "flip": true,
+       "glasses": true
+      }
+     ],
+     [
+      "person",
+      580,
+      296,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "wave"
+      }
+     ],
+     [
+      "car",
+      300,
+      370,
+      "#2980b9"
+     ]
+    ]
+   },
+   "prompt": "You belong to your local neighbourhood association, and the owner of a house on your street has just added this to their home. Call the city’s bylaw office. Describe what you see, and explain whether you think it should be allowed to stay. The person you are speaking to cannot see the picture.",
+   "model": "Hi, I’m calling from the Elmwood Neighbourhood Association about a house on Brierley Street, and I have to say, it’s one of the stranger things I’ve ever reported. It’s a normal two-storey house, pale green with a brown roof. But sitting right on top of the roof is a gigantic orange cat. It’s a sculpture, I assume, but it’s almost as wide as the house itself, with pointed ears and a long curled tail hanging over the edge.\n\nIt went up over the weekend, and it’s already attracting attention. Right now there are people on the sidewalk pointing at it and taking photos, and cars are slowing down to look.\n\nAs for whether it should stay, I honestly have mixed feelings. Personally, I find it charming, and a lot of neighbours, especially the kids, love it. But I have two concerns. First, is it safely attached? If a strong wind or heavy snow knocked it off, it could seriously injure someone on the sidewalk. Second, drivers are getting distracted, and there’s a school nearby.\n\nSo I’d suggest that an inspector check whether it’s secure and whether it meets the height rules. If it’s safe, I think it could stay, but the city should make sure first."
+  }
+ }
+}

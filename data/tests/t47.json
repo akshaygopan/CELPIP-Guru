@@ -1,0 +1,849 @@
+{
+ "id": "t47",
+ "title": "Test 47",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "A couple is trying to solve a problem with their son’s passport before a family trip.",
+    "sp": {
+     "A": {"name": "Leila", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Tomás", "g": "m", "acc": "en-US", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Tomás, have you got a minute? I was checking us in online for the Lisbon flight, just to pick seats, and the airline asked for Kian’s passport number. So I pulled it out of the drawer, and it expired in September."],
+       ["B", "September? That can’t be right. We renewed it right before the Mexico trip."],
+       ["A", "That was the renewal. It was a five-year child passport, and he was ten then. He turned fifteen in the summer, and I never looked at the date again."],
+       ["B", "Okay. Okay, deep breath. The flight’s on Tuesday the twenty-first, so that gives us eleven days. What does the regular service take these days?"],
+       ["A", "The website says twenty business days if you apply in person, and even longer by mail. So the standard route is out, even if every single thing went perfectly."],
+       ["B", "And my mother has been planning this ninetieth birthday for over a year. If her only grandson isn’t at that table, she’ll never let me hear the end of it."],
+       ["A", "I know. There are faster services you can pay for, but there’s another wrinkle. Because he’s under sixteen, both parents have to sign the application, and you’re in Calgary from Monday to Thursday for that training course."],
+       ["B", "I could sign before I leave, couldn’t I? Sunday night, at the kitchen table?"],
+       ["A", "The form, yes. The real headache is the guarantor. Last time it was Dr. Haddad, and she’s retired and moved out to Nova Scotia. Whoever signs has to have known us for at least two years, and they have to sign the back of one of the photos as well."]
+      ],
+      "qs": [
+       {
+        "q": "What did Leila discover while checking in online?",
+        "o": ["The airline had no seats left together.", "Kian’s passport had been mislaid before the Mexico trip.", "Her son’s travel document was no longer valid.", "The flight to Lisbon had been moved to September."],
+        "a": 2, "t": "paraphrase",
+        "ev": "it expired in September",
+        "x": "The passport “expired in September”, so it is no longer valid. September is when it expired, not a new flight date, and the Mexico trip is when it was last renewed, not when it was lost."
+       },
+       {
+        "q": "Why will the standard passport service not work for them?",
+        "o": ["It would take longer than the time they have left.", "It is only available to people who apply by mail.", "It cannot be used for children under sixteen.", "It requires both parents to come to the office."],
+        "a": 0, "t": "inference",
+        "ev": "twenty business days if you apply in person",
+        "x": "Twenty business days is far more than the eleven days before the flight. Mail is described as even slower, not as the only option, and the under-sixteen rule concerns signatures, not which service can be used."
+       },
+       {
+        "q": "What does Tomás suggest about his mother?",
+        "o": ["She would agree to postpone the celebration.", "She has already paid for Kian’s ticket to Lisbon.", "She would prefer Kian to stay home with Leila.", "She would be deeply hurt if Kian were absent."],
+        "a": 3, "t": "attitude",
+        "ev": "she’ll never let me hear the end of it",
+        "x": "“She’ll never let me hear the end of it” means she would stay upset and keep reminding him – she would be hurt. Nothing suggests she would postpone the party or that she paid for tickets."
+       }
+      ]
+     },
+     {
+      "lines": [
+       ["B", "What about Gareth from my office? He’s been to our place for dinner a dozen times."],
+       ["A", "He’d be perfect, except he’s only known us since you started that job last spring. That’s about eighteen months, not two years."],
+       ["B", "Fair. What about Mrs. Oyelaran next door? We’ve been neighbours for six years."],
+       ["A", "I thought of her first. But she told me in the summer that her own passport ran out years ago and she never bothered renewing it, because she doesn’t travel anymore. I’m fairly sure a guarantor has to hold a valid one."],
+       ["B", "So we’re stuck?"],
+       ["A", "Not quite. If you can’t find a guarantor, you can sign a statutory declaration instead, in front of a notary or a commissioner for oaths, and list two references who aren’t family."],
+       ["B", "A notary? Those people charge a fortune just to stamp something."],
+       ["A", "Usually, yes. But the community legal clinic on Dundas Street does it for free on Wednesdays."],
+       ["B", "Fine, but we still need speed. What if we wait until we’re two days from the flight and ask for urgent service? Isn’t that next-day pickup?"],
+       ["A", "In theory. But two days before the flight is a Sunday, when the office is closed. We’d have the Monday and nothing else, and if a single document is questioned, there’s no time left to fix it. I’m not gambling his trip on that."],
+       ["B", "Okay, I hear you. And the express service at our local office?"],
+       ["A", "They forward express files to the city, and it can take up to nine business days. That leaves us no margin at all."]
+      ],
+      "qs": [
+       {
+        "q": "Why is Gareth not a suitable guarantor?",
+        "o": ["His own passport is no longer valid.", "He has not known the family long enough.", "He will be away at the training in Calgary.", "He has visited their home only a few times."],
+        "a": 1, "t": "inference",
+        "ev": "he’s only known us since you started that job last spring",
+        "x": "Gareth has known them for about eighteen months, short of the two-year minimum. The expired passport belongs to Mrs. Oyelaran, the neighbour, and Gareth has actually visited many times."
+       },
+       {
+        "q": "What is Tomás’s first reaction to the idea of a statutory declaration?",
+        "o": ["He worries that their references are all relatives.", "He doubts that the clinic is open on Wednesdays.", "He would rather keep searching for a guarantor.", "He assumes it will be costly to arrange."],
+        "a": 3, "t": "attitude",
+        "ev": "Those people charge a fortune just to stamp something",
+        "x": "He says notaries “charge a fortune”, so he expects it to be expensive. It is Leila who mentions the Wednesday clinic, and Tomás raises no concern about the references."
+       },
+       {
+        "q": "Why does Leila reject waiting to use the urgent service?",
+        "o": ["One problem could leave them no time to correct it.", "Urgent service is not offered at their local office.", "Pickup would only be possible the following week.", "Tomás would still be in Calgary on that date."],
+        "a": 0, "t": "inference",
+        "ev": "if a single document is questioned, there’s no time left to fix it",
+        "x": "With the office closed on Sunday, they would have only one day, so any questioned document could not be fixed in time. The local office is said to forward express files, not to lack urgent service."
+       }
+      ]
+     },
+     {
+      "lines": [
+       ["B", "So what’s left? Drive into the city?"],
+       ["A", "That’s what I’m leaning towards. The passport office downtown does express in five business days if you show a printed ticket. It’s an extra hundred and ten dollars on top of the regular fee, and you pick it up at the counter yourself."],
+       ["B", "Five business days works. If you apply Monday, it’s ready the following Monday, the day before we fly. Tight, but doable."],
+       ["A", "There’s one snag. I just checked the clinic’s page again, and they’ve moved the free notary service for the rest of this month. It’s Saturday mornings now, not Wednesdays."],
+       ["B", "Honestly, that’s better for us. Saturday we do the declaration and get new photos at the pharmacy, I sign the application on Sunday before my flight, and you drive downtown first thing Monday."],
+       ["A", "And I’ll ask them to write our travel date on the file. If anything goes wrong, the counter staff said they can upgrade it to urgent on that last Monday, because by then we’d be within forty-eight hours of the flight."],
+       ["B", "Good. So that’s our safety net. Should we tell my mother what’s going on?"],
+       ["A", "Let’s not say a word until the passport is actually in our hands. She’ll only worry, and then she’ll start phoning everyone in the family."],
+       ["B", "True. I’ll print the tickets tonight so we don’t forget them."]
+      ],
+      "qs": [
+       {
+        "q": "What will happen on Saturday?",
+        "o": ["Leila will drive downtown to submit the application.", "Tomás will sign the form before flying to Calgary.", "They will complete a sworn statement and get pictures taken.", "They will pick up the new passport from the counter."],
+        "a": 2, "t": "detail",
+        "ev": "Saturday we do the declaration and get new photos at the pharmacy",
+        "x": "On Saturday they will sign the statutory declaration (a sworn statement) and get photos. Tomás signs on Sunday, and Leila drives downtown on Monday; the clinic’s Wednesday hours no longer apply."
+       },
+       {
+        "q": "What is their backup plan if the passport is delayed?",
+        "o": ["Rebook Kian on a later flight to Lisbon", "Ask for the file to be processed more quickly", "Apply again at their local passport office", "Ask Tomás’s mother to delay the party"],
+        "a": 1, "t": "paraphrase",
+        "ev": "they can upgrade it to urgent on that last Monday",
+        "x": "Staff can upgrade the file to urgent – faster – service on the Monday before the flight. Rebooking and delaying the party are never suggested; they will not even tell his mother yet."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A resident is speaking with a clerk at the city’s building permit counter.",
+    "sp": {
+     "A": {"name": "Permit clerk", "g": "m", "acc": "en-GB", "rate": 1.03},
+     "B": {"name": "Resident", "g": "f", "acc": "en-IN", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Hi, I’m hoping you can tell me whether I need a permit. We want to build a deck off our back door this summer, and my brother-in-law says permits are only for houses, not decks."],
+       ["A", "I’m afraid he’s not quite right. In this city, a deck needs a permit if any part of the platform is more than sixty centimetres above the ground, or if it’s attached to the house. How high would yours be?"],
+       ["B", "The back door is about a metre and twenty off the ground, so we were going to build it level with the door, attached to the wall."],
+       ["A", "Then you’d definitely need one. You’d submit drawings showing the footings, the beam sizes and the distance to your property lines. Decks also have to stay at least one and a half metres from the side lot line."],
+       ["B", "And how long does that take?"],
+       ["A", "Right now, residential reviews are taking about six weeks, sometimes a bit more in spring."],
+       ["B", "Six weeks. Well, there goes most of the summer. Is there any way around it?"],
+       ["A", "Some people go with a freestanding platform instead. If it’s not attached to the house and it stays under sixty centimetres, no permit is required. You’d need two or three steps down from the door to reach it, of course."],
+       ["B", "Hmm. Actually, the kids would probably like steps they can sit on. And it would be cheaper, with less lumber. What about a roof, though? My husband wanted a little covered area for the barbecue."],
+       ["A", "Any roof structure, even on a low platform, needs a permit, because of snow loads. That’s the one people always forget."],
+       ["B", "Then the roof is out. We’ll use the big patio umbrella we already have. So, low platform, not attached, no roof. Is there anything else I should do before we start?"],
+       ["A", "Just one thing, and it’s not optional. Before you dig holes for footings, you must request a free utility locate. Someone comes out and marks the gas and cable lines. It takes about five business days, so book it early."],
+       ["B", "Five days is nothing compared with six weeks. I’ll do that as soon as I get home."]
+      ],
+      "qs": [
+       {
+        "q": "Why did the woman come to the permit counter?",
+        "o": ["To submit drawings for a deck she has designed", "To check whether her project requires approval", "To complain about advice from her brother-in-law", "To book an inspection of her new back door"],
+        "a": 1, "t": "purpose",
+        "ev": "I’m hoping you can tell me whether I need a permit",
+        "x": "She wants to find out whether she needs a permit, that is, whether the project requires approval. Drawings are mentioned only as part of an application she never makes, and she does not complain."
+       },
+       {
+        "q": "Why would her original plan have needed a permit?",
+        "o": ["It would be built too close to the side lot line.", "It would include a roof over the barbecue area.", "It would use more lumber than the city allows.", "It would be raised high and joined to the house."],
+        "a": 3, "t": "inference",
+        "ev": "we were going to build it level with the door, attached to the wall",
+        "x": "Her deck would be about 1.2 m high and attached to the wall – both triggers for a permit. The side-lot distance is a general rule, and the roof was a later idea, not part of the original plan."
+       },
+       {
+        "q": "How does the woman feel when she hears about the review time?",
+        "o": ["Disappointed that it would use up much of the season", "Relieved that it is shorter than she had expected", "Unconcerned, since the work could start before approval", "Annoyed that her brother-in-law gave her wrong advice"],
+        "a": 0, "t": "attitude",
+        "ev": "there goes most of the summer",
+        "x": "“There goes most of the summer” shows disappointment about losing the season. She is not relieved – it is the five-day utility wait that she later calls “nothing” – and she shows no anger here."
+       },
+       {
+        "q": "Why does the woman decide against the covered area?",
+        "o": ["The patio umbrella would give more shade.", "Her husband changed his mind about it.", "It would bring back the need for a permit.", "Snow would damage the roof every winter."],
+        "a": 2, "t": "inference",
+        "ev": "Any roof structure, even on a low platform, needs a permit",
+        "x": "A roof requires a permit even on a low platform, which would defeat her plan to avoid one. Snow loads explain the rule; nobody says snow would damage it, and the umbrella is simply a substitute."
+       },
+       {
+        "q": "What will the woman most likely do next?",
+        "o": ["Arrange to have buried lines on her lot marked", "Apply for a permit for a freestanding platform", "Ask a contractor to begin digging the footings", "Return to the counter with revised plans of the deck"],
+        "a": 0, "t": "prediction",
+        "ev": "you must request a free utility locate",
+        "x": "She says she will request the utility locate, which marks gas and cable lines, as soon as she gets home. A low freestanding platform needs no permit, and digging must wait for the locate."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A man calls the provincial court’s jury office about a summons he received.",
+    "sp": {
+     "A": {"name": "Jury office clerk", "g": "f", "acc": "en-CA", "rate": 1.04},
+     "B": {"name": "Caller", "g": "m", "acc": "en-AU", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Jury Management Office, this is Marisol speaking."],
+       ["B", "Hi there. I got a jury summons in the mail yesterday, for the session starting March the second, and I’ve got a few questions before I fill anything out."],
+       ["A", "Of course. First, do you have the summons in front of you? There’s a participant number in the top right corner."],
+       ["B", "Yeah, it’s four-four-seven-one-nine. The thing is, I run a small bakery with one employee, and if I’m away for a couple of weeks, I basically have to close the doors."],
+       ["A", "I understand. Owning a small business doesn’t automatically excuse you, but it’s exactly the kind of situation a deferral is meant for. You can postpone your service once, to any session within the next twelve months."],
+       ["B", "Only once?"],
+       ["A", "Only once. After that, you would need a judge’s approval to be excused, and that’s only granted for serious hardship, like a medical condition. So pick your new date carefully."],
+       ["B", "Good to know. Our slowest stretch is late summer, after the wedding season. Could I choose August?"],
+       ["A", "There’s no session in August because of court holidays, but there’s one starting September eighth. Would that suit you?"],
+       ["B", "That would be ideal. And, sorry, I have to ask: do jurors get paid?"],
+       ["A", "Not for the first ten days. From day eleven to day forty-nine, it’s forty dollars a day, and it goes up to a hundred after that, though very few trials run that long. Most people serve on a jury for less than a week, and many aren’t selected at all."],
+       ["B", "So realistically, I’d probably get nothing."],
+       ["A", "Most likely, yes. We do reimburse public transit, and if you live more than forty kilometres from the courthouse, mileage as well. Where are you coming from?"],
+       ["B", "Ashford, which is about thirty-five, I think."],
+       ["A", "Then transit only, I’m afraid. Parking isn’t covered for anyone."],
+       ["B", "Fine. So how do I actually request the September session?"],
+       ["A", "Use the online form listed on the back of your summons, within ten days of receiving it. You can also call this line, but online is faster. Once it’s processed, you’ll receive a new summons for September by mail."],
+       ["B", "And until then, I don’t need to show up on March the second?"],
+       ["A", "Not if your deferral is confirmed. But please don’t ignore the date until you have that confirmation in writing. Failing to attend without one can lead to a fine."],
+       ["B", "Understood. I’ll do the form tonight and keep an eye on my mailbox."]
+      ],
+      "qs": [
+       {
+        "q": "Why does the caller think jury service would be a problem for him?",
+        "o": ["He has already served on a jury this year.", "His only employee would need to take leave.", "He lives too far away from the courthouse.", "His business could not operate without him."],
+        "a": 3, "t": "inference",
+        "ev": "I basically have to close the doors",
+        "x": "If he is away he would “have to close the doors”, so the bakery cannot run without him. His employee is mentioned but is not taking leave, and distance only comes up later, about expenses."
+       },
+       {
+        "q": "What does the clerk say about deferral?",
+        "o": ["It needs a judge’s approval in most cases.", "It can be used a single time within a year.", "It is only granted to small business owners.", "It must be requested twelve months ahead."],
+        "a": 1, "t": "paraphrase",
+        "ev": "You can postpone your service once, to any session within the next twelve months",
+        "x": "A deferral can be used once, to a session within twelve months. A judge’s approval is needed only to be excused after that, and business owners are not the only people allowed to defer."
+       },
+       {
+        "q": "Why can the caller not serve in August?",
+        "o": ["His bakery is busiest during that month.", "The online form does not list summer dates.", "No jury sessions are held during that month.", "He has already been summoned for that month."],
+        "a": 2, "t": "detail",
+        "ev": "There’s no session in August because of court holidays",
+        "x": "There is no August session because of court holidays. He actually chose late summer because it is his slowest period, after wedding season, so a busy bakery is not the reason."
+       },
+       {
+        "q": "What can be inferred about jury pay for the caller?",
+        "o": ["He is unlikely to receive any payment at all.", "He will earn forty dollars for each day he serves.", "He will be paid more because he is self-employed.", "He will receive a hundred dollars after ten days."],
+        "a": 0, "t": "inference",
+        "ev": "Most people serve on a jury for less than a week",
+        "x": "Pay starts only on day eleven and most jurors serve under a week, so he will probably get nothing, as the clerk confirms. Forty dollars a day applies only from day eleven."
+       },
+       {
+        "q": "Which of his expenses will be reimbursed?",
+        "o": ["Parking near the courthouse", "Mileage for driving from Ashford", "Meals during the trial", "Bus or train fares"],
+        "a": 3, "t": "inference",
+        "ev": "Then transit only, I’m afraid.",
+        "x": "Ashford is about 35 km away, under the 40 km needed for mileage, so only public transit is covered. Parking is not covered for anyone, and meals are never mentioned."
+       },
+       {
+        "q": "What does the clerk warn the caller about?",
+        "o": ["Requesting the change by phone could cause errors.", "Staying away before the change is confirmed.", "Choosing a session that may last over a week.", "Missing the new summons that comes by mail."],
+        "a": 1, "t": "detail",
+        "ev": "please don’t ignore the date until you have that confirmation in writing",
+        "x": "She warns him not to skip the March date until the deferral is confirmed in writing, or he could be fined. The phone is described as slower than online, not as a source of errors."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Councillor Whitford", "g": "m", "acc": "en-US", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "City council voted nine to four last night to launch a one-winter pilot that will let residents in three older neighbourhoods park on the street overnight, something that has been banned citywide from November to April for more than thirty years. The pilot covers Elmhurst, Kingsway Heights and the Old Mill district, where many homes were built before driveways were common."],
+       ["A", "Permits will cost sixty dollars for the season, and only one will be issued per household. Councillor Andrés Whitford, who brought the motion forward, says the current rules simply don’t match how people in those areas live."],
+       ["B", "We have families with two working adults and a single-lane driveway, or no driveway at all. Every night, someone is shuffling cars, or paying for a spot in a commercial lot a fifteen-minute walk away. People have been getting tickets for parking in front of their own homes. This pilot doesn’t solve everything, but it treats them fairly."],
+       ["A", "Not everyone on council was convinced. Councillors who voted against the motion argued that cars on the street will get in the way of snow clearing, and the city’s roads department warned that plows may have to make extra passes on narrower streets, which could raise costs. To address that, permits will be suspended automatically whenever the forecast calls for more than five centimetres of snow. Permit holders will receive a text message by four in the afternoon and must move their vehicles off the street by eleven p.m."],
+       ["A", "Councillor Whitford admits that part may be the toughest to enforce."],
+       ["B", "Honestly, the first big storm will tell us a lot. If people don’t move their cars, we’ll see it right away, and so will the plow operators. I’d rather find that out in one winter than argue about it for another ten years."],
+       ["A", "Applications open online on October fifteenth. Staff will report back to council in May with data on snow-clearing times, the number of tickets issued and resident feedback, before any decision is made about expanding the program across the city."]
+      ],
+      "qs": [
+       {
+        "q": "What did council approve?",
+        "o": ["A permanent end to the city’s winter parking ban", "A new commercial lot for residents without driveways", "A trial of overnight street parking in certain areas", "Higher fines for parking in front of other homes"],
+        "a": 2, "t": "paraphrase",
+        "ev": "launch a one-winter pilot",
+        "x": "Council approved a one-winter pilot in three neighbourhoods – a trial in certain areas. The ban is not ended permanently, and the commercial lot is where residents currently pay to park."
+       },
+       {
+        "q": "According to Councillor Whitford, why is the change needed?",
+        "o": ["Many homes lack space to park more than one car.", "Commercial lots in the area have become too costly.", "Residents have been fined for parking in other areas.", "Families need their cars to drive to work at night."],
+        "a": 0, "t": "inference",
+        "ev": "a single-lane driveway, or no driveway at all",
+        "x": "He describes single-lane driveways or none at all, so homes lack parking space. Residents were ticketed in front of their own homes, not elsewhere, and lot fees are only one consequence."
+       },
+       {
+        "q": "What concern did the roads department raise?",
+        "o": ["Permit holders might ignore the text alerts.", "Clearing snow could become slower and costlier.", "Older neighbourhoods would need wider streets.", "Plow operators would refuse to work at night."],
+        "a": 1, "t": "paraphrase",
+        "ev": "plows may have to make extra passes on narrower streets, which could raise costs",
+        "x": "Extra plow passes mean slower clearing and higher costs. Ignoring alerts is Whitford’s own enforcement worry, and operators refusing to work is never mentioned."
+       },
+       {
+        "q": "How does Councillor Whitford feel about the snowfall rule?",
+        "o": ["He is certain residents will follow it.", "He believes it should be dropped next year.", "He thinks the forecast limit is set too low.", "He accepts that compliance may be a challenge."],
+        "a": 3, "t": "attitude",
+        "ev": "that part may be the toughest to enforce",
+        "x": "He “admits” enforcement may be the toughest part and says the first storm will tell them a lot, so he is not certain people will comply. He never criticizes the five-centimetre threshold."
+       },
+       {
+        "q": "What will happen in May?",
+        "o": ["Applications for next winter will open online.", "The pilot will be extended to the whole city.", "Council will receive a review of the pilot’s results.", "Permit fees will be refunded to unhappy residents."],
+        "a": 2, "t": "detail",
+        "ev": "Staff will report back to council in May",
+        "x": "In May staff will report data and feedback to council. Expansion would only be considered after that, and applications open on October fifteenth, not in May."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three board members of a residents’ association are discussing a city proposal.",
+    "sp": {
+     "A": {"name": "Aurelio", "g": "m", "acc": "en-CA", "rate": 1.0},
+     "B": {"name": "Bronwyn", "g": "f", "acc": "en-GB", "rate": 1.03},
+     "C": {"name": "Deepa", "g": "f", "acc": "en-IN", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Okay, let’s get started. The city wants written feedback on the proposal to drop the speed limit on all residential streets from forty to thirty kilometres an hour, and the deadline is Friday. I’d like the Parkdale West Residents’ Association to send something more useful than a shrug and a list of mixed feelings."],
+       ["B", "Well, I do have mixed feelings, so that might be the honest answer. Aurelio, I know you’re for it."],
+       ["A", "I am, and I won’t pretend otherwise. The difference between being hit at thirty and being hit at forty is enormous. Most pedestrians survive the first; a lot don’t survive the second. We’ve got two schools and a seniors’ residence inside our boundaries."],
+       ["B", "I don’t dispute the physics. What I dispute is that a new number on a sign changes anything. People already drive fifty on Fenwick Avenue when the limit is forty. Lowering the posted number just makes more of them technically speeding, without slowing anyone down."],
+       ["C", "Can I come in here? I spoke to about twenty families at school pickup last week, and to the residents’ council at Maple Court. The parents were almost unanimous in favour. The seniors were more divided. Some of them still drive, and they were worried about getting rear-ended by impatient drivers if they actually stick to thirty."],
+       ["A", "That’s a fair worry, but the evidence from other cities is that average speeds do drop, even if only by a few kilometres an hour."],
+       ["B", "A few kilometres an hour. That’s my point. If we want real change, we need things that physically slow cars down: speed humps, narrower lanes, curb extensions at crosswalks. Signs are the cheapest option, which is exactly why the city likes them."],
+       ["C", "But Bronwyn, we’re not being asked to choose between signs and speed humps. The consultation question is just about the limit. Could we support the limit and also ask for physical measures?"],
+       ["B", "I suppose that could work, as long as we make the second part more than a footnote. Otherwise council will read ‘residents support thirty’ and tick the box."],
+       ["A", "I can live with that. What about Fenwick, though? It’s a bus route, and it’s much wider than the side streets."],
+       ["C", "That’s where the seniors’ worries were strongest. The buses and the delivery trucks use it all day."],
+       ["B", "Then I’d actually keep Fenwick at forty. If you post thirty on a four-lane road, nobody will respect it, and that undermines the limit everywhere else."],
+       ["A", "Hmm. I’d have preferred one consistent limit, to be honest, but I can see that a rule nobody follows doesn’t help anyone. Deepa?"],
+       ["C", "I agree with Bronwyn on Fenwick. And for the side streets, I’d like us to name specific spots, starting with the block in front of Lakeview Public School, so it’s not just a general wish list."],
+       ["A", "Alright, let me summarize. We support thirty on local residential streets, we recommend Fenwick stay at forty, and we ask for speed humps in front of the school as a priority. I’ll draft it tonight."],
+       ["B", "Send it to both of us before it goes in. I want to check the wording on the physical measures."],
+       ["C", "And I’ll attach the notes from the parents and Maple Court, so the city can see we actually asked people."]
+      ],
+      "qs": [
+       {
+        "q": "What does Aurelio want the association’s submission to do?",
+        "o": ["Take a clear and specific position", "Reflect members’ mixed feelings honestly", "Focus mainly on the two local schools", "Ask the city to extend the deadline"],
+        "a": 0, "t": "inference",
+        "ev": "send something more useful than a shrug and a list of mixed feelings",
+        "x": "He wants something “more useful than a shrug and a list of mixed feelings” – a clear position. Reporting mixed feelings is Bronwyn’s suggestion of an honest answer, which he wants to move beyond."
+       },
+       {
+        "q": "What is Bronwyn’s main objection at first?",
+        "o": ["Lower speeds would increase collisions with buses.", "The evidence from other cities is unreliable.", "Speed humps would be too expensive for the city.", "A new posted limit by itself won’t slow drivers."],
+        "a": 3, "t": "viewpoint",
+        "ev": "What I dispute is that a new number on a sign changes anything",
+        "x": "She doubts that “a new number on a sign” changes driver behaviour. She accepts the physics, and she calls signs the cheapest option rather than saying speed humps cost too much."
+       },
+       {
+        "q": "What did Deepa learn from the people she spoke to?",
+        "o": ["Seniors were mostly opposed to any change.", "Opinions differed between the two groups.", "Parents preferred speed humps to a lower limit.", "Both groups wanted thirty on Fenwick Avenue."],
+        "a": 1, "t": "paraphrase",
+        "ev": "The seniors were more divided.",
+        "x": "Parents were almost unanimous in favour while seniors were divided, so views differed between groups. Seniors were divided rather than mostly opposed, and speed humps came from Bronwyn, not parents."
+       },
+       {
+        "q": "Why were some seniors worried?",
+        "o": ["They might be fined for driving slightly over thirty.", "Crossing Fenwick Avenue on foot was already hard.", "Faster drivers behind them might hit their cars.", "Buses would no longer stop near Maple Court."],
+        "a": 2, "t": "paraphrase",
+        "ev": "they were worried about getting rear-ended by impatient drivers",
+        "x": "Being “rear-ended by impatient drivers” means being hit from behind by faster cars. Fines and crossing on foot are not mentioned; Fenwick comes up later as a busy bus route."
+       },
+       {
+        "q": "How does Bronwyn respond to Deepa’s suggestion?",
+        "o": ["She rejects it as another cheap option.", "She agrees, but only under a condition.", "She accepts it because the deadline is near.", "She doubts the question is about the limit."],
+        "a": 1, "t": "attitude",
+        "ev": "I suppose that could work, as long as we make the second part more than a footnote",
+        "x": "“I suppose that could work, as long as…” is reluctant, conditional agreement: the request for physical measures must be prominent. She does not reject it, and the deadline plays no role."
+       },
+       {
+        "q": "Why does Bronwyn want Fenwick Avenue to stay at forty?",
+        "o": ["Ignoring a limit there could weaken it elsewhere.", "Buses on Fenwick cannot safely go any slower.", "Seniors asked for Fenwick to keep its limit.", "Speed humps would work better on wide roads."],
+        "a": 0, "t": "inference",
+        "ev": "that undermines the limit everywhere else",
+        "x": "She argues nobody would respect thirty on a four-lane road, which would undermine the limit elsewhere. Seniors were worried about traffic there but did not ask for forty, and bus speed is not her argument."
+       },
+       {
+        "q": "What is Aurelio’s attitude toward keeping Fenwick at forty?",
+        "o": ["He is pleased because it was his original idea.", "He strongly opposes it and calls for a vote.", "He agrees because buses must keep schedules.", "He accepts it despite wanting a single limit."],
+        "a": 3, "t": "attitude",
+        "ev": "I’d have preferred one consistent limit",
+        "x": "He would have preferred one consistent limit but accepts Bronwyn’s argument – reluctant agreement. The idea came from Bronwyn, not him, and he calls for no vote."
+       },
+       {
+        "q": "What will Deepa do before the submission is sent?",
+        "o": ["Draft the submission tonight", "Check the wording on speed humps", "Include records of her conversations", "Visit the block in front of the school"],
+        "a": 2, "t": "detail",
+        "ev": "I’ll attach the notes from the parents and Maple Court",
+        "x": "She will attach notes from her talks with parents and Maple Court residents. Aurelio drafts the text, and Bronwyn checks the wording on physical measures."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a report about online voting in municipal elections.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "m", "acc": "en-CA", "rate": 1.01},
+     "B": {"name": "Gwendolyn Fairweather", "g": "f", "acc": "en-GB", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "In next fall’s municipal elections, voters in at least a dozen communities in the province will be able to cast their ballots on a phone or a laptop, and several more councils are debating whether to follow. Supporters say online voting brings elections into the twenty-first century. Critics say it asks voters to trust a system they can’t see. I spoke with Gwendolyn Fairweather, the municipal clerk in Rosedale Falls, which has offered online voting since twenty eighteen."],
+       ["B", "For us, it was about access. We have a lot of shift workers at the processing plant, people who leave at five in the morning and get home after the polls close. We have residents with mobility issues for whom a trip to a school gym in November is a real barrier. With online voting, they can vote any time during a ten-day period. Our turnout went from thirty-one percent to thirty-eight percent in the first election."],
+       ["A", "That increase is real, but researchers who study elections urge caution in reading too much into it. A study of more than forty Canadian municipalities found that online voting raised turnout by an average of about three percentage points, and that most of the people using it would have voted anyway. In other words, it made voting more convenient for regular voters more than it brought in new ones."],
+       ["A", "The bigger debate is about security and trust. Computer scientists point out that with paper ballots, if a result is close or disputed, officials can physically recount them. With most online systems, the votes exist only as data held by a private vendor, and there is no independent record for candidates or voters to examine. Two municipalities in another province had to extend their voting period after a vendor’s servers slowed down on the final evening, and although no one suggested the results were wrong, the episode shook public confidence."],
+       ["B", "I take those concerns seriously. We don’t claim the system is perfect. But paper ballots have their own problems, like human counting errors and spoiled ballots, and we have never had a challenged result. We also require the vendor to have its system audited by an independent firm before every election."],
+       ["A", "Critics respond that an audit before an election isn’t the same as being able to verify the result afterwards. Some, including a few clerks, now favour a middle path: keep paper ballots at the polls, but offer online voting only during the advance voting period, or only for voters who request it, such as residents with disabilities or those temporarily out of town."],
+       ["A", "For many councils, the decision may come down to cost as much as principle. An online system typically costs less per vote than staffing dozens of polling stations, though vendor fees have been rising. What seems clear is that whichever path a town chooses, it will need to explain that choice carefully to voters, because an election is only as strong as the public’s belief that it was fair."]
+      ],
+      "qs": [
+       {
+        "q": "What is the main purpose of the report?",
+        "o": ["To explain how to vote online in the next election", "To weigh arguments about a different way of voting", "To show that online voting failed in other towns", "To announce that Rosedale Falls will stop paper voting"],
+        "a": 1, "t": "main",
+        "ev": "Supporters say online voting brings elections into the twenty-first century",
+        "x": "The report presents both supporters’ and critics’ views on online voting. It gives no instructions, and Rosedale Falls already offers online voting rather than announcing an end to paper."
+       },
+       {
+        "q": "According to Ms. Fairweather, why did Rosedale Falls adopt online voting?",
+        "o": ["To reduce the cost of staffing polling stations", "To speed up the counting of ballots on election night", "To help residents who struggle to reach the polls", "To respond to complaints about spoiled ballots"],
+        "a": 2, "t": "detail",
+        "ev": "For us, it was about access.",
+        "x": "She says it was “about access” for shift workers and people with mobility issues. Lower cost is raised only by the reporter at the end, and spoiled ballots are a paper problem she mentions later."
+       },
+       {
+        "q": "What does the research suggest about online voting?",
+        "o": ["It mostly helps people who already vote.", "It raised turnout by seven points in most towns.", "It attracts many first-time voters.", "It has caused wrong results in some areas."],
+        "a": 0, "t": "inference",
+        "ev": "most of the people using it would have voted anyway",
+        "x": "Most users “would have voted anyway”, so it mainly helps regular voters. The seven-point rise happened in Rosedale Falls alone; the average across municipalities was about three points."
+       },
+       {
+        "q": "What is the critics’ main concern?",
+        "o": ["Private vendors charge too much for their services.", "Online voting periods are too long to manage well.", "Servers are likely to fail on the last day of voting.", "Results cannot be checked independently afterward."],
+        "a": 3, "t": "viewpoint",
+        "ev": "there is no independent record for candidates or voters to examine",
+        "x": "Critics stress that, unlike paper, online votes leave no independent record that can be recounted. The server slowdown was one example that shook confidence, not the core concern."
+       },
+       {
+        "q": "How does Ms. Fairweather respond to the security concerns?",
+        "o": ["She admits flaws but defends her town’s record.", "She dismisses them as unsupported by evidence.", "She agrees that paper ballots are more secure.", "She says audits after the vote solve the problem."],
+        "a": 0, "t": "attitude",
+        "ev": "We don’t claim the system is perfect.",
+        "x": "She takes the concerns seriously and admits the system isn’t perfect, but points to no challenged results and to audits. Those audits happen before the election, not after it."
+       },
+       {
+        "q": "What does the reporter suggest at the end?",
+        "o": ["Online voting is likely to replace paper soon.", "Councils should choose the cheapest method.", "Vendors must lower fees to stay competitive.", "Public trust matters whichever option is chosen."],
+        "a": 3, "t": "main",
+        "ev": "an election is only as strong as the public’s belief that it was fair",
+        "x": "He concludes that whatever path a town takes, it must explain it, because public trust is essential. Cost is presented as one factor, not as the rule for choosing."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Farida Nazari | To: Ingrid Solberg, Riverbend Newcomer Centre | Subject: Letter about our child benefit",
+   "text": "Dear Ms. Solberg,\n\nI hope you are well. You helped my family find our apartment when we arrived last year, and you told me to write to you if we ever had a problem with government letters. I am afraid we now have one, and I am not sure what to do.\n\nYesterday we received a letter from the tax agency saying that our monthly child benefit payments will stop after the payment in May. The reason, it says, is that we have not filed an income tax return for last year. To be honest, this is my husband’s fault, but also mine. Reza believed that because we earned very little last year, we did not need to file anything. He says that in our home country, only people with a business sent forms to the government. I did not question him, because I was busy with my English classes and with the children.\n\nThe letter says that both of us must file, even if our income was zero, and that payments will start again once the returns are processed. It also says that if we do not file by June 30, we may have to repay the payments we received since January. I counted, and that would be almost two thousand dollars, which we simply do not have.\n\nI have some questions. First, is it really true that people with no income must still file? Second, a woman in my class said there is a free clinic where volunteers prepare tax returns for newcomers. Do you know when it is open? Third, I started working part-time at a pharmacy in February. Will this new job reduce our benefit, or does it only count next year?\n\nI can come to the centre any afternoon except Tuesday, when I have my class. I can bring the letter, our passports and the papers from the bank. I am sorry to ask for help again. I feel quite embarrassed that we did not know about such an important rule, and I worry that the government now thinks we were trying to hide something.\n\nThank you very much,\nFarida Nazari",
+   "qs": [
+    {
+     "q": "Why is Farida writing to Ms. Solberg?",
+     "o": ["To thank her for help finding an apartment", "To ask for guidance about an official notice", "To complain about a decision by the tax agency", "To register for afternoon English classes"],
+     "a": 1, "t": "purpose",
+     "ev": "you told me to write to you if we ever had a problem with government letters",
+     "x": "She writes because of a letter from the tax agency and asks several questions, so she wants guidance. The apartment help is background only, and she does not complain about the decision."
+    },
+    {
+     "q": "Why did Farida’s husband not file a tax return?",
+     "o": ["He thought Farida had already done it.", "He was too busy with his English classes.", "He did not receive any forms by mail.", "He relied on how things worked back home."],
+     "a": 3, "t": "inference",
+     "ev": "He says that in our home country, only people with a business sent forms to the government.",
+     "x": "Reza assumed, based on practice in their home country, that low earners did not need to file. It was Farida, not Reza, who was busy with English classes."
+    },
+    {
+     "q": "According to the tax agency’s letter, what will happen once the family files?",
+     "o": ["The payments will be restored.", "They will owe almost two thousand dollars.", "Their benefit amount will be reduced.", "They will need to reapply for the program."],
+     "a": 0, "t": "paraphrase",
+     "ev": "payments will start again once the returns are processed",
+     "x": "Payments “will start again” after the returns are processed – they will be restored. Repaying almost two thousand dollars is a risk only if they miss the June 30 deadline."
+    },
+    {
+     "q": "What does Farida want to know about her pharmacy job?",
+     "o": ["Whether she must report it before June 30", "Whether the clinic can prepare forms for it", "When her earnings will affect the payments", "Whether she can work on Tuesday afternoons"],
+     "a": 2, "t": "detail",
+     "ev": "Will this new job reduce our benefit, or does it only count next year?",
+     "x": "She asks whether the job will reduce their benefit now or only next year – that is, when it will affect payments. June 30 is the filing deadline for last year, not linked to her job."
+    },
+    {
+     "q": "How does Farida feel about the situation?",
+     "o": ["Ashamed and worried about how it looks", "Angry that nobody explained the rules", "Confident that it can be fixed quickly", "Annoyed with her classmate’s advice"],
+     "a": 0, "t": "attitude",
+     "ev": "I feel quite embarrassed that we did not know about such an important rule",
+     "x": "She is embarrassed and fears the government thinks they hid something. She blames her husband and herself, not others, so anger that nobody explained the rules is wrong."
+    },
+    {
+     "q": "In the letter, “I did not question him” is closest in meaning to …",
+     "o": ["I did not ask him for information", "I did not interview him formally", "I did not explain things to him", "I did not doubt what he told me"],
+     "a": 3, "t": "vocab",
+     "ev": "I did not question him",
+     "x": "To question someone here means to challenge or doubt what they say; she accepted his belief. “Ask him for information” is the literal sense of the word, which does not fit the context."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Ms. Solberg’s response. Complete it by choosing the best option for each blank.",
+    "text": "Dear Farida,\n\nPlease don’t feel embarrassed – this is one of the most common misunderstandings among newcomers. Yes, in Canada you must {1} to keep receiving family benefits, so both you and Reza will need returns. The good news is that you can avoid repaying anything if your returns are filed before {2}.\n\nOur volunteer tax clinic runs on Thursday afternoons, which works well because {3}. Please bring the agency’s letter, your passports and your bank papers, as you suggested, and also any slips from {4}.\n\nAs for your new position, income you earn this year will only be counted when you file next spring, so for now your job {5}. I have booked you for this Thursday at 2:00, and I will sit in with the volunteer if you would like me to.\n\nWarm regards,\nIngrid",
+    "blanks": [
+     {
+      "o": ["earn a minimum income", "reapply for the benefit every spring", "file a return even with no income", "have a registered business"],
+      "a": 2, "t": "paraphrase",
+      "ev": "both of us must file, even if our income was zero",
+      "x": "The letter Farida quotes says both must file even with zero income, which the counsellor confirms. Reapplying every spring is never mentioned, and a business was only Reza’s mistaken idea."
+     },
+     {
+      "o": ["the June 30 deadline", "the payment in May", "your Tuesday class", "the start of January"],
+      "a": 0, "t": "detail",
+      "ev": "if we do not file by June 30, we may have to repay",
+      "x": "Filing by June 30 avoids having to repay. May is when payments stop, and January is when the payments that might be repaid began."
+     },
+     {
+      "o": ["Reza finishes work early that day", "the clinic is closed on Tuesdays", "the volunteers speak your language", "your class takes place on Tuesdays"],
+      "a": 3, "t": "inference",
+      "ev": "I can come to the centre any afternoon except Tuesday, when I have my class",
+      "x": "Farida is free every afternoon except Tuesday, when she has her class, so Thursday suits her. Nothing is said about the clinic closing on Tuesdays or about Reza’s hours."
+     },
+     {
+      "o": ["your new job at the pharmacy", "any work Reza did last year", "your English classes this year", "your home country’s tax office"],
+      "a": 1, "t": "inference",
+      "ev": "because we earned very little last year",
+      "x": "The returns are for last year, so slips showing what Reza earned then are needed. The pharmacy job began in February this year and will only matter when they file next spring."
+     },
+     {
+      "o": ["will lower the amount you receive", "will not affect what you receive", "must be reported before June 30", "will count on last year’s return"],
+      "a": 1, "t": "inference",
+      "ev": "income you earn this year will only be counted when you file next spring",
+      "x": "This year’s income only counts when they file next spring, so the job does not affect current payments. The June 30 deadline concerns last year’s returns, not her new job."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Town of Brackenridge – 2027 Property Tax Payment Options",
+    "intro": "Final tax bills are mailed in early January. Choose one of the plans below. If you do not enrol in a plan, the Two Instalments schedule applies automatically.",
+    "table": {
+     "cols": ["Plan", "Payments", "Due dates", "Sign-up deadline", "Admin fee"],
+     "rows": [
+      ["Annual", "1", "February 26", "No sign-up needed", "None"],
+      ["Two Instalments", "2", "February 26 and June 25", "No sign-up needed", "None"],
+      ["Quarterly", "4", "Last business day of Feb, May, Aug and Nov", "January 15", "$12 per year"],
+      ["Monthly pre-authorized", "10", "1st of each month, February–November", "January 15", "None"],
+      ["Monthly – late enrolment", "Remaining months to November", "1st of each month, starting the second month after you enrol", "October 1", "$25 one-time"],
+      ["Senior Deferral", "–", "Tax is deferred until the property is sold", "March 31", "$50 application"]
+     ]
+    },
+    "notes": [
+     "Early-payment credit: owners on the Annual plan who pay the full amount by January 31 receive a 1% credit.",
+     "Late payments: a penalty of 1.25% of the overdue amount on the first day of each month the amount remains unpaid.",
+     "A $40 fee applies to any pre-authorized payment returned by your bank (NSF). Two returned payments in one year cancel your monthly plan.",
+     "Senior Deferral: available to owners aged 65+ with household income under $48,000 who have owned the home for at least 3 years. Interest of 3% per year is charged on deferred amounts.",
+     "Late enrolment: the year’s remaining balance is divided equally among the remaining payments."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about property taxes. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Mehmet,\n\nThanks for sending the town’s tax sheet. Since we only got the keys in December, we missed the January 15 sign-up by a few days. I enrolled us in the monthly plan anyway on January 20, so with our $4,200 bill, each payment will be {1}, plus the one-time fee.\n\nYour sister Aylin is lucky: she’s paying her $2,900 bill in full next week, before the end of January, so she will only pay {2}.\n\nI also think your dad should look at the deferral. He’s 70, his income is about $45,000 and he’s owned the house for twenty years, so he qualifies, but he has to apply by {3}.\n\nRemember Mr. Petrov next door? He paid his $1,000 June instalment exactly one month late last year and was charged {4} – annoying, but not a disaster.\n\nFinally, we need to keep enough money in the account, because if two of our payments bounce, {5}.\n\nTalk soon,\nSelin",
+    "blanks": [
+     {
+      "o": ["$420.00", "$525.00", "$491.67", "$466.67"],
+      "a": 3, "t": "diagram",
+      "ev": "the year’s remaining balance is divided equally among the remaining payments",
+      "x": "Enrolling on January 20 means payments start on March 1 (the second month after enrolment), giving nine payments to November: $4,200 ÷ 9 = $466.67. $420 assumes the regular ten payments."
+     },
+     {
+      "o": ["$2,885.50", "$2,871.00", "$2,929.00", "$2,610.00"],
+      "a": 1, "t": "diagram",
+      "ev": "owners on the Annual plan who pay the full amount by January 31 receive a 1% credit",
+      "x": "Paying in full by January 31 earns a 1% credit: $2,900 − $29 = $2,871. $2,929 adds 1% instead of subtracting it, and $2,610 wrongly applies a 10% discount."
+     },
+     {
+      "o": ["March 31", "January 15", "February 26", "October 1"],
+      "a": 0, "t": "diagram",
+      "ev": "available to owners aged 65+ with household income under $48,000",
+      "x": "He meets the age, income and three-year conditions, and the Senior Deferral sign-up deadline in the table is March 31. January 15 is the deadline for the quarterly and regular monthly plans."
+     },
+     {
+      "o": ["$10.00", "$25.00", "$12.50", "$40.00"],
+      "a": 2, "t": "diagram",
+      "ev": "a penalty of 1.25% of the overdue amount on the first day of each month the amount remains unpaid",
+      "x": "Due June 25 and paid a month later, the amount was unpaid on July 1 only, so one penalty applies: 1.25% of $1,000 = $12.50. $40 is the fee for a returned payment."
+     },
+     {
+      "o": ["we will be charged a $25 fee", "we’ll move to the quarterly plan", "3% interest will be added", "our plan will be cancelled"],
+      "a": 3, "t": "diagram",
+      "ev": "Two returned payments in one year cancel your monthly plan",
+      "x": "Two returned payments in one year cancel the monthly plan. A single return costs $40; $25 is the late-enrolment fee, and 3% interest applies only to senior deferrals."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "An owner on the Quarterly plan has a $3,600 bill and pays every instalment on time. How much will she pay in total for the year?",
+     "o": ["$3,612", "$3,600", "$3,648", "$3,564"],
+     "a": 0, "t": "diagram",
+     "ev": "$12 per year",
+     "x": "Quarterly payments total the $3,600 tax plus the $12 annual admin fee = $3,612. $3,564 would be the Annual plan with the 1% early credit, which does not apply to quarterly payers."
+    },
+    {
+     "q": "A 67-year-old with a household income of $40,000 bought her home two years ago and wants to put off paying her tax. What is true?",
+     "o": ["She can defer the tax if she applies by March 31.", "She can defer it, but 3% yearly interest will apply.", "She does not yet qualify for the Senior Deferral.", "She must first enrol in the monthly plan."],
+     "a": 2, "t": "diagram",
+     "ev": "who have owned the home for at least 3 years",
+     "x": "She meets the age and income conditions but has owned the home for only two years, short of the three required. Options A and B describe the program as if she qualified."
+    },
+    {
+     "q": "An owner on the monthly plan has one payment returned by his bank in April. What happens?",
+     "o": ["His plan is cancelled and he must pay in full.", "He is charged $40 but stays on the plan.", "He pays a 1.25% penalty plus a $25 fee.", "He is moved to the Two Instalments plan."],
+     "a": 1, "t": "diagram",
+     "ev": "A $40 fee applies to any pre-authorized payment returned by your bank (NSF).",
+     "x": "One returned payment costs $40; only a second return in the same year cancels the plan. The $25 is the late-enrolment fee, not a penalty for returned payments."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Keeping Cool: How Canadian Cities Are Preparing for Extreme Heat",
+   "paras": [
+    "When people think of dangerous weather in Canada, they usually picture blizzards, floods or wildfires. Yet many emergency planners now describe extreme heat as the deadliest weather hazard in the country. During one record-breaking heat wave a few summers ago, hundreds of people died in a single province, most of them older adults living alone in apartments without air conditioning. Part of the problem is that heat receives far less attention than floods or wildfires, perhaps because its damage is invisible: there are no flattened houses or burned forests to show on the evening news. Victims often die quietly indoors, and some deaths are recognized only weeks later, when coroners review records and notice an unusual number of deaths during the hottest days. This hidden toll makes it difficult to persuade the public, and sometimes politicians, that heat deserves the same planning as other disasters.",
+    "The most familiar response is the cooling centre. During heat warnings, cities extend the opening hours of libraries, community centres and some shopping areas so that residents can escape the heat for a few hours. These spaces are useful, but research has repeatedly shown that the people at greatest risk rarely use them. Many are isolated, have mobility problems or simply do not know the centres exist. Some do not feel that they are in danger at all. For this reason, several municipalities now run check-in programs, in which volunteers or city staff telephone or visit registered residents during a heat warning. In one Ontario city, a review found that check-in calls reached roughly four times as many vulnerable people as its cooling centres did, at a fraction of the cost, and that many of those contacted had not realized how hot their homes had become.",
+    "In the longer term, cities are trying to change the built environment itself. Planting street trees can lower surface temperatures by several degrees, and some municipalities offer grants for light-coloured or green roofs that absorb less heat. Housing rules are also under discussion. A few cities now require new apartment buildings to include at least one cooled common room, and some councils are debating a maximum indoor temperature for rental units, similar to the minimum heating standards that already apply in winter. Landlords’ associations argue that retrofitting older buildings with air conditioning would be expensive and that many electrical systems could not handle the extra load. Some tenant groups support the idea in principle but worry that the cost of upgrades would eventually be passed on to renters through higher rents, which could push the most vulnerable out of their homes altogether.",
+    "Officials also stress what individuals can do. Residents are advised to learn the warning signs of heat illness, such as confusion, dizziness and unusually rapid breathing, and to close blinds and curtains during the day. Fans help, but once indoor temperatures climb into the mid-thirties, they may do little more than move hot air around, so a cool shower or a visit to an air-conditioned space is better. Perhaps the most surprising advice concerns timing. The hottest afternoons are not always the most dangerous days; nights that stay above about twenty degrees can be worse, because the body never gets a chance to recover. Checking on an older neighbour during a stretch of warm nights, experts say, may be one of the simplest ways to save a life."
+   ],
+   "qs": [
+    {"q": "People most at risk often do not go to the places opened to help them stay cool.", "a": "B", "t": "paraphrase", "ev": "research has repeatedly shown that the people at greatest risk rarely use them", "x": "Paragraph B states that the people at greatest risk rarely use cooling centres, for reasons such as isolation and mobility problems."},
+    {"q": "Cooling centres in most cities now stay open twenty-four hours a day during heat warnings.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph B says cities extend opening hours during heat warnings, but it never says they stay open around the clock, or that most cities do so."},
+    {"q": "Some heat-related deaths are not identified until well after they happen.", "a": "A", "t": "paraphrase", "ev": "some deaths are recognized only weeks later", "x": "Paragraph A explains that some heat deaths are recognized only weeks later, when coroners review their records."},
+    {"q": "Rental units could face a rule limiting how warm they are allowed to get.", "a": "C", "t": "paraphrase", "ev": "some councils are debating a maximum indoor temperature for rental units", "x": "Paragraph C says some councils are debating a maximum indoor temperature for rentals, similar to winter heating standards."},
+    {"q": "A hot night may pose a greater threat to health than a hot afternoon.", "a": "D", "t": "paraphrase", "ev": "nights that stay above about twenty degrees can be worse, because the body never gets a chance to recover", "x": "Paragraph D explains that warm nights can be worse than hot afternoons because the body cannot recover."},
+    {"q": "Contacting residents directly proved more effective than opening cool spaces in one city.", "a": "B", "t": "inference", "ev": "check-in calls reached roughly four times as many vulnerable people as its cooling centres did", "x": "Paragraph B reports that, in one Ontario city, check-in calls reached about four times as many vulnerable people as cooling centres."},
+    {"q": "Neighbourhoods with more street trees have recorded fewer deaths during heat waves.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph C says trees lower surface temperatures, but no paragraph links tree cover to a lower number of deaths."},
+    {"q": "Some property owners say adding cooling to older buildings would be costly.", "a": "C", "t": "detail", "ev": "retrofitting older buildings with air conditioning would be expensive", "x": "Paragraph C reports landlords’ associations arguing that retrofitting older buildings with air conditioning would be expensive."},
+    {"q": "Extreme heat receives less public attention than other weather disasters.", "a": "A", "t": "paraphrase", "ev": "heat receives far less attention than floods or wildfires", "x": "Paragraph A says heat receives far less attention than floods or wildfires, possibly because its damage is invisible."}
+   ]
+  },
+  "p4": {
+   "title": "It’s Time for City Hall to Go Digital-First",
+   "byline": "Opinion | by Corinne Vasquez-Hale, technology consultant and former municipal communications officer",
+   "text": "Every spring, my city mails a glossy forty-page recreation guide to every household. Within a week, most copies are in the recycling bin, and by June half the programs listed in them have changed dates, moved locations or filled up. It is a small example of a larger problem: municipal governments still communicate as if it were 1995.\n\nConsider how residents find out about the things that actually affect their daily lives. Road closures are announced on paper notices taped to lamp posts. Changes to garbage schedules arrive as fridge magnets. Public hearings on rezoning applications are advertised in the legal notices section of newspapers that fewer and fewer people read. Then councillors wonder why the same twenty residents show up to every consultation.\n\nA digital-first approach would not mean abandoning paper overnight. It would mean designing every notice for the phone first and treating print as a backup, rather than the reverse. Residents could subscribe to alerts for their own street, so they hear about a water main repair the day it is scheduled, not when the backhoe arrives. Consultation materials could include short videos and interactive maps instead of hundred-page reports. And cities could save real money: my own municipality spends roughly $400,000 a year on printing and postage for notices and guides.\n\nI know the objection: not everyone is online. That is true, and it matters. Older residents, people with low incomes and some newcomers are less likely to have reliable internet access or to feel comfortable with apps. But the current system is not serving them well either. A notice buried in the legal section of a newspaper is hardly accessible to someone who reads English as a second language. The honest comparison is not between a perfect paper system and an imperfect digital one; it is between two imperfect systems, one of which is far cheaper and more flexible.\n\nWhat those residents need is not more paper, but more help. A fraction of the money saved on printing could pay for phone lines staffed by real people, for library staff who help residents sign up for alerts, and for printed summaries sent only to those who request them. Some cities already let residents choose how they want to be contacted, and the majority choose email or text when they are given the option.\n\nThere is also a democratic argument. When information is easier to find, more people participate. Cities that have moved consultations online have generally received more responses, and from a younger and more varied group of residents, than traditional town-hall meetings attract. That is not a small thing in places where turnout in municipal elections barely reaches one in three.\n\nNone of this will happen by itself. Communications departments are often small and cautious, and councillors, many of whom are loyal to the methods that got them elected, may be reluctant to change. Residents who want a more modern city hall should say so, clearly and often. Ask your councillor why your street still learns about construction from a sign on a pole. Ask how much the recreation guide costs. And then ask what that money could do instead.",
+   "qs": [
+    {
+     "q": "What point does the writer make with the example of the recreation guide?",
+     "o": ["Residents no longer want to take part in city programs.", "The guide should be shorter and printed more often.", "Printed information is costly and soon out of date.", "The city mails guides only to those who request them."],
+     "a": 2, "t": "purpose",
+     "ev": "by June half the programs listed in them have changed dates",
+     "x": "Guides are thrown away and soon outdated, illustrating her point about paper communication. Sending printed material only on request is her proposal, not what currently happens."
+    },
+    {
+     "q": "What does the writer mean by a “digital-first” approach?",
+     "o": ["Ending all printed notices over a short period of time", "Moving every consultation onto video platforms", "Requiring all residents to download a city app", "Prioritizing mobile screens but still offering paper"],
+     "a": 3, "t": "paraphrase",
+     "ev": "designing every notice for the phone first and treating print as a backup",
+     "x": "She means designing notices for phones first while keeping print as a backup. She explicitly says it would not mean abandoning paper overnight, and videos are only one possible feature."
+    },
+    {
+     "q": "How does the writer respond to the concern that some residents are not online?",
+     "o": ["She argues the concern has been greatly exaggerated.", "She accepts it but says paper also fails those groups.", "She suggests those residents rely on family members.", "She proposes delaying change until access improves."],
+     "a": 1, "t": "viewpoint",
+     "ev": "But the current system is not serving them well either.",
+     "x": "She admits the concern “matters” but argues that the paper system does not serve those groups well either. She never calls it exaggerated or proposes waiting for better access."
+    },
+    {
+     "q": "What can be inferred about the writer’s view of some councillors?",
+     "o": ["Their habits may slow down modernization.", "They spend too much money on campaigns.", "They refuse to read consultation reports.", "They are mostly unaware of online tools."],
+     "a": 0, "t": "inference",
+     "ev": "may be reluctant to change",
+     "x": "She says councillors loyal to familiar methods “may be reluctant to change”, so they may slow progress. She does not discuss campaign spending or claim they are unaware of the tools."
+    },
+    {
+     "q": "What does the writer encourage readers to do?",
+     "o": ["Stop relying on newspaper legal notices", "Subscribe to alerts for their own streets", "Press their elected representatives for change", "Return their recreation guides to city hall"],
+     "a": 2, "t": "main",
+     "ev": "Ask your councillor why your street still learns about construction from a sign on a pole.",
+     "x": "She urges residents to question their councillors and ask what printing money could do instead. Street alerts are a future feature she describes, not her call to action."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I’m seventy-four, so I suppose I’m one of the residents Ms. Vasquez-Hale worries about. She is right that the recreation guide is out of date almost as soon as it arrives; last spring I tried to join a watercolour class that had {1} by the time I phoned. I also agree that a notice in the legal section {2}, and I would gladly sign up for text alerts about my own street.\n\nWhere I part ways with her is the money. She assumes the savings would go to phone lines and library helpers, but in my experience, savings at city hall tend to {3}. Before the printing stops, I would want the help desk {4}, not just promised.\n\nI also wish she had been less dismissive of councillors my age; plenty of us use email every day. Still, her final suggestion is a good one, and I intend to {5} at the next ward meeting.",
+    "blanks": [
+     {
+      "o": ["already moved or filled up", "been printed in the guide", "been advertised online", "been offered for free"],
+      "a": 0, "t": "paraphrase",
+      "ev": "half the programs listed in them have changed dates, moved locations or filled up",
+      "x": "Echoing the article, the class had moved or filled by the time she called. Being printed in the guide is how she found it, not what went wrong."
+     },
+     {
+      "o": ["is cheaper than a mailed guide", "is hard for most people to find", "should include interactive maps", "is read mainly by councillors"],
+      "a": 1, "t": "inference",
+      "ev": "advertised in the legal notices section of newspapers that fewer and fewer people read",
+      "x": "She agrees that legal notices are read by fewer and fewer people, so they are hard to find. Interactive maps are the article’s suggestion for consultation materials, not notices."
+     },
+     {
+      "o": ["pay for more printed summaries", "be returned to taxpayers quickly", "fund new consultation videos", "disappear into other budgets"],
+      "a": 3, "t": "inference",
+      "ev": "She assumes the savings would go to phone lines and library helpers",
+      "x": "She doubts the savings will reach phone lines and helpers, implying they vanish into other spending. Money being returned to taxpayers would not explain her worry about losing help."
+     },
+     {
+      "o": ["moved to the public library", "staffed mostly by volunteers", "actually up and running", "closed on weekends"],
+      "a": 2, "t": "coherence",
+      "ev": "not just promised",
+      "x": "“Not just promised” shows she wants the help desk actually operating before printing ends. The library is where the article suggests help could be offered, not her condition."
+     },
+     {
+      "o": ["ask how much the guide costs", "complain about the art class", "request a printed summary", "sign up for text alerts"],
+      "a": 0, "t": "coherence",
+      "ev": "Ask how much the recreation guide costs.",
+      "x": "The article’s final suggestion is to ask what the guide costs and what the money could do instead. Signing up for text alerts is something she would do, but it is not that suggestion."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You applied to the city for a permit to close your street for a neighbourhood block party on Saturday, August 16. Today you received an email saying that your application was rejected because a required form was missing, but you are sure you included it.",
+   "bullets": [
+    "Explain what you submitted and when",
+    "Describe why the event is important to your neighbours",
+    "Ask the city to take specific steps so the party can still go ahead"
+   ],
+   "model": "Dear Special Events Office,\n\nI am writing about application SE-2291 to close Linden Crescent for a block party on Saturday, August 16. This morning I received an email stating that the application had been rejected because the neighbour consent form was missing. I believe there has been an error. I submitted the application online on June 30 with three attachments: the site map, the insurance certificate and the consent form signed by 31 of the 34 households on the street. My confirmation email lists all three files.\n\nThis event matters a great deal to our street. It has taken place every summer for eleven years, and it is often the only time newer residents get to meet their neighbours. Several families have already bought supplies, and a local band has agreed to play for free.\n\nI would be grateful if you could review the original submission and reverse the decision. If the file was damaged during the upload, please tell me how to resend it, and confirm that the application will keep its original date so that we do not lose our place in the queue.\n\nThank you for your help.\n\nSincerely,\nHannah Okwuosa"
+  },
+  "t2": {
+   "intro": "Your city has received a one-time provincial grant to help newcomers settle. It can fund only one of the following programs, and the city is asking residents for their views.",
+   "question": "Which option do you prefer? Explain the reasons for your choice.",
+   "a": "Free monthly transit passes for all newcomers during their first six months in the city.",
+   "b": "Free evening and weekend English conversation classes, with childcare provided, for newcomers regardless of how long they have lived here.",
+   "model": "I would choose Option B, the evening and weekend conversation classes, because language is the key that opens almost every other door for a newcomer.\n\nA free transit pass is certainly helpful, and I understand why it is attractive. Moving to a new country is expensive, and getting to interviews and appointments costs money. However, the pass would last only six months, and the savings would disappear quickly. Confidence in English, on the other hand, keeps paying off for years: it helps people find better jobs, talk to their children’s teachers and understand their rights as tenants.\n\nThe details of Option B also matter. Most existing classes run during the day, when newcomers are working or caring for children. Holding classes in the evening and on weekends, with childcare included, would allow many parents to attend for the first time. It is also open to people who arrived years ago and still struggle, a group the transit pass would ignore.\n\nIn short, Option B is a long-term investment rather than a short-term discount, and it would help newcomers become active members of the community."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend has just moved to Canada with her family and feels overwhelmed by everything she needs to do in her first month, such as getting documents, finding services and understanding how things work. Advise your friend on how to manage her first month.",
+   "model": "Okay, first of all, take a breath. Everyone feels overwhelmed in the first month, and honestly, you’re doing better than you think. My main advice is to make a list and do things in the right order, because some steps depend on others. Start with your Social Insurance Number, since you need it to work and get paid, and you can usually get it the same day if you bring your immigration papers. Next, apply for your provincial health card as soon as possible. In some provinces there’s a waiting period before coverage starts, so you might want private insurance to cover that gap. After that, open a bank account. A lot of banks have newcomer packages with no monthly fees for the first year. The other thing I’d really recommend is visiting a settlement agency. Their services are free, and the counsellors can help with everything from registering the kids for school to finding English classes. That one visit could save you weeks of confusion. And finally, don’t forget to look after yourself. Go for walks, explore the neighbourhood and maybe join an activity at the community centre, because making a few friends will make everything else feel less stressful."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you had to deal with a government office or complete an important official form. What happened, and what did you learn?",
+   "model": "A few years ago, I had to renew my driver’s licence, and I assumed it would take ten minutes. I showed up at the licensing office on a Friday afternoon with my old licence and, of course, nothing else. After waiting almost an hour, the clerk told me that because I’d moved, I needed two documents showing my new address, like a utility bill and a bank statement. I only had a phone bill on my phone, and they wouldn’t accept a screenshot. I was pretty frustrated, but I went home, printed my bank statement and came back first thing Monday. This time it took about fifteen minutes. What I learned is to always check the requirements online before going anywhere official, and to bring more paperwork than I think I’ll need. Now I keep a folder with all my important papers ready to go."
+  },
+  "t3": {
+   "scene": {
+    "bg": "street",
+    "alt": "A street outside a beige community centre on a cloudy election day. A red banner over the building says ELECTION DAY, and a white sign by the door says VOTE HERE. Four adults stand in a line on the sidewalk: a man in a grey jacket holding a blue umbrella, a woman with long hair reading a booklet, an older man with glasses, and a young man looking at his phone. A volunteer in an orange vest points toward the door. On the left, a woman in a purple dress pushes a stroller. A black dog waits beside a bicycle, and a blue bus stops at the curb. A rain cloud hangs overhead.",
+    "items": [
+     ["raincloud", 120, 70],
+     ["cloud", 470, 55, 0.9],
+     ["building", 170, 300, 300, 170, "#e0cfa9", "COMMUNITY CENTRE"],
+     ["banner", 215, 120, 210, "ELECTION DAY", "#c0392b"],
+     ["sign", 455, 330, "VOTE HERE", "#ffffff"],
+     ["person", 250, 345, {"shirt": "#7f8c8d", "pants": "#2c3e50", "hold": "umbrella", "holdColor": "#2980b9"}],
+     ["person", 290, 347, {"shirt": "#16a085", "hairStyle": "long", "hair": "#4b2e1e", "hold": "book", "skin": "#c68642"}],
+     ["person", 330, 349, {"shirt": "#95a5a6", "hair": "#d0d0d0", "glasses": true}],
+     ["person", 370, 351, {"shirt": "#34495e", "hold": "phone", "skin": "#8d5524"}],
+     ["person", 415, 360, {"shirt": "#e67e22", "pose": "point", "hairStyle": "bun", "flip": true}],
+     ["person", 95, 365, {"shirt": "#8e44ad", "dress": true, "pose": "walk", "hairStyle": "long"}],
+     ["stroller", 140, 368],
+     ["dog", 500, 372, "#222222"],
+     ["bike", 530, 368, "#27ae60"],
+     ["bus", 600, 340, "#2e86de", "12"],
+     ["streetlamp", 40, 340]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a street outside a community centre on what looks like election day. There’s a big red banner over the building that says “Election Day”, and next to the door there’s a sign saying “Vote Here”. Four people are lined up on the sidewalk waiting to go in. A man in a grey jacket is holding a blue umbrella, probably because there’s a dark rain cloud overhead. Behind him, a woman with long hair is reading a booklet, then there’s an older man with glasses, and a young man who’s checking his phone. A volunteer in an orange vest is pointing toward the entrance. On the left, a woman in a purple dress is pushing a stroller, and on the right a black dog is waiting beside a bicycle while a city bus stops at the curb."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the rain cloud is going to open up any minute now, so the man with the umbrella will put it up, and the people behind him will probably squeeze under it or hurry closer to the door. The volunteer in the orange vest will likely start letting people inside a little faster so they don’t get soaked. The young man on his phone will probably be asked to show some identification, and I imagine he’ll realize he has to dig through his wallet for it. The woman with the stroller might join the end of the line, especially since she’ll want to get her baby out of the rain. And the people getting off the bus will probably see the sign and decide to vote too. Meanwhile, the black dog will most likely keep waiting patiently until its owner comes back out."
+  },
+  "t5": {
+   "intro": "After a storm caused a two-day power outage in your area, your household wants to buy emergency supplies. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "Basic 72-hour kit", "details": ["$85", "Water, food bars and first-aid supplies for 4 people", "Hand-crank flashlight and radio", "Fits in one backpack", "Food lasts 5 years"]},
+    {"title": "Deluxe kit with portable power station", "details": ["$420", "Supplies for 4 people for 72 hours", "Power station charges phones and runs a small fridge", "Weighs 14 kg", "Must be recharged every 3 months"]}
+   ],
+   "other": {"title": "Home standby generator", "details": ["$6,500 installed", "Powers the whole house automatically", "Runs on natural gas", "Needs a city permit and inspection", "Servicing costs $250 a year"]},
+   "otherWho": "Your spouse prefers",
+   "persuade": "Your spouse prefers the home standby generator. Persuade your spouse that your choice is better.",
+   "model": "I understand why the generator is tempting – nobody enjoyed sitting in the dark last month. But I really think the deluxe kit makes more sense. First, the cost: the generator is six and a half thousand dollars, plus two hundred and fifty every year for servicing. The kit is four hundred and twenty, so we’d save thousands. Second, the generator needs a city permit and an inspection, which could take weeks, and we’d still have nothing if a storm hit before then. The kit would be ready tomorrow. It also has everything we actually need for three days: food, water, first aid, and a power station for our phones and a small fridge. And if we ever have to evacuate, we can carry it with us, while a generator is useless once we leave the house."
+  },
+  "t6": {
+   "situation": "A large tree on your elderly neighbour’s property has a cracked branch hanging over your roof. The city has told you that the tree is your neighbour’s responsibility, and removing the branch would cost about $900. Your neighbour, a retired widow who has always been kind to your family, lives on a small pension. Your spouse wants to report the tree to the city’s bylaw office so that your neighbour is ordered to remove the branch.",
+   "options": [
+    "Talk to your neighbour and ask her to pay for removing the branch.",
+    "Talk to your spouse and explain why you should not report the tree to the bylaw office."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Honey, can we talk about the tree before you call the bylaw office? I completely agree that the branch is dangerous, and I don’t want it coming through our roof either. But think about Mrs. Kowalski for a second. She’s been nothing but kind to us – she looked after the kids last winter when we were both sick. If the city sends her an official order, she’ll be frightened, and she might even get fined. Nine hundred dollars is a lot for someone living on a pension. What if we talk to her together this weekend instead? We could offer to split the cost, or ask her son to help. I’ll also call a couple of tree companies for cheaper quotes. If none of that works within a few weeks, then we can call the city, but let’s try the friendly way first."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should public transit be free for seniors? Explain your reasons.",
+   "model": "In my opinion, yes, public transit should be free for seniors, although I think it’s fair to set an age limit, like sixty-five. My first reason is independence. Many older people stop driving because of their eyesight or health, and if they can’t afford the bus, they become stuck at home. That leads to loneliness, which doctors now say is as harmful as smoking. A free pass means they can visit friends, go to the library or get to medical appointments without asking their children for rides. For example, my grandmother lives on a small pension, and when her city introduced free transit for seniors, she started going to a community choir twice a week. She’s honestly a different person now. My second reason is that it benefits everyone. Seniors who use transit instead of driving reduce traffic and accidents, and they often travel in the middle of the day, when buses are half empty anyway, so the extra cost is quite small. Some people argue that wealthy seniors don’t need the help, and that’s a fair point. But checking everyone’s income would cost money too. Overall, I believe free transit for seniors is a small investment that keeps people healthy, active and connected."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "A city park on a sunny day with a gigantic red fire hydrant sculpture standing in the middle of the lawn, taller than the nearby trees. It is bright red with silver caps on its sides. A small sign in front of it reads PUBLIC ART – TRIAL. A child in a yellow shirt is touching the base of the hydrant, while a woman in a green shirt takes a photo with a camera. An older man on a bench is pointing at it and frowning. A brown dog on a leash pulls toward the hydrant, held by a man in a blue shirt. There are trees, a bush and some clouds.",
+    "items": [
+     ["sun", 570, 60],
+     ["cloud", 120, 60, 1],
+     ["tree", 70, 300, 1],
+     ["tree", 590, 295, 0.9],
+     ["big", "hydrant", 320, 340, 5],
+     ["sign", 250, 360, "PUBLIC ART – TRIAL", "#ffffff"],
+     ["person", 290, 365, {"kid": true, "shirt": "#f1c40f", "pose": "point"}],
+     ["person", 430, 360, {"shirt": "#27ae60", "hairStyle": "long", "hold": "camera", "flip": true}],
+     ["bench", 470, 330, 90],
+     ["person", 500, 330, {"shirt": "#7f8c8d", "pose": "sit", "hair": "#cccccc", "glasses": true}],
+     ["person", 150, 360, {"shirt": "#2980b9", "pose": "walk", "hold": "leash"}],
+     ["dog", 200, 368, "#8b4513"],
+     ["bush", 560, 320, 1]
+    ]
+   },
+   "prompt": "You are on your city’s public art committee. An artist has placed this sculpture in a park for a one-month trial. Phone a committee member who could not attend the viewing, describe the sculpture and explain whether you think the city should buy it permanently. The person cannot see the picture.",
+   "model": "Hi Daniel, it’s me. You missed quite a sight at the viewing. Picture an ordinary red fire hydrant, the kind on every street corner, but blown up to the size of a two-storey house. It’s bright red with shiny silver caps on the sides, and it stands right in the middle of the lawn, taller than the trees around it. When I was there, a little boy was trying to climb the base, a woman was taking photos, and a dog was practically dragging its owner over to it, which was pretty funny. One older gentleman on a bench didn’t look impressed, though. Personally, I think we should buy it. It’s playful, people clearly want to photograph it, and it could be a nice reminder about fire safety. My only worry is that kids will try to climb it, so we’d need a low fence around the base."
+  }
+ }
+}

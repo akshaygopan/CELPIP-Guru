@@ -1,0 +1,433 @@
+{
+"id": "t44",
+"title": "Test 44",
+"L": { "parts": [
+{
+"n": 1,
+"context": "A brother and sister are discussing a problem involving their elderly father’s computer.",
+"sp": { "A": {"name":"Hana","g":"f","acc":"en-CA","rate":1.03}, "B": {"name":"Tomasz","g":"m","acc":"en-GB","rate":0.96} },
+"sections": [
+{
+"lines": [
+["A","Tomasz, it’s me. Are you sitting down? Dad called me an hour ago, and he was really shaken up."],
+["B","What happened? Is he okay?"],
+["A","He’s fine physically. But yesterday afternoon he got a pop-up on his computer saying it was infected, with a phone number to call. He called it, and the man on the line convinced him to install a program so he could ‘clean’ the computer remotely."],
+["B","Oh no. Let me guess. Then he asked for payment."],
+["A","Four hundred dollars, which Dad paid with his credit card. And while the man was supposedly fixing things, he had complete control of the screen for almost an hour. Dad says he saw the online banking page open at one point, but he assumed it was part of the repair."],
+["B","Has anything actually gone missing from his account?"],
+["A","Not that we can see yet. I drove over this morning, and we called the bank together. They froze his online access and cancelled the credit card. The bank thinks the four hundred may be recoverable as a fraudulent charge, but they couldn’t promise anything."],
+["B","That’s something, at least. How’s he taking it?"],
+["A","Embarrassed, mostly. He kept saying, ‘I should have known better.’ He’s refusing to touch the computer now. Which would be fine, except he does all his banking and his video calls with the grandkids on it."],
+["B","And the program is presumably still installed?"],
+["A","I unplugged the computer from the internet before I left, but I didn’t know what else to do. That’s why I’m calling you. You’re the one who does this for a living."]
+],
+"qs": [
+{"q":"What did the caller persuade their father to do?","o":["Give his banking password over the phone","Buy gift cards to pay for a computer repair","Let a stranger control his computer from a distance","Bring his computer into a repair shop for a full cleaning"],"a":2,"t":"paraphrase","ev":"install a program so he could ‘clean’ the computer remotely","x":"The program let the man control the screen “remotely” for almost an hour. Payment was by credit card, not gift cards, and no password was given by phone."},
+{"q":"What has the bank done so far?","o":["Blocked his online banking and his card","Returned the four hundred dollars to his account right away","Confirmed that money was taken from his savings","Asked Hana to report the scam to the police"],"a":0,"t":"paraphrase","ev":"They froze his online access and cancelled the credit card.","x":"The bank froze online access and cancelled the card. It only thinks the $400 “may be recoverable”, with no promise, and nothing has been confirmed missing."},
+{"q":"How does their father feel about what happened?","o":["Angry at the bank for not warning him sooner","Worried that his grandchildren were affected too","Determined to report the man to the police himself","Ashamed that he was fooled"],"a":3,"t":"attitude","ev":"I should have known better.","x":"He is “embarrassed” and blames himself for not knowing better. The grandchildren are mentioned only because he uses the computer for video calls with them."}
+]
+},
+{
+"lines": [
+["B","Okay. First things first: that computer needs to be completely wiped and reinstalled. Even if we uninstall the program, there could be something else hidden on it."],
+["A","Can you do that this weekend?"],
+["B","Saturday, yes. But I’m more worried about what happens next time. Someone’s going to call him again. These people share lists of who fell for it."],
+["A","I was thinking we could just replace the computer with a tablet. Fewer pop-ups, simpler apps."],
+["B","A tablet would help with the pop-ups, but it wouldn’t stop a phone call from a fake bank. And you know Dad. He types his letters to the newspaper with two fingers on a full keyboard. He’d hate a touch screen."],
+["A","True. He’d probably stop writing to the editor altogether, and then where would the newspaper be? What about that remote monitoring software you mentioned once? Where you can see his screen from your place?"],
+["B","I could set that up. But honestly, I’m uneasy about it. It means I can see everything he does, his emails, his banking, all of it. He’s eighty-one, not a child. I wouldn’t want to be watched like that, and I doubt he would either."],
+["A","Fair enough. So what would actually protect him without treating him like a kid?"],
+["B","Two things, I think. One: set up his bank account so that any payment over a certain amount sends a text to one of us as well as to him. Two: he needs a simple rule, written down next to the computer, saying that no real company will ever ask him to call a number on a pop-up."]
+],
+"qs": [
+{"q":"Why does Tomasz think wiping the computer is necessary?","o":["Their father wants a completely new system installed","Removing the program alone might not be enough","The bank requires it before restoring his access","The scammer may still be watching the screen now"],"a":1,"t":"inference","ev":"there could be something else hidden on it","x":"Even after uninstalling the program, other harmful software could remain hidden. The computer is already unplugged, so the scammer cannot be watching, and the bank sets no such condition."},
+{"q":"Why does Tomasz reject the tablet idea?","o":["It would cost more than repairing the old computer","Tablets are more open to fake pop-up messages","Their father has never once used a touch-screen device","It solves only part of the problem and suits him poorly"],"a":3,"t":"inference","ev":"it wouldn’t stop a phone call from a fake bank","x":"A tablet would reduce pop-ups but not scam calls, and their father prefers a real keyboard. Tablets are said to have fewer pop-ups, which reverses option B."},
+{"q":"How does Tomasz feel about the monitoring software?","o":["He thinks it would intrude on his father’s privacy","He believes it is too difficult to install from a distance","He thinks it would offer the most effective protection","He worries his father would not know how to use it"],"a":0,"t":"attitude","ev":"He’s eighty-one, not a child.","x":"He is “uneasy” because he could see all his father’s emails and banking, and says he would not want to be watched himself. He says he “could set that up”, so difficulty is not the issue."}
+]
+},
+{
+"lines": [
+["A","I like the bank alert idea. Which of us gets the texts?"],
+["B","Me, I suppose, since I’m usually at a desk. Although… you live ten minutes from him and I’m two hours away. If something looks wrong, you’re the one who can actually go over there."],
+["A","Then put my number on it. I don’t mind."],
+["B","Okay. I’ll call the bank about the alert with him on the line on Saturday, after I’ve rebuilt the computer. He has to give permission himself anyway."],
+["A","And the written rule?"],
+["B","Honestly, I think it’ll mean more coming from you. He listens to you. I’ll just make it sound like a lecture."],
+["A","Ha. Fine. I’ll print something in big letters and tape it beside the monitor. Maybe I’ll add the bank’s real phone number at the bottom, so he has someone safe to call."],
+["B","Good idea. And Hana, let’s not make a big deal of this with him. If he feels stupid, he’ll stop telling us when something strange happens, and that’s the worst outcome of all."],
+["A","Agreed. I’ll just tell him we’re making his computer good as new. And I’ll bring the kids along on Saturday, so he has something to look forward to besides a lecture."],
+["B","Exactly. And maybe invite him over for lunch on Sunday, so the whole weekend doesn’t feel like a repair visit."]
+],
+"qs": [
+{"q":"Who will receive the bank’s text alerts?","o":["Tomasz, because he usually works at a desk","Their father only, since he must give permission","Hana, because she lives closer to their father","Both siblings, so that nothing is missed by either of them"],"a":2,"t":"detail","ev":"Then put my number on it.","x":"Tomasz first offers to take the texts, then changes his mind because Hana lives ten minutes away. Their father’s permission is needed to set up the alert, but he is not the only recipient."},
+{"q":"Why does Tomasz want to avoid making a fuss with their father?","o":["He does not want Hana to feel responsible for what happened","Their father might hide future problems from them","The bank has asked them to keep the matter private","Their father has not yet agreed to any of the changes"],"a":1,"t":"purpose","ev":"he’ll stop telling us when something strange happens","x":"If their father feels foolish, he may stop reporting suspicious events, which Tomasz calls the worst outcome. Nothing suggests the bank asked for secrecy."}
+]
+}
+]
+},
+{
+"n": 2,
+"context": "A student is speaking to a staff member at her college’s IT help desk.",
+"sp": { "A": {"name":"Reza","g":"m","acc":"en-US","rate":1.04}, "B": {"name":"Chloé","g":"f","acc":"en-CA","rate":1.0} },
+"sections": [
+{
+"lines": [
+["B","Hi. I’m hoping you can help me. I’m locked out of my student account, and I have an assignment due at midnight."],
+["A","Okay, let’s see what we can do. What happens when you try to log in?"],
+["B","My password works, but then it asks for the code from the authenticator app. And the app was on my phone, which I left on the bus on Monday."],
+["A","Ah. That’s the most common problem we see, honestly. Do you have any backup codes? When you set up two-step login, the system gives you ten one-time codes and tells you to save them."],
+["B","I vaguely remember that screen. I think I clicked past it."],
+["A","Most people do. All right. I can reset your two-step login, but I have to verify your identity in person first. Do you have your student card?"],
+["B","Yes, here."],
+["A","Thanks… That matches. Now, once I reset it, you’ll need to set up the authenticator again on a new device. Do you have a replacement phone yet?"],
+["B","Not until Friday. My carrier is shipping one. Can I just turn off the two-step part until then?"],
+["A","I’m afraid that’s not an option. The college made it mandatory for every student account last September after a wave of phishing emails. What I can do is give you a temporary access pass. It works for eight hours from the moment I issue it, and you use it instead of a code."],
+["B","Eight hours. So it would run out around ten tonight?"],
+["A","It’s two o’clock now, so yes, ten p.m. Will that be enough time to submit?"],
+["B","It should be, if I go straight to the library. The assignment is mostly finished. I just need to upload it and fill in the reflection questions."],
+["A","Then go straight there. And one more thing: when your new phone arrives, come back here, or use the self-service page, to register it. And this time, print those backup codes."],
+["B","Believe me, I will. What happens if I miss the eight-hour window?"],
+["A","Then you’d need to come back during desk hours. We close at five today, and we’re not open again until nine tomorrow morning."],
+["B","So no second chances tonight. Okay, I’m going. Thanks so much."]
+],
+"qs": [
+{"q":"Why can the student not log in?","o":["She cannot get her second verification code","She has forgotten the password for her student account","Her account was blocked after a phishing email","Her student card has expired this semester"],"a":0,"t":"paraphrase","ev":"the app was on my phone, which I left on the bus on Monday","x":"Her password works, but the code app was on the phone she lost. Phishing emails explain why two-step login became mandatory, not why her account is locked."},
+{"q":"What does Reza suggest about backup codes?","o":["They can only be used by staff at the help desk","They are emailed to students automatically every term","They expire if they are not used within a week","Many students fail to keep them"],"a":3,"t":"inference","ev":"Most people do.","x":"When she admits clicking past the codes, “Most people do” implies this is common. The codes are given once at setup, not emailed each term."},
+{"q":"Why can two-step login not be switched off?","o":["Her instructor requires it for every assignment uploaded online","It became a rule for all students after security problems","Her new phone must be registered before it can be removed","The temporary pass works only when it is turned on"],"a":1,"t":"detail","ev":"The college made it mandatory for every student account last September after a wave of phishing emails.","x":"Two-step login is a college-wide requirement introduced after phishing attacks. Her instructor is never mentioned, and registering the new phone is a later step."},
+{"q":"What is the main limitation of the temporary pass?","o":["It works only on computers in the college library","It must be used together with her new phone","It stops working later that evening","It can be issued only once per term to each student"],"a":2,"t":"detail","ev":"It works for eight hours from the moment I issue it","x":"Issued at two o’clock, it expires at ten p.m. The library is simply where she chooses to work, and the pass replaces the code, so no phone is needed."},
+{"q":"What will the student most likely do next?","o":["Go to the library to finish and submit her work","Wait for her replacement phone to arrive on Friday","Return to the help desk before it closes at five","Print her backup codes before uploading the assignment"],"a":0,"t":"prediction","ev":"if I go straight to the library","x":"She says she will go straight to the library to upload the assignment and leaves immediately. Printing codes and registering a phone happen after the new phone arrives."}
+]
+}
+]
+},
+{
+"n": 3,
+"context": "A man calls a college’s continuing education office about an online course.",
+"sp": { "A": {"name":"Colette","g":"f","acc":"en-CA","rate":1.04}, "B": {"name":"Arjun","g":"m","acc":"en-IN","rate":1.0} },
+"sections": [
+{
+"lines": [
+["B","Hi, I registered for the online bookkeeping course that starts on the sixth, and I wanted to understand how it works before I commit. I work shifts, so my schedule’s unpredictable."],
+["A","Of course. The good news is that most of the course is self-paced. The lessons are recorded, so you can watch them whenever you like. There is one live session each week, on Wednesdays at seven p.m., but it’s optional. The recordings are posted the next morning. Most students watch them on their lunch breaks or on weekends, and that seems to work well."],
+["B","Great. What about assignments?"],
+["A","There are eight weekly assignments, each due Sunday at eleven fifty-nine p.m. Eastern time. Late work loses ten percent per day, up to three days. After that, it receives a zero."],
+["B","Can I get an extension if I’m called in for an extra shift?"],
+["A","You can request one extension per course, up to five days, as long as you ask before the deadline. If you ask afterwards, the instructor isn’t allowed to grant it, even with a good reason."],
+["B","Okay, so ask early. And the final exam?"],
+["A","The final is online but supervised. That means you’ll need a computer with a webcam and a microphone, and the proctoring software will record you for the whole two hours. You also need to show photo ID to the camera at the start. The exam is usually scheduled for the second Saturday after the last assignment."],
+["B","My laptop has a camera, but it’s pretty old. Will that be a problem?"],
+["A","Run the system check on the course website at least a week before the exam. If your computer fails, you can book one of the exam rooms on campus instead, but those fill up quickly, so don’t leave it to the last minute."],
+["B","Good to know. And if things don’t work out, what’s the refund policy?"],
+["A","Full refund until the end of the first week, minus a thirty-dollar administration fee. During the second week, you’ll get half the tuition back. After that, no refund, but you can transfer to the next session once, free of charge, as long as you haven’t submitted more than two assignments."],
+["B","So if I fall behind in week four, I could switch to the next session rather than lose the money?"],
+["A","As long as you’ve handed in no more than two assignments, yes. Honestly, with a shift schedule, that’s a pretty good safety net."],
+["B","That makes me feel a lot better. Thanks, Colette."]
+],
+"qs": [
+{"q":"What does Colette say about the weekly live session?","o":["Students must attend at least half of the sessions to pass","It is held every Sunday evening before the deadline","It is recorded only if enough students attend","Students can miss it and watch it afterwards"],"a":3,"t":"paraphrase","ev":"The recordings are posted the next morning.","x":"The Wednesday session is optional and recordings are posted the next morning. Sunday is the assignment deadline, not the session day."},
+{"q":"What happens to an assignment submitted four days late?","o":["It loses forty percent of its mark","It earns no marks at all","It loses ten percent of its mark","It is graded only if the instructor agrees to it"],"a":1,"t":"detail","ev":"After that, it receives a zero.","x":"The penalty of 10% a day applies only up to three days; after that the work gets zero. Forty percent is the tempting calculation, but the rule stops at day three."},
+{"q":"What condition applies to extensions?","o":["The request must be made before the work is due","The student must provide a letter from an employer","They are limited to three days per assignment","They can be granted after the deadline for good reasons"],"a":0,"t":"detail","ev":"as long as you ask before the deadline","x":"Extensions (one per course, up to five days) must be requested before the deadline. Colette says that afterwards the instructor cannot grant one “even with a good reason”."},
+{"q":"What should Arjun do if his laptop fails the system check?","o":["Buy a new webcam before the week of the exam","Take the exam without the proctoring software","Reserve a space to write the exam at the college","Ask the instructor to supervise him by phone instead"],"a":2,"t":"paraphrase","ev":"you can book one of the exam rooms on campus instead","x":"He can book an exam room on campus, preferably early because they fill up. Buying a webcam is never suggested, and the exam is always supervised."},
+{"q":"If Arjun withdraws during the second week, how much will he get back?","o":["All of his tuition minus thirty dollars","Nothing, but he may transfer to a later session","Thirty dollars less than half the tuition","Fifty percent of what he paid"],"a":3,"t":"detail","ev":"During the second week, you’ll get half the tuition back.","x":"Second-week withdrawal returns half the tuition. The $30 fee applies only to first-week refunds, and the transfer option is for withdrawals after week two."},
+{"q":"What is Colette’s view of the transfer option for Arjun?","o":["She thinks he is unlikely to qualify for it","She sees it as useful protection given his job","She advises him to transfer before the course begins","She warns that it is available only after week four"],"a":1,"t":"attitude","ev":"Honestly, with a shift schedule, that’s a pretty good safety net.","x":"She calls it “a pretty good safety net” for someone working shifts. Week four was Arjun’s own example; the real condition is having submitted no more than two assignments."}
+]
+}
+]
+},
+{
+"n": 4,
+"context": "You will hear a local news report.",
+"sp": { "A": {"name":"Renée Castonguay","g":"f","acc":"en-CA","rate":1.02}, "B": {"name":"Owen Pratt","g":"m","acc":"en-US","rate":0.98} },
+"sections": [
+{
+"lines": [
+["A","One month after its launch, the city’s new FixIt app has been downloaded more than forty thousand times, far exceeding the city’s goal of fifteen thousand by the end of the year. The free app allows residents to report potholes, broken streetlights, graffiti and missed garbage pickups by taking a photo, which is automatically tagged with the location."],
+["A","But the app’s popularity has created a problem of its own. The city received almost nine thousand reports in the first four weeks, roughly triple the number that usually came in by phone and email over the same period. Officials say a large share are duplicates, with dozens of people reporting the same pothole on busy streets."],
+["A","Owen Pratt, the city’s director of digital services, says the volume caught his team off guard."],
+["B","We planned for success, just not this much of it. Frankly, it’s a good problem to have. It tells us people want to be involved. But I won’t pretend the response times have been where we want them. Some reports have been sitting for two or three weeks, and that’s frustrating for residents who expected the app to make things faster."],
+["A","The city says an update next week will show residents whether an issue has already been reported nearby, allowing them to add their support to the existing report instead of filing a new one. Repairs will also be prioritized partly by the number of residents supporting each report."],
+["A","Not everyone is pleased with that change. Councillor Beatrice Okonjo, who represents the city’s east end, warns that it could put older neighbourhoods at a disadvantage, since fewer residents there use smartphones. She has asked staff to report back on whether phone and email reports will be given equal weight."],
+["B","That’s a fair concern, and it’s exactly why the phone line isn’t going anywhere. Every report counts, however it reaches us."],
+["A","The city plans to publish monthly data on response times starting in January."]
+],
+"qs": [
+{"q":"What does the report say about the number of downloads?","o":["It is slightly below what the city expected for its first month","It has already gone well beyond the city’s target","It is about triple the number of phone reports","It matches the number of reports received so far"],"a":1,"t":"paraphrase","ev":"far exceeding the city’s goal of fifteen thousand","x":"Forty thousand downloads in a month far exceeds the year-end goal of fifteen thousand. “Triple” describes the number of reports compared with phone and email, not downloads."},
+{"q":"What problem has the app created?","o":["Photos are often tagged with the wrong location","Residents have stopped calling the city by phone","Staff are overwhelmed by many repeated reports","Potholes are being repaired in the wrong order by crews"],"a":2,"t":"inference","ev":"a large share are duplicates","x":"Reports tripled and many are duplicates of the same problem, which slows responses. Location tagging is described as automatic, with no errors mentioned."},
+{"q":"How does Owen Pratt feel about the situation?","o":["He blames residents for submitting too many reports","He is confident response times are already acceptable","He thinks the app should be paused until the update is ready","He is pleased by the interest but admits delays"],"a":3,"t":"attitude","ev":"Frankly, it’s a good problem to have.","x":"He welcomes the public’s involvement but admits response times are not where they should be. He does not blame residents or suggest pausing the app."},
+{"q":"What will the update allow residents to do?","o":["Back an existing report rather than make a new one","Track the crews repairing potholes on their street","Report problems by phone directly through the app","Vote on which neighbourhoods receive repairs first each month"],"a":0,"t":"paraphrase","ev":"allowing them to add their support to the existing report instead of filing a new one","x":"Residents will be able to support a report already filed nearby. Support counts will influence priority, but residents do not vote on neighbourhoods."},
+{"q":"Why is Councillor Okonjo concerned?","o":["The app has not been translated into enough languages","Response times in the east end have been the slowest in the whole city","Some areas may get less attention because of the new ranking","Older residents are unable to download the app at all"],"a":2,"t":"inference","ev":"it could put older neighbourhoods at a disadvantage, since fewer residents there use smartphones","x":"Ranking repairs by app support could favour areas with more smartphone users. She does not say east-end response times are already the slowest."}
+]
+}
+]
+},
+{
+"n": 5,
+"context": "Three members of a condominium board are discussing whether to install security cameras.",
+"sp": { "A": {"name":"Gloria","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Devendra","g":"m","acc":"en-IN","rate":1.02}, "C": {"name":"Sean","g":"m","acc":"en-AU","rate":0.97} },
+"sections": [
+{
+"lines": [
+["A","Okay, last item tonight: security. Since September, we’ve had three bikes stolen from the parking garage, and someone forced open two mailboxes. I’ve had more complaints about this than about the elevator, which is saying something. I’d like us to approve cameras in every common area – the garage, the mailroom, the lobby and the hallway on each floor. The quote from Brightguard is fourteen thousand dollars."],
+["C","Honestly, I’m all for it. My neighbour’s bike was one of the ones taken. If cameras make people think twice, I’d say that’s money well spent."],
+["B","Can I be the difficult one for a minute? I don’t have a problem with the garage or the mailroom. But cameras in the hallways are a different matter. They’d record who visits whom, what time people come home, who’s staying over. That’s a lot of information about people’s private lives, sitting on a hard drive somewhere."],
+["A","Nobody’s going to be watching the footage for fun, Devendra. It would only be checked if something happened."],
+["B","That’s what everyone says at the start. But right now we don’t have any rules about who can view it or how long it’s kept. And I checked our bylaws. Recording in the residential hallways would need an amendment, which means a two-thirds vote of the owners."],
+["C","Hmm. Two-thirds. We can barely get a quorum at the AGM. Speaking of which, Gloria, where would the fourteen thousand come from? The reserve fund is already committed to the roof next year."],
+["A","It would probably mean a special assessment. Something like a hundred and eighty dollars per unit."],
+["C","Then I take back what I said about money well spent. A lot of owners here are retired. A surprise bill of a hundred and eighty dollars for cameras in the hallways would go over terribly."],
+["A","All right, all right. What if we drop the hallways and the lobby, and do just the garage and the mailroom? That brings it down to about six and a half thousand."],
+["B","That I could support, on one condition: we put a written policy in place first. Only the property manager can view the footage, it’s deleted after thirty days unless there’s an incident, and there are signs posted so people know they’re being recorded."],
+["A","I can live with that. It’s reasonable."],
+["C","Can I suggest something cheaper we could do right away? The garage door takes almost a minute to close. Half the time, I bet the thieves are just walking in behind a car. The building manager told me a faster motor would cost about twenty-two hundred."],
+["A","That’s a good point, and it comes out of the regular maintenance budget, so we don’t need an owners’ vote. Let’s do both: approve the door repair tonight, and bring the camera proposal for the garage and mailroom to the AGM in March."],
+["B","I’ll draft the privacy policy so it can go out with the AGM package."],
+["C","And I’ll get two more quotes for the cameras. Brightguard shouldn’t be the only company we ask, especially for a job this size."],
+["A","Perfect. Do I have a motion to approve the garage door repair? Devendra, would you like to move it?"]
+],
+"qs": [
+{"q":"Why does Gloria raise the issue of security?","o":["The elevator was damaged during a break-in last fall","A security company offered the building a discount","Owners voted to install cameras at the last general meeting","Recent thefts have led to many complaints"],"a":3,"t":"inference","ev":"I’ve had more complaints about this than about the elevator","x":"Bike thefts and mailbox break-ins have produced more complaints than the elevator. The elevator is only a comparison, and Brightguard gave a quote, not a discount."},
+{"q":"What is Devendra’s main objection to the original plan?","o":["Hallway cameras would reveal too much about residents’ lives","Cameras in the garage would not stop bike thefts","The quote from Brightguard is far higher than other companies’ quotes","The footage would be watched by residents for fun"],"a":0,"t":"viewpoint","ev":"That’s a lot of information about people’s private lives","x":"He accepts garage and mailroom cameras but objects to hallway recording because of privacy. Watching “for fun” is Gloria’s phrase, and no other quotes have been obtained yet."},
+{"q":"What does Devendra point out about the bylaws?","o":["They forbid cameras anywhere inside the building","They require the property manager to approve recordings","Hallway recording would need the support of most owners","They allow footage to be kept for a maximum of thirty days"],"a":2,"t":"paraphrase","ev":"which means a two-thirds vote of the owners","x":"Recording in hallways requires a bylaw amendment passed by two-thirds of owners. Thirty days and the property manager come from his proposed policy, not the current bylaws."},
+{"q":"Why does Sean change his mind about the original plan?","o":["He learns his neighbour’s bike was recovered","He expects owners to object to an unexpected charge","He agrees with Devendra about privacy in hallways","He thinks the roof repair should be delayed instead of the cameras"],"a":1,"t":"inference","ev":"A surprise bill of a hundred and eighty dollars for cameras in the hallways would go over terribly.","x":"Once he hears about a $180 special assessment, he withdraws “money well spent” because many owners are retired. His change is about cost, not privacy."},
+{"q":"What is Gloria’s attitude toward Devendra’s conditions?","o":["She finds them acceptable","She thinks they will delay the project too much","She accepts them only for the garage cameras","She believes the manager should not view any footage"],"a":0,"t":"attitude","ev":"I can live with that. It’s reasonable.","x":"“I can live with that. It’s reasonable” shows acceptance. Her earlier remark about nobody watching for fun was before the reduced plan, and she raises no concern about delay."},
+{"q":"Why does Sean suggest the garage door repair?","o":["The building manager has refused to install cameras there","The door was damaged during one of the recent thefts","It would remove the need for any cameras at all in the garage","It addresses a likely way thieves are getting in"],"a":3,"t":"inference","ev":"Half the time, I bet the thieves are just walking in behind a car.","x":"The slow door may let thieves walk in behind cars, so a faster motor tackles the cause cheaply. They still plan to propose garage cameras, so it does not replace them."},
+{"q":"Why can the door repair be approved tonight?","o":["Owners already voted for it at the last AGM","It is paid from a budget that needs no owner vote","It costs less than the reserve fund holds for the roof","The building manager has already ordered the new motor for it"],"a":1,"t":"detail","ev":"it comes out of the regular maintenance budget, so we don’t need an owners’ vote","x":"Because it is a regular maintenance expense, the board can approve it without owners. The reserve fund is committed to the roof and is not the source."},
+{"q":"What will happen at the AGM in March?","o":["Owners will vote on cameras in every common area of the building","Sean will present only the original Brightguard quote","A reduced camera plan will be put to the owners","Devendra will ask owners to amend the hallway bylaw"],"a":2,"t":"main","ev":"bring the camera proposal for the garage and mailroom to the AGM in March","x":"Only garage and mailroom cameras go to the AGM, so no hallway bylaw change is needed. Sean will seek two more quotes rather than rely on Brightguard alone."}
+]
+}
+]
+},
+{
+"n": 6,
+"context": "You will hear a reporter presenting different views on a proposed “right to disconnect” law.",
+"sp": { "A": {"name":"Moira Fitzgerald","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Luc Thibodeau","g":"m","acc":"en-US","rate":0.98} },
+"sections": [
+{
+"lines": [
+["A","Since the pandemic, the line between the office and the kitchen table has all but disappeared for many Canadians. Now, a proposal in the provincial legislature would require employers with more than twenty-five staff to adopt a written ‘right to disconnect’ policy, setting out when employees are expected not to answer emails, messages or calls about work. Supporters see it as long-overdue protection. Others think it misunderstands how modern work actually happens."],
+["A","Labour researcher Dr. Simone Achari, whose team surveyed more than two thousand remote and hybrid workers last year, says the numbers are hard to ignore. Six in ten respondents said they checked work messages after nine p.m. at least three times a week, and most said they did so not because they were asked to, but because they worried about appearing less committed than their colleagues. In her view, that’s precisely why a policy is needed: the pressure isn’t written down anywhere, so it can’t be challenged."],
+["A","But critics point out that the proposal says very little about what a policy must contain. A company could technically comply by writing a single paragraph that changes nothing. Achari acknowledges this, but argues that even a vague policy gives workers something concrete to point to when they push back."],
+["A","For small business owners, the concerns are different. Luc Thibodeau runs a software company with thirty-two employees, most of whom work remotely across four time zones."],
+["B","My team in Halifax starts work when my developers in Vancouver are still asleep. If someone in Halifax sends a message at four in the afternoon, it lands in Vancouver at noon, fine. But the reply sometimes comes back to Halifax at eight at night. Who’s in the wrong there? I’m not against the idea. I just don’t want a rule written for a nine-to-five office in one city applied to a company that never really closes."],
+["A","Thibodeau says his company already uses a simpler approach: messages sent outside someone’s working hours are scheduled to arrive the next morning, and nobody is expected to answer them until then. He’d prefer the government encourage practical tools like that rather than require policies on paper."],
+["A","Some workers I spoke to were also lukewarm. A nurse who works remotely as a scheduling coordinator told me she actually prefers answering a few messages in the evening, because it means she can leave early to pick up her kids. A rigid rule, she said, might take away the flexibility that made remote work attractive in the first place."],
+["A","The bill goes to second reading in the spring."]
+],
+"qs": [
+{"q":"What would the proposed law require?","o":["Bigger employers must set out rules on after-hours contact","All employees must stop answering emails after nine p.m.","Companies must pay staff for checking messages in the evening","Remote workers must keep fixed hours in one time zone"],"a":0,"t":"paraphrase","ev":"would require employers with more than twenty-five staff to adopt a written ‘right to disconnect’ policy","x":"Employers with over 25 staff would need a written policy on when workers need not respond. Nine p.m. comes from the survey results, not from the bill."},
+{"q":"According to Dr. Achari’s survey, why do many workers check messages late?","o":["Their managers specifically ask them to stay available","They fear looking less dedicated than co-workers","They prefer to finish work after their children are asleep","Their colleagues work in several other time zones"],"a":1,"t":"detail","ev":"because they worried about appearing less committed than their colleagues","x":"Most said they were not asked to; they worried about seeming less committed. Time zones are Thibodeau’s issue, and children relate to the nurse’s story."},
+{"q":"How does Achari respond to criticism that the law is vague?","o":["She agrees that it should be withdrawn and rewritten","She says details will be added after second reading","She denies that companies could comply with one paragraph","She concedes the point but sees value even so"],"a":3,"t":"viewpoint","ev":"Achari acknowledges this, but argues that even a vague policy gives workers something concrete","x":"She acknowledges the weakness but says even a vague policy helps workers push back. She does not deny the criticism or call for withdrawal."},
+{"q":"What is Luc Thibodeau’s main concern?","o":["Remote employees answer messages too slowly for clients","His company cannot afford to write a formal policy","A single rule may not fit a business spread across regions","Workers in Halifax are being asked to start too early in the day"],"a":2,"t":"viewpoint","ev":"I just don’t want a rule written for a nine-to-five office in one city applied to a company that never really closes.","x":"He fears a rule designed for one-city, nine-to-five offices will not suit his multi-time-zone company. He says he is “not against the idea”, and cost is never mentioned."},
+{"q":"What does Thibodeau’s company currently do?","o":["It shuts down all of its communication tools at eight every evening","It delays delivery of messages until the recipient’s workday","It pays employees extra for replying outside working hours","It asks staff in Vancouver to start earlier than others"],"a":1,"t":"paraphrase","ev":"messages sent outside someone’s working hours are scheduled to arrive the next morning","x":"Messages sent outside a person’s hours are held until the next morning. Eight at night is when a reply might reach Halifax, not a shutdown time."},
+{"q":"Why is the nurse lukewarm about the proposal?","o":["A strict rule could reduce the flexibility she values","She is often asked to answer patients’ messages at night","She believes her employer would ignore any new policy","She would prefer to return to working in a hospital"],"a":0,"t":"inference","ev":"might take away the flexibility that made remote work attractive in the first place","x":"She answers some evening messages by choice so she can leave early for her children, and fears a rigid rule would remove that flexibility. She coordinates schedules; patients are not mentioned."}
+]
+}
+]
+}
+]},
+"R": {
+"p1": {
+"meta": "From: Bethany Rourke  |  To: Ines Castellano  |  Subject: Greetings from the edge of the map",
+"text": "Hi Ines,\n\nIt’s been almost a year since I packed up my desk at Halberd & Pike and drove east, so I figured I owed you more than a “like” on your vacation photos.\n\nThe short version: I love it here, mostly. Cape Mirelle has about nine hundred people, one grocery store, and a view from my kitchen window that I still haven’t gotten used to. Working remotely has been easier than I expected in some ways and harder in others. The work itself is fine – our team meetings were on video anyway, and I get far more done without the open-plan chatter. The internet, on the other hand, has been an adventure. When a storm comes through, it can go down for a whole day, so I’ve learned to keep a mobile hotspot charged and to warn my manager whenever the forecast looks bad.\n\nThe harder part, which I didn’t see coming, is how quiet the days are. In the city, I complained constantly about interruptions. Now I sometimes realize at four o’clock that I haven’t said a word out loud since breakfast. I joined the curling club in November mainly to have a reason to leave the house, and to my surprise, I’m not terrible at it.\n\nNow for the real reason I’m writing. Head office is holding a planning retreat in Toronto the week of March 9, and they’ve asked me to attend in person. While I’m there, they also want to talk to me about a team lead position. The catch is that it would require me to be in the office three days a week. I honestly don’t know how I feel about that. I miss people, but I don’t miss the commute, or the rent.\n\nTwo favours, then. Could I stay on your sofa for those five nights? The company will pay for a hotel, but I’d much rather catch up with you properly. And could you be my sounding board? You went back to the office full-time last year after working from home, and you’re the only person I know who has done it in that direction.\n\nLet me know if March works. I’ll bring a jar of bakeapple jam as payment.\n\nBethany",
+"qs": [
+{"q":"What does Bethany suggest about her contact with Ines over the past year?","o":["They have spoken every week by video since she moved away","Ines has visited her twice in Cape Mirelle","It has been limited and fairly casual","They stopped talking after a disagreement at work"],"a":2,"t":"inference","ev":"I figured I owed you more than a “like” on your vacation photos","x":"Owing Ines “more than a like” shows their contact has been minimal, mostly social media. There is no sign of weekly calls or a disagreement."},
+{"q":"What has Bethany found about working remotely?","o":["Her team meetings are harder to follow on video than in person","She gets less done because of distractions at home","Her manager often complains about her availability","She is more productive without office noise"],"a":3,"t":"paraphrase","ev":"I get far more done without the open-plan chatter","x":"Without open-plan chatter she gets far more done. She warns her manager about storms herself; no complaints from the manager are mentioned."},
+{"q":"What does Bethany do to deal with internet outages?","o":["She keeps a backup connection ready and tells her manager","She moves to the curling club when the internet goes down","She works from the grocery store whenever a storm comes","She asks her company to pay for a second provider each month"],"a":0,"t":"paraphrase","ev":"I’ve learned to keep a mobile hotspot charged and to warn my manager whenever the forecast looks bad","x":"A charged hotspot is her backup, and she warns her manager before storms. The curling club and grocery store are mentioned for other reasons."},
+{"q":"What does Bethany imply about life in Cape Mirelle?","o":["She regrets leaving the city and plans to return soon","She feels more isolated than she had anticipated","She finds the community unfriendly to newcomers","She spends most evenings competing at the curling club"],"a":1,"t":"inference","ev":"Now I sometimes realize at four o’clock that I haven’t said a word out loud since breakfast","x":"The quiet days are the part she “didn’t see coming”, so she is lonelier than expected. She says she loves it there “mostly”, so she does not regret the move."},
+{"q":"How does Bethany feel about the team lead position?","o":["She is excited and has already decided to accept it","She is annoyed that her company asked her to travel","She thinks she is not qualified for a leadership role","She is torn between its advantages and drawbacks"],"a":3,"t":"attitude","ev":"I honestly don’t know how I feel about that.","x":"She misses people but not the commute or rent, so she is undecided. Nothing suggests she doubts her qualifications or resents travelling."},
+{"q":"Why does Bethany want Ines’s opinion in particular?","o":["Ines has made the same kind of change in reverse","Ines works as a team lead at Halberd & Pike in Toronto","Ines knows the managers at head office very well","Ines also lived in a small town for a year"],"a":0,"t":"inference","ev":"you’re the only person I know who has done it in that direction","x":"Ines went from working at home back to the office, the move Bethany is considering. Halberd & Pike is Bethany’s employer; nothing says Ines is a team lead there."}
+],
+"reply": {
+"intro": "Here is Ines’s response to Bethany. Complete the response by choosing the best option for each blank.",
+"text": "Hi Bethany,\n\nWhat a lovely surprise! Of course you can stay with me. The sofa is yours for all five nights, and I’d hate to think of you stuck in {1} when we could be up late talking.\n\nI laughed at your description of the quiet days. It sounds like the curling club was {2}, and I’m glad it’s working out.\n\nAs for the job, I’m happy to be your sounding board, but I’ll warn you now: going back to the office was {3}. I loved seeing people again, but the commute ate two hours a day. Before you decide, ask whether the three days are fixed or flexible. If you could choose your days, you might {4}.\n\nAlso, since the company is offering a hotel anyway, you might ask whether they’d {5} instead. It never hurts to ask.\n\nSee you in March (with jam!),\nInes",
+"blanks": [
+{"o":["a busy open-plan office","a hotel room on your own","a storm without internet","a meeting all evening"],"a":1,"t":"inference","ev":"The company will pay for a hotel, but I’d much rather catch up with you properly.","x":"Bethany would rather stay with Ines than in the hotel her company would pay for. The open-plan office is about her old job, not where she would sleep."},
+{"o":["a way to meet your new manager","a sport you’d already played for years in Toronto","a good excuse to get out of the house","a requirement for living in town"],"a":2,"t":"paraphrase","ev":"mainly to have a reason to leave the house","x":"She joined mainly to have a reason to leave the house. Her surprise at not being terrible shows she had not played for years."},
+{"o":["an easy decision with no regrets","something I would never recommend","much cheaper than I expected","a mix of good and bad"],"a":3,"t":"coherence","ev":"I loved seeing people again, but the commute ate two hours a day.","x":"The next sentence gives one positive and one negative, so the return was mixed. “Never recommend” is too strong given that she loved seeing people."},
+{"o":["avoid the worst of the travel","keep living in Cape Mirelle full-time","spend more time at the curling club","get the hotel paid for every week"],"a":0,"t":"inference","ev":"I don’t miss the commute","x":"Choosing her days could help her avoid the worst commuting times. Living in Cape Mirelle full-time is impossible with three office days a week in Toronto."},
+{"o":["cancel the retreat and meet online","pay for your rent in the city","put that money toward your travel costs","give you an extra week to decide on the role"],"a":2,"t":"inference","ev":"The company will pay for a hotel","x":"Since she will not use the hotel the company offered, Ines suggests asking for that budget to go to other trip costs. The retreat must be attended in person, so cancelling it makes no sense."}
+]
+}
+},
+"p2": {
+"diagram": {
+"title": "Keepsake Lab – Home Media Digitizing Price List",
+"intro": "Send us your photos, slides and tapes, and we’ll return them with digital copies by download link or on a USB drive. All prices include basic colour correction. Orders are processed in the order received.",
+"table": {
+"cols": ["Item","Price per item","Minimum order","Standard turnaround"],
+"rows": [
+["Loose prints (up to 8×10)","$0.45","100 prints","3 weeks"],
+["Photo album pages (scanned whole)","$2.50 per page","10 pages","3 weeks"],
+["35 mm slides","$0.60","50 slides","4 weeks"],
+["Negatives (strips)","$0.75 per frame","50 frames","4 weeks"],
+["VHS / camcorder tapes","$25 per tape (up to 2 hours)","none","5 weeks"],
+["8 mm film reels","$0.20 per foot","200 feet","6 weeks"]
+]
+},
+"cards": [
+{"h":"Delivery options","lines":["Download link (valid 30 days): free","USB drive: $15","Cloud album with sharing, 1 year: $40 (first year free on orders over $300)"]},
+{"h":"Extras","lines":["Rush service: half the standard turnaround time, +50% on item prices","Restoration of damaged photos: $12 per photo","Return shipping: $18 (free pickup in store)"]}
+],
+"notes": [
+"Bulk discount: 20% off the price per item for 1,000 or more of the same item type.",
+"Tapes longer than 2 hours are charged as two tapes.",
+"Orders below the minimum are charged the minimum amount.",
+"Rush service is not available for film reels.",
+"Discounts are applied before rush charges."
+]
+},
+"email": {
+"intro": "Read the following email about digitizing a family collection. Complete the email by choosing the best option for each blank.",
+"text": "Hi Mateo,\n\nI’ve finally counted everything from Grandma’s basement. There are 1,200 loose prints, so with the bulk discount they’ll come to {1}. The 40 slides are below the minimum, so we’ll pay {2} for them. The three camcorder tapes are the tricky part: one of them is three hours long, so the tapes will cost {3} in total.\n\nI’d love to have everything ready for Mom’s 70th birthday, which is only two weeks away, so I asked about rush service. Unfortunately, the {4} would still not be ready in time, even with rush. We could give her the rest as a surprise and add the missing part later. I’ve also asked whether they can fix a few water-damaged photos.\n\nSince our order is well over $300, we’ll also get {5}, which is perfect for sharing everything with the cousins out west.\n\nTalk soon,\nCorinne",
+"blanks": [
+{"o":["$432.00","$540.00","$648.00","$345.60"],"a":0,"t":"diagram","ev":"Bulk discount: 20% off the price per item for 1,000 or more of the same item type.","x":"1,200 × $0.45 = $540, minus 20% = $432. $540 forgets the bulk discount, which applies because the order has over 1,000 prints."},
+{"o":["$24.00","$30.00","$36.00","$12.00"],"a":1,"t":"diagram","ev":"Orders below the minimum are charged the minimum amount.","x":"40 slides is below the 50-slide minimum, so they pay for 50 × $0.60 = $30. $24 is the price of 40 slides, which ignores the minimum rule."},
+{"o":["$75","$125","$50","$100"],"a":3,"t":"diagram","ev":"Tapes longer than 2 hours are charged as two tapes.","x":"The three-hour tape counts as two, so they pay for four tapes × $25 = $100. $75 treats all three tapes as standard."},
+{"o":["prints","slides","tapes","album pages"],"a":2,"t":"diagram","ev":"Rush service: half the standard turnaround time, +50% on item prices","x":"With rush, tapes take 2.5 weeks (half of 5), which is too late for a birthday two weeks away. Prints would take 1.5 weeks and slides 2 weeks."},
+{"o":["a free USB drive","a free year of the cloud album","free return shipping","20% off any restoration"],"a":1,"t":"diagram","ev":"Cloud album with sharing, 1 year: $40 (first year free on orders over $300)","x":"Orders over $300 get the first year of the cloud album free, which allows sharing. USB drives and shipping are always charged, and pickup in store is the free option."}
+]
+},
+"qs": [
+{"q":"A customer wants 30 album pages scanned with rush service. How much will the scanning cost?","o":["$75.00","$37.50","$90.00","$112.50"],"a":3,"t":"diagram","ev":"Rush service: half the standard turnaround time, +50% on item prices","x":"30 × $2.50 = $75, plus 50% for rush = $112.50. $75 ignores the rush charge; $37.50 wrongly halves the price instead of the time."},
+{"q":"A customer brings in 150 feet of 8 mm film and wants it back as soon as possible. What will happen?","o":["They will pay $40 and wait about six weeks.","They will pay $30 and wait about six weeks.","They will pay $60 and wait about three weeks.","They will pay $45 and wait about three weeks."],"a":0,"t":"diagram","ev":"Rush service is not available for film reels.","x":"Below the 200-foot minimum, they pay 200 × $0.20 = $40, and film reels cannot be rushed, so it takes six weeks. $30 ignores the minimum; three weeks assumes rush."},
+{"q":"A customer orders 1,000 negative frames with rush service. What is the price per frame?","o":["$0.75","$1.13","$0.90","$0.85"],"a":2,"t":"diagram","ev":"Discounts are applied before rush charges.","x":"$0.75 minus 20% = $0.60, then +50% for rush = $0.90. $1.13 adds the rush charge to the full price and skips the bulk discount."}
+]
+},
+"p3": {
+"title": "Game On: Esports Enter the High School",
+"paras": [
+"When Dario Pellerin, a math teacher at Kestrel Lake Secondary, started an esports club in 2019, he had six students and no budget. The team practised after school on four computers borrowed from the school library, which were so slow that matches occasionally froze halfway through. Pellerin had started the club almost by accident, after noticing that several of his quietest students spent lunch hour discussing strategy for an online team game. Many of them, he realized, had never joined a single club or team in all their years at the school. Today, the program has grown to more than eighty students playing on five teams, and Kestrel Lake competes in a provincial high school league that now includes forty schools. Matches are played online during the week, with an in-person championship held each spring in a university gymnasium.",
+"Supporters argue that the benefits go well beyond entertainment. Competitive team games require players to communicate under pressure, divide up roles and adjust their plans quickly when something goes wrong. Coaches at Kestrel Lake spend as much time reviewing recordings of matches with students as they do on actual play, pointing out moments when a lack of communication cost the team. The school’s guidance counsellor, Helen Marchetti, has noticed another change: since joining the club, a number of students who were frequently absent now rarely miss class, because practice is held right after the last bell. A small number of colleges in Canada and the United States have also started offering scholarships to skilled esports players, which has caught the attention of parents who were initially skeptical of the whole idea.",
+"Not every parent has been won over, however. The most common concern is screen time, particularly for teenagers who already spend hours on their phones. Others worry about the content of popular games, some of which involve realistic violence. The provincial league has tried to address both issues. It allows only team strategy games and sports simulations, and it bans titles that are rated for adults. Practice is limited to six hours a week, and every session at Kestrel Lake begins with stretching and includes short breaks to rest players’ eyes and wrists. Students must also maintain a passing grade in every course to remain on a team, a rule Pellerin says he enforces strictly. Two of his best players were benched last semester until they had caught up in chemistry.",
+"Money remains a challenge. A computer powerful enough to run competitive games costs about $2,000, and the school board does not fund equipment for extracurricular activities. Kestrel Lake paid for its current machines through a sponsorship from a local internet provider and a fundraising tournament that drew teams from across the region. Organizers are also trying to change the makeup of the league. At present, only about fifteen percent of players are girls, and a separate division for girls is being discussed for next season. Some teachers would like esports to go further still, becoming a for-credit course that covers topics such as game design and digital citizenship. The provincial education ministry has said it is watching the programs with interest but has not committed to any changes in the curriculum."
+],
+"qs": [
+{"q":"The program began with very limited equipment.","a":"A","t":"paraphrase","ev":"The team practised after school on four computers borrowed from the school library","x":"Paragraph A: the club started with no budget and four slow, borrowed library computers."},
+{"q":"Students must keep up their marks to take part.","a":"C","t":"paraphrase","ev":"Students must also maintain a passing grade in every course to remain on a team","x":"Paragraph C: a passing grade in every course is required, and two players were benched until they caught up."},
+{"q":"Some participants may receive financial help for further studies.","a":"B","t":"paraphrase","ev":"started offering scholarships to skilled esports players","x":"Paragraph B: some colleges in Canada and the U.S. now offer esports scholarships."},
+{"q":"Girls in the league tend to perform better than boys.","a":"E","t":"notgiven","ev":"","x":"Paragraph D gives the share of girls (about 15%) and mentions a possible girls’ division, but nothing compares their performance with boys’."},
+{"q":"Organizers take steps to protect players’ physical well-being.","a":"C","t":"paraphrase","ev":"every session at Kestrel Lake begins with stretching and includes short breaks to rest players’ eyes and wrists","x":"Paragraph C: sessions include stretching and breaks for eyes and wrists, and practice is capped at six hours."},
+{"q":"Support from the local community helped pay for hardware.","a":"D","t":"paraphrase","ev":"Kestrel Lake paid for its current machines through a sponsorship from a local internet provider and a fundraising tournament","x":"Paragraph D: a local sponsor and a fundraising tournament paid for the computers, since the board does not fund them."},
+{"q":"The provincial ministry plans to make esports a credit course next year.","a":"E","t":"notgiven","ev":"","x":"Paragraph D says some teachers want a credit course, but the ministry “has not committed to any changes”; no plan or date is given."},
+{"q":"The club drew in students who had not been involved in school activities before.","a":"A","t":"inference","ev":"had never joined a single club or team in all their years at the school","x":"Paragraph A: many of the first members had never joined any club or team at the school."},
+{"q":"Being part of the club appears linked to better attendance.","a":"B","t":"inference","ev":"a number of students who were frequently absent now rarely miss class","x":"Paragraph B: the counsellor noticed that frequently absent students now rarely miss class because practice follows the last bell."}
+]
+},
+"p4": {
+"title": "Too Many Apps, Not Enough Communication",
+"byline": "Opinion | by Harriet Mwangi, parent and former school council chair",
+"text": "Last month, I missed my son’s parent-teacher interview. Not because I forgot, and not because I was too busy, but because the booking link was sent through an app I didn’t know his school had started using. By the time a friend mentioned it at pickup, every slot was gone.\n\nI have three children in two schools, and at last count I had six different apps on my phone to keep track of them. One for attendance. One for homework and grades. One for paying for field trips and pizza days. One for the school newsletter. One that some teachers use for messages, and another that other teachers prefer. Each sends its own notifications, in its own style, at its own times. On a typical school day, my phone buzzes more than twenty times with updates about my children’s education, and I would estimate that fewer than three of them require me to do anything.\n\nThe result is predictable. Like most parents I know, I have started ignoring the notifications altogether. And that is exactly when the important ones – the interview booking, the permission form due tomorrow, the change to early dismissal – slip through.\n\nI want to be fair. Some of these tools are genuinely useful. Getting a message within minutes when my daughter is marked absent is a real improvement over finding out at the end of the week. Paying online for a field trip is easier than sending a cheque in a sandwich bag. Nobody is asking schools to go back to paper.\n\nBut the current situation is not a communication system. It is a pile of separate decisions, each sensible on its own, that together create noise. Individual teachers choose the app they like. Schools sign contracts with different companies. Nobody seems to be responsible for asking what it all looks like from the kitchen table.\n\nThe cost is not only frustration. Families without reliable internet, parents who are new to Canada and still learning English, and grandparents raising grandchildren are the most likely to fall through the cracks. A system that works only for the most tech-savvy parents is not a fair one.\n\nTeachers pay a price too. Several have told me they now post the same announcement in three places, and that parents message them at ten o’clock at night expecting an immediate answer. That is time that should be going into lessons.\n\nSo here is what I would propose. First, each school board should choose one platform for all communication with families and require every school to use it. Second, non-urgent updates should be bundled into a single weekly summary, sent on the same day each week. Third, anything genuinely urgent – a lockdown, an early closure – should come by phone call or text as well, so it reaches everyone. And finally, boards should make clear that teachers are not expected to reply to messages outside school hours.\n\nNone of this requires new technology or a bigger budget. It requires someone to take responsibility for the whole picture. Until that happens, I will keep scrolling through twenty notifications a day, hoping I don’t miss the one that matters.",
+"qs": [
+{"q":"Why does the writer begin with the story of the missed interview?","o":["To show that her son’s teacher was careless with bookings","To illustrate how a key message got lost among tools","To explain why she stopped using school apps entirely","To complain that interview slots fill up far too quickly at school"],"a":1,"t":"purpose","ev":"the booking link was sent through an app I didn’t know his school had started using","x":"The booking link went through an app she did not know about, an example of important messages getting lost. Slots filling up was the result, not her complaint."},
+{"q":"What does the writer suggest about most notifications she receives?","o":["They arrive mostly late at night after ten","They are usually written in a confusing style","They often contain errors about her children’s grades","They rarely ask her to take any action"],"a":3,"t":"inference","ev":"fewer than three of them require me to do anything","x":"Of twenty-plus daily alerts, fewer than three need action. Ten o’clock at night refers to parents messaging teachers, not to notifications she receives."},
+{"q":"What is the writer’s attitude toward school apps in general?","o":["She sees real benefits in some of them","She thinks schools should return to paper notices","She believes they are useful only for paying fees online","She trusts them more than messages from teachers"],"a":0,"t":"attitude","ev":"Some of these tools are genuinely useful.","x":"She praises absence alerts and online payments and says “Nobody is asking schools to go back to paper”. Payments are only one of the benefits she lists."},
+{"q":"According to the writer, what is the root of the problem?","o":["Teachers refuse to learn how to use the apps","Parents ignore messages that are important","No one oversees the combined effect of many choices","App companies send far too many advertisements to parents"],"a":2,"t":"main","ev":"Nobody seems to be responsible for asking what it all looks like from the kitchen table.","x":"Separate, individually sensible decisions create noise because nobody looks at the whole picture. Parents ignoring alerts is a result of the problem, not its cause."},
+{"q":"Which of the following does the writer propose?","o":["Teachers should answer messages within one school day","Each school should be free to choose its own app","All updates should be sent by phone call or text","Urgent news should also reach families by phone"],"a":3,"t":"detail","ev":"should come by phone call or text as well, so it reaches everyone","x":"Only urgent news should also go by call or text; non-urgent updates go in a weekly summary. She wants one platform per board, not one per school."}
+],
+"comment": {
+"intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+"text": "As a grade four teacher, I read this with a lot of nodding. Ms. Mwangi is right that {1}. I currently post the same reminder on two platforms and in a paper note, and I still get emails asking why nobody told parents.\n\nI also strongly agree with her point about {2}. Half the families in my class speak a language other than English at home, and the apps’ automatic translations are often baffling.\n\nWhere I’m less convinced is the weekly summary. In my experience, parents don’t read long emails any more than they read notifications. If everything non-urgent is bundled together, the permission form due Thursday {3}. I’d rather see a short, clearly labelled message for anything that needs action.\n\nAnd while I appreciate her defending teachers’ evenings, a board policy alone won’t {4}. Parents will still message at night; the difference is only whether we feel guilty for not answering.\n\nStill, her central idea, {5}, would make my job easier overnight.",
+"blanks": [
+{"o":["parents are too busy to read school messages","teachers prefer apps to paper notes","teachers end up repeating the same announcement","the apps are too expensive for most schools to run"],"a":2,"t":"viewpoint","ev":"they now post the same announcement in three places","x":"The teacher’s own experience of posting one reminder in several places matches the article. She uses paper notes too, so she does not say teachers prefer apps."},
+{"o":["families who are left behind by the system","grandparents who refuse to use smartphones","the cost of paying for field trips through apps online","children who are marked absent by mistake"],"a":0,"t":"viewpoint","ev":"A system that works only for the most tech-savvy parents is not a fair one.","x":"Her example of families who speak other languages matches the article’s point about newcomers falling through the cracks. The article never says grandparents refuse smartphones."},
+{"o":["would arrive by phone call as well","could easily get buried among other items","would no longer need a parent’s signature","would be sent on the same day as report cards"],"a":1,"t":"inference","ev":"Second, non-urgent updates should be bundled into a single weekly summary","x":"Her worry is that a form needing action could be lost in a long summary that parents do not read. Phone calls are for urgent news only, so option A does not fit."},
+{"o":["require parents to stop using school apps","make teachers answer faster during the day","stop schools from signing contracts with companies","change what parents expect after hours"],"a":3,"t":"viewpoint","ev":"boards should make clear that teachers are not expected to reply to messages outside school hours","x":"She notes that parents will still message at night, so the policy cannot change their expectations. The other options are not linked to the evening-message proposal."},
+{"o":["a single platform used across the board","a return to paper newsletters sent home","a separate app for each type of message","letting every teacher pick their preferred tool"],"a":0,"t":"main","ev":"each school board should choose one platform for all communication with families","x":"The article’s first and central proposal is one platform per board. Letting each teacher choose is exactly what the writer criticizes."}
+]
+}
+}
+},
+"W": {
+"t1": {
+"situation": "Two months ago, you switched to a cheaper monthly plan with your mobile phone provider after speaking with a customer service agent by phone. However, your last two bills have charged you the old, higher price, and you were also charged a fee that the agent never mentioned.",
+"bullets": ["Explain what you agreed to when you changed your plan","Describe the problems with your last two bills","Say what you would like the company to do"],
+"model": "Dear Customer Service Team,\n\nI am writing about billing errors on my account, number 4417-2290.\n\nOn August 28, I called your support line and spoke with an agent named Kevin, who switched me from the Unlimited Plus plan at $85 per month to the Essentials 20 plan at $55 per month. He confirmed that the change would take effect immediately and that there would be no fees, since I had completed my two-year contract. I also received a confirmation text that afternoon.\n\nHowever, my September and October bills both charged me the old price of $85. In addition, the September bill included a $35 “plan change fee” that was never mentioned during the call. In total, I have been overcharged $95.\n\nI would like you to correct my plan in your system, refund the $95 to my credit card rather than as account credit, and confirm in writing that my November bill will show the correct price. I have attached a screenshot of the confirmation text.\n\nIf this is not resolved within ten business days, I will file a complaint with the telecommunications ombudsman.\n\nSincerely,\nPriya Raman"
+},
+"t2": {
+"intro": "Your company is deciding how employees will work next year and has asked all staff to complete a short survey.",
+"question": "Which option do you prefer? Explain the reasons for your choice.",
+"a": "Option A: All employees work in the office on the same three fixed days each week (Tuesday to Thursday) and from home on the other two days.",
+"b": "Option B: All employees work fully from home, and the company holds a paid three-day in-person gathering for everyone every three months.",
+"model": "I would choose Option A, three fixed office days each week.\n\nAlthough working fully from home is convenient, I believe our team has lost something important since we stopped seeing each other regularly. Many of our best ideas used to come from quick conversations at someone’s desk, and those simply do not happen on video calls, which tend to be scheduled and formal. Having everyone in the office on the same days would bring those conversations back.\n\nAnother advantage is support for newer staff. Our department has hired six people this year, and several have told me they find it hard to learn the job when they cannot watch experienced colleagues or ask a quick question. A gathering every three months would be enjoyable, but it would not provide the daily guidance new employees need.\n\nOf course, Option B would save commuting time and money. However, with two days at home each week, Option A still offers much of that flexibility, and fixed days would make it easier to plan childcare and appointments.\n\nFor these reasons, I believe Option A offers the better balance for our team."
+}
+},
+"S": {
+"t1": {
+"prompt": "Your friend’s 11-year-old daughter is asking for her first smartphone because most of her classmates have one. Your friend is unsure what to do. Advise your friend.",
+"model": "I completely understand why you’re torn. Eleven feels young, but you also don’t want her to be the only kid left out of every group chat. Here’s what I’d suggest. First, think about what she actually needs a phone for. If it’s mainly to reach you after school and message a few friends, she doesn’t need a full smartphone right away. There are basic phones, or even smartwatches for kids, that let her call and text without access to social media or the whole internet. Second, if you do decide on a smartphone, set the rules before she gets it, not after. Agree on things like where the phone sleeps at night – ideally outside her bedroom – and which apps she’s allowed to download. Some families even write a simple contract and both sign it. Third, use the parental controls. Most phones let you set time limits and approve downloads, and you can loosen them gradually as she shows she’s responsible. Finally, talk to the other parents in her class. You might find that fewer kids have phones than she claims, or that some families would like to agree on a common approach. That way, she won’t feel singled out, and you won’t feel like the strict parent."
+},
+"t2": {
+"prompt": "Talk about a time when you learned something useful by watching videos or taking a course online. What did you learn, and how did it help you?",
+"model": "Last winter, my kitchen faucet started leaking, and the plumber I called couldn’t come for over a week. Out of frustration, I decided to watch a few online videos to see if I could fix it myself. I found a really clear one by a retired plumber who explained every step slowly and showed exactly which parts to buy. I went to the hardware store with a photo of my faucet, bought a replacement part for about fifteen dollars, and followed the video one step at a time. It took me almost two hours, partly because I kept pausing and rewinding, but it worked perfectly. I was so proud of myself. Since then, I’ve fixed a running toilet the same way. It saved me money, but more importantly, it gave me the confidence that I can learn practical skills on my own."
+},
+"t3": {
+"scene": {
+"bg": "market",
+"alt": "A busy outdoor weekend market on a sunny day. On the left is a stall with a blue sign reading “PHONE REPAIR”. In front of it, a man with glasses in a blue shirt holds a phone, and a teenage girl in a pink top with long hair holds out her own phone towards him. In the middle, a yellow sign on a post reads “FREE PHONE CHARGING”. A woman in a teal top with long hair is walking past it, pushing a stroller. In front of her, a man in a dark shirt is taking photos with a camera, and a brown dog stands nearby. On the right is a green stall labelled “FARM FRESH”, where a woman in an orange dress holds a bag, and another shopper in a purple shirt is walking away carrying a bag. There is a sun and a cloud in the sky.",
+"items": [
+["sun",570,55],
+["cloud",110,55,1],
+["stall",30,330,170,"PHONE REPAIR","#2e86c1"],
+["person",110,345,{"shirt":"#2e86c1","hold":"phone","glasses":true,"hair":"#1c1c1c","skin":"#c68642"}],
+["person",175,360,{"shirt":"#e84393","hairStyle":"long","hair":"#3b2a1a","hold":"phone","flip":true,"s":0.9}],
+["sign",290,320,"FREE PHONE CHARGING","#f1c40f"],
+["person",235,392,{"shirt":"#16a085","hairStyle":"long","hair":"#a0522d","pose":"walk"}],
+["stroller",290,392],
+["person",350,385,{"shirt":"#34495e","hold":"camera","hair":"#7f8c8d"}],
+["dog",400,390,"#a0522d"],
+["stall",440,330,170,"FARM FRESH","#27ae60"],
+["person",500,345,{"shirt":"#e67e22","dress":true,"hairStyle":"bun","hold":"bag","skin":"#8d5524"}],
+["person",590,385,{"shirt":"#8e44ad","hold":"bag","pose":"walk","flip":true,"hair":"#d4ac0d"}]
+]
+},
+"prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+"model": "This is a busy outdoor market on what looks like a sunny weekend morning. On the left, there’s a stall with a blue sign that says “Phone Repair.” A man with glasses, in a blue shirt, is standing in front of it holding a phone, and a teenage girl in a pink top is holding out her own phone, probably asking him to fix it. In the middle, there’s a yellow sign that says “Free Phone Charging,” and a woman in a teal top is walking past it pushing a stroller. Just in front of her, a man in a dark shirt is taking photos with a camera, and a brown dog is standing nearby. On the right, there’s a green stall that says “Farm Fresh,” where a woman in an orange dress is holding a bag, and another shopper in purple is walking away."
+},
+"t4": {
+"prompt": "In this picture, what do you think will most probably happen next?",
+"model": "I think the man at the phone repair stall is going to take the girl’s phone and look at the screen, and he’ll probably tell her it needs a new battery or a new screen. If it’s a quick job, she might decide to wait, so she could wander over to the farm stall in the meantime. The man with the camera seems interested in the market, so I expect he’ll keep taking pictures, maybe of the colourful stalls or of the dog, which will probably trot over to sniff the stroller. The woman with the stroller might stop at the farm stall to buy some vegetables, or she may even plug her phone in at the charging station. And the shopper in purple, who’s already carrying a bag, will most likely head home. Overall, I think the market will get even busier as the morning goes on."
+},
+"t5": {
+"intro": "You want to make your family’s home more secure after several break-ins in your neighbourhood. You have found two options. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+"options": [
+{"title":"Smart camera kit","details":["$390 for a doorbell camera and 2 outdoor cameras","Self-installed in about an hour","Live video and alerts on your phone","Cloud recording: $8 per month","Works only when the Wi-Fi is on"]},
+{"title":"Monitored alarm system","details":["$200 installation by a technician","$35 per month, 2-year contract","Staff call police if the alarm goes off","Battery backup during power outages","No video recording"]}
+],
+"other": {"title":"Motion lights and stronger locks","details":["$260 one-time cost","No monthly fees","Lights turn on when someone approaches","Reinforced door locks installed","No alerts or recording"]},
+"otherWho": "Your father prefers",
+"persuade": "Your father prefers motion lights and stronger locks. Persuade him that your choice is better.",
+"model": "Dad, I agree that motion lights and better locks are a smart start, and I love that there are no monthly fees. But I really think the smart camera kit gives us much more protection. The main problem with lights and locks is that we’d never know if someone tried to get in. With the cameras, we get an alert on our phones the moment someone comes near the door, and we can actually see who it is, even when we’re at work or away at the cottage. If something did happen, we’d have video for the police and the insurance company. Lights don’t give you any evidence. Yes, there’s an eight-dollar monthly fee for recording, but that’s less than two coffees. And it only takes an hour to set up – I can do it myself this weekend."
+},
+"t6": {
+"situation": "In a private chat with a coworker, you complained about a decision your manager made. This morning, you discovered that the coworker had shared a screenshot of your message in the team’s group chat, where your manager could see it. Your coworker says it was an accident.",
+"options": ["Talk to your coworker and explain how this has affected you.","Talk to your manager and explain the message she may have seen."],
+"note": "Choose ONE option and speak to that person.",
+"model": "Hi Teresa, thanks for making time. I wanted to talk to you directly about the screenshot that was posted in the team chat this morning. I’m guessing you saw it. First, I want to apologize. I wrote that message in a private conversation after a frustrating day, and the way I expressed myself wasn’t professional. I’m sorry it ended up in front of the whole team. That said, I’d like to explain the concern behind it, because I think it’s a fair one. When the project deadline was moved up by two weeks, I worried that we didn’t have enough people to do the testing properly. I should have brought that to you instead of venting. From now on, I’ll raise issues with you directly. And if it helps, I’m happy to go over the testing schedule with you today."
+},
+"t7": {
+"prompt": "Answer the following question: Should parents use phone apps to track the location of their teenage children? Explain your reasons.",
+"model": "I think location tracking can be a reasonable tool for parents, but only if it’s done openly and with the teenager’s agreement. Let me explain why. On the positive side, it can genuinely improve safety. If a teenager misses their curfew or doesn’t answer their phone, being able to see that they’re at a friend’s house rather than stranded somewhere can save parents a lot of worry, and it can help in a real emergency. Many teens actually appreciate it too, for example when they need a ride home late at night. However, I’m strongly against secret tracking. If teenagers discover that their parents have been watching their every move without telling them, it can seriously damage trust, and they may simply leave their phone at a friend’s place or find ways to switch the app off. Teenagers also need some privacy to develop independence and learn to make their own decisions. So, in my opinion, the best approach is transparency. Parents should explain why they want to use the app, agree on when it will be checked – maybe only if the teen is late or unreachable – and gradually turn it off as the teenager gets older. Used that way, it’s a safety net rather than surveillance."
+},
+"t8": {
+"scene": {
+"bg": "indoor",
+"alt": "A furnished apartment living room where almost the entire back wall is covered by one gigantic television, much taller than a person and about three metres wide. The screen shows the words “WELCOME HOME” in large white letters. In front of it is a small red sofa that looks tiny by comparison, and a man in a blue shirt sits on it holding a mug, looking up at the screen. On the left, a real estate agent in a green shirt stands by a window and points at the TV, and a grey cat sits on the floor. On the right are a small wooden chair, a floor lamp, a potted plant and a clock on the wall.",
+"items": [
+["window",20,90,100,90],
+["clock",590,60],
+["big","tv",320,300,3.4],
+["text",320,170,"WELCOME HOME",30,"#ffffff"],
+["sofa",250,392,140,"#c0392b"],
+["person",320,370,{"pose":"sit","shirt":"#2e86c1","hold":"mug","hair":"#3b2a1a","s":0.9}],
+["person",90,392,{"shirt":"#27ae60","pose":"point","hairStyle":"long","hair":"#1c1c1c","dress":true}],
+["cat",150,392,"#7f8c8d"],
+["chair",500,392,"#7f5539"],
+["lamp",565,392],
+["plant",612,392,1]
+]
+},
+"prompt": "You are looking for an apartment to share with a roommate, and you have found this furnished apartment online. Call your roommate, describe the living room, and explain whether you think you should rent it. Your roommate cannot see the picture.",
+"model": "Hi Sam, I just found a furnished two-bedroom that you have to hear about. The strangest thing is the living room. Almost the entire back wall is one gigantic TV screen – I mean it’s easily three metres wide, from near the floor almost to the ceiling. In the photo, it says “Welcome Home” in huge white letters. In front of it, there’s a red sofa that looks tiny by comparison, and someone’s sitting on it with a mug, staring up at the screen. There’s also a grey cat, a floor lamp, a plant and a little wooden chair. Honestly, I’m not sure we should take it. It would be amazing for movie nights, but I bet the electricity bill would be huge, and you’d practically need to sit in the hallway to see the whole screen. Also, there’s no room for a dining table."
+}
+}
+}

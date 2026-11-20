@@ -1,0 +1,1876 @@
+{
+ "id": "t08",
+ "title": "Test 8",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two volunteers who organize a youth soccer tournament are dealing with a problem.",
+    "sp": {
+     "A": {
+      "name": "Bruno",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Shauna",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Shauna, I just drove past Centennial Park. Fields three and four are under water. The storm last night must have flooded the whole lower section."
+       ],
+       [
+        "B",
+        "You’re joking. The tournament starts at nine tomorrow morning. We’ve got sixteen teams coming, some from two hours away."
+       ],
+       [
+        "A",
+        "I know. I called the parks department, and they said even if it stops raining, those fields won’t be playable for at least three days. Playing on them wet would tear up the grass, and the city would charge us for the damage."
+       ],
+       [
+        "B",
+        "What about fields one and two? They’re on higher ground."
+       ],
+       [
+        "A",
+        "They’re fine. But two fields isn’t enough for sixteen teams. We planned twenty-four games on four fields."
+       ],
+       [
+        "B",
+        "So we’d have half the space. Could we just make the games shorter?"
+       ],
+       [
+        "A",
+        "I thought about that. If we cut each game from fifty minutes to thirty, we could fit more in, but the parents have paid ninety dollars per team. They won’t be happy if their kids barely play."
+       ],
+       [
+        "B",
+        "True. And the younger kids need breaks anyway. Okay, let’s think about other places."
+       ],
+       [
+        "A",
+        "There’s the community centre gym, but it’s indoors and only big enough for one small-sided game at a time. And they want three hundred dollars for the day."
+       ],
+       [
+        "B",
+        "No, that won’t help much. We’d be paying a lot for one tiny space. I’d rather spend that money on a proper field."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why can’t fields three and four be used?",
+        "o": [
+         "They are being repaired by the city.",
+         "They were booked by another league.",
+         "They were flooded by heavy rain.",
+         "They are too far from the parking lot."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "Fields three and four are under water",
+        "x": "Bruno says fields three and four are under water after last night’s storm. The city is involved only because it would charge for damage, not because it is repairing the fields."
+       },
+       {
+        "q": "What would happen if they played on the wet fields?",
+        "o": [
+         "The players might get sick.",
+         "The games would be cancelled.",
+         "Referees would refuse to work.",
+         "They could be charged for damage."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "the city would charge us for the damage",
+        "x": "The parks department warned that playing on wet fields would tear up the grass and the city would charge them for the damage. Nobody mentions players getting sick or referees refusing."
+       },
+       {
+        "q": "Why does Bruno reject shortening the games?",
+        "o": [
+         "Families who paid would feel their kids played too little.",
+         "The referees would not accept thirty-minute games.",
+         "The tournament rules set games at fifty minutes.",
+         "It would still not fit twenty-four games in."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "They won’t be happy if their kids barely play",
+        "x": "Bruno says each team paid ninety dollars and parents won’t be happy if their kids barely play. He admits shorter games would let them fit more in, so a lack of time saved is wrong."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "What about the high school? They have an artificial turf field."
+       ],
+       [
+        "A",
+        "Good idea, turf drains fast. But it’s a weekend. Would anyone even answer?"
+       ],
+       [
+        "B",
+        "The athletic director, Mr. Haddad, coaches my son’s basketball team. I have his cell number. Let me call him now."
+       ],
+       [
+        "A",
+        "While you do that, I’ll check the Catholic school on Pine. They have two grass fields, but they’re smaller, more like under-ten size."
+       ],
+       [
+        "B",
+        "That might actually work for the youngest division. Okay, calling Haddad. … Hi, Mr. Haddad, it’s Shauna Kelly… Yes… I’m sorry to bother you on a Friday night…"
+       ],
+       [
+        "B",
+        "Good news. He says the turf field is free tomorrow, but the school board requires proof of insurance and a custodian on site, which costs forty-five dollars an hour. He can email the form tonight."
+       ],
+       [
+        "A",
+        "The league insurance covers any venue, so that’s easy. A custodian for eight hours is three hundred and sixty dollars, though."
+       ],
+       [
+        "B",
+        "We have about five hundred left in the budget after the trophies. It’s tight, but it’s doable."
+       ],
+       [
+        "A",
+        "Doable, but it means no pizza for the volunteers on Sunday."
+       ],
+       [
+        "B",
+        "They’ll survive. I’ll bring muffins. Can you call the referees, too? They need to know about the new venue so they can plan their drives."
+       ],
+       [
+        "A",
+        "I’ll text the head referee. She assigns everyone, so she can pass it on."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is the high school field a good option?",
+        "o": [
+         "It is the closest to Centennial Park.",
+         "Its artificial surface dries quickly.",
+         "It is free on weekends.",
+         "It has lights for evening games."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "turf drains fast",
+        "x": "Bruno says turf drains fast, so the field will be usable after the storm. It is “free” tomorrow only in the sense of available; using it still costs money for a custodian."
+       },
+       {
+        "q": "How might the Catholic school fields be used?",
+        "o": [
+         "For the older divisions’ games",
+         "For extra parking on Saturday",
+         "For the youngest players’ games",
+         "For the awards and trophies"
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "That might actually work for the youngest division",
+        "x": "The Catholic school fields are smaller, under-ten size, so Shauna says they might work for the youngest division. The older divisions will play at Centennial and on the high school turf."
+       },
+       {
+        "q": "What is required to use the high school field?",
+        "o": [
+         "Insurance documents and a paid custodian",
+         "A rental fee per team",
+         "Permission from the city",
+         "A signed contract with the parks department"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "the school board requires proof of insurance and a custodian on site",
+        "x": "Mr. Haddad says the school board requires proof of insurance and a custodian on site at forty-five dollars an hour. No per-team fee or parks department contract is mentioned."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, so the plan: the older divisions play on fields one and two at Centennial and on the high school turf. If the Catholic school agrees, the under-tens go there."
+       ],
+       [
+        "B",
+        "But now teams are spread over three locations. Parents will get confused."
+       ],
+       [
+        "A",
+        "Right. We need to send a new schedule tonight with a map, and put signs at Centennial in case people show up there anyway."
+       ],
+       [
+        "B",
+        "I’ll do the schedule. And I’ll ask two volunteers to stand in the Centennial parking lot in the morning to redirect people."
+       ],
+       [
+        "A",
+        "Perfect. I’ll call the Catholic school first thing, at seven. If they say no, the under-tens will just play shorter games on Centennial field two."
+       ],
+       [
+        "B",
+        "That works. And what about the teams coming from two hours away? Some of them might have left by the time they read the email."
+       ],
+       [
+        "A",
+        "Good point. I’ll phone those four coaches directly tonight. It’s only four calls."
+       ],
+       [
+        "B",
+        "And let’s keep the start time at nine everywhere. If we change locations and times, nobody will get it right."
+       ],
+       [
+        "A",
+        "Agreed. Nine o’clock at all three sites. I’ll also ask Mr. Haddad if teams can use the school washrooms. Otherwise we’ll need portable toilets, and those take a day’s notice."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is Shauna worried about?",
+        "o": [
+         "The cost of a custodian for eight hours",
+         "Rain flooding the high school field too",
+         "Running out of money after buying trophies",
+         "Parents getting mixed up about where to go"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Parents will get confused",
+        "x": "Shauna points out that teams are now spread over three locations and parents will get confused. The custodian cost was discussed earlier, and she said the budget was tight but doable."
+       },
+       {
+        "q": "What will happen if the Catholic school says no?",
+        "o": [
+         "The tournament will be postponed until the fields dry.",
+         "The youngest teams will play shorter games at Centennial.",
+         "All the teams will move to the high school turf field.",
+         "The under-tens will play full games at the high school."
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "the under-tens will just play shorter games on Centennial field two",
+        "x": "Bruno says that if the Catholic school refuses, the under-tens will play shorter games on Centennial field two. Shorter games were rejected for everyone but are accepted as a backup for the youngest."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A customer is speaking with an agent at a car rental counter.",
+    "sp": {
+     "A": {
+      "name": "Agent",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.05
+     },
+     "B": {
+      "name": "Customer",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Hi there, do you have a reservation?"
+       ],
+       [
+        "B",
+        "Yes, under Mehta. A compact car for four days."
+       ],
+       [
+        "A",
+        "Let me see. Yes, Mr. Mehta. I should let you know that we’re out of compact cars this morning, so we’ll be upgrading you to a mid-size sedan at no extra cost."
+       ],
+       [
+        "B",
+        "Oh, that’s nice. Will it use more gas?"
+       ],
+       [
+        "A",
+        "A little, but not much. It’s a hybrid, so it might actually use less. Now, would you like to add our collision coverage? It’s twenty-nine dollars a day."
+       ],
+       [
+        "B",
+        "I think my credit card covers rental cars. Is that enough?"
+       ],
+       [
+        "A",
+        "Many cards do include it, but some exclude certain vehicles or rentals longer than a set number of days. I’d recommend checking with your card company. If you decline our coverage and your card doesn’t cover it, you’d be responsible for the full cost of any damage."
+       ],
+       [
+        "B",
+        "I checked before I came. My card covers rentals up to thirty-one days for standard cars, and it says a mid-size sedan is fine."
+       ],
+       [
+        "A",
+        "Great, then you can decline. I’ll just need you to initial here. Will anyone else be driving?"
+       ],
+       [
+        "B",
+        "Possibly my wife."
+       ],
+       [
+        "A",
+        "Additional drivers are twelve dollars a day, but spouses are free in this province. She’ll need to show her licence when she picks up the keys or before she drives, though. You can bring her by any of our locations."
+       ],
+       [
+        "B",
+        "Got it. And fuel?"
+       ],
+       [
+        "A",
+        "It comes with a full tank. Bring it back full, or we charge two dollars and ten cents per litre, which is quite a bit more than the gas station across the street."
+       ],
+       [
+        "B",
+        "I’ll fill it up, then. One last question: if my flight home is delayed, can I return the car a few hours late?"
+       ],
+       [
+        "A",
+        "There’s a thirty-minute grace period. After that, we charge for an extra day. If you call us before your return time, though, we can usually extend it at the hourly rate instead."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why is Mr. Mehta getting a different car?",
+        "o": [
+         "He asked for a larger car when booking.",
+         "He wanted a car that uses less gas.",
+         "There are no compact cars available.",
+         "His reservation was for a mid-size car."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "we’re out of compact cars this morning",
+        "x": "The agent says they are out of compact cars this morning, so he is upgraded for free. He asks about gas only after hearing about the upgrade, so he did not request a hybrid."
+       },
+       {
+        "q": "Why does the agent suggest contacting the credit card company?",
+        "o": [
+         "Card coverage may have exceptions.",
+         "The card will be charged extra.",
+         "The card has expired.",
+         "The company offers a discount."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "some exclude certain vehicles or rentals longer than a set number of days",
+        "x": "The agent says some cards exclude certain vehicles or longer rentals, so the coverage may not apply. A deposit or a discount from the card company is never mentioned."
+       },
+       {
+        "q": "Why does Mr. Mehta decline the collision coverage?",
+        "o": [
+         "Twenty-nine dollars a day is too expensive.",
+         "He has already checked that his card covers it.",
+         "He only plans to drive short distances.",
+         "The agent tells him that it is not needed for sedans."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "it says a mid-size sedan is fine",
+        "x": "Mr. Mehta says he checked before coming and his card covers mid-size sedans for up to thirty-one days. The agent actually recommends checking with the card company, not declining the coverage."
+       },
+       {
+        "q": "What must Mr. Mehta’s wife do before driving?",
+        "o": [
+         "Pay twelve dollars a day",
+         "Sign a separate contract",
+         "Buy collision coverage",
+         "Show her driver’s licence"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "She’ll need to show her licence",
+        "x": "The agent says his wife must show her licence before driving. The twelve-dollar daily fee applies to other additional drivers, but spouses are free in this province."
+       },
+       {
+        "q": "What does the agent imply about refuelling?",
+        "o": [
+         "The car should be brought back with an empty tank.",
+         "Fuel for the four days is included in the price.",
+         "Filling up yourself before returning costs less.",
+         "The gas station across the street charges more."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "which is quite a bit more than the gas station across the street",
+        "x": "The agent says the rental charge of $2.10 per litre is quite a bit more than the gas station across the street, implying refuelling there is cheaper. The station is not the expensive option."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A newcomer is meeting with an employment counsellor at a settlement agency.",
+    "sp": {
+     "A": {
+      "name": "Counsellor",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Newcomer",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "So, Tariq, you were an electrical engineer in your home country for eleven years. That’s great experience. Let’s talk about how to get it recognized here."
+       ],
+       [
+        "B",
+        "Yes. I’ve applied for many engineering jobs, but nobody calls me back."
+       ],
+       [
+        "A",
+        "That’s very common, unfortunately. In Canada, engineering is a regulated profession. You can’t call yourself a professional engineer without a licence from the provincial engineering association. Employers often filter out applications from people who aren’t licensed, or at least on the way."
+       ],
+       [
+        "B",
+        "How long does a licence take?"
+       ],
+       [
+        "A",
+        "It varies, but often one to two years. First, the association assesses your degree. If it’s from a recognized program, you might not need to write extra exams. You also need to pass an exam on professional practice and law, and show twelve months of Canadian engineering experience, under the supervision of a licensed engineer."
+       ],
+       [
+        "B",
+        "But how can I get Canadian experience if no one hires me without a licence?"
+       ],
+       [
+        "A",
+        "That’s the classic problem. There are a few routes. Many people start in related roles, like engineering technologist or project coordinator, which don’t require a licence. Those jobs often count towards the experience requirement if a licensed engineer supervises your work."
+       ],
+       [
+        "B",
+        "That makes sense. Is there any help with the cost? The fees are quite high."
+       ],
+       [
+        "A",
+        "There is a provincial bridging program for internationally trained engineers. It’s free for eligible newcomers, it includes a paid four-month work placement, and it covers the exam fees. The next intake is in September, and applications close at the end of June."
+       ],
+       [
+        "B",
+        "That sounds perfect. What do I need to apply?"
+       ],
+       [
+        "A",
+        "Your degree transcripts, which must be sent directly from your university, and proof of English at a certain level. Since you’ve just done a language test, you may already have that. Let’s also update your résumé to the Canadian format. Yours is five pages; we’ll aim for two."
+       ],
+       [
+        "B",
+        "Two pages? I’ll have to leave out a lot of projects."
+       ],
+       [
+        "A",
+        "Employers here often spend less than a minute on a first read, so we’ll keep the most relevant projects and put the rest on your professional networking profile. Also, take off your photo and date of birth. That’s standard practice in many countries, but here it isn’t expected."
+       ],
+       [
+        "B",
+        "I didn’t know that. Should I mention the licence process on the résumé?"
+       ],
+       [
+        "A",
+        "Yes. Once you’ve applied, add a line saying you’re in the process of licensing with the provincial association. It shows employers you’re on the way."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why might Tariq not be getting calls from employers?",
+        "o": [
+         "He does not yet have a professional licence.",
+         "His eleven years abroad are not enough experience.",
+         "His English test results are not high enough.",
+         "He is applying for the wrong positions."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "Employers often filter out applications from people who aren’t licensed",
+        "x": "The counsellor explains that employers often filter out applicants who are not licensed or on the way to a licence. His eleven years of experience is described as great, not limited."
+       },
+       {
+        "q": "What is required to become licensed?",
+        "o": [
+         "A degree from a Canadian engineering school",
+         "Five years of experience under a licensed engineer",
+         "Twelve months of supervised Canadian experience",
+         "A permanent job offer from a Canadian employer"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "show twelve months of Canadian engineering experience, under the supervision of a licensed engineer",
+        "x": "Licensing requires twelve months of Canadian experience supervised by a licensed engineer, plus a practice exam. A degree from a recognized program abroad can be accepted, so a Canadian degree is not required."
+       },
+       {
+        "q": "How does the counsellor suggest Tariq gain Canadian experience?",
+        "o": [
+         "By volunteering at an engineering firm overseas",
+         "By returning to university for a Canadian degree",
+         "By starting his own consulting business here",
+         "By taking related jobs that don’t need a licence"
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "Many people start in related roles, like engineering technologist or project coordinator",
+        "x": "She suggests starting in related roles such as technologist or project coordinator, which need no licence and can count as experience if supervised. Returning to university is never suggested."
+       },
+       {
+        "q": "What does the bridging program offer?",
+        "o": [
+         "A low-interest loan for tuition",
+         "Free training with a paid work placement",
+         "A guaranteed job after four months",
+         "A faster route to a full licence"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "it includes a paid four-month work placement, and it covers the exam fees",
+        "x": "The bridging program is free for eligible newcomers, includes a paid four-month work placement and covers exam fees. The four months refer to the placement, not a guaranteed job afterwards."
+       },
+       {
+        "q": "When must Tariq apply for the bridging program?",
+        "o": [
+         "In September",
+         "Within twelve months",
+         "By the end of June",
+         "After he receives his licence"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "applications close at the end of June",
+        "x": "Applications close at the end of June for the September intake. September is when the program starts, so applying then would be too late."
+       },
+       {
+        "q": "What does the counsellor say about Tariq’s résumé?",
+        "o": [
+         "It is too short for an engineer with his experience.",
+         "It is too long for what employers here expect.",
+         "It should be sent directly from his university.",
+         "It should include his photo and date of birth."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "Yours is five pages; we’ll aim for two",
+        "x": "His résumé is five pages and the counsellor wants two, the Canadian format. Transcripts, not the résumé, must come directly from the university, and the photo and birth date should be removed."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Bike shop owner",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Residents who buy an electric bicycle will soon be eligible for a rebate of up to six hundred dollars, under a new program announced by the city today."
+       ],
+       [
+        "A",
+        "The rebate covers twenty-five percent of the purchase price, up to the six-hundred-dollar limit, and applies only to bikes bought from local retailers. Residents with a household income under fifty thousand dollars can receive up to twelve hundred. The city says it has set aside enough money for about two thousand rebates in the first year, on a first-come, first-served basis."
+       ],
+       [
+        "A",
+        "The goal is to reduce short car trips. According to city data, almost half of all car trips in the city are under five kilometres, a distance that most people can easily cover on an e-bike, even in hilly areas."
+       ],
+       [
+        "A",
+        "Local bike shops say interest is already high. Gina Russo, who owns a shop on Queen Street, expects demand to jump."
+       ],
+       [
+        "B",
+        "We’re already getting calls. My only concern is supply. If two thousand people come in during the first month, we simply won’t have enough bikes in stock. I’d tell people not to panic-buy. The money isn’t going to vanish overnight."
+       ],
+       [
+        "B",
+        "And people should remember that the rebate only works at local shops. If they order online from another province, they won’t get a cent back."
+       ],
+       [
+        "A",
+        "Some critics argue that the rebate mainly benefits people who could already afford an e-bike, and that the money would be better spent on protected bike lanes. City officials respond that the program includes funding for one hundred new secure bike parking spaces at transit stations, and that both bikes and infrastructure are needed."
+       ],
+       [
+        "A",
+        "Applications open on the first of next month. Residents will need to submit a receipt and proof of address within sixty days of their purchase."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How much can most residents receive?",
+        "o": [
+         "Half of the price, up to $1,200 in total",
+         "A fixed $600 for any bike bought locally",
+         "A quarter of the price, up to $600",
+         "Up to $1,200 for any resident who applies"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "The rebate covers twenty-five percent of the purchase price, up to the six-hundred-dollar limit",
+        "x": "Most residents get twenty-five percent of the price, up to six hundred dollars. The $1,200 limit applies only to households with incomes under fifty thousand dollars, not to every resident."
+       },
+       {
+        "q": "Why does the city want to encourage e-bikes?",
+        "o": [
+         "To support the tourism industry",
+         "To replace short car trips",
+         "To reduce noise downtown",
+         "To help local bike shops"
+        ],
+        "a": 1,
+        "t": "main",
+        "ev": "The goal is to reduce short car trips",
+        "x": "The goal is to reduce short car trips, since almost half of car trips are under five kilometres. Local shops benefit from sales, but helping them is not the stated goal."
+       },
+       {
+        "q": "What is Gina Russo’s main concern?",
+        "o": [
+         "Many customers will not qualify for it.",
+         "The rebate is too small to matter.",
+         "People will buy their bikes online instead.",
+         "Shops may run short of bikes to sell."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "we simply won’t have enough bikes in stock",
+        "x": "Gina says that if two thousand people come in during the first month, shops won’t have enough bikes in stock. She mentions online orders only to remind people they would not qualify."
+       },
+       {
+        "q": "What does Gina Russo advise residents?",
+        "o": [
+         "Not to rush their purchase",
+         "To buy quickly before the money runs out",
+         "To wait for next year’s program",
+         "To order from large online stores"
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I’d tell people not to panic-buy",
+        "x": "Gina tells people not to panic-buy because the money is not going to vanish overnight. Buying quickly before funds run out is exactly the panic-buying she warns against."
+       },
+       {
+        "q": "How do city officials respond to critics?",
+        "o": [
+         "They plan to replace the rebate with bike lanes.",
+         "They say protected bike lanes are too expensive.",
+         "They admit the program mainly helps the rich.",
+         "They point to investment in bike parking as well."
+        ],
+        "a": 3,
+        "t": "viewpoint",
+        "ev": "the program includes funding for one hundred new secure bike parking spaces at transit stations",
+        "x": "Officials answer that the program also funds one hundred secure bike parking spaces at transit stations and that bikes and infrastructure are both needed. They do not concede that it favours the wealthy."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three siblings are discussing the family cottage.",
+    "sp": {
+     "A": {
+      "name": "Hannah",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Mark",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1
+     },
+     "C": {
+      "name": "Elise",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, we need to talk about the cottage. Since Dad passed, it’s been sitting empty most of the year, and the property taxes and insurance alone are almost nine thousand dollars a year. Plus the roof needs replacing."
+       ],
+       [
+        "B",
+        "I think we should sell it. I live in Calgary, so I get there maybe one week a year. It doesn’t make sense for me to pay a third of the costs for one week."
+       ],
+       [
+        "C",
+        "I understand that, Mark. But that cottage is where we spent every summer growing up. My kids learned to swim in that lake. Selling it would feel like losing Dad all over again."
+       ],
+       [
+        "B",
+        "I’m not saying it’s easy. I’m saying it’s expensive, and the roof alone is going to be fifteen thousand."
+       ],
+       [
+        "A",
+        "Could we do the roof in stages? The contractor said the back section is the worst."
+       ],
+       [
+        "B",
+        "He also said doing it in stages would cost about twenty percent more overall. I asked."
+       ],
+       [
+        "A",
+        "What if we rented it out? Cottages on that lake rent for about two thousand a week in summer. Even ten weeks would cover the taxes, insurance and part of the roof."
+       ],
+       [
+        "C",
+        "Strangers in Dad’s cottage? I don’t love that idea."
+       ],
+       [
+        "A",
+        "I don’t love it either. But it might be the difference between keeping it and losing it."
+       ],
+       [
+        "B",
+        "Renting also means someone has to manage it. Cleaning, keys, repairs. That’s not something I can do from Calgary."
+       ],
+       [
+        "C",
+        "I live forty minutes away. I could manage it, at least for the first summer. If it’s too much, we could hire a property manager. They take about twenty percent."
+       ],
+       [
+        "B",
+        "Twenty percent of twenty thousand is four thousand. That’s a big bite."
+       ],
+       [
+        "A",
+        "It is, but we’d still come out ahead, as long as we actually rent most of those ten weeks. The first summer, nobody knows the place."
+       ],
+       [
+        "C",
+        "Then we price it a little lower to start and ask the first renters for reviews. That’s how my neighbour did it."
+       ],
+       [
+        "B",
+        "Okay. If Elise is willing to manage it, I’m open to trying it for one season. But I want to set a clear review point. If after one summer we’re still losing money, we sell."
+       ],
+       [
+        "A",
+        "That seems fair. And what about the time we use it ourselves?"
+       ],
+       [
+        "C",
+        "We keep two weeks in July for the family, like always. That’s non-negotiable for me."
+       ],
+       [
+        "A",
+        "Of course. Dad would have wanted that."
+       ],
+       [
+        "B",
+        "Fine. And one more thing: if one of us wants to buy the others out at some point, we should get it appraised so it’s fair."
+       ],
+       [
+        "A",
+        "Agreed. So: rent it out for the rest of the summer, Elise manages it, we keep two weeks in July, and we review in October."
+       ],
+       [
+        "C",
+        "And I’ll take photos this weekend, before the leaves start falling. Good pictures make a huge difference, and I’ll write a short guide to the lake for guests."
+       ],
+       [
+        "B",
+        "Just don’t promise anyone the dock. It needs a few new boards before anyone walks on it."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Mark want to sell the cottage?",
+        "o": [
+         "He needs his share of the money right away.",
+         "He no longer enjoys spending time at the lake.",
+         "He pays a full share but barely uses it.",
+         "The roof is too damaged to be worth repairing."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "It doesn’t make sense for me to pay a third of the costs for one week",
+        "x": "Mark lives in Calgary, visits about one week a year, and says paying a third of the costs makes no sense. He complains the roof is expensive, not that it cannot be repaired."
+       },
+       {
+        "q": "Why is Elise against selling?",
+        "o": [
+         "She hopes to retire there one day.",
+         "It has strong emotional value for her.",
+         "She expects its value to keep rising.",
+         "Her children want to learn to swim there."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "Selling it would feel like losing Dad all over again",
+        "x": "Elise says selling would feel like losing Dad all over again, showing emotional attachment. Her kids already learned to swim in the lake; that is a memory, not a future plan."
+       },
+       {
+        "q": "Why does Hannah suggest renting it out?",
+        "o": [
+         "To find a buyer among the renters",
+         "To raise its value before a sale",
+         "To give Elise a summer job",
+         "To cover the costs and help keep it"
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "it might be the difference between keeping it and losing it",
+        "x": "Hannah says ten weeks of rent would cover taxes, insurance and part of the roof, which might be the difference between keeping and losing it. She does not suggest renting as preparation for a sale."
+       },
+       {
+        "q": "What is Mark’s concern about renting?",
+        "o": [
+         "Someone nearby would need to run it day to day.",
+         "Renters might damage Dad’s old furniture.",
+         "Renting is not allowed by the lake association.",
+         "It would not earn enough to cover the roof."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Renting also means someone has to manage it",
+        "x": "Mark says renting means someone has to manage cleaning, keys and repairs, which he cannot do from Calgary. It is Elise, not Mark, who dislikes strangers in the cottage, and furniture is never mentioned."
+       },
+       {
+        "q": "What does Elise offer to do?",
+        "o": [
+         "Buy the cottage from her siblings",
+         "Pay for the new roof herself",
+         "Manage the rental herself at first",
+         "Hire a property manager now"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "I could manage it, at least for the first summer",
+        "x": "Elise lives forty minutes away and offers to manage it, at least for the first summer. A property manager is only a fallback if managing it becomes too much."
+       },
+       {
+        "q": "What condition does Mark set?",
+        "o": [
+         "They sell if renting still loses money after one season.",
+         "The cottage must be sold within a year regardless of profit.",
+         "He must get the cottage for two weeks every August.",
+         "Elise must pay for any repairs out of her own share."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "If after one summer we’re still losing money, we sell",
+        "x": "Mark agrees to try renting for one season but insists they sell if they are still losing money after one summer. He sets no automatic one-year sale and makes no request for August."
+       },
+       {
+        "q": "What is Elise unwilling to give up?",
+        "o": [
+         "Managing the cottage for the first summer",
+         "Two weeks of family time in July",
+         "Her father’s old furniture",
+         "Keeping strangers out of the cottage"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "We keep two weeks in July for the family, like always. That’s non-negotiable for me.",
+        "x": "Elise says keeping two family weeks in July is non-negotiable. She dislikes having strangers there but accepts renting, and she offers to manage it rather than insisting on it."
+       },
+       {
+        "q": "Why does Mark want an appraisal if one sibling buys out the others?",
+        "o": [
+         "To increase the rent",
+         "To satisfy the bank",
+         "To lower the property taxes",
+         "To ensure a fair price"
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "we should get it appraised so it’s fair",
+        "x": "Mark says that if one sibling buys out the others, they should get an appraisal so the price is fair. Taxes and rent are discussed, but not as reasons for an appraisal."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about daylight saving time.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Sleep researcher",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Twice a year, most Canadians change their clocks, and twice a year, the same debate returns: should we stop? Several provinces have passed laws to adopt permanent daylight saving time, but most have made the change conditional on neighbouring provinces and U.S. states doing the same, so for now, the clocks keep changing."
+       ],
+       [
+        "A",
+        "Nearly everyone agrees that switching back and forth is a problem. Studies have found small increases in car accidents and heart attacks in the days after the spring change, when people lose an hour of sleep. The real disagreement is about which time to keep."
+       ],
+       [
+        "A",
+        "Some insurance companies also report a rise in claims during the same week, although the effect fades quickly."
+       ],
+       [
+        "A",
+        "Many politicians and business groups favour permanent daylight time, meaning brighter evenings all year. They argue that people would shop, exercise and socialize more after work, and that evening traffic would be safer. But many sleep scientists strongly prefer the opposite: permanent standard time."
+       ],
+       [
+        "B",
+        "Our bodies set their internal clocks mainly from morning light. With permanent daylight time, in parts of Canada the sun wouldn’t rise until after nine thirty in December. Children would be going to school in the dark for months. Over time, that mismatch is linked to poorer sleep, lower mood and worse concentration."
+       ],
+       [
+        "B",
+        "And it isn’t only children. Shift workers and people in the western part of each time zone would be hit hardest, because their sunrise is already later."
+       ],
+       [
+        "A",
+        "She adds that most medical associations that have taken a position have backed permanent standard time."
+       ],
+       [
+        "A",
+        "Supporters of daylight time say those dark mornings would affect only a few months of the year, and that people adapt. Some point out that when the United States tried year-round daylight time in the nineteen seventies, it was popular at first but was abandoned within a year, largely because of complaints about dark winter mornings."
+       ],
+       [
+        "A",
+        "Business groups also note that retailers and restaurants report higher sales on bright evenings, and that outdoor sports leagues could schedule more games after work."
+       ],
+       [
+        "A",
+        "For now, any change seems unlikely without coordination across North America. In the meantime, sleep experts recommend going to bed fifteen minutes earlier for a few nights before the spring change."
+       ],
+       [
+        "A",
+        "Some provinces have also discussed simply staying on standard time all year, which would not require any neighbour’s approval, but so far none has moved ahead with that option."
+       ],
+       [
+        "A",
+        "Polls suggest most Canadians want to stop changing the clocks for good, but they are almost evenly split on which time to keep."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why have most provinces not yet stopped changing clocks?",
+        "o": [
+         "Voters rejected the laws in provincial referendums.",
+         "Business groups lobbied against permanent daylight time.",
+         "Their laws only take effect if neighbours also change.",
+         "Sleep scientists asked them to wait for more studies."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "most have made the change conditional on neighbouring provinces and U.S. states doing the same",
+        "x": "Most provinces made the change conditional on neighbouring provinces and U.S. states doing the same, so clocks still change. Business groups actually favour permanent daylight time rather than opposing it."
+       },
+       {
+        "q": "What do most people agree on?",
+        "o": [
+         "Daylight time should be made permanent everywhere.",
+         "Standard time is healthier for most children.",
+         "The spring change causes no real health effects.",
+         "Moving the clocks back and forth is harmful."
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "Nearly everyone agrees that switching back and forth is a problem",
+        "x": "The reporter says nearly everyone agrees switching back and forth is a problem; the disagreement is about which time to keep. So permanent daylight time is disputed, not agreed on."
+       },
+       {
+        "q": "Why do business groups prefer permanent daylight time?",
+        "o": [
+         "It would cut energy costs for stores and offices.",
+         "People would be more active in the evenings.",
+         "Mornings would be brighter for commuters.",
+         "It would match the time used in U.S. states."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "people would shop, exercise and socialize more after work",
+        "x": "Supporters say brighter evenings would lead people to shop, exercise and socialize more after work. Brighter mornings are what permanent standard time offers, the option sleep scientists prefer."
+       },
+       {
+        "q": "What is the sleep researcher’s main concern about permanent daylight time?",
+        "o": [
+         "Late winter sunrises would hurt sleep, mood and focus.",
+         "Bright evenings would keep people awake too late at night.",
+         "Schools would have to start much later in the winter.",
+         "It would increase car accidents during dark evening drives."
+        ],
+        "a": 0,
+        "t": "viewpoint",
+        "ev": "With permanent daylight time, in parts of Canada the sun wouldn’t rise until after nine thirty in December",
+        "x": "The researcher says the body sets its clock from morning light, and December sunrises after nine-thirty would harm sleep, mood and concentration. She never complains about bright evenings."
+       },
+       {
+        "q": "Why does the reporter mention the United States in the 1970s?",
+        "o": [
+         "To prove that permanent daylight time stays popular over time",
+         "To explain how daylight time first started in North America",
+         "To show a past trial of the idea that was soon dropped",
+         "To compare American and Canadian attitudes toward the clocks"
+        ],
+        "a": 2,
+        "t": "purpose",
+        "ev": "it was popular at first but was abandoned within a year",
+        "x": "The U.S. tried year-round daylight time in the 1970s; it was popular at first but abandoned within a year because of dark winter mornings. So it does not prove the idea stays popular."
+       },
+       {
+        "q": "What do sleep experts recommend?",
+        "o": [
+         "Avoiding driving for a few days after the change",
+         "Shifting bedtime earlier for a few nights in advance",
+         "Sleeping an extra hour on the night of the fall change",
+         "Using bright lights in the evenings before the change"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "going to bed fifteen minutes earlier for a few nights before the spring change",
+        "x": "Sleep experts recommend going to bed fifteen minutes earlier for a few nights before the spring change. Car accidents are mentioned as a risk, but avoiding driving is not recommended."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Deborah Kwan, Director of Operations, Northwind Logistics  |  To: Mr. Emmanuel Osei  |  Subject: Offer of employment – Warehouse Supervisor",
+   "text": "Dear Mr. Osei,\n\nThank you for taking the time to meet with our team last week. I am delighted to offer you the position of Warehouse Supervisor at our Mississauga distribution centre, reporting to me.\n\nThe position is full-time and permanent, with an annual salary of $68,500. You will be eligible for our group health and dental benefits after three months of employment, and you will receive three weeks of paid vacation in your first year. As discussed, the role involves supervising a team of fourteen on the evening shift, from 3:00 p.m. to 11:30 p.m., Monday to Friday. For working evenings, you will receive an additional shift premium of $1.50 per hour. Your team includes two lead hands who have been with us for several years and will be a great support as you settle in.\n\nDuring your interview, you asked about the possibility of moving to the day shift. While I cannot promise a specific date, we expect a day supervisor position to open within the next year as part of our expansion, and internal candidates are always considered first.\n\nWe would like you to start on Monday, March 3. Your first week will be spent on the day shift, shadowing our current day supervisor, so that you can learn our systems and meet the management team. You will also need to complete forklift safety certification, which we provide on site at no cost during your first month. Staff parking is free, and the centre is a ten-minute walk from the Northgate bus terminal.\n\nThis offer is conditional on a satisfactory background check and verification of your references. Please sign and return the attached contract by February 14. If you have any questions about the terms, do not hesitate to contact me directly.\n\nWe are very pleased to welcome you to the Northwind team.\n\nSincerely,\nDeborah Kwan",
+   "qs": [
+    {
+     "q": "What is the main purpose of the letter?",
+     "o": [
+      "To invite Mr. Osei to an interview",
+      "To confirm his promotion to supervisor",
+      "To ask for his references",
+      "To formally offer Mr. Osei a job"
+     ],
+     "a": 3,
+     "t": "main",
+     "ev": "I am delighted to offer you the position of Warehouse Supervisor",
+     "x": "Ms. Kwan writes after the interview to offer Mr. Osei the Warehouse Supervisor position and asks him to sign the contract. He is a new hire, so it is not a promotion."
+    },
+    {
+     "q": "When will Mr. Osei start receiving benefits?",
+     "o": [
+      "On his first day",
+      "After his first week",
+      "After three months",
+      "After one year"
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "eligible for our group health and dental benefits after three months of employment",
+     "x": "Benefits begin after three months of employment. One year is mentioned only for his first-year vacation and for when a day position might open, not for benefits."
+    },
+    {
+     "q": "Why will Mr. Osei receive extra pay?",
+     "o": [
+      "For working in the evening",
+      "For supervising a large team",
+      "For working overtime",
+      "For having forklift certification"
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "For working evenings, you will receive an additional shift premium of $1.50 per hour",
+     "x": "He receives a $1.50 per hour shift premium for working evenings. Forklift certification is something he must complete in his first month, not a reason for extra pay."
+    },
+    {
+     "q": "What does Ms. Kwan suggest about a day shift position?",
+     "o": [
+      "It is guaranteed to him within the next year.",
+      "It will open only after his first year of work.",
+      "One may open, with priority for current staff.",
+      "It will be offered first to outside candidates."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "internal candidates are always considered first",
+     "x": "She expects a day supervisor position to open within a year and says internal candidates are always considered first, but she cannot promise a date. So it is not guaranteed."
+    },
+    {
+     "q": "Why will Mr. Osei work days during his first week?",
+     "o": [
+      "Because the evening team is fully staffed",
+      "To learn how things work by watching a colleague",
+      "To complete his background check",
+      "To take the forklift safety course on site"
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "shadowing our current day supervisor, so that you can learn our systems",
+     "x": "His first week on days is for shadowing the current day supervisor to learn the systems and meet managers. Forklift certification can be completed at any time during his first month."
+    },
+    {
+     "q": "What must happen before the offer becomes final?",
+     "o": [
+      "He must pass the forklift safety certification.",
+      "He must complete three months of probation first.",
+      "He must meet the management team.",
+      "Checks on his history and referees must go well."
+     ],
+     "a": 3,
+     "t": "detail",
+     "ev": "This offer is conditional on a satisfactory background check and verification of your references",
+     "x": "The offer is conditional on a satisfactory background check and reference verification. Forklift certification is training he completes after starting, and three months is when his benefits begin."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Mr. Osei’s reply. Complete it by choosing the best option for each blank.",
+    "text": "Dear Ms. Kwan,\n\nThank you very much for the offer. I am pleased to accept the position of Warehouse Supervisor and will return the signed contract well before {1}.\n\nI appreciate the information about a possible {2} position. As I mentioned, my children are young, so I would be very interested when it opens. In the meantime, I look forward to leading the {3} team.\n\nI am glad to hear that the {4} will be provided on site; my previous certificate expired last year. I was also glad to read that I will spend my first week on the day shift, as it will be a good chance to meet the management team. I have already contacted my references, and they are expecting a call.\n\nI look forward to starting on {5}.\n\nKind regards,\nEmmanuel Osei",
+    "blanks": [
+     {
+      "o": [
+       "March 3",
+       "my first week",
+       "the end of my first month",
+       "February 14"
+      ],
+      "a": 3,
+      "t": "detail",
+      "ev": "Please sign and return the attached contract by February 14",
+      "x": "Ms. Kwan asks him to sign and return the contract by February 14. March 3 is his start date, which comes after the contract deadline."
+     },
+     {
+      "o": [
+       "management",
+       "day supervisor",
+       "evening supervisor",
+       "forklift"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "we expect a day supervisor position to open within the next year",
+      "x": "Ms. Kwan mentions a day supervisor position expected to open within a year, and Emmanuel says his young children make days attractive. He already has the evening supervisor role."
+     },
+     {
+      "o": [
+       "day",
+       "weekend",
+       "management",
+       "evening"
+      ],
+      "a": 3,
+      "t": "detail",
+      "ev": "supervising a team of fourteen on the evening shift",
+      "x": "Emmanuel will supervise a team of fourteen on the evening shift. His first week is spent on days, but the team he will lead is the evening team."
+     },
+     {
+      "o": [
+       "forklift safety certification",
+       "group health and dental benefits",
+       "background check and references",
+       "evening shift premium payment"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "complete forklift safety certification, which we provide on site",
+      "x": "The letter says forklift safety certification is provided on site at no cost, and Emmanuel adds that his old certificate expired. Benefits are offered too, but they are not provided “on site.”"
+     },
+     {
+      "o": [
+       "February 14",
+       "Monday, March 3",
+       "Friday, March 7",
+       "the first of the month"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "We would like you to start on Monday, March 3",
+      "x": "Ms. Kwan would like him to start on Monday, March 3, beginning with a week on the day shift. February 14 is the contract deadline, not his first day."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Maple Hills Summer Day Camps – July & August",
+    "intro": "Camps run Monday to Friday, 9:00 a.m.–4:00 p.m. Extended care (8:00–9:00 a.m. and 4:00–5:30 p.m.) costs $40 per week. Sibling discount: 10% off each additional child.",
+    "table": {
+     "cols": [
+      "Camp",
+      "Ages",
+      "Weekly fee",
+      "Notes"
+     ],
+     "rows": [
+      [
+       "Little Explorers",
+       "4–6",
+       "$210",
+       "Includes daily nap/quiet time; bring indoor shoes"
+      ],
+      [
+       "Sports Mix",
+       "7–12",
+       "$230",
+       "Swimming twice a week; swimmers must pass a test on day 1"
+      ],
+      [
+       "Art Studio",
+       "6–12",
+       "$245",
+       "All materials included; no camp on the week of August 4"
+      ],
+      [
+       "Code & Create",
+       "9–14",
+       "$280",
+       "Laptops provided; maximum 12 campers"
+      ],
+      [
+       "Leaders in Training",
+       "14–15",
+       "$150",
+       "Assist counsellors; earn 30 volunteer hours"
+      ]
+     ]
+    },
+    "notes": [
+     "Lunch is not provided; campers must bring a nut-free lunch.",
+     "Full refund if cancelled 14 days before the camp week; 50% refund after that."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email. Complete it by choosing the best option for each blank.",
+    "text": "Hi Teresa,\n\nI’ve signed up the kids for summer camp at Maple Hills! Noah is eight and loves soccer, so he’s in {1}. I warned him he’ll need to do a swim test on the first day. Lily is five, so she’s in Little Explorers, and I need to remember to pack her {2}.\n\nSince I work until five, I’m adding extended care for both of them. For Lily, with the sibling discount, the camp fee alone is {3} a week.\n\nYour daughter is fourteen, isn’t she? She could do {4} and earn volunteer hours for school. It’s also the cheapest option.\n\nOne reminder: camp lunches must be {5}.\n\nTalk soon,\nMegan",
+    "blanks": [
+     {
+      "o": [
+       "Little Explorers",
+       "Sports Mix",
+       "Art Studio",
+       "Code & Create"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Sports Mix",
+      "x": "Noah is eight and loves soccer, and Sports Mix is for ages 7–12 with a swim test on day one. Code & Create starts at age nine, so he is too young for it."
+     },
+     {
+      "o": [
+       "swimming goggles",
+       "indoor shoes",
+       "laptop",
+       "art supplies"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "bring indoor shoes",
+      "x": "Little Explorers campers must bring indoor shoes. Swimming is part of Sports Mix, and art materials are included at Art Studio, so neither applies to Lily’s camp."
+     },
+     {
+      "o": [
+       "$189",
+       "$207",
+       "$210",
+       "$230"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "Sibling discount: 10% off each additional child",
+      "x": "Lily’s Little Explorers fee is $210, and the sibling discount takes 10% off, giving $189. $207 wrongly takes 10% off Noah’s $230 Sports Mix fee instead."
+     },
+     {
+      "o": [
+       "Art Studio",
+       "Code & Create",
+       "Leaders in Training",
+       "Sports Mix"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Leaders in Training",
+      "x": "Leaders in Training is for ages 14–15, earns thirty volunteer hours and costs $150, the cheapest. Code & Create also accepts fourteen-year-olds but costs $280 and gives no volunteer hours."
+     },
+     {
+      "o": [
+       "provided by the camp",
+       "vegetarian",
+       "paid in advance",
+       "nut-free"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "campers must bring a nut-free lunch",
+      "x": "Lunch is not provided, and campers must bring a nut-free lunch. “Provided by the camp” directly contradicts the note, and nothing requires vegetarian meals."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "Which camp is unavailable for one week in August?",
+     "o": [
+      "Art Studio",
+      "Sports Mix",
+      "Code & Create",
+      "Little Explorers"
+     ],
+     "a": 0,
+     "t": "diagram",
+     "ev": "no camp on the week of August 4",
+     "x": "The Art Studio notes say there is no camp on the week of August 4. None of the other camps lists a week without sessions, so they run all summer."
+    },
+    {
+     "q": "A parent cancels a week of Code & Create 7 days before it starts. How much is refunded?",
+     "o": [
+      "$0",
+      "$40",
+      "$140",
+      "$280"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Full refund if cancelled 14 days before the camp week; 50% refund after that.",
+     "x": "Cancelling seven days before is less than fourteen days, so only 50% of the $280 fee, $140, is refunded. A full $280 refund requires at least fourteen days’ notice."
+    },
+    {
+     "q": "Which camp is suitable for a 13-year-old interested in technology?",
+     "o": [
+      "Art Studio",
+      "Sports Mix",
+      "Code & Create",
+      "Leaders in Training"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "9–14",
+     "x": "Code & Create covers ages 9–14 and provides laptops, so it suits a 13-year-old who likes technology. Leaders in Training is only for ages 14–15."
+    }
+   ]
+  },
+  "p3": {
+   "title": "The End of the Drive-Through?",
+   "paras": [
+    "For decades, the drive-through has been a symbol of North American convenience. Customers can order coffee, burgers or even prescriptions without leaving their cars. During the pandemic, drive-throughs became more popular than ever, and many restaurants added second lanes to handle the demand. Chains redesigned their buildings around them, and some new locations opened with no indoor seating at all. Banks, pharmacies and even some dry cleaners have offered drive-through service too. For many commuters, picking up breakfast without leaving the car became part of the daily routine.",
+    "Yet a growing number of municipalities are now restricting new drive-throughs. Some have banned them in downtown areas or near schools, while others require a special permit and a traffic study before one can be built. Supporters of the restrictions point to idling cars, which produce emissions while waiting, and to long lines that spill onto streets and block sidewalks and bike lanes. In one Ontario city, police were called repeatedly to a coffee shop whose drive-through queue regularly backed up onto a major road. Neighbours have also complained about noise from ordering speakers late at night.",
+    "Restaurant owners argue that the rules ignore the needs of some customers. Parents with young children in car seats, people with disabilities and seniors with limited mobility often rely on drive-throughs. Some owners also note that drive-through sales can make up more than half of a fast-food restaurant’s revenue, so a ban can make a new location unprofitable. They also point out that drive-through customers are often in a hurry and would simply go elsewhere rather than park and walk in. A few owners have even offered to pay for traffic studies themselves if it means their projects can go ahead.",
+    "Planners are experimenting with compromises. Some new restaurants use pickup windows for orders placed in advance through an app, which shortens lines and reduces idling. Others are designed so that cars wait in a lane on the restaurant’s own property, well away from the street. Several cities now allow existing drive-throughs to continue but require any new ones to include space for at least twelve cars. Some planners argue that, in the long run, better transit and walkable neighbourhoods will reduce demand for drive-throughs on their own. Others doubt this will happen quickly."
+   ],
+   "qs": [
+    {
+     "q": "Drive-throughs became busier during a public health crisis.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "During the pandemic, drive-throughs became more popular than ever",
+     "x": "Paragraph A says drive-throughs became more popular than ever during the pandemic, and many restaurants added second lanes to meet demand."
+    },
+    {
+     "q": "Some cities require studies before allowing a new drive-through.",
+     "a": "B",
+     "t": "detail",
+     "ev": "require a special permit and a traffic study before one can be built",
+     "x": "Paragraph B says some municipalities require a special permit and a traffic study before a new drive-through can be built."
+    },
+    {
+     "q": "Drive-throughs can be important for customers who have difficulty getting around.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "people with disabilities and seniors with limited mobility often rely on drive-throughs",
+     "x": "Paragraph C says people with disabilities and seniors with limited mobility often rely on drive-throughs."
+    },
+    {
+     "q": "Ordering ahead can help reduce waiting times.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "pickup windows for orders placed in advance through an app, which shortens lines",
+     "x": "Paragraph D describes pickup windows for orders placed in advance through an app, which shortens lines and reduces idling."
+    },
+    {
+     "q": "A line of cars once caused repeated problems on a busy road.",
+     "a": "B",
+     "t": "detail",
+     "ev": "police were called repeatedly to a coffee shop whose drive-through queue regularly backed up onto a major road",
+     "x": "Paragraph B describes police being called repeatedly to a coffee shop whose drive-through line backed up onto a major road."
+    },
+    {
+     "q": "Drive-through customers spend more money per order than customers inside.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph C mentions drive-throughs’ share of total revenue, but never compares how much drive-through customers spend per order, so the answer is E."
+    },
+    {
+     "q": "Losing drive-through sales could make opening a restaurant financially difficult.",
+     "a": "C",
+     "t": "inference",
+     "ev": "a ban can make a new location unprofitable",
+     "x": "Paragraph C notes drive-through sales can exceed half of revenue, so a ban can make a new location unprofitable."
+    },
+    {
+     "q": "New rules in some places set a minimum amount of waiting space.",
+     "a": "D",
+     "t": "detail",
+     "ev": "require any new ones to include space for at least twelve cars",
+     "x": "Paragraph D says several cities require new drive-throughs to include waiting space for at least twelve cars."
+    },
+    {
+     "q": "Electric cars have reduced concerns about idling.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Idling and emissions are discussed in Paragraph B, but electric cars are never mentioned, so the statement is not given (E)."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Let Them Walk",
+   "byline": "Opinion | by Carmen Ruiz, parent and journalist",
+   "text": "When I was nine, I walked one kilometre to school every day with my younger brother. Nobody thought anything of it. Today, in my neighbourhood, I almost never see children walking alone. Every morning, the street outside our elementary school is jammed with cars, idling and double-parked, as parents drop off children who live, in many cases, a few blocks away.\n\nI understand the instinct. We have all heard frightening stories, and no parent wants to take a risk with their child’s safety. But the data tells a different story from the one we imagine. Crimes against children by strangers are extremely rare, and have not increased over the past several decades. The greatest danger to children walking to school is traffic, and the heaviest traffic around schools is, ironically, created by parents driving their children. In one survey, most parents said they would let their children walk if other children on the street did too, which suggests the problem is partly one of habit.\n\nMeanwhile, the costs of driving everywhere are real. Children who walk or bike to school are more physically active, and studies suggest they arrive more alert and ready to learn. Fewer cars at the school gate also means cleaner air for the children who are already walking. Walking alone also builds independence and judgment, skills that cannot be learned from the back seat of a car. A child who has navigated their own route, crossed streets carefully and dealt with small problems arrives at adolescence far better prepared than one who has never been unsupervised.\n\nThis is not to say that every child should be sent out the door on their own. Age, maturity, distance and the safety of the route all matter. A seven-year-old crossing a four-lane road is not the same as a ten-year-old walking three quiet blocks. Parents can start gradually: walk together for a few weeks, then let the child walk the last block alone, and expand from there. Walking with a friend or a group of neighbourhood children adds both safety and fun.\n\nSchools and cities have a role too. Crossing guards, lower speed limits near schools and “school streets,” where cars are banned at drop-off and pick-up times, make walking safer for everyone. Some schools organize “walking school buses,” in which a parent volunteer walks a set route and children join along the way. In a few communities, shops along popular routes have even put stickers in their windows to show children they can stop in if they need help.\n\nOur children are more capable than we often give them credit for. Let’s give them back the walk to school.",
+   "qs": [
+    {
+     "q": "What is the writer’s main argument?",
+     "o": [
+      "Schools should run buses for every child so parents can stop driving.",
+      "Children under ten should never walk to school without an adult.",
+      "More children should walk to school, with sensible precautions.",
+      "Parents should stop driving their children anywhere at all."
+     ],
+     "a": 2,
+     "t": "main",
+     "ev": "Let’s give them back the walk to school",
+     "x": "Carmen argues children should be given back the walk to school, starting gradually and considering age and route. She does not want every child sent out alone or parents to stop driving entirely."
+    },
+    {
+     "q": "According to the writer, what is the biggest danger for children walking to school?",
+     "o": [
+      "Traffic",
+      "Strangers",
+      "Bad weather",
+      "Getting lost"
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "The greatest danger to children walking to school is traffic",
+     "x": "She says the greatest danger to children walking is traffic, much of it created by parents driving. Crimes by strangers are described as extremely rare and not increasing."
+    },
+    {
+     "q": "What irony does the writer point out?",
+     "o": [
+      "Children would rather be driven than walk.",
+      "Schools themselves discourage children from walking.",
+      "The safest route is often the longest one.",
+      "Drop-offs by parents create the biggest risk."
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "the heaviest traffic around schools is, ironically, created by parents driving their children",
+     "x": "She notes that the heaviest traffic around schools, the greatest danger, is created by parents driving their own children. Nothing says schools discourage walking or that children prefer being driven."
+    },
+    {
+     "q": "Why does the writer compare a seven-year-old and a ten-year-old?",
+     "o": [
+      "To argue that older children are more responsible",
+      "To show that age and route conditions matter",
+      "To criticize parents of young children",
+      "To explain the rules set by schools"
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "Age, maturity, distance and the safety of the route all matter",
+     "x": "The comparison follows her point that age, maturity, distance and route safety all matter. She is not criticizing parents of young children; she says not every child should go alone."
+    },
+    {
+     "q": "What is a “walking school bus”?",
+     "o": [
+      "Children joining an adult who walks a fixed route",
+      "A school bus that stops close to children’s homes",
+      "A school program that teaches children road safety",
+      "A street that is closed to cars at drop-off time"
+     ],
+     "a": 0,
+     "t": "vocab",
+     "ev": "a parent volunteer walks a set route and children join along the way",
+     "x": "In a walking school bus, a parent volunteer walks a set route and children join along the way. A street closed to cars at drop-off is a “school street,” a different idea."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a reader’s comment. Complete it by choosing the best option for each blank.",
+    "text": "I agree with Ms. Ruiz in principle, but she {1} how difficult this is in many suburbs. In my area, there are no sidewalks on half the streets, and the nearest school is across a highway with a speed limit of 70 km/h. No responsible parent would let a child {2} that alone.\n\nHer suggestion of “school streets” is a good one, though, and I wish our city would {3} it. We tried a walking school bus last year, but it {4} because we couldn’t find enough parent volunteers who were free at 8 a.m.\n\nI think the real problem is that our neighbourhoods were {5} cars, not people. Until that changes, many families will have no choice but to drive.\n\n– Kwame, Brampton",
+    "blanks": [
+     {
+      "o": [
+       "overestimates",
+       "underestimates",
+       "ignores completely",
+       "exaggerates"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "Age, maturity, distance and the safety of the route all matter",
+      "x": "Kwame agrees in principle but says she underestimates how hard walking is in suburbs without sidewalks. She does mention route safety, so “ignores completely” is too strong."
+     },
+     {
+      "o": [
+       "drive",
+       "avoid",
+       "cross",
+       "build"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "A seven-year-old crossing a four-lane road",
+      "x": "The school is across a 70 km/h highway, so no parent would let a child cross it alone. This echoes Carmen’s own example of a seven-year-old crossing a four-lane road."
+     },
+     {
+      "o": [
+       "ban",
+       "try",
+       "criticize",
+       "cancel"
+      ],
+      "a": 1,
+      "t": "vocab",
+      "ev": "school streets",
+      "x": "Kwame calls school streets a good idea and wishes his city would try them. “Ban” or “cancel” would contradict his approval of the idea."
+     },
+     {
+      "o": [
+       "failed",
+       "succeeded",
+       "expanded",
+       "started"
+      ],
+      "a": 0,
+      "t": "inference",
+      "ev": "Some schools organize “walking school buses,”",
+      "x": "The walking school bus stopped because they couldn’t find enough volunteers free at 8 a.m., so it failed. “Succeeded” or “expanded” contradicts the lack of volunteers he describes."
+     },
+     {
+      "o": [
+       "free of",
+       "protected from",
+       "unsafe for",
+       "designed for"
+      ],
+      "a": 3,
+      "t": "coherence",
+      "ev": "Every morning, the street outside our elementary school is jammed with cars",
+      "x": "Kwame says neighbourhoods were built around cars rather than people, which explains the missing sidewalks. “Free of” or “protected from” cars contradicts the highways and car-dependence he describes."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "While you were sick for a week, a co-worker took over your part of an important project and finished it on time. You have just returned to work.",
+   "bullets": [
+    "Thank your co-worker and explain why their help was important",
+    "Describe what you heard about the project’s result",
+    "Offer to do something in return"
+   ],
+   "model": "Hi Sophie,\n\nNow that I’m back and feeling much better, I wanted to thank you for everything you did while I was off sick last week. I know you already had a full schedule, and taking over my part of the Henderson proposal on top of it must have meant some very long days.\n\nYour help was more important than you might realize. If the proposal had been late, we would have missed the client’s deadline, and the whole team’s work over the past two months would have been wasted. When I left, the budget section was only half finished, and I was worried about it.\n\nThis morning, Daniel told me that the client was impressed, especially with the cost comparison table you added. Apparently, they have asked us to present the next phase in March, which is fantastic news for the department.\n\nI would love to return the favour. I know you have the quarterly report due at the end of the month, so I would be happy to take on the data analysis for it. And at the very least, please let me treat you to lunch this Friday at that Thai place you like.\n\nThanks again,\nMaya"
+  },
+  "t2": {
+   "intro": "Your city is planning its Canada Day celebration and can afford only one evening event.",
+   "question": "Which option do you prefer?",
+   "a": "A traditional fireworks display over the river.",
+   "b": "A drone light show, in which hundreds of lit drones create moving pictures in the sky.",
+   "model": "I would choose Option B, the drone light show, because I believe it would be safer, kinder to the environment and more memorable for our community.\n\nFirst of all, fireworks create a lot of noise and smoke. Many residents, including veterans, young children and people with sensory sensitivities, find the loud explosions distressing, and pet owners know how terrified dogs become. A drone show is almost silent, so everyone could enjoy the evening.\n\nSecond, fireworks leave debris in the river and release chemicals into the air, and in dry summers they can even cause fires. Drones can be reused year after year, and they create no smoke or litter.\n\nMost importantly, a drone show can tell a story. Instead of random explosions of colour, drones could form a maple leaf, a canoe or the outline of our city’s historic bridge, and they could even honour local volunteers or Indigenous history. That would make the celebration feel truly connected to our community.\n\nI understand that fireworks are a tradition, and some people may be disappointed. However, I think most residents would quickly come to appreciate a show that is quieter, cleaner and more creative."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend is forty years old and is thinking about going back to school full-time to study nursing. She has a stable office job and two teenage children. Give her advice.",
+   "model": "I think that’s a really brave and exciting idea, and honestly, forty is a great age to make a change – you could still have a twenty-five-year nursing career ahead of you. But I’d think about a few things first. The biggest one is money. A nursing program is usually two to four years, and if you study full-time, you’ll lose your salary. Sit down with your partner and work out exactly how long your savings would last. Look into student loans and grants too, because mature students are often eligible for more than they expect. Second, check whether you could study part-time or online at first, at least for the prerequisite courses like biology and chemistry. That way you could keep working for the first year and make sure you really enjoy it. Third, talk to your kids. As teenagers, they can help more at home, and they might actually be proud of you. Finally, I’d try to volunteer at a hospital or shadow a nurse for a day, just to see the reality of the job, including the night shifts. If you still love it after that, I say go for it!"
+  },
+  "t2": {
+   "prompt": "Talk about a time when you were really surprised. What happened, and how did you react?",
+   "model": "One of the biggest surprises of my life happened on my thirtieth birthday. I had just moved to Halifax for work, and I didn’t know many people yet, so I was expecting a quiet evening. My new colleague, Sam, invited me for dinner at a small restaurant near the waterfront, which I thought was really nice of her. When we walked in, the room suddenly went dark, then the lights came on, and there were about fifteen people shouting “Surprise!” At first, I didn’t even understand what was happening. Then I saw my older brother, who lives in Toronto, and my best friend from university, who had flown in from Calgary. Sam had contacted them through social media without me knowing and organized everything. I was so shocked that I just stood there with my mouth open, and then I started crying, which everyone found very funny. It meant so much to me, because I had been feeling quite lonely in a new city. That night, I realized I was already starting to build a real community here, and Sam is still one of my closest friends."
+  },
+  "t3": {
+   "scene": {
+    "bg": "lake",
+    "alt": "A campsite next to a lake on a summer evening. On the left, an orange tent is set up near a pine tree, and a man in a grey shirt is sitting by a campfire roasting something on a stick. In the middle, a woman in a red jacket is reading a map at a picnic table with a cooler on it. On the lake, two people are paddling an orange canoe. On the right, a child in a yellow shirt is fishing from the shore, and a dog is lying beside him. Mountains are visible in the background, and two ducks swim near the shore.",
+    "items": [
+     [
+      "pine",
+      40,
+      290,
+      1.1
+     ],
+     [
+      "pine",
+      610,
+      260,
+      1
+     ],
+     [
+      "tent",
+      120,
+      300,
+      "#e67e22"
+     ],
+     [
+      "campfire",
+      200,
+      330
+     ],
+     [
+      "person",
+      230,
+      330,
+      {
+       "shirt": "#7f8c8d",
+       "pose": "sit",
+       "flip": true
+      }
+     ],
+     [
+      "table",
+      260,
+      300,
+      100
+     ],
+     [
+      "box",
+      320,
+      256,
+      35,
+      20,
+      "",
+      "#2e86c1"
+     ],
+     [
+      "person",
+      290,
+      300,
+      {
+       "shirt": "#c0392b",
+       "hold": "map",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "canoe",
+      420,
+      285,
+      "#d35400"
+     ],
+     [
+      "person",
+      400,
+      280,
+      {
+       "shirt": "#27ae60",
+       "pose": "sit",
+       "s": 0.6
+      }
+     ],
+     [
+      "person",
+      440,
+      280,
+      {
+       "shirt": "#2980b9",
+       "pose": "sit",
+       "s": 0.6
+      }
+     ],
+     [
+      "person",
+      560,
+      350,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "hold": "rod",
+       "flip": true
+      }
+     ],
+     [
+      "dog",
+      590,
+      375,
+      "#7f5539"
+     ],
+     [
+      "duck",
+      500,
+      320
+     ],
+     [
+      "duck",
+      530,
+      330
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a family campsite beside a lake, on what looks like a calm summer evening. In the background, there are grey mountains, and there are a couple of tall pine trees on each side. On the left-hand side, there’s an orange tent set up near a pine tree, and right next to it there’s a small campfire. A man in a grey T-shirt is sitting beside the fire, relaxing – maybe he’s waiting to cook dinner. In the middle of the picture, there’s a wooden picnic table with a blue cooler on it, and a woman with long hair and a red top is standing next to it, looking at a map, so she’s probably planning tomorrow’s hike. Out on the lake, two people are paddling an orange canoe – one is wearing green and the other blue. On the right-hand side, near the shore, a child in a yellow shirt is holding what looks like a fishing rod, and a brown dog is lying next to him. There are also two ducks swimming near the shore. It looks like a really peaceful, relaxing family camping trip."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will happen soon. First, since the sun seems to be going down and the man is already sitting by the fire, they’ll probably start cooking dinner soon – maybe hot dogs or burgers – and then roast marshmallows for dessert. The woman with the map will most likely put it away and help get the food out of the cooler. Second, the people in the canoe will probably paddle back to shore before it gets dark, because it’s not safe to be on the water at night. Third, the child who is fishing might actually catch a small fish. If he does, he’ll be really excited, and the dog will probably jump up and start barking, which might scare the ducks away. I’d guess the parents will tell him to let the fish go. Finally, later in the evening, they’ll probably all sit around the campfire together, telling stories, before going to sleep in the tent."
+  },
+  "t5": {
+   "intro": "You have moved to a new home and need to decide how to get to work. Choose the option you prefer. In the next section, you will need to persuade your partner that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "E-bike",
+     "details": [
+      "$2,200 one-time cost",
+      "25-minute ride on bike lanes",
+      "Free parking at work",
+      "Exercise every day",
+      "Uncomfortable in heavy rain or snow"
+     ]
+    },
+    {
+     "title": "Monthly transit pass",
+     "details": [
+      "$128 per month",
+      "35 minutes by bus and train",
+      "Can read or rest on the way",
+      "Service every 10 minutes",
+      "Crowded at rush hour"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Second car",
+    "details": [
+     "$18,000 used car",
+     "20-minute drive in normal traffic",
+     "Parking at work: $180 per month",
+     "Insurance about $150 per month",
+     "Most comfortable in bad weather"
+    ]
+   },
+   "otherWho": "Your partner prefers",
+   "persuade": "Your partner prefers buying a second car. Persuade your partner that your choice is better.",
+   "model": "I know a second car would be more comfortable, especially in the winter, but I really think the transit pass is the smarter choice for us. Let’s start with the money. The car is eighteen thousand dollars, and then there’s three hundred and thirty a month just for parking and insurance, before gas and repairs. The transit pass is a hundred and twenty-eight a month, and that’s it. Over a year, we’d save at least three thousand dollars on monthly costs alone – that’s a great family vacation. Second, the time difference is really small. The car is twenty minutes in normal traffic, but downtown at rush hour, it’s rarely normal. The bus and train take thirty-five minutes, but that’s time I can use to read, answer emails or just relax instead of sitting in traffic stressed out. And the service runs every ten minutes, so I don’t have to plan my whole day around a schedule. Finally, if we have one car instead of two, we use it for weekends and family trips, and we’re doing something good for the environment too. Can we try the pass for three months and see how it goes?"
+  },
+  "t6": {
+   "situation": "Your 16-year-old nephew is staying with you for the summer while his parents travel. You agreed with his parents that he must be home by 11 p.m. Last night, he came home at 1 a.m. without calling, and you were very worried.",
+   "options": [
+    "Talk to your nephew about what happened.",
+    "Call his parents and tell them what happened."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Ethan, can we talk for a few minutes? I want to talk about last night. You came home at one in the morning, two hours after the time we agreed on, and you didn’t call or answer my texts. I’m not trying to be dramatic, but I was really worried. I didn’t know where you were, I couldn’t reach you, and I was about to call your friends’ parents. Your mom and dad trusted me to look after you this summer, and if anything had happened, I would never forgive myself. I also want to hear your side, though. Did something happen? Did your phone die, or did you lose track of time? I understand that you’re sixteen and you want more freedom, and I’m not trying to treat you like a little kid. So here’s what I suggest. The curfew stays at eleven, but if you’re ever going to be late, you call me before eleven – no excuses – and we can talk about it. If you do that, I don’t need to tell your parents about last night. But if it happens again without a call, I’ll have to. Does that sound fair?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should all single-use plastic bags be banned in stores? Explain your reasons.",
+   "model": "In my opinion, yes, single-use plastic bags should be banned in stores, as long as affordable alternatives are available. My main reason is the environment. Plastic bags are used for maybe twenty minutes, but they can take hundreds of years to break down. They end up in rivers, lakes and oceans, where animals mistake them for food. Even in Canada, where we have recycling programs, most plastic bags are never actually recycled because they jam the sorting machines. Secondly, people adapt very quickly. When my city started charging for bags a few years ago, everyone complained for a month, and now almost everyone brings reusable bags without thinking about it. A ban would simply finish that process. Of course, some people argue that paper bags and heavy reusable bags have their own environmental costs, and that’s true if they’re only used once or twice. That’s why the key is to encourage people to reuse bags many times. Stores could also offer cheap or free reusable bags to low-income customers. Overall, I believe a ban is a simple, practical step that would reduce a very visible kind of pollution."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "A blue city bus labelled \"ROUTE 12\" with a vegetable garden growing on its roof. There is a long wooden planter box along the whole roof, with green plants, red tomatoes and yellow flowers, and a small clear greenhouse-like shelter at the centre. The bus is stopped at a bus stop, and passengers are getting on. A man on the sidewalk is pointing up at the roof garden.",
+    "items": [
+     [
+      "building",
+      20,
+      250,
+      150,
+      200,
+      "#bfc9d1"
+     ],
+     [
+      "building",
+      480,
+      250,
+      150,
+      230,
+      "#d5c4a1"
+     ],
+     [
+      "busGarden",
+      320,
+      360
+     ],
+     [
+      "sign",
+      140,
+      290,
+      "BUS STOP"
+     ],
+     [
+      "person",
+      90,
+      290,
+      {
+       "shirt": "#c0392b",
+       "pose": "point"
+      }
+     ],
+     [
+      "person",
+      200,
+      292,
+      {
+       "shirt": "#8e44ad",
+       "hairStyle": "long",
+       "hold": "bag",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      560,
+      292,
+      {
+       "shirt": "#16a085",
+       "hold": "phone",
+       "flip": true
+      }
+     ]
+    ]
+   },
+   "prompt": "You see this unusual bus in your city. Call a friend who lives in another city and describe the bus. Explain whether you think it is a good idea. Your friend cannot see the picture.",
+   "model": "Hey Sara! You have to hear about this. I’m standing at a bus stop downtown, and a city bus just pulled up with a vegetable garden on its roof. I’m not joking. It’s a normal blue bus – Route 12 – but along the entire roof, there’s a long wooden planter box, and it’s full of green plants. I can see red tomatoes, some yellow flowers and what look like herbs or lettuce. In the middle of the roof, there’s a small clear shelter, a bit like a mini greenhouse. People are getting on as usual, and a man next to me is pointing up at it and laughing. I asked the driver, and he said it’s a city pilot project. The plants help keep the bus cooler in summer, so they use less air conditioning, and the vegetables are donated to a food bank. Honestly, I think it’s a brilliant idea. It makes people smile, it’s good for the environment, and it gets people talking about green spaces. My only question is how they water it, and what happens in winter. Maybe they take the plants off? Anyway, I think your city should try it too!"
+  }
+ }
+}

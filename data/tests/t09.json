@@ -1,0 +1,1889 @@
+{
+ "id": "t09",
+ "title": "Test 9",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two staff members at a dental clinic are dealing with a computer problem.",
+    "sp": {
+     "A": {
+      "name": "Bianca",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.05
+     },
+     "B": {
+      "name": "Hugo",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Hugo, the booking system is down. Completely. I can’t see the schedule, patient files, nothing."
+       ],
+       [
+        "B",
+        "Since when?"
+       ],
+       [
+        "A",
+        "About ten minutes ago. I called the software company, and they say it’s a problem on their side, affecting clinics across the country. They’re hoping to fix it by this afternoon, but they won’t promise anything."
+       ],
+       [
+        "B",
+        "This afternoon? We have twenty-two patients booked today, and the first one arrives at eight thirty. That’s in fifteen minutes."
+       ],
+       [
+        "A",
+        "I know. And the dentists need the patient files to see X-rays and allergies. Dr. Patel said she won’t do any treatment without checking the medical history first. It’s a safety issue."
+       ],
+       [
+        "B",
+        "She’s right. Do we have anything on paper?"
+       ],
+       [
+        "A",
+        "Only yesterday’s printed schedule, which I printed by accident. It doesn’t have today’s appointments."
+       ],
+       [
+        "B",
+        "Okay. Let’s not panic. Is the internet working, at least?"
+       ],
+       [
+        "A",
+        "Yes. It’s just the software."
+       ],
+       [
+        "B",
+        "Then our email works. That’s something. What about the card machine?"
+       ],
+       [
+        "A",
+        "That’s separate, thank goodness. Patients can still pay. But I can’t print receipts for insurance claims, because those come out of the booking system."
+       ],
+       [
+        "B",
+        "We can email receipts later, once it’s back. Patients will understand, as long as we explain. Should we start phoning people to cancel?"
+       ],
+       [
+        "A",
+        "Not yet. If we cancel everyone and the system comes back at ten, we’ll have lost a whole day for nothing. Give me a minute to think."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What has caused the problem?",
+        "o": [
+         "The clinic’s internet connection has gone down.",
+         "Someone at the clinic deleted today’s schedule.",
+         "The supplier’s system is down across the country.",
+         "The clinic’s computers are too old to run it."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "it’s a problem on their side, affecting clinics across the country",
+        "x": "The software company says the problem is on their side and affects clinics across the country. Bianca confirms the internet is working, so a failed connection is wrong."
+       },
+       {
+        "q": "Why won’t Dr. Patel treat patients right now?",
+        "o": [
+         "She is waiting for the software company to call.",
+         "The X-ray machine is not working this morning.",
+         "She has too many patients booked today.",
+         "She cannot check their medical information."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "she won’t do any treatment without checking the medical history first",
+        "x": "Dr. Patel refuses to treat anyone without checking their medical history, such as allergies, which is in the unavailable files. X-rays are unavailable because they are digital, not because a machine is broken."
+       },
+       {
+        "q": "Why is the printed schedule not useful?",
+        "o": [
+         "It is missing the dentists’ names.",
+         "It is for the wrong day.",
+         "It was thrown away by mistake.",
+         "It has no phone numbers."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "It doesn’t have today’s appointments",
+        "x": "Bianca printed yesterday’s schedule by accident, so it does not show today’s appointments. It was printed by mistake, not thrown away, and missing names are never mentioned."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Right. Patients get appointment reminders by email, don’t they? Those emails come from our clinic account. If we search the sent folder, we can rebuild today’s schedule."
+       ],
+       [
+        "A",
+        "Hugo, that’s brilliant. The reminders went out yesterday at noon. That would give us names and times."
+       ],
+       [
+        "B",
+        "It won’t give us medical histories, though."
+       ],
+       [
+        "A",
+        "No. But every patient fills out a health questionnaire on paper at their first visit, and we scan them. The originals are in the filing cabinet in the back."
+       ],
+       [
+        "B",
+        "Are they kept up to date?"
+       ],
+       [
+        "A",
+        "Patients are supposed to update them every year, so mostly. For anyone whose form is more than a year old, we could ask them to fill out a new one when they arrive."
+       ],
+       [
+        "B",
+        "That works. What about X-rays? Those are only digital."
+       ],
+       [
+        "A",
+        "True. For cleanings and check-ups, the dentists can manage without them. But for the three patients booked for fillings or extractions, they’ll want to see the X-rays."
+       ],
+       [
+        "B",
+        "Could we ask the software company to send the X-rays some other way? They must have backups."
+       ],
+       [
+        "A",
+        "I asked. They said nobody can access anything until the fix is in place, backups included. So that’s out."
+       ],
+       [
+        "B",
+        "And the hospital imaging centre? Some of our patients had X-rays taken there."
+       ],
+       [
+        "A",
+        "Only one of the three, and the hospital would need the patient’s written consent to release them. It would take hours."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "How will they find out who is coming today?",
+        "o": [
+         "By searching the sent appointment reminders",
+         "By calling every patient on yesterday’s list",
+         "By asking the software company for a copy",
+         "By waiting to see which patients turn up"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "If we search the sent folder, we can rebuild today’s schedule",
+        "x": "Hugo suggests searching the sent folder for yesterday’s email reminders, which give names and times. Yesterday’s printed schedule is for the wrong day, so calling patients from it would not work."
+       },
+       {
+        "q": "What will patients with old health forms be asked to do?",
+        "o": [
+         "Reschedule their appointments",
+         "Bring their X-rays",
+         "Call their doctor",
+         "Complete a new form"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "we could ask them to fill out a new one when they arrive",
+        "x": "Bianca says anyone whose health form is more than a year old could fill out a new one on arrival. Rescheduling is offered only to the three patients who need X-rays."
+       },
+       {
+        "q": "Which patients present the biggest problem?",
+        "o": [
+         "Patients on their first visit",
+         "Those coming for cleanings",
+         "Those having more complex procedures",
+         "Those who did not receive a reminder"
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "for the three patients booked for fillings or extractions, they’ll want to see the X-rays",
+        "x": "The dentists can manage cleanings and check-ups without X-rays, but the three patients booked for fillings or extractions need them. So complex procedures are the problem, not cleanings."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "So what do we do with those three?"
+       ],
+       [
+        "A",
+        "I’ll call them now and offer to move them to this afternoon or tomorrow. If the system comes back by noon, they can still come in today."
+       ],
+       [
+        "B",
+        "And we should apologize and maybe offer them something for the inconvenience."
+       ],
+       [
+        "A",
+        "I was thinking of waiving the parking fee. It’s not much, but it shows we care. Can you start on the sent emails while I make the calls?"
+       ],
+       [
+        "B",
+        "On it. And once the system is back, I’ll make sure we set up a daily backup of the schedule. This can’t happen again."
+       ],
+       [
+        "A",
+        "Agreed. And let’s keep a printed copy of the next day’s schedule at the front desk every evening, just in case."
+       ],
+       [
+        "B",
+        "Good idea. I’ll also ask the dentists whether they’d mind starting the cleanings a little later this morning. We’ll need about half an hour to rebuild everything."
+       ],
+       [
+        "A",
+        "The first patient is a cleaning with Dr. Patel. She’s usually fine with a short delay if we explain."
+       ],
+       [
+        "B",
+        "Then let’s get to work. I’ll put a sign on the door saying we’re running a bit behind."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What will Bianca offer the three patients?",
+        "o": [
+         "A different appointment time",
+         "A discount on their treatment",
+         "A free cleaning",
+         "A referral to another clinic"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "offer to move them to this afternoon or tomorrow",
+        "x": "Bianca will offer to move the three patients to this afternoon or tomorrow, and plans to waive their parking fee. She never mentions a discount on treatment or a referral."
+       },
+       {
+        "q": "What does Hugo plan to do when the system is restored?",
+        "o": [
+         "Switch to a different software company",
+         "Hire extra staff for the front desk",
+         "Print every patient file each morning",
+         "Set up regular backups of the schedule"
+        ],
+        "a": 3,
+        "t": "prediction",
+        "ev": "I’ll make sure we set up a daily backup of the schedule",
+        "x": "Hugo says that once the system is back he will set up a daily backup of the schedule. Bianca’s idea is printing the next day’s schedule, not every patient file."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A hotel guest is speaking with the front desk.",
+    "sp": {
+     "A": {
+      "name": "Front desk agent",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Guest",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hi, I’m in room 512. I checked in about an hour ago, and I’m afraid there are a couple of problems."
+       ],
+       [
+        "A",
+        "I’m sorry to hear that. What’s going on?"
+       ],
+       [
+        "B",
+        "First, the air conditioning isn’t working. It’s blowing, but the air is warm. And second, I booked a room with a view of the harbour, and my window faces the parking garage."
+       ],
+       [
+        "A",
+        "Let me check your reservation. Yes, you booked a harbour-view king. I apologize; there must have been a mistake when the room was assigned. Unfortunately, we’re fully booked tonight, so I don’t have another harbour-view room available until tomorrow."
+       ],
+       [
+        "B",
+        "Hmm. I’m here for three nights for a conference, and the view was one of the reasons I chose this hotel."
+       ],
+       [
+        "A",
+        "I completely understand. Here’s what I can offer. Tonight, I can move you to a room on the eighth floor. It faces the city rather than the harbour, but it’s quieter and the air conditioning has just been serviced. Tomorrow, you can move to a harbour-view suite for your last two nights, at no extra charge."
+       ],
+       [
+        "B",
+        "A suite? That’s very generous. Would I have to pack everything twice?"
+       ],
+       [
+        "A",
+        "Not at all. If you leave your bags in the room tomorrow morning, our staff will move them for you while you’re at your conference. And since you won’t have the view tonight, I’ll refund the difference in price for this evening."
+       ],
+       [
+        "B",
+        "Thank you. That’s really kind."
+       ],
+       [
+        "A",
+        "My pleasure. I’ll have someone bring new keys to room 512 in ten minutes."
+       ],
+       [
+        "B",
+        "One more thing. Can I get to the conference level easily from the eighth floor?"
+       ],
+       [
+        "A",
+        "Yes, the elevators on the east side go directly to the conference level. And breakfast is served on the second floor from six-thirty, in case you have an early session."
+       ],
+       [
+        "B",
+        "Perfect. I have a presentation at eight tomorrow, so that’s good to know."
+       ],
+       [
+        "A",
+        "Good luck with it. If anything else isn’t right with the new room, just call extension zero."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is wrong with the guest’s room?",
+        "o": [
+         "It is too small and faces a noisy street.",
+         "The bed is not the king size she booked.",
+         "It has not been cleaned since the last guest.",
+         "The cooling fails and the view is wrong."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "the air conditioning isn’t working",
+        "x": "The guest says the air conditioning blows warm air and her window faces the parking garage instead of the harbour. The agent confirms she booked a king, so the bed is not the problem."
+       },
+       {
+        "q": "Why can’t the guest get a harbour-view room tonight?",
+        "o": [
+         "The hotel is full.",
+         "The harbour rooms are being renovated.",
+         "She booked the wrong room type.",
+         "They cost more."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "we’re fully booked tonight",
+        "x": "The agent says the hotel is fully booked tonight, so no harbour-view room is free until tomorrow. The agent admits the mistake was the hotel’s, so she did not book the wrong type."
+       },
+       {
+        "q": "What does the agent offer for the last two nights?",
+        "o": [
+         "A refund for both remaining nights",
+         "Free breakfast for the rest of her stay",
+         "A harbour-view suite at no extra cost",
+         "A room at a nearby partner hotel"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "Tomorrow, you can move to a harbour-view suite for your last two nights, at no extra charge",
+        "x": "The agent offers a harbour-view suite for her last two nights at no extra charge. The refund is only for tonight, because she will not have the view this evening."
+       },
+       {
+        "q": "Why is the guest concerned about moving rooms twice?",
+        "o": [
+         "She will be busy at her conference all day.",
+         "She does not want to repack her luggage.",
+         "She prefers to stay in room 512.",
+         "She has too many heavy bags to carry."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "Would I have to pack everything twice?",
+        "x": "She asks whether she will have to pack everything twice, showing she does not want to repack. The agent solves this by having staff move her bags while she is at the conference."
+       },
+       {
+        "q": "How does the guest feel at the end?",
+        "o": [
+         "Still frustrated",
+         "Confused",
+         "Appreciative",
+         "Indifferent"
+        ],
+        "a": 2,
+        "t": "attitude",
+        "ev": "Thank you. That’s really kind.",
+        "x": "She ends by saying “Thank you. That’s really kind,” after calling the suite offer generous. Her earlier frustration about the view has been resolved by the agent’s offers."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A new resident is asking a librarian about library services.",
+    "sp": {
+     "A": {
+      "name": "Librarian",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Resident",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Hi, I just moved here and I’d like to get a library card."
+       ],
+       [
+        "A",
+        "Wonderful. Library cards are free for anyone who lives, works or goes to school in the city. I’ll just need a piece of photo ID and something showing your address, like a lease or a utility bill."
+       ],
+       [
+        "B",
+        "I have my driver’s licence, but it still has my old address. Here’s my lease."
+       ],
+       [
+        "A",
+        "That’s perfect. Your card will be ready in a minute. Can I tell you about a few of our services? Many people don’t realize what’s available."
+       ],
+       [
+        "B",
+        "Sure."
+       ],
+       [
+        "A",
+        "You can borrow up to fifty items at once, for three weeks. If someone else hasn’t requested an item, you can renew it twice online. We don’t charge late fees on most items anymore, but if something is more than a month overdue, your card will be blocked until it’s returned."
+       ],
+       [
+        "B",
+        "That’s generous. Do you have e-books?"
+       ],
+       [
+        "A",
+        "Yes, plus audiobooks, magazines and even online language courses, all free with your card through our app. And here’s something people love: museum passes. You can borrow a pass that gives free admission for two adults and up to three children at several local museums. They’re very popular, so you have to reserve online, and passes can only be booked one week in advance."
+       ],
+       [
+        "B",
+        "My kids would love that. Is there anything for them specifically?"
+       ],
+       [
+        "A",
+        "Lots. There’s a free homework help program on weekday evenings for students in Grades 4 to 9, with volunteer tutors. And on Saturday mornings, there’s a family story time in the children’s area. No registration needed, just drop in."
+       ],
+       [
+        "B",
+        "Fantastic. One more thing: can I print here?"
+       ],
+       [
+        "A",
+        "Yes. Black and white is fifteen cents a page, colour is fifty. You can also print from your phone and pick it up at the desk."
+       ],
+       [
+        "B",
+        "Great. And are there any rooms I can book? I sometimes work from home, and it gets noisy with the kids."
+       ],
+       [
+        "A",
+        "Yes, we have six quiet study rooms on the second floor. You can book them for up to three hours a day with your card. They fill up quickly during exam season, though, so book a few days ahead in April and December."
+       ],
+       [
+        "B",
+        "Good to know. Thanks, you’ve been very helpful."
+       ],
+       [
+        "A",
+        "You’re welcome. Here’s your card, and a brochure with our hours. We’re closed on Mondays, by the way. A lot of new members don’t expect that."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does the resident show his lease?",
+        "o": [
+         "He does not have photo ID.",
+         "The librarian asked for a utility bill instead.",
+         "His driver’s licence has an old address.",
+         "He lives outside the city."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "it still has my old address",
+        "x": "He explains that his driver’s licence still shows his old address, so he uses the lease as proof of address. He does have photo ID, which is the licence itself."
+       },
+       {
+        "q": "What happens if a book is more than a month late?",
+        "o": [
+         "A late fee is added to the borrower’s account.",
+         "The borrower can’t use their card until it’s back.",
+         "The book is automatically renewed for three weeks.",
+         "Nothing happens, since late fees have ended."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "your card will be blocked until it’s returned",
+        "x": "Items more than a month overdue cause the card to be blocked until they are returned. The library no longer charges late fees on most items, so a fee is wrong."
+       },
+       {
+        "q": "What is a condition for renewing items?",
+        "o": [
+         "They must be renewed in person.",
+         "They can be renewed five times.",
+         "A fee must be paid.",
+         "No one else has requested them."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "If someone else hasn’t requested an item, you can renew it twice online",
+        "x": "Items can be renewed twice online if nobody else has requested them. Renewal is done online, not in person, and the limit is two renewals, not five."
+       },
+       {
+        "q": "What is true about museum passes?",
+        "o": [
+         "Booking is online and only a week ahead.",
+         "They can be booked up to a month in advance online.",
+         "They admit two adults but no children at all.",
+         "They cost a small fee for each museum visit."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "you have to reserve online, and passes can only be booked one week in advance",
+        "x": "Museum passes are popular, must be reserved online, and can only be booked one week in advance. They cover two adults and up to three children, so they are not only for adults."
+       },
+       {
+        "q": "Who can use the homework help program?",
+        "o": [
+         "All students in the city",
+         "High school students only",
+         "Students in Grades 4 to 9",
+         "Adults learning English"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "for students in Grades 4 to 9",
+        "x": "The homework help program is for students in Grades 4 to 9 on weekday evenings. Older high school students are not included, so “all students” is too broad."
+       },
+       {
+        "q": "What does the librarian say about family story time?",
+        "o": [
+         "It requires registration.",
+         "Families can simply attend.",
+         "It is held on weekday evenings.",
+         "It costs a small fee."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "No registration needed, just drop in",
+        "x": "The librarian says there is no registration for story time; families just drop in. It is held on Saturday mornings, while weekday evenings are for homework help."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Resident",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.02
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "The city will begin testing “noise cameras” this summer, in an effort to crack down on excessively loud vehicles. The devices, which combine a sound meter with a camera, will be installed at four locations where residents have complained most often about modified mufflers and late-night street racing."
+       ],
+       [
+        "A",
+        "When a vehicle passes above a set noise level, the system records a short video and captures the licence plate. During the six-month pilot, owners will receive warning letters rather than fines. If the pilot is successful, council would need to change provincial regulations before tickets could be issued."
+       ],
+       [
+        "A",
+        "Residents on Lakeshore Boulevard, one of the test locations, say the problem has become unbearable. One woman we spoke to says she has not had a full night’s sleep on a summer weekend in years."
+       ],
+       [
+        "B",
+        "It starts around eleven and goes until three or four in the morning. Motorcycles and cars, revving their engines and racing up the street. My kids wake up crying. We’ve called the police many times, but by the time they arrive, the drivers are gone."
+       ],
+       [
+        "A",
+        "She says she supports the cameras, but would also like to see more police patrols on weekend nights."
+       ],
+       [
+        "A",
+        "Some motorcycle groups have raised concerns that the cameras will not be able to tell which vehicle made the noise when several pass at once. City staff say the system uses multiple microphones to identify the direction of the sound, and that every recording will be reviewed by a person before any letter is sent."
+       ],
+       [
+        "A",
+        "Similar systems have been used in Paris and New York, with mixed results. Officials say they will publish data from the pilot in the winter."
+       ],
+       [
+        "A",
+        "If the pilot goes ahead as planned, the first cameras will be installed in June. The city says the equipment cost about forty thousand dollars per location, paid for out of its road safety budget."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What are the cameras designed to do?",
+        "o": [
+         "Identify vehicles that are too loud",
+         "Catch drivers who exceed the speed limit",
+         "Monitor traffic jams downtown",
+         "Record accidents at intersections"
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "in an effort to crack down on excessively loud vehicles",
+        "x": "The cameras combine a sound meter with a camera to crack down on excessively loud vehicles. Street racing is mentioned as a source of noise, but speed is not what they measure."
+       },
+       {
+        "q": "What will happen to vehicle owners during the pilot?",
+        "o": [
+         "They will receive fines by mail.",
+         "Their vehicles will be towed away.",
+         "Nothing will happen until winter.",
+         "They will receive warning letters."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "owners will receive warning letters rather than fines",
+        "x": "During the six-month pilot, owners receive warning letters rather than fines. Fines would require changes to provincial regulations first, so they cannot be issued during the pilot."
+       },
+       {
+        "q": "Why does the resident say police calls have not helped?",
+        "o": [
+         "The police do not respond to noise calls at night.",
+         "The drivers have left before police arrive.",
+         "The police say loud mufflers are not illegal.",
+         "She has stopped bothering to call the police."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "by the time they arrive, the drivers are gone",
+        "x": "She says they have called the police many times, but the drivers are gone by the time officers arrive. So the police do respond; they simply arrive too late."
+       },
+       {
+        "q": "What concern do motorcycle groups have?",
+        "o": [
+         "The cameras cost too much for each location.",
+         "The fines will be set too high.",
+         "The system may blame the wrong vehicle.",
+         "The cameras invade riders’ privacy."
+        ],
+        "a": 2,
+        "t": "viewpoint",
+        "ev": "the cameras will not be able to tell which vehicle made the noise when several pass at once",
+        "x": "Motorcycle groups worry the cameras cannot tell which vehicle made the noise when several pass at once, so the wrong vehicle could be blamed. Cost and privacy are not their stated concerns."
+       },
+       {
+        "q": "How does the city respond to that concern?",
+        "o": [
+         "It uses several microphones and human review.",
+         "It will only switch the cameras on at night.",
+         "It will ban motorcycles from Lakeshore Boulevard.",
+         "It will cancel the pilot if errors occur."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "every recording will be reviewed by a person before any letter is sent",
+        "x": "City staff say multiple microphones identify the direction of the sound and a person reviews every recording before a letter is sent. There is no plan to ban motorcycles from the street."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three members of a neighbourhood association are discussing a proposal for a dog park.",
+    "sp": {
+     "A": {
+      "name": "Gail",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Omar",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 1
+     },
+     "C": {
+      "name": "Ted",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "The city has asked for our association’s position on the proposed off-leash dog park in Birchwood Park. They want an answer before the public meeting next month."
+       ],
+       [
+        "B",
+        "I’m strongly in favour. There are hundreds of dogs in this neighbourhood, and right now people let them off the leash in the park illegally because there’s nowhere else. A fenced area would actually make the rest of the park safer."
+       ],
+       [
+        "C",
+        "I don’t disagree that people need somewhere. My problem is the location. The plan puts it in the corner next to the children’s playground. Even with a fence, I worry about barking, and about dogs getting out when the gate opens."
+       ],
+       [
+        "B",
+        "Most dog parks have double gates, so that’s rarely a problem."
+       ],
+       [
+        "C",
+        "Rarely isn’t never. And there are the houses on Elm Street that back onto that corner. Imagine having fifty dogs barking behind your fence from seven a.m."
+       ],
+       [
+        "A",
+        "That’s a fair point. I’ve talked to two of those homeowners, and they’re very worried. One said she’d consider moving."
+       ],
+       [
+        "B",
+        "With respect, people worried about the skateboard park too, and now nobody even notices it."
+       ],
+       [
+        "C",
+        "A skateboard park doesn’t bark at six in the morning, Omar."
+       ],
+       [
+        "B",
+        "Is there another spot in the park?"
+       ],
+       [
+        "A",
+        "There’s the old baseball diamond on the north side. Nobody has used it in years. It’s further from both the playground and the houses."
+       ],
+       [
+        "B",
+        "That would also keep the dogs well away from the soccer field."
+       ],
+       [
+        "C",
+        "That would change everything for me. Is it big enough?"
+       ],
+       [
+        "A",
+        "It’s actually larger than the proposed site. The issue is that it floods every spring, which is probably why the city didn’t choose it."
+       ],
+       [
+        "B",
+        "Drainage can be fixed. That would cost more, but the city has been saying for years that the diamond needs work anyway."
+       ],
+       [
+        "A",
+        "I checked the city’s budget documents. There’s already money set aside for park drainage over the next two years, although not specifically for the diamond."
+       ],
+       [
+        "C",
+        "So it might not cost the city much more than it was planning to spend anyway."
+       ],
+       [
+        "C",
+        "Then I could support a dog park, but only at the diamond site. And with set hours, say, seven a.m. to nine p.m."
+       ],
+       [
+        "B",
+        "I can live with hours. So, our position: we support an off-leash park, we ask the city to move it to the baseball diamond, with proper drainage and double gates, and with limited hours."
+       ],
+       [
+        "A",
+        "Good. I’ll draft a letter. And I suggest we invite the Elm Street homeowners to the public meeting, so they can speak for themselves."
+       ],
+       [
+        "B",
+        "Good idea. And let’s offer to help with a petition among dog owners, so the city sees there’s real demand for the diamond site."
+       ],
+       [
+        "C",
+        "Fine by me, as long as the petition mentions the hours. I don’t want people thinking we’ve signed up for a twenty-four-hour park."
+       ],
+       [
+        "A",
+        "I’ll make sure the wording is clear before anything goes out."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Omar support the dog park?",
+        "o": [
+         "He owns several dogs that need room to run.",
+         "The city has already approved and funded it.",
+         "It would keep loose dogs out of the rest of the park.",
+         "It would increase property values for houses on Elm Street."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "A fenced area would actually make the rest of the park safer",
+        "x": "Omar says people now let dogs off leash illegally because there is nowhere else, so a fenced area would make the rest of the park safer. He never says he owns dogs."
+       },
+       {
+        "q": "What is Ted’s main objection?",
+        "o": [
+         "He objects to where the park would be built.",
+         "He thinks dogs should be leashed everywhere.",
+         "He believes the park would cost far too much.",
+         "He dislikes dogs being near his own home."
+        ],
+        "a": 0,
+        "t": "main",
+        "ev": "My problem is the location",
+        "x": "Ted says he agrees people need somewhere for dogs; his problem is the location next to the playground and houses. He later supports a park elsewhere, so he does not want dogs leashed everywhere."
+       },
+       {
+        "q": "How does Ted respond to the point about double gates?",
+        "o": [
+         "He is fully reassured by it.",
+         "He suggests adding a third gate.",
+         "He agrees double gates are unnecessary.",
+         "He says a small risk still remains."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "Rarely isn’t never",
+        "x": "Ted replies “Rarely isn’t never,” meaning dogs could still occasionally escape. He is not reassured, and he neither calls the gates unnecessary nor suggests more gates."
+       },
+       {
+        "q": "Why does Gail mention the homeowners she talked to?",
+        "o": [
+         "To suggest they should pay for the park",
+         "To prove that most residents support the park",
+         "To show that the concerns are real",
+         "To ask them to join the association"
+        ],
+        "a": 2,
+        "t": "purpose",
+        "ev": "they’re very worried. One said she’d consider moving",
+        "x": "Gail reports that two homeowners are very worried and one would consider moving, supporting Ted’s point. This shows opposition, so it cannot prove most residents support the park."
+       },
+       {
+        "q": "Why might the city have rejected the baseball diamond?",
+        "o": [
+         "It is too small for a dog park.",
+         "It is too close to the houses.",
+         "It is still used for baseball.",
+         "It floods every spring."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "it floods every spring, which is probably why the city didn’t choose it",
+        "x": "Gail says the diamond floods every spring, which is probably why the city didn’t choose it. It is actually larger than the proposed site and further from the houses."
+       },
+       {
+        "q": "What does Ted require in order to support the park?",
+        "o": [
+         "A ban on large dogs at the new site",
+         "The diamond site and set opening hours",
+         "A higher fence at the original corner site",
+         "A yearly fee paid by dog owners"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "but only at the diamond site. And with set hours",
+        "x": "Ted says he could support a dog park only at the diamond site and with set hours, such as 7 a.m. to 9 p.m. He rejects the original corner site, even with a fence."
+       },
+       {
+        "q": "What does Omar say about drainage?",
+        "o": [
+         "It could be solved, though at extra cost.",
+         "It is impossible to fix at a reasonable cost.",
+         "It is not important for a dog park.",
+         "Dog owners should pay for it themselves."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "Drainage can be fixed. That would cost more",
+        "x": "Omar says drainage can be fixed, though it would cost more, and notes the city has said the diamond needs work anyway. He does not call it impossible or ask dog owners to pay."
+       },
+       {
+        "q": "What will Gail do next?",
+        "o": [
+         "Contact the city to ask it to cancel the project",
+         "Write a letter and ask homeowners to the meeting",
+         "Hold a vote among association members",
+         "Visit dog parks in other cities"
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "I’ll draft a letter. And I suggest we invite the Elm Street homeowners to the public meeting",
+        "x": "Gail says she will draft a letter and suggests inviting the Elm Street homeowners to the public meeting. The association supports a park, so asking the city to cancel it is wrong."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about gas-powered leaf blowers.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     },
+     "B": {
+      "name": "Landscaper",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Every fall, the roar of leaf blowers echoes through Canadian suburbs. Now, a handful of municipalities are proposing to ban the gas-powered versions, and the debate is heating up."
+       ],
+       [
+        "A",
+        "Supporters of a ban point to noise and pollution. Gas leaf blowers can be louder than ninety decibels at close range, a level that can damage hearing over time, and many use small two-stroke engines that burn fuel inefficiently. One frequently cited study found that an hour of use produces more of some pollutants than driving a car hundreds of kilometres. Residents who work from home, as well as parents of young children, have been among the most vocal supporters."
+       ],
+       [
+        "A",
+        "Some health researchers add that the fine dust stirred up by blowers, including pollen and mould, can bother people with asthma."
+       ],
+       [
+        "A",
+        "Landscaping companies, however, say a ban would hit them hard. Battery-powered blowers are improving, but they cost more and need several charged batteries to get through a full day. One company owner explained his concerns."
+       ],
+       [
+        "B",
+        "For a homeowner doing their own yard, battery is great. But I run six crews. Replacing all our gas equipment would cost about thirty thousand dollars, and we’d have to charge batteries overnight in a shop that doesn’t have enough power for that. In the end, customers would pay more."
+       ],
+       [
+        "B",
+        "And honestly, the newest battery models are getting close. In five years, I expect most of my crews will have switched anyway. I just don’t want to be forced to do it overnight."
+       ],
+       [
+        "A",
+        "Others say the bigger issue is not the machines themselves but how early in the morning some crews start work."
+       ],
+       [
+        "A",
+        "Some cities have chosen a middle path. Rather than an immediate ban, they restrict the hours when gas blowers can be used, or phase them out over several years, giving businesses time to adapt. A few also offer rebates for small companies that switch to electric equipment."
+       ],
+       [
+        "A",
+        "In one Quebec town that phased out gas blowers over three years, officials say complaints dropped sharply, and most local landscapers had switched before the deadline."
+       ],
+       [
+        "A",
+        "And some environmental groups argue that the real solution is simpler: leave the leaves. Leaves left on garden beds provide winter shelter for insects and break down into natural fertilizer. Of course, a thick layer on a lawn can still smother the grass, so even they agree some raking is needed."
+       ],
+       [
+        "A",
+        "Councils in several of the municipalities considering a ban are expected to vote before next spring, after public consultations this winter. Residents can submit comments online until the end of January."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Who has been especially supportive of a ban?",
+        "o": [
+         "Landscaping companies with several crews",
+         "Manufacturers of the newest battery-powered equipment",
+         "People with asthma and their doctors",
+         "Home-based workers and families with small kids"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Residents who work from home, as well as parents of young children, have been among the most vocal supporters",
+        "x": "The reporter says residents who work from home and parents of young children have been among the most vocal supporters. Researchers mention asthma, but sufferers are not described as leading supporters."
+       },
+       {
+        "q": "What is a drawback of battery-powered blowers for businesses?",
+        "o": [
+         "They are pricier and need several batteries a day.",
+         "They are louder than the gas models they replace.",
+         "They are not yet sold widely in Canada.",
+         "They are restricted to certain hours in some cities."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "they cost more and need several charged batteries to get through a full day",
+        "x": "Battery blowers cost more and need several charged batteries to last a full day, a problem for crews. It is gas blowers, not battery ones, that some cities restrict to certain hours."
+       },
+       {
+        "q": "What is the landscaper’s main point?",
+        "o": [
+         "Battery blowers do not work well enough for crews.",
+         "Switching would be costly, and clients would bear it.",
+         "Homeowners should hire crews instead of doing yards.",
+         "Gas blowers are no noisier than other equipment."
+        ],
+        "a": 1,
+        "t": "viewpoint",
+        "ev": "In the end, customers would pay more",
+        "x": "The landscaper says replacing his crews’ gas equipment would cost about thirty thousand dollars, so customers would pay more. He actually says battery blowers are great for homeowners and improving."
+       },
+       {
+        "q": "What middle approach have some cities taken?",
+        "o": [
+         "Banning all blowers on weekends and holidays",
+         "Requiring a city permit for every gas blower used",
+         "Allowing them at set times or retiring them slowly",
+         "Paying homeowners to rake instead of blowing"
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "they restrict the hours when gas blowers can be used, or phase them out over several years",
+        "x": "Some cities restrict the hours gas blowers can be used or phase them out over several years. Rebates go to small companies switching to electric, not to homeowners who rake."
+       },
+       {
+        "q": "Why do some environmental groups suggest leaving leaves in gardens?",
+        "o": [
+         "It is now required by some city bylaws.",
+         "The leaves shelter insects and enrich the soil.",
+         "It prevents spring flooding in gardens.",
+         "It keeps lawns greener and healthier through winter."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "provide winter shelter for insects and break down into natural fertilizer",
+        "x": "Environmental groups say leaves on garden beds give insects winter shelter and break down into natural fertilizer. They warn that a thick layer can smother grass, so it does not keep lawns green."
+       },
+       {
+        "q": "What do environmental groups admit?",
+        "o": [
+         "Gas leaf blowers are still necessary.",
+         "Leaves on beds attract harmful pests.",
+         "Their suggestion is too expensive.",
+         "Thick layers on grass still need some raking."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "even they agree some raking is needed",
+        "x": "Even the groups that say “leave the leaves” agree that a thick layer can smother a lawn, so some raking is needed. They do not say gas blowers are necessary."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Ms. Annette Bouchard, Grade 3 Teacher, Riverside Elementary  |  To: Parents and guardians of Room 12  |  Subject: Field trip to the Pioneer Village – volunteers needed",
+   "text": "Dear parents and guardians,\n\nAs part of our social studies unit on communities of the past, Room 12 will be visiting Pioneer Village on Thursday, May 22. Students will tour the blacksmith’s shop and the one-room schoolhouse, take part in a butter-making workshop and have lunch in the village picnic area.\n\nWe will leave the school by bus at 9:00 a.m. and return by 2:45 p.m., in time for regular dismissal. The cost of the trip is $18 per student, which covers admission, the workshop and transportation. Please send the payment through the school’s online payment system by May 12. If the cost is a barrier for your family, please contact me or the office confidentially; no student will miss the trip because of cost.\n\nStudents should bring a nut-free lunch in a disposable bag, a full water bottle and a hat. As much of the visit is outdoors, please dress your child for the weather, including comfortable walking shoes. Phones and electronic games should be left at home.\n\nWe need four parent volunteers to help supervise small groups. Volunteers must have a current police check on file with the school board; unfortunately, it takes about three weeks to process a new one, so if you do not already have one, it may be too late for this trip. Volunteers travel on the bus with the class and do not pay admission.\n\nPlease sign and return the attached permission form by May 12, along with the volunteer section if you are able to help. I will contact volunteers by May 15 to confirm.\n\nThank you for your support,\nAnnette Bouchard",
+   "qs": [
+    {
+     "q": "What is the purpose of the field trip?",
+     "o": [
+      "To reward students for good behaviour",
+      "To support what students are learning in class",
+      "To raise money for the school",
+      "To celebrate the end of the school year"
+     ],
+     "a": 1,
+     "t": "purpose",
+     "ev": "As part of our social studies unit on communities of the past",
+     "x": "It supports the social studies unit."
+    },
+    {
+     "q": "What should families do if they cannot afford the trip?",
+     "o": [
+      "Pay later in the month",
+      "Contact the teacher or office privately",
+      "Keep their child at home",
+      "Ask other parents for help"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "please contact me or the office confidentially",
+     "x": "Contact the teacher or office confidentially."
+    },
+    {
+     "q": "Why should students wear comfortable shoes?",
+     "o": [
+      "They will be making butter.",
+      "Most of the activities are outside and involve walking.",
+      "The bus ride is long.",
+      "The school has a dress code."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "As much of the visit is outdoors",
+     "x": "Much of the visit is outdoors and involves walking."
+    },
+    {
+     "q": "What is required to volunteer?",
+     "o": [
+      "A driver’s licence",
+      "A valid police check already on file",
+      "Payment of the admission fee",
+      "Previous experience as a teacher"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "Volunteers must have a current police check on file with the school board",
+     "x": "A current police check on file."
+    },
+    {
+     "q": "What does Ms. Bouchard suggest about parents without a police check?",
+     "o": [
+      "They can still volunteer this time.",
+      "They probably cannot get one in time for this trip.",
+      "They must pay a fee.",
+      "They should drive their own cars."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "it may be too late for this trip",
+     "x": "It takes three weeks, so likely too late."
+    },
+    {
+     "q": "By when will volunteers know if they have been chosen?",
+     "o": [
+      "May 12",
+      "May 15",
+      "May 22",
+      "The day of the trip"
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "I will contact volunteers by May 15 to confirm",
+     "x": "By May 15."
+    }
+   ],
+   "reply": {
+    "intro": "Here is a parent’s reply. Complete it by choosing the best option for each blank.",
+    "text": "Dear Ms. Bouchard,\n\nThank you for organizing this trip. Sami has been talking about the {1} workshop all week!\n\nI have paid the $18 online and will send the signed form back with him tomorrow, well before {2}. I would be happy to volunteer, as I already have a {3} on file from when I helped with the winter concert.\n\nOne question: Sami has a severe nut allergy, so I was glad to see that lunches must be {4}. Will the village staff also be aware of this during the workshop?\n\nFinally, I noticed students must leave {5} at home. Sami usually brings his tablet for the bus, so I will remind him.\n\nBest regards,\nLeila Haddad",
+    "blanks": [
+     {
+      "o": [
+       "blacksmith",
+       "butter-making",
+       "schoolhouse",
+       "picnic"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "take part in a butter-making workshop",
+      "x": "The workshop is butter-making."
+     },
+     {
+      "o": [
+       "May 12",
+       "May 15",
+       "May 22",
+       "June 1"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "Please sign and return the attached permission form by May 12",
+      "x": "May 12."
+     },
+     {
+      "o": [
+       "permission form",
+       "police check",
+       "payment receipt",
+       "teaching certificate"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "Volunteers must have a current police check",
+      "x": "A police check."
+     },
+     {
+      "o": [
+       "nut-free",
+       "vegetarian",
+       "homemade",
+       "hot"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "Students should bring a nut-free lunch",
+      "x": "Nut-free."
+     },
+     {
+      "o": [
+       "phones and electronic games",
+       "water bottles",
+       "hats",
+       "lunches"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "Phones and electronic games should be left at home",
+      "x": "Electronics must stay home."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Summit Fitness – Membership Options",
+    "intro": "All memberships include access to the weight room, cardio area and change rooms. One-time joining fee: $49 (waived for annual memberships paid in full). Students (with valid ID) save 20% on monthly memberships.",
+    "table": {
+     "cols": [
+      "Membership",
+      "Price",
+      "Group classes",
+      "Pool & sauna",
+      "Guest passes",
+      "Hours"
+     ],
+     "rows": [
+      [
+       "Basic Monthly",
+       "$39/month",
+       "No",
+       "No",
+       "None",
+       "6 a.m.–10 p.m."
+      ],
+      [
+       "Plus Monthly",
+       "$59/month",
+       "Unlimited",
+       "Yes",
+       "2 per month",
+       "24 hours"
+      ],
+      [
+       "Off-Peak Monthly",
+       "$29/month",
+       "No",
+       "Yes",
+       "None",
+       "Weekdays 10 a.m.–4 p.m. only"
+      ],
+      [
+       "Plus Annual",
+       "$599/year (paid in full)",
+       "Unlimited",
+       "Yes",
+       "4 per month",
+       "24 hours"
+      ]
+     ]
+    },
+    "notes": [
+     "Monthly memberships require 30 days’ notice to cancel.",
+     "Annual memberships can be frozen for up to 3 months for medical reasons or travel.",
+     "Personal training sessions: $65 each, or 5 for $280."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email. Complete it by choosing the best option for each blank.",
+    "text": "Hi Raj,\n\nI finally joined Summit Fitness! Since I’m a night-shift nurse, I usually work out at 2 a.m., so I needed a membership with {1} access. I went with Plus Annual, because paying for the whole year means I don’t pay the {2}.\n\nYou mentioned you’re a student and only want the weight room. The Basic Monthly would cost you about {3} with your discount.\n\nAlso, with my membership I get four {4} each month, so you can come with me sometime and try a class.\n\nOne more thing: I’m travelling to Ghana for two months in the summer, but I can {5} my membership while I’m away.\n\nSee you soon!\nAma",
+    "blanks": [
+     {
+      "o": [
+       "24-hour",
+       "pool",
+       "off-peak",
+       "weekend"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "24 hours",
+      "x": "She works out at 2 a.m., so 24-hour access."
+     },
+     {
+      "o": [
+       "joining fee",
+       "cancellation fee",
+       "training fee",
+       "student fee"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "One-time joining fee: $49 (waived for annual memberships paid in full)",
+      "x": "The joining fee is waived."
+     },
+     {
+      "o": [
+       "$29",
+       "$31",
+       "$39",
+       "$47"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Students (with valid ID) save 20% on monthly memberships",
+      "x": "$39 − 20% = $31.20 ≈ $31."
+     },
+     {
+      "o": [
+       "personal training sessions",
+       "guest passes",
+       "group classes",
+       "sauna visits"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "4 per month",
+      "x": "Four guest passes per month."
+     },
+     {
+      "o": [
+       "cancel",
+       "freeze",
+       "transfer",
+       "upgrade"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Annual memberships can be frozen for up to 3 months for medical reasons or travel",
+      "x": "Freeze it for travel."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "Which membership suits a retiree who wants to swim on weekday afternoons at the lowest cost?",
+     "o": [
+      "Basic Monthly",
+      "Plus Monthly",
+      "Off-Peak Monthly",
+      "Plus Annual"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Weekdays 10 a.m.–4 p.m. only",
+     "x": "Off-Peak includes the pool on weekdays 10–4 for $29."
+    },
+    {
+     "q": "How much would someone save buying five personal training sessions as a package?",
+     "o": [
+      "$25",
+      "$45",
+      "$65",
+      "$280"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Personal training sessions: $65 each, or 5 for $280.",
+     "x": "5 × $65 = $325; $325 − $280 = $45."
+    },
+    {
+     "q": "A member on Plus Monthly wants to stop at the end of this month. What must they do?",
+     "o": [
+      "Nothing; it ends automatically",
+      "Give 30 days’ notice",
+      "Pay a $49 fee",
+      "Freeze the membership"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Monthly memberships require 30 days’ notice to cancel.",
+     "x": "30 days’ notice."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Sweet Uncertainty: Maple Syrup in a Changing Climate",
+   "paras": [
+    "Canada produces roughly three quarters of the world’s maple syrup, most of it in Quebec. The process depends on a delicate natural rhythm: in early spring, nights below freezing followed by days above freezing create pressure inside sugar maple trees, pushing sap out through small taps drilled into the trunk. Producers then boil the sap, which is mostly water, until it thickens into syrup. It takes about forty litres of sap to make a single litre of syrup.",
+    "Climate change is making that rhythm less predictable. In some recent years, warm spells in February have caused sap to start flowing weeks earlier than usual, catching producers unprepared. In others, a sudden extended warm period has ended the season after only a couple of weeks. Researchers have also found that the sugar content of sap may be declining in some areas, meaning more sap is needed for the same amount of syrup.",
+    "Producers have adapted with technology. Many now use networks of plastic tubing connected to vacuum pumps, which collect sap from thousands of trees and can increase yields significantly compared with traditional buckets. Some also tap trees earlier, based on weather forecasts, rather than following a traditional date on the calendar. These methods have helped Canadian production reach record levels in several recent years.",
+    "Over the longer term, the picture is more complicated. Scientists project that the ideal conditions for syrup production will gradually shift northward, potentially benefiting producers in northern Ontario and Quebec while making it harder for those in the south. Quebec’s producers’ federation also maintains a strategic reserve of syrup, stored in large barrels, which can be released in poor years to keep supply and prices stable."
+   ],
+   "qs": [
+    {
+     "q": "A large quantity of sap is needed to produce a small amount of syrup.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "It takes about forty litres of sap to make a single litre of syrup",
+     "x": "Paragraph A."
+    },
+    {
+     "q": "Modern collection systems produce more sap than older methods.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "can increase yields significantly compared with traditional buckets",
+     "x": "Paragraph C."
+    },
+    {
+     "q": "Some seasons have ended unusually early.",
+     "a": "B",
+     "t": "detail",
+     "ev": "a sudden extended warm period has ended the season after only a couple of weeks",
+     "x": "Paragraph B."
+    },
+    {
+     "q": "Supplies are kept in storage to manage bad harvests.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "maintains a strategic reserve of syrup",
+     "x": "Paragraph D."
+    },
+    {
+     "q": "The best regions for maple syrup may change over time.",
+     "a": "D",
+     "t": "inference",
+     "ev": "the ideal conditions for syrup production will gradually shift northward",
+     "x": "Paragraph D."
+    },
+    {
+     "q": "Maple syrup prices have doubled in the past decade.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "No price history is given. Not given (E)."
+    },
+    {
+     "q": "Weather predictions now influence when producers begin collecting sap.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "Some also tap trees earlier, based on weather forecasts",
+     "x": "Paragraph C."
+    },
+    {
+     "q": "Sap may contain less sugar than it used to in certain places.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "the sugar content of sap may be declining in some areas",
+     "x": "Paragraph B."
+    },
+    {
+     "q": "Most maple syrup is exported to the United States.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Exports are never mentioned. Not given (E)."
+    }
+   ]
+  },
+  "p4": {
+   "title": "No-Show Fees Are Fair",
+   "byline": "Opinion | by Daniel Laurent, restaurant owner",
+   "text": "Last Saturday, at my forty-seat restaurant, a party of eight booked for seven-thirty never arrived. They did not call. When we phoned them at eight, the number went to voicemail. That evening, we turned away at least a dozen walk-in customers because we were holding the table. For a small business like mine, one empty table of eight on a Saturday night can mean the difference between a profitable week and a loss.\n\nI am not alone. Restaurant owners across the country report that no-shows have increased in recent years, partly because online booking makes it easy to reserve at several places and decide later. Some people book three restaurants for the same night and simply go to whichever one they feel like.\n\nThat is why, starting next month, we will ask for a credit card when customers book a table for six or more, and we will charge twenty-five dollars per person if they fail to show up or cancel with less than twenty-four hours’ notice. I know some customers will find this unwelcoming. Some have told me it feels like I do not trust them. But I think the policy is fair, and I want to explain why.\n\nFirst, other businesses already do this. Hair salons, dentists and physiotherapists routinely charge for missed appointments, and few people object. A restaurant reservation is also an appointment: we prepare ingredients, schedule staff and turn away other customers based on it.\n\nSecond, the fee is not meant to make money. In the restaurants I know that have introduced similar policies, no-shows dropped dramatically, and fees were rarely charged at all. The goal is simply to encourage people to cancel when their plans change, so that someone else can enjoy the table.\n\nFinally, we will apply the policy with common sense. If someone has a genuine emergency, such as an illness or a car accident, we will not charge them. We are a neighbourhood restaurant, not a bank.\n\nI would much rather never charge a single fee. All I ask is a phone call.",
+   "qs": [
+    {
+     "q": "What is the writer’s main purpose?",
+     "o": [
+      "To complain about his customers",
+      "To explain and justify a new reservation policy",
+      "To announce that his restaurant is closing",
+      "To criticize online booking companies"
+     ],
+     "a": 1,
+     "t": "main",
+     "ev": "But I think the policy is fair, and I want to explain why",
+     "x": "He explains and justifies the policy."
+    },
+    {
+     "q": "According to the writer, why have no-shows increased?",
+     "o": [
+      "Restaurants have become more expensive.",
+      "Online booking makes multiple reservations easy.",
+      "People are eating out less.",
+      "Restaurants no longer phone customers."
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "online booking makes it easy to reserve at several places and decide later",
+     "x": "Easy multiple online bookings."
+    },
+    {
+     "q": "Why does the writer mention hair salons and dentists?",
+     "o": [
+      "To show that charging for missed appointments is common",
+      "To compare their prices",
+      "To suggest they are less fair",
+      "To advertise their services"
+     ],
+     "a": 0,
+     "t": "purpose",
+     "ev": "Hair salons, dentists and physiotherapists routinely charge for missed appointments",
+     "x": "To show the practice is common and accepted."
+    },
+    {
+     "q": "What does the writer say about the purpose of the fee?",
+     "o": [
+      "It will increase his profits.",
+      "It is meant to change behaviour, not earn money.",
+      "It will pay for staff wages.",
+      "It will be donated to charity."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "the fee is not meant to make money",
+     "x": "It encourages cancellations rather than earning money."
+    },
+    {
+     "q": "What is the tone of the final sentence?",
+     "o": [
+      "Angry",
+      "Reasonable and sincere",
+      "Sarcastic",
+      "Indifferent"
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "All I ask is a phone call.",
+     "x": "A reasonable, sincere appeal."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a reader’s comment. Complete it by choosing the best option for each blank.",
+    "text": "I used to be {1} no-show fees, but this article changed my mind. I never thought about the customers who were {2} because a table was being held. Mr. Laurent’s comparison with a dentist’s appointment is {3}.\n\nI do think restaurants have some responsibility too, though. Many booking websites make it surprisingly {4} to cancel; you have to log in, find the reservation and go through several screens. If cancelling were as easy as booking, I suspect fewer people would simply not show up.\n\nI also appreciate that he will {5} genuine emergencies. That kind of flexibility is what makes a neighbourhood restaurant special.\n\n– Rachel, Ottawa",
+    "blanks": [
+     {
+      "o": [
+       "in favour of",
+       "against",
+       "unaware of",
+       "responsible for"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "I know some customers will find this unwelcoming",
+      "x": "She used to be against them."
+     },
+     {
+      "o": [
+       "turned away",
+       "charged",
+       "welcomed",
+       "served"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "we turned away at least a dozen walk-in customers",
+      "x": "Walk-in customers were turned away."
+     },
+     {
+      "o": [
+       "unfair",
+       "convincing",
+       "confusing",
+       "irrelevant"
+      ],
+      "a": 1,
+      "t": "attitude",
+      "ev": "A restaurant reservation is also an appointment",
+      "x": "She finds it convincing."
+     },
+     {
+      "o": [
+       "easy",
+       "difficult",
+       "cheap",
+       "fast"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "encourage people to cancel when their plans change",
+      "x": "Cancelling is difficult on many sites."
+     },
+     {
+      "o": [
+       "charge for",
+       "make exceptions for",
+       "report",
+       "ignore"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "If someone has a genuine emergency, such as an illness or a car accident, we will not charge them",
+      "x": "He makes exceptions for emergencies."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You recently completed a six-week evening course in digital photography at a community centre. The course organizer has asked participants for feedback.",
+   "bullets": [
+    "Describe what you found most useful about the course",
+    "Explain one problem you experienced",
+    "Suggest an improvement for future courses"
+   ],
+   "model": "Dear Ms. Delorme,\n\nThank you for organizing the six-week Digital Photography course at the Westside Community Centre, which I completed last Thursday. I enjoyed it very much and wanted to share some feedback.\n\nThe most useful part of the course was the weekly outdoor assignments. Going out to the market and the riverside path with our cameras, and then reviewing our photos together in class, helped me understand concepts like aperture and lighting far better than reading about them. Our instructor, Paolo, gave each of us specific, practical suggestions.\n\nThe main problem I experienced was with the classroom itself. Room 3 had no blinds, so during the first two weeks, when classes started at 6 p.m., sunlight on the screen made it very difficult to see the example photos. Several classmates also struggled to hear Paolo from the back of the room because of noise from the gym next door.\n\nFor future courses, I would suggest booking a quieter room with blinds, or providing a microphone. It might also be helpful to share the slides online after each class so we could review them at home.\n\nThank you again for a great experience.\n\nKind regards,\nTomás Rivera"
+  },
+  "t2": {
+   "intro": "The owners of your apartment building have money to convert an unused space and are asking residents to choose.",
+   "question": "Which option do you prefer?",
+   "a": "A shared rooftop garden with planters, seating and a barbecue area.",
+   "b": "A small fitness room with treadmills, bikes and weights in the basement.",
+   "model": "If I had to choose, I would prefer Option A, the shared rooftop garden, because I believe it would improve our quality of life and bring our community together in a way a gym could not.\n\nMost of us live in small apartments with only a tiny balcony or no outdoor space at all. A rooftop garden would give residents a place to relax in the fresh air, read a book on a summer evening or grow some herbs and vegetables in the planters. For families with children, it would be a safe place to spend time outside without having to go to a crowded park.\n\nMore importantly, a shared garden would help neighbours get to know each other. At the moment, most of us only say hello in the elevator. Barbecues and gardening naturally lead to conversations, and residents could even organize events like a summer potluck.\n\nA fitness room is certainly useful, but there are already two affordable gyms within walking distance, and many residents exercise outdoors or at home. In contrast, there is no other way for us to have green space.\n\nFor these reasons, I strongly support the rooftop garden."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend is planning her wedding and is feeling overwhelmed because the costs are much higher than she expected. Give her advice.",
+   "model": "Oh, I’m sorry you’re feeling so stressed – wedding planning can be overwhelming, but there are definitely ways to make it more manageable. First, sit down with your partner and decide on your top three priorities. For some couples it’s the food, for others it’s the photographer or the music. Spend money on those, and cut back on everything else. Second, the guest list is usually the biggest cost, because every extra person means more food, drinks and chairs. Maybe you don’t need to invite colleagues or distant cousins you rarely see. Even cutting twenty people can save thousands of dollars. Third, think about the date and the venue. Fridays, Sundays or off-season months like November can be much cheaper than a Saturday in June. Community halls or a family member’s backyard can also be beautiful and far less expensive. And finally, accept help. Friends and family often love to contribute – someone might be great at baking or photography. Remember, people won’t remember how expensive the flowers were; they’ll remember that you were happy."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you lost something important. What was it, and what happened?",
+   "model": "A few years ago, I lost my passport just three days before an international trip. I was going to Mexico for my best friend’s wedding, and I’d already paid for the flights and hotel. The night I started packing, I opened the drawer where I always keep it, and it wasn’t there. I turned the whole apartment upside down – every bag, every jacket pocket, even the garbage. I was really panicking. The next morning, I called the passport office, and they told me I could apply for an urgent replacement, but I had to report the loss first and bring a lot of documents. So I took the day off work, went to the police station to file a report, and then waited in line at the passport office for almost four hours. Luckily, they were able to issue a new passport in two days, and I made it to the wedding. The funny part is that about a month later, I found the old passport inside a book I had been using as a bookmark! Since then, I always keep it in exactly the same place, and I make a digital copy before every trip."
+  },
+  "t3": {
+   "scene": {
+    "bg": "classroom",
+    "alt": "A public library reading room. On the left, tall bookshelves full of colourful books; a librarian in a green shirt stands on a ladder placing a book on a high shelf. In the centre, at a long table, a teenager in a blue shirt is working on a laptop with headphones, and an older man with glasses is reading a newspaper-style book. On the right, a mother is sitting with two small children on a sofa reading a picture book, and a sign on the wall says \"QUIET PLEASE\". A clock on the wall and a plant are also visible.",
+    "items": [
+     [
+      "shelf",
+      20,
+      330,
+      130
+     ],
+     [
+      "ladder",
+      120,
+      330,
+      120
+     ],
+     [
+      "person",
+      150,
+      230,
+      {
+       "shirt": "#27ae60",
+       "pose": "both",
+       "hairStyle": "bun",
+       "s": 0.9
+      }
+     ],
+     [
+      "banner",
+      420,
+      200,
+      160,
+      "QUIET PLEASE",
+      "#7f8c8d"
+     ],
+     [
+      "clock",
+      320,
+      200
+     ],
+     [
+      "table",
+      220,
+      340,
+      180
+     ],
+     [
+      "laptop",
+      260,
+      296
+     ],
+     [
+      "person",
+      250,
+      330,
+      {
+       "kid": true,
+       "shirt": "#2980b9",
+       "pose": "sit",
+       "s": 1.3
+      }
+     ],
+     [
+      "person",
+      360,
+      335,
+      {
+       "shirt": "#95a5a6",
+       "pose": "sit",
+       "glasses": true,
+       "hair": "#bdc3c7",
+       "hold": "book",
+       "flip": true
+      }
+     ],
+     [
+      "sofa",
+      450,
+      340,
+      150,
+      "#c0392b"
+     ],
+     [
+      "person",
+      500,
+      320,
+      {
+       "shirt": "#8e44ad",
+       "pose": "sit",
+       "hairStyle": "long",
+       "hold": "book"
+      }
+     ],
+     [
+      "person",
+      470,
+      322,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "sit"
+      }
+     ],
+     [
+      "person",
+      560,
+      322,
+      {
+       "kid": true,
+       "shirt": "#e67e22",
+       "pose": "sit",
+       "flip": true
+      }
+     ],
+     [
+      "plant",
+      620,
+      340,
+      1
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows the inside of a public library, probably on a weekday afternoon. On the left-hand side, there’s a tall wooden bookshelf packed with colourful books, and a librarian in a green shirt is standing on a ladder with both arms up, reaching to put a book on one of the top shelves. In the middle, there’s a long wooden table. A teenager in a blue shirt is sitting at it, working on a laptop – it looks like he’s doing homework. Next to him, an older man with grey hair and glasses is sitting and reading a red book. On the right-hand side, there’s a red sofa, and a mother with long hair is sitting on it reading a book to two little kids, one in a yellow shirt and one in an orange shirt, who are sitting on either side of her. On the wall, there’s a grey sign that says “Quiet please,” and there’s also a round clock. In the corner, there’s a potted plant. Overall, it looks like a calm, peaceful place where people of all ages come to read, study and relax."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things might happen in the next few minutes. First, the librarian on the ladder is reaching up with both hands and isn’t holding on, so she might drop a book, or she might need someone to pass her more books. Maybe the teenager will get up and help her. Second, the mother reading to the kids is right under the “Quiet please” sign, and young children can get excited during stories. I wouldn’t be surprised if one of the kids laughs loudly or asks a lot of questions, and the mother will have to remind them to whisper. Third, the older man reading at the table might look over at the noise, but I think he’ll just smile, because it’s nice to see kids enjoying books. And finally, since the clock shows it’s late afternoon, the teenager will probably finish his homework soon, pack up his laptop, and maybe borrow a few books before going home."
+  },
+  "t5": {
+   "intro": "Two friends from overseas are visiting you for one weekend, and you want to plan a special Saturday. Choose the option you prefer. In the next section, you will need to persuade your roommate that your choice is better than the one your roommate prefers.",
+   "options": [
+    {
+     "title": "Day trip to a national park",
+     "details": [
+      "1.5-hour drive each way",
+      "Hiking and lake views",
+      "Packed picnic lunch",
+      "Park entry: $10 per person",
+      "Weather-dependent"
+     ]
+    },
+    {
+     "title": "City food tour",
+     "details": [
+      "$75 per person",
+      "Guided walk to 6 local restaurants",
+      "All food included",
+      "Learn about city history",
+      "Runs rain or shine"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Shopping at the outlet mall",
+    "details": [
+     "Free to visit",
+     "45-minute drive",
+     "Discounted brand-name stores",
+     "Food court for lunch",
+     "Indoor, good in any weather"
+    ]
+   },
+   "otherWho": "Your roommate prefers",
+   "persuade": "Your roommate prefers the outlet mall. Persuade your roommate that your choice is better.",
+   "model": "I know our friends like shopping, and the outlet mall is free and close, but I really think the food tour would make their visit much more special. Think about it – they’ve flown all the way from Germany, and they only have one Saturday here. The stores at the outlet mall are mostly the same international brands they can find at home. The food tour, on the other hand, is something they can only experience here. They’d try six different local restaurants, maybe poutine, smoked meat, Indigenous dishes, and they’d learn about the city’s history from a guide while walking around downtown. That’s the kind of thing they’ll talk about for years. And yes, it’s seventy-five dollars each, but all the food is included, so it’s actually lunch and snacks for the whole day. At the mall, they’d probably end up spending a lot more on things they don’t really need. Plus, it runs rain or shine, so we don’t have to worry about the weather. If they still want to shop, we could easily go to the mall on Sunday morning before their flight."
+  },
+  "t6": {
+   "situation": "In a team meeting yesterday, a co-worker presented an idea to your manager as their own. In fact, it was your idea, which you had shared with this co-worker privately last week. Your manager was very impressed.",
+   "options": [
+    "Talk to your co-worker about what happened.",
+    "Talk to your manager and explain that the idea was yours."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hi Kevin, do you have a few minutes? I wanted to talk to you about yesterday’s meeting. When you presented the idea about reorganizing the client onboarding process, I was a bit surprised, because that’s the idea I shared with you over coffee last week. I even showed you my rough notes. I’m not trying to start a conflict – I’m glad the manager liked it, and honestly, you presented it really well. But it was uncomfortable for me to sit there while it was presented as your idea, especially since I’ve been hoping to take on more responsibility on the team. Maybe you didn’t mean it that way, or maybe you thought we’d discussed it together. Either way, I think it would be fair if we went to Sarah together and explained that it was my idea and that we’d like to work on it as a team. I’d actually be happy to collaborate with you on it – your experience with the software would be really useful. In the future, though, I’d appreciate it if we were clear about who came up with what. Does that sound fair to you?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should high school students be required to complete volunteer hours in order to graduate? Explain your reasons.",
+   "model": "In my opinion, yes, requiring a reasonable number of volunteer hours for high school students is a good idea. My first reason is that it exposes young people to their community. Many teenagers spend most of their time at school, at home or online, and they may never visit a food bank, a seniors’ home or an animal shelter. When they volunteer, they see other people’s realities and often develop more empathy. For example, my nephew volunteered at a seniors’ residence to complete his hours, and he enjoyed it so much that he still visits on weekends. Secondly, volunteering helps students explore careers and build skills. A student who volunteers at a hospital or a daycare can find out whether they really want to work in that field, and they gain experience they can put on a résumé or a university application. Some people argue that forced volunteering isn’t real volunteering and that some students have to work or care for siblings. I think that’s fair, so the number of hours should be modest, maybe forty over four years, with flexible options. Overall, the benefits outweigh the disadvantages."
+  },
+  "t8": {
+   "scene": {
+    "bg": "lake",
+    "alt": "A bed floating on a lake as if it were a boat. The wooden bed frame forms the hull of the boat, with a white mattress and blue blanket on top and a white pillow at one end. A tall wooden mast rises from the middle of the bed with two cream-coloured sails. A wooden headboard stands at the back like the stern of a boat. People on the shore are watching and one is waving.",
+    "items": [
+     [
+      "cloud",
+      90,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      470,
+      60,
+      0.9
+     ],
+     [
+      "bedBoat",
+      380,
+      300
+     ],
+     [
+      "person",
+      70,
+      380,
+      {
+       "shirt": "#c0392b",
+       "pose": "wave"
+      }
+     ],
+     [
+      "person",
+      110,
+      382,
+      {
+       "shirt": "#2980b9",
+       "hairStyle": "long",
+       "hold": "camera",
+       "flip": true
+      }
+     ],
+     [
+      "duck",
+      540,
+      320
+     ],
+     [
+      "pine",
+      600,
+      230,
+      0.9
+     ]
+    ]
+   },
+   "prompt": "You are on vacation at a lake resort and see this unusual boat. Call a friend who loves sailing and describe it. Explain whether you think it would be fun to try. Your friend cannot see the picture.",
+   "model": "Hey Liam! You’re the sailing expert, so I have to tell you about this. I’m at the lake, and someone has made a boat out of a bed. I’m serious. The bottom of the boat is a wooden bed frame, shaped a bit like a canoe, and on top there’s a real-looking white mattress with a blue blanket and a big white pillow at one end. At the back, there’s a wooden headboard, which looks like the back of the boat. And then right in the middle of the bed, there’s a tall wooden mast with two cream-coloured sails, so it actually sails across the water. People on the shore are taking photos and waving at it. The resort rents it out by the hour, and apparently you can lie on the mattress while someone else steers. I honestly think it would be so much fun – imagine taking a nap while floating across the lake! But I’m not sure how stable it is. If the wind picks up, you could easily end up in the water, blanket and all. Would you want to try it with me tomorrow? You could do the sailing, and I’ll do the relaxing."
+  }
+ }
+}

@@ -1,0 +1,457 @@
+{
+ "id": "t41",
+ "title": "Test 41",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two staff members at a small regional museum are dealing with a problem three days before an exhibition opens.",
+    "sp": {
+     "A": {"name": "Harriet", "g": "f", "acc": "en-GB", "rate": 1.0},
+     "B": {"name": "Dmitri", "g": "m", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Harriet, I just got off the phone with the shipping company. The truck carrying the map exhibition broke down outside Fredericton last night."],
+       ["A", "Broke down? How bad is it? We open on Friday."],
+       ["B", "That’s the problem. It wasn’t the engine, it was the climate-control unit. The maps sat at twenty-eight degrees for about four hours before the driver noticed. They’ve been moved into a warehouse with proper humidity control, but the lending museum won’t let them travel again until their conservator has inspected every single piece."],
+       ["A", "And when can the conservator get there?"],
+       ["B", "Monday at the earliest. She’s at a conference in Ottawa. So even if everything’s fine, the maps won’t reach us until Wednesday or Thursday of next week."],
+       ["A", "Which means Friday’s gala opening has nothing to open. Wonderful. How many people have confirmed?"],
+       ["B", "A hundred and sixty. Including the deputy minister of culture, who, as you know, is the reason we got the provincial funding for this show in the first place."],
+       ["A", "Right. And the caterer?"],
+       ["B", "I checked the contract. We can reduce numbers up to forty-eight hours before, but we can’t change the date without losing the full deposit. That’s two thousand two hundred dollars."],
+       ["A", "So moving the gala costs us money, and holding it without an exhibition makes us look ridiculous in front of the person who funded it."],
+       ["B", "Pretty much. Although, to be fair, the deputy minister’s office did say she can only stay for an hour, so she might not mind as much as we think."],
+       ["A", "Maybe. But I’d rather not find out the hard way."]
+      ],
+      "qs": [
+       {"q": "Why have the maps been delayed?", "o": ["They must be checked for damage before travelling again.", "The truck’s engine failed and is still waiting for repairs near Fredericton.", "The lending museum has decided to cancel the loan.", "The warehouse they were taken to is not suitable."], "a": 0, "t": "paraphrase", "ev": "the lending museum won’t let them travel again until their conservator has inspected every single piece", "x": "After the climate-control failure, the lender wants a conservator to inspect every map before it moves. The engine was not the problem, and the warehouse does have humidity control."},
+       {"q": "What would happen if the museum changed the date of the gala?", "o": ["It would have to confirm numbers forty-eight hours earlier.", "The deputy minister would withdraw the provincial funding.", "It would lose the money already paid to the caterer.", "The caterer would charge extra for every guest."], "a": 2, "t": "paraphrase", "ev": "we can’t change the date without losing the full deposit", "x": "Changing the date means losing the $2,200 deposit. Forty-eight hours is the deadline for reducing numbers, which is a separate rule."},
+       {"q": "What does Harriet mean when she says, “I’d rather not find out the hard way”?", "o": ["She wants to ask the deputy minister directly what she thinks.", "She is certain the deputy minister will be offended.", "She thinks Dmitri should call the minister’s office again.", "She does not want to risk an embarrassing situation."], "a": 3, "t": "attitude", "ev": "But I’d rather not find out the hard way.", "x": "Dmitri suggests the minister may not mind, and Harriet replies that she would rather not discover through an awkward experience whether that is true. She is not certain the minister will be offended."}
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Okay, think. Is there any way to get even some of the maps here by Friday?"],
+       ["B", "I asked. The answer was a very polite no. They treat the whole shipment as one unit. Nothing moves until the inspection is done."],
+       ["A", "What about postponing just the exhibition and keeping the gala as a fundraising dinner? No mention of maps at all."],
+       ["B", "I thought about that. But the invitations literally say “Opening of Charting the Coast.” People will arrive expecting to see maps. And the deputy minister is coming specifically for the exhibition she paid for."],
+       ["A", "Fair. What about our own collection? We have those survey maps from the eighteen-nineties in storage, the ones from the railway company."],
+       ["B", "There are twelve of them, and I’d love to see them out. But half of them haven’t been conserved, and we can’t hang fragile paper in four days. Realistically, maybe five could go up safely."],
+       ["A", "Five maps in a gallery built for sixty is going to look a bit sad."],
+       ["B", "Unless they aren’t the main event. What if we turned Friday into a preview? The five local maps go in the entrance hall, and in the main gallery we project high-resolution images of the travelling maps onto the walls. The lending museum already sent us all the digital files for the catalogue."],
+       ["A", "Huh. Projections. Would they allow that?"],
+       ["B", "The loan agreement allows the images to be used for promotional purposes. I’d call a preview promotional."],
+       ["A", "I suppose that’s one way of reading it. I’d want it in writing from them before we print anything."]
+      ],
+      "qs": [
+       {"q": "Why does Dmitri reject turning the gala into a dinner without maps?", "o": ["The caterer cannot change the menu on such short notice.", "Guests have been told they are attending an exhibition opening.", "The deputy minister prefers fundraising dinners to exhibition openings.", "Not all of the invitations have been sent yet."], "a": 1, "t": "inference", "ev": "the invitations literally say “Opening of Charting the Coast.”", "x": "The invitations announce the exhibition, so guests expect to see it. The deputy minister is coming for the exhibition itself, which is the opposite of preferring a dinner."},
+       {"q": "What limits the use of the museum’s own maps?", "o": ["The railway company still owns the rights to them.", "They are too large to fit in the main gallery cases.", "They are already on display in the entrance hall.", "Only a few could be displayed safely in time."], "a": 3, "t": "detail", "ev": "Realistically, maybe five could go up safely.", "x": "Half of the twelve are unconserved, so only about five can be hung safely in four days. The railway company is mentioned only as their origin."},
+       {"q": "How does Harriet react to Dmitri’s reading of the loan agreement?", "o": ["She is convinced it clearly allows any use of the images.", "She believes the lending museum will certainly refuse.", "She is unsure and wants written confirmation.", "She worries the projections would look sad."], "a": 2, "t": "attitude", "ev": "I suppose that’s one way of reading it.", "x": "“One way of reading it” signals doubt about Dmitri’s interpretation, and she wants the lender’s agreement in writing. “Look a bit sad” referred to five maps in a big gallery."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "Good news. The lending museum said yes to the projections, as long as we credit them on every wall and don’t sell any prints of the images."],
+       ["A", "Excellent. And I spoke to the deputy minister’s office. Her assistant actually laughed and said the minister loves a good disaster story. She’d be happy to say a few words about how museums cope when things go wrong."],
+       ["B", "That’s a relief. So Friday becomes a sneak preview. What do we tell the other guests?"],
+       ["A", "I’ll send an email tomorrow morning, honest about the truck, and I want to give every guest a free pass to come back once the real maps are up. Maybe a private tour with the curator on the first Sunday."],
+       ["B", "That’s generous. Did you check with the caterer?"],
+       ["A", "We’re keeping the date, so the deposit is safe. I did lower the numbers to a hundred and forty, though. Some people will probably drop out once they hear there are no actual maps."],
+       ["B", "Makes sense. I’ll borrow projectors from the high school. They offered them to us for the science fair last year."],
+       ["A", "And the five survey maps?"],
+       ["B", "I’ll have them in the cases by Thursday afternoon, with temporary labels. Proper ones can wait until next week."],
+       ["A", "Perfect. You know, I think this might turn out better than the original plan."]
+      ],
+      "qs": [
+       {"q": "What condition did the lending museum set for the projections?", "o": ["The museum must be named and no copies may be sold.", "They may only be shown in the entrance hall where guests first arrive.", "A conservator must be present at the preview.", "A fee must be paid for each image used."], "a": 0, "t": "detail", "ev": "as long as we credit them on every wall and don’t sell any prints of the images", "x": "The lender requires credit on every wall and no sales of prints. The entrance hall will hold the five local maps, not the projections."},
+       {"q": "Why did Harriet lower the number of guests for the caterer?", "o": ["The deputy minister will only stay for one hour.", "The contract required a reduction two days before.", "She expects some invited guests to cancel.", "The gallery cannot safely hold one hundred and sixty."], "a": 2, "t": "inference", "ev": "Some people will probably drop out once they hear there are no actual maps.", "x": "She predicts that some guests will cancel when they learn the maps are missing. The contract allows reductions until forty-eight hours before but does not require one."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "Two neighbours are talking about a dragon boat team.",
+    "sp": {
+     "A": {"name": "Ji-woo", "g": "f", "acc": "en-US", "rate": 1.04},
+     "B": {"name": "Wendell", "g": "m", "acc": "en-CA", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Wendell! I was hoping I’d run into you. Have you got plans on Tuesday evenings this summer?"],
+       ["B", "That depends on why you’re asking, Ji-woo."],
+       ["A", "My dragon boat team is short two paddlers. Somebody moved to Calgary, and somebody else just had a baby, so we need people, and you’re always saying you want to get more exercise."],
+       ["B", "I say that, yes. Saying and doing are two different things. Dragon boating, though? Isn’t that really intense? I’ve seen those teams on the harbour, and they look like they’re training for the Olympics."],
+       ["A", "Some of them are. We’re not. We’re a community team, mostly people over forty. We race in two festivals a summer, and honestly, our main goal is not to finish last. Last year we came seventh out of nine, and we celebrated like we’d won."],
+       ["B", "Ha. Okay, that sounds more my speed. But I haven’t been in a boat since summer camp. Do I need to be a good swimmer?"],
+       ["A", "You need to pass a basic swim test, just two lengths of the pool and treading water for a few minutes, and you wear a life jacket in the boat anyway. The club does the test at the aquatic centre on the first Saturday in May."],
+       ["B", "I can probably manage that. What does it cost?"],
+       ["A", "The season fee is two hundred and twenty dollars, but your first two practices are free, so you can try it before you commit. They supply the paddles and the boats. You just need clothes that can get wet, and gloves if you don’t want blisters."],
+       ["B", "And the time? Tuesday evenings are when I usually take my mother grocery shopping."],
+       ["A", "Practice is six thirty to eight. Could you shop with her on a different night?"],
+       ["B", "Possibly. She likes Tuesdays because the store’s quieter, but she’s not inflexible. My bigger worry is my shoulder. I had a rotator cuff injury a couple of years ago."],
+       ["A", "Then I’d talk to the coach first. She’s a physiotherapist, actually, so she’s very careful about technique. A lot of shoulder problems come from people pulling with their arms instead of rotating from their core, and she’s strict about that from day one."],
+       ["B", "A physio as the coach? Okay, that makes me feel better. Let me talk to my mom about switching to Wednesdays, and I’ll email the coach about my shoulder. If she says it’s fine, I’ll come to a free practice."],
+       ["A", "Perfect. I’ll send you her contact details tonight."]
+      ],
+      "qs": [
+       {"q": "Why does Ji-woo’s team need new paddlers?", "o": ["Two members have left for personal reasons.", "The club has added a second boat to its program this year.", "The team wants to finish higher than seventh.", "Several paddlers failed the swim test."], "a": 0, "t": "paraphrase", "ev": "Somebody moved to Calgary, and somebody else just had a baby", "x": "One member moved away and another had a baby, both personal reasons. Finishing seventh is mentioned to show the team is not very competitive, not as a reason for recruiting."},
+       {"q": "How does Ji-woo describe her team?", "o": ["Training seriously for races on the harbour", "Made up mainly of former competitive athletes", "Racing for the very first time this summer", "More interested in enjoyment than results"], "a": 3, "t": "inference", "ev": "our main goal is not to finish last", "x": "The team celebrates finishing seventh out of nine and only hopes not to finish last, so fun matters more than winning. The serious Olympic-style teams are the others Wendell has seen."},
+       {"q": "What can be inferred about Wendell’s mother?", "o": ["She would probably agree to shop on another day.", "She prefers to shop when the store is busy.", "She needs Wendell’s help with medical appointments.", "She would like to join the dragon boat team as well."], "a": 0, "t": "inference", "ev": "she’s not inflexible", "x": "Although she likes Tuesdays, Wendell says she is “not inflexible”, so she would probably accept a change. She likes Tuesdays because the store is quieter, not busier."},
+       {"q": "Why does Ji-woo mention that the coach is a physiotherapist?", "o": ["To explain why the first two practices are free", "To suggest he book a physiotherapy appointment with her", "To reassure him about his old injury", "To show that the club employs professional staff"], "a": 2, "t": "purpose", "ev": "so she’s very careful about technique", "x": "Ji-woo mentions it right after Wendell raises his shoulder injury, to show the coach will protect him through good technique. She does not suggest a physiotherapy appointment."},
+       {"q": "What will Wendell do before attending a practice?", "o": ["Pay the full season fee of two hundred and twenty dollars", "Get the coach’s opinion about his shoulder", "Pass the swim test at the aquatic centre", "Buy a pair of gloves to avoid blisters"], "a": 1, "t": "prediction", "ev": "I’ll email the coach about my shoulder", "x": "He will email the coach and only come if she says his shoulder is fine. The first two practices are free, so he does not need to pay first."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A man calls the box office of a community theatre company.",
+    "sp": {
+     "A": {"name": "Colette", "g": "f", "acc": "en-CA", "rate": 1.05},
+     "B": {"name": "Bernard", "g": "m", "acc": "en-GB", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Good afternoon, Harbourlight Players box office, Colette speaking."],
+       ["B", "Hello. My wife and I have been to a couple of your shows, and we’re thinking about a subscription for next season. Could you explain the options? The website was a bit confusing."],
+       ["A", "Of course, and you’re not the first to say that. There are two main packages. The season subscription gets you the same reserved seats for all five main-stage productions, on the same night of the week each time. It’s a hundred and sixty-five dollars per person, which works out to about thirty percent off single tickets."],
+       ["B", "And the other one?"],
+       ["A", "The Flex Pass. You get five vouchers for a hundred and forty dollars, and you can use them however you like: all five for one show if you want to bring friends, or spread them out. The catch is that you book seats as you go, so for popular shows you may not get the best seats, and Flex vouchers can’t be used on opening nights."],
+       ["B", "Hmm. For the two of us, the Flex Pass would only cover two and a half shows."],
+       ["A", "That’s right. Most couples who want to see everything go with two subscriptions. Flex works better for people who only want to see a couple of shows, or who like bringing different friends."],
+       ["B", "We’d like to see everything. But I travel for work sometimes. What if we can’t make our night?"],
+       ["A", "Subscribers can exchange tickets for another performance of the same show, free of charge, as long as you call at least forty-eight hours ahead. Later than that, it’s a five-dollar fee, if seats are available. You can’t move a ticket to a different show, though."],
+       ["B", "That’s reasonable. Are there any discounts? We’re both over sixty-five."],
+       ["A", "There’s a seniors’ rate on subscriptions: a hundred and forty-five instead of a hundred and sixty-five. I should mention that it applies only to Wednesday and Thursday evenings and the Sunday matinee, not to Friday or Saturday nights."],
+       ["B", "Thursdays would suit us anyway. My wife uses a walker. Are there seats that are easy to get to?"],
+       ["A", "Yes. Row F on the aisle is level with the lobby entrance, no steps at all, and we hold those seats for patrons who need them. I can put a note on your account. Also, the parking lot behind the theatre has four accessible spaces, but they fill quickly, so I’d suggest arriving by seven for an eight o’clock curtain."],
+       ["B", "Very helpful. When do subscriptions go on sale?"],
+       ["A", "Current subscribers can renew until March thirty-first. New subscribers can buy from April first, and if you buy before April fifteenth, you also get a free drink voucher for each show."]
+      ],
+      "qs": [
+       {"q": "What is one limitation of the Flex Pass?", "o": ["Each person may only use one voucher per production.", "It costs more per show than a season subscription.", "It cannot be used for the first performance of a show.", "It must be used on the same night each time."], "a": 2, "t": "paraphrase", "ev": "Flex vouchers can’t be used on opening nights", "x": "Flex vouchers are not valid on opening nights, the first performance of each show. In fact, all five vouchers can be used for one show, and fixed nights apply to subscriptions."},
+       {"q": "What does Colette suggest for couples who want to see every production?", "o": ["Buying two Flex Passes and sharing the vouchers between them", "Buying a subscription for each person", "Using Flex vouchers only on weeknights", "Choosing the cheaper Wednesday performances"], "a": 1, "t": "detail", "ev": "Most couples who want to see everything go with two subscriptions.", "x": "Couples who want all five shows usually buy two subscriptions. One Flex Pass covers only two and a half shows for two people, and sharing passes is never suggested."},
+       {"q": "What happens if a subscriber asks to exchange tickets the day before the show?", "o": ["They can switch to a different show at no charge.", "They lose the ticket and receive no refund at all.", "The exchange is free if they call before noon.", "They may pay a small charge if seats remain."], "a": 3, "t": "inference", "ev": "Later than that, it’s a five-dollar fee, if seats are available.", "x": "The day before is less than forty-eight hours ahead, so a $5 fee applies if seats are available. Tickets can never be moved to a different show."},
+       {"q": "Why will Bernard probably choose Thursday performances?", "o": ["The Wednesday performances are already completely sold out.", "Thursday is the only night with accessible seating.", "Thursday performances start earlier in the evening.", "It allows them to get a reduced price."], "a": 3, "t": "inference", "ev": "it applies only to Wednesday and Thursday evenings and the Sunday matinee", "x": "The seniors’ rate is valid on Thursdays, and Bernard says Thursdays suit them. Accessible row F seats are held for all performances, not just Thursdays."},
+       {"q": "What does Colette say about the seats in row F?", "o": ["They can be reached without using stairs.", "They are reserved for people who buy before April.", "They are beside the accessible parking spaces at the back.", "They cost slightly more than other rows."], "a": 0, "t": "paraphrase", "ev": "Row F on the aisle is level with the lobby entrance, no steps at all", "x": "Row F is level with the lobby, so there are no steps. The accessible parking is in the lot behind the theatre, not next to the seats."},
+       {"q": "What will Bernard receive if he subscribes on April 10?", "o": ["Priority to renew before the end of March", "A free exchange to a different production", "A complimentary beverage at each performance", "A discount on parking behind the theatre"], "a": 2, "t": "detail", "ev": "if you buy before April fifteenth, you also get a free drink voucher for each show", "x": "Buying before April 15 gives a free drink voucher for every show. Renewal until March 31 is only for current subscribers."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report about a community newspaper.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Editor", "g": "m", "acc": "en-US", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "After ninety-four years, the Pembury Valley Courier will print its final weekly edition this Thursday. The community newspaper, which has covered everything from council meetings to bake sales in the valley’s six small towns since nineteen thirty-one, will continue as a free website and a weekly email newsletter. Editor Gordon Achterberg says the decision came down to simple arithmetic."],
+       ["B", "Printing and delivery now cost us about four thousand dollars a week. Ten years ago, advertising covered that easily. Today, local businesses advertise online, and our print ad revenue has dropped by more than two thirds. We could keep printing for maybe another eight months, and then we’d have nothing left for reporters. I’d rather have a newspaper without paper than paper without a newspaper."],
+       ["A", "The Courier has just three paid staff, supported by about a dozen volunteer contributors who write columns on local history, gardening and high school sports. Achterberg says none of the staff will lose their jobs. The money saved on printing will go toward hiring a part-time reporter to cover the regional school board, which the paper hasn’t been able to attend regularly for years."],
+       ["A", "But not everyone is ready to go digital. About a third of the Courier’s subscribers are over seventy-five, and many don’t use the internet. Residents at the Maple Court seniors’ residence in Pembury have started a petition asking the paper to reconsider. Their organizer, Eunice Hartwell, who is ninety-one, says the Courier is how she learns about funerals, church suppers and road closures."],
+       ["A", "In response, the Pembury Public Library has offered to print a simplified edition each Friday and make copies available at its three branches and at the seniors’ residence. The library will cover paper costs for the first year, and the Courier’s volunteers have offered to deliver copies to residents who can’t get out."],
+       ["B", "It’s not the same as the paper landing on your doorstep, I know. But it means nobody gets left behind, and it buys us time to figure out what works."]
+      ],
+      "qs": [
+       {"q": "What is the main reason the Courier is ending its print edition?", "o": ["Most of its readers have switched to other online news sources.", "Its reporters have left for better-paid jobs.", "Its printing company is going out of business.", "Its advertising income no longer covers the cost."], "a": 3, "t": "paraphrase", "ev": "our print ad revenue has dropped by more than two thirds", "x": "Printing costs about $4,000 a week, and print advertising has fallen by over two thirds, so it no longer pays for printing. It is advertisers, not readers, who have moved online."},
+       {"q": "What does Achterberg mean by “I’d rather have a newspaper without paper than paper without a newspaper”?", "o": ["Printing is the most valuable part of a community paper.", "The paper should close completely rather than lose quality.", "Keeping journalists matters more than keeping print.", "Online readers deserve the same content as print readers."], "a": 2, "t": "attitude", "ev": "then we’d have nothing left for reporters", "x": "If printing continued, money for reporters would run out; he prefers to keep the journalism and give up the paper. He is not suggesting the paper close."},
+       {"q": "How will the money saved on printing be used?", "o": ["To build a new website and email newsletter for subscribers", "To pay the volunteers who write columns", "To fund printed copies at the library", "To add coverage the paper has been missing"], "a": 3, "t": "detail", "ev": "hiring a part-time reporter to cover the regional school board", "x": "It will pay a part-time reporter to cover the school board, which the paper has not attended for years. The library, not the Courier, pays for paper costs in the first year."},
+       {"q": "Why are some seniors unhappy about the change?", "o": ["Many of them do not go online.", "They want more coverage of church events in every edition.", "They dislike the paper’s new owners.", "They will have to pay for the website."], "a": 0, "t": "inference", "ev": "many don’t use the internet", "x": "A third of subscribers are over seventy-five and many do not use the internet, so a digital-only paper would cut them off. The website is free."},
+       {"q": "What will the Courier’s volunteers do?", "o": ["Pay the library’s paper costs after the first year", "Write a simplified edition for the seniors’ residence", "Bring copies to people who cannot leave home", "Collect signatures for the residents’ petition"], "a": 2, "t": "detail", "ev": "deliver copies to residents who can’t get out", "x": "Volunteers will deliver printed copies to residents who cannot get out. The library prints the simplified edition and pays for paper in the first year."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three members of a multicultural festival committee are discussing how to choose food vendors.",
+    "sp": {
+     "A": {"name": "Teresa", "g": "f", "acc": "en-CA", "rate": 1.01},
+     "B": {"name": "Arjun", "g": "m", "acc": "en-IN", "rate": 1.0},
+     "C": {"name": "Fiona", "g": "f", "acc": "en-GB", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Okay, everyone, the big item. We have ninety-three applications from food vendors for forty spots at the Mosaic Festival this year. Last year we had thirty-eight applications for the same forty spots, so for the first time we actually have to choose. And whatever we pick, we need to be able to defend it, because a lot of people are going to be disappointed."],
+       ["B", "The simplest thing would be first come, first served. Applications opened on January fifteenth. Whoever applied first gets in. It’s objective, and nobody can accuse us of favouritism."],
+       ["C", "Objective, maybe, but not fair. I looked at the timestamps last night. Twenty-six of the first forty applications came in within an hour of the form opening, and almost all of them are commercial food trucks that pay people to watch for these things. The small cultural associations, like the Eritrean women’s group and the Filipino seniors’ club, applied days later because their volunteers have day jobs."],
+       ["B", "Hmm. I hadn’t looked at it that way. But you can’t punish people for being organized, either."],
+       ["C", "I’m not saying punish them. I’m saying the festival exists to celebrate the communities, and if it fills up with the same five taco trucks you see at every event in the city, we’ve lost the point."],
+       ["A", "What about a lottery, then? Everyone who applied by the deadline goes into a draw. Nobody gets an advantage from speed."],
+       ["B", "A lottery is fairer than I’d expected, but it creates a different problem. We could randomly end up with eight dumpling stalls and no Caribbean food at all. Visitors come expecting variety."],
+       ["C", "Then cap it by cuisine. No more than, say, three vendors serving the same kind of food."],
+       ["A", "That’s getting complicated, but it’s not unreasonable. Arjun, what about the returning vendors? Some of them have been with us for ten years. The jerk chicken stand basically started the food court."],
+       ["B", "Loyalty matters. I’d give everyone who’s come for at least three years a guaranteed spot."],
+       ["C", "How many would that be?"],
+       ["A", "I counted twenty-two."],
+       ["C", "Twenty-two out of forty? Then more than half the spots are gone before we start, and a new community group has almost no chance. That’s exactly what I’m worried about."],
+       ["B", "Okay, okay. That’s too many, I’ll admit. What if returning vendors get two entries in the lottery instead of one? A better chance, but no guarantee."],
+       ["A", "I like that. Fiona?"],
+       ["C", "I could accept that, as long as we also reserve some spots specifically for non-profit cultural associations. Say fifteen. They’d have their own smaller draw if more than fifteen apply."],
+       ["B", "Fifteen feels high to me. Those groups are often less experienced with food safety and permits, and the city inspector doesn’t make allowances."],
+       ["C", "Then let’s help them. Our volunteer coordinator ran restaurants for twenty years. She could run a two-hour permit workshop in March."],
+       ["B", "If they do the workshop, I’m fine with fifteen."],
+       ["A", "Great. So: fifteen spots reserved for non-profit cultural groups, who must attend the workshop. The other twenty-five go to a lottery, with returning vendors getting a double entry and a limit of three vendors per type of cuisine. I’ll write it up and send it to the full committee before Friday."],
+       ["B", "And let’s publish the rules on the website before the draw, so nobody thinks we changed them afterwards."]
+      ],
+      "qs": [
+       {"q": "What has changed since last year?", "o": ["The festival has reduced the number of spaces available to vendors.", "There are now more applicants than spots.", "Applications opened earlier than usual.", "Food trucks are no longer allowed to apply."], "a": 1, "t": "inference", "ev": "so for the first time we actually have to choose", "x": "Last year 38 vendors applied for 40 spots; this year 93 applied, so demand exceeds supply for the first time. The number of spots is the same forty."},
+       {"q": "Why does Arjun first favour first come, first served?", "o": ["It rewards the vendors who have attended for many years.", "It is the method the festival used last year.", "It cannot easily be seen as biased.", "It gives volunteer groups more time to apply."], "a": 2, "t": "detail", "ev": "nobody can accuse us of favouritism", "x": "He likes it because it is objective and protects the committee from accusations of favouritism. Rewarding loyalty is a separate idea he raises later."},
+       {"q": "What does Fiona’s look at the timestamps suggest?", "o": ["Selecting by speed favours businesses with more resources.", "Most cultural groups missed the application deadline entirely.", "The application form was not working when it opened.", "Commercial vendors applied after the cultural groups."], "a": 0, "t": "inference", "ev": "almost all of them are commercial food trucks that pay people to watch for these things", "x": "Commercial trucks can pay people to apply instantly, while volunteer groups cannot, so speed favours the better-resourced. The cultural groups applied days later, not after the deadline."},
+       {"q": "How does Arjun respond to Fiona’s point about the timestamps?", "o": ["He rejects it as unfair to the commercial vendors.", "He immediately changes his mind and supports a lottery.", "He says the cultural groups should have applied sooner.", "He sees her point but still has a reservation."], "a": 3, "t": "attitude", "ev": "I hadn’t looked at it that way. But you can’t punish people for being organized, either.", "x": "He admits he had not considered it, then adds a “but”: organized vendors should not be penalized. Teresa, not Arjun, proposes the lottery."},
+       {"q": "What is Arjun’s concern about a simple lottery?", "o": ["Visitors might not find a range of foods.", "Returning vendors could lose their places to new applicants.", "It would take too long to organize.", "Commercial trucks would refuse to enter."], "a": 0, "t": "detail", "ev": "Visitors come expecting variety.", "x": "Random selection could produce eight dumpling stalls and no Caribbean food, so variety could suffer. Returning vendors are discussed later by Teresa."},
+       {"q": "Why does Fiona object to guaranteed spots for returning vendors?", "o": ["The jerk chicken stand does not deserve special treatment.", "Most returning vendors are commercial food trucks.", "Newcomers would have little opportunity to take part.", "Returning vendors have had safety problems."], "a": 2, "t": "viewpoint", "ev": "a new community group has almost no chance", "x": "Twenty-two guaranteed spots would leave few places, so new community groups would have almost no chance. She never criticizes the jerk chicken stand."},
+       {"q": "Under what condition does Arjun accept fifteen reserved spots?", "o": ["If the city inspector approves each of the groups in advance", "If the groups first attend a session on permits", "If returning vendors also keep fifteen spots", "If the groups have operated for three years"], "a": 1, "t": "detail", "ev": "If they do the workshop, I’m fine with fifteen.", "x": "He agrees once the groups attend the permit workshop run by the volunteer coordinator. The inspector is mentioned as strict, not as approving groups."},
+       {"q": "Which statement describes the final plan?", "o": ["All forty spots will be awarded in a single lottery.", "Vendors with three years’ attendance will be guaranteed a place.", "Commercial food trucks will be limited to fifteen spots.", "Returning vendors will have better odds but no guarantee."], "a": 3, "t": "main", "ev": "returning vendors getting a double entry", "x": "Returning vendors get two lottery entries, which improves their chances without guaranteeing a place. Fifteen spots are reserved for non-profit groups, not a limit on trucks."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about a gaming program at a community centre.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "f", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "When the Brookfield Community Centre converted a little-used meeting room into a gaming lounge last fall, with twelve computers, a large screen and a weekly youth esports league, the reaction was swift and divided. Within a month, the after-school program had a waiting list of more than eighty teenagers, many of whom had never set foot in the centre before. Within the same month, the centre’s suggestion box was filled with complaints from parents and older residents asking why public money was being spent to encourage kids to play video games."],
+       ["A", "Program supervisor Andre Bellamy says the numbers speak for themselves. Before the lounge opened, the centre’s youth programs mostly attracted kids who were already involved in organized sport. The gaming nights, he says, reach a different group: teenagers who are shy, who struggle socially, or who simply don’t enjoy team sports. To join the league, players must attend in person, play on teams and take part in a twenty-minute discussion at the end of each session about sportsmanship and online behaviour. Bellamy calls it “a way to get kids off their couches and into a room with other people, even if there’s still a screen involved.”"],
+       ["A", "Critics are not persuaded. A local paediatrician who spoke at a recent council meeting argued that most teenagers already spend far more time in front of screens than is healthy, and that a public facility should offer alternatives rather than more of the same. She also questioned whether the competitive games chosen for the league, some of which are rated for older teens, were suitable for twelve-year-olds. She added that she would rather see the room used for board games, art or music, activities that also bring teenagers together."],
+       ["A", "Some parents land somewhere in the middle. One mother I spoke with said her fifteen-year-old son had refused every activity she suggested for two years, from swimming to drama, until a friend dragged him to a gaming night. He now goes every week, and recently signed up for the centre’s volunteer program so he can help run the league for younger kids. “I’m still not thrilled about the games themselves,” she told me, “but I’m thrilled that he has somewhere to go and people who know his name.”"],
+       ["A", "For now, the centre is trying to address the concerns. Starting in January, the league will be split into two age groups, with games for the younger players limited to those rated for everyone. Each session will also begin with thirty minutes of physical activity in the gym, an idea suggested, somewhat surprisingly, by the players themselves. The centre will review the program next June, using attendance figures and a survey of participants and their families."]
+      ],
+      "qs": [
+       {"q": "What does the report say about the teenagers who signed up?", "o": ["Most were already playing on the centre’s sports teams.", "They were mostly older than fifteen.", "They had to pay a fee to take part.", "Many had never visited the centre before."], "a": 3, "t": "detail", "ev": "many of whom had never set foot in the centre before", "x": "Many of the eighty teenagers on the waiting list had never been to the centre. It was the older youth programs that mostly attracted kids already in organized sport."},
+       {"q": "According to Bellamy, what is the program’s main benefit?", "o": ["It improves teenagers’ performance in team sports.", "It saves money compared with sports programs.", "It reaches young people other programs missed.", "It teaches students professional gaming skills."], "a": 2, "t": "viewpoint", "ev": "reach a different group", "x": "Bellamy stresses that gaming nights attract shy teens or those who dislike team sports, a group earlier programs did not reach. Cost and professional skills are never mentioned."},
+       {"q": "What does Bellamy suggest by adding “even if there’s still a screen involved”?", "o": ["Screens are completely harmless for teenagers.", "He plans to remove the computers eventually.", "Video games are better for teens than sports.", "The program is not a perfect solution."], "a": 3, "t": "attitude", "ev": "even if there’s still a screen involved", "x": "He admits a drawback: the teens are still using screens, even though they are now with other people. He does not claim screens are harmless or better than sport."},
+       {"q": "What is one of the paediatrician’s concerns?", "o": ["Some of the games may be unsuitable for the youngest players.", "Teenagers are not being supervised closely enough.", "The centre should charge a fee for the lounge.", "Gaming leagues encourage teens to skip school."], "a": 0, "t": "viewpoint", "ev": "were suitable for twelve-year-olds", "x": "She questions whether games rated for older teens suit twelve-year-olds, as well as worrying about screen time. Supervision and school attendance are not raised."},
+       {"q": "How does the mother feel about her son’s involvement?", "o": ["She is fully convinced that gaming is good for him.", "She plans to move him into swimming or drama.", "She has reservations but values what he has gained.", "She worries he spends too much time volunteering."], "a": 2, "t": "attitude", "ev": "I’m still not thrilled about the games themselves", "x": "She dislikes the games but is delighted he now has a place to go and people who know him. Swimming and drama were activities he refused earlier."},
+       {"q": "What does the reporter present as unexpected?", "o": ["That the league will be split into two age groups", "That the exercise idea came from the participants", "That the centre will survey families in June", "That older residents complained about the lounge"], "a": 1, "t": "inference", "ev": "an idea suggested, somewhat surprisingly, by the players themselves", "x": "The reporter says the physical activity idea came “somewhat surprisingly” from the players. The age groups and June review are presented as ordinary responses."}
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Philippa Strand  |  To: Mehmet Arslan  |  Subject: A sticky situation at the Fairfield Summer Fair",
+   "text": "Dear Mehmet,\n\nI hope the bakery is thriving. I still dream about the cardamom buns you brought to Rosalind’s birthday last year.\n\nI’m writing because I’ve landed myself in a bit of a mess, and you’re the only person I can think of who could get me out of it. As you may have heard, I agreed this spring to take over as chair of the Fairfield Summer Fair. My predecessor, Mr. Hargreave, ran it for twenty-six years and retired after his knee surgery, and nobody else would put their hand up. I assumed the job would mostly involve booking the pony rides and ordering the portable toilets. I was very wrong.\n\nThe problem is the pie contest. It is, by a wide margin, the most popular event at the fair and, I have discovered, the most dangerous. For as long as anyone can remember, the judges have been the same three people: Mr. Hargreave, the minister’s wife and the owner of the hardware store. This year, Mr. Hargreave has stepped back, the minister and his wife have moved to Moncton, and the hardware store owner’s daughter is entering for the first time, so he has quite rightly withdrawn. I have no judges at all.\n\nTo make matters worse, last year’s results caused what I can only describe as a feud. The winning pie was apparently made with store-bought pastry, which is against the rules, and two of the other entrants have not spoken to the winner since. Several people have told me, without my asking, that this year the contest needs “a proper outsider” who knows what they are doing.\n\nThat is where you come in. Would you be willing to be our head judge? The contest is on Saturday, August 9, at one o’clock in the community hall, and judging usually takes about two hours. There are normally around thirty entries in four categories. I can offer you very little in return except a fair ribbon, a free lunch and my eternal gratitude, though I suspect a few customers might follow you back to the bakery.\n\nIf you agree, I would also value your help in rewriting the rules, which are two paragraphs long and were last updated in 1987.\n\nWith hope,\nPhilippa",
+   "qs": [
+    {"q": "Why did Philippa become chair of the fair?", "o": ["Mr. Hargreave personally chose her to replace him.", "She had organized the pony rides for several years in a row.", "No one else offered to do it.", "The minister asked her before moving away."], "a": 2, "t": "paraphrase", "ev": "nobody else would put their hand up", "x": "Nobody else volunteered when Mr. Hargreave retired. Booking pony rides is what she expected the job to involve, not her previous experience."},
+    {"q": "What does Philippa suggest about her expectations of the role?", "o": ["She underestimated how demanding it would be.", "She expected the pie contest to be the easiest part.", "She thought Mr. Hargreave would continue to help her.", "She believed the fair needed many changes."], "a": 0, "t": "inference", "ev": "I was very wrong.", "x": "She thought it would mostly be bookings and portable toilets, then admits she “was very wrong”. She does not say she expected help from Mr. Hargreave."},
+    {"q": "Why has the hardware store owner withdrawn as a judge?", "o": ["He has moved away to Moncton.", "He disagreed with how last year’s contest was judged.", "He is recovering from knee surgery.", "He has a family member competing."], "a": 3, "t": "detail", "ev": "the hardware store owner’s daughter is entering for the first time", "x": "His daughter is entering, so judging would be a conflict of interest. The minister moved to Moncton, and Mr. Hargreave had the knee surgery."},
+    {"q": "What caused the conflict after last year’s contest?", "o": ["The winner was thought to have broken a rule.", "Two entrants refused to accept the judges’ scores.", "The judges were all related to entrants.", "The contest had too few categories."], "a": 0, "t": "detail", "ev": "The winning pie was apparently made with store-bought pastry, which is against the rules", "x": "The winning pie apparently used store-bought pastry, which the rules forbid. The two entrants stopped speaking to the winner as a result; they did not dispute the scores."},
+    {"q": "What does Philippa imply by saying people told her this “without my asking”?", "o": ["She had planned to ask residents for their opinions.", "Residents care enough to give opinions unprompted.", "She disagrees with what residents told her.", "Residents want her to cancel the contest."], "a": 1, "t": "attitude", "ev": "Several people have told me, without my asking", "x": "Residents volunteered their views on judging without being asked, which shows how strongly they feel. Philippa seems to agree, since she then asks an outsider."},
+    {"q": "What does Philippa suggest about the contest rules?", "o": ["They are too long and complicated for entrants.", "They need to be translated for new residents.", "They were written by Mr. Hargreave alone.", "They are badly out of date."], "a": 3, "t": "inference", "ev": "were last updated in 1987", "x": "Rules last updated in 1987 are clearly old, which is why she wants help rewriting them. They are only two paragraphs, so they are not too long."}
+   ],
+   "reply": {
+    "intro": "Here is Mehmet’s response to Philippa. Complete the response by choosing the best option for each blank.",
+    "text": "Dear Philippa,\n\nWhat a story! I had no idea a pie contest could cause so much drama, although after twenty years in bakeries, perhaps I should have. I would be honoured to be your head judge. I’ve already blocked off {1} in my calendar, and I’ll close the bakery early that day.\n\nYou’re right that I’d be a genuine outsider, which should help. However, with around {2} to taste, I think we need at least two more judges, or my palate will give out long before the last category. Could you find two people with no connection to {3}?\n\nAs for the rules, I’m happy to help. The first thing I’d add is a clear statement that all pastry must be {4}, and that entrants must sign a short form confirming it. That should prevent a repeat of last year.\n\nFinally, please don’t worry about payment. A ribbon and a free lunch are more than enough, and if a few new customers {5}, all the better.\n\nWarmly,\nMehmet",
+    "blanks": [
+     {"o": ["Friday, August 8", "Saturday, August 9", "Sunday, August 10", "the whole of August"], "a": 1, "t": "detail", "ev": "The contest is on Saturday, August 9", "x": "The contest takes place on Saturday, August 9, so that is the date he blocks off. The other dates are not mentioned in Philippa’s letter."},
+     {"o": ["four pies", "ten pies", "thirty pies", "sixty pies"], "a": 2, "t": "detail", "ev": "There are normally around thirty entries in four categories.", "x": "About thirty entries is a lot for one judge to taste. Four is the number of categories, not entries."},
+     {"o": ["the bakery", "any of the entrants", "the hardware store", "the minister’s family"], "a": 1, "t": "inference", "ev": "so he has quite rightly withdrawn", "x": "The hardware store owner withdrew because of a link to an entrant, so new judges must have no connection to anyone competing. The store itself is not the issue."},
+     {"o": ["made from scratch", "bought from a store", "baked in the hall", "checked by the chair"], "a": 0, "t": "coherence", "ev": "The winning pie was apparently made with store-bought pastry, which is against the rules", "x": "Requiring homemade pastry prevents a repeat of last year’s store-bought pastry dispute. “Bought from a store” is the forbidden practice."},
+     {"o": ["enter the contest themselves", "complain about the results", "find their way to my bakery", "ask to see the new rules"], "a": 2, "t": "coherence", "ev": "I suspect a few customers might follow you back to the bakery", "x": "Philippa joked that customers might follow him to the bakery, and Mehmet happily accepts that idea. Complaints would not be “all the better”."}
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Fernhill Regional Museum – Membership Options",
+    "intro": "Regular admission: adults $16, seniors (65+) and students $12, children 6–17 $8, under 6 free. Members enter free all year.",
+    "table": {
+     "cols": ["Membership", "Annual fee", "Admits", "Guest passes", "Shop discount", "Other benefits"],
+     "rows": [
+      ["Individual", "$55", "1 named adult", "0", "10%", "Members’ newsletter"],
+      ["Dual", "$90", "2 named adults at the same address", "2 per year", "10%", "Members’ newsletter"],
+      ["Family", "$110", "2 adults + all children under 18 in the household", "2 per year", "10%", "Free entry to the summer day-camp open house"],
+      ["Student / Senior (65+)", "$40", "1 named student or senior", "0", "10%", "Members’ newsletter"],
+      ["Patron", "$250", "2 adults + all children under 18 in the household", "6 per year", "20%", "Invitations to exhibition previews; $150 of the fee is tax-deductible"]
+     ]
+    },
+    "notes": [
+     "Memberships are valid for 12 months from the date of purchase.",
+     "Guest passes admit one person each and cannot be used for special ticketed exhibitions.",
+     "Special exhibitions (Dinosaurs of the North, March–June) cost $10 extra for non-members; members pay $5 per person. Patron members enter special exhibitions free.",
+     "Upgrade any time within the first 3 months by paying the difference in fees. After that, a new membership must be purchased at the full price.",
+     "Gift memberships purchased in December include a free museum mug."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the museum’s memberships. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Grace,\n\nWe’ve been to Fernhill three times this year already, so I’m finally thinking about a membership. For the four of us, me, Tom and the twins, who are nine, regular admission costs {1} per visit, so a Family membership would pay for itself on our third visit.\n\nTom’s mother, who is seventy, would need her own {2} membership if she wants to come along regularly, though for the odd visit she could just use one of our {3} instead.\n\nThe twins are desperate to see the dinosaur exhibition, and as members, the four of us would pay an extra {4} in total to get in. If we end up loving the place, we could upgrade to Patron within {5} just by paying the difference.\n\nWhat do you think? Is it worth it, or should we just keep paying at the door?\n\nAnnika",
+    "blanks": [
+     {"o": ["$40", "$48", "$56", "$64"], "a": 1, "t": "diagram", "ev": "adults $16, seniors (65+) and students $12, children 6–17 $8", "x": "Two adults at $16 and two nine-year-olds at $8 = $48. $64 wrongly charges the twins the adult price."},
+     {"o": ["Individual", "Dual", "Student / Senior", "Patron"], "a": 2, "t": "diagram", "ev": "1 named student or senior", "x": "At seventy, she qualifies for the $40 Student / Senior membership, which is cheaper than the $55 Individual one."},
+     {"o": ["shop discounts", "newsletters", "six guest passes", "two guest passes"], "a": 3, "t": "diagram", "ev": "2 per year", "x": "A Family membership includes two guest passes per year, and each admits one person. Six passes come only with the Patron level."},
+     {"o": ["$20", "$40", "$10", "$0"], "a": 0, "t": "diagram", "ev": "members pay $5 per person", "x": "Members pay $5 each for the special exhibition: 4 × $5 = $20. $40 is the non-member surcharge, and free entry is only for Patrons."},
+     {"o": ["twelve months", "three months", "the month of December", "the dinosaur exhibition"], "a": 1, "t": "diagram", "ev": "Upgrade any time within the first 3 months by paying the difference in fees.", "x": "Upgrades by paying the difference are allowed only within the first three months. Twelve months is how long the membership lasts."}
+    ]
+   },
+   "qs": [
+    {"q": "A Patron member brings six friends to see Dinosaurs of the North. How much will the friends pay altogether?", "o": ["$156", "$0", "$60", "$96"], "a": 0, "t": "diagram", "ev": "Guest passes admit one person each and cannot be used for special ticketed exhibitions.", "x": "Guest passes do not work for special exhibitions, so each adult friend pays $16 + $10 = $26, and 6 × $26 = $156. Only the Patron enters free."},
+    {"q": "Two adults under 65 who live together, with no children, plan to visit three times this year. What is the cheapest choice?", "o": ["Paying regular admission each time", "Buying two Individual memberships", "Buying a Family membership", "Buying a Dual membership"], "a": 3, "t": "diagram", "ev": "$90", "x": "Regular admission costs 2 × $16 × 3 = $96, two Individual memberships cost $110, and Family costs $110. Dual, at $90, is cheapest."},
+    {"q": "A woman bought an Individual membership on January 10. On May 2 she wants a Family membership. What must she do?", "o": ["Pay the $55 difference between the two fees", "Pay the full $110 for a new membership", "Wait until her membership expires in January", "Pay nothing extra if she buys a gift membership"], "a": 1, "t": "diagram", "ev": "After that, a new membership must be purchased at the full price.", "x": "More than three months have passed since January 10, so she cannot upgrade by paying the difference and must buy a new Family membership at $110."}
+   ]
+  },
+  "p3": {
+   "title": "On the Air, Down the Road: Canada’s Community Radio",
+   "paras": [
+    "In a country of long distances and small populations, community radio has long filled gaps that commercial broadcasters ignore. The first licensed community stations appeared in the 1970s, many of them in Quebec and in northern communities, where they broadcast in French or Indigenous languages that were rarely heard on national networks. Today there are more than a hundred and fifty such stations across Canada. Most operate on tiny budgets from a single room above a store or in the basement of a community hall, and most rely almost entirely on volunteers, who host everything from farm reports and polka hours to call-in shows about local politics. Many stations are licensed to reach only a radius of twenty or thirty kilometres.",
+    "For many rural residents, the value of community radio becomes obvious during an emergency. When wildfires forced evacuations in parts of the West in recent summers, several small stations stayed on the air around the clock, reading out road closures, shelter locations and messages from families searching for one another. Unlike national broadcasters, local hosts knew which back roads were passable and which neighbours had livestock to move. Some listeners later said the station was the only reliable source of information they had. One station manager recalled sleeping on the studio floor for nine nights in a row. Because battery radios work without internet or cell service, emergency officials in some regions now include community stations in their formal response plans and provide them with backup generators.",
+    "Survival, however, is a constant struggle. Advertising from local businesses, once the main source of income, has declined as those businesses move their spending online. Some stations have begun selling annual memberships to loyal listeners, with mixed success so far. Most stations now depend on a mix of small federal grants, annual on-air fundraising drives and bingo nights. Equipment is a recurring worry: a transmitter can cost well over twenty thousand dollars to replace, and a single lightning strike can take a station off the air for weeks. Volunteer burnout is another problem. At many stations, a handful of people host most of the programs, and when one of them moves away or falls ill, entire evenings of the schedule can go silent.",
+    "Some stations are finding new life by embracing the internet rather than fighting it. Programs are now streamed online and turned into podcasts, allowing people who have moved away from their hometowns to keep listening. Several stations have opened their studios to high school students, who produce shows in exchange for volunteer hours and, in some cases, discover a career. Others have partnered with local libraries to record the memories of long-time residents, which are then broadcast in short weekly segments. One station in Nova Scotia reports that its youngest host is fourteen and its oldest is eighty-nine, and that they occasionally share a microphone. Station managers say this mix of generations, as much as any broadcast licence, is what keeps community radio alive."
+   ],
+   "qs": [
+    {"q": "Early stations gave airtime to languages seldom heard elsewhere on the radio.", "a": "A", "t": "paraphrase", "ev": "where they broadcast in French or Indigenous languages that were rarely heard on national networks", "x": "Paragraph A: early stations broadcast in French or Indigenous languages rarely heard on national networks."},
+    {"q": "During a crisis, local hosts had knowledge that larger broadcasters lacked.", "a": "B", "t": "paraphrase", "ev": "Unlike national broadcasters, local hosts knew which back roads were passable", "x": "Paragraph B: local hosts, unlike national broadcasters, knew which roads were passable and who had livestock."},
+    {"q": "A single weather event can silence a station for a long time.", "a": "C", "t": "paraphrase", "ev": "a single lightning strike can take a station off the air for weeks", "x": "Paragraph C: one lightning strike can take a station off the air for weeks."},
+    {"q": "People who have left their home towns can still follow local programs.", "a": "D", "t": "paraphrase", "ev": "allowing people who have moved away from their hometowns to keep listening", "x": "Paragraph D: streaming and podcasts let people who moved away keep listening."},
+    {"q": "Stations that stream online have attracted more advertising income.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph C discusses falling advertising and paragraph D discusses streaming, but no paragraph links streaming to new advertising income. Not given."},
+    {"q": "Some authorities now treat community stations as part of official emergency planning.", "a": "B", "t": "paraphrase", "ev": "include community stations in their formal response plans", "x": "Paragraph B: emergency officials in some regions include stations in formal response plans."},
+    {"q": "Losing one or two key volunteers can leave gaps in what is broadcast.", "a": "C", "t": "inference", "ev": "entire evenings of the schedule can go silent", "x": "Paragraph C: when one of the few main hosts leaves, whole evenings can go silent."},
+    {"q": "Most community stations in Canada broadcast in more than one language.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph A mentions early stations using French or Indigenous languages, but nothing says most stations today are multilingual. Not given."},
+    {"q": "Many stations can be heard only within a fairly small area.", "a": "A", "t": "paraphrase", "ev": "Many stations are licensed to reach only a radius of twenty or thirty kilometres.", "x": "Paragraph A: many stations are licensed to reach only twenty or thirty kilometres."}
+   ]
+  },
+  "p4": {
+   "title": "Our Town Should Not Bid for the Summer Games",
+   "byline": "Opinion | by Malcolm Tremblay, retired municipal planner",
+   "text": "Next month, council will decide whether Lanark Falls should bid to host the provincial Summer Games four years from now. The event would bring roughly three thousand athletes, coaches and officials to our town for ten days, along with their families, and the bid committee promises a lasting legacy of new and upgraded facilities. I spent thirty-one years as a municipal planner, including work on two major event bids, and I would urge council, respectfully, to say no.\n\nLet me begin with what the supporters get right. Hosting a major sporting event can be a genuine source of civic pride. Volunteers who work at these games often describe it as one of the best experiences of their lives, and visitors do spend money in local restaurants and hotels. I do not doubt any of that.\n\nMy concern is with the numbers, and with what happens after the closing ceremony. The bid committee’s own estimate puts the cost to the town at nine million dollars, with the province contributing another six. Nearly all of the town’s share would go toward a new aquatic centre and a renovated track. Those are not bad things to own. But they come with operating costs that do not appear anywhere in the bid. A fifty-metre pool, for example, costs far more to heat, staff and maintain than the twenty-five-metre pool our community actually uses, and the bid assumes, without explanation, that user fees will cover the difference. In every town of our size I have studied, they did not.\n\nSecond, the economic benefits tend to be smaller and shorter than promised. Visitor spending is real, but it is concentrated in ten days, and much of it goes to hotel chains and caterers based elsewhere. Meanwhile, regular tourists often stay away during the event because of crowds and high hotel prices. When the games end, the visitors leave, and hotel rooms renovated for them can sit half-empty for years. Independent studies of similar games have generally found that the overall boost to local businesses is modest at best.\n\nThird, there is the question of what else nine million dollars could buy. Our arena roof needs replacing. The trail network along the river has been half-finished for six years. The library branch on the east side is open only three days a week. These are not glamorous projects, and nobody will hold a parade when they are completed. But they would be used by thousands of residents every week, for decades.\n\nSupporters argue that without the games, the province will never help pay for a new pool. That may be true. But a facility built for ten days of elite competition is not necessarily the facility a town of twenty-two thousand needs for the next forty years. If we want a better pool, we should design one for ourselves, and ask the province to help on those terms.\n\nI am not against ambition. I am against confusing a party with an investment. Council should thank the bid committee for its hard work, decline to proceed, and put the same energy into a plan for the facilities our residents use every day.",
+   "qs": [
+    {"q": "Why does the writer mention his career as a planner?", "o": ["To show that he has dealt with similar proposals before", "To explain why he was asked to join the bid committee", "To complain that planners are ignored by council", "To prove he designed the town’s current pool"], "a": 0, "t": "purpose", "ev": "including work on two major event bids", "x": "His thirty-one years in planning, including two event bids, give his opinion authority. He is not on the bid committee and never says he designed the pool."},
+    {"q": "What does the writer concede to supporters of the bid?", "o": ["The province would pay most of the costs.", "The new facilities would be cheap to maintain.", "The event could make residents proud of their town.", "Local businesses would benefit for many years."], "a": 2, "t": "viewpoint", "ev": "Hosting a major sporting event can be a genuine source of civic pride.", "x": "He openly accepts that hosting can create civic pride and memorable volunteer experiences. He disputes long-term business benefits and low running costs."},
+    {"q": "What is the writer’s main concern about the new facilities?", "o": ["They would be built in the wrong part of town.", "They would take too long to build before the games.", "Their running costs after the event are not addressed.", "They would mostly be used by tourists, not residents."], "a": 2, "t": "detail", "ev": "But they come with operating costs that do not appear anywhere in the bid.", "x": "The bid ignores the cost of heating, staffing and maintaining larger facilities after the games. Location and construction time are not discussed."},
+    {"q": "Why does the writer list the arena roof, the trail network and the library?", "o": ["To show that the town has wasted money in the past", "To point to more useful ways of spending the money", "To prove that residents do not use local facilities", "To suggest these projects could be paid for by the province"], "a": 1, "t": "purpose", "ev": "there is the question of what else nine million dollars could buy", "x": "These everyday projects illustrate what the nine million dollars could fund instead, for the benefit of thousands of residents. He says they would be heavily used, not ignored."},
+    {"q": "What does the writer mean by “confusing a party with an investment”?", "o": ["Celebrations should be paid for by private sponsors.", "A short event is being mistaken for lasting value.", "Council has spent too much on past festivals.", "The bid committee is planning too many social events."], "a": 1, "t": "vocab", "ev": "I am against confusing a party with an investment.", "x": "The “party” is the ten-day event; an “investment” would give long-term returns. He argues the games are being treated as something they are not."}
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I volunteered at the last provincial games in another town, and I agree with Mr. Tremblay that the {1} is the part people forget. That town’s new pool now opens only four days a week because it costs so much to heat.\n\nBut I think he is too quick to set aside the {2}. For ten days, our whole community felt like it mattered, and dozens of the volunteers I met went on to coach or join service clubs afterwards. You can’t put that in a budget, but it is real.\n\nI also question his suggestion that we simply {3}. He admits himself that the province may never help otherwise. A town of twenty-two thousand will wait a very long time for a pool if it has to pay for it alone.\n\nPerhaps the answer is a smaller bid. If we offered to host only the events that suit our existing facilities, we could gain the pride without {4}. I would ask council not to say no until it has {5}.",
+    "blanks": [
+     {"o": ["opening ceremony", "visitor spending", "operating cost", "hotel price"], "a": 2, "t": "coherence", "ev": "But they come with operating costs that do not appear anywhere in the bid.", "x": "The commenter’s example of a pool open four days a week because heating is expensive illustrates operating costs. Visitor spending is a benefit, not a forgotten cost."},
+     {"o": ["civic pride", "hotel revenue", "arena roof", "trail network"], "a": 0, "t": "inference", "ev": "Hosting a major sporting event can be a genuine source of civic pride.", "x": "The commenter describes the community feeling that it mattered, which is civic pride. The writer did mention pride but quickly moved on to costs."},
+     {"o": ["raise fees at the old pool", "build a pool on our own terms", "copy the bid committee’s plan", "wait for a future games bid"], "a": 1, "t": "paraphrase", "ev": "If we want a better pool, we should design one for ourselves", "x": "Tremblay suggests designing a pool for the town and asking the province to help on those terms. The commenter doubts the province would help that way."},
+     {"o": ["the volunteers", "the visitors", "the province", "the large debt"], "a": 3, "t": "inference", "ev": "The bid committee’s own estimate puts the cost to the town at nine million dollars", "x": "Using existing facilities would avoid the nine-million-dollar cost of new ones, so the town would get the pride without the debt. Volunteers and visitors are benefits the commenter wants to keep."},
+     {"o": ["built a new pool", "explored that option", "finished the trail", "hired more planners"], "a": 1, "t": "coherence", "ev": "Perhaps the answer is a smaller bid.", "x": "The commenter proposes a smaller bid and asks council to consider it before rejecting the games. Building a pool first is the opposite of the commenter’s point."}
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Last Friday you attended a free outdoor movie night in your local park, organized by the city’s recreation department. You enjoyed the evening, but there were several problems.",
+   "bullets": [
+    "Say what you enjoyed about the event",
+    "Describe the problems you experienced",
+    "Suggest improvements for future movie nights"
+   ],
+   "model": "Dear Recreation Department,\n\nI am writing about the outdoor movie night at Willowbank Park last Friday. First, I want to thank your team for organizing it. My children and I had a wonderful time, and it was lovely to see so many families from the neighbourhood sitting on blankets together. The choice of film was perfect for all ages, and the free popcorn was a very generous touch.\n\nHowever, there were a few problems that spoiled parts of the evening. The film started almost forty minutes late because of a problem with the projector, and since it was a school night, many families with young children had to leave before the end. In addition, the sound was so quiet that people at the back could barely hear the dialogue. Finally, there were only two portable toilets for several hundred people, so the lines were extremely long.\n\nFor future events, I would suggest testing the equipment before sunset and placing a second speaker halfway back. It would also help to rent a few more toilets, or to keep the community centre washrooms open during the screening.\n\nThank you for considering these suggestions.\n\nSincerely,\nRenata Kowalski"
+  },
+  "t2": {
+   "intro": "Your town owns a historic fire hall that closed when a new fire station was built. The town is asking residents how the old building should be reused. Only one option can be funded.",
+   "question": "Which option do you prefer?",
+   "a": "A small local history museum about the building’s firefighting past and the town’s heritage, with school tours and changing exhibits.",
+   "b": "A youth drop-in centre with a homework room, a music practice space and evening activities for teenagers aged 13–18.",
+   "model": "I would choose Option A, turning the old fire hall into a local history museum, because I believe it is the use that best respects the building and benefits the whole town.\n\nFirst, the fire hall is one of the oldest buildings on Main Street, and its brick tower and wooden doors are part of our town’s identity. A museum would preserve those features, whereas converting it into a busy youth centre would probably require major renovations that could destroy its historic character.\n\nSecond, our town has no museum at all at the moment. Schoolchildren currently travel an hour by bus to learn about local history. A museum within walking distance of three schools would make those lessons easier and cheaper, and changing exhibits would give residents a reason to return.\n\nI do recognize that teenagers need a safe place to go in the evenings. However, a youth centre could operate in many other locations, such as the empty floor above the library, which would not require restoring a heritage building. The fire hall, on the other hand, can only tell its own story in one place.\n\nFor these reasons, I strongly support the museum."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend’s fourteen-year-old son has played competitive hockey for eight years, but he now wants to quit and join the school drama club instead. Your friend is upset because the family has invested a lot of time and money in hockey. Give your friend some advice.",
+   "model": "I can completely understand why you’re upset. You’ve spent years driving him to five a.m. practices and paying for equipment, so it feels like all of that might be wasted. But I’d try to look at it a little differently. First, have a real conversation with him, and mostly listen. Ask what he loves about drama and whether something has changed with hockey. Sometimes kids want to quit because of a coach, a teammate or pressure they haven’t told anyone about, and that’s worth knowing. Second, remember that the time and money weren’t wasted. He learned discipline, teamwork and how to handle losing, and those skills will help him on stage too. Third, maybe he doesn’t have to choose right away. Could he finish this hockey season, or switch to a recreational league with fewer practices, while trying out for the school play? That way he isn’t letting his team down mid-season, and he can see whether drama is really for him. And finally, I’d try to show him you support him either way. At fourteen, the most important thing is that he stays active and involved in something he cares about. If that’s drama, honestly, that’s still a great outcome."
+  },
+  "t2": {
+   "prompt": "Talk about a memorable live performance you attended, such as a concert, a play or a dance show. What made it memorable?",
+   "model": "One performance I’ll never forget was an outdoor concert I went to a few summers ago at a folk festival on the waterfront. The headliner was a fiddler from Cape Breton, and about halfway through her set, the sky suddenly opened up and it started pouring rain. Most of us expected the show to stop, but instead she moved to the front edge of the covered stage and invited everyone who was getting soaked to come closer. Then she kept playing, faster and faster, and people started dancing in the rain, complete strangers holding hands and spinning around in the mud. I remember laughing so hard and being completely drenched. What made it memorable wasn’t just the music, which was fantastic, but the feeling that everyone there was sharing something unplanned. It reminded me that the best moments often come when things don’t go according to plan."
+  },
+  "t3": {
+   "scene": {
+    "bg": "lake",
+    "alt": "A sunny lake with mountains in the background during a community paddling day. On the water, two people paddle a red canoe and another orange canoe floats nearby, while a small sailboat sails on the right. On the shore at the left, an older man in a blue shirt sits fishing with a rod. A woman in a green shirt stands under a yellow banner reading PADDLE DAY, handing out life jackets from a stack of boxes. A boy runs after a ball. A family has set up a picnic blanket with a basket near an orange tent.",
+    "items": [
+     ["sun", 580, 60],
+     ["banner", 20, 150, 170, "PADDLE DAY", "#f1c40f"],
+     ["canoe", 330, 290, "#c0392b"],
+     ["person", 315, 285, {"shirt": "#2980b9", "pose": "sit", "s": 0.6}],
+     ["person", 345, 285, {"shirt": "#e67e22", "pose": "sit", "s": 0.6, "hairStyle": "long"}],
+     ["canoe", 450, 330, "#d35400"],
+     ["boat", 560, 300, "#2980b9"],
+     ["person", 60, 330, {"shirt": "#2e86c1", "pose": "sit", "hold": "rod", "hair": "#bdc3c7"}],
+     ["box", 120, 380, 50, 30, "VESTS", "#e74c3c"],
+     ["person", 190, 385, {"shirt": "#27ae60", "hold": "box", "hairStyle": "bun", "skin": "#c68642"}],
+     ["person", 250, 395, {"kid": true, "shirt": "#f1c40f", "pose": "run"}],
+     ["ball", 290, 398, "#8e44ad"],
+     ["picnic", 520, 390, 110],
+     ["basket", 560, 378],
+     ["tent", 600, 250, "#e67e22"]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a community paddling day at a lake on a bright, sunny day, with mountains in the background. On the left side, there’s a yellow banner that says “Paddle Day.” Right below it, an older man with grey hair, wearing a blue shirt, is sitting on the shore with a fishing rod, looking very relaxed. Next to him there’s a red box labelled “Vests,” and a woman in a green shirt, with her hair in a bun, is carrying another box, probably handing out life jackets to the paddlers. In front of her, a little boy in a yellow shirt is running after a purple ball. Out on the water, two people are paddling a red canoe together. One is wearing blue and the other is wearing orange. A second, empty orange canoe is floating a little closer to the shore, maybe waiting for the next group, and on the right side there’s a small sailboat with a white sail. On the far right, a family has set up a picnic blanket with a basket, and behind them there’s an orange tent, so maybe some people are camping overnight. Overall, it looks like a cheerful, active day where families can try different water activities."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will probably happen soon. First of all, the boy chasing the ball is running pretty fast toward the water’s edge. I wouldn’t be surprised if the ball rolls into the lake, and he might try to wade in after it. Hopefully the woman handing out life jackets will notice and call him back, or maybe one of the canoeists will paddle over and scoop it out for him. Second, the empty orange canoe near the shore looks like it’s ready for the next group, so I imagine the woman will help a family put on life vests and climb in. Since it’s a community event, there might be an instructor giving them a quick lesson first. Third, the older man who’s fishing might get a bit annoyed, because all this splashing and paddling nearby will probably scare the fish away. He may decide to pack up and move further along the shore. And finally, the family with the picnic basket will probably start eating soon, since it looks like midday. Later in the afternoon, they might take a turn in a canoe themselves, and if they’re staying in the tent, they’ll probably have a campfire in the evening."
+  },
+  "t5": {
+   "intro": "You have just moved to a new city and want to join a club to meet people. You have found two options. Choose the option that you prefer. In the next section, you will need to persuade a friend that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "Downtown photography club", "details": ["$60 per year", "Monthly photo walks around the city", "Tuesday evening workshops", "Annual exhibition at the library", "Members need their own camera"]},
+    {"title": "Valley hiking club", "details": ["$35 per year", "Saturday hikes of 10–20 km", "Carpools arranged by the club", "Overnight trips in summer", "Beginners welcome"]}
+   ],
+   "other": {"title": "Cooking class series", "details": ["$240 for 8 weeks", "Thursday evenings", "Cook and eat a full meal together", "All ingredients included", "Groups of 12"]},
+   "otherWho": "Your roommate prefers",
+   "persuade": "Your roommate prefers the cooking class series. Persuade your roommate that your choice is better.",
+   "model": "I know the cooking classes sound fun, and I’d definitely enjoy eating a full meal every Thursday. But I really think the hiking club is a better way to settle into a new city. First, think about the cost. The cooking series is two hundred and forty dollars for just eight weeks. The hiking club is thirty-five dollars for the entire year. That’s less than the price of one and a half cooking classes, and it lasts all twelve months. Second, the whole point is meeting people. In a cooking class, you’re mostly focused on chopping and following the instructor, and after eight weeks it’s over. On a hike, you spend three or four hours walking and chatting with different people, and since the club arranges carpools, you get to know people on the drive too. Those are the conditions where real friendships form. Third, it’s a great way to discover the region. We don’t know this area yet, and the club will show us trails and lakes we’d never find on our own. And the summer overnight trips sound amazing. Finally, it’s good for us. After sitting at a desk all week, getting outside on Saturdays would be much healthier than another evening indoors. And we can always cook together at home afterwards!"
+  },
+  "t6": {
+   "situation": "You are volunteering at the information booth at your city’s weekend music festival. Your shift ends at 5 p.m., and you promised to pick up your mother at the airport at 6:30 p.m. Your volunteer supervisor has just asked you to stay until 8 p.m. because two volunteers did not show up.",
+   "options": [
+    "Talk to your supervisor and explain that you must leave at 5 p.m.",
+    "Talk to your brother and ask him to pick up your mother instead."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Luca, it’s me. Have you got a minute? I need a pretty big favour. You know Mom’s flight lands at six thirty tonight, and I said I’d pick her up. Well, I’m at the festival info booth, and two volunteers just didn’t show up. My supervisor asked me to stay until eight, and honestly, if I leave, there’ll be nobody here to help people find first aid or lost kids. It’s really busy. So I was wondering if you could get Mom instead. I know you were planning a quiet evening, and I know the airport traffic on a Saturday is terrible, so I don’t ask this lightly. To make it easier, I’ll text you her flight number so you can check if it’s delayed, and I’ll pay for the parking. And I’ll take you out for dinner next week, anywhere you want. I already called Mom to warn her there might be a change, and she said she’d be happy to see you, since you haven’t visited in a while. If you really can’t, just tell me, and I’ll explain to my supervisor. But it would help me a lot. What do you think?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should cities use public money to help build arenas and stadiums for professional sports teams? Explain your reasons.",
+   "model": "In my opinion, cities generally should not use public money to build arenas for professional teams, although I think there are a few exceptions. The main reason is that the benefits mostly go to private owners. Professional teams are businesses, and many of them are owned by very wealthy people. When a city pays hundreds of millions of dollars for a new stadium, the team keeps most of the ticket, parking and food revenue, while taxpayers carry the risk. Second, the economic benefits are usually exaggerated. Studies in many cities have found that people don’t really spend more money overall when a stadium opens; they just spend it at games instead of at local restaurants or movie theatres. So the money moves around rather than growing. Third, there are always other priorities. The same money could build dozens of community rinks, pools or libraries that ordinary residents would use every week. That said, I can see the argument when a building is truly shared, for example, if an arena is also used for concerts, community events and amateur sports, and the team pays a fair rent. But in most cases, I believe private teams should pay for their own facilities."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "A town square decorated for a celebration. In the middle of the square stands a gigantic pink birthday cake, as tall as the two-storey building beside it, with white icing and three enormous candles with flames on top. A blue banner across the top reads HAPPY 150TH ASHBURY. Around the base of the giant cake, a man in a red shirt waves, a woman in a purple dress takes a photo with a camera, and a child holds balloons. A smaller real cake sits on a table at a stall. Bunting-style balloons and a streetlamp complete the scene.",
+    "items": [
+     ["banner", 120, 20, 400, "HAPPY 150TH ASHBURY", "#2471a3"],
+     ["building", 20, 290, 150, 200, "#c39b77"],
+     ["big", "cake", 340, 300, 5],
+     ["balloons", 560, 300],
+     ["streetlamp", 610, 300],
+     ["table", 460, 380, 90, "#a0703c"],
+     ["cake", 505, 336],
+     ["person", 200, 385, {"shirt": "#c0392b", "pose": "wave"}],
+     ["person", 250, 390, {"shirt": "#8e44ad", "dress": true, "hold": "camera", "hairStyle": "long", "skin": "#8d5524"}],
+     ["person", 420, 392, {"kid": true, "shirt": "#f1c40f", "hold": "balloon", "holdColor": "#3498db"}]
+    ]
+   },
+   "prompt": "Your grandmother grew up in this town but now lives far away. You are on a video call with her, but her camera is not working and she cannot see the picture. Describe what is happening in the town square, and explain whether you think she should come for the celebration next weekend.",
+   "model": "Grandma, I wish you could see this! I’m standing in the town square right now, and they’ve decorated everything for Ashbury’s hundred-and-fiftieth birthday. There’s a big blue banner across the whole square that says “Happy 150th Ashbury.” But the most amazing thing is right in the middle. They’ve built a gigantic birthday cake, and I mean gigantic. It’s as tall as the old brick building next to it, you know, the one where the bank used to be. It’s pink with white icing dripping down the sides, and on top there are three huge candles with flames on them. I think they must be lights, but they look real. People are crowding around it. There’s a man waving at everyone, a woman taking photos, and a little girl holding balloons who can’t stop staring at it. There’s also a stall with a regular cake on a table, so maybe they’re giving out slices. Honestly, I really think you should come next weekend. They’re planning a parade and a dinner for people who grew up here, and you’d probably see some of your old friends. I know it’s a long trip, but I could pick you up from the train, and you could stay with us. What do you think?"
+  }
+ }
+}
