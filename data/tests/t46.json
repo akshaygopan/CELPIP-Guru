@@ -1,0 +1,436 @@
+{
+"id": "t46",
+"title": "Test 46",
+"L": { "parts": [
+{
+"n": 1,
+"context": "Two employees of an environmental charity are dealing with a problem a few days before the organization’s annual general meeting.",
+"sp": { "A": {"name":"Leticia","g":"f","acc":"en-US","rate":1.02}, "B": {"name":"Hamish","g":"m","acc":"en-AU","rate":0.98} },
+"sections": [
+{
+"lines": [
+["A","Hamish, got a minute? I just came back from the walkthrough at the Riverside Pavilion, and we have a problem with Thursday."],
+["B","The AGM? I thought everything was booked. Chairs, projector, coffee."],
+["A","All of that’s fine. It’s the internet. I ran a speed test from the stage, and the upload speed was barely two megabits. The building manager admitted that when the café next door is busy, it drops even lower."],
+["B","Two megabits? That won’t carry a livestream. And we promised members they could attend online this year."],
+["A","Exactly. A hundred and twelve people have registered to join remotely, compared with about sixty in person. And it’s not just watching. The bylaws say remote members have to be able to vote on the board election in real time, or the vote isn’t valid."],
+["B","So if the stream cuts out in the middle of the vote, we could have to redo the whole election?"],
+["A","That’s what Monique said when I called her. She’s the one who rewrote the bylaws, so she’d know. She was quite firm about it: no reliable connection, no valid vote."],
+["B","Wonderful. Did the building manager offer anything?"],
+["A","He said they’re upgrading their service, but not until next month. He offered us a ten percent discount on the room, which is kind, but it doesn’t solve anything."],
+["B","Ten percent of not much. Okay. We have four days. Let’s think this through properly before anyone panics, and before we say anything to the board. The last thing we need is twelve people sending us suggestions."]
+],
+"qs": [
+{"q":"What problem did Leticia discover at the venue?","o":["The connection is too weak to send live video to members reliably","The projector cannot be connected to a laptop at all","The café next door will be closed on Thursday","The room holds fewer people than they expected"],"a":0,"t":"paraphrase","ev":"the upload speed was barely two megabits","x":"An upload speed of two megabits cannot carry a livestream. The café is mentioned because it slows the connection when busy, not because it will be closed."},
+{"q":"Why is the connection problem especially serious?","o":["Members have paid extra to attend the meeting online","Most in-person members are relying on the livestream","An interrupted vote might not count","The building manager refuses to upgrade before next month"],"a":2,"t":"inference","ev":"no reliable connection, no valid vote","x":"Remote members must vote in real time, so an interruption could invalidate the election. The upgrade is scheduled for next month, but the manager has not refused anything."},
+{"q":"What is Hamish’s attitude toward the building manager’s offer?","o":["He thinks it should be accepted right away","He believes it shows the manager is being dishonest","He wants to ask for a larger discount on the room","He considers it of little real help"],"a":3,"t":"attitude","ev":"Ten percent of not much.","x":"“Ten percent of not much” dismisses the discount as nearly worthless for their problem. He does not accuse the manager of dishonesty or ask for more."}
+]
+},
+{
+"lines": [
+["B","First option: we move the meeting. The community college has a lecture hall with proper wired internet. We used it two years ago."],
+["A","I called them on my way back. The hall’s free on Thursday, but they charge eleven hundred dollars for an evening, and they need a certificate of insurance naming the college, which our insurer says takes five business days."],
+["B","And we have four days. Okay. What about bringing our own internet? There are rental hotspots that use the cellular network. Some of the film crews in town use them."],
+["A","I looked into that too. A company in town rents out a unit that combines signals from two networks, so if one drops, the other takes over. Two hundred and forty dollars for the day, delivered."],
+["B","That’s within the budget. Would the signal be strong inside the pavilion, though? It’s half underground."],
+["A","That’s my worry. The rental company said they couldn’t guarantee anything without testing on site, and their technician is booked until Wednesday afternoon."],
+["B","Cutting it close, but possible. Another idea: what if we hold the vote online in advance? Members vote during the week, and Thursday is just for the presentations."],
+["A","I like the idea in principle, but Monique says the bylaws require the vote to happen during the meeting itself, after the candidates speak. Changing that needs a special resolution, which needs, you guessed it, a meeting."],
+["B","Of course it does. So the rules protect themselves."]
+],
+"qs": [
+{"q":"Why is the college lecture hall not a realistic option?","o":["It is already booked for another event that evening","A paperwork requirement cannot be met in time","Its internet is no better than at the pavilion","The college refuses to rent to charities on weekday evenings"],"a":1,"t":"inference","ev":"which our insurer says takes five business days","x":"The insurance certificate takes five business days, but the meeting is in four. The hall is actually free on Thursday and has proper wired internet."},
+{"q":"What is the main uncertainty about the rental hotspot?","o":["Whether the price fits within the charity’s budget","Whether the company can deliver it on Thursday morning","Whether it will work well inside the building","Whether both networks can be combined in one unit"],"a":2,"t":"detail","ev":"The rental company said they couldn’t guarantee anything without testing on site","x":"The pavilion is half underground, and the company cannot guarantee the signal without a test. Hamish says the price is within budget, and delivery is included."},
+{"q":"Why can the vote not be held online beforehand?","o":["The rules say it must take place during the meeting","Members have not been told who the candidates are yet","Monique thinks online voting is not secure enough","There is no system that allows members to vote from home"],"a":0,"t":"paraphrase","ev":"the bylaws require the vote to happen during the meeting itself","x":"The bylaws require voting during the meeting after the candidates speak, and changing that needs a meeting. Monique objects on rule-based grounds, not security."}
+]
+},
+{
+"lines": [
+["A","So, realistically, we’re back to the pavilion, and we make the connection work."],
+["B","Then let’s not rely on one thing. Book the hotspot rental, and ask the technician to test it on Wednesday afternoon. If the signal’s good inside, great."],
+["A","And if it isn’t?"],
+["B","Then we put the hotspot by the window upstairs, in the café, and run a long cable down to the stage. The building manager owes us a favour after that speed test, don’t you think?"],
+["A","He did offer the discount. I’ll ask him whether we can use the café’s upstairs window. What about the vote itself, as a backup?"],
+["B","Monique mentioned once that the bylaws allow members to vote by phone if the online system fails. If we set up a conference line in advance and send the number to every remote member, nobody can say they were shut out."],
+["A","That’s clever. Phone lines don’t need much bandwidth. I’ll draft the email to remote members tonight with the dial-in number and instructions."],
+["B","Actually, hold off until Wednesday. If the hotspot test goes well, I’d rather send one clear message that says ‘here’s the stream, and here’s the backup number,’ than two emails that confuse people."],
+["A","Fair enough. I’ll write it tonight but won’t send it until you confirm the test. And I’ll call Monique tomorrow to double-check the phone voting rule."]
+],
+"qs": [
+{"q":"What will Leticia ask the building manager?","o":["To reduce the room fee by ten percent","To upgrade the internet before Thursday","To keep the café next door closed during the meeting itself","To let them place the equipment in another part of the building"],"a":3,"t":"detail","ev":"I’ll ask him whether we can use the café’s upstairs window.","x":"She will ask to put the hotspot by the café’s upstairs window. The ten percent discount was already offered, and the upgrade is not possible until next month."},
+{"q":"When will the email to remote members be sent?","o":["Tonight, as soon as Leticia finishes writing it","After the rental equipment has been successfully tested on site","On Thursday morning, just before the meeting starts","Once Monique has approved the phone voting rules"],"a":1,"t":"detail","ev":"I’ll write it tonight but won’t send it until you confirm the test.","x":"Leticia first planned to send it tonight, but Hamish asks her to wait for Wednesday’s test so only one clear message goes out. Writing happens tonight; sending waits."}
+]
+}
+]
+},
+{
+"n": 2,
+"context": "A mother is talking to her teenage son about some charges on her credit card.",
+"sp": { "A": {"name":"Bernadette","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Felix","g":"m","acc":"en-US","rate":1.05} },
+"sections": [
+{
+"lines": [
+["A","Felix, can you come here for a second? I want to show you something on my credit card statement."],
+["B","Uh, sure. What is it?"],
+["A","Eight charges from the same games company over the last two weeks. They add up to a hundred and eighty-six dollars. I didn’t buy anything from them. Did you?"],
+["B","Oh no. Okay, some of those might be me. In Skyforge, you can buy gem packs to unlock new characters. I thought they were like two or three dollars each."],
+["A","Some of them were. But look at this one. Fifty-four ninety-nine. And this one, forty-two."],
+["B","Those were the bundle deals. The screen said ‘best value.’ I honestly didn’t realize it was that much real money. It just said ‘five thousand gems.’ I wasn’t really thinking in dollars."],
+["A","That’s exactly how they design it, Felix. But how was my card even connected to your game?"],
+["B","Remember when you bought me that racing game for my birthday? You put your card into the account then, and I guess it stayed saved."],
+["A","Right. And there was no password needed for each purchase?"],
+["B","No, it just asked me to confirm. One tap."],
+["A","Okay. Well, first of all, I’m going to remove my card from your account tonight and turn on the setting that asks for a parent’s approval for every purchase. Second, I’ll contact the store and ask for a refund. Sometimes they’ll refund accidental purchases by kids, but only once, so I don’t want to be doing this again."],
+["B","I’m really sorry, Mom. Can I pay you back? I have some money from babysitting the Hendersons’ kids."],
+["A","I appreciate that. Let’s see what the store says first. If they refund it, you won’t owe me anything, but we’ll set up a monthly gaming budget – say, ten dollars – that comes out of your own money. If they don’t refund it, you’ll pay back half, and I’ll cover the rest, since I left the card on there."],
+["B","That’s fair. Half of a hundred and eighty-six is ninety-three, right? That’s almost all my babysitting money."],
+["A","It is. Which might make you think twice about the next ‘best value’ bundle."],
+["B","Point taken."]
+],
+"qs": [
+{"q":"Why did Felix not realize how much he was spending?","o":["The game charged more than the price on the screen","His mother had told him the gems were free that month","Each purchase needed a password he did not know","The prices were shown in the game’s own currency, not in dollars"],"a":3,"t":"inference","ev":"It just said ‘five thousand gems.’ I wasn’t really thinking in dollars.","x":"The bundles were priced in gems, so he did not think in dollars. Purchases needed only one tap, not a password, and nothing suggests the price shown was wrong."},
+{"q":"How was the mother’s card linked to the game account?","o":["It had been saved during an earlier purchase","Felix entered it without asking her permission","The store linked it automatically to family accounts","She added it to buy gems as a birthday present for him"],"a":0,"t":"detail","ev":"You put your card into the account then, and I guess it stayed saved.","x":"She entered it to buy a racing game for his birthday, and it stayed saved. The birthday gift was a game, not gems."},
+{"q":"What does the mother say about refunds?","o":["The store always refunds every purchase made by children under sixteen","She has already received a refund for half the amount","Stores may give one for a child’s mistake, but only once","She will ask the bank to cancel the charges instead"],"a":2,"t":"paraphrase","ev":"Sometimes they’ll refund accidental purchases by kids, but only once","x":"Stores sometimes refund children’s accidental purchases, but only once. “Sometimes” rules out “always”, and “half” refers to Felix’s repayment if there is no refund."},
+{"q":"What will happen if the store gives a refund?","o":["Felix will still pay back half of the total","Felix will spend a limited amount of his own money each month","Felix’s mother will give him ten dollars a month to spend","Felix will no longer be allowed to play the game at all on weekdays"],"a":1,"t":"detail","ev":"we’ll set up a monthly gaming budget – say, ten dollars – that comes out of your own money","x":"With a refund he owes nothing but gets a ten-dollar monthly budget from his own money. Paying back half applies only if there is no refund."},
+{"q":"Why will the mother pay part of the cost if there is no refund?","o":["She accepts some responsibility for what happened","Felix has not yet earned any babysitting money","The store has refused to deal with Felix directly","She thinks the game’s prices are unfair to young players"],"a":0,"t":"inference","ev":"since I left the card on there","x":"She will cover half because she left her card saved on his account. Felix does have babysitting money, which is why he offers to repay."}
+]
+}
+]
+},
+{
+"n": 3,
+"context": "A man calls the city about a new residential parking permit system.",
+"sp": { "A": {"name":"Ngozi","g":"f","acc":"en-CA","rate":1.03}, "B": {"name":"Brendan","g":"m","acc":"en-AU","rate":0.99} },
+"sections": [
+{
+"lines": [
+["B","Hi, I just got a letter saying the city is switching from paper parking permits to an app, and I’m trying to understand what I need to do. I live on Larkspur Avenue."],
+["A","Sure, I can help with that. Starting March first, the paper hang-tags will no longer be valid. Instead, your permit will be linked to your licence plate. Enforcement officers scan plates with a camera, so there’s nothing to display in your car."],
+["B","Okay. And how do I get the new permit?"],
+["A","You register through the ParkRight app or on the city website. You’ll need your driver’s licence and either your vehicle registration or, if it’s a leased or company car, a letter from the leasing company or your employer showing that you’re the main driver."],
+["B","It’s a company car, actually. Does that change the price?"],
+["A","No, the annual permit is the same: a hundred and twenty dollars for the first vehicle and two hundred for a second vehicle at the same address. Each household can have a maximum of two permits."],
+["B","And visitors? My mother comes on weekends and parks on the street."],
+["A","Visitor permits are also handled in the app now. Each household gets thirty free visitor days per year. You enter the visitor’s plate number for the days they’re staying. After the thirty days, you can buy additional days at five dollars each."],
+["B","Can I enter her plate once and leave it?"],
+["A","No, each visitor permit has to be activated for specific dates, up to fourteen days in a row. That stops people from using visitor permits as a free second permit."],
+["B","Makes sense. What if I don’t have a smartphone? My neighbour across the street is in her eighties."],
+["A","She can register on the website from any computer, or in person at any of the three customer service centres. She can also call this line, and we’ll set it up over the phone. Visitor days can be activated by phone too, using an automated system."],
+["B","Good, I’ll let her know. One last question: when does my current paper permit expire?"],
+["A","All paper permits expire on February twenty-eighth, regardless of the date printed on them. If you paid for a full year and your permit was supposed to run until, say, August, you’ll receive a credit for the unused months toward your new permit."],
+["B","Mine runs until the end of May, so I’ll get about three months back?"],
+["A","Three months, yes, applied automatically when you register. Just make sure you register before March first, because there’s no grace period. Officers will start issuing tickets on the first."]
+],
+"qs": [
+{"q":"How will officers check permits under the new system?","o":["By scanning a code shown on drivers’ phones","By checking hang-tags displayed in vehicles","By reading vehicle licence plates","By asking drivers to show their licence at the curb"],"a":2,"t":"paraphrase","ev":"Enforcement officers scan plates with a camera","x":"Permits are linked to plates, which officers scan with a camera. Hang-tags are the old system that ends on March 1."},
+{"q":"What must Brendan provide because he drives a company car?","o":["A copy of the vehicle’s registration","A letter confirming he is the usual driver","A higher fee for a commercial vehicle permit","Proof that he has lived on Larkspur Avenue for a year"],"a":1,"t":"detail","ev":"a letter from the leasing company or your employer showing that you’re the main driver","x":"For company cars, a letter showing he is the main driver replaces the registration. The clerk confirms the price is the same."},
+{"q":"What is true about visitor permits?","o":["One plate can be registered for the whole year","The first fourteen days of each year are free","Extra days cost five dollars after the first fourteen","They must be activated for particular dates"],"a":3,"t":"detail","ev":"each visitor permit has to be activated for specific dates","x":"Each visitor permit covers specific dates, up to fourteen in a row. Thirty days a year are free; fourteen is the maximum length of one permit."},
+{"q":"How can Brendan’s elderly neighbour register?","o":["Through several options that do not require an app","Only in person at the main city hall office","Only by asking a relative to use the app for her","By mailing her paper permit back to the city before March"],"a":0,"t":"paraphrase","ev":"She can register on the website from any computer, or in person","x":"She can use the website, visit a service centre or register by phone. There are three service centres, so “only… main city hall” is wrong."},
+{"q":"What will happen to the unused part of Brendan’s paper permit?","o":["It will remain valid until the end of May","He must apply in writing to get a refund for it","Its value will be deducted from his new permit","It can be transferred to a visitor permit for his mother"],"a":2,"t":"detail","ev":"you’ll receive a credit for the unused months toward your new permit","x":"Unused months become a credit, applied automatically when he registers. All paper permits expire on February 28 whatever date is printed."},
+{"q":"What does the clerk stress at the end of the call?","o":["Officers will give warnings during the first week of March","Registration through the app costs less than by phone","Paper permits can still be used until they expire","Tickets will be handed out right away, starting on the first day"],"a":3,"t":"inference","ev":"there’s no grace period","x":"There is no grace period, so tickets start on March 1. Warnings are not mentioned, and the price is the same whichever way residents register."}
+]
+}
+]
+},
+{
+"n": 4,
+"context": "You will hear a local news report.",
+"sp": { "A": {"name":"Theo Marchand","g":"m","acc":"en-CA","rate":1.02}, "B": {"name":"Dana Whitfield","g":"f","acc":"en-US","rate":0.98} },
+"sections": [
+{
+"lines": [
+["A","The town of Port Elgin Falls will begin replacing all of its two thousand four hundred streetlights with new smart LED fixtures next month, in a project expected to take eighteen months. The new lights use about sixty percent less electricity, which the town estimates will save around three hundred and fifty thousand dollars a year once the project is complete."],
+["A","But it’s not the energy savings that have people talking. About one in ten of the new fixtures will also carry sensors that count vehicles and pedestrians, measure air quality and detect loud noises such as car crashes or breaking glass. The town says the data will help it time traffic signals better and respond faster to emergencies."],
+["A","The sensors do not record video or audio, according to the town, and the counting is done inside the device, which sends only totals to the town’s servers. Still, some residents say they weren’t consulted. Dana Whitfield, who chairs a local civil liberties group, says the problem isn’t the technology itself."],
+["B","I believe the town when it says these sensors don’t record faces today. My concern is tomorrow. Once the hardware is on every corner, adding a camera is a software update and a council vote away. We’re asking for a simple bylaw: any new type of data collection would require a public consultation first. If the town has nothing to hide, it shouldn’t object to that."],
+["A","Mayor Gordon Fiske said in a statement that the town is open to discussing such a bylaw and that the sensor data will be published online in an open format, so residents can see exactly what is being collected."],
+["A","The project is being funded partly by a federal grant for energy-efficient infrastructure, which covers forty percent of the four-point-two-million-dollar cost. The rest will come from the town’s capital budget, and officials say the energy savings should repay the town’s share in about seven years."],
+["A","A public information session is scheduled for next Tuesday evening at the town hall."]
+],
+"qs": [
+{"q":"What is the main financial benefit of the new lights?","o":["They will greatly reduce the town’s power use","They will cost less to install than the old lights did","They will be paid for entirely by a federal grant","They will reduce the number of car accidents"],"a":0,"t":"paraphrase","ev":"The new lights use about sixty percent less electricity","x":"Using 60% less electricity saves about $350,000 a year. The federal grant covers only 40% of the cost, not all of it."},
+{"q":"What does the town say about the sensor data?","o":["It will include video of busy intersections","It will only be shared with police and emergency services","It will be stored on each device and never sent anywhere","Only summary figures will leave the devices"],"a":3,"t":"detail","ev":"sends only totals to the town’s servers","x":"Counting happens inside the device, and only totals are sent. Data is sent to the servers and published online, so it is neither kept on the device nor limited to police."},
+{"q":"What is Dana Whitfield’s main concern?","o":["The sensors already secretly record people’s faces","The system could later be expanded without any public input","The lights are too bright for residential streets","The town is spending too much of its capital budget"],"a":1,"t":"viewpoint","ev":"adding a camera is a software update and a council vote away","x":"She fears cameras could be added later without consultation, which is why she wants a bylaw. She explicitly believes the sensors do not record faces today."},
+{"q":"How does Whitfield view the town’s current claims?","o":["She thinks the town is hiding the sensors’ real purpose","She believes the town has already broken its promises","She accepts them but worries about later changes","She considers them impossible to check without video"],"a":2,"t":"attitude","ev":"I believe the town when it says these sensors don’t record faces today.","x":"She trusts the current claims but says “My concern is tomorrow”. Her line about having “nothing to hide” is a challenge about the future bylaw, not an accusation."},
+{"q":"How long should it take for the savings to cover the town’s share of the cost?","o":["Eighteen months","About seven years","About ten years","Forty months"],"a":1,"t":"detail","ev":"the energy savings should repay the town’s share in about seven years","x":"Officials expect about seven years. Eighteen months is how long installation will take, and forty is the percentage covered by the grant."}
+]
+}
+]
+},
+{
+"n": 5,
+"context": "Three people who run a community radio station are discussing the station’s future.",
+"sp": { "A": {"name":"Rosalie","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Emeka","g":"m","acc":"en-GB","rate":1.02}, "C": {"name":"Harlan","g":"m","acc":"en-AU","rate":0.97} },
+"sections": [
+{
+"lines": [
+["A","Thanks for coming in on a Saturday. I’ll be blunt: the engineer’s report on the transmitter came back, and it’s worse than we thought. It needs to be replaced, not repaired, and a new one costs thirty-eight thousand dollars. On top of that, the tower rent goes up to nine hundred a month in April."],
+["B","Thirty-eight thousand. That’s more than our entire fundraising drive brought in last year."],
+["A","Exactly. So I want to put something on the table that I know some people won’t like. What if we stopped broadcasting on FM altogether and went fully online? Live stream on the website, every show available as a podcast. No transmitter, no tower rent."],
+["C","Online only? Rosalie, our listener survey says sixty percent of people listen in the car. Most of them aren’t going to fiddle with an app while they’re driving."],
+["A","Some will. Cars are getting smarter. And our younger listeners already find us online."],
+["B","Can I raise something more serious than convenience? Remember the ice storm last February? Power was out for four days in the townships, and the cell towers went down on the second day. The only way people out there got information about warming centres and road closures was our FM signal on battery radios. I had farmers calling me afterwards to say thank you."],
+["A","I haven’t forgotten. That was the station at its best."],
+["B","And it’s not only goodwill. When we renewed our licence, we committed to carrying emergency alerts for the region. I’m not sure we could just walk away from that."],
+["A","Hmm. I’d have to check the licence wording, but you may be right. Okay, I’ll admit I was looking at this mostly as a budget problem."],
+["C","There’s also the volunteers to think about. Half of our hosts are over sixty. Some of them have been doing their shows the same way for twenty years. If we tell them it’s podcasts from now on, I think we’d lose a few. Then again, I’ve had three university students ask me about volunteering, and every one of them asked whether we do podcasts."],
+["A","So we need FM for the emergencies and the older listeners, but podcasts to attract new people. Neither of which solves the thirty-eight thousand."],
+["C","Maybe it does, partly. The station in Millgrove upgraded last year, and they’re selling their old transmitter. It’s refurbished, and they’re asking fourteen thousand."],
+["A","Fourteen is a lot easier to swallow. What’s the warranty like on a refurbished unit?"],
+["C","Only a year, from what they told me."],
+["A","That makes me nervous, honestly. If it fails in year two, we’re back here having this same conversation."],
+["B","Then let’s make the case for the money somewhere else. The county has an emergency preparedness fund. If we can show that we were the main source of information during the ice storm, I think we’d have a strong application for part of the cost, maybe even a new unit."],
+["A","That’s a good idea. Could you write it? You were the one taking those calls."],
+["B","I’ll draft it this week. I still have the call logs from February."],
+["A","All right. Here’s what I propose: we keep FM, we buy the Millgrove transmitter now so we’re not off the air, and we apply to the county fund to build a reserve for a new one. Harlan, could you pick two shows to test as podcasts and get those students involved?"],
+["C","Happily. I’ll start with the gardening show. The host is seventy-four, and she’s already asked me what a podcast is."],
+["A","Perfect. We’ll review everything in a year."]
+],
+"qs": [
+{"q":"What does Rosalie first propose?","o":["Raising money for a new transmitter through a special drive","Moving the transmitter to a cheaper tower in April","Ending traditional FM broadcasting and operating only on the internet","Selling the station’s old transmitter to Millgrove"],"a":2,"t":"detail","ev":"What if we stopped broadcasting on FM altogether and went fully online?","x":"She suggests dropping FM for a stream and podcasts to avoid the transmitter and rent. Millgrove is selling its transmitter to them, not the other way round."},
+{"q":"Why does Harlan doubt the online-only idea at first?","o":["Many listeners tune in while driving","Older volunteers cannot use the website","The app costs listeners a monthly fee","Younger listeners prefer FM radio in their cars"],"a":0,"t":"paraphrase","ev":"sixty percent of people listen in the car","x":"Most listeners are in their cars and will not use an app while driving. Rosalie says younger listeners already find the station online."},
+{"q":"Why does Emeka mention the ice storm?","o":["To show that the transmitter was damaged by bad weather","To explain why the fundraising drive did poorly last year","To argue that the station should buy battery radios for farmers","To show that FM served a vital role when other systems failed"],"a":3,"t":"purpose","ev":"The only way people out there got information about warming centres and road closures was our FM signal on battery radios.","x":"When power and cell networks failed, FM was the only information source. The farmers called to say thank you; nobody suggests buying them radios."},
+{"q":"How does Rosalie respond to Emeka’s point about the licence?","o":["She insists the licence allows the station to stop broadcasting","She admits she had seen the issue too narrowly","She asks Emeka to contact the licensing authority today","She says emergency alerts could be sent through podcasts"],"a":1,"t":"attitude","ev":"I’ll admit I was looking at this mostly as a budget problem.","x":"She concedes she had treated it only as a money issue. She says she would need to check the wording, which is the opposite of insisting."},
+{"q":"What does Harlan suggest about volunteers?","o":["Older hosts are eager to switch to podcasts","University students prefer working on FM shows","The station has too many volunteers to manage","Changes to the format could both lose and attract volunteers"],"a":3,"t":"inference","ev":"If we tell them it’s podcasts from now on, I think we’d lose a few.","x":"Some older hosts might quit, but students are interested because of podcasts. The students asked about podcasts, so they do not prefer FM."},
+{"q":"What is Rosalie’s concern about the Millgrove transmitter?","o":["It costs more than the station can raise this year","Millgrove may not agree to sell it to them","Its short guarantee could leave them unprotected later","It may not be powerful enough to reach the outlying townships"],"a":2,"t":"inference","ev":"If it fails in year two, we’re back here having this same conversation.","x":"With only a one-year warranty, a failure in year two would bring the problem back. She calls the price “a lot easier to swallow”, so cost is not her worry."},
+{"q":"Why is Emeka asked to write the funding application?","o":["He has direct evidence of the station’s role during the storm","He is responsible for the station’s licence renewal","He knows the people who manage the county fund","He was the one who found the Millgrove transmitter"],"a":0,"t":"inference","ev":"You were the one taking those calls.","x":"He took the listeners’ calls and still has the call logs, which support the application. Harlan, not Emeka, found the Millgrove transmitter."},
+{"q":"What will Harlan do first?","o":["Train older hosts to use the new transmitter","Turn a show with an older host into a podcast","Recruit students to run the gardening show alone","Ask the listeners which shows they want as podcasts"],"a":1,"t":"prediction","ev":"I’ll start with the gardening show.","x":"He will start the podcast test with the gardening show, whose host is seventy-four. Students will be involved, but not to replace the host."}
+]
+}
+]
+},
+{
+"n": 6,
+"context": "You will hear a reporter presenting different views on a proposed law about children’s images online.",
+"sp": { "A": {"name":"Kalinda Moss","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Owen Castellanos","g":"m","acc":"en-US","rate":1.04} },
+"sections": [
+{
+"lines": [
+["A","A generation of children whose lives were documented online almost from birth is now reaching adulthood, and some of them are asking for something new: the right to have those posts removed. A private member’s bill introduced in Parliament this fall would allow young people, once they turn sixteen, to ask platforms to delete images and videos of them that were posted by their parents when they were minors. Supporters say the bill would also send a message to parents who earn money from family content, which has become a significant industry."],
+["A","For Owen Castellanos, the issue is personal. His father ran a family video channel with more than two hundred thousand subscribers, featuring Owen from the age of four."],
+["B","People think it must have been fun, being on camera. Some of it was. But when I started high school, kids found a video of me crying because I’d failed a swimming test. It had half a million views. I didn’t choose to share that. I was seven. I’m not angry at my dad anymore, but I do think I should have a say in what stays online now. My dad has since taken down about half of the old videos, which I appreciate. But copies are still out there, and I find new ones every few months."],
+["A","Child psychologist Dr. Mireille Tanaka supports the bill, though she believes it doesn’t go far enough. She points out that once an image has been downloaded or shared, deletion from the original platform does little. In her view, education for parents before they post would prevent more harm than any law after the fact. She recommends a simple test: would you be comfortable if this post were shown at your child’s job interview in twenty years?"],
+["A","Not all parents see it as a problem. Fatima Corriveau, who writes a popular blog about raising a child with a rare genetic condition, says sharing her daughter’s story connected her with doctors and families she would never have found otherwise. She worries that a law focused only on harm could make parents like her afraid to speak openly. She does, however, now ask her daughter, who is eleven, before posting anything about her."],
+["A","Platform representatives, meanwhile, warn that verifying who is in a photo, and whether they were a minor when it was posted, could be difficult. One company told us it already removes content when a person can show it depicts them as a child, but that the process relies on human review and can take several weeks."],
+["A","The bill is expected to go to committee in the new year, where it will likely be amended. Similar laws have already been passed in parts of Europe, and the committee is expected to look closely at how those laws have worked in practice."]
+],
+"qs": [
+{"q":"What would the proposed bill allow?","o":["Parents to sue platforms for sharing family videos","Young people to request removal of childhood posts","Children under sixteen to close their parents’ accounts","Platforms to ban all videos showing young children"],"a":1,"t":"paraphrase","ev":"to ask platforms to delete images and videos of them that were posted by their parents","x":"From sixteen, young people could ask platforms to delete posts their parents made about them. The right begins at sixteen, so “under sixteen” is wrong."},
+{"q":"How does Owen feel about his father now?","o":["He is still angry about the videos his father posted","He is grateful for the popularity the channel brought","He wants his father to delete the whole channel immediately","He has moved past his anger but wants some control"],"a":3,"t":"attitude","ev":"I’m not angry at my dad anymore, but I do think I should have a say","x":"He is no longer angry but wants a say in what stays online. He asks for a say, not for the whole channel to be deleted."},
+{"q":"Why does Dr. Tanaka think the bill does not go far enough?","o":["Removing a post may not stop copies that already exist","Sixteen is too old an age for removal requests","It does not punish parents who post harmful images","It does not apply to videos posted by other relatives online"],"a":0,"t":"viewpoint","ev":"once an image has been downloaded or shared, deletion from the original platform does little","x":"Copies that have been downloaded or shared remain, so she prefers educating parents beforehand. She does not call for punishing parents."},
+{"q":"What is the purpose of Dr. Tanaka’s ‘job interview’ test?","o":["To help young adults prepare for difficult interviews","To show employers how to search candidates’ histories","To help parents think about possible future effects before posting","To prove that most family posts are harmless in the long run"],"a":2,"t":"purpose","ev":"would you be comfortable if this post were shown at your child’s job interview in twenty years?","x":"The test makes parents imagine a post’s long-term effect on their child before sharing it. It is advice for parents, not for employers or job seekers."},
+{"q":"What has Fatima Corriveau changed about her blogging?","o":["She checks with her daughter before sharing","She stopped posting about her daughter’s condition","She only shares posts privately with doctors","She deleted old posts after the bill was introduced"],"a":0,"t":"detail","ev":"She does, however, now ask her daughter, who is eleven, before posting anything about her.","x":"She now asks her eleven-year-old before posting. She still blogs openly, and doctors are people the blog helped her find, not a private audience."},
+{"q":"What do platforms say about removing such content?","o":["It is impossible to do without a court order","It is done automatically within a few hours","They will refuse to follow the law if it passes","It is already possible but can be slow"],"a":3,"t":"inference","ev":"the process relies on human review and can take several weeks","x":"One company already removes such content, but human review can take weeks. The process is manual, so “automatically within hours” is wrong."}
+]
+}
+]
+}
+]},
+"R": {
+"p1": {
+"meta": "From: Rosemary Ainsworth  |  To: Tamsin Ainsworth-Reyes  |  Subject: Your aunt, the online student",
+"text": "Dear Tamsin,\n\nYou will laugh, but at seventy-three your old aunt has gone back to school – online, no less. In September I signed up for a twelve-week course called “Canadian Painters of the Twentieth Century” through the university’s program for older learners. It costs nothing for anyone over sixty-five, which is the only reason I dared to try it.\n\nThe lectures themselves are a joy. The professor, a young woman with tremendous energy, records a video every Monday, and I can pause her whenever I want to make a cup of tea, which is more than I could do in a real lecture hall. The readings are excellent, if a little long.\n\nThe discussion forum is another matter. Every week we must write a post of about two hundred words and reply to two classmates. The first week, I wrote my post in a word processor, as I always do, and when I copied it into the forum, all the apostrophes turned into strange symbols. I was mortified. A kind classmate from Saskatoon sent me a private message explaining how to fix it, and we have been exchanging notes about our gardens ever since. So something good came of it.\n\nNow I have a bigger hurdle. For our final assignment, each of us must give a ten-minute presentation, live, on video, to the professor and a small group of classmates, about a painting of our choice. Mine is a winter landscape that hung in your grandmother’s dining room, so you may remember it. I know exactly what I want to say. What I don’t know is how to share my screen so that everyone can see the painting while I talk, and I live in fear of freezing on camera or, worse, discovering that I have been on mute for ten minutes.\n\nThe presentation is on Thursday, December 4, at two o’clock. Would you be able to come over on the Sunday before, for a practice run? I will make the lemon squares you liked as a child, though I suspect you’ve outgrown them.\n\nYou needn’t worry about the painting itself. On that subject, I could talk for an hour, which may be the real problem.\n\nWith love,\nAunt Rosemary",
+"qs": [
+{"q":"Why did Rosemary decide to take the course?","o":["Her niece encouraged her to study art history","The professor is someone she knew years ago","It was required for a university program she joined","There was no fee for people of her age"],"a":3,"t":"paraphrase","ev":"It costs nothing for anyone over sixty-five, which is the only reason I dared to try it.","x":"The course is free for people over sixty-five, which is why she “dared” to try it. The program for older learners offers the course; it is not a requirement."},
+{"q":"What does Rosemary like about the lectures?","o":["They are given live so she can ask questions","She can stop them whenever she needs to","The readings that go with them are very short","They are recorded in a real lecture hall each week"],"a":1,"t":"detail","ev":"I can pause her whenever I want to make a cup of tea","x":"The recorded lectures can be paused for tea. They are recorded, not live, and she says the readings are “a little long”."},
+{"q":"What happened as a result of the problem with her first forum post?","o":["She stopped using a word processor for her posts","The professor asked her to rewrite it entirely","She developed a lasting friendship with another student","She was given extra time to reply to her classmates"],"a":2,"t":"inference","ev":"we have been exchanging notes about our gardens ever since","x":"A classmate helped her fix the symbols, and they now exchange notes about their gardens. The professor is not involved in that story."},
+{"q":"What is Rosemary most worried about regarding her presentation?","o":["Handling the technical side of things during the live session","Choosing a painting her classmates will enjoy","Speaking about the painting for ten full minutes","Remembering what her grandmother said about the painting"],"a":0,"t":"inference","ev":"What I don’t know is how to share my screen","x":"She knows what to say but fears screen sharing, freezing and being muted. She has already chosen the painting and could talk about it for an hour."},
+{"q":"When does Rosemary want Tamsin to visit?","o":["On the afternoon of Thursday, December 4","A few days before the presentation","On the first Monday after the course ends","The weekend after the presentation, to celebrate"],"a":1,"t":"detail","ev":"Would you be able to come over on the Sunday before, for a practice run?","x":"She asks for the Sunday before the Thursday presentation. December 4 is the presentation itself."},
+{"q":"What does Rosemary imply at the end of her letter?","o":["She is not confident about her knowledge of the painting","She hopes Tamsin will help her write the content","She may struggle to keep within the time limit","She wants Tamsin to bring the painting with her"],"a":2,"t":"inference","ev":"On that subject, I could talk for an hour, which may be the real problem.","x":"Talking for an hour would be a problem in a ten-minute presentation. She is very confident about the painting, so option A reverses her meaning."}
+],
+"reply": {
+"intro": "Here is Tamsin’s response to Rosemary. Complete the response by choosing the best option for each blank.",
+"text": "Dear Aunt Rosemary,\n\nI’m so proud of you! And I absolutely remember that painting – I used to count the crows in the snow every Christmas dinner.\n\nOf course I’ll come on the Sunday. Let’s plan for about two hours. First, we’ll set up your computer so that {1}. Then we can do a full practice run. I’ll pretend to be the professor, and you can share the painting on screen while you talk.\n\nAbout your fear of being on mute: there’s usually a small microphone symbol at the bottom of the screen, and if it {2}, nobody can hear you. We’ll put a sticky note on your monitor as a reminder.\n\nI’d also suggest we {3}, so there are no surprises on Thursday. Since you could talk for an hour, it might help to {4} and practise with a timer.\n\nAnd please make the lemon squares. I have definitely {5}.\n\nLove,\nTamsin",
+"blanks": [
+{"o":["the painting appears on everyone’s screen","the apostrophes display correctly in your posts","your classmates can join from Saskatoon","the lecture videos can be paused for tea breaks"],"a":0,"t":"inference","ev":"how to share my screen so that everyone can see the painting while I talk","x":"Screen sharing is her main technical need for the presentation. The apostrophe problem was already fixed weeks ago."},
+{"o":["turns green, only the professor can hear you","flashes, your classmates have left the meeting","is missing, the session is being recorded","has a line through it"],"a":3,"t":"coherence","ev":"discovering that I have been on mute for ten minutes","x":"A crossed-out microphone means muted, so nobody can hear her. The other options do not logically lead to “nobody can hear you”."},
+{"o":["change the painting to something more modern","check your internet connection properly a few days ahead","ask the professor to cancel the live part","send your forum posts to me before you publish them"],"a":1,"t":"inference","ev":"I live in fear of freezing on camera","x":"Freezing on camera is usually a connection problem, so checking it early avoids surprises. Cancelling the live part is not realistic for a required assignment."},
+{"o":["add a few more paintings to your talk","skip the practice run and relax instead","choose your three main points in advance","write out the whole talk word for word on paper"],"a":2,"t":"inference","ev":"On that subject, I could talk for an hour, which may be the real problem.","x":"Selecting main points helps someone who could talk for an hour stay within ten minutes. Adding paintings would make the talk even longer."},
+{"o":["never tried them before","been too busy to eat lately","baked a batch for your class","not outgrown them"],"a":3,"t":"vocab","ev":"though I suspect you’ve outgrown them","x":"Tamsin answers her aunt’s joke: she still loves the lemon squares. She liked them as a child, so she has tried them before."}
+]
+}
+},
+"p2": {
+"diagram": {
+"title": "HomeWired Installations – Smart Home Services",
+"intro": "Our certified technicians install and set up smart devices bought from us or elsewhere. Installation prices are listed separately; device prices apply only if you buy the device from us. Every visit includes a 30-minute app tutorial.",
+"table": {
+"cols": ["Service","Device price (if bought from us)","Installation","Approx. time"],
+"rows": [
+["Video doorbell","$179","$89","1 hour"],
+["Smart thermostat","$219","$129","1.5 hours"],
+["Smart lock (front door)","$249","$99","1 hour"],
+["Indoor camera (each)","$69","$35","20 minutes"],
+["Outdoor camera (each)","$139","$75","45 minutes"],
+["Mesh Wi-Fi system (3 units)","$299","$110","1.5 hours"]
+]
+},
+"cards": [
+{"h":"Packages (devices + installation)","lines":["Starter Safety: video doorbell + smart lock – $520","Whole Home: doorbell, lock, thermostat and 2 outdoor cameras – $1,150","Package prices cannot be combined with other discounts"]},
+{"h":"Service call fees","lines":["Weekdays 8 a.m.–5 p.m.: no call fee","Weekday evenings and Saturdays: $60 call fee","Sundays and statutory holidays: no service"]}
+],
+"notes": [
+"Installing devices bought elsewhere costs 20% more than the listed installation price.",
+"Seniors (65+) receive 15% off installation (not devices or packages).",
+"Thermostat installation requires a C-wire; if there is none, an adapter is installed for an extra $40.",
+"Outdoor cameras need an electrical outlet within 3 m; otherwise, wiring is quoted separately.",
+"Any job over 3 hours of work is booked as two visits."
+]
+},
+"email": {
+"intro": "Read the following email about smart home installation. Complete the email by choosing the best option for each blank.",
+"text": "Hi Anouk,\n\nI’ve been looking at HomeWired for Mom and Dad’s house. Since we already bought a video doorbell on sale at the hardware store last month, having HomeWired install it would cost {1}, after the seniors’ discount. It’s a bit more than their regular price because we didn’t buy the doorbell from them.\n\nFor the thermostat, Dad checked the wiring and there’s no C-wire, so we’d need to add {2} to the installation price.\n\nI also looked at the Whole Home package, but it {3}, so it doesn’t really make sense for us.\n\nDad wants the work done on a Saturday so he can watch, which would mean an extra {4}. Mom would rather have it on a weekday, and honestly, she has a point.\n\nOne more thing: if we add the thermostat, the doorbell, a lock and two outdoor cameras, the work will take more than three hours, so it will {5}.\n\nLet me know what you think before I book anything.\n\nDmitri",
+"blanks": [
+{"o":["$106.80","$90.78","$75.65","$89.00"],"a":1,"t":"diagram","ev":"Installing devices bought elsewhere costs 20% more than the listed installation price.","x":"$89 + 20% = $106.80, then 15% seniors’ discount = $90.78. $75.65 applies the seniors’ discount but forgets the 20% surcharge for outside devices."},
+{"o":["$40","$60","$129","$34"],"a":0,"t":"diagram","ev":"an adapter is installed for an extra $40","x":"No C-wire means a $40 adapter. $34 wrongly applies the seniors’ discount, which covers installation only, not extra parts."},
+{"o":["cannot be installed on a weekday","does not include a smart lock","includes a video doorbell that we already own","can be combined with the seniors’ discount"],"a":2,"t":"diagram","ev":"Whole Home: doorbell, lock, thermostat and 2 outdoor cameras – $1,150","x":"The package includes a doorbell, which they already bought. Packages cannot be combined with other discounts, so option D reverses the rule."},
+{"o":["$89","$40","$120","$60"],"a":3,"t":"diagram","ev":"Weekday evenings and Saturdays: $60 call fee","x":"Saturday visits have a $60 call fee, charged once per visit. $120 would only apply to two Saturday visits."},
+{"o":["be booked as two separate visits","need to be done on a Sunday","cost an extra $60 call fee","include a longer app tutorial"],"a":0,"t":"diagram","ev":"Any job over 3 hours of work is booked as two visits.","x":"Over three hours of work is booked as two visits. There is no Sunday service, and the call fee depends on the day, not the length."}
+]
+},
+"qs": [
+{"q":"A customer buys two outdoor cameras from HomeWired and has them installed on a Tuesday afternoon. What is the total cost?","o":["$353","$503","$428","$488"],"a":2,"t":"diagram","ev":"Weekdays 8 a.m.–5 p.m.: no call fee","x":"($139 + $75) × 2 = $428, with no call fee on a weekday afternoon. $488 wrongly adds the $60 evening/Saturday fee."},
+{"q":"A 70-year-old buys the Starter Safety package. How much does she pay?","o":["$442.00","$520.00","$491.80","$616.00"],"a":1,"t":"diagram","ev":"Package prices cannot be combined with other discounts","x":"The package price of $520 cannot be combined with the seniors’ discount. $491.80 subtracts 15% of the installation, which is not allowed with a package."},
+{"q":"How much does a customer save by choosing the Starter Safety package instead of buying and installing the same two devices separately?","o":["$188","$56","$520","$96"],"a":3,"t":"diagram","ev":"Starter Safety: video doorbell + smart lock – $520","x":"Separately: $179 + $89 + $249 + $99 = $616. $616 − $520 = $96. $188 is just the two installation fees."}
+]
+},
+"p3": {
+"title": "Where Old Phones Go",
+"paras": [
+"Open the kitchen junk drawer in almost any Canadian home and you are likely to find at least one forgotten phone, along with a tangle of chargers that no longer fit anything. A recent survey by a national recycling association estimated that the average household keeps four unused electronic devices, mostly out of uncertainty about what to do with them. In 2022, the city of Thornfield decided to tackle the problem directly. Its Second Charge program placed bright green collection bins in all seven public library branches and at two community centres, inviting residents to drop off phones, tablets, laptops and small electronics free of charge. Organizers expected a modest response. Instead, the bins at the main library had to be emptied three times a week during the first month, and the city quickly ordered larger containers.",
+"What happens next is more complicated than most people imagine. Every item is taken to a sorting facility, where staff separate devices that still work from those that do not. Working laptops and tablets have their storage wiped using certified erasure software and are then passed to the electronics program at Thornfield Community College, where students repair and refurbish them as part of their coursework and earn credit for doing so. The refurbished machines are given to local students and seniors who cannot afford a computer. Devices beyond repair are not simply thrown away. They are dismantled, and their components are sent to specialized processors that recover gold, silver, copper and cobalt, materials that would otherwise have to be mined.",
+"The program has also revealed some hidden dangers. Lithium-ion batteries, found in nearly every modern device, can catch fire when crushed or punctured. When residents toss old phones or vapes into their blue recycling bins instead of the dedicated collection points, the batteries can ignite inside garbage trucks. Thornfield recorded two such truck fires last year, one of which forced a driver to dump a burning load in a grocery store parking lot. Organizers now ask residents to cover battery terminals with tape before dropping them off. Another obstacle is fear. Many people hesitate to give away an old phone because they worry about their photos and messages. In response, the program now emails donors a certificate confirming that their data has been erased.",
+"Two years in, Second Charge has collected forty-one tonnes of electronics and redistributed more than eighteen hundred refurbished laptops. City council is now debating whether to require large electronics retailers to accept old devices whenever they sell a new one, as some other jurisdictions already do. Not everyone sees recycling as the real solution, however. Repair advocates argue that the bigger problem lies with manufacturers, who glue batteries in place and stop providing software updates after only a few years, making devices obsolete long before they are worn out. Program manager Lucinda Varga agrees in part, but says that cities cannot wait for manufacturers to change. She hopes to open a permanent repair counter at the main library next year, if council approves the funding."
+],
+"qs": [
+{"q":"Many people hold on to devices they no longer use.","a":"A","t":"paraphrase","ev":"the average household keeps four unused electronic devices","x":"Paragraph A: a survey found the average household keeps four unused devices."},
+{"q":"Students earn academic credit for working on donated devices.","a":"B","t":"paraphrase","ev":"where students repair and refurbish them as part of their coursework and earn credit for doing so","x":"Paragraph B: college students refurbish donated laptops as coursework and earn credit."},
+{"q":"Batteries thrown away in the wrong place have caused dangerous incidents.","a":"C","t":"paraphrase","ev":"Thornfield recorded two such truck fires last year","x":"Paragraph C: batteries in blue bins caused two garbage truck fires."},
+{"q":"Most refurbished laptops are sent to schools in other provinces.","a":"E","t":"notgiven","ev":"","x":"Paragraph B says refurbished machines go to local students and seniors; nothing mentions other provinces."},
+{"q":"Worries about personal information stop some people from donating.","a":"C","t":"paraphrase","ev":"Many people hesitate to give away an old phone because they worry about their photos and messages","x":"Paragraph C: fear about photos and messages makes people hesitate, so donors now get an erasure certificate."},
+{"q":"Some people believe the problem should be tackled at the design stage.","a":"D","t":"viewpoint","ev":"Repair advocates argue that the bigger problem lies with manufacturers","x":"Paragraph D: repair advocates blame manufacturers who glue batteries and end software updates early."},
+{"q":"The program has lowered the city’s garbage collection costs.","a":"E","t":"notgiven","ev":"","x":"No paragraph mentions garbage collection costs; Paragraph C discusses truck fires, not savings."},
+{"q":"Equipment that cannot be reused still has value.","a":"B","t":"inference","ev":"their components are sent to specialized processors that recover gold, silver, copper and cobalt","x":"Paragraph B: broken devices are dismantled to recover valuable metals."},
+{"q":"Drop-off points were placed in public buildings.","a":"A","t":"paraphrase","ev":"placed bright green collection bins in all seven public library branches and at two community centres","x":"Paragraph A: bins were placed in libraries and community centres."}
+]
+},
+"p4": {
+"title": "Autoplay Is Not a Feature. It’s a Trap.",
+"byline": "Opinion | by Corwin Ashby, former app designer",
+"text": "For six years, I designed features for apps you have probably used. I am not going to name them, partly because of the agreements I signed and partly because it doesn’t matter. Every major platform works the same way, and I helped build that way. So I want to explain something about two features you probably don’t think about at all: autoplay and infinite scroll.\n\nAutoplay starts the next video before you have decided whether you want to watch it. Infinite scroll removes the bottom of the page, so there is never a natural moment to stop. Neither feature exists because users asked for it. In every meeting I attended, they were justified by a single number: time spent in the app. When we tested autoplay, viewing time rose sharply. Nobody in the room asked whether people were happier, or whether they had meant to watch for that long. That was not the question we were paid to answer.\n\nI want to be clear that I am not describing villains. My former colleagues were thoughtful people, many of them parents who limited their own children’s screen time. But the incentives were overwhelming. A feature that kept people watching for an extra four minutes a day was worth millions in advertising. A feature that helped people put the phone down was, from a business point of view, a loss.\n\nThis is why I no longer believe that the solution is better self-control. We tell teenagers – and ourselves – to be more disciplined, as if the problem were a lack of willpower. But you are not competing with your own weakness. You are competing with teams of skilled designers who test every colour, sound and delay on millions of users. That is not a fair fight.\n\nSo here is what I propose. First, autoplay should be switched off by default for all users, and completely unavailable on accounts belonging to anyone under eighteen. Adults who want it can turn it on with a single tap. Second, apps should be required to include natural stopping points – a simple message after thirty minutes of continuous scrolling, for example, saying “You’re all caught up” or “You’ve been scrolling for half an hour.” Third, platforms should publish how they measure success internally, so that regulators and the public can see whether “time spent” is still the number that drives every decision.\n\nCritics will say this is the government telling adults how to live. I understand the concern, and I would not support banning these features outright. But we already require food companies to put nutrition labels on packages and car makers to install seatbelts. Those rules do not stop anyone from eating cake or driving fast. They simply make the risks visible and the safe option the easy one. Defaults are powerful precisely because most people never change them. That is why companies fight so hard over them.\n\nSome platforms have already introduced optional reminders to take a break. I welcome them, but notice the word “optional.” A reminder buried three menus deep in the settings is not a solution; it is a public relations exercise.\n\nI left my job because I no longer wanted to spend my days making it harder for people to stop. I don’t expect every designer to do the same. I do expect lawmakers to change the rules so that designers are no longer rewarded for it.",
+"qs": [
+{"q":"Why does the writer mention his own background at the start?","o":["To promote the apps that he helped to design","To explain why he cannot name the companies","To apologize to his former colleagues","To show he understands these features from the inside"],"a":3,"t":"purpose","ev":"Every major platform works the same way, and I helped build that way.","x":"Having built these features gives him insider knowledge. He mentions not naming the apps only in passing, and he never apologizes to colleagues."},
+{"q":"What does the writer say about how autoplay was justified?","o":["Users had asked for it in surveys and interviews","It was meant to make users happier with the app","It was judged mainly by how much it raised viewing","It was tested only on users who agreed in advance"],"a":2,"t":"paraphrase","ev":"they were justified by a single number: time spent in the app","x":"The only measure was time spent, and viewing time rose sharply. He says nobody asked whether people were happier, and users never asked for it."},
+{"q":"What is the writer’s attitude toward his former colleagues?","o":["He sees them as decent people working under strong commercial pressure","He blames them for harming their own children","He believes they secretly wanted to change the apps","He thinks they did not understand their own designs well"],"a":0,"t":"attitude","ev":"I want to be clear that I am not describing villains.","x":"He calls them thoughtful people facing “overwhelming” incentives. Their children are mentioned to show they limited screen time at home, not that they harmed them."},
+{"q":"Why does the writer reject self-control as the solution?","o":["Teenagers are too young to develop discipline","Users face a contest that is heavily weighted against them","Adults already have more willpower than teenagers do","Self-control works only when parents enforce it at home every day"],"a":1,"t":"inference","ev":"That is not a fair fight.","x":"Individuals are up against expert designers testing on millions of users. He says the problem is not a lack of willpower, for teens or adults."},
+{"q":"How does the writer answer critics who oppose government involvement?","o":["He agrees that the features should be banned completely","He says adults should not be allowed to change the defaults","He compares his proposals to existing safety rules","He argues the government should design the apps itself"],"a":2,"t":"viewpoint","ev":"we already require food companies to put nutrition labels on packages","x":"He compares his ideas to nutrition labels and seatbelts, which inform without banning. He says he would not support banning the features outright."}
+],
+"comment": {
+"intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+"text": "As a parent of two teenagers, I found this article both refreshing and frustrating. The writer is right that {1}. I’ve spent years lecturing my kids about willpower while the apps were quietly designed to defeat it.\n\nI also like his idea of {2}. My son has no idea how long he has been watching until I tell him, and then he’s genuinely surprised.\n\nWhere I disagree is his claim that adults should be able to turn autoplay back on with a single tap. If it’s that easy, {3}. I’d prefer that adults have to go through a few steps, at least a short confirmation screen.\n\nI’m also skeptical that publishing internal measures would change much. Most of us {4}, and companies know it.\n\nStill, I’ll admit that the writer’s background makes his argument hard to dismiss. Hearing it from someone who {5} carries more weight than hearing it from another worried parent like me.",
+"blanks": [
+{"o":["telling people to try harder ignores how apps are built","teenagers already use too little technology","designers should be held personally responsible","most parents set no limits at all on their own daily screen time"],"a":0,"t":"viewpoint","ev":"This is why I no longer believe that the solution is better self-control.","x":"The reader regrets lecturing about willpower while apps were designed to defeat it, echoing the article. The writer says he is not describing villains, so personal blame is wrong."},
+{"o":["banning advertising aimed at teenagers","prompts that say how long users have been scrolling","adding nutrition-style labels to all of the video apps online","letting regulators design new features"],"a":1,"t":"detail","ev":"You’ve been scrolling for half an hour.","x":"Her son does not notice how long he watches, so time reminders suit him. Nutrition labels are only the writer’s comparison, not a proposal for apps."},
+{"o":["teenagers will never discover the setting","platforms will lose millions in advertising","regulators will be unable to enforce the rule","many people will switch it on without thinking"],"a":3,"t":"inference","ev":"Adults who want it can turn it on with a single tap.","x":"She wants extra steps, so her worry is that one tap makes switching it back on too effortless. Autoplay would be unavailable to teenagers, so option A is irrelevant."},
+{"o":["already read every report companies publish","would rather delete the apps altogether","will never read such technical information","trust regulators to check the figures carefully"],"a":2,"t":"inference","ev":"platforms should publish how they measure success internally","x":"Her doubt is that ordinary users will not read such data. If people trusted regulators, publication could still work, so option D does not support her skepticism."},
+{"o":["has raised teenagers of his own at home","helped to create the very features he now criticizes","works for a regulator in Ottawa","has never used the apps in question himself"],"a":1,"t":"detail","ev":"Every major platform works the same way, and I helped build that way.","x":"His weight comes from having designed these features. The article mentions his colleagues’ children, not his own."}
+]
+}
+}
+},
+"W": {
+"t1": {
+"situation": "Last week, your local newspaper published an article about a community garden that you help organize. The article included a quote from you that was inaccurate, and it gave the wrong date for an upcoming event. Several neighbours have contacted you because they are confused or upset.",
+"bullets": ["Explain what was wrong in the article","Describe the problems the errors have caused","Say what you would like the newspaper to do"],
+"model": "Dear Editor,\n\nI am writing about the article “Garden Group Divided Over Expansion,” published on November 12, about the Maple Hollow Community Garden, which I help organize.\n\nWhile I appreciated the coverage, the article contained two significant errors. First, it quoted me as saying that new members “would have to wait years for a plot.” What I actually said was that the waiting list is currently about one year long, and that we hope to shorten it by adding twenty new plots in the spring. Second, the article listed our fall harvest potluck as Saturday, November 16, when it is in fact Sunday, November 17.\n\nThese mistakes have caused real confusion. Several people on our waiting list have emailed me asking whether they should give up, and at least two families told me they had planned to attend on the wrong day.\n\nI would be grateful if the newspaper could publish a correction in both the print and online editions this week, and update the online article so that the errors do not continue to spread.\n\nThank you for your attention to this matter.\n\nSincerely,\nWinifred Abernathy"
+},
+"t2": {
+"intro": "Your company currently pays for some employees’ mobile phones. To reduce costs and simplify the system, management is considering two options and has asked all staff for feedback.",
+"question": "Which option do you prefer? Explain the reasons for your choice.",
+"a": "Option A: Every employee receives a company-owned phone for work only, managed and paid for by the company.",
+"b": "Option B: Employees use their personal phones for work and receive a $50 monthly allowance; the company installs a security app to protect work data.",
+"model": "I would prefer Option A, a company-owned phone used only for work.\n\nAt first, the $50 monthly allowance in Option B sounds attractive, especially since most of us already own smartphones. However, I believe the hidden costs outweigh the benefit. The most important issue for me is the boundary between work and personal life. If work emails and messages arrive on my personal phone, I will see them during dinner, on weekends and on vacation. With a separate work phone, I can simply switch it off at the end of the day.\n\nI am also uncomfortable with the security app in Option B. Even if the company promises only to protect work data, many employees would worry about what else the app can see, such as personal photos or location. A company-owned device avoids that concern entirely.\n\nFinally, Option A is simpler when something goes wrong. If a work phone breaks or is lost, the company replaces it, whereas under Option B, employees might have to pay for repairs themselves.\n\nFor these reasons, I believe Option A better protects both employees and the company."
+}
+},
+"S": {
+"t1": {
+"prompt": "Your friend has just received an email from an online store saying that hackers stole customers’ names, addresses and credit card numbers, including your friend’s. Your friend is worried and does not know what to do. Advise your friend.",
+"model": "First of all, try not to panic. Data breaches are unfortunately common, and if you act quickly, you can limit the damage. The very first thing I’d do is call your credit card company, using the number on the back of the card, not any number in that email. Tell them about the breach and ask them to cancel the card and send you a new one. They can also flag your account for unusual activity. Next, go through your recent statements carefully. Look for small charges you don’t recognize, because criminals often test a card with a purchase of a dollar or two before making bigger ones. Third, change your password for that store, and for any other site where you used the same password. If you can, turn on two-step verification as well. I’d also recommend checking your credit report with one of the credit bureaus, and you can even ask them to put a fraud alert on your file, so lenders take extra steps before opening an account in your name. Finally, be very suspicious of emails or calls over the next few months that mention the breach. Scammers love to pretend they’re helping victims. If you’re unsure, just call the company directly."
+},
+"t2": {
+"prompt": "Talk about a time when you took a break from technology, such as your phone or the internet. Why did you do it, and what was it like?",
+"model": "Last summer, I went on a five-day canoe trip with two friends, and there was no cell service at all for most of it. Honestly, I was nervous before we left. I’m the kind of person who checks my phone the moment I wake up, and I was worried I’d feel anxious or bored. The first day was strange. I kept reaching for my pocket out of habit. But by the second day, something changed. I noticed so much more – the loons calling at night, the way the light changed on the water. We talked for hours around the campfire instead of scrolling. When we got back to the car and my phone reconnected, I had over two hundred notifications, and I realized almost none of them mattered. Since then, I leave my phone in another room during dinner."
+},
+"t3": {
+"scene": {
+"bg": "kitchen",
+"alt": "A busy family kitchen on a weekday morning. On the left, under a window, a young girl in a yellow shirt sits at a wooden table reading a book, with a blue mug beside her. A teenage boy in a purple shirt is walking towards the door carrying a school bag. In the middle, a woman in a teal dress with long hair is walking quickly while looking at her phone, and a yellow dog stands nearby, watching her. On the right, a man in a red shirt stands at the kitchen counter, pointing at a laptop showing a recipe. On the counter there is a dark smart speaker with a speech bubble saying “Today: rain, 12°C”, and a small plant. A clock hangs on the wall.",
+"items": [
+["window",40,40,120,90],
+["clock",330,70],
+["table",40,392,160,"#a0703c"],
+["mug",150,348,"#2e86c1"],
+["person",90,380,{"kid":true,"pose":"sit","shirt":"#f1c40f","hold":"book","hairStyle":"long","hair":"#3b2a1a"}],
+["person",235,392,{"shirt":"#8e44ad","hold":"bag","pose":"walk","hair":"#1c1c1c","s":0.9}],
+["person",310,392,{"shirt":"#16a085","dress":true,"hairStyle":"long","hair":"#a0522d","hold":"phone","pose":"walk","flip":true}],
+["dog",360,392,"#d4ac0d",true],
+["counter",400,392,230,"#a3b1bf"],
+["box",425,322,26,36,"","#2c3e50"],
+["speech",440,265,"Today: rain, 12°C"],
+["laptop",520,322],
+["plant",605,322,0.7],
+["person",560,392,{"shirt":"#c0392b","pose":"point","hair":"#3b2a1a","skin":"#c68642","flip":true}]
+]
+},
+"prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+"model": "This picture shows a busy family kitchen, probably on a weekday morning. On the left, under a window, a little girl in a yellow shirt is sitting at a wooden table reading a book, and there’s a blue mug next to her. Behind her, a teenage boy in a purple shirt is heading for the door with his school bag, so he’s probably leaving for school. In the middle, a woman in a teal dress is walking quickly while looking at her phone, and a yellow dog is standing beside her, watching her hopefully. On the right, a man in a red shirt is standing at the counter, pointing at a laptop with what looks like a recipe on it. On the counter, there’s a smart speaker, and a speech bubble shows it’s announcing the weather: rain and twelve degrees. There’s also a plant and a clock on the wall."
+},
+"t4": {
+"prompt": "In this picture, what do you think will most probably happen next?",
+"model": "Since the smart speaker has just announced rain, I think the woman will probably stop and tell the teenage boy to grab an umbrella or a raincoat before he leaves. He’ll most likely roll his eyes, but he’ll take one anyway. The yellow dog seems to be waiting for something, maybe a walk or breakfast, so I expect the woman will quickly fill its bowl before she rushes out to work. Meanwhile, the man at the counter will probably start cooking whatever recipe is on the laptop, maybe pancakes for the little girl. The girl will most likely keep reading until her breakfast is ready, and then the dad might remind her to put her book in her backpack. In a few minutes, I imagine the kitchen will be much quieter once everyone except the dad and the girl has left."
+},
+"t5": {
+"intro": "Your nine-year-old son needs extra help with math. Your family has found two options. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+"options": [
+{"title":"Online tutoring platform","details":["$30 per one-hour session","Sessions from home by video","Choose from 40 tutors","Evening and weekend times available","Progress report after each session"]},
+{"title":"In-person learning centre","details":["$45 per one-hour session","15-minute drive each way","Small groups of 3 students","Fixed time: Tuesdays 4–5 p.m.","Free practice workbooks"]}
+],
+"other": {"title":"Private tutor at home","details":["$60 per hour","Retired math teacher","Comes to your house","Only available Saturday mornings","Same tutor every week"]},
+"otherWho": "Your partner prefers",
+"persuade": "Your partner prefers the private tutor at home. Persuade your partner that your choice is better.",
+"model": "I agree that a retired math teacher coming to the house sounds ideal, but I really think the online tutoring platform is the smarter choice for us. First, look at the cost. The private tutor is sixty dollars an hour, which is double the online platform. Over a school year, that’s more than a thousand dollars of difference. Second, the private tutor is only available on Saturday mornings, and that’s exactly when Noah has hockey. With the online platform, we can book evenings or weekends, whatever fits. Third, if Noah doesn’t get along with a tutor, we can simply choose another one out of forty. With a private tutor, we’d be stuck. And the progress reports after every session mean we’d always know exactly how he’s doing. He’s comfortable on video already from school, so I honestly think it would work well."
+},
+"t6": {
+"situation": "Your 14-year-old niece has a public social media account. While scrolling, you notice that her posts show the name of her school, her weekly soccer schedule and photos taken in front of her house. Her father, your brother, is not very familiar with social media. Your niece is close to you and trusts you.",
+"options": ["Talk to your niece and explain your concerns about her account.","Talk to your brother and explain what you have seen."],
+"note": "Choose ONE option and speak to that person.",
+"model": "Hey Maya, do you have a minute? I want to talk to you about something, and I promise I’m not trying to get you in trouble. I was looking at your account last night, and your photos are great, honestly. But I noticed it’s public, and some of your posts show the name of your school, your soccer schedule and pictures right in front of your house. Put together, that means a total stranger could figure out where you’ll be and when. I know that sounds dramatic, and most people who see your posts are probably your friends. But it only takes one person with bad intentions. Could we go through your settings together? You could make your account private and just remove the location details from a few posts. You don’t have to delete anything else. I’d just feel a lot better knowing you’re safe."
+},
+"t7": {
+"prompt": "Answer the following question: Should employers be allowed to monitor the computers of employees who work from home? Explain your reasons.",
+"model": "In my view, employers should be allowed some limited monitoring of employees who work from home, but only with clear rules and full transparency. On the one hand, I understand why companies want some oversight. They are responsible for protecting confidential information, like client records or financial data, and a home computer can be an easy target for hackers. Monitoring for security threats, such as unusual downloads or suspicious logins, seems completely reasonable to me. On the other hand, I strongly disagree with the kind of monitoring that tracks every keystroke, takes screenshots every few minutes or turns on the webcam. That isn’t about security; it’s about control. It sends the message that the company doesn’t trust its employees, and in my experience, people who feel distrusted are less motivated, not more. It also risks capturing private moments, since the computer is in someone’s home, not an office. I think the better approach is for managers to judge employees by their results. If the work is done well and on time, it shouldn’t matter whether someone took a twenty-minute break. So overall, my answer is yes to security monitoring that employees know about, but no to constant surveillance of their activity."
+},
+"t8": {
+"scene": {
+"bg": "winter",
+"alt": "An outdoor winter festival in a snowy park. In the centre stands an enormous snowman, about as tall as a three-storey building, with a carrot nose, a hat and a scarf, surrounded by a low white fence. A long metal ladder leans against the right side of the snowman. A red banner at the top left reads “WINTER FEST”. In front of the fence, a woman in a red coat and blue hat is taking a selfie with her phone, a small child in yellow is pointing up at the snowman, and a man in a green jacket is waving. A sign beside the fence says “KEEP BACK”. On the right, a purple stall labelled “HOT COCOA” serves visitors, and there are snowy pine trees on both sides.",
+"items": [
+["banner",30,30,200,"WINTER FEST","#c0392b"],
+["pine",50,385,1],
+["pine",620,385,1.2],
+["big","snowman",320,370,4],
+["ladder",420,372,200],
+["fence",220,420,392],
+["sign",160,392,"KEEP BACK","#ffffff"],
+["person",210,392,{"shirt":"#c0392b","hold":"phone","hairStyle":"long","hair":"#3b2a1a","hat":"#2e86c1"}],
+["person",260,392,{"kid":true,"shirt":"#f1c40f","pose":"point","hat":"#c0392b"}],
+["person",460,392,{"shirt":"#27ae60","pose":"wave","hat":"#8e44ad","flip":true,"skin":"#8d5524"}],
+["stall",490,330,110,"HOT COCOA","#8e44ad"],
+["bird",500,80]
+]
+},
+"prompt": "Your sister is deciding whether to bring her young children to a winter festival this weekend. You are at the festival now and see this. Call your sister, describe what you see, and explain whether you think she should bring the children. Your sister cannot see the picture.",
+"model": "Hi Jen, I’m at the winter festival right now, and you won’t believe what they’ve built. There’s a gigantic snowman in the middle of the park – I’d say it’s as tall as a three-storey building. It has a carrot nose, a hat and a scarf, and there’s actually a long ladder leaning against its side, so I guess people were still decorating it this morning. There’s a little white fence around it and a sign that says “Keep Back,” so nobody can climb on it. People are taking selfies in front of it, and a little kid next to me hasn’t stopped pointing at it. There’s also a hot cocoa stall right beside it. Honestly, I think you should definitely bring the kids. They’d love it. Just dress them warmly, and maybe come in the morning before it gets too crowded."
+}
+}
+}

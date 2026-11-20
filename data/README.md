@@ -72,7 +72,7 @@ Primitives (x,y = base/feet position unless noted):
 1. **Paraphrase every correct answer.** The right option must not reuse the key words of the evidence sentence. Wrong options SHOULD reuse words that were actually said/written, but in the wrong relationship (wrong person, wrong time, rejected plan, condition reversed).
 2. **Plan changes:** in conversations, a first plan/number/time is stated, then corrected or rejected – distractors use the first version.
 3. **Attitude and implied meaning:** at least 6 Listening and 4 Reading questions per test must require inferring opinion or intention from tone or hedging (e.g. “I suppose that could work” = reluctant agreement).
-4. **Balanced options:** all four options similar in length and grammatical form; the correct answer may be the single longest option in at most 40% of questions (validator enforces 45%).
+4. **Balanced options:** all four options similar in length and grammatical form; the correct answer may be the single longest option in at most 40% of questions and at least 12% (validator enforces 12–45%), so candidates can neither always pick nor always rule out the longest option.
 5. **No giveaways:** never “all of the above”; no option that is obviously silly; no answer that can be guessed without the text.
 6. **Spread answers:** correct-answer positions roughly even across A–D (and A–D/E in Part 3).
 7. **Part 3 E-traps** as described above; Part 2 diagram questions need real computation or rule application.

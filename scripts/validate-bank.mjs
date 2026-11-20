@@ -107,6 +107,7 @@ export function validateTest(t, { strict = true } = {}) {
   } else E('missing R.p4');
   if (nL !== 38) E(`Listening has ${nL} questions (must be 38)`);
   if (nR !== 38) E(`Reading has ${nR} questions (must be 38)`);
+  if (strict && mcqCount && longest / mcqCount < 0.12) W(`correct answer is the single longest option in only ${longest}/${mcqCount} questions – candidates could learn to rule out the longest option (min 12%)`);
   if (mcqCount && longest / mcqCount > 0.45) W(`correct answer is the single longest option in ${longest}/${mcqCount} questions – balance option lengths (max 45%)`);
   // ---------- Writing ----------
   const Wt = t.W || {};

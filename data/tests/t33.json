@@ -1794,7 +1794,7 @@
   "t8": {
    "scene": {
     "bg": "street",
-    "alt": "A town street on a sunny day. In the middle is a two-storey brick library building with a sign reading LIBRARY, and sitting on its flat roof is a gigantic brown owl-like bird, almost as tall as the building itself, looking down at the street. A small crowd watches: a woman in a yellow shirt is pointing up at the bird, a man in a grey suit is taking a photo, and a child holding a red balloon stands beside them. A blue car is parked on the street, and there is a tree and a streetlamp on the right.",
+    "alt": "A town street on a sunny day. In the middle is a two-storey brick library building with a sign reading LIBRARY, and sitting on its flat roof is a gigantic orange cat, almost as tall as the building itself, looking down at the street. A small crowd watches: a woman in a yellow shirt is pointing up at the cat, a man in a grey suit is taking a photo, and a child holding a red balloon stands beside them. A blue car is parked on the street, and there is a tree and a streetlamp on the right.",
     "items": [
      [
       "sun",
@@ -1818,10 +1818,11 @@
      ],
      [
       "big",
-      "bird",
+      "cat",
       320,
       180,
-      5
+      4,
+      "#e67e22"
      ],
      [
       "tree",
@@ -1872,8 +1873,8 @@
      ]
     ]
    },
-   "prompt": "Your town has placed a giant bird sculpture on the roof of the public library for one month as an art project, and council will vote on whether to keep it permanently. Your friend, who is a councillor, calls you. Describe what you see and explain whether you think the town should keep it. Your friend cannot see the picture.",
-   "model": "Hi! I’m standing right across from the library now, and it’s quite a sight. Picture the old brick library, and sitting on the flat roof is a huge brown bird – it looks like an owl – that’s almost as tall as the building itself. It’s leaning forward a little, as if it’s looking down at everyone on the street. There’s a small crowd here: a woman is pointing up at it, a man is taking photos, and a little kid with a red balloon looks absolutely amazed. Personally, I think the town should keep it. The owl is a symbol of wisdom, so it suits a library perfectly, and it’s already bringing people downtown. My only concerns would be safety and maintenance, especially with heavy snow on the roof in winter, so I’d ask staff to get an engineer to check it first."
+   "prompt": "Your town has placed a giant cat sculpture on the roof of the public library for one month as an art project, and council will vote on whether to keep it permanently. Your friend, who is a councillor, calls you. Describe what you see and explain whether you think the town should keep it. Your friend cannot see the picture.",
+   "model": "Hi! I’m standing right across from the library now, and it’s quite a sight. Picture the old brick library, and sitting on the flat roof is a huge orange cat sculpture that’s almost as tall as the building itself. It’s leaning forward a little, as if it’s looking down at everyone on the street. There’s a small crowd here: a woman is pointing up at it, a man is taking photos, and a little kid with a red balloon looks absolutely amazed. Personally, I think the town should keep it. Cats have been library mascots for generations, so it suits a library perfectly, and it’s already bringing people downtown. My only concerns would be safety and maintenance, especially with heavy snow on the roof in winter, so I’d ask staff to get an engineer to check it first."
   }
  }
 }

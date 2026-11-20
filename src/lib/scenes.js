@@ -205,3 +205,4 @@ export function listeningScene(part, speakers) {
   const svg = renderScene({ bg: part === 2 ? 'indoor' : 'office', items });
   return svg.replace('</svg>', ids.map((id, i) => lbl(320 - (n - 1) * 70 + i * 140, 352, (speakers[id] && speakers[id].name) || id)).join('') + '</svg>');
 }
+export { P, HEIGHTS };
