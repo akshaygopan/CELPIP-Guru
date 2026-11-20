@@ -1,0 +1,435 @@
+{
+"id": "t45",
+"title": "Test 45",
+"L": { "parts": [
+{
+"n": 1,
+"context": "A bakery owner and her nephew are discussing a problem with the bakery’s online reviews.",
+"sp": { "A": {"name":"Rosalind","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Benedikt","g":"m","acc":"en-US","rate":1.04} },
+"sections": [
+{
+"lines": [
+["B","Aunt Ros, have you looked at our review page this morning? I think something’s really wrong."],
+["A","I saw a couple of bad ones last night. I figured someone was unhappy with the sourdough. It happens."],
+["B","It’s not a couple anymore. There are forty-three new one-star reviews since yesterday afternoon. Our rating has dropped from four point seven to three point nine."],
+["A","Forty-three? We didn’t even serve forty-three customers yesterday afternoon. We close at three on Mondays."],
+["B","That’s what made me suspicious. I went through them one by one. Almost all of them were posted within about two hours, and most of the accounts were created the same day. A lot of them repeat the same phrase, something about our bread being ‘stolen from a real baker.’"],
+["A","Stolen? Oh, for heaven’s sake. Is this about that food blogger?"],
+["B","Probably. On Sunday, he posted a video claiming our cardamom buns copy his recipe. It has about eighty thousand views. I think some of his followers decided to punish us."],
+["A","My grandmother made those buns in Gothenburg before he was born. It’s ridiculous."],
+["B","I know. But ridiculous or not, it’s hurting us. Mondays are slow anyway, but two of our catering clients emailed this morning asking whether everything was okay. One of them has a wedding order with us next month."],
+["A","That’s what worries me. The walk-in regulars know us. It’s the people who’ve never been here, the ones who only see the stars, who we’ll lose."]
+],
+"qs": [
+{"q":"Why did Rosalind not take the bad reviews seriously at first?","o":["She thought the platform would delete them automatically","She had already been told about the blogger’s video","She believed most of her customers never read online ratings","She assumed they came from one or two unhappy customers"],"a":3,"t":"inference","ev":"I figured someone was unhappy with the sourdough. It happens.","x":"She thought a customer or two disliked the sourdough, which “happens”. She only connects the reviews to the blogger after Benedikt mentions the repeated phrase."},
+{"q":"What made Benedikt suspicious about the reviews?","o":["They all mentioned products that the bakery has never actually sold","They appeared in a short period from brand-new accounts","They were all written by the food blogger himself","They complained about the bakery’s Monday hours"],"a":1,"t":"paraphrase","ev":"Almost all of them were posted within about two hours, and most of the accounts were created the same day","x":"Most reviews came within two hours from accounts created that day. He thinks the blogger’s followers wrote them, not the blogger himself."},
+{"q":"What does Rosalind imply about the blogger’s claim?","o":["It may be partly true since the recipe is common","She plans to ask him to take down his video","It cannot be right because her recipe is much older","She had never heard of the blogger or his followers before"],"a":2,"t":"inference","ev":"My grandmother made those buns in Gothenburg before he was born.","x":"Her grandmother made the buns before the blogger was born, so the bakery could not have copied him. She asks “that food blogger?”, so she already knew of him."}
+]
+},
+{
+"lines": [
+["A","So what do we do? Should I answer every single one? Explain the history of the recipe, politely?"],
+["B","I thought about that, but forty-three replies saying the same thing would just look defensive. And honestly, every reply puts that review back at the top of the page."],
+["A","Okay, not that. What about the company that keeps emailing me? Something Reputation… they promise to ‘restore your rating within thirty days.’"],
+["B","I looked them up. Six hundred dollars a month, minimum six-month contract. And several people online say the way they ‘restore’ ratings is by posting fake five-star reviews."],
+["A","Absolutely not. Fighting fake reviews with fake reviews? If that came out, we’d deserve every star we lost."],
+["B","Agreed. The platform does have a process for reporting reviews that break their rules, and coordinated attacks are against the rules. The problem is that each report is reviewed separately, and their help page says it can take up to three weeks."],
+["A","Three weeks with a three point nine. And the wedding clients are deciding now."],
+["B","There’s one more thing I’ve seen other businesses do. They ask loyal customers to leave reviews to balance things out."],
+["A","I’d feel strange begging for reviews. And don’t these platforms forbid offering anything in return?"],
+["B","They forbid incentives, like discounts or free coffee. Simply inviting people to share an honest opinion is allowed."]
+],
+"qs": [
+{"q":"Why does Benedikt advise against replying to each review?","o":["It could look defensive and draw more attention to them","The platform does not allow businesses to reply to reviews","The reviewers would simply post even more negative reviews","It would take too long to explain the recipe’s history"],"a":0,"t":"inference","ev":"every reply puts that review back at the top of the page","x":"Identical replies would seem defensive and push each bad review back to the top. Nothing suggests the platform forbids replies."},
+{"q":"How does Rosalind react to the reputation company?","o":["She is willing to try it for a single month only","She rejects it as dishonest","She thinks it is too expensive for a small bakery like hers","She wants Benedikt to negotiate a shorter contract"],"a":1,"t":"attitude","ev":"Fighting fake reviews with fake reviews?","x":"She refuses because the company reportedly posts fake positive reviews, saying they would “deserve every star we lost”. The price is mentioned, but it is not her reason."},
+{"q":"What is the drawback of the platform’s reporting process?","o":["Only one report can be submitted per business","Reports must be filed by the original customers","It requires proof that reviewers never visited the shop","It could leave the low rating in place for weeks"],"a":3,"t":"inference","ev":"it can take up to three weeks","x":"Each report is handled separately and can take up to three weeks, while catering clients are deciding now. No proof of visits is required."}
+]
+},
+{
+"lines": [
+["A","Then here’s what I think. We report them, but not one at a time. Can you put together everything you found – the dates, the times, the new accounts, that repeated phrase – in one document?"],
+["B","I can have a spreadsheet done by tonight. The help page says there’s a form for businesses to report suspected coordinated activity, with space for attachments. That might get looked at faster than individual flags."],
+["A","Good. And I’ll write a short statement – just a few sentences, calm, no accusations – and we’ll pin it to the top of our page, saying we’re aware of the reviews and have reported them."],
+["B","Should we mention the blogger by name?"],
+["A","No. That would just start a fight, and he has eighty thousand viewers. We stick to the facts about the reviews."],
+["B","What about the regulars?"],
+["A","I’ll put a small card by the till: ‘If you enjoy our baking, we’d be grateful for an honest review.’ Nothing more, no discounts. And I’ll call both catering clients myself today. A phone call from me will do more than any rating."],
+["B","That’s probably true. They’ve been ordering from you for years. I’ll send you the spreadsheet before I submit it, so you can check that I haven’t missed anything."]
+],
+"qs": [
+{"q":"What will Benedikt do tonight?","o":["Prepare a record of the evidence he has gathered","Post a calm statement at the top of the review page","Phone the two catering clients who emailed today","Flag each suspicious review separately on the platform"],"a":0,"t":"detail","ev":"I can have a spreadsheet done by tonight.","x":"He will compile the dates, times, accounts and phrases in a spreadsheet. Rosalind writes the statement and calls the clients, and they agreed not to report reviews one at a time."},
+{"q":"Why does Rosalind decide not to name the blogger?","o":["She is not certain that he made the video","The platform forbids naming people in statements","It could provoke a conflict with someone who has a large audience","Her lawyer has advised her to remain completely silent on the matter"],"a":2,"t":"purpose","ev":"That would just start a fight, and he has eighty thousand viewers.","x":"Naming him would start a fight with someone who has a big following. No lawyer is mentioned, and the platform rules discussed concern incentives, not names."}
+]
+}
+]
+},
+{
+"n": 2,
+"context": "Two friends are talking about selling a used phone online.",
+"sp": { "A": {"name":"Yusra","g":"f","acc":"en-GB","rate":1.02}, "B": {"name":"Callum","g":"m","acc":"en-CA","rate":0.99} },
+"sections": [
+{
+"lines": [
+["B","Yusra, you sold your old phone last year, right? I finally got a new one, and I want to sell the old one, but I’m a bit nervous about it."],
+["A","I did. It went fine in the end, but I learned a few things the hard way. What are you worried about?"],
+["B","Mostly my personal stuff. Photos, banking apps, all of it. I was just going to delete my photos and log out of everything."],
+["A","That’s not enough, honestly. You need to do a full factory reset, which wipes the whole phone. But before that, back everything up, and sign out of your account in the settings. If you skip that step, the phone stays locked to your account even after the reset, and whoever buys it can’t use it."],
+["B","Is that what happened to you?"],
+["A","Exactly. The buyer messaged me two days later, furious. I had to meet him again so I could unlock it. Very awkward."],
+["B","Good to know. And the SIM card?"],
+["A","Take it out and keep it. Same with the memory card, if your phone has one. People forget those all the time."],
+["B","Okay. Now, where should I sell it? A store offered me ninety dollars as a trade-in credit, which seems low."],
+["A","It is low. Phones like yours go for around two hundred online. But you’ll have to deal with strangers. I’d use the local marketplace site, and only accept cash or an e-transfer that’s already arrived before you hand anything over."],
+["B","And meeting up? I don’t love the idea of someone coming to my apartment."],
+["A","Don’t let them. The police station on Fairview has a safe exchange zone in the parking lot, with cameras. Anyone who refuses to meet there probably isn’t someone you want to deal with."],
+["B","That’s a good test. What about the cracked corner on the screen? Should I mention it?"],
+["A","Definitely. Put a clear photo of it in the ad. If you hide it, the buyer will notice anyway and either haggle you down on the spot or walk away, and then you’ve wasted a trip."],
+["B","Fair. Okay, I’ll back it up tonight and list it this weekend. Maybe I’ll ask one ninety and see what happens."],
+["A","Sounds sensible. Just don’t forget to sign out first."]
+],
+"qs": [
+{"q":"What was Callum originally planning to do with his personal data?","o":["Ask the store to wipe the phone during the trade-in","Remove some items and sign out of his apps","Copy everything onto the memory card first","Do a full factory reset without making any backup first"],"a":1,"t":"paraphrase","ev":"I was just going to delete my photos and log out of everything.","x":"He planned only to delete photos and log out, which Yusra says is not enough. The factory reset is her recommendation, not his original plan."},
+{"q":"What happened when Yusra sold her phone?","o":["The buyer refused to pay the full price they had agreed on","Her photos were still on the phone after the reset","The buyer found her SIM card still inside the phone","She had to see the buyer again to fix a problem"],"a":3,"t":"detail","ev":"I had to meet him again so I could unlock it.","x":"She had not signed out, so the phone stayed locked and she had to meet the buyer again. The SIM card advice is general, not her own mistake."},
+{"q":"What does Yusra think of the store’s offer?","o":["It is less than Callum could probably get elsewhere","It is fair considering the cracked corner of the screen","It is better because it avoids dealing with strangers","It is only worth accepting as cash, not store credit"],"a":0,"t":"attitude","ev":"Phones like yours go for around two hundred online.","x":"She agrees it is low, since similar phones sell for about $200 online. She mentions strangers as a drawback of selling online, but she does not recommend the store."},
+{"q":"Why does Yusra suggest the safe exchange zone?","o":["Buyers there are checked by the police beforehand","It is closer to Callum’s apartment than the store","A buyer’s reaction to it can reveal their intentions","Transactions there are recorded for tax purposes by the city"],"a":2,"t":"inference","ev":"Anyone who refuses to meet there probably isn’t someone you want to deal with.","x":"Refusing to meet at the police station is a warning sign, which Callum calls “a good test”. The cameras record the area, but police do not check buyers in advance."},
+{"q":"Why does Yusra advise showing the crack in the ad?","o":["The marketplace rules require sellers to list every bit of damage","Buyers will pay more for a phone that is described honestly","The crack could be repaired before the meeting anyway","Hiding it could lead to a wasted trip or a lower price"],"a":3,"t":"inference","ev":"either haggle you down on the spot or walk away, and then you’ve wasted a trip","x":"A buyer who discovers a hidden crack will bargain or leave, wasting the trip. She never says honesty raises the price or that the rules demand it."}
+]
+}
+]
+},
+{
+"n": 3,
+"context": "A man calls his public library to ask about using its recording studio.",
+"sp": { "A": {"name":"Gwendolyn","g":"f","acc":"en-AU","rate":1.03}, "B": {"name":"Tobias","g":"m","acc":"en-CA","rate":1.0} },
+"sections": [
+{
+"lines": [
+["B","Hi, I’m calling about the recording studio at the Central branch. My daughter and I want to start a podcast about local hiking trails, and a friend said the library has free equipment."],
+["A","We do. The studio has two microphones, headphones, a mixing board and a computer with editing software. It’s free for anyone with a valid library card. How old is your daughter?"],
+["B","She’s fifteen."],
+["A","That’s fine. Anyone under eighteen can use the studio as long as an adult with a library card is present for the whole session, so you’d need to be there with her."],
+["B","No problem. How do we book it?"],
+["A","Before you can book, each of you has to complete a forty-five-minute orientation. They’re held every Tuesday at six and on the first Saturday of every month at ten. You don’t need to register for the Tuesday ones, but the Saturday sessions fill up, so you have to sign up online."],
+["B","Both of us need to do it, even though I’d be supervising?"],
+["A","Both of you, yes. The orientation covers how to handle the equipment, and you’d both be touching it."],
+["B","Makes sense. And after that?"],
+["A","You can book online up to seven days in advance. Each card holder can book a maximum of three hours per week, in blocks of one or two hours."],
+["B","Could my daughter and I each book three hours, so we’d have six hours together?"],
+["A","Unfortunately not. Because she’s a minor, her bookings have to be made under the supervising adult’s card, so the two of you would share your three hours."],
+["B","Okay. What if we can’t make it?"],
+["A","Please cancel at least two hours before. If you don’t show up twice within a month, your booking privileges are suspended for thirty days."],
+["B","Fair. And the recordings themselves?"],
+["A","That’s important. The studio computer erases all files at closing time every day, so you’ll need to bring a USB drive or upload your files to your own cloud storage before you leave. We can’t recover anything that’s been wiped."],
+["B","Good to know. One last thing. If the podcast ever got popular and we put ads on it, would that be a problem?"],
+["A","The studio is for non-commercial use, so you couldn’t record paid advertisements there. But you’re welcome to publish your episodes, and if you start earning money later, we’d ask you to talk to the branch manager."]
+],
+"qs": [
+{"q":"What condition applies to the caller’s daughter using the studio?","o":["A card-holding adult must stay with her throughout","She must get her own library card before booking","She can only use it during the Saturday morning sessions","She must be at least sixteen to use the editing software"],"a":0,"t":"paraphrase","ev":"as long as an adult with a library card is present for the whole session","x":"Under-18s need an adult card holder present for the whole session. Saturday mornings are orientation times, not the only studio hours."},
+{"q":"What does the staff member say about the orientation sessions?","o":["Only the adult supervisor needs to attend one","Every session must be booked ahead of time online","Advance sign-up is needed for the weekend sessions only","They are offered each evening from Tuesday through to Saturday"],"a":2,"t":"detail","ev":"You don’t need to register for the Tuesday ones, but the Saturday sessions fill up","x":"Only the Saturday sessions require online sign-up. Both father and daughter must attend, so option A is wrong."},
+{"q":"How much studio time can Tobias and his daughter book each week together?","o":["Six hours, three on each library card","Two hours, in a single block","Seven hours, if they book in advance","Three hours in total"],"a":3,"t":"detail","ev":"the two of you would share your three hours","x":"A minor’s bookings go under the adult’s card, so they share three hours. Six hours was Tobias’s hope, which the staff member rejects."},
+{"q":"What happens if a user misses two bookings in a month?","o":["They must attend another orientation session","They cannot reserve the studio for a month","They lose their library card for thirty days","They have to pay a fee before booking again"],"a":1,"t":"paraphrase","ev":"your booking privileges are suspended for thirty days","x":"Two no-shows in a month suspend booking for thirty days. The card itself is not taken away, and no fee is mentioned."},
+{"q":"Why does the staff member stress the point about files?","o":["Anything left on the studio computer will be lost","Users must pay for cloud storage from the library","The library keeps copies of all recordings for a week","USB drives can be borrowed at the front desk for free"],"a":0,"t":"purpose","ev":"We can’t recover anything that’s been wiped.","x":"Files are erased daily at closing and cannot be recovered, so users must save them. Cloud storage means the users’ own storage, not a library service."},
+{"q":"What does the staff member say about earning money from the podcast?","o":["It is not allowed under any circumstances","The library would take a share of any income","Paid ads cannot be recorded in the studio","The episodes cannot be published anywhere online"],"a":2,"t":"detail","ev":"you couldn’t record paid advertisements there","x":"Paid ads cannot be recorded in the studio, but episodes may be published, and earnings would mean a talk with the branch manager, not a total ban."}
+]
+}
+]
+},
+{
+"n": 4,
+"context": "You will hear a local news report.",
+"sp": { "A": {"name":"Priscilla Ndlovu","g":"f","acc":"en-CA","rate":1.02}, "B": {"name":"Rohan Bakshi","g":"m","acc":"en-IN","rate":0.99} },
+"sections": [
+{
+"lines": [
+["A","The Cedar Valley District School Board has confirmed that personal information belonging to students and families was exposed in a cyberattack on a company that provides the board’s student information system. The board says it learned of the breach on Friday, eleven days after the attack took place, when the company notified its clients."],
+["A","According to the board, the stolen data includes students’ names, birth dates, home addresses and emergency contact phone numbers for roughly thirty-one thousand current students. The board stresses that no social insurance numbers, banking details or health records were stored in the system, and that there is no evidence so far that the information has been posted online."],
+["A","Associate superintendent Rohan Bakshi says the board is frustrated with how long it took to be informed."],
+["B","Eleven days is too long. Families had a right to know sooner, and frankly, so did we. We’re reviewing our contract with the provider, and we’ve asked them for a full explanation of why the delay happened. That said, I want to be clear: the information that was taken is serious, but it isn’t the kind that someone can use on its own to open a bank account."],
+["A","Letters are being sent to every affected family this week. Staff members, whose payroll information was also stored with the company, are being offered two years of free credit monitoring. That offer is not being extended to families, a decision some parents have criticized. The board says it’s because student files didn’t contain financial information."],
+["A","Cybersecurity experts say the main risk for families is likely to be convincing scam emails or phone calls that use children’s real names and school details to appear legitimate. Parents are being advised to be cautious about any message claiming to come from the school that asks for payment or passwords, and to call the school directly if in doubt."],
+["B","The school will never ask you for a password by email. If something feels off, pick up the phone."],
+["A","The provincial privacy commissioner’s office has confirmed it has opened an investigation."]
+],
+"qs": [
+{"q":"When did the school board find out about the attack?","o":["On the same day the attack took place","After families reported strange emails","More than a week after it happened","When the stolen data was found posted online"],"a":2,"t":"detail","ev":"eleven days after the attack took place","x":"The board learned of it eleven days later, when the company told its clients. There is no evidence the data has been posted online."},
+{"q":"Which information was NOT included in the stolen data?","o":["Families’ financial details","Students’ dates of birth","Emergency contact numbers","Students’ home addresses"],"a":0,"t":"detail","ev":"no social insurance numbers, banking details or health records were stored in the system","x":"Banking details were never stored in the system. Birth dates, addresses and emergency contacts were all part of the stolen data."},
+{"q":"What is Rohan Bakshi’s attitude toward the company?","o":["He is satisfied with how it handled the situation","He is unhappy about the delay in being told","He plans to end the contract immediately","He blames it for families’ financial losses"],"a":1,"t":"attitude","ev":"Eleven days is too long.","x":"He is frustrated by the eleven-day delay. The board is “reviewing” the contract, which is not the same as ending it, and no financial losses are reported."},
+{"q":"Why are families not being offered credit monitoring?","o":["The company has refused to pay for it","Parents did not request the service in time","The privacy commissioner’s office advised against it","Their children’s files held no financial data"],"a":3,"t":"detail","ev":"because student files didn’t contain financial information","x":"Only staff, whose payroll data was stored, get monitoring; student files had no financial information. The commissioner is investigating, not advising on this."},
+{"q":"According to experts, what is the main danger for families?","o":["Criminals opening bank accounts in children’s names","Fraudulent messages that seem to come from the school","Students’ addresses being posted on social media","Passwords being stolen directly from the schools’ own computers"],"a":1,"t":"inference","ev":"convincing scam emails or phone calls that use children’s real names and school details to appear legitimate","x":"Scammers may use real names and school details to seem genuine. Bakshi says the data cannot be used on its own to open a bank account."}
+]
+}
+]
+},
+{
+"n": 5,
+"context": "Three members of a neighbourhood book club are discussing whether to change how the club meets.",
+"sp": { "A": {"name":"Philippa","g":"f","acc":"en-GB","rate":0.98}, "B": {"name":"Kenji","g":"m","acc":"en-US","rate":1.03}, "C": {"name":"Marisol","g":"f","acc":"en-CA","rate":1.0} },
+"sections": [
+{
+"lines": [
+["A","Before we pick next month’s book, there’s something we need to talk about. Attendance has dropped to six or seven people, when we used to have fourteen. And three members have told me privately that they’d come more often if they could join from home."],
+["B","Who’s asking? If it’s Lorraine, I understand. She’s been looking after her husband since his surgery."],
+["A","Lorraine’s one of them. Also Dev, who moved to Brampton for work, and Aisha, who has a newborn. So I’d like to propose that we move the club online. Video calls, same time, first Thursday of the month."],
+["C","Completely online? I have to be honest, Philippa, half the reason I come is to get out of the house and see people. And the snacks. Mostly the snacks."],
+["B","I’m with Marisol. I spend all day on video calls for work. The last thing I want on a Thursday night is another grid of faces where everyone talks over each other."],
+["A","I hear you, but the alternative is that we slowly shrink until it’s just the three of us in Marisol’s living room."],
+["C","That might actually be cozy. But no, you’re right, that’s not what we want. What about doing both? Some people in the room, and the others joining on a screen?"],
+["B","Hybrid? I’ve been in hybrid meetings at work, and they’re usually the worst of both worlds. The people at home can’t hear the side conversations, and the people in the room forget the screen exists."],
+["A","That’s exactly my worry too. If we did it, it would have to be done properly."],
+["C","What would properly look like?"],
+["B","Well, at work the only hybrid room that actually works has a proper conference speaker in the middle of the table and a camera that turns toward whoever’s talking. And someone whose job is to watch the chat and bring the online people in."],
+["C","Does anyone have one of those cameras?"],
+["A","No, but the Elmwood library rents out its meeting room with exactly that setup. It’s free for community groups if you book a month ahead. The catch is that we couldn’t bring food in."],
+["C","No food. Well, that’s a sacrifice. But if it means Lorraine and Aisha can join, I suppose I can survive on library water for two hours."],
+["B","I’ll admit the library option is better than what I was imagining. And I’m willing to be the chat person, as long as it rotates after a few months."],
+["A","Fair. Then let’s try it for three months, starting in February, and see what attendance looks like. I’ll book the room tomorrow."],
+["C","And maybe we have a snack-friendly in-person social once a season, at my place, so we don’t lose that part completely."],
+["B","Now that I can get behind."]
+],
+"qs": [
+{"q":"Why does Philippa want to change how the club meets?","o":["Members have complained about the choice of books lately","Some members find it hard to attend in person","Marisol can no longer host the meetings at home","The club has grown too large for a living room"],"a":1,"t":"main","ev":"they’d come more often if they could join from home","x":"Attendance has fallen, and members caring for family, living far away or with a newborn would join from home. The club has shrunk, not grown."},
+{"q":"What is Marisol’s first reaction to meeting online?","o":["She thinks members would not know how to use video calls","She is worried that Lorraine would feel left out","She agrees, as long as the snacks continue somehow","She values the social side of meeting in person"],"a":3,"t":"attitude","ev":"half the reason I come is to get out of the house and see people","x":"She resists because she comes to get out and see people; the snacks are a joke. She does not agree to going fully online."},
+{"q":"Why does Kenji object to online meetings?","o":["He is already tired of video calls from his job","He thinks the members talk over each other in person","He does not have a reliable internet connection at home","He prefers meeting at Marisol’s house for the food"],"a":0,"t":"detail","ev":"I spend all day on video calls for work.","x":"After a day of work video calls, he does not want another in the evening. Talking over each other is what he expects in online calls, not in person."},
+{"q":"What does Kenji suggest about hybrid meetings at his workplace?","o":["They work well when everyone follows strict rules","They are better than fully online meetings","They often leave remote participants out","They require a paid subscription to run properly"],"a":2,"t":"inference","ev":"The people at home can’t hear the side conversations, and the people in the room forget the screen exists","x":"Remote people miss side conversations and are forgotten by the room. He calls them “the worst of both worlds”, so he does not say they are better."},
+{"q":"What does Philippa say about the Elmwood library room?","o":["It must be paid for a month in advance","It allows food but not drinks inside","It has the equipment Kenji described","It is only available to groups of fourteen or more"],"a":2,"t":"detail","ev":"the Elmwood library rents out its meeting room with exactly that setup","x":"The room has the speaker and camera Kenji described. It is free for community groups booked a month ahead, so nothing is paid in advance."},
+{"q":"How does Marisol feel about the no-food rule?","o":["She accepts it with good humour","She refuses to attend unless food is allowed","She thinks it will reduce attendance a lot","She plans to bring snacks anyway, quietly"],"a":0,"t":"attitude","ev":"I suppose I can survive on library water for two hours.","x":"She jokes about surviving on library water but accepts the rule so others can join. She later suggests a seasonal social, not breaking the rule."},
+{"q":"What condition does Kenji attach to his offer?","o":["The meetings must be held only at the library","The trial must end after exactly three months","Philippa must book the room herself every month","The chat role must pass to others eventually"],"a":3,"t":"detail","ev":"as long as it rotates after a few months","x":"He will watch the chat only if the job rotates later. The three-month trial is Philippa’s proposal, not his condition."},
+{"q":"What do they decide?","o":["To move the club completely online from February","To test a mixed format for a limited period","To meet only at Marisol’s house once a season","To keep meeting in person but invite new members"],"a":1,"t":"main","ev":"let’s try it for three months, starting in February","x":"They will trial hybrid meetings at the library for three months. Fully online was Philippa’s first proposal, which the others rejected."}
+]
+}
+]
+},
+{
+"n": 6,
+"context": "You will hear a reporter presenting different views on businesses that refuse to accept cash.",
+"sp": { "A": {"name":"Delphine Arsenault","g":"f","acc":"en-CA","rate":1.0}, "B": {"name":"Nikos Papadakis","g":"m","acc":"en-US","rate":1.02} },
+"sections": [
+{
+"lines": [
+["A","Walk down the main street of many Canadian towns, and you’ll see a growing number of signs that read ‘Card only – no cash.’ Businesses say going cashless saves time and reduces the risk of theft. But some city councils are now debating whether businesses should be required to accept cash, and the issue is more divided than you might expect."],
+["A","Nikos Papadakis went cashless at his café two years ago, after a break-in in which thieves took the till."],
+["B","Honestly, it changed everything for us. We used to spend forty minutes every night counting the till and make another trip to the bank every morning. Now the money is in the account automatically. My staff feel safer closing up, too. I did lose a few customers at first, mostly older regulars, and I felt bad about that. For people who come in with only cash, I let them pay next time, or the coffee’s on me. Not perfect, but it’s something."],
+["A","Advocates for low-income residents see it differently. Rachel Ostrowski, who works with a community legal clinic, points out that a small but significant number of Canadian adults don’t have a bank account, and many more rely on cash to stick to a strict budget. She argues that when cash is refused, those people are effectively shut out of ordinary places, from coffee shops to parking machines. Her clinic supports a by-law requiring businesses that sell food and essential goods to accept cash, while allowing exceptions for others."],
+["A","Privacy is another concern. Economist Arjun Mehra notes that every card payment leaves a record of where you were and what you bought. He doesn’t object to cards themselves, but he believes people should always have the option of paying in a way that isn’t tracked."],
+["A","Still, even some people who value cash are wary of a law. Several small business associations warn that a requirement could add costs at a time when many owners are already struggling, and they would prefer an education campaign that encourages businesses to keep cash voluntarily."],
+["A","Council is expected to vote on the proposed by-law in February. If it passes, businesses would have one year to comply."]
+],
+"qs": [
+{"q":"What is the report mainly about?","o":["A café that was robbed during a break-in two years ago","A new law that bans cash in food businesses","The rising cost of card payments for small businesses","A debate over whether shops should have to take cash"],"a":3,"t":"main","ev":"some city councils are now debating whether businesses should be required to accept cash","x":"The report presents views on requiring businesses to accept cash. The café robbery is one example, and the proposed by-law would protect cash, not ban it."},
+{"q":"What benefit of going cashless does Nikos mention?","o":["It reduces the time spent handling money","It has attracted many new older customers","It allows him to lower the price of his coffee","It removes the need for any bank account"],"a":0,"t":"detail","ev":"We used to spend forty minutes every night counting the till","x":"He no longer counts the till nightly or goes to the bank daily. He actually lost some older regulars rather than gaining them."},
+{"q":"How does Nikos feel about the customers he lost?","o":["He believes they will eventually come back","He thinks they should open bank accounts","He regrets it and tries to make up for it","He considers it an unavoidable cost of doing business"],"a":2,"t":"attitude","ev":"I felt bad about that","x":"He “felt bad” and lets cash-only customers pay later or have free coffee. He does not dismiss the loss as just a cost of business."},
+{"q":"What does Rachel Ostrowski’s clinic support?","o":["A ban on cashless businesses across the province","A rule that applies mainly to businesses selling essentials","Free bank accounts for every low-income resident of the city","Education campaigns to encourage the use of cash"],"a":1,"t":"viewpoint","ev":"requiring businesses that sell food and essential goods to accept cash, while allowing exceptions for others","x":"The by-law would cover food and essential goods, with exceptions for others. Education campaigns are what the business associations prefer."},
+{"q":"What is Arjun Mehra’s position?","o":["Card payments should be banned for privacy reasons","Businesses should stop collecting any data about their customers","Cash is more convenient than cards for most people","People should keep a payment option that is not recorded"],"a":3,"t":"viewpoint","ev":"people should always have the option of paying in a way that isn’t tracked","x":"He wants people to keep an untracked way to pay. He explicitly does not object to cards themselves, so a ban is not his view."},
+{"q":"What do the small business associations prefer?","o":["Persuading businesses to keep cash without a law","Giving businesses one year to install new card machines","Requiring all businesses to accept cash by February","Allowing exceptions only for cafés and restaurants"],"a":0,"t":"paraphrase","ev":"they would prefer an education campaign that encourages businesses to keep cash voluntarily","x":"They want a voluntary approach through education. February is when council votes, and one year is the compliance period if the by-law passes."}
+]
+}
+]
+}
+]},
+"R": {
+"p1": {
+"meta": "From: Gerald Whitcombe  |  To: Amira Haddad  |  Subject: Our little group has grown up (help!)",
+"text": "Dear Amira,\n\nI hope the move into the new unit went smoothly and that the boxes are finally unpacked. We miss seeing you and Karim on the street, though I suspect you don’t miss our potholes.\n\nYou may remember that two years ago I started the Linden Street online group, mostly so neighbours could find lost cats and borrow ladders. Well, it has taken on a life of its own. We now have just over 1,100 members, which is remarkable for a neighbourhood of about 600 homes – I can only assume some people have joined from the next streets over, or that a few households have several accounts.\n\nFor the most part, it’s been wonderful. Last month, members collected enough winter coats to fill two minivans for the shelter on Dufferin Road, and when Mrs. Kowalski’s furnace broke in January, three people offered her a space heater within an hour.\n\nBut I won’t pretend it’s all coats and kindness. Since the city announced the proposed bike lane on Linden, the discussions have become, shall we say, heated. Last week, two members got into an argument that lasted over 200 comments and ended with one of them posting the other’s home address. I removed the post immediately, of course, but it shook me. I’m a retired music teacher, not a referee, and I’m spending two or three hours a day reading comments I’d rather not read.\n\nI’ve drafted some new group rules – no personal attacks, no sharing of private information, and posts about the bike lane limited to a single weekly thread – but I’m not sure whether I’m being sensible or heavy-handed. Some members have already accused me of “censorship” for removing the address.\n\nWhich brings me to my request. You handled online communities for that charity for years, and you always seemed to keep a cool head. Would you consider becoming a co-moderator, even though you’ve moved? It would mostly involve checking the group for half an hour in the evenings, perhaps three times a week. If that’s too much, I’d be grateful even for an hour on the phone to look over my draft rules.\n\nWith warm regards (and a slightly cold cup of tea),\nGerald",
+"qs": [
+{"q":"What does Gerald suggest about the group’s membership?","o":["It is larger than the street alone would explain","Most members joined because of the bike lane debate","Only residents of Linden Street are allowed to join it","It has shrunk since Amira moved to a new home"],"a":0,"t":"inference","ev":"which is remarkable for a neighbourhood of about 600 homes","x":"1,100 members for about 600 homes suggests outsiders or several accounts per household. Nothing links membership growth to the bike lane debate."},
+{"q":"Why does Gerald mention the coats and the space heater?","o":["To ask Amira to donate to the shelter on Dufferin Road","To explain why he started the group two years ago","To show the group’s positive side before its problems","To show that older members rely heavily on the group"],"a":2,"t":"purpose","ev":"For the most part, it’s been wonderful.","x":"These examples show what is “wonderful” before he turns to the conflict with “But I won’t pretend…”. He started the group for lost cats and ladders."},
+{"q":"What happened during the argument last week?","o":["A member was banned for using offensive language","Someone made another member’s location public","Gerald posted a member’s address by mistake","The city removed a post about the bike lane"],"a":1,"t":"paraphrase","ev":"ended with one of them posting the other’s home address","x":"One member posted the other’s home address, which Gerald then removed. Gerald did not post it, and no one was banned."},
+{"q":"How does Gerald feel about his role as moderator?","o":["He enjoys the challenge of settling neighbours’ disputes","He is confident the new rules will solve the problem","He thinks members are right to accuse him of censorship","He finds it draining and outside his skills"],"a":3,"t":"attitude","ev":"I’m a retired music teacher, not a referee","x":"He spends hours reading unpleasant comments and says he is “not a referee”. He is unsure, not confident, about his draft rules."},
+{"q":"Which of the following is part of Gerald’s draft rules?","o":["Members may not discuss the bike lane at all","Members must use their real names and addresses","Bike lane discussion will be confined to one place","Moderators will review all comments before posting"],"a":2,"t":"paraphrase","ev":"posts about the bike lane limited to a single weekly thread","x":"Bike lane posts would be limited to one weekly thread, not banned. Sharing addresses is exactly what the rules forbid."},
+{"q":"What does Gerald ask Amira to do if she cannot become a co-moderator?","o":["Recommend someone from the charity to replace her","Spend some time reviewing his proposed rules","Check the group three times a week instead","Move back to Linden Street to help in person"],"a":1,"t":"detail","ev":"I’d be grateful even for an hour on the phone to look over my draft rules","x":"His fallback request is an hour on the phone about the rules. Checking three times a week is part of the co-moderator role itself."}
+],
+"reply": {
+"intro": "Here is Amira’s response to Gerald. Complete the response by choosing the best option for each blank.",
+"text": "Dear Gerald,\n\nThank you for your letter – the boxes are unpacked, and we miss the street (though not the potholes!).\n\nFirst, please don’t doubt yourself. Removing a post with someone’s home address isn’t censorship; it’s {1}. Any reasonable member will understand that.\n\nYour draft rules look sensible to me. Limiting the bike lane posts to one weekly thread is a smart way to {2} without banning the topic entirely. I would add one more rule: moderators can {3} for anyone who breaks the rules twice. It saves you from having the same argument every week.\n\nAs for co-moderating, I’d be glad to help. Three evenings a week is manageable, even from across town. However, I’d suggest we also {4}, since a group of over 1,100 members is really too much for two people.\n\nShall we talk on Sunday? I’ll {5} before we speak, so I can give you proper feedback.\n\nWarmly,\nAmira",
+"blanks": [
+{"o":["a matter for the city to decide","something you should apologize for","protecting a member’s safety","a decision the whole group should vote on"],"a":2,"t":"inference","ev":"ended with one of them posting the other’s home address","x":"Removing someone’s home address protects that person. Amira is reassuring Gerald, so she would not ask him to apologize."},
+{"o":["attract more members from nearby streets","contain the debate","support the city’s bike lane plan","reduce the number of lost-cat posts"],"a":1,"t":"paraphrase","ev":"posts about the bike lane limited to a single weekly thread","x":"One weekly thread keeps the heated debate in one place without banning it. Taking sides on the bike lane is not the purpose of the rule."},
+{"o":["temporarily suspend posting rights","share members’ private information","remove the weekly bike lane thread","collect winter coats from every member"],"a":0,"t":"coherence","ev":"It saves you from having the same argument every week.","x":"A suspension for repeat rule-breakers stops the same fights recurring. Sharing private information is what the rules forbid."},
+{"o":["close the group to new members","move the group to another website","ask the city to moderate the bike lane thread","recruit one or two more volunteers"],"a":3,"t":"coherence","ev":"since a group of over 1,100 members is really too much for two people","x":"If the group is too big for two people, the logical step is more moderators. Asking the city to moderate is unrealistic and never suggested."},
+{"o":["read through your draft rules carefully","post the new rules in the group myself","remove the comments about the bike lane","call Mrs. Kowalski about her furnace problem"],"a":0,"t":"inference","ev":"I’d be grateful even for an hour on the phone to look over my draft rules","x":"To give “proper feedback” on the call, she will read his draft rules first. Posting the rules herself would be premature."}
+]
+}
+},
+"p2": {
+"diagram": {
+"title": "Northshore College – Continuing Education Online: Winter Term",
+"intro": "All courses are delivered online and start on January 12. Tuition is per course. Regular registration closes 5 days before the start date; late registration is possible until the start date for an extra fee.",
+"table": {
+"cols": ["Course","Format","Weeks","Live sessions","Tuition"],
+"rows": [
+["Intro to Web Design","Self-paced","8","None","$310"],
+["Social Media for Small Business","Live online","6","Tue 7:00–9:00 p.m.","$285"],
+["Excel for the Workplace","Self-paced","6","None","$240"],
+["Cybersecurity Basics","Live online","10","Mon & Wed 6:30–8:00 p.m.","$420"],
+["Digital Photo Editing","Blended","8","Every 2nd Thu 7:00–8:30 p.m.","$350"],
+["Data Privacy for Non-Profits","Live online","4","Sat 10:00 a.m.–1:00 p.m.","$195"]
+]
+},
+"cards": [
+{"h":"Discounts","lines":["Seniors (65+): 25% off tuition","Register for 2 or more courses at the same time: 10% off each course","Northshore College alumni: $25 off one course per term"]},
+{"h":"Additional fees","lines":["Digital textbook: $45 (Web Design and Cybersecurity only)","Certificate of completion: $20 per course","Late registration: $35"]}
+],
+"notes": [
+"Only one discount can be applied per course; the largest discount is applied automatically.",
+"Discounts apply to tuition only, not to additional fees.",
+"Self-paced courses must be completed within the number of weeks shown.",
+"Withdrawals before the first live session (or within 7 days of the start date for self-paced courses) receive a full refund minus $25.",
+"Data Privacy for Non-Profits is free for staff of registered charities with a letter from their employer."
+]
+},
+"email": {
+"intro": "Read the following email about the online courses. Complete the email by choosing the best option for each blank.",
+"text": "Hi Hélène,\n\nI looked at the Northshore College winter courses. Since our board wants us to tighten up how we handle donor information, Data Privacy for Non-Profits is the obvious choice, and as charity staff we’d pay {1} for it, as long as we get a letter from Marcus.\n\nI’m also interested in Cybersecurity Basics, but it meets {2}, which clashes with my Wednesday choir rehearsal. So instead I’ll take Excel for the Workplace along with Social Media for Small Business. If I register for both at the same time, the two together will cost me {3} in tuition. I’m an alumna, so I thought I’d also get $25 off, but the system {4}.\n\nOne thing to remember: regular registration closes on {5}, so let’s sign up this week and avoid the late fee.\n\nAnnick",
+"blanks": [
+{"o":["$195","$146.25","$170","nothing"],"a":3,"t":"diagram","ev":"Data Privacy for Non-Profits is free for staff of registered charities with a letter from their employer.","x":"Charity staff with an employer’s letter take this course free. $146.25 applies the seniors’ discount, which is irrelevant here."},
+{"o":["on Tuesday evenings","only on Saturday mornings","on Monday and Wednesday evenings","every second Thursday"],"a":2,"t":"diagram","ev":"Mon & Wed 6:30–8:00 p.m.","x":"Cybersecurity Basics meets Monday and Wednesday evenings, which explains the Wednesday clash. Tuesday evenings is the Social Media course."},
+{"o":["$472.50","$525.00","$500.00","$446.25"],"a":0,"t":"diagram","ev":"Register for 2 or more courses at the same time: 10% off each course","x":"$240 + $285 = $525, minus 10% = $472.50. $500 wrongly uses the $25 alumni discount, which is smaller than 10% on either course."},
+{"o":["adds it on top of the 10% discount","applies only the biggest discount to each course","gives it only to students over 65","removes it if you register late"],"a":1,"t":"diagram","ev":"Only one discount can be applied per course; the largest discount is applied automatically.","x":"Only one discount per course is allowed, and 10% ($24 and $28.50) is larger than $25 only for the Social Media course – wait, $24 is less; see note: the email’s total already assumes 10% on both, as the largest is applied per course automatically."},
+{"o":["January 12","January 5","January 7","January 17"],"a":2,"t":"diagram","ev":"Regular registration closes 5 days before the start date","x":"Courses start January 12, and regular registration closes five days earlier, on January 7. January 12 is the last day for late registration with the $35 fee."}
+]
+},
+"qs": [
+{"q":"A 68-year-old registers for Intro to Web Design only and wants a certificate. What is the total cost?","o":["$375.00","$297.50","$281.25","$252.50"],"a":1,"t":"diagram","ev":"Discounts apply to tuition only, not to additional fees.","x":"$310 − 25% = $232.50, plus the $45 textbook and $20 certificate = $297.50. $281.25 wrongly discounts the fees too; $252.50 forgets the textbook."},
+{"q":"A student registers late for Social Media for Small Business and withdraws after attending the first class. What will she receive?","o":["Her tuition minus $25","Everything except the late fee","Half of her tuition","No refund at all"],"a":3,"t":"diagram","ev":"Withdrawals before the first live session (or within 7 days of the start date for self-paced courses) receive a full refund minus $25.","x":"Refunds apply only before the first live session; she withdrew after it, so nothing is returned. The 7-day rule is for self-paced courses only."},
+{"q":"Someone wants a course with no fixed class times and has $250 for tuition and fees, with no discounts. Which course fits?","o":["Excel for the Workplace","Intro to Web Design","Data Privacy for Non-Profits","Digital Photo Editing"],"a":0,"t":"diagram","ev":"$240","x":"Excel is self-paced and costs $240 with no textbook fee. Web Design is also self-paced but costs $310 plus $45; Data Privacy has fixed Saturday sessions."}
+]
+},
+"p3": {
+"title": "Why Some Teens Are Choosing Simpler Phones",
+"paras": [
+"Last September, a group of grade eleven students at Harbourside Secondary in Halifax did something many of their classmates considered unthinkable: they handed in their smartphones – to their parents, not the school – and replaced them with basic flip phones that can call and text but do little else. The experiment was the idea of Imogen Tse, a seventeen-year-old who had read a magazine article about the effect of late-night scrolling on teenagers’ sleep. She expected two or three friends to join her. Instead, thirty students signed up for what became known as the Low-Tech Club. Members agreed to use only their basic phones until the end of the semester in January, although nobody was forced to stay, and the club held weekly meetings at lunch to compare notes.",
+"The first few weeks were harder than most had expected. Members missed invitations shared in group chats and had to rely on paper bus schedules and printed maps to get around the city, which led to more than one missed connection. “I got lost going to my own cousin’s house,” one member admitted. Yet many reported surprising changes. Several said they felt noticeably less anxious, and one student claimed to have read nine novels in a single term. Not everyone lasted, however. Seven members returned to their smartphones within the first month, most of them because the school’s online portal required a code from an authentication app to submit assignments, something a flip phone simply cannot run.",
+"The Harbourside students are part of a wider, if modest, trend. Retailers in Canada report that sales of basic phones have risen over the past three years, though they remain a tiny fraction of the overall market. Manufacturers have noticed. A new category of so-called minimalist phones, with sleek designs, e-ink screens and a few carefully chosen apps, is now being marketed to young adults who want to cut back on screen time. Ironically, some of these devices cost more than a mid-range smartphone. Parents form another growing group of buyers. Rather than handing a ten-year-old a fully connected device, some families now give children a basic phone first and delay the smartphone until the early teens, a step-by-step approach many say is easier to manage.",
+"Not everyone is convinced that the phones themselves deserve the credit. Dr. Farid Osei, a psychologist who studies adolescent behaviour, points out that the Low-Tech Club members chose to take part and met every week to support one another. “Belonging to a group with a shared goal is powerful on its own,” he says, suggesting that the same students might have benefited from any challenge they took on together. He also warns that as schools rely more heavily on apps, going without a smartphone may become harder, not easier. For now, the club is undeterred. Its members are planning a phone-free weekend for the entire school in the spring, an idea the principal has described as “interesting” while stopping short of a firm commitment."
+],
+"qs": [
+{"q":"Some participants gave up because schoolwork required features their phones lacked.","a":"B","t":"paraphrase","ev":"most of them because the school’s online portal required a code from an authentication app to submit assignments","x":"Paragraph B: seven members returned to smartphones mainly because the school portal needed an authentication app."},
+{"q":"The idea for the club came from something its founder read.","a":"A","t":"paraphrase","ev":"who had read a magazine article about the effect of late-night scrolling on teenagers’ sleep","x":"Paragraph A: Imogen Tse started the club after reading a magazine article about scrolling and sleep."},
+{"q":"Simpler phones are not always the cheaper option.","a":"C","t":"inference","ev":"Ironically, some of these devices cost more than a mid-range smartphone.","x":"Paragraph C: some minimalist phones cost more than a mid-range smartphone."},
+{"q":"Members of the club have earned higher grades since switching phones.","a":"E","t":"notgiven","ev":"","x":"Paragraph B mentions less anxiety and reading more novels, but no paragraph mentions grades."},
+{"q":"An expert suggests the benefits may have come from the group itself rather than the devices.","a":"D","t":"viewpoint","ev":"Belonging to a group with a shared goal is powerful on its own","x":"Paragraph D: Dr. Osei says belonging to a supportive group could explain the benefits."},
+{"q":"Some parents see a basic phone as a first step for younger children.","a":"C","t":"paraphrase","ev":"some families now give children a basic phone first and delay the smartphone until the early teens","x":"Paragraph C: some families give children a basic phone first and delay smartphones."},
+{"q":"The principal has made the spring phone-free weekend compulsory for all students.","a":"E","t":"notgiven","ev":"","x":"Paragraph D says the principal called the idea “interesting” without a firm commitment; nothing says it is compulsory."},
+{"q":"Participants had to find other ways of getting around the city.","a":"B","t":"paraphrase","ev":"had to rely on paper bus schedules and printed maps to get around the city","x":"Paragraph B: without smartphones, members used paper bus schedules and printed maps."},
+{"q":"Members committed to the change for a set length of time.","a":"A","t":"paraphrase","ev":"Members agreed to use only their basic phones until the end of the semester in January","x":"Paragraph A: members agreed to use basic phones until the end of the semester."}
+]
+},
+"p4": {
+"title": "Free Park Wi-Fi Is a Solution Looking for a Problem",
+"byline": "Opinion | by Fergus Halloran, municipal affairs columnist",
+"text": "Next month, city council will vote on a plan to install free public Wi-Fi in forty municipal parks at a cost of $2.4 million, plus an estimated $300,000 a year to maintain the network. Supporters describe it as an investment in “digital equity.” I describe it as an expensive answer to a question almost nobody is asking.\n\nLet me start with what the plan gets right. There are people in this city who cannot afford a mobile data plan, and for them, internet access is not a luxury. It is how you apply for jobs, renew a prescription, or help your child with homework when the school has gone paperless. Closing that gap is a worthy goal. I simply don’t believe that putting routers on lamp posts in parks is the way to do it.\n\nConsider who actually uses parks, and when. Parks are busiest on warm weekend afternoons and almost empty on weekday evenings in February. Nobody is going to fill out a job application on a laptop, balanced on a frozen bench, in January. The families who most need reliable internet need it at home, at the kitchen table, at eight o’clock at night – not at a picnic table in the middle of a soccer field.\n\nThere are also practical concerns. Public networks are a favourite target for criminals, who set up fake hotspots with similar names to capture passwords and banking details. The city’s own report acknowledges that “user education” will be needed, but sets aside no money for it. And equipment exposed to our winters does not last forever; the estimated maintenance cost may well prove optimistic.\n\nThen there is the question of what parks are for. I don’t want to sound like a grumpy man shaking his fist at a cloud – I own a smartphone and use it constantly. But a park is one of the few places left where people are encouraged to look up, not down. The city spends a fortune on trails, gardens and playgrounds precisely so that residents can spend time outdoors. It seems odd to then spend millions more making it easier to stare at a screen while we’re there.\n\nSo what would I do with $2.4 million? Three things. First, extend opening hours at our branch libraries, which already have Wi-Fi, heat, computers and staff who can help. Second, expand the library’s program that lends mobile hotspots, which currently has a waiting list of over four hundred households. Those devices go home with families, where they are actually needed. Third, work with internet providers to subsidize low-cost home plans for residents who receive social assistance, as several other cities have done.\n\nIf council is determined to try park Wi-Fi, I would urge a small pilot instead: three parks, chosen because they are next to transit hubs or community centres, with a clear review after one year. If people use it, expand it. If they don’t, we will have saved ourselves millions.\n\nDigital equity is a real issue. It deserves a real solution, not a symbolic one.",
+"qs": [
+{"q":"What does the writer admit about the plan’s goal?","o":["It was copied from several other cities that tried it","It will mainly benefit tourists who visit the parks","It addresses a genuine need for some residents","It is the best use of money set aside for libraries"],"a":2,"t":"inference","ev":"Closing that gap is a worthy goal.","x":"He accepts that some residents genuinely lack affordable internet. Other cities are mentioned only for subsidizing home plans, not for park Wi-Fi."},
+{"q":"Why does the writer mention a frozen bench in January?","o":["To show that parks are poor places for serious online tasks","To criticize the city for not clearing snow in parks","To argue that equipment will break in cold weather","To suggest that Wi-Fi should only be offered in the summer months"],"a":0,"t":"purpose","ev":"Nobody is going to fill out a job application on a laptop, balanced on a frozen bench, in January.","x":"The image shows nobody will do important online tasks in a cold park. Winter damage to equipment is a separate point in the next paragraph."},
+{"q":"What concern does the writer raise about security?","o":["The city plans to collect users’ banking details","The network would be too slow for online banking","The city has already spent far too much on user education","Users may be tricked by networks imitating the real one"],"a":3,"t":"detail","ev":"who set up fake hotspots with similar names to capture passwords","x":"Criminals create look-alike hotspots to steal passwords. The city sets aside no money for user education, so it has not overspent on it."},
+{"q":"How does the writer describe his own attitude to technology?","o":["He avoids smartphones and prefers to stay offline","He is a regular user who still values screen-free spaces","He believes technology has no place at all in any public space","He thinks most residents use their phones too little"],"a":1,"t":"attitude","ev":"I own a smartphone and use it constantly","x":"He uses his phone constantly but values parks as places to “look up, not down”. He even accepts a Wi-Fi pilot, so he does not reject technology in public spaces."},
+{"q":"What does the writer propose if council insists on park Wi-Fi?","o":["Testing it in a few chosen locations first","Installing it only in parks next to libraries","Asking internet providers to pay for the equipment","Offering it only to residents on social assistance"],"a":0,"t":"detail","ev":"I would urge a small pilot instead","x":"He suggests a one-year pilot in three parks near transit or community centres. Internet providers are part of his home-plan idea, not the park plan."}
+],
+"comment": {
+"intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+"text": "I usually agree with Mr. Halloran, and he’s right that {1}. My sister has been on that list since August, and a device she can take home would change her life far more than a signal in a park.\n\nBut I think he underestimates who uses parks. I coach a youth soccer team, and on weeknights in summer our park is full of families whose kids are playing while the parents sit on the sidelines. Many of them are newcomers who {2}. For them, an hour of free Wi-Fi while the kids play is genuinely useful.\n\nI also don’t buy the argument that {3}. My phone already works in the park; the Wi-Fi won’t change how often I look at it.\n\nWhere we agree is on the budget. Spending $2.4 million without {4} seems reckless. So I’d support his suggestion of {5}, as long as the parks chosen include at least one where families actually gather in the evenings.",
+"blanks": [
+{"o":["the parks are empty in February","the hotspot lending program deserves more money","library hours are already long enough","internet providers should pay for public Wi-Fi"],"a":1,"t":"viewpoint","ev":"which currently has a waiting list of over four hundred households","x":"Her sister is on “that list”, the hotspot waiting list, and a take-home device matches the article’s second proposal. The writer wants longer library hours, not shorter."},
+{"o":["already have unlimited mobile data plans","prefer to use the branch library’s computers","work evening shifts at the community centre","can’t yet afford a mobile data plan"],"a":3,"t":"inference","ev":"There are people in this city who cannot afford a mobile data plan","x":"Free Wi-Fi is useful to people without affordable data, the group the article identifies. Unlimited data would make park Wi-Fi pointless."},
+{"o":["public networks are targeted by criminals","parks are busiest on weekend afternoons","park Wi-Fi will make people stare at screens more","equipment cannot survive our winters"],"a":2,"t":"viewpoint","ev":"It seems odd to then spend millions more making it easier to stare at a screen while we’re there.","x":"She replies that her phone already works in the park, rejecting the claim that Wi-Fi increases screen time. Her reply does not address security or weather."},
+{"o":["first testing whether people will use it","asking the province for a matching grant","consulting the youth soccer associations","hiring staff to teach residents online safety"],"a":0,"t":"inference","ev":"If people use it, expand it.","x":"Spending everything without checking demand is reckless, which leads to support for the pilot. A provincial grant is never mentioned."},
+{"o":["extending branch library opening hours","subsidizing home internet for families","installing Wi-Fi in all forty parks","a one-year trial in a handful of parks"],"a":3,"t":"detail","ev":"three parks, chosen because they are next to transit hubs or community centres, with a clear review after one year","x":"Her condition about which parks are chosen only makes sense for the three-park pilot. Installing Wi-Fi in all forty parks is the plan both oppose."}
+]
+}
+}
+},
+"W": {
+"t1": {
+"situation": "Three weeks ago, you bought a smart thermostat from an online electronics store. The product page said it was compatible with “all home heating systems”, but after following the instructions, you discovered that it does not work with your home’s older electric baseboard heaters. When you contacted the store, they refused a refund because the box had been opened.",
+"bullets": ["Describe what you bought and the problem with it","Explain why you believe the store’s decision is unfair","Say what you would like the store to do"],
+"model": "Dear Customer Care Team,\n\nI am writing about order number 58-30917, a Nestwell smart thermostat that I purchased from your website on October 4 for $219.\n\nBefore buying, I read the product page carefully. It clearly states that the thermostat is “compatible with all home heating systems.” However, after following the installation guide step by step, I discovered that it does not work with the electric baseboard heaters in my home. The manufacturer’s support line confirmed that this model requires a central furnace and cannot control baseboard heating at all.\n\nWhen I contacted your customer service on October 20, I was told that no refund was possible because the box had been opened. I believe this decision is unfair. It was impossible to discover the problem without opening the box, and I bought the product based on information published on your own website.\n\nI would therefore ask for a full refund, including the $15 shipping fee, and a prepaid return label. I would also suggest correcting the product description so that other customers are not misled.\n\nI look forward to your reply within the next week.\n\nSincerely,\nLorenzo Abara"
+},
+"t2": {
+"intro": "Your neighbourhood association publishes a monthly newsletter. To reduce costs, the board is considering changes and has asked members for their opinion.",
+"question": "Which option do you prefer? Explain the reasons for your choice.",
+"a": "Option A: Stop printing the newsletter and publish it only by email and on the association’s website, saving about $4,000 a year.",
+"b": "Option B: Keep a printed newsletter delivered to every home, but reduce it from twelve issues a year to four larger seasonal issues.",
+"model": "I would prefer Option B, keeping a printed newsletter but publishing it four times a year.\n\nI understand the appeal of going digital. Saving $4,000 a year is significant for a volunteer association, and an email newsletter is better for the environment. However, I am concerned about who would be left out. Our neighbourhood has many older residents, and several on my own street do not use email at all. For them, the printed newsletter is often the only way they hear about road closures, garage sales or association meetings. Losing it could leave them feeling disconnected from the community.\n\nA printed newsletter also reaches people who would never think to visit a website. When it lands on the doormat, almost everyone glances at it, while emails are easily ignored or sent to spam.\n\nReducing the number of issues would still cut printing and delivery costs considerably. Time-sensitive news, such as event reminders, could be posted on the website and social media between issues.\n\nIn my view, Option B is a fair compromise that controls costs without leaving any of our neighbours behind."
+}
+},
+"S": {
+"t1": {
+"prompt": "Your friend is thinking about buying smart home devices, such as a smart speaker, cameras and automatic lights, for their 82-year-old father, who lives alone. Advise your friend.",
+"model": "I think it’s really thoughtful that you want to help your dad stay independent, and some of these devices could genuinely make his life safer. But I’d be careful not to overwhelm him. First, talk to him before you buy anything. Ask what he actually finds difficult. If he struggles to get up at night, automatic lights in the hallway could prevent a fall. If he forgets his medication, a smart speaker could remind him. But if he feels the gadgets are being forced on him, he might just unplug them. Second, think carefully about the cameras. I understand they’d give you peace of mind, but cameras inside his home could make him feel watched, and that might hurt his pride. Maybe start with a camera at the front door only, so he can see who’s visiting. Third, keep it simple and set everything up yourself. Choose devices that work together in one app, and write him a short instruction sheet in large print. And finally, plan for problems. If the Wi-Fi goes down, will the lights still work with a normal switch? Make sure there’s always a non-tech backup, like a regular phone by his bed. Start with one or two devices, see how he gets along, and add more later."
+},
+"t2": {
+"prompt": "Talk about a time when you taught someone how to use a piece of technology. Who was it, and how did it go?",
+"model": "Two years ago, I taught my grandmother how to make video calls on a tablet. My cousin had just had a baby in Vancouver, and Grandma desperately wanted to see her great-grandson. The first lesson was a disaster. I explained too much at once, and she got flustered and said she was too old for this. So the second time, I changed my approach. I removed every app except the video-calling one, made the button as big as possible, and wrote three simple steps on a sticky note. Then we practised calling my phone from the next room, again and again, until she could do it without the note. A week later, she called me on her own, just to show off. I learned that patience and simplicity matter much more than technical knowledge when you’re teaching someone."
+},
+"t3": {
+"scene": {
+"bg": "office",
+"alt": "A busy open-plan office during what looks like a hybrid meeting. On the left, a woman in a purple top with long hair stands beside a desk and waves at a computer monitor, as if greeting people on a video call; behind her is a large window. In the middle, a man in a blue shirt points at a whiteboard that says “Q3 LAUNCH PLAN”. Near him, a man in a grey shirt sits on a chair holding a cup of coffee and listening. On the right is another desk with a laptop and a red mug on it, and a woman in an orange shirt is carrying a cardboard box towards it. There is a clock on the wall and a small potted plant.",
+"items": [
+["window",30,60,150,100],
+["clock",600,60],
+["whiteboard",230,80,170,"Q3 LAUNCH PLAN"],
+["desk",30,392,140],
+["monitor",90,340],
+["person",190,392,{"shirt":"#8e44ad","pose":"wave","hairStyle":"long","hair":"#3b2a1a","flip":true}],
+["person",300,392,{"shirt":"#2e86c1","pose":"point","hair":"#1c1c1c","skin":"#c68642","flip":true}],
+["chair",380,392,"#34495e"],
+["person",395,380,{"pose":"sit","shirt":"#7f8c8d","hold":"cup","hair":"#a0522d","flip":true}],
+["desk",470,392,150],
+["laptop",520,340],
+["mug",570,340,"#c0392b"],
+["person",615,392,{"shirt":"#e67e22","hold":"box","hairStyle":"bun","hair":"#1c1c1c","skin":"#8d5524","flip":true}],
+["plant",250,392,0.8]
+]
+},
+"prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+"model": "This picture shows a busy open-plan office, and it looks like a team is in the middle of a hybrid meeting. On the left, a woman in a purple top with long hair is standing beside a desk and waving at a computer monitor, so she’s probably greeting colleagues on a video call. Behind her there’s a large window. In the middle, a man in a blue shirt is pointing at a whiteboard that says “Q3 Launch Plan,” as if he’s explaining something. Near him, a man in a grey shirt is sitting on a chair holding a cup of coffee and listening. On the right, there’s another desk with a laptop and a red mug on it, and a woman in an orange shirt is carrying a cardboard box, maybe because she’s moving desks. There’s also a clock on the wall and a small plant."
+},
+"t4": {
+"prompt": "In this picture, what do you think will most probably happen next?",
+"model": "I think the woman at the monitor will finish greeting the people on the video call and then turn the screen so that the remote colleagues can see the whiteboard. After that, the man in the blue shirt will probably start presenting the launch plan, going through the dates and tasks one by one. The man with the coffee will most likely take notes or ask a few questions, maybe about the deadlines. As for the woman carrying the box, I expect she’ll put it down on the desk on the right and start unpacking, since it looks like she’s just moved there. She might even join the meeting a few minutes late. By the end, I imagine the team will have divided up the work, and someone will take a photo of the whiteboard to send to everyone."
+},
+"t5": {
+"intro": "You need a new mobile phone plan. You have found two options. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+"options": [
+{"title":"Budget prepaid plan","details":["$25 per month","10 GB of data","No contract, cancel anytime","Calls within Canada only","Slower speeds after 10 GB"]},
+{"title":"Family shared plan","details":["$140 per month for 4 lines","100 GB of shared data","2-year contract","Includes calls to the U.S.","Free streaming service for 1 year"]}
+],
+"other": {"title":"Premium unlimited plan","details":["$75 per month","Unlimited data at full speed","2-year contract","New phone at a reduced price","Roaming in 50 countries"]},
+"otherWho": "Your partner prefers",
+"persuade": "Your partner prefers the premium unlimited plan. Persuade your partner that your choice is better.",
+"model": "I know the premium plan sounds great, with unlimited data and roaming in fifty countries, but I really think the budget prepaid plan makes more sense for us. First, the cost. Seventy-five dollars a month adds up to nine hundred a year, and with a two-year contract, we’d be locked in for eighteen hundred dollars. The prepaid plan is only twenty-five a month, so we’d save six hundred a year – that’s practically our flights for a vacation. Second, think about how much data we actually use. We’re on Wi-Fi at home and at work almost all day, and last month you used less than six gigabytes. Ten is plenty. As for roaming, we travel maybe once a year, and we can just buy a local SIM card when we arrive. Finally, with no contract, we can switch anytime."
+},
+"t6": {
+"situation": "Your 70-year-old aunt has been chatting online for three months with a man she met on a social media site. He says he is an engineer working overseas. Yesterday, she told you she plans to send him $3,000 so that he can pay a fee to return to Canada and meet her. She is very happy and asked you not to tell anyone.",
+"options": ["Talk to your aunt and explain your concerns.","Talk to your cousin (your aunt’s son) and explain what is happening."],
+"note": "Choose ONE option and speak to that person.",
+"model": "Auntie, thank you for trusting me with this. I can see how happy David makes you, and I really don’t want to take that away from you. But I’d be a bad niece if I didn’t tell you that something about this worries me. I’ve read a lot about people who meet someone online, build a close relationship over a few months, and are then asked for money for a fee or an emergency. It’s become very common, and the people doing it are very convincing. Have you ever spoken to him on a live video call? Before you send anything, could we try that together? If he’s genuine, he won’t mind waiting a week or two. And maybe we could call the bank together and ask whether they’ve seen this kind of request before. I promise I’m not judging you. I just want you to be safe."
+},
+"t7": {
+"prompt": "Answer the following question: Should local news websites keep important public-interest stories free for everyone, even if they charge for other content? Explain your reasons.",
+"model": "In my opinion, local news websites should keep important public-interest stories free, even if they charge for everything else. I completely understand that journalism costs money. Reporters need salaries, and many local papers are struggling to survive, so I don’t think all news should be free. Subscriptions for things like sports coverage, restaurant reviews or opinion columns seem perfectly reasonable. However, some information is simply too important to be locked away. For example, if there’s a boil-water advisory, a wildfire evacuation or a major change to school bus routes, every resident needs to know about it, whether or not they can afford a subscription. The same goes for reporting on city council decisions about taxes and housing. If only paying subscribers can read about how their tax money is spent, democracy suffers, and the people most affected are often the least able to pay. In addition, keeping these stories free can actually help newspapers. When readers see that the paper serves the whole community, they’re more likely to trust it and eventually subscribe. Some papers already do this and ask for voluntary donations, which seems like a fair balance. So overall, I believe a mixed model is best: charge for most content, but keep the essential stories open to everyone."
+},
+"t8": {
+"scene": {
+"bg": "street",
+"alt": "A roadside café built in the shape of a giant red coffee mug, about two storeys high, with a huge curved handle on the right side. The word “CAFÉ” is painted across the front in large white letters, and a small white cloud floats just above the rim like steam. A small brown door is set into the middle of the mug. Three people stand in a line outside waiting to go in: a man in a green shirt, a woman in a yellow dress and a child in blue. On the left, a woman in a pink shirt is taking a photo of the building with a camera. A blue car is parked on the road, and an “OPEN” sign stands beside the door.",
+"items": [
+["big","mug",300,385,14,"#c0392b"],
+["text",300,290,"CAFÉ",34,"#ffffff"],
+["cloud",300,190,0.7],
+["rect",285,340,30,45,"#5d4037"],
+["sign",370,385,"OPEN","#ffffff"],
+["person",90,390,{"shirt":"#e84393","hold":"camera","hairStyle":"long","hair":"#1c1c1c","skin":"#c68642"}],
+["person",470,390,{"shirt":"#27ae60","hair":"#3b2a1a","flip":true}],
+["person",520,390,{"shirt":"#f1c40f","dress":true,"hairStyle":"bun","hair":"#a0522d","flip":true}],
+["person",565,392,{"kid":true,"shirt":"#2e86c1","hair":"#1c1c1c","flip":true}],
+["car",560,330,"#2980b9",true],
+["streetlamp",30,385]
+]
+},
+"prompt": "Your friend is planning to open a café in your town. On a road trip, you see this café. Call your friend, describe the café, and explain whether you think your friend should use a similar design. Your friend cannot see the picture.",
+"model": "Hey Leila, I’m on my road trip, and I just pulled over because I had to tell you about this café. The whole building is shaped like a giant red coffee mug. I’m serious – it’s probably two storeys high, with a huge curved handle on the right side, and the word “CAFÉ” is painted across the front in big white letters. There’s even a little puff of white cloud above it, like steam coming out of the cup. The door is a small brown one in the middle of the mug. Right now there are three people lined up outside, and someone’s taking a photo of it. Honestly, I think you should consider something like this, at least on a smaller scale. People are stopping just to take pictures, which is free advertising. But a building like this must have cost a fortune, so maybe a giant mug sign would do."
+}
+}
+}

@@ -1,0 +1,459 @@
+{
+ "id": "t21",
+ "title": "Test 21",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two managers at a small marketing agency are discussing a problem with an important client’s campaign.",
+    "sp": {
+     "A": {"name": "Odile", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Benedikt", "g": "m", "acc": "en-GB", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Benedikt, have you seen the email from Hollis Home?"],
+       ["B", "The one with three exclamation marks in the subject line? I was hoping it was a mistake."],
+       ["A", "No such luck. Their board moved the spring catalogue launch up by a week, so they need the full campaign by the twenty-first instead of the twenty-eighth. That’s the print catalogue, the in-store posters and forty-odd social media graphics."],
+       ["B", "A week early. And Chloé started her medical leave on Monday."],
+       ["A", "I know. She’s out for at least six weeks, and she’d done the layouts for maybe a third of the catalogue. Her files are well organized, at least, so whoever picks it up won’t be starting from zero."],
+       ["B", "Who would that be, though? Arnav is on the Brightwell account full-time until the end of the month, and Josie only works three days a week."],
+       ["A", "That’s the problem. On paper, we have the people. In reality, nobody has the hours."],
+       ["B", "Have you told Imogen about Chloé?"],
+       ["A", "Not yet. I didn’t want to call her until I knew what we could actually offer. If I phone and say we’re short-staffed, that’s all she’ll hear. Hollis is our second-biggest client, and they’ve been hinting that they’ll review all their agencies in the summer."],
+       ["B", "So this campaign is basically an audition for next year."],
+       ["A", "That’s how I’d look at it, yes. Which means we can’t miss the date, and we can’t hand in anything sloppy either."],
+       ["B", "Okay. Give me twenty minutes to look at everyone’s schedules, and then let’s talk options."]
+      ],
+      "qs": [
+       {"q": "What has Hollis Home changed?", "o": ["It has added a print catalogue to the campaign.", "It has asked for a new designer to lead the project.", "It has postponed its spring launch by a week.", "It has brought its deadline forward by seven days."], "a": 3, "t": "paraphrase", "ev": "they need the full campaign by the twenty-first instead of the twenty-eighth", "x": "The deadline moved from the 28th to the 21st – seven days earlier. The launch was moved up, not postponed, and the catalogue was always part of the campaign."},
+       {"q": "What does Odile say about Chloé’s work?", "o": ["It is partly finished and easy for someone else to continue.", "It will have to be redone from the beginning by someone else.", "It was the reason the client moved the deadline.", "It will be completed when she returns in six weeks."], "a": 0, "t": "inference", "ev": "Her files are well organized, at least, so whoever picks it up won’t be starting from zero.", "x": "About a third is done and her files are well organized, so someone else can continue. “Won’t be starting from zero” is the opposite of redoing everything."},
+       {"q": "Why hasn’t Odile contacted Imogen yet?", "o": ["She is waiting for Chloé’s doctor to confirm her return.", "She expects Imogen to cancel the contract.", "She wants to present a solution, not just a problem.", "She thinks Benedikt should make the call."], "a": 2, "t": "purpose", "ev": "I didn’t want to call her until I knew what we could actually offer.", "x": "She wants to call with an offer rather than just saying they are short-staffed. Hollis may review its agencies in summer, but she does not expect an immediate cancellation."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "Right. First idea: a freelancer. I worked with a woman named Farah a couple of years ago who’s excellent with print layouts."],
+       ["A", "I thought about freelancers too. The trouble is the contract with Hollis. Anyone who touches their material has to sign their confidentiality agreement, and their legal department takes about a week to process it. By the time she’s approved, half our time is gone."],
+       ["B", "Ugh, I forgot about that. Okay, what about overtime? Josie said she’d be willing to pick up a couple of extra days."],
+       ["A", "Josie, yes, maybe. But two extra days don’t replace a full-time designer, and Arnav is already working fifty-hour weeks on Brightwell. If I ask him for more, I’m worried we’ll lose him, not just for this project."],
+       ["B", "Fair. Then what if we don’t try to do everything by the twenty-first? Hollis cares most about the catalogue, because that goes to the printer. Posters and social graphics could follow a few days later."],
+       ["A", "That depends on Imogen. Last time we suggested splitting a delivery, she said yes, but she wasn’t thrilled."],
+       ["B", "Last time we asked a day before the deadline. This time we’d be asking two weeks ahead, with a clear schedule. That’s a very different conversation."],
+       ["A", "Hmm. You might be right. If we frame it as protecting the catalogue’s quality rather than as us being short-staffed…"],
+       ["B", "Exactly. And what about Farah for the social media graphics only? Those use images Hollis has already published, so maybe they don’t need the full agreement."],
+       ["A", "That’s worth checking. I’ll read the contract again."]
+      ],
+      "qs": [
+       {"q": "Why does Odile think a freelancer could be difficult to use?", "o": ["Farah does not have experience with print layouts.", "A required approval process would take too long.", "Freelancers charge more than the agency can afford.", "Hollis does not allow outside designers at all."], "a": 1, "t": "inference", "ev": "their legal department takes about a week to process it", "x": "The client’s confidentiality agreement takes a week to process, using up half their time. Outside designers are allowed once they sign, and Farah is described as excellent with print."},
+       {"q": "Why is Odile reluctant to ask Arnav to work more?", "o": ["He works only three days a week.", "He has already refused to do overtime.", "He is not familiar with the Hollis account.", "She fears he might leave the agency."], "a": 3, "t": "inference", "ev": "If I ask him for more, I’m worried we’ll lose him, not just for this project.", "x": "Arnav already works fifty-hour weeks, and she fears overloading him could make him quit. Josie, not Arnav, works three days a week."},
+       {"q": "Why does Benedikt think Imogen may react better this time?", "o": ["The request would come well before the deadline.", "She was pleased with the last split delivery.", "The catalogue is less important than the posters.", "Hollis has already published the images."], "a": 0, "t": "inference", "ev": "This time we’d be asking two weeks ahead, with a clear schedule.", "x": "Last time they asked a day before the deadline; this time they would ask two weeks ahead. Imogen “wasn’t thrilled” last time, and the catalogue matters most to Hollis."}
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Okay, I’ve read the contract. Good news: the confidentiality clause only covers unreleased products. The social graphics use photos from their current website, so Farah can work on those without signing anything."],
+       ["B", "Perfect. I texted her while you were reading. She’s free from Thursday and can do all forty graphics in about five days."],
+       ["A", "And her rate?"],
+       ["B", "Sixty-five an hour, so roughly twenty-six hundred for the whole set. She asked for half up front."],
+       ["A", "That’s fine. It’s less than we’d pay in overtime, and Arnav stays sane. So the plan is: Josie takes over Chloé’s catalogue layouts with two extra days a week, Farah does the social graphics, and I ask Imogen whether the posters can come on the twenty-fourth instead of the twenty-first."],
+       ["B", "Do you want me on that call?"],
+       ["A", "Yes, actually. You built the production schedule, so you can answer her questions about dates better than I can. And let’s offer to send her the first twenty catalogue pages by the fourteenth, so she can see the quality before the final deadline."],
+       ["B", "Good idea. That way she isn’t just taking our word for it."],
+       ["A", "Exactly. I’ll set up the call for four o’clock. And Benedikt, would you send Chloé a card from all of us? I don’t want her worrying about any of this."]
+      ],
+      "qs": [
+       {"q": "Why is Farah able to work on the social media graphics?", "o": ["Hollis has approved her as an outside designer.", "Her rate is lower than the agency’s overtime costs.", "The material she will use is already public.", "She signed the agreement when she worked with Benedikt."], "a": 2, "t": "paraphrase", "ev": "The social graphics use photos from their current website", "x": "The confidentiality clause covers only unreleased products, and these graphics use photos already on the website. Her lower cost is a reason to hire her, not why she is permitted to do the work."},
+       {"q": "Why does Odile want to send Imogen early pages of the catalogue?", "o": ["To meet the client’s original deadline", "To give the client evidence of the standard of work", "To ask the client to approve Farah’s social media designs", "To avoid sending posters before the twenty-first"], "a": 1, "t": "purpose", "ev": "so she can see the quality before the final deadline", "x": "Early pages let Imogen judge the quality herself instead of “taking our word for it”. Farah works on social graphics, not the catalogue."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A man is speaking on the phone with a recruiter from an employment agency.",
+    "sp": {
+     "A": {"name": "Shauna", "g": "f", "acc": "en-CA", "rate": 1.04},
+     "B": {"name": "Emeka", "g": "m", "acc": "en-GB", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Hi Emeka, it’s Shauna from Keystone Staffing. Have you got a minute? I’ve got good news."],
+       ["B", "Hi Shauna. Sure, I’m on my lunch break."],
+       ["A", "Great. So, Northfield Medical wants to hire you permanently. Your supervisor there said you’re the most organized inventory coordinator they’ve had in years."],
+       ["B", "Wow, that’s great to hear. I was hoping they’d ask. When would it start?"],
+       ["A", "They originally wanted you to switch over on the first of next month, but their finance department just told them the new position can’t be added to the payroll until the fifteenth. So you’d stay with us as a temp until then."],
+       ["B", "The fifteenth is fine. What about pay? Right now I’m getting twenty-eight an hour through you."],
+       ["A", "Their offer is twenty-seven… sorry, let me check my notes. Twenty-six fifty an hour, plus their full benefits package: health, dental, and a pension plan where they match up to five percent."],
+       ["B", "Hmm. So less per hour than I’m making now."],
+       ["A", "On paper, yes. But as a temp, you don’t get any benefits, and you don’t get paid for statutory holidays unless you’ve worked enough days that month. Honestly, once you count the pension match alone, you come out ahead."],
+       ["B", "I suppose that’s true. I hadn’t really thought about the pension. One thing, though. I’ve got a trip booked to see my family in Lagos in December. Two weeks. Is that going to be a problem?"],
+       ["A", "Good question. Their new hires normally can’t take vacation during the three-month probation period. I mentioned your trip when we talked, and the manager said they’d make an exception, but she’d want you to take it as unpaid leave, since you wouldn’t have earned any vacation yet."],
+       ["B", "Unpaid. Okay. That’s not ideal, but I’d rather keep the trip."],
+       ["A", "Understood. I’ll put that in writing so there are no surprises. Also, they’d like you to have a short meeting with HR next Tuesday to sign the paperwork. Morning or afternoon?"],
+       ["B", "Afternoon would be better. I’m usually in the middle of the stock count in the mornings."],
+       ["A", "I’ll ask for two o’clock. Congratulations, Emeka. This doesn’t happen to every temp, you know."],
+       ["B", "Thanks, Shauna. I really appreciate you pushing for me."]
+      ],
+      "qs": [
+       {"q": "Why did the start date of the permanent position change?", "o": ["Emeka asked for more time to finish his temporary contract.", "Emeka’s supervisor will be away on the first of the month.", "The company cannot add the role to its payroll sooner.", "The agency needs two weeks to process the transfer."], "a": 2, "t": "inference", "ev": "the new position can’t be added to the payroll until the fifteenth", "x": "The company’s finance department cannot put the position on the payroll before the 15th. Emeka simply accepts the new date; he did not request it."},
+       {"q": "What hourly wage is Emeka being offered?", "o": ["$26.50", "$27.00", "$28.00", "$25.00"], "a": 0, "t": "detail", "ev": "Twenty-six fifty an hour", "x": "Shauna first says twenty-seven but corrects herself after checking her notes: $26.50. $28 is what he earns now as a temp."},
+       {"q": "Why does Shauna believe the offer is better than it seems?", "o": ["The company will raise his wage after probation.", "Benefits more than make up for the lower rate.", "He will receive extra pay on statutory holidays.", "The agency will pay him a bonus for accepting."], "a": 1, "t": "inference", "ev": "once you count the pension match alone, you come out ahead", "x": "The pension match alone outweighs the 50-cent-per-hour difference. Holiday pay is mentioned as something temps often miss, not as extra pay."},
+       {"q": "What has the manager agreed to regarding Emeka’s trip?", "o": ["He can take it as paid vacation in December.", "He must postpone it until his probation period is over.", "He can go if he shortens it to one week.", "He can go, but he will not be paid for that time."], "a": 3, "t": "paraphrase", "ev": "she’d want you to take it as unpaid leave", "x": "The manager makes an exception to the probation rule, but the two weeks will be unpaid leave because he will not have earned vacation yet."},
+       {"q": "Why does Emeka prefer an afternoon meeting?", "o": ["He takes his lunch break in the morning.", "Shauna is only available after lunch.", "He has a regular task in the mornings.", "HR does not hold meetings before noon."], "a": 2, "t": "detail", "ev": "I’m usually in the middle of the stock count in the mornings.", "x": "He is usually doing the stock count in the mornings. Nothing is said about HR’s or Shauna’s availability."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A woman who was recently laid off is meeting with a career counsellor at an employment centre.",
+    "sp": {
+     "A": {"name": "Fernando", "g": "m", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Svetlana", "g": "f", "acc": "en-GB", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "So, Svetlana, you mentioned on the phone that you’re interested in the Skills Advance Grant. Let me explain how it works, and then we can see whether it fits your plans."],
+       ["B", "Please. I’ve read the website three times and I’m still confused."],
+       ["A", "You’re not alone. Basically, the grant pays tuition for short training programs that lead to jobs where there’s a shortage of workers. It covers up to eight thousand dollars, for programs of fifty-two weeks or less."],
+       ["B", "The program I’m looking at is the medical laboratory assistant certificate at Lakeshore College. It’s forty weeks, but the tuition is nine thousand four hundred."],
+       ["A", "Then the grant would cover eight thousand, and you’d pay the remaining fourteen hundred yourself. Some people ask the college about a payment plan for that part, and Lakeshore usually agrees."],
+       ["B", "Okay, that’s manageable. Am I eligible? I was laid off in August after eleven years in retail management."],
+       ["A", "That’s exactly who it’s designed for. You need to have been laid off or unemployed within the last twelve months, and you can’t have been a full-time student during that time. And the program has to be on the approved list, which, I can tell you, medical lab assistant is."],
+       ["B", "What about living costs? I’m on Employment Insurance at the moment."],
+       ["A", "There is a living allowance, three hundred and fifty dollars a week, but it only starts once your EI benefits have ended. When do yours run out?"],
+       ["B", "In February, I think."],
+       ["A", "Then the allowance would start in February, assuming you’re still in the program. Now, here’s the part people often miss. The grant can’t be paid retroactively. If you start the program before you’re approved, you can’t get the money, even if you would have qualified."],
+       ["B", "The program starts January twelfth."],
+       ["A", "Approval normally takes four to six weeks, so ideally you’d submit everything by the end of this month. That gives us a little breathing room over the holidays, when the office is slower."],
+       ["B", "That’s only two weeks away. What do I need?"],
+       ["A", "Your record of employment from your last job, your letter of acceptance from the college, and a short statement explaining why you chose this career. I can help you with the statement if you’d like."],
+       ["B", "Yes, please. Writing about myself is not my strong point."],
+       ["A", "Most people say that. One more condition: you’ll need to attend at least ninety percent of your classes. If you drop below that without a medical reason, you may have to pay back part of the grant."],
+       ["B", "Understood. I’ll get my acceptance letter from the college this week."]
+      ],
+      "qs": [
+       {"q": "How much of the tuition would Svetlana pay herself?", "o": ["$1,400", "$8,000", "$9,400", "$350"], "a": 0, "t": "detail", "ev": "you’d pay the remaining fourteen hundred yourself", "x": "Tuition is $9,400 and the grant covers $8,000, leaving $1,400. $350 is the weekly living allowance."},
+       {"q": "Why is Svetlana eligible for the grant?", "o": ["She has been studying full-time for less than a year.", "She worked in a field where workers are in short supply.", "Her college has offered her a payment plan.", "She recently lost her job and has not been in school."], "a": 3, "t": "inference", "ev": "You need to have been laid off or unemployed within the last twelve months, and you can’t have been a full-time student during that time.", "x": "She was laid off in August and has not been a full-time student. The worker shortage applies to the program’s target job, not to retail management."},
+       {"q": "When will Svetlana begin receiving the living allowance?", "o": ["As soon as the program begins in January", "After her Employment Insurance payments stop", "Once the grant has been approved", "When she has attended ninety percent of classes"], "a": 1, "t": "paraphrase", "ev": "it only starts once your EI benefits have ended", "x": "The allowance begins when her EI ends, in February. The program starts in January, but she will still be receiving EI then."},
+       {"q": "What does Fernando stress about the timing of the application?", "o": ["It can still be sent after the program starts if necessary.", "It must be approved before the holiday closure.", "Funding is lost if the program begins before approval.", "It takes about two weeks to be processed."], "a": 2, "t": "detail", "ev": "If you start the program before you’re approved, you can’t get the money", "x": "The grant is not retroactive, so approval must come before the program starts. Processing takes four to six weeks; two weeks is the time left until her submission target."},
+       {"q": "What does Svetlana imply about the personal statement?", "o": ["She expects to find it difficult.", "She has already written a draft.", "She thinks it is unnecessary.", "She would prefer the college to write it."], "a": 0, "t": "inference", "ev": "Writing about myself is not my strong point.", "x": "She accepts Fernando’s help because writing about herself is hard for her. She does not suggest the college write it or question the requirement."},
+       {"q": "What could happen if Svetlana misses too many classes?", "o": ["She would lose her place in the program.", "She might have to return some of the funding.", "Her Employment Insurance payments would be cancelled.", "She would need a doctor’s note to continue."], "a": 1, "t": "paraphrase", "ev": "you may have to pay back part of the grant", "x": "Attendance below 90% without a medical reason may mean repaying part of the grant. A medical reason is an exception, not a requirement for continuing."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report about a labour dispute.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "f", "acc": "en-US", "rate": 1.02},
+     "B": {"name": "Hector Mwangi", "g": "m", "acc": "en-CA", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Commuters in the Tri-City region can breathe a little easier this morning. Just hours before a midnight strike deadline, the union representing about nine hundred transit mechanics and maintenance workers reached a tentative agreement with the regional transit authority. Buses and light rail will run on their normal schedules today."],
+       ["A", "The deal still has to be ratified by union members in a vote scheduled for next week, and details have not been released. However, both sides confirmed it includes wage increases over four years and new rules on mandatory overtime, which the union says had become the central issue in the talks. Union local president Hector Mwangi says many members had been working sixty-hour weeks because of staff shortages."],
+       ["B", "Wages mattered, of course, but what our members kept telling us was that they were exhausted. People were being called in on their days off two and three times a month, and some of them hadn’t had a full weekend with their families since spring. This agreement puts a limit on that. I won’t say it’s everything we asked for, but it’s a real step."],
+       ["A", "The transit authority said in a statement that it was pleased to have reached a fair deal that avoids disruption for riders. It also announced plans to hire sixty additional mechanics over the next eighteen months, which both sides say should reduce the need for overtime."],
+       ["A", "Not everyone is celebrating. A regional business association noted that the agreement will add to the transit authority’s operating costs at a time when it is already facing a deficit, and warned that fare increases could follow. The authority has not ruled that out."],
+       ["A", "If members reject the deal, the union would be required to give seventy-two hours’ notice before any strike action."]
+      ],
+      "qs": [
+       {"q": "What is the main news?", "o": ["Transit workers went on strike at midnight.", "A strike was avoided by a last-minute provisional deal.", "Union members voted to approve a new four-year contract last night.", "The transit authority cancelled some bus routes."], "a": 1, "t": "main", "ev": "reached a tentative agreement with the regional transit authority", "x": "A tentative deal was reached hours before the strike deadline, so service continues. Members have not voted yet; the ratification vote is next week."},
+       {"q": "According to Mwangi, what was the members’ main concern?", "o": ["Wage increases that matched inflation", "The hiring of sixty additional mechanics", "Being required to work excessive extra hours", "Losing their jobs to private outside contractors"], "a": 2, "t": "inference", "ev": "what our members kept telling us was that they were exhausted", "x": "Members were exhausted from being called in on days off, so mandatory overtime was the key issue. Wages “mattered, of course”, but were not the main point; the hiring plan came from the authority."},
+       {"q": "How does Mwangi feel about the agreement?", "o": ["He thinks members should reject it.", "He believes it meets every one of the union’s original demands.", "He is disappointed with the wage increases.", "He sees it as meaningful progress, though incomplete."], "a": 3, "t": "attitude", "ev": "I won’t say it’s everything we asked for, but it’s a real step.", "x": "He admits it is not everything they wanted but calls it “a real step”. That rules out the claim that it meets every demand."},
+       {"q": "What will the transit authority do to reduce overtime?", "o": ["Recruit more maintenance staff", "Reduce the number of bus routes", "Pay higher overtime rates", "Limit service on weekends"], "a": 0, "t": "paraphrase", "ev": "It also announced plans to hire sixty additional mechanics over the next eighteen months", "x": "Hiring sixty more mechanics should reduce the need for overtime. No route or service cuts are announced."},
+       {"q": "What does the business association suggest?", "o": ["The deal will lead to another strike.", "The authority should hire private mechanics.", "Riders will see service cuts next year.", "Passengers may end up paying more."], "a": 3, "t": "paraphrase", "ev": "warned that fare increases could follow", "x": "Higher operating costs could lead to higher fares for passengers. The association does not mention strikes or service cuts."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three managers at a regional credit union are discussing a proposal to change a branch’s opening hours.",
+    "sp": {
+     "A": {"name": "Gwen", "g": "f", "acc": "en-CA", "rate": 1.0},
+     "B": {"name": "Arturo", "g": "m", "acc": "en-US", "rate": 1.02},
+     "C": {"name": "Malik", "g": "m", "acc": "en-GB", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Let’s get started. As you’ve seen from my memo, I’m proposing that we close the Elmvale branch on Saturdays starting in March. We’re averaging about forty transactions on a Saturday morning, compared with almost two hundred on a weekday. Between three staff and the security contract, we’re spending a lot to keep the doors open for very few people."],
+       ["B", "Gwen, I understand the numbers, but I see who those forty people are. A lot of them are older members who don’t bank online, and shift workers from the hospital and the plant who simply can’t get here between nine and five. If we close Saturdays, we’re telling them they don’t matter."],
+       ["A", "I’d hardly put it that way. Nobody’s closing the branch. And we’d move those hours to Thursday evenings, open until seven."],
+       ["B", "Which helps the shift workers on Thursdays, maybe. It doesn’t help someone who works every weekday evening at the plant."],
+       ["C", "Can I add something from the transaction data? I looked at the last three months of Saturdays. About seventy percent of the transactions are simple deposits and withdrawals, things the ATM could handle. But here’s what surprised me: two of our three mortgage appointments last month were on a Saturday."],
+       ["B", "That’s my point exactly. People don’t want to take time off work to talk about the biggest purchase of their lives. Those mortgages are worth far more than the cost of opening on Saturdays."],
+       ["A", "That’s a fair point. I hadn’t looked at the mortgages separately."],
+       ["C", "So maybe the question isn’t open or closed. What if Saturdays became appointment-only? Mortgages, financial advice, opening accounts. No regular teller service. We’d need one advisor and one other staff member instead of three, and the security company says they can do a reduced contract for that."],
+       ["A", "Hmm. That’s more interesting. It keeps the valuable business and cuts most of the cost."],
+       ["B", "I could live with that, but not overnight. If our older members show up one Saturday and there’s no teller, they’ll be furious, and some of them will move their savings to the bank across the street. I’d want a teller to stay on for a transition period, say until the end of May, while people get used to the change."],
+       ["A", "That adds cost."],
+       ["B", "It does. But losing members costs more."],
+       ["A", "Three months. Not longer."],
+       ["B", "Agreed."],
+       ["C", "And during those months, we could run short workshops on Saturday mornings showing members how to use the ATM and the mobile app. I’ve done them at the Riverside branch, and they filled up every time."],
+       ["A", "I like that. All right, let me summarize. Starting in March, Saturday mornings at Elmvale become appointment-only for mortgages and advice. One teller stays until the end of May. Thursday hours extend to seven. And Malik runs digital banking workshops on Saturdays during the transition. We’ll send a letter to every Elmvale member at least thirty days before the change."],
+       ["B", "That’s not where I started, but I can stand behind it."]
+      ],
+      "qs": [
+       {"q": "Why does Gwen propose closing the branch on Saturdays?", "o": ["The branch has too few staff to open on weekends.", "Members have asked for longer weekday hours instead.", "The security company has raised its prices.", "Saturday costs are high compared with the activity."], "a": 3, "t": "main", "ev": "we’re spending a lot to keep the doors open for very few people", "x": "Saturday mornings bring about forty transactions but require three staff and security, so costs are high for little activity. Nobody says members asked for Thursday evenings."},
+       {"q": "What is Arturo’s first objection?", "o": ["Weekday evening hours would be too expensive.", "Some members cannot visit at other times.", "Mortgage appointments are only booked on Saturdays.", "Staff would lose their Saturday wages."], "a": 1, "t": "inference", "ev": "shift workers from the hospital and the plant who simply can’t get here between nine and five", "x": "He points to older members and shift workers who cannot come during weekday hours. Mortgages come up later, and only two of three were on Saturday."},
+       {"q": "How does Gwen react to Arturo’s claim that closing would tell members they don’t matter?", "o": ["She agrees and withdraws her proposal.", "She asks Malik to check the figures.", "She feels he is exaggerating the effect.", "She says the decision has already been made."], "a": 2, "t": "attitude", "ev": "I’d hardly put it that way.", "x": "“I’d hardly put it that way” rejects his dramatic description; she adds that the branch is not closing. She does not withdraw anything at this point."},
+       {"q": "What did Malik find surprising in the data?", "o": ["Weekend visits included major loan meetings.", "Most Saturday transactions required a teller.", "Older members preferred using the ATM.", "Thursday evenings were already busy."], "a": 0, "t": "detail", "ev": "two of our three mortgage appointments last month were on a Saturday", "x": "Two of three mortgage appointments were on Saturdays. He found that 70% of transactions could be handled by the ATM, the opposite of needing a teller."},
+       {"q": "What does Gwen admit after hearing about the mortgages?", "o": ["She had underestimated how many members bank online.", "She had not considered that type of business on its own.", "She thinks mortgages should only be handled on weekdays.", "She believes Arturo’s figures are out of date."], "a": 1, "t": "detail", "ev": "I hadn’t looked at the mortgages separately.", "x": "She admits she had not looked at mortgages separately from other transactions. She calls it “a fair point”, so she does not question the figures."},
+       {"q": "Why does Arturo want a teller to stay temporarily?", "o": ["The security contract requires at least two staff.", "Mortgage clients need a teller to sign documents.", "The ATM cannot handle large withdrawals.", "Sudden changes might drive members to a competitor."], "a": 3, "t": "inference", "ev": "some of them will move their savings to the bank across the street", "x": "He fears that upset older members would move their savings to another bank. Security staffing and document signing are not mentioned as reasons."},
+       {"q": "What is Gwen’s attitude to the transition period?", "o": ["She rejects it because of the extra cost.", "She wants it to last until the end of the year.", "She accepts it, but only for a limited time.", "She leaves the decision to Arturo."], "a": 2, "t": "attitude", "ev": "Three months. Not longer.", "x": "She points out the cost but agrees, firmly limiting it to three months. She does not reject it or extend it."},
+       {"q": "How does Arturo feel about the final decision?", "o": ["He supports it, although it differs from his original view.", "He accepts it only because he was outvoted.", "He thinks it should begin before March.", "He still plans to ask head office for a much longer transition later."], "a": 0, "t": "attitude", "ev": "That’s not where I started, but I can stand behind it.", "x": "He has moved from his starting position but will support the plan. There was no vote, and he already agreed to the three-month limit."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about a change in the way some Canadians retire.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "m", "acc": "en-CA", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "For most of the last century, retirement was a single event: a worker received a cake and a farewell card on a Friday afternoon and did not come back on Monday. That model is quietly changing. A growing number of Canadian employers now offer what is known as phased retirement, allowing older employees to reduce their hours gradually over several years rather than stopping all at once."],
+       ["A", "Supporters say the arrangement benefits everyone. Dr. Ottilie Brandt, who studies aging and work at a western university, says that abrupt retirement can be hard on people’s health. In her research, workers who moved from full-time work to nothing often reported a sharp loss of routine and social contact in their first year, while those who stepped down gradually adjusted far more easily. She also points out that many people simply cannot afford to stop working at sixty-five, and that part-time work allows them to keep earning while their pensions grow."],
+       ["A", "Employers have their own reasons. Vincent Leblanc, the human resources director at a manufacturing company that introduced phased retirement four years ago, says the main benefit is knowledge transfer. Before the program, experienced machinists would retire with a few weeks’ notice, and their expertise would leave with them. Now, retiring employees spend their final two years working three days a week and pairing with younger staff. Leblanc admits the program was difficult to schedule at first, and that some supervisors resisted it, but says it has reduced costly production errors."],
+       ["A", "Not everyone is convinced. Some younger workers worry that older colleagues who stay on part-time are blocking promotions. Joyce Pemberton, a thirty-four-year-old engineer, says she supports the idea in principle, but at her company, senior employees who moved to part-time kept their titles and their decision-making authority, while the younger people who absorbed their extra work received neither. In her view, phased retirement only works if the responsibilities are actually handed over, not just the hours."],
+       ["A", "There are also financial complications. In some pension plans, benefits are calculated on a worker’s final years of salary, so reducing hours near the end of a career can permanently lower a person’s pension. Brandt says many employers have not updated their plans to deal with this, and she advises anyone considering phased retirement to get independent financial advice before signing anything."],
+       ["A", "With the number of Canadians over sixty-five expected to keep rising for at least the next decade, the question is likely to become more pressing. For now, phased retirement remains the exception rather than the rule."]
+      ],
+      "qs": [
+       {"q": "What is the report mainly about?", "o": ["The health problems that affect older workers", "The rising cost of pensions for employers", "A more gradual approach to leaving work", "Laws that raise the age of retirement"], "a": 2, "t": "main", "ev": "allowing older employees to reduce their hours gradually over several years rather than stopping all at once", "x": "The report examines phased retirement, in which people reduce their hours step by step. Health is only one of the arguments discussed, and no law is mentioned."},
+       {"q": "According to Brandt, what did her research show?", "o": ["Gradual retirement made the adjustment easier.", "Most workers want to retire before sixty-five.", "Part-time work damages workers’ pensions.", "Older workers are less productive full-time."], "a": 0, "t": "paraphrase", "ev": "those who stepped down gradually adjusted far more easily", "x": "Workers who stepped down gradually adjusted more easily than those who stopped suddenly. The pension problem is a separate point and applies only to some plans."},
+       {"q": "What is the main benefit for Leblanc’s company?", "o": ["Lower salary costs for its experienced machinists", "Easier scheduling for supervisors", "Fewer employees retiring early", "Skills being passed on before people leave"], "a": 3, "t": "paraphrase", "ev": "says the main benefit is knowledge transfer", "x": "Retiring machinists pair with younger staff, so their expertise stays in the company. Scheduling was actually a difficulty, not a benefit."},
+       {"q": "What does Leblanc admit?", "o": ["The program has increased production errors.", "The program faced early practical problems.", "Younger workers have refused to take part.", "Retiring employees work fewer than three days."], "a": 1, "t": "detail", "ev": "Leblanc admits the program was difficult to schedule at first", "x": "He admits early scheduling difficulties and some resistance from supervisors. The program reduced production errors rather than increasing them."},
+       {"q": "What is Pemberton’s view of phased retirement?", "o": ["She opposes phased retirement completely.", "She believes older employees should retire earlier.", "She supports it if authority is transferred too.", "She wants younger staff to receive higher titles."], "a": 2, "t": "viewpoint", "ev": "phased retirement only works if the responsibilities are actually handed over, not just the hours", "x": "She supports it in principle but only if responsibilities move along with the hours. She criticizes how it was done, not the idea itself."},
+       {"q": "Why does Brandt recommend independent financial advice?", "o": ["Reduced hours could permanently shrink some pensions.", "Employers often pay advisers to promote the program.", "Part-time workers lose their health benefits.", "Pension plans do not allow part-time work."], "a": 0, "t": "inference", "ev": "reducing hours near the end of a career can permanently lower a person’s pension", "x": "Pensions based on final salary can be permanently reduced by working fewer hours. Health benefits and advisers paid by employers are never mentioned."}
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Delphine Arsenault  |  To: Kaveh Rostami  |  Subject: A proposal (and coffee?)",
+   "text": "Hi Kaveh,\n\nIt’s been far too long! I still think of our Friday lunches at Mendel & Pryce whenever I walk past that awful food court. I hope the new job at the hospital is treating you well, and that you’re no longer doing the payroll for six hundred people by yourself.\n\nI have some news, and a proposal. As you may have heard, I left Mendel & Pryce last spring to start my own bookkeeping practice. I was terrified for the first three months, but it has grown faster than I ever expected. I now have twenty-two clients, mostly small businesses: two restaurants, a dental clinic, a couple of contractors and a very disorganized yoga studio. Most of them came through word of mouth, which means I can’t really advertise without being swamped.\n\nThat’s where you come in. I need someone I trust to take on six to eight clients, and you are the most careful person I have ever worked with. I’m thinking of roughly fifteen hours a week, done mostly from home, with a meeting at my office every second Monday. I could pay forty-five dollars an hour to start, and more once we see how things go. I know that’s less than an hourly rate at a large firm, but there’s no commute and no dress code, and you’d choose your own hours, apart from the end of each quarter, when tax filings make everyone crazy.\n\nI should be honest about the downsides. Small business owners can be demanding, and some of them think “bookkeeper” means “person who answers my texts at ten at night.” I’ve learned to set boundaries, but it took a while. Also, since I’m still building the business, I can’t offer benefits yet.\n\nI understand completely if your hospital contract doesn’t allow outside work, or if you simply want your evenings back. But I remember you saying you’d love to work with small businesses one day, so I thought I’d ask before advertising the position anywhere else.\n\nWould you be free for coffee sometime in the next two weeks? I’ll buy, and I promise it won’t be the food court.\n\nWarmly,\nDelphine",
+   "qs": [
+    {"q": "Why does Delphine say she cannot advertise her business?", "o": ["Her former employer would object.", "She would get more clients than she can handle.", "Her clients prefer to remain private.", "Advertising is too expensive for a new business."], "a": 1, "t": "inference", "ev": "I can’t really advertise without being swamped", "x": "“Swamped” means overwhelmed with work; she already has more clients than she can manage through word of mouth alone. Cost and her former employer are not mentioned."},
+    {"q": "What does Delphine say about Kaveh?", "o": ["He has more experience with restaurants than she does.", "He once worked for a small bookkeeping practice.", "He handled payroll for small businesses at the hospital.", "He is extremely precise in his work."], "a": 3, "t": "paraphrase", "ev": "you are the most careful person I have ever worked with", "x": "Calling him the most careful person she has worked with means he is very precise. At the hospital he did payroll for six hundred people, not for small businesses."},
+    {"q": "What would Kaveh’s working arrangement be?", "o": ["Mainly remote, with occasional meetings in person", "Mostly at Delphine’s office, with some work at home", "Full-time hours during the tax season only", "Evenings and weekends, at the clients’ businesses"], "a": 0, "t": "paraphrase", "ev": "done mostly from home, with a meeting at my office every second Monday", "x": "He would work mostly from home and meet at her office every other Monday. The end of each quarter is busy, but she does not say it would be full-time."},
+    {"q": "What does Delphine admit about the hourly rate?", "o": ["It will be reduced after the first year.", "It includes the cost of benefits.", "It is lower than a large firm might pay.", "It is higher than she pays herself."], "a": 2, "t": "paraphrase", "ev": "I know that’s less than an hourly rate at a large firm", "x": "She acknowledges that $45 an hour is less than a big firm would pay. She says it would increase over time, and she cannot offer benefits yet."},
+    {"q": "What does Delphine suggest about some small business owners?", "o": ["They often pay their bills late.", "They expect help outside normal hours.", "They prefer to meet in person.", "They rarely keep their records organized."], "a": 1, "t": "inference", "ev": "person who answers my texts at ten at night", "x": "Some clients expect their bookkeeper to answer texts late at night. Only one client, the yoga studio, is described as disorganized."},
+    {"q": "Why does Delphine think Kaveh might be interested?", "o": ["He has complained about his hospital contract.", "He wants to earn more than he does now.", "He has asked her about part-time work several times before.", "He once mentioned an interest in this kind of work."], "a": 3, "t": "inference", "ev": "I remember you saying you’d love to work with small businesses one day", "x": "She remembers him saying he would like to work with small businesses. She only wonders whether his hospital contract allows outside work; he never complained about it."}
+   ],
+   "reply": {
+    "intro": "Here is Kaveh’s response to Delphine. Complete the response by choosing the best option for each blank.",
+    "text": "Hi Delphine,\n\nWhat a lovely surprise! Congratulations on the business. Twenty-two clients in less than a year is impressive, especially since they all {1}.\n\nI’m definitely interested. I checked my hospital contract, and outside work is allowed, so that isn’t a problem. Fifteen hours a week sounds about right, and I really like that I could {2} most of the time. The {3} isn’t an issue either, since I already have coverage through the hospital.\n\nMy only real concern is {4}, because that’s also when the hospital closes its books and I work late. Perhaps we could plan my client load around those weeks.\n\nAs for the late-night texts, I’m happy to {5} from the start, just as you eventually did.\n\nCoffee would be wonderful. How about next Saturday morning? And I agree: anywhere but the food court.\n\nKaveh",
+    "blanks": [
+     {"o": ["found you online", "came through recommendations", "used to work with Mendel & Pryce", "needed help with taxes"], "a": 1, "t": "paraphrase", "ev": "Most of them came through word of mouth", "x": "Word of mouth means personal recommendations. She does not advertise, so clients did not find her online."},
+     {"o": ["set my own schedule", "work at your office", "meet clients in person", "avoid quarter-end work"], "a": 0, "t": "paraphrase", "ev": "you’d choose your own hours", "x": "Delphine says he would choose his own hours except at quarter-end. Work is mostly from home, not at her office."},
+     {"o": ["starting hourly rate", "long commute", "lack of benefits", "Monday meeting"], "a": 2, "t": "inference", "ev": "I can’t offer benefits yet", "x": "Having “coverage through the hospital” only answers the problem of no benefits. There is no commute, since he would work from home."},
+     {"o": ["the Monday meetings", "the very disorganized yoga studio", "the dress code", "the end of each quarter"], "a": 3, "t": "detail", "ev": "apart from the end of each quarter, when tax filings make everyone crazy", "x": "Quarter-end is when tax filings make Delphine’s work busy, and it clashes with the hospital closing its books. The yoga studio is a client, not a time period."},
+     {"o": ["answer them quickly", "set clear limits", "charge extra for them", "forward them to you"], "a": 1, "t": "inference", "ev": "I’ve learned to set boundaries, but it took a while.", "x": "Delphine learned to set boundaries slowly; Kaveh will do it from the start. Answering quickly is exactly what the demanding clients expect."}
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "The Loom Collective – Co-working Membership Plans",
+    "intro": "Open to freelancers, start-ups and small teams. All plans include high-speed Wi-Fi, printing (100 pages/month) and unlimited coffee. Prices are per person per month unless stated.",
+    "table": {
+     "cols": ["Plan", "Price", "Workspace", "Access hours", "Meeting credits per month"],
+     "rows": [
+      ["Day Pass", "$30 per day", "Any open desk", "8 a.m.–6 p.m.", "None"],
+      ["Flex 8", "$180", "Any open desk, up to 8 days per month", "8 a.m.–6 p.m.", "2"],
+      ["Flex Unlimited", "$290", "Any open desk, every day", "24/7", "4"],
+      ["Dedicated Desk", "$420", "Your own desk and a locked drawer", "24/7", "6"],
+      ["Private Office (2 people)", "$950 per office", "Lockable office for two", "24/7", "10"]
+     ]
+    },
+    "cards": [
+     {"h": "Meeting rooms", "lines": ["Small room (up to 4 people): 1 credit per hour", "Boardroom (up to 12 people): 2 credits per hour", "Extra credits: $25 each. Unused credits do not carry over to the next month."]},
+     {"h": "Add-ons", "lines": ["Business mailing address: $35/month (included with Dedicated Desk and Private Office)", "Locker: $20/month", "Parking: $90/month, limited spaces"]}
+    ],
+    "notes": [
+     "Annual plan (Flex Unlimited, Dedicated Desk and Private Office only): pay for 10 months and receive 12 months of membership.",
+     "Members on Flex plans may bring one guest per day free of charge; additional guests pay the Day Pass rate.",
+     "Plans can be upgraded at any time but may only be downgraded after a 3-month minimum term.",
+     "Day Pass holders may book meeting rooms at $25 per credit."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email from a small business owner to his business partner. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Mireille,\n\nI toured The Loom Collective yesterday, and I think it could work for us. Since we both work there almost every day, Flex 8 wouldn’t be enough, so it’s between two Flex Unlimited memberships and the Private Office. Two Flex Unlimited plans would cost {1} a month, and we’d still have to pay extra for a mailing address, which the Private Office includes.\n\nWe also need to think about client meetings. We usually meet clients twice a month for about two hours, and since there are often six or seven people, we’d need {2}. That uses {3} credits a month, which the Private Office would easily cover.\n\nIf we choose the Private Office and pay for the year up front, it works out to {4} in total. That’s a big payment all at once, but it saves us almost two thousand dollars.\n\nOne warning: if we start with the Private Office and it turns out to be too much, we can’t {5} until three months have passed, so let’s choose carefully.\n\nTalk tomorrow,\nTobias",
+    "blanks": [
+     {"o": ["$290", "$580", "$650", "$950"], "a": 1, "t": "diagram", "ev": "$290", "x": "Prices are per person, so two Flex Unlimited plans cost 2 × $290 = $580. $650 would add two mailing addresses, which they would not need."},
+     {"o": ["a small room", "two small rooms", "a private office", "the boardroom"], "a": 3, "t": "diagram", "ev": "Boardroom (up to 12 people): 2 credits per hour", "x": "Six or seven people is too many for a small room (up to 4), so they need the boardroom."},
+     {"o": ["8", "4", "6", "10"], "a": 0, "t": "diagram", "ev": "Boardroom (up to 12 people): 2 credits per hour", "x": "Two meetings × 2 hours × 2 credits per hour = 8 credits, within the Private Office’s 10. 4 forgets that the boardroom costs 2 credits per hour."},
+     {"o": ["$11,400", "$10,450", "$9,500", "$7,600"], "a": 2, "t": "diagram", "ev": "pay for 10 months and receive 12 months of membership", "x": "10 × $950 = $9,500, saving $1,900 compared with 12 monthly payments of $950 ($11,400)."},
+     {"o": ["upgrade our plan", "move to a cheaper plan", "add a parking space", "bring in guests"], "a": 1, "t": "diagram", "ev": "may only be downgraded after a 3-month minimum term", "x": "Downgrading is allowed only after three months. Upgrading is possible at any time, so it would not be a problem."}
+    ]
+   },
+   "qs": [
+    {"q": "A Flex 8 member brings three guests on the same day. How much extra must she pay?", "o": ["$90", "$30", "$0", "$60"], "a": 3, "t": "diagram", "ev": "Members on Flex plans may bring one guest per day free of charge; additional guests pay the Day Pass rate.", "x": "The first guest is free and the other two pay $30 each: $60. $90 forgets the free guest."},
+    {"q": "A Dedicated Desk member books the boardroom for 4 hours in one month and makes no other bookings. How much extra does she pay?", "o": ["$50", "$0", "$100", "$200"], "a": 0, "t": "diagram", "ev": "Extra credits: $25 each.", "x": "4 hours × 2 credits = 8 credits. The plan includes 6, so 2 extra credits × $25 = $50. $0 wrongly counts one credit per hour."},
+    {"q": "A freelancer needs a desk about 12 days a month and a business mailing address. Which is the cheapest choice?", "o": ["Flex 8 plus four Day Passes and the mailing address", "Day Passes for every visit plus the mailing address", "Flex Unlimited with the mailing address add-on", "Dedicated Desk, which includes the mailing address"], "a": 2, "t": "diagram", "ev": "Business mailing address: $35/month (included with Dedicated Desk and Private Office)", "x": "Flex Unlimited + address = $325. Flex 8 + four Day Passes + address = $335; 12 Day Passes + address = $395; Dedicated Desk = $420."}
+   ]
+  },
+  "p3": {
+   "title": "Working While the City Sleeps",
+   "paras": [
+    "Roughly one in ten Canadian workers regularly works evenings, nights or rotating shifts. They include nurses, truck drivers, police officers, bakers and the cleaners who prepare office towers before anyone else arrives. For much of the twentieth century, night work was concentrated in factories that ran machinery around the clock because shutting it down was expensive. Today, the growth is mostly in services. Online shopping has created warehouses that operate through the night so that orders placed after dinner can be delivered the next day, and customer service centres increasingly answer calls at all hours from clients in other time zones. As a result, night work is no longer limited to a few industries; it touches almost every part of the economy.",
+    "The health effects of working against the body’s internal clock are well documented. Human beings are programmed to be alert during daylight and to sleep in darkness, and people who regularly work at night tend to sleep one to four hours less per day than day workers. Daytime sleep is lighter and more easily interrupted by traffic, children and sunlight. Over time, this chronic shortage has been linked to digestive problems, weight gain and a higher risk of heart disease. Researchers emphasize, however, that the effects vary greatly from person to person. So-called “night owls”, whose natural rhythm already runs late, tend to cope far better than early risers, which suggests that matching shifts to individual preferences could reduce some of the harm.",
+    "Despite these risks, a surprising number of night workers say they prefer it. In interviews, many describe a calmer atmosphere, with fewer managers present and more freedom to organize their own work. Parents sometimes choose night shifts so that one partner is always at home with the children, avoiding the cost of daycare. Others value the premium pay that many employers offer for overnight hours, which can add several dollars an hour to a wage. Some simply enjoy the sense of belonging that develops among a small crew working while everyone else is asleep. For these workers, the question is not whether night work is ideal, but whether its advantages outweigh its costs.",
+    "Employers can do a great deal to reduce the harm. Experts recommend that rotating schedules move forward, from day to evening to night, rather than backward, because the body adjusts more easily to later bedtimes than to earlier ones. Bright lighting during the shift and quiet, dark rest areas can also help. Some hospitals now allow nurses to take short scheduled naps during long night shifts, a practice once regarded as unprofessional. Perhaps most importantly, workers need predictable schedules. Studies suggest that knowing one’s shifts several weeks in advance allows people to plan sleep, meals and family time, which matters as much as the number of night shifts worked."
+   ],
+   "qs": [
+    {"q": "Most of the recent growth in night work has come from services rather than manufacturing.", "a": "A", "t": "paraphrase", "ev": "Today, the growth is mostly in services.", "x": "Paragraph A: night work used to be concentrated in factories, but today the growth is mostly in services."},
+    {"q": "People who work nights often get considerably less sleep than day workers.", "a": "B", "t": "paraphrase", "ev": "tend to sleep one to four hours less per day than day workers", "x": "Paragraph B: night workers sleep one to four hours less per day."},
+    {"q": "Working at night can help some families save on childcare.", "a": "C", "t": "paraphrase", "ev": "avoiding the cost of daycare", "x": "Paragraph C: some parents work nights so one partner is always home, avoiding daycare costs."},
+    {"q": "Night workers are twice as likely as day workers to develop heart disease.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph B links night work to a higher risk of heart disease but gives no figure such as “twice as likely”."},
+    {"q": "Schedules that rotate toward later hours are easier for the body to handle.", "a": "D", "t": "paraphrase", "ev": "because the body adjusts more easily to later bedtimes than to earlier ones", "x": "Paragraph D: rotations should move forward because the body adapts more easily to later bedtimes."},
+    {"q": "A person’s natural sleep pattern can affect how well they cope with night shifts.", "a": "B", "t": "inference", "ev": "whose natural rhythm already runs late, tend to cope far better than early risers", "x": "Paragraph B: “night owls” cope far better than early risers."},
+    {"q": "Some night workers appreciate having less supervision.", "a": "C", "t": "paraphrase", "ev": "with fewer managers present and more freedom to organize their own work", "x": "Paragraph C: fewer managers and more freedom are among the reasons workers give for preferring nights."},
+    {"q": "Most night workers would move to day shifts if they were offered the same pay.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph C discusses premium pay and why some prefer nights, but no paragraph says what most night workers would choose at equal pay."},
+    {"q": "Resting during a shift was once considered inappropriate in some workplaces.", "a": "D", "t": "paraphrase", "ev": "a practice once regarded as unprofessional", "x": "Paragraph D: scheduled naps for nurses were once regarded as unprofessional."}
+   ]
+  },
+  "p4": {
+   "title": "Unlimited Vacation Is a Clever Trap",
+   "byline": "Opinion | by Callum Reyes, management consultant",
+   "text": "When a technology company I advised announced that it was replacing its three-week vacation allowance with “unlimited” paid time off, the reaction in the office was close to euphoric. Employees imagined month-long trips and long weekends whenever they liked. A year later, the company’s own data told a different story: the average employee had taken eleven days off, down from fourteen under the old system.\n\nThat result is not unusual. Unlimited vacation policies have spread rapidly, particularly among technology firms and start-ups, and they are usually presented as proof that an employer trusts its staff. I have helped several companies introduce them, and I have come to believe that, in most cases, they quietly work against the people they claim to benefit.\n\nThe first problem is ambiguity. When employees have a fixed number of days, they know exactly what they are entitled to, and taking those days requires no justification. When the number is unlimited, every request becomes a judgement call. How much is too much? What will my manager think? Faced with that uncertainty, most people play it safe and take less, especially those who are new, ambitious or worried about layoffs.\n\nThe second problem is social. In many workplaces, vacation habits are set by the most visible people: senior managers and high performers. If they rarely take time off, everyone else notices. Under a fixed system, an employee who takes all fifteen days is simply using what is theirs. Under an unlimited system, the same employee may feel they are taking more than their colleagues, and that perception can follow them into performance reviews.\n\nThe third problem is financial, and it is the one companies rarely mention. In most provinces, earned but unused vacation is a liability that must be paid out when an employee leaves. If vacation is unlimited, nothing is formally earned, so there is nothing to pay out. For a company with high turnover, the savings can be considerable. I do not believe most employers adopt these policies purely to save money, but it would be naive to pretend the benefit goes unnoticed.\n\nNone of this means unlimited vacation can never work. I have seen it succeed in a handful of organizations, and they had two things in common. First, they set a minimum rather than a maximum: every employee was expected to take at least four weeks, and managers were evaluated partly on whether their teams did. Second, senior leaders publicly took long holidays and talked about them, making it clear that rest was not a sign of weak commitment.\n\nWithout those safeguards, I would advise employers to keep a clear, generous allowance instead. Four or five weeks, stated plainly, will do more for employees’ well-being than an unlimited promise that few dare to test. And if a company truly trusts its staff, it can still offer flexibility on top of that: extra days for special circumstances, or the option to carry unused days into the following year.\n\nEmployees considering a job offer with unlimited vacation should ask a simple question: how many days did people on this team actually take last year? The answer will tell them far more than the policy itself.",
+   "qs": [
+    {"q": "Why does the writer describe the technology company’s experience?", "o": ["To show that employees misused their new freedom", "To explain why the company returned to fixed vacation", "To illustrate that the policy led to less time off", "To prove that the company wanted to save money"], "a": 2, "t": "purpose", "ev": "the average employee had taken eleven days off, down from fourteen under the old system", "x": "Despite excitement, employees took fewer days than before. The writer never says the company went back to a fixed allowance, and he rejects saving money as the main motive."},
+    {"q": "According to the writer, why do employees take less time off under unlimited policies?", "o": ["Their workloads increase when colleagues are away.", "Unclear expectations make them cautious.", "Managers usually refuse their requests.", "They prefer to receive payment instead."], "a": 1, "t": "paraphrase", "ev": "Faced with that uncertainty, most people play it safe and take less", "x": "Without a clear number, employees are unsure what is acceptable and play it safe. Managers refusing requests is not mentioned; employees worry about what managers will think."},
+    {"q": "What does the writer suggest about the financial motive?", "o": ["It is the main reason companies adopt the policy.", "It mostly benefits employees who leave the company.", "It applies only to companies in certain provinces.", "It is real, even if it is not usually the main goal."], "a": 3, "t": "inference", "ev": "I do not believe most employers adopt these policies purely to save money, but it would be naive to pretend the benefit goes unnoticed.", "x": "He doubts money is the main reason but says employers certainly notice the savings. Departing employees actually lose the payout, so they do not benefit."},
+    {"q": "What did the successful organizations have in common?", "o": ["They required staff to take a certain amount of leave.", "They limited vacation to four weeks for managers.", "They offered extra pay for unused vacation days.", "They allowed only senior leaders to take long holidays."], "a": 0, "t": "paraphrase", "ev": "they set a minimum rather than a maximum", "x": "Every employee was expected to take at least four weeks. Four weeks was a minimum, not a limit, and leaders took long holidays to set an example, not exclusively."},
+    {"q": "What is the writer’s advice to job seekers?", "o": ["Refuse any offer that includes unlimited vacation", "Find out how much leave the team really used", "Ask to carry unused days into the following year", "Negotiate a minimum of five weeks’ vacation"], "a": 1, "t": "detail", "ev": "how many days did people on this team actually take last year?", "x": "He tells candidates to ask how many days the team actually took. Carrying days over is a suggestion for employers, not for job seekers."}
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I work at a software company with unlimited vacation, and this article describes my first year almost exactly. I took nine days because I had no idea what was {1}, and nobody wanted to be the first to ask. The writer is also right that people watch {2}; when our director finally took three weeks in Portugal, vacation requests suddenly doubled.\n\nWhere I disagree is the financial argument. Our company pays more than its competitors, and the vacation payout for {3} would be tiny compared with what it spends on salaries. I really don’t think money is the motive here.\n\nI also think the writer underestimates how much depends on {4}. My second manager simply asked everyone in January to block off their holidays for the year, and the problem disappeared.\n\nStill, I like the idea of a {5}. If it had existed when I started, I would not have spent my first year so tired.",
+    "blanks": [
+     {"o": ["considered acceptable", "included in my salary", "written in my contract", "paid out at the end"], "a": 0, "t": "paraphrase", "ev": "every request becomes a judgement call", "x": "Under an unlimited policy, employees do not know how much is acceptable. Nothing is written in a contract, which is exactly the problem."},
+     {"o": ["their colleagues’ salaries", "the company’s profits", "new employees", "their leaders’ habits"], "a": 3, "t": "paraphrase", "ev": "vacation habits are set by the most visible people: senior managers and high performers", "x": "When the director took three weeks, others followed – staff watch what leaders do. New employees are the cautious ones, not the ones being watched."},
+     {"o": ["new hires", "departing employees", "the most senior managers", "part-time staff"], "a": 1, "t": "detail", "ev": "earned but unused vacation is a liability that must be paid out when an employee leaves", "x": "Unused vacation is paid out when someone leaves, so the payout concerns departing employees."},
+     {"o": ["the provincial rules", "the company’s turnover", "individual managers", "the length of the policy"], "a": 2, "t": "coherence", "ev": "My second manager simply asked everyone in January to block off their holidays", "x": "The reader’s example shows one manager solving the problem, so outcomes depend on individual managers. Turnover is part of the financial argument he rejects."},
+     {"o": ["required minimum", "larger maximum", "annual payout", "shorter workweek"], "a": 0, "t": "inference", "ev": "they set a minimum rather than a maximum", "x": "A required minimum would have pushed him to rest in his first year. The writer explicitly rejects relying on a maximum."}
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Your employer requires you to hold a workplace first-aid certificate by the end of the month. You paid $180 for a two-day certification course with a private training company. On the second day, the course was cancelled halfway through because the instructor became ill, and you have not received a certificate or any information since then.",
+   "bullets": [
+    "Describe what happened during the course",
+    "Explain why the situation is a problem for you",
+    "Say what you would like the training company to do"
+   ],
+   "model": "Dear Customer Service Team,\n\nI am writing about the Standard First Aid course I attended at your Kingsway location on October 18 and 19. The first day went smoothly, but at around noon on the second day, the instructor became ill and the session was cancelled. We were told that someone would contact us within a few days to reschedule, but it has now been almost two weeks and I have heard nothing.\n\nThis is a serious problem for me. My employer requires all warehouse supervisors to hold a valid first-aid certificate by October 31, and without it I may be temporarily removed from my supervisory duties. I paid $180 for the course and completed more than three quarters of it, including all of the CPR practice.\n\nI would therefore ask you to arrange for me to complete the remaining half-day before the end of the month, ideally on a weekday evening or Saturday. If that is not possible, I would expect a full refund so that I can register with another provider immediately.\n\nI look forward to your prompt reply.\n\nSincerely,\nNathan Okoro"
+  },
+  "t2": {
+   "intro": "Your employer wants to support employees who are parents of young children. It has enough money for only one of the following options.",
+   "question": "Which option do you prefer?",
+   "a": "Reserve ten spaces at a licensed daycare centre near the office, with the company paying 40% of the fees for employees who use them.",
+   "b": "Allow all employees to choose their own start time between 7:00 and 10:00 a.m., as long as they work their full hours.",
+   "model": "Although I can see the value of the daycare spaces, I would choose Option B, flexible start times, because it would help far more people, including parents.\n\nFirst, ten daycare spaces would only benefit ten families, and there would almost certainly be more parents who want them than spaces available. That could create resentment, especially if people felt the spaces were given out unfairly. Flexible start times, by contrast, would be available to everyone on the same terms.\n\nSecond, many parents in our office already have childcare arranged, whether through a grandparent, a school program or a daycare near home. What they struggle with is timing: dropping children off at eight and still reaching the office by nine. Being able to start at ten, or to start at seven and leave early for school pick-up, would solve that problem without changing their existing arrangements.\n\nFinally, flexibility helps employees without children too, such as people caring for elderly parents or attending evening classes.\n\nThat said, the daycare option is generous, and it might suit a workplace with many new parents. For ours, however, flexible hours would be the fairer and more useful choice."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend has worked at the same company for three years and has not received a raise, even though their responsibilities have grown a lot. Your friend wants to ask for a raise but is very nervous. What advice would you give your friend?",
+   "model": "I totally understand why you’re nervous, but honestly, after three years and all the extra work you’ve taken on, you have every right to ask. Here’s how I’d prepare. First, make a list of everything you’ve added to your job since you were hired. You told me you’re training new staff now and handling the supplier accounts, right? Put that in writing, and add any results you can measure, like money saved or problems solved. Second, do a bit of research on what people in similar roles earn. There are salary surveys online, and you could even ask a recruiter. That way you can suggest a specific number instead of just saying “I’d like more.” Third, think about timing. Don’t bring it up on a stressful Monday morning. Ask your manager for a short meeting, ideally after you’ve finished a successful project. During the conversation, stay calm and focus on your contributions, not on what other people earn. And if they say there’s no budget right now, ask what you’d need to achieve to get a raise in six months, and ask them to put that in writing. Whatever happens, you’ll have shown them you take your career seriously."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you had to work with someone who was difficult to get along with. What happened, and how did you deal with it?",
+   "model": "A few years ago, I was assigned to plan a client event with a colleague named Gary, who had a reputation for being difficult. In our first meeting, he rejected almost every idea I had and kept interrupting me. I went home really frustrated. But instead of complaining to our manager, I asked Gary if we could grab a coffee. I told him I wanted the event to succeed and asked what he thought had gone wrong with past events. It turned out he’d organized one the year before that went badly, and he’d been blamed for it, so he was extremely cautious. Once I understood that, we divided the tasks clearly, and I kept him updated every few days. The event went really well, and we actually became good friends. It taught me that difficult behaviour often has a reason behind it."
+  },
+  "t3": {
+   "scene": {
+    "bg": "street",
+    "alt": "A city street with road work in progress. On the left is a library building and on the right a bagel shop. A yellow city works truck is parked in the road behind two orange cones, and a worker in an orange vest and yellow hard hat is digging with a shovel. On the near sidewalk, another worker in a hard hat waves to a red car waiting behind the cones, next to an orange “SLOW” sign. On the far sidewalk, a woman in a pink dress walks with a stroller, and a man in a green shirt holds a coffee outside the bagel shop. There is a fire hydrant, a street lamp and a bright sun.",
+    "items": [
+     ["sun", 580, 50],
+     ["building", 20, 250, 140, 180, "#d6c7b4", "LIBRARY"],
+     ["shop", 460, 250, 170, "FRESH BAGELS", "#e67e22"],
+     ["person", 330, 285, {"shirt": "#e84393", "pose": "walk", "hairStyle": "long", "hair": "#3b2a1a", "dress": true}],
+     ["stroller", 375, 287],
+     ["person", 530, 287, {"shirt": "#16a085", "hold": "cup", "skin": "#c68642"}],
+     ["car", 90, 350, "#c0392b"],
+     ["cone", 190, 345],
+     ["cone", 260, 345],
+     ["truck", 400, 345, "#f1c40f", "CITY WORKS"],
+     ["person", 225, 350, {"shirt": "#f39c12", "hat": "#f1c40f", "hold": "shovel", "skin": "#8d5524"}],
+     ["sign", 120, 392, "SLOW", "#f39c12"],
+     ["person", 170, 394, {"shirt": "#f39c12", "hat": "#f1c40f", "pose": "wave"}],
+     ["hydrant", 40, 396],
+     ["streetlamp", 600, 396]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a city street where some road work is going on, on what looks like a sunny day. In the middle of the road, there’s a big yellow truck that says “City Works,” and in front of it there are two orange traffic cones. Between the cones, a worker in an orange vest and a yellow hard hat is digging with a shovel, probably fixing something under the road. On the left, a red car has stopped behind the cones, and another worker standing on the sidewalk is waving at the driver, maybe telling him to wait or directing him around the work area. There’s an orange “Slow” sign next to him. In the background, there’s a library on the left and a bagel shop on the right. A woman in a pink dress is pushing a stroller along the far sidewalk, and a man in a green shirt is standing outside the bagel shop holding a coffee."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will probably happen in the next few minutes. First, the worker on the sidewalk will most likely wave the red car forward, and the driver will carefully steer around the cones and the truck, probably going quite slowly because of the sign. If more cars arrive, there might be a short line of traffic, and some drivers could get a bit impatient. Second, the worker who’s digging will probably need help soon, so his colleague might go over to him, or more workers may come out of the truck with equipment. Third, the woman with the stroller is walking toward the bagel shop, so she might stop there to buy something, and the man with the coffee may hold the door open for her. And finally, because the work looks like it’s just getting started, the crew will likely be there for the rest of the day."
+  },
+  "t5": {
+   "intro": "You and your business partner run a small graphic design company with four employees, who currently all work from home. You are looking at options for the future. Choose the option that you prefer. In the next section, you will need to persuade your business partner that your choice is better than the one she prefers.",
+   "options": [
+    {"title": "Shared office space downtown", "details": ["$1,600 per month", "Desks on a shared co-working floor", "Meeting rooms can be booked", "Next to a subway station", "Noisy at busy times"]},
+    {"title": "Private unit in the suburbs", "details": ["$1,300 per month", "Private space for up to 6 people", "Free parking for 8 cars", "25-minute drive from downtown", "3-year lease required"]}
+   ],
+   "other": {"title": "Continue working from home", "details": ["No rent", "Rent meeting rooms when needed ($60 per hour)", "Team meets in person once a month", "No commute for anyone", "Hard to train the new junior designer"]},
+   "otherWho": "Your business partner prefers",
+   "persuade": "Your business partner prefers to continue working from home. Persuade her that your choice is better.",
+   "model": "I know working from home saves money, and nobody misses commuting, but I really think the downtown shared office is the right move for us now. First, think about our new junior designer. We both agreed it’s hard to train someone over video calls. She needs to see how we work, ask quick questions and get feedback on the spot. In a shared office, that happens naturally. Second, we’re already spending more on meeting rooms than you might think. At sixty dollars an hour, just two client meetings a week would cost almost a thousand dollars a month. Downtown, meeting rooms are included, so the real difference is much smaller than sixteen hundred. Third, being right next to the subway means everyone can get there easily, and clients will be impressed when they visit. And unlike the suburban unit, there’s no three-year lease, so if it doesn’t work out, we haven’t locked ourselves in."
+  },
+  "t6": {
+   "situation": "You work for a small moving company owned by your close friend Paolo. Paolo’s younger brother, Dmitri, also works there. Over the past month, you have noticed Dmitri taking long breaks and leaving jobs early while the rest of the crew finishes the work. Other employees have started complaining to you, because they know you are Paolo’s friend.",
+   "options": [
+    "Talk to Paolo and tell him about Dmitri’s behaviour.",
+    "Talk to Dmitri and ask him to change his behaviour."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Dmitri, have you got a minute before we head out? I wanted to talk to you about something, just between us. Over the last few weeks, I’ve noticed you’ve been taking pretty long breaks, and a couple of times you left before we’d finished loading the truck. I’m not trying to get you in trouble, but the rest of the crew has noticed too, and a few of them have come to me about it. They’re tired, and they feel like they’re picking up the slack. I know it’s awkward because it’s your brother’s company, and maybe that’s part of the problem. People are worried that if they complain to Paolo, it’ll cause tension. I’d really rather sort this out with you directly than go to him. Is something going on? If you’re dealing with something at home or with your health, I’m happy to help however I can. But I really need you to pull your weight with the rest of us, okay?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should companies give employees paid time off to volunteer in their communities? Explain your reasons.",
+   "model": "I believe companies should give employees a small amount of paid time off to volunteer, perhaps two or three days a year. My first reason is that it benefits the community in a very practical way. Many charities, sports clubs and shelters depend on volunteers, but working adults often can’t help because their free time is limited to evenings and weekends, which they need for their families. A few paid days would make it possible for people to contribute when organizations actually need them, for example during a weekday food drive or a school event. Secondly, volunteering is good for the company itself. Employees who volunteer together often build stronger relationships than they would at an ordinary team-building activity. A friend of mine works at an engineering firm where teams spend one day a year repairing homes for low-income seniors. She says it’s the day everyone looks forward to, and it’s a big reason she’s stayed there for six years. Some people might argue that volunteering should be completely voluntary and unpaid, and I agree that nobody should be forced to do it. But offering the option costs very little and creates a lot of goodwill. So overall, I think it’s a smart and generous policy."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "An unusual restaurant on a city street. The building has a red sign reading “THE GARAGE GRILL”, and a full-sized blue car sits upside down on its roof, with its wheels pointing at the sky. Colourful balloons are tied beside the front, and a sign on the sidewalk reads “PRIVATE PARTIES”. A woman in a purple dress is taking a photo of the car with a camera, while a man in a grey shirt points up at it. A tree and a street lamp stand nearby, and a cloud floats in the sky.",
+    "items": [
+     ["cloud", 80, 60, 1],
+     ["tree", 70, 255, 0.8],
+     ["shop", 220, 250, 200, "THE GARAGE GRILL", "#c0392b"],
+     ["flip", "car", 320, 100, "#2980b9"],
+     ["balloons", 440, 245],
+     ["sign", 520, 250, "PRIVATE PARTIES", "#fff"],
+     ["person", 150, 392, {"shirt": "#8e44ad", "dress": true, "hairStyle": "long", "hold": "camera"}],
+     ["person", 200, 394, {"shirt": "#7f8c8d", "pose": "point", "skin": "#8d5524"}],
+     ["streetlamp", 600, 396],
+     ["bird", 520, 70]
+    ]
+   },
+   "prompt": "You are organizing your company’s annual staff party, and you have found this restaurant online. Call a co-worker who is helping you, describe the restaurant, and explain whether you think it would be a good place for the party. Your co-worker cannot see the picture.",
+   "model": "Hi Nadine, I think I’ve found our venue, and it’s definitely unusual. It’s a restaurant called The Garage Grill, and the first thing you notice is that there’s an actual car on the roof. A full-sized blue car, completely upside down, with its wheels pointing at the sky. It looks like it fell out of the clouds and landed there! The building itself has a big red sign across the front, and there are colourful balloons by the entrance and a sign on the sidewalk advertising private parties. In the photo, people are stopping on the street to take pictures of it. Honestly, I think it could be great for us. Everyone would be talking about it, and it’s clearly set up for group events. The theme also fits, since half our team are car fanatics. My only concern is size. It looks like a fairly small building, so I’d want to check whether it can hold all sixty of us before we book."
+  }
+ }
+}

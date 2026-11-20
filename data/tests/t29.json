@@ -1,0 +1,468 @@
+{
+ "id": "t29",
+ "title": "Test 29",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "The coordinator and the director of a seniors’ centre are discussing a problem with their volunteer driving program.",
+    "sp": {
+     "A": {"name": "Agnes", "g": "f", "acc": "en-GB", "rate": 0.98},
+     "B": {"name": "Tariq", "g": "m", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Tariq, have you got a minute? I’ve just had a call from our insurance broker, and I’m afraid it affects the drive program."],
+       ["B", "The volunteer drivers? What’s happened?"],
+       ["A", "The company that provides our excess liability coverage, the policy that sits on top of the volunteers’ own car insurance, is pulling out of the non-profit market altogether. They’re not renewing anyone. Our policy ends on the thirtieth."],
+       ["B", "The thirtieth of this month? That’s barely three weeks away."],
+       ["A", "Twenty-two days. And you know what the board said when we set the program up: no excess coverage, no volunteer drivers. They were very firm about it, and frankly I agree with them. If a volunteer caused a serious accident with a client in the car, their personal policy could run out very quickly."],
+       ["B", "How many clients are we talking about?"],
+       ["A", "Thirty-eight people use it regularly. Most of it is medical appointments: dialysis, cancer treatment, eye injections. About sixty rides a month. For some of them, it’s the only way they get to the hospital at all."],
+       ["B", "And the drivers? I’m worried we’ll lose them if the program goes on hold, even briefly."],
+       ["A", "So am I. Fourteen active volunteers, and half of them are retirees who told me they’d happily find another cause if we leave them sitting at home. Recruiting new drivers took us two years."],
+       ["B", "Right. Well, the budget line for insurance is thirty-two hundred a year. Did the broker give you any alternatives?"],
+       ["A", "She’s getting quotes. She said not to expect anything close to what we were paying."]
+      ],
+      "qs": [
+       {"q": "Why will the drive program lose its insurance coverage?", "o": ["The centre missed the deadline to renew the policy.", "The insurer is leaving that market completely.", "A volunteer was involved in a serious accident.", "The board decided the policy was too expensive."], "a": 1, "t": "paraphrase", "ev": "is pulling out of the non-profit market altogether", "x": "The insurer is “pulling out of the non-profit market altogether” and renewing no one. The serious accident is only a hypothetical risk, and the board’s rule concerns having coverage, not its cost."},
+       {"q": "What is Agnes’s view of the board’s rule about volunteer drivers?", "o": ["She thinks it is too strict in an emergency.", "She plans to ask the board to suspend it.", "She believes most volunteers are unaware of it.", "She supports it despite the difficulties."], "a": 3, "t": "attitude", "ev": "frankly I agree with them", "x": "“Frankly I agree with them” shows she supports the rule, pointing to the risk of a personal policy running out after a serious accident. She never suggests suspending or relaxing it."},
+       {"q": "Why is Tariq concerned about pausing the program?", "o": ["Drivers might leave and be hard to replace.", "Clients might switch to a competing service.", "The hospital might cancel clients’ appointments.", "The board might close the program for good."], "a": 0, "t": "inference", "ev": "I’m worried we’ll lose them if the program goes on hold, even briefly.", "x": "Tariq fears losing drivers during even a brief pause, and Agnes adds that recruiting them took two years. Competing services and permanent closure are never mentioned."}
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Okay, the broker came back. The cheapest commercial quote is ninety-six hundred dollars a year. That’s three times our budget."],
+       ["B", "Ouch. Could we raise it? A special appeal to donors?"],
+       ["A", "We could try, but we already ran the winter appeal in December, and the spring gala money is committed to the kitchen renovation. I don’t want to go back to the same people with another emergency three months later."],
+       ["B", "Fair. What about giving clients taxi vouchers while we sort it out?"],
+       ["A", "I priced it. The average ride is about twenty-eight dollars each way, and almost every trip is a round trip. Sixty rides a month at fifty-six dollars is over three thousand a month. We’d burn through the whole year’s transportation budget by summer."],
+       ["B", "And the city’s accessible transit service? Some of our clients must qualify."],
+       ["A", "A few do, and they should register regardless. But most of our people don’t have a disability that would make them eligible. They just don’t drive anymore, or they can’t after a treatment. And dialysis patients are exhausted afterwards; nobody should be taking two regular buses home."],
+       ["B", "So what’s left?"],
+       ["A", "The broker mentioned something I hadn’t heard of: a provincial insurance pool for non-profits. Member organizations share the risk, so premiums are lower. Our quote would be forty-one hundred."],
+       ["B", "That’s only nine hundred over budget. What’s the catch?"],
+       ["A", "Every volunteer has to submit a driver’s abstract, that’s their official driving record, and complete a two-hour online safety course within sixty days of joining."],
+       ["B", "That’s not a catch. That’s good practice."]
+      ],
+      "qs": [
+       {"q": "Why does Agnes reject a special donor appeal?", "o": ["The gala raised less money than expected.", "The board does not allow emergency appeals.", "Donors were already approached recently.", "Donors would rather fund the kitchen project."], "a": 2, "t": "inference", "ev": "I don’t want to go back to the same people with another emergency three months later.", "x": "The winter appeal ran in December, and she doesn’t want to ask the same donors again three months later. The gala money is committed to the kitchen; nothing says it fell short."},
+       {"q": "What does Agnes conclude about taxi vouchers?", "o": ["They would be cheaper than a commercial policy.", "They would exhaust the yearly budget too fast.", "Most clients would refuse to use them.", "They would only cover one-way trips."], "a": 1, "t": "paraphrase", "ev": "We’d burn through the whole year’s transportation budget by summer.", "x": "At over $3,000 a month, vouchers would use up the year’s transportation budget by summer – far more than any insurance quote. She calculates round trips, so one-way trips are not the issue."},
+       {"q": "Why can most clients not use the city’s accessible transit service?", "o": ["The service does not go to the hospital.", "They live outside the service area.", "Its routes require two bus transfers.", "They do not meet its eligibility rules."], "a": 3, "t": "detail", "ev": "most of our people don’t have a disability that would make them eligible", "x": "Most clients don’t have a qualifying disability; they simply no longer drive. The two buses she mentions refer to regular transit after dialysis, not to accessible transit."}
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Good news. I spoke to the pool administrator. They can accept us, but coverage only starts on the first of a month, and they need the application by the twentieth to start on the first."],
+       ["B", "Today’s the eighth. And our current coverage ends on the thirtieth, so if we make the twentieth, there’s no gap at all."],
+       ["A", "Exactly. The application itself is simple. The tricky part is the abstracts. Each volunteer has to order their own from the province, and it costs twelve dollars."],
+       ["B", "We should reimburse them. Asking retirees to pay so they can keep volunteering doesn’t sit right with me."],
+       ["A", "Agreed. That’s under two hundred dollars. What about the nine-hundred-dollar gap in the premium?"],
+       ["B", "The Westside Service Club has a small grants program for seniors’ services. Their next deadline is the end of the month, and I know the treasurer. I’ll call her this afternoon."],
+       ["A", "And if they say no?"],
+       ["B", "Then I’ll take it from the contingency line and explain it to the board. Nine hundred dollars to keep thirty-eight people getting to treatment is not a hard argument to make."],
+       ["A", "I’ll email the volunteers tonight about the abstracts. Should I mention the course as well?"],
+       ["B", "Mention it, but don’t make a big deal of it. They have sixty days. Lead with the abstracts, because that’s the part with a real deadline."]
+      ],
+      "qs": [
+       {"q": "Why is the twentieth an important date?", "o": ["Applying by then avoids any gap in coverage.", "It is the day the current policy expires.", "It is the service club’s grant deadline.", "Volunteers must finish the course by then."], "a": 0, "t": "inference", "ev": "they need the application by the twentieth to start on the first", "x": "Applying by the 20th means pool coverage starts on the 1st, right after the current policy ends on the 30th – no gap. The grant deadline is the end of the month, and the course allows sixty days."},
+       {"q": "How does Tariq plan to cover the premium shortfall if the grant is refused?", "o": ["By asking each volunteer to pay a small fee", "By delaying the start of the new policy", "By drawing on reserves and telling the board", "By reducing the number of rides offered"], "a": 2, "t": "detail", "ev": "Then I’ll take it from the contingency line and explain it to the board.", "x": "If the service club says no, he will use the contingency line and explain it to the board. Volunteers will actually be reimbursed for their abstracts, not charged a fee."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A passenger who has missed a train connection is speaking with an agent at a railway station.",
+    "sp": {
+     "A": {"name": "Hollis", "g": "m", "acc": "en-CA", "rate": 1.03},
+     "B": {"name": "Yasmin", "g": "f", "acc": "en-GB", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Hi, I hope you can help. My train from Windsor got in an hour and forty minutes late, and I missed my connection to North Bay. It left at four ten."],
+       ["A", "I’m sorry about that. Let me pull up your booking. Okay, Yasmin Haddad, travelling with a bicycle. Since the delay was on our side, there’s no charge to rebook you. The next train to North Bay leaves at six forty this evening."],
+       ["B", "That’s fine. I can wait a couple of hours."],
+       ["A", "The problem is the bike. The six forty is one of our older trains, and it doesn’t have bike racks. Bikes only go on trains with a baggage car, and the next one of those is tomorrow at nine fifteen."],
+       ["B", "Tomorrow? I’m supposed to start a cycling tour on Saturday morning. I’d planned to arrive tonight and put everything together at the hotel."],
+       ["A", "There are a couple of options. You could stay overnight here and take the nine fifteen with your bike. We’d cover a hotel room, since you missed the connection because of us. Or you take the six forty tonight, and we ship the bike separately on tomorrow’s train. It would reach North Bay station around four in the afternoon."],
+       ["B", "Is there a charge for shipping it?"],
+       ["A", "Normally twenty-five dollars, but I’ll waive it because of the delay. You’d need to box it, though. We sell bike boxes here for fifteen."],
+       ["B", "Hmm. If I go tonight, I’m without the bike until tomorrow afternoon, but I’d have the morning free to pick up groceries and check in with the tour group. And the tour doesn’t start until Saturday anyway."],
+       ["A", "That’s right. And honestly, the hotel we use near the station here isn’t the nicest. I’d probably choose the evening train myself."],
+       ["B", "Ha, that’s refreshingly honest. Okay, I’ll take the six forty and ship the bike. Can I also get something to eat? I haven’t had lunch."],
+       ["A", "Since the delay was more than an hour, you’re entitled to a fifteen-dollar meal voucher. The café upstairs accepts it. Just bring the bike back here once it’s boxed, and I’ll tag it."],
+       ["B", "Perfect. Thanks for making this so painless."]
+      ],
+      "qs": [
+       {"q": "Why can Yasmin not take her bicycle on the six forty train?", "o": ["It is already fully booked.", "Bikes must be shipped a day ahead.", "It is not equipped to carry them.", "Her ticket does not include baggage."], "a": 2, "t": "paraphrase", "ev": "it doesn’t have bike racks", "x": "The 6:40 is an older train without bike racks; bikes go only on trains with a baggage car. Nothing says the train is full, and shipping a day ahead is not a rule."},
+       {"q": "Why does the railway offer to pay for a hotel?", "o": ["The railway caused her to miss her train.", "She is travelling with a bicycle.", "The station closes overnight.", "Her tour group requested it."], "a": 0, "t": "detail", "ev": "since you missed the connection because of us", "x": "The hotel is offered because she missed the connection “because of us” – the railway’s delay. The bicycle only explains why she might need to stay over."},
+       {"q": "Why does Yasmin decide to travel that evening?", "o": ["The hotel near the station is fully booked.", "She needs her bike for a ride that evening.", "The bike shipping fee will be waived.", "She wants a free morning to get ready."], "a": 3, "t": "inference", "ev": "I’d have the morning free to pick up groceries and check in with the tour group", "x": "Arriving tonight gives her a free morning for groceries and meeting the tour group before Saturday. The waived fee is a bonus, not her reason, and the hotel is never said to be full."},
+       {"q": "What does the agent imply about the hotel?", "o": ["It is not of very good quality.", "It is too far from the station.", "It does not accept bicycles.", "It must be paid for in advance."], "a": 0, "t": "inference", "ev": "the hotel we use near the station here isn’t the nicest", "x": "“Isn’t the nicest” suggests the hotel is not very good, which is why he would choose the evening train. It is “near the station”, so distance isn’t the issue."},
+       {"q": "What must Yasmin do before her bicycle can be tagged?", "o": ["Pay the twenty-five-dollar fee", "Pack it in a box", "Show her meal voucher", "Remove its front wheel"], "a": 1, "t": "detail", "ev": "Just bring the bike back here once it’s boxed, and I’ll tag it.", "x": "The agent will tag the bike “once it’s boxed”; boxes cost $15 at the station. The $25 shipping fee is waived because of the delay."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A father calls a driving school to ask about a course for his daughter.",
+    "sp": {
+     "A": {"name": "Ruth", "g": "f", "acc": "en-CA", "rate": 1.04},
+     "B": {"name": "Emeka", "g": "m", "acc": "en-US", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Good afternoon, Northway Driving School, Ruth speaking."],
+       ["B", "Hi, Ruth. My name’s Emeka. My daughter just got her learner’s licence, and I’m trying to understand what your beginner course involves before I sign her up."],
+       ["A", "Of course. Our beginner course is approved by the province. It’s twenty hours of classroom instruction, ten hours of homework, and ten hours of driving in one of our cars with an instructor."],
+       ["B", "And what does it cost?"],
+       ["A", "Seven ninety-five plus tax for the standard version, where the classroom part is in person over two weekends. There’s also an online version of the classroom part that students do at their own pace. That one’s seven forty-five."],
+       ["B", "Fifty dollars less. Is the online one any less thorough?"],
+       ["A", "Same content, same exam at the end. Some students do better in a room with a teacher, though. The online version has to be finished within six months, and honestly, some teenagers let it drift."],
+       ["B", "Mine might, to be fair. What’s the actual benefit of the course? A friend said it lets them take the road test sooner."],
+       ["A", "That’s right. Normally a new driver has to wait twelve months before the first road test. With a certificate from an approved course, that drops to eight. And most insurance companies give a discount for the certificate, although we can’t tell you how much. That depends on the insurer."],
+       ["B", "Okay. When does the next in-person group start?"],
+       ["A", "The one starting Saturday the fourth is full, I’m afraid. The next one begins on the eighteenth."],
+       ["B", "Hmm. She has swim meets most weekends in the spring, so two full weekends would be tough anyway. I think the online version might suit her better, as long as I keep an eye on her progress."],
+       ["A", "We send parents a weekly progress report, so that helps."],
+       ["B", "Good. And the driving lessons, where do they start?"],
+       ["A", "The instructor picks her up at home or at school. Within city limits that’s included. If you’re outside the city, it’s twenty dollars extra per lesson."],
+       ["B", "We’re in town, so that’s fine. What if she has to cancel a lesson?"],
+       ["A", "We need twenty-four hours’ notice; otherwise there’s a fifty-dollar charge. Illness with a doctor’s note is the exception."],
+       ["B", "Last question. For the road test itself, can she use your car? Ours is a bit, well, battered."],
+       ["A", "Yes, we have a road test package: a one-hour warm-up lesson just before the test, and use of the car for the test itself. That’s one sixty. Students who use it tend to be calmer, because they’re driving a car they already know."],
+       ["B", "That makes sense. I’ll talk to her tonight and call you back to register."]
+      ],
+      "qs": [
+       {"q": "What is the main difference between the two versions of the course?", "o": ["Only the in-person version leads to a certificate.", "The online one is self-paced and costs less.", "The online version includes fewer driving hours.", "The in-person version has a harder final exam."], "a": 1, "t": "paraphrase", "ev": "There’s also an online version of the classroom part that students do at their own pace.", "x": "The online classroom portion is done at the student’s own pace and costs $50 less. Ruth says the content and final exam are the same, and driving hours are not reduced."},
+       {"q": "What concern does Ruth raise about the online version?", "o": ["It is harder for students to pass the exam.", "Insurers may not accept its certificate.", "Parents cannot see how students are doing.", "Some teenagers fail to finish it on time."], "a": 3, "t": "inference", "ev": "honestly, some teenagers let it drift", "x": "It must be finished within six months, and some teens “let it drift”. Parents actually receive weekly progress reports, and the exam and certificate are the same."},
+       {"q": "According to Ruth, what does the course certificate allow?", "o": ["An earlier first road test", "A guaranteed insurance discount", "A shorter final exam", "Free use of the school car"], "a": 0, "t": "paraphrase", "ev": "With a certificate from an approved course, that drops to eight.", "x": "The certificate cuts the wait for the first road test from twelve to eight months. Insurance discounts depend on the insurer, so nothing is guaranteed."},
+       {"q": "Why does Emeka choose the online version?", "o": ["The in-person classes are full until summer.", "It includes more in-car lessons.", "His daughter’s weekends are often taken.", "His daughter prefers learning on her own."], "a": 2, "t": "detail", "ev": "She has swim meets most weekends in the spring", "x": "Swim meets on most spring weekends make two full in-person weekends difficult. Only the group on the fourth is full; another starts on the eighteenth."},
+       {"q": "In which case would a late cancellation not be charged?", "o": ["If the student lives outside city limits", "If it is the student’s very first lesson", "If a parent calls the instructor directly", "If the student brings a doctor’s note"], "a": 3, "t": "detail", "ev": "Illness with a doctor’s note is the exception.", "x": "Cancelling with less than 24 hours’ notice costs $50, except for illness with a doctor’s note. Living outside the city affects pickup fees, not cancellations."},
+       {"q": "Why does Ruth recommend the road test package?", "o": ["They are calmer in a car they know.", "The school’s cars are easier to drive.", "Examiners prefer the school’s vehicles.", "It is cheaper than a regular lesson."], "a": 0, "t": "paraphrase", "ev": "Students who use it tend to be calmer, because they’re driving a car they already know.", "x": "Students are calmer using a car they know from their lessons. Emeka’s battered car is his own worry; nothing is said about examiners preferring school cars."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report about a new fee at an airport.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "m", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Tamsin Hale", "g": "f", "acc": "en-AU", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Travellers being dropped off at Lakehead International Airport will soon have to pay for the privilege. Starting March first, private vehicles stopping at the departures curb will be charged five dollars for up to ten minutes, with the fee collected automatically through licence-plate cameras and billed by mail or through a prepaid account. Vehicles that stay longer than ten minutes will pay an additional five dollars for every five minutes."],
+       ["A", "Airport spokesperson Tamsin Hale says the fee is less about revenue than about congestion."],
+       ["B", "During the morning peak, cars are backed up onto the access road, sometimes for a kilometre. People wait at the curb for fifteen, twenty minutes while their passenger checks a bag. Emergency vehicles have had trouble getting through. We need people to treat the curb as a drop-off zone, not a waiting room."],
+       ["A", "The airport is also offering an alternative. Drivers can use the economy parking lot, which is connected to the terminal by a free shuttle every eight minutes, and stop there for up to thirty minutes at no charge. Taxis, licensed ride-hailing vehicles and accessible transit vans are exempt from the curb fee, though ride-hailing companies have said they will pass on a fee of their own."],
+       ["A", "Several other Canadian airports have introduced similar fees, and at one of them, curbside waiting times fell by half within the first year. But critics, including a local seniors’ advocacy group, say the shuttle is not a realistic option for travellers with heavy luggage or limited mobility. The airport says drivers with a valid accessible parking permit will be able to register their plate in advance and be exempted from the fee. Registration will open online two weeks before the fee takes effect."]
+      ],
+      "qs": [
+       {"q": "How will the curb fee be collected?", "o": ["By attendants standing at the curb", "By cameras that identify each vehicle", "At pay stations inside the terminal", "By the airlines at check-in"], "a": 1, "t": "detail", "ev": "the fee collected automatically through licence-plate cameras", "x": "Licence-plate cameras identify vehicles, and the fee is billed by mail or through a prepaid account. No attendants, pay stations or airlines are involved."},
+       {"q": "According to Tamsin Hale, what is the main purpose of the fee?", "o": ["To raise money for a new terminal", "To encourage travellers to take transit", "To discourage ride-hailing at the airport", "To keep cars from lingering at the curb"], "a": 3, "t": "main", "ev": "We need people to treat the curb as a drop-off zone, not a waiting room.", "x": "She says the fee is “less about revenue than about congestion”: drivers waiting at the curb back traffic onto the access road. Transit and ride-hailing are not her stated aims."},
+       {"q": "How much will a driver pay if they stop at the departures curb for 20 minutes?", "o": ["$15", "$10", "$20", "$5"], "a": 0, "t": "inference", "ev": "Vehicles that stay longer than ten minutes will pay an additional five dollars for every five minutes.", "x": "The first ten minutes cost $5; the next ten minutes are two five-minute periods at $5 each, so $5 + $10 = $15. $10 counts only one extra period."},
+       {"q": "What can be inferred about ride-hailing passengers?", "o": ["They must now use the economy lot instead.", "They are banned from the departures curb.", "They may still end up paying an extra fee.", "They will get a discount on airport parking."], "a": 2, "t": "inference", "ev": "ride-hailing companies have said they will pass on a fee of their own", "x": "Ride-hailing vehicles are exempt from the airport’s fee, but the companies plan to pass on their own fee, so riders may still pay. They are not banned from the curb."},
+       {"q": "How has the airport responded to the seniors’ group?", "o": ["By exempting drivers with accessible permits", "By adding a second free shuttle route", "By extending the free period to thirty minutes", "By delaying the fee until the summer"], "a": 0, "t": "paraphrase", "ev": "drivers with a valid accessible parking permit will be able to register their plate in advance and be exempted from the fee", "x": "Permit holders can pre-register their plate and avoid the fee. The thirty free minutes apply to the economy lot, not the curb, and no delay is announced."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three friends are planning a two-week road trip from Winnipeg to the Rocky Mountains.",
+    "sp": {
+     "A": {"name": "Shauna", "g": "f", "acc": "en-CA", "rate": 1.04},
+     "B": {"name": "Kwame", "g": "m", "acc": "en-GB", "rate": 1.0},
+     "C": {"name": "Teodor", "g": "m", "acc": "en-US", "rate": 0.97}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Okay, we’ve put this off long enough. If we’re leaving on the eighth of September, we need to decide how we’re actually doing this trip. I still think we should rent an RV."],
+       ["B", "I knew you’d say that."],
+       ["A", "Because it makes sense! Two weeks, Winnipeg to Jasper and back. With an RV, we sleep wherever we want, we cook our own meals, we never have to pack and unpack a tent in the rain."],
+       ["C", "I’ll admit the not-packing-a-tent part sounds good. My back hasn’t been the same since that canoe trip."],
+       ["B", "I actually looked it up last night. The cheapest RV I could find for fourteen days is thirty-eight hundred dollars. That includes fifteen hundred kilometres. After that, it’s thirty-five cents a kilometre."],
+       ["A", "And the trip’s how long?"],
+       ["B", "About forty-five hundred kilometres with the side trips you wanted. So that’s three thousand extra kilometres, another ten fifty. Plus fuel. Those things use something like twenty-five litres per hundred kilometres, which is more than three times what Teodor’s car burns."],
+       ["A", "Okay, that’s more than I thought. I’d been looking at the daily rate and ignoring the kilometres."],
+       ["C", "So we’re talking well over six thousand dollars before we’ve bought a single meal. Split three ways, that’s two thousand each just for the vehicle."],
+       ["A", "Fine. I hear you. The RV is a lovely dream. What’s your plan, Kwame?"],
+       ["B", "Teodor’s car, and we camp the whole way. Campsites are thirty or forty dollars a night, split three ways. It’s by far the cheapest."],
+       ["C", "Hang on. Nobody asked me if I want to put forty-five hundred kilometres on my car."],
+       ["B", "I assumed you’d be fine with it. It’s a good car."],
+       ["C", "It is a good car, and I’d like it to stay that way. I don’t mind driving it, but it’s not just gas. Tires, oil changes, wear and tear. If we’re using my car, I think it’s fair that we account for that."],
+       ["A", "That’s completely reasonable. What if we each chip in for gas and also pay Teodor something per kilometre? The government rate is way too high, but ten cents a kilometre would be about four hundred and fifty dollars."],
+       ["C", "That would make me feel a lot better, honestly."],
+       ["B", "Fine by me. So, car and camping."],
+       ["C", "Car, yes. Camping the whole way, I’m less sure. Mid-September in the Rockies, it can go below zero at night. I’ve done that once. I spent the whole night wearing every piece of clothing I owned."],
+       ["A", "What if we split it? Camp on the Prairies, where it’s still warm in September and the campsites are cheap, and then get cabins or a motel once we hit the mountains?"],
+       ["B", "Cabins in Jasper aren’t cheap."],
+       ["A", "Not in town, no. But there are motels in Hinton, forty minutes away, for about a hundred and forty a night. Split three ways, that’s under fifty each."],
+       ["B", "Hmm. That’s still more than camping. But I suppose I’d rather not wake up to frost on my sleeping bag either."],
+       ["C", "So: my car, gas split three ways plus ten cents a kilometre to me, tents on the Prairies, a motel in Hinton for the mountain nights. I can live with that."],
+       ["A", "Deal. I’ll book the campsites tonight; some of the provincial parks fill up even in September."],
+       ["B", "And I’ll book Hinton. Four nights?"],
+       ["C", "Make it five. If it rains, I’m not getting back in a tent."]
+      ],
+      "qs": [
+       {"q": "Why does Shauna initially prefer renting an RV?", "o": ["It would be cheaper than camping.", "It would offer flexibility and comfort.", "Teodor’s car is too small for three people.", "Campsites in Jasper are fully booked."], "a": 1, "t": "detail", "ev": "With an RV, we sleep wherever we want, we cook our own meals, we never have to pack and unpack a tent in the rain.", "x": "She praises sleeping anywhere, cooking their own meals and never packing a wet tent – flexibility and comfort. She later admits she ignored the real cost, so price isn’t her reason."},
+       {"q": "Why does Shauna give up on the RV idea?", "o": ["The RV would not be allowed in most campsites.", "Teodor refuses to drive such a large vehicle.", "She realizes she overlooked the distance charges.", "She learns that RVs cannot enter the national park."], "a": 2, "t": "inference", "ev": "I’d been looking at the daily rate and ignoring the kilometres.", "x": "She admits she looked only at the daily rate and ignored the per-kilometre charges, which add $1,050. Teodor actually likes the idea of not packing a tent, and campsite rules are never mentioned."},
+       {"q": "According to Teodor, roughly what would the RV cost before food?", "o": ["More than six thousand dollars", "About thirty-eight hundred dollars", "Roughly two thousand dollars", "Just over ten thousand dollars"], "a": 0, "t": "detail", "ev": "So we’re talking well over six thousand dollars before we’ve bought a single meal.", "x": "$3,800 rental + $1,050 for extra kilometres + fuel = well over $6,000. $3,800 is only the base rental, and about $2,000 is each person’s share."},
+       {"q": "What is Teodor’s attitude when Kwame assumes they will use his car?", "o": ["He is happy to lend it at no cost.", "He refuses to let anyone else drive it.", "He thinks it is too old for a long trip.", "He is irritated that he was not consulted."], "a": 3, "t": "attitude", "ev": "Nobody asked me if I want to put forty-five hundred kilometres on my car.", "x": "“Hang on. Nobody asked me” shows annoyance at being taken for granted. He then agrees to drive if wear and tear is covered, so he doesn’t refuse, and he calls it a good car."},
+       {"q": "What arrangement does Shauna propose for using Teodor’s car?", "o": ["Teodor covers gas while the others pay for sites", "They share fuel and pay him a set rate per kilometre", "They reimburse him at the government mileage rate", "They pay for any repairs needed after the trip"], "a": 1, "t": "paraphrase", "ev": "ten cents a kilometre would be about four hundred and fifty dollars", "x": "Shauna suggests sharing gas and paying Teodor ten cents a kilometre, about $450. She says the government rate is “way too high”, so they won’t use it."},
+       {"q": "Why is Teodor reluctant to camp for the whole trip?", "o": ["He has suffered through very cold nights before.", "He thinks the campsites will all be fully booked.", "He prefers to stay in Jasper’s town centre.", "He dislikes cooking meals outdoors."], "a": 0, "t": "inference", "ev": "I spent the whole night wearing every piece of clothing I owned.", "x": "He warns that Rockies nights go below zero and recalls a night spent wearing all his clothes. Shauna, not Teodor, mentions campsites filling up, and staying in Jasper’s centre is never proposed."},
+       {"q": "How does Kwame respond to the motel plan?", "o": ["He rejects it because it costs too much.", "He prefers cabins in Jasper instead.", "He accepts it with some hesitation.", "He suggests camping in the mountains anyway."], "a": 2, "t": "attitude", "ev": "That’s still more than camping. But I suppose I’d rather not wake up to frost on my sleeping bag either.", "x": "He notes it costs more than camping, but “I suppose I’d rather not wake up to frost” – hesitant acceptance. He is the one who said Jasper cabins aren’t cheap."},
+       {"q": "What does the group finally decide about the mountain part of the trip?", "o": ["Camp for four nights near Jasper", "Rent a cabin in Jasper for five nights", "Stay in Hinton only if it rains", "Spend five nights in a Hinton motel"], "a": 3, "t": "main", "ev": "Make it five. If it rains, I’m not getting back in a tent.", "x": "Kwame offers to book Hinton for four nights, but Teodor says “Make it five”. Rain is his reason for the extra night, not a condition for staying there at all."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about a proposed charge for driving downtown.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "f", "acc": "en-GB", "rate": 1.02}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "For years, the idea of charging drivers to enter the downtown core has been raised in city halls across Canada, and just as quickly dropped. Now our city’s transportation committee has asked staff to study a congestion charge for real, and the early reaction suggests the debate will be anything but simple."],
+       ["A", "The proposal on the table would charge private vehicles twelve dollars to enter the core on weekdays between seven a.m. and seven p.m. City staff estimate it would reduce traffic downtown by about eighteen percent and raise roughly ninety million dollars a year, which would be set aside for transit. Supporters, including the regional board of trade, argue that congestion already acts as a tax, one paid in lost time. A delivery driver stuck in gridlock for an hour costs a business money whether or not anyone sends a bill. Better, they say, to charge directly and use the money to give people alternatives."],
+       ["A", "Downtown merchants are less enthusiastic. The Downtown Business Association warns that shoppers who can easily drive to a suburban mall with free parking may simply stop coming. Its chair points to a pharmacy owner who estimates that a third of her customers arrive by car. She doesn’t object to the principle, the chair says, but she can’t afford to be the experiment."],
+       ["A", "Equity is another sticking point. Critics argue that a flat charge falls hardest on lower-income workers who drive because transit doesn’t serve their shifts or neighbourhoods, while wealthier commuters will barely notice the fee. Supporters respond that, according to the city’s own travel survey, the people who drive into the core at rush hour have, on average, higher incomes than those who take transit, so the charge would, if anything, shift money from wealthier to less wealthy residents."],
+       ["A", "Transportation economist Dr. Anika Varga, who has studied charges in several European cities, says the record is encouraging but comes with a warning. In nearly every case, she says, the charge was unpopular before it began and gained support once residents saw quieter streets and faster buses. The key, in her view, is sequencing: transit improvements have to arrive before the charge does, or at the very least at the same time. Charging people before giving them a real alternative, she says, is the surest way to kill the idea."],
+       ["A", "Staff are expected to report back in the fall. Councillors on the committee have signalled that they will not support any charge without discounts for low-income residents and an exemption for people with disabilities, and several have said privately that a vote is unlikely before the next municipal election."]
+      ],
+      "qs": [
+       {"q": "What argument does the board of trade make?", "o": ["Drivers already pay a hidden cost in lost time.", "Most delivery drivers support the charge.", "The charge should apply only on weekends.", "Downtown businesses would earn more parking revenue."], "a": 0, "t": "paraphrase", "ev": "congestion already acts as a tax, one paid in lost time", "x": "The board of trade says congestion is already a tax paid in lost time, so charging directly is better. The delivery driver is an example of that cost, not evidence that drivers support the charge."},
+       {"q": "What is the pharmacy owner’s position?", "o": ["She strongly opposes the idea of a charge.", "She accepts the idea but fears the business risk.", "She expects to gain customers who use transit.", "She wants an exemption for her delivery vehicles."], "a": 1, "t": "viewpoint", "ev": "She doesn’t object to the principle, the chair says, but she can’t afford to be the experiment.", "x": "She doesn’t object in principle but “can’t afford to be the experiment”, since a third of her customers drive. She does not strongly oppose it."},
+       {"q": "How do supporters answer the equity criticism?", "o": ["They propose a lower charge for shift workers.", "They say transit already serves every neighbourhood.", "They note that peak-hour drivers are wealthier.", "They admit the charge is unfair but necessary."], "a": 2, "t": "viewpoint", "ev": "the people who drive into the core at rush hour have, on average, higher incomes than those who take transit", "x": "Citing the travel survey, supporters say rush-hour drivers earn more on average than transit users, so the charge shifts money toward less wealthy residents. They don’t propose special rates or admit unfairness."},
+       {"q": "According to Dr. Varga, what usually happens to public opinion?", "o": ["It turns against the charge after it starts.", "It stays divided for many years afterwards.", "It depends mainly on the size of the fee.", "It becomes more favourable after launch."], "a": 3, "t": "paraphrase", "ev": "the charge was unpopular before it began and gained support once residents saw quieter streets and faster buses", "x": "In nearly every case the charge was unpopular beforehand and gained support once people saw quieter streets and faster buses. The first option reverses this pattern."},
+       {"q": "What does Dr. Varga consider essential?", "o": ["Charging drivers before expanding transit", "Improving transit no later than the charge begins", "Setting the charge at the same level as other cities", "Exempting delivery vehicles from the charge"], "a": 1, "t": "detail", "ev": "transit improvements have to arrive before the charge does, or at the very least at the same time", "x": "She says transit improvements must come before, or at the same time as, the charge; charging first is “the surest way to kill the idea”. Matching other cities’ fees isn’t mentioned."},
+       {"q": "What is the most likely outcome in the near future?", "o": ["A decision is likely to be delayed.", "Council will approve the charge this fall.", "The charge will start without any discounts.", "Staff will withdraw the proposal entirely."], "a": 0, "t": "prediction", "ev": "a vote is unlikely before the next municipal election", "x": "Councillors say privately that a vote is unlikely before the next election. Staff will report in the fall, but that is a report, not an approval, and councillors insist on discounts."}
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Margit Sandvik  |  To: Anders Sandvik  |  Subject: A proposal about the wagon",
+   "text": "Dear Anders,\n\nI hope the move into the new office went smoothly and that Freya is getting excited about September. I have a proposal for you, and I want you to feel completely free to say no.\n\nAs you know, I moved downtown in March, mainly to be closer to work. What I didn’t expect was how quickly I would stop needing the car. The office is a twelve-minute walk, the grocery store is downstairs, and for the rare trip to the hardware store, I use one of the car-share vehicles parked around the corner. I checked this morning: I haven’t driven the wagon in six weeks. Meanwhile, I’m paying two hundred and ten dollars a month for a parking spot in my building, plus insurance, for a car that mostly collects dust.\n\nSo here is my idea. Would Freya like it for university? I know Lethbridge has decent buses, but you mentioned she’ll be doing placements at rural schools in her second year, and those are hard to reach without a car. I would sell it to you for one dollar, purely to make the paperwork simple. You would only need to cover the transfer fees and registration.\n\nBefore you decide, I should be honest about its condition. It’s eight years old and runs beautifully, but at the last oil change, the mechanic told me the rear brakes will need replacing within the next five thousand kilometres. It would be fairer to get that done before Freya drives it, and I’m happy to pay for it.\n\nI do have one small request. Every August, as you know, I spend a week at the lake with the Brunellis, and the bus out there runs only twice a week. Would it be possible to borrow the wagon back for that week? I would of course fill the tank.\n\nI’ll admit it feels a little strange to let it go. That car has carried me through two moves and a great many road trips. But it would be lovely to know it’s still in the family.\n\nLove,\nMargit",
+   "qs": [
+    {"q": "Why has Margit stopped using her car?", "o": ["She rarely needs it where she lives now.", "The car has developed a mechanical problem.", "Parking near her office is too expensive.", "She has started using it only for road trips."], "a": 0, "t": "inference", "ev": "What I didn’t expect was how quickly I would stop needing the car.", "x": "Work is a short walk, groceries are downstairs and she uses car-share for rare errands, so she rarely needs the car. The $210 parking spot is in her building, not near her office."},
+    {"q": "Why does Margit think the car would be useful for Freya?", "o": ["Lethbridge has very poor public transit.", "Some of her placements will be in rural areas.", "Freya has already asked her for the car.", "Freya’s campus offers free student parking."], "a": 1, "t": "detail", "ev": "she’ll be doing placements at rural schools in her second year, and those are hard to reach without a car", "x": "Freya’s second-year placements at rural schools are hard to reach without a car. Margit says Lethbridge has “decent buses”, so poor transit is not her reason."},
+    {"q": "Why would Margit sell the car for only one dollar?", "o": ["To avoid paying for the brake repair", "Because the car has little market value", "To keep the transfer simple", "Because Anders lent her money in the past"], "a": 2, "t": "purpose", "ev": "purely to make the paperwork simple", "x": "The one-dollar sale is “purely to make the paperwork simple”. She says the car runs beautifully and offers to pay for the brakes herself."},
+    {"q": "What does Margit offer to do about the brakes?", "o": ["Ask Anders to share the repair cost", "Wait until the car reaches 5,000 km", "Let Freya decide when to fix them", "Cover the cost of the work herself"], "a": 3, "t": "paraphrase", "ev": "I’m happy to pay for it", "x": "She wants the brakes replaced before Freya drives the car and is happy to pay for it. The 5,000 km is the mechanic’s outer limit, not her plan."},
+    {"q": "Why does Margit ask to borrow the car back in August?", "o": ["Her lake trip is poorly served by buses.", "Her car-share service closes in summer.", "She wants to check that it is being maintained.", "The Brunellis do not have a car."], "a": 0, "t": "inference", "ev": "the bus out there runs only twice a week", "x": "The bus to the lake runs only twice a week, so she wants the wagon for her August week. Car-share closures and checking maintenance are never mentioned."},
+    {"q": "How does Margit feel about giving up the car?", "o": ["Relieved to be free of a burden", "A little wistful but pleased about where it’s going", "Worried that Freya will not take proper care of it", "Annoyed that she ever bought it"], "a": 1, "t": "attitude", "ev": "I’ll admit it feels a little strange to let it go.", "x": "Letting go “feels a little strange” after two moves and many road trips, but she is glad it stays in the family. She shows no annoyance or worry about Freya."}
+   ],
+   "reply": {
+    "intro": "Here is Anders’s response to Margit. Complete it by choosing the best option for each blank.",
+    "text": "Dear Margit,\n\nWhat a generous offer! I read your email to Freya at dinner, and she nearly knocked over her water. She was dreading the thought of {1} next year, so you’ve solved a real problem.\n\nOf course we accept, but I won’t let you {2}. You’ve already been more than generous, so the brake job is on us. We’ll take it to our mechanic before term starts.\n\nAs for August, the wagon is yours for the week. Honestly, it seems only fair, since the {3} out to the lake is so limited. Freya will be home that month anyway, so she won’t need it.\n\nIt sounds like downtown life suits you. Paying {4} a month to park a car you hardly drive would drive me crazy too. And I promise we’ll take good care of the old wagon. I know it’s carried you through {5}.\n\nLove,\nAnders",
+    "blanks": [
+     {"o": ["paying for parking near campus", "walking to her classes downtown", "getting out to rural schools", "taking the bus to the lake"], "a": 2, "t": "inference", "ev": "those are hard to reach without a car", "x": "Margit noted that Freya’s rural school placements are hard to reach without a car, so getting there worried Freya. Campus parking and the lake have nothing to do with her placements."},
+     {"o": ["fill the tank", "pay for the brakes", "sell it for a dollar", "keep the car"], "a": 1, "t": "coherence", "ev": "I’m happy to pay for it", "x": "Anders refuses Margit’s offer to pay for the brakes – “the brake job is on us”. He accepts the one-dollar sale, and filling the tank relates to August."},
+     {"o": ["car-share", "road", "ferry", "bus service"], "a": 3, "t": "coherence", "ev": "the bus out there runs only twice a week", "x": "The bus to the lake runs only twice a week, which is why lending the wagon back is fair. Car-share is what Margit uses downtown, not to reach the lake."},
+     {"o": ["one dollar", "two hundred and ten dollars", "five thousand dollars", "twelve dollars"], "a": 1, "t": "detail", "ev": "two hundred and ten dollars a month for a parking spot", "x": "Margit pays $210 a month to park in her building. One dollar is the sale price, and five thousand refers to kilometres, not money."},
+     {"o": ["eight years of daily commuting", "four months downtown", "two moves and many trips", "a dozen trips to the lake"], "a": 2, "t": "paraphrase", "ev": "That car has carried me through two moves and a great many road trips.", "x": "Margit says the car carried her through two moves and many road trips. She has hardly driven it since moving downtown, so daily commuting is wrong."}
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Pelham Sound Ferries – Port Tilley ↔ Gull Island Fares",
+    "intro": "Peak fares apply Friday to Sunday and on holidays. Off-peak fares apply Monday to Thursday. Sailings every 90 minutes from 6:00 a.m. to 9:00 p.m.",
+    "table": {
+     "cols": ["Fare type", "Peak", "Off-peak"],
+     "rows": [
+      ["Adult (19–64)", "$18.50", "$15.00"],
+      ["Senior (65+)", "$12.00", "$7.50"],
+      ["Child (5–18)", "$9.25", "$7.50"],
+      ["Child under 5", "Free", "Free"],
+      ["Standard vehicle (up to 6 m)", "$62.00", "$48.00"],
+      ["Oversize vehicle (over 6 m), per extra metre", "+$8.00", "+$6.00"],
+      ["Bicycle", "$3.00", "$3.00"],
+      ["Vehicle reservation fee", "$15.00", "$10.00"]
+     ]
+    },
+    "notes": [
+     "Fares are collected only at the Port Tilley (mainland) terminal and cover the round trip. There is no charge for travel from Gull Island to the mainland.",
+     "Driver and passengers pay passenger fares in addition to the vehicle fare.",
+     "Reserved vehicles must check in 30 minutes before sailing or the reservation is cancelled without refund.",
+     "Gull Island residents with a valid resident card pay off-peak fares at all times.",
+     "Book 10 or more foot passengers together and save 20% on passenger fares (not vehicles).",
+     "Holiday Monday sailings are charged at peak fares."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about a ferry trip. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Corinne,\n\nThanks again for lending us the cottage! Here’s our ferry plan. We’re driving over on Saturday morning in the minivan, which is just under six metres, so it counts as a standard vehicle. For Dan, me and the kids (Lily is 7 and Max is 3), the fare comes to {1}, and I’m adding a reservation because Saturdays are busy. That means we need to check in by {2} for the 10:00 sailing.\n\nWe’re coming back on the holiday Monday, but we won’t pay anything for that crossing, because {3}.\n\nBy the way, your neighbour Pascal offered to bring his truck and trailer over on Saturday as well. They’re 8 metres long together, but since he has an island resident card, his vehicle fare will only be {4}.\n\nFinally, if your book club walks on together on a Thursday – there are twelve of you, right? – each adult will pay just {5}.\n\nSee you soon,\nRenata",
+    "blanks": [
+     {"o": ["$89.75", "$108.25", "$117.50", "$123.25"], "a": 1, "t": "diagram", "ev": "Driver and passengers pay passenger fares in addition to the vehicle fare.", "x": "Peak fares: vehicle $62 + two adults $37 + Lily $9.25 = $108.25; Max, under 5, travels free. $117.50 charges Max, and $123.25 adds the reservation fee."},
+     {"o": ["9:00", "9:30", "9:40", "9:45"], "a": 1, "t": "diagram", "ev": "Reserved vehicles must check in 30 minutes before sailing or the reservation is cancelled without refund.", "x": "Reserved vehicles must check in 30 minutes before sailing, so by 9:30 for the 10:00 ferry. Arriving later would cancel the reservation without a refund."},
+     {"o": ["holiday sailings are always free", "they booked a return reservation", "the mainland fare covers both ways", "children travel free on holidays"], "a": 2, "t": "diagram", "ev": "Fares are collected only at the Port Tilley (mainland) terminal and cover the round trip.", "x": "The fare paid at Port Tilley covers the round trip, so the return from Gull Island is free. Holiday sailings are actually charged peak fares, not free."},
+     {"o": ["$78.00", "$62.00", "$48.00", "$60.00"], "a": 3, "t": "diagram", "ev": "Gull Island residents with a valid resident card pay off-peak fares at all times.", "x": "As a resident he pays off-peak fares even on Saturday: $48 + 2 extra metres × $6 = $60. $78 uses peak rates, and $48 ignores the oversize charge."},
+     {"o": ["$15.00", "$14.80", "$12.00", "$18.50"], "a": 2, "t": "diagram", "ev": "Book 10 or more foot passengers together and save 20% on passenger fares (not vehicles).", "x": "Thursday is off-peak ($15 for adults), and a group of 10 or more saves 20%: $15 × 0.8 = $12. $14.80 wrongly discounts the $18.50 peak fare."}
+    ]
+   },
+   "qs": [
+    {"q": "Two adults and a 6-year-old walk on (no vehicle) on a Thursday and return the same evening. What do they pay in total?", "o": ["$37.50", "$75.00", "$46.25", "$30.00"], "a": 0, "t": "diagram", "ev": "There is no charge for travel from Gull Island to the mainland.", "x": "Off-peak: 2 × $15 + $7.50 for the child = $37.50, and the return trip is free. $75 charges both directions, and $46.25 uses peak fares."},
+    {"q": "A driver with a reservation arrives at the terminal 20 minutes before her sailing. What happens?", "o": ["She boards normally because she has a reservation.", "She pays an extra $10 to keep her place.", "She loses the reservation and its fee.", "She is moved to the next sailing at no charge."], "a": 2, "t": "diagram", "ev": "Reserved vehicles must check in 30 minutes before sailing or the reservation is cancelled without refund.", "x": "Reserved vehicles must check in 30 minutes ahead, so arriving 20 minutes before means the booking is cancelled with no refund. No late fee or free transfer is offered."},
+    {"q": "A 70-year-old man drives his 5-metre car to the island alone on a holiday Monday without a reservation. How much does he pay?", "o": ["$62.00", "$69.50", "$89.00", "$74.00"], "a": 3, "t": "diagram", "ev": "Holiday Monday sailings are charged at peak fares.", "x": "Holiday Monday uses peak fares: vehicle $62 plus his senior passenger fare of $12 = $74. $62 forgets the driver’s own fare, and $89 adds a reservation he didn’t make."}
+   ]
+  },
+  "p3": {
+   "title": "Designing Transit for Everyone",
+   "paras": [
+    "When most people think of accessible transit, they picture a wheelchair ramp. Ramps matter, but accessibility experts argue that riders’ needs are far broader. Around one in five Canadians has a disability, and many of those disabilities are invisible: chronic pain, hearing loss, anxiety, or conditions that affect memory and concentration. Add older adults, parents pushing strollers, travellers with heavy luggage and people recovering from injuries, and the group that benefits from accessible design becomes something close to a majority of riders at one point or another. For that reason, planners increasingly talk about “universal design”: building systems that work for as many people as possible from the start, rather than adding special features later.",
+    "Some of the most effective changes are surprisingly simple. Automated stop announcements, both spoken and displayed on screens, help riders who are blind or deaf, but surveys show they are also appreciated by tourists, newcomers and anyone riding an unfamiliar route at night. Low-floor buses that kneel at the curb remove the need for a lift in most cases and speed up boarding for everyone, which helps buses stay on schedule. Even seating layout makes a difference: priority seats near the front, with enough space to turn a mobility device, reduce the awkward shuffle that can delay departures. Agencies that have introduced these features report fewer complaints overall, not only from riders with disabilities.",
+    "Stations present bigger challenges. Many older subway and commuter rail stations were built long before accessibility laws existed, and retrofitting them with elevators can cost tens of millions of dollars per station. Even where elevators exist, they are often out of service, and a single broken elevator can make an entire station unusable for a wheelchair user, who may have to travel several stops further and backtrack. Advocates argue that reliable maintenance deserves as much attention as new construction. Some agencies now publish real-time elevator status online, allowing riders to plan around outages, although critics note that a website is of little use to someone who discovers the problem only after arriving on the platform.",
+    "Technology is opening new possibilities, but it can also create barriers. Fare payment apps and touchscreen ticket machines can be difficult for people with low vision, limited dexterity or no smartphone, and several agencies have faced complaints after removing cash options. On the other hand, apps that provide step-by-step audio navigation through stations have been welcomed by many blind riders. Experts say the lesson is not to avoid technology but to involve disabled riders from the beginning of the design process. When agencies consult only after a product is finished, they often end up paying to fix problems that could have been prevented at little cost."
+   ],
+   "qs": [
+    {"q": "Spoken and on-screen announcements are also valued by riders who simply do not know the route.", "a": "B", "t": "paraphrase", "ev": "surveys show they are also appreciated by tourists, newcomers and anyone riding an unfamiliar route at night", "x": "Paragraph B: stop announcements are appreciated by tourists, newcomers and anyone on an unfamiliar route."},
+    {"q": "Many disabilities cannot be noticed by other people.", "a": "A", "t": "paraphrase", "ev": "many of those disabilities are invisible", "x": "Paragraph A: many disabilities are invisible, such as chronic pain or hearing loss."},
+    {"q": "Most transit agencies now offer audio navigation apps in all of their stations.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph D says audio navigation apps have been welcomed by blind riders, but nothing says how many agencies offer them. Not given (E)."},
+    {"q": "One equipment failure can force some riders to take a much longer route.", "a": "C", "t": "inference", "ev": "a single broken elevator can make an entire station unusable for a wheelchair user, who may have to travel several stops further and backtrack", "x": "Paragraph C: one broken elevator can mean travelling several stops further and backtracking."},
+    {"q": "Buses that lower themselves at the curb can help services run on time.", "a": "B", "t": "paraphrase", "ev": "speed up boarding for everyone, which helps buses stay on schedule", "x": "Paragraph B: kneeling low-floor buses speed up boarding, which helps buses stay on schedule."},
+    {"q": "Consulting disabled riders late in a project can lead to avoidable expenses.", "a": "D", "t": "inference", "ev": "they often end up paying to fix problems that could have been prevented at little cost", "x": "Paragraph D: late consultation often means paying to fix problems that could have been prevented cheaply."},
+    {"q": "Installing elevators in an older station usually takes more than five years.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph C discusses the cost of retrofitting stations with elevators, but not how long it takes. Not given (E)."},
+    {"q": "Information about elevators posted online is not always helpful at the moment riders need it.", "a": "C", "t": "inference", "ev": "a website is of little use to someone who discovers the problem only after arriving on the platform", "x": "Paragraph C: critics say the online status is of little use once a rider is already on the platform."},
+    {"q": "Taking away the option to pay with cash has drawn criticism.", "a": "D", "t": "paraphrase", "ev": "several agencies have faced complaints after removing cash options", "x": "Paragraph D: several agencies faced complaints after removing cash options."}
+   ]
+  },
+  "p4": {
+   "title": "A Lower Number on a Sign Won’t Slow Our Streets",
+   "byline": "Opinion | by Garrett Lindahl, retired traffic engineer",
+   "text": "Next month, council will vote on a proposal to lower the default speed limit on every residential street in the city from 50 km/h to 30 km/h. The motivation is admirable. A pedestrian struck at 30 km/h is far more likely to survive than one struck at 50, and the physics of that are not up for debate. If I believed that changing a number on a sign would change the speed at which people drive, I would support the motion without hesitation. After thirty-four years as a traffic engineer, I do not.\n\nHere is the uncomfortable truth my profession learned long ago: drivers choose their speed mostly according to how a street looks and feels, not according to the sign. A wide, straight road with good sightlines and no parked cars invites speed, whatever the posted limit says. When cities lower limits without changing the street, average speeds typically fall by only two or three kilometres an hour. That is not nothing, but it is a long way from thirty.\n\nThe gap between the posted limit and actual behaviour creates its own problems. When most drivers on a street are breaking the law, enforcement becomes arbitrary. Police cannot ticket everyone, so they ticket some, and drivers come to see the limit as a revenue tool rather than a safety measure. Meanwhile, pedestrians and parents may assume that a 30 sign means traffic is moving at 30, and let their guard down accordingly.\n\nNone of this means we should accept the status quo. Streets where children walk to school, streets bordering parks and narrow streets with no sidewalks should absolutely have lower limits. But those lower limits must come with physical changes that make 30 feel natural: curb extensions that narrow the road at intersections, raised crosswalks, speed humps, planters and on-street parking that breaks up long, straight stretches. Several neighbourhoods in our own city have done exactly this, and measured speeds there have dropped by ten kilometres an hour or more.\n\nSupporters of the city-wide motion will say that it is a first step, and that physical changes can follow. I would be more persuaded if the budget said so. The proposal sets aside two million dollars, almost all of it for new signs, and nothing at all for redesign. Signs are cheap; concrete is not. Once the signs are up and council has claimed a victory, I fear there will be little appetite for the more expensive work that actually slows cars down.\n\nThere is also a fairness issue that deserves more attention than it has received. Some residential streets in the city function as collector roads, carrying buses and thousands of vehicles a day. Dropping them to 30 would slow transit, and riders, many of whom have no car, would pay for it in longer trips.\n\nMy proposal is modest. Instead of a blanket change, council should identify the two hundred residential streets with the highest number of pedestrians and the worst collision records, lower the limit on those, and pair every new sign with physical measures within the same budget year. It would cover fewer streets at first. It would also work.",
+   "qs": [
+    {"q": "What is the writer’s main argument?", "o": ["Speed limits on residential streets should stay at 50 km/h.", "Lower limits are dangerous because drivers ignore them.", "Police should enforce existing limits more strictly.", "Lower limits need street design changes to be effective."], "a": 3, "t": "main", "ev": "drivers choose their speed mostly according to how a street looks and feels, not according to the sign", "x": "He argues that drivers respond to street design, so lower limits must be paired with physical changes. He supports lower limits on some streets, so keeping 50 everywhere is not his view."},
+    {"q": "According to the writer, what happens when limits are lowered without changing the street?", "o": ["Speeds fall only slightly.", "Collisions increase sharply.", "Drivers avoid those streets.", "Speeds fall by about ten km/h."], "a": 0, "t": "paraphrase", "ev": "average speeds typically fall by only two or three kilometres an hour", "x": "Without redesign, average speeds drop only two or three km/h. The ten km/h drop happened in neighbourhoods that did make physical changes."},
+    {"q": "Why does the writer mention the proposal’s budget?", "o": ["To show that the plan is too expensive", "To argue that signs should be made larger", "To suggest redesign may never be funded", "To prove that council has already acted"], "a": 2, "t": "purpose", "ev": "almost all of it for new signs, and nothing at all for redesign", "x": "The budget pays almost only for signs, so he fears the costly physical work will never follow. He calls signs cheap, so he isn’t saying the plan is too expensive."},
+    {"q": "What concern does the writer raise about collector roads?", "o": ["They have too few pedestrians to justify signs.", "Slower speeds there would lengthen bus trips.", "Residents on those roads oppose the change.", "They already have speed humps and planters."], "a": 1, "t": "detail", "ev": "Dropping them to 30 would slow transit", "x": "Collector roads carry buses, so a 30 limit would slow transit and lengthen trips for riders without cars. The opinions of residents on those roads are never mentioned."},
+    {"q": "How would you describe the writer’s attitude toward the motion’s supporters?", "o": ["He dismisses their safety concerns as exaggerated.", "He believes they are mainly interested in fines.", "He agrees with them completely about the method.", "He respects their goal but doubts their approach."], "a": 3, "t": "attitude", "ev": "The motivation is admirable.", "x": "He calls the motivation “admirable” and accepts the physics of survival rates, but doubts that signs alone will work. It is drivers, not supporters, who he says see limits as a revenue tool."}
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I live on one of the long, straight residential streets Mr. Lindahl describes, and I can confirm that a sign alone won’t {1} drivers who treat it as a shortcut. He’s right that the street’s design is the real problem. When the city added two speed humps near the park last year, the difference was {2}.\n\nWhere I disagree is with his plan to focus on two hundred streets. Ours has had plenty of near-misses but no recorded collision, so it would almost certainly {3}. Waiting for someone to get hurt before acting seems backwards to me.\n\nI also think he underestimates signs. Even a reduction of {4} matters when a child steps out between parked cars. Why not lower the limit everywhere now and {5}, instead of choosing one or the other?",
+    "blanks": [
+     {"o": ["slow down", "attract", "inform", "punish"], "a": 0, "t": "coherence", "ev": "drivers choose their speed mostly according to how a street looks and feels, not according to the sign", "x": "Agreeing with the writer, she says a sign alone won’t slow down drivers who use her street as a shortcut. “Attract” and “inform” don’t fit her point about speed."},
+     {"o": ["barely noticeable", "immediately obvious", "only temporary", "hard to measure"], "a": 1, "t": "inference", "ev": "measured speeds there have dropped by ten kilometres an hour or more", "x": "The article reports large speed drops where streets were physically changed, and she confirms the humps made an obvious difference. “Barely noticeable” describes signs alone, not design changes."},
+     {"o": ["receive new speed humps", "be closed to through traffic", "be left off the list", "lose its bus route"], "a": 2, "t": "inference", "ev": "the two hundred residential streets with the highest number of pedestrians and the worst collision records", "x": "The writer would choose streets with the worst collision records; with no recorded collision, her street would be left off. That is why she objects to waiting for someone to be hurt."},
+     {"o": ["ten kilometres an hour", "twenty kilometres an hour", "two or three kilometres an hour", "thirty kilometres an hour"], "a": 2, "t": "detail", "ev": "average speeds typically fall by only two or three kilometres an hour", "x": "The writer plays down the two-or-three km/h drop from signs alone; she argues even that small reduction matters for a child. Ten km/h was the result of physical redesign."},
+     {"o": ["remove the speed humps", "hire more police officers", "raise limits on collector roads", "add physical changes over time"], "a": 3, "t": "coherence", "ev": "physical changes can follow", "x": "She sides with the motion’s supporters: lower limits now and add physical measures later, rather than choosing between them. Removing humps would contradict her own experience."}
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Last Friday, you travelled on an intercity bus. When you got off, you left a bag containing important items under your seat. You have called the bus company’s lost-and-found line twice, but no one has answered.",
+   "bullets": [
+    "Describe your trip and the bag you left behind",
+    "Explain why the items are important to you",
+    "Say what you would like the company to do"
+   ],
+   "model": "Dear Customer Service Team,\n\nI am writing about a bag I left on one of your buses last Friday, October 17. I travelled on the 2:15 p.m. service from Kelowna to Kamloops, seat 14, and got off at the downtown Kamloops terminal at about 4:40. Only when I reached my sister’s house did I realize that I had left a small navy-blue backpack under my seat.\n\nThe backpack contains a silver laptop with a cracked corner, a charging cable, a folder of documents and a pair of reading glasses in a red case. The laptop is essential for my work as a freelance translator, and the folder holds my original citizenship papers, which would be extremely difficult to replace.\n\nI have called your lost-and-found line twice, but both times the voicemail box was full. Could you please check whether the backpack was found when the bus was cleaned and let me know where I can collect it? If necessary, I would gladly pay to have it shipped to Kelowna.\n\nYou can reach me at 250-555-0148 at any time. Thank you for your help.\n\nSincerely,\nNadia Belhaj"
+  },
+  "t2": {
+   "intro": "Your provincial government is planning a major transportation investment between two large cities that are 300 kilometres apart, and it is asking residents for their opinion.",
+   "question": "Which option do you prefer?",
+   "a": "Build a high-speed passenger rail line that would cut travel time between the two cities to 90 minutes. It would open in about 12 years.",
+   "b": "Widen the existing highway from four lanes to six to reduce congestion. The work would be finished in about 4 years.",
+   "model": "Although the high-speed rail line is the more exciting idea, I would choose Option B, widening the highway, because it would solve a real problem much sooner and help more people.\n\nThe most important factor for me is timing. Twelve years is a very long wait, and large rail projects in Canada have a history of running late and over budget. The highway could be finished in four years. In the meantime, thousands of commuters, truck drivers and families would continue to lose hours in traffic every week.\n\nSecondly, the highway serves everyone along the corridor, not just people travelling between the two big cities. Small towns in between depend on it for deliveries, tourism and access to hospitals, and a rail line with few stops would do little for them. Most freight also travels by truck, so a wider highway supports the regional economy directly.\n\nI recognize that rail is cleaner, and that new lanes can eventually fill up with more traffic. However, as electric vehicles become more common, that environmental gap is narrowing. For these reasons, I believe Option B is the more practical investment."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend is moving from a small town to a large city for a new job. She owns a car and is not sure whether to bring it with her or sell it. Advise her.",
+   "model": "That’s a big move, congratulations! My honest advice would be to sell the car, or at least not to rush into bringing it, and let me explain why. In a big city, owning a car is a lot more expensive than in a small town. Insurance rates are usually much higher, and parking can be a nightmare. Many apartment buildings charge a hundred and fifty or two hundred dollars a month just for a spot, and parking downtown during the day can cost twenty dollars or more. On top of that, you’ll probably spend a lot of time sitting in traffic. Before you decide, look at where your new office is and where you’re planning to live. If you can get to work by subway or bus in under forty-five minutes, you probably won’t miss the car much. For weekend trips or big shopping runs, you can use a car-share service or rent a car now and then, and it’ll still cost far less than owning one. That said, if your job requires you to visit clients outside the city, or the transit near your new place is poor, it might be worth keeping. Maybe try living there for a couple of months first, and leave the car with your parents in the meantime."
+  },
+  "t2": {
+   "prompt": "Talk about a memorable journey you took by train, bus or boat. Where were you going, and what made it memorable?",
+   "model": "One journey I’ll never forget was an overnight ferry I took with my family from Nova Scotia to Newfoundland when I was about twelve. We’d booked a tiny cabin with four bunk beds, and my brother and I argued over the top bunks for about an hour. What made it memorable, though, was the evening. My dad woke us up around ten and took us out on the deck, and the sky was completely clear. I had never seen so many stars in my life, because we’d always lived in the city. Then a crew member pointed out some dolphins following the boat, and we could see them jumping in the light from the windows. I barely slept that night because I was so excited. Even now, whenever I see the ocean, I think about that trip."
+  },
+  "t3": {
+   "scene": {
+    "bg": "winter",
+    "alt": "A snowy residential street on a winter morning, with snow still falling. Two houses stand in the background, one red and one beige, with pine trees beside them. In the middle of the street, a green car is stuck in a snowbank, and two people in winter hats are pushing it from behind. Nearby, a man in a blue jacket is shovelling snow from his driveway. On the right, a big yellow snowplow truck with “PLOW” written on it is coming down the street. On the left, a child in a purple jacket waves next to a snowman. An older man holding a cup stands on the right beside a black dog, watching.",
+    "items": [
+     ["pine", 30, 250, 0.9],
+     ["house", 130, 250, "#c0392b", "#2c3e50"],
+     ["house", 330, 248, "#f5cba7", "#5d6d7e"],
+     ["pine", 440, 245, 0.7],
+     ["streetlamp", 470, 260],
+     ["car", 220, 362, "#27ae60"],
+     ["person", 300, 366, {"shirt": "#e67e22", "pose": "walk", "flip": true, "hat": "#c0392b"}],
+     ["person", 325, 368, {"shirt": "#16a085", "pose": "walk", "flip": true, "hat": "#2c3e50", "skin": "#8d5524"}],
+     ["person", 395, 384, {"shirt": "#2980b9", "hold": "shovel", "hat": "#34495e"}],
+     ["truck", 550, 372, "#f1c40f", "PLOW"],
+     ["snowman", 70, 388],
+     ["person", 120, 390, {"kid": true, "shirt": "#8e44ad", "pose": "wave", "hat": "#e84393"}],
+     ["dog", 455, 394, "#222"],
+     ["person", 490, 394, {"shirt": "#7f8c8d", "hold": "cup", "glasses": true, "flip": true, "hair": "#ecf0f1"}]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This is a snowy residential street on a winter morning, and it’s still snowing quite a bit. In the background there are two houses, a red one and a beige one, with pine trees beside them. In the middle of the street, a green car seems to be stuck in a snowbank, and two people in winter hats are leaning in and pushing it from behind, trying to get it moving. Right next to them, a man in a blue jacket is shovelling snow off his driveway. On the right, a big yellow snowplow with the word Plow on the side is coming down the street. On the left, a little kid in a purple jacket is waving, standing beside a snowman. And on the right, an older man with a cup of coffee is standing next to a black dog, just watching everything."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will happen in the next few minutes. First, the two people pushing the green car will probably manage to get it free, but the wheels will likely spin and spray slush all over them, so they’ll end up laughing and covered in snow. Then the snowplow will come down the street, and unfortunately, it will probably push a big ridge of heavy snow right across the end of the driveway that the man in the blue jacket has just finished shovelling. He’ll most likely throw his hands up in frustration and have to start all over again. The older man with the coffee might offer to help, or at least sympathize. Meanwhile, the black dog will probably get excited by the noise of the plow and start barking, and the child by the snowman may run inside to stay out of the way."
+  },
+  "t5": {
+   "intro": "You and your partner have a 6:00 a.m. flight and need to be at the airport by 4:00 a.m. You are deciding how to get there. Choose the option you prefer. In the next section, you will need to persuade your partner that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "Taxi", "details": ["About $65 each way", "35-minute ride at that hour", "Picks you up at your door at 3:20 a.m.", "Must be booked the night before", "No luggage limit"]},
+    {"title": "Airport express bus", "details": ["$12 per person each way", "First bus leaves downtown at 3:30 a.m.", "55-minute trip with several stops", "Stop is a 10-minute walk from home", "Two bags per person"]}
+   ],
+   "other": {"title": "Driving and parking at the airport", "details": ["$24 per day in the long-term lot", "4 days of parking = $96", "30-minute drive", "Shuttle from lot to terminal every 15 minutes", "Car is waiting when you return"]},
+   "otherWho": "Your partner prefers",
+   "persuade": "Your partner prefers driving and parking at the airport. Persuade your partner that your choice is better.",
+   "model": "I know driving ourselves feels like the most independent option, but I really think the taxi makes more sense for this trip. First, think about the timing. If we drive, we leave at three-thirty, park in the long-term lot, then wait for a shuttle that only comes every fifteen minutes. If we just miss one, we’re cutting it close for a six o’clock flight. The taxi picks us up at our door and drops us right at departures. Second, the cost is closer than it looks. Parking for four days is ninety-six dollars, plus gas. The taxi is sixty-five each way, so yes, it’s a bit more, but not by much. And honestly, after a long flight home, the last thing I want is to drive at midnight when I’m exhausted. Let’s book the taxi tonight and actually relax on the way."
+  },
+  "t6": {
+   "situation": "You lent your car to a close friend for the weekend. When you got it back, you noticed a new dent and a long scratch on the rear bumper, but your friend did not mention them. The repair will cost about $700. Your spouse wants you to make an insurance claim, but you would lose your claims-free discount.",
+   "options": [
+    "Talk to your friend and ask about the damage.",
+    "Talk to your spouse and explain why you do not want to make an insurance claim."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Jordan, thanks again for bringing the car back on Sunday, and I hope the trip to the cottage was fun. I wanted to ask you about something, and I hope it doesn’t come across the wrong way. When I washed the car yesterday, I noticed a dent and a long scratch on the rear bumper that weren’t there before. I’m not accusing you of anything; maybe it happened in a parking lot and you didn’t even notice. But I wanted to talk to you directly rather than wonder about it. The body shop quoted me about seven hundred dollars, and if I go through insurance, I’ll lose my claims-free discount, which would cost me even more. Would you be willing to split the repair with me? Honestly, our friendship matters much more to me than a bumper, so I’d really like us to sort this out together."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should the minimum age for getting a driver’s licence be raised to 18? Explain your reasons.",
+   "model": "In my opinion, the minimum age shouldn’t be raised to eighteen, although I do think the rules for young drivers could be stricter. My first reason is that, in much of Canada, a licence isn’t a luxury. In rural areas and small towns, there’s often no bus at all, and a sixteen-year-old may need to drive to school, to a part-time job or to help a family member get to appointments. Raising the age would put a real burden on those families. Secondly, I believe experience matters more than age. Research suggests that new drivers are most at risk in their first year behind the wheel, whatever their age. An eighteen-year-old with no experience isn’t automatically safer than a seventeen-year-old who has spent a year driving with a parent beside them. That’s why graduated licensing makes sense: young drivers start with restrictions, like zero alcohol and limits on night driving and passengers, and they earn more freedom gradually. If we want to improve safety, I’d rather see more required practice hours and stricter enforcement of those restrictions. So, overall, I think we should keep the age at sixteen but make the learning period more demanding."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "On a city sidewalk stands an enormous yellow dog sculpture, sitting with its tail raised; it is about as tall as a two-storey building. A speech bubble beside its head reads “NEXT BUS: 4 MIN”, as if it were a digital sign. To the right are an ordinary “BUS STOP” sign and a bench, where a woman sits looking at her phone. A child beside her points up at the giant dog, and a man in a grey coat stands nearby. Behind them is a grey office building labelled “TRANSIT”, and a streetlamp stands on the left.",
+    "items": [
+     ["cloud", 120, 55, 1],
+     ["building", 400, 300, 180, 200, "#bfc9d1", "TRANSIT"],
+     ["streetlamp", 40, 385],
+     ["big", "dog", 210, 386, 5, "#e1b12c"],
+     ["speech", 320, 175, "NEXT BUS: 4 MIN"],
+     ["sign", 400, 386, "BUS STOP", "#fff"],
+     ["bench", 430, 388, 90],
+     ["person", 455, 388, {"shirt": "#c0392b", "pose": "sit", "hold": "phone", "hairStyle": "long", "hair": "#4a2c1a"}],
+     ["person", 540, 390, {"kid": true, "shirt": "#3498db", "pose": "point", "flip": true}],
+     ["person", 590, 392, {"shirt": "#7f8c8d", "flip": true, "hat": "#2c3e50", "skin": "#c68642"}]
+    ]
+   },
+   "prompt": "Your city is choosing a design for new bus shelters, and you have seen this unusual proposal. Call a friend who works for the city, describe the design, and explain whether you think the city should choose it. Your friend cannot see the picture.",
+   "model": "Hi Ahmed, it’s me. I just saw the designs for the new bus shelters on the city website, and one of them is, well, unusual. Picture a giant yellow dog, about as tall as a two-storey building, sitting on the sidewalk right beside the bus stop with its tail in the air. Next to its head there’s a speech bubble that’s actually a digital screen, and it tells you when the next bus is coming, like “Next bus: four minutes”. There’s an ordinary bench and a bus stop sign beside it. Honestly, I love it as public art, and kids would adore it. But I don’t think the city should choose it for a bus stop. It doesn’t give anyone shelter from rain or snow, and in January that’s what riders need most. Maybe the dog could go in a park instead, with a practical shelter at the stop."
+  }
+ }
+}

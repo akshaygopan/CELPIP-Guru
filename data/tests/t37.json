@@ -1,0 +1,434 @@
+{
+ "id": "t37",
+ "title": "Test 37",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "A couple are looking at a large increase in their monthly internet and TV bill.",
+    "sp": {
+     "A": {"name": "Yvette", "g": "f", "acc": "en-CA", "rate": 1.03},
+     "B": {"name": "Oskar", "g": "m", "acc": "en-AU", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Oskar, have you seen this month’s bill from Tidewell? It’s a hundred and eighty-three dollars."],
+       ["B", "A hundred and eighty-three? It’s been a hundred and fifteen since we moved in. Did we order a movie or something?"],
+       ["A", "No. I went through it line by line. Our promotional pricing ended on the fourteenth. The internet went from sixty to ninety-five, the TV package from forty to sixty-five, and the home phone, which I forgot we even had, went from fifteen to twenty-three."],
+       ["B", "So we’re paying almost seventy dollars more a month for exactly the same thing. That’s over eight hundred a year."],
+       ["A", "Eight hundred and sixteen. I did the math in the car."],
+       ["B", "Of course you did. Did they warn us?"],
+       ["A", "Technically, yes. There was a line in the email they sent in August, under a heading called ‘Account updates’. I deleted it without opening it, and I’m guessing you did too."],
+       ["B", "I didn’t even see it. Okay, well, we’re not paying that. Honestly, when was the last time we used the home phone?"],
+       ["A", "Your mother calls it on Sundays. That’s it. Everyone else uses our cells."],
+       ["B", "Then that’s twenty-three dollars a month so my mother can avoid dialling a different number. I’ll talk to her. The TV I’m less sure about. I watch the hockey on it."],
+       ["A", "You watch hockey on it twice a week, in season. That’s sixty-five dollars a month for maybe eight hours."],
+       ["B", "When you put it like that, it sounds ridiculous. Fine. Let’s figure out what we actually need before anyone calls them, because I know they’ll try to sell us something."]
+      ],
+      "qs": [
+       {"q": "Why has the couple’s bill increased?", "o": ["They added new services without realizing it.", "They were charged for a movie they did not order.", "The company raised prices for all its customers.", "A discounted rate for their services has expired."], "a": 3, "t": "paraphrase", "ev": "Our promotional pricing ended on the fourteenth.", "x": "Their promotional pricing ended, so the same services now cost more. They forgot about the home phone, but it is not a new service, and the movie was only Oskar’s guess."},
+       {"q": "What can be inferred about the company’s notice of the change?", "o": ["It was sent by regular mail instead of email.", "It was easy to overlook.", "It arrived after the new prices had started.", "It offered them a cheaper replacement package."], "a": 1, "t": "inference", "ev": "under a heading called ‘Account updates’", "x": "The warning was a single line under a vague heading in an August email, and both of them missed it. It was sent by email in August, before the change on the fourteenth."},
+       {"q": "How does Oskar react to Yvette’s comment about the TV?", "o": ["He reluctantly admits the cost is hard to justify.", "He insists that hockey is worth the full price.", "He suggests sharing a TV package with his mother.", "He thinks she has counted the hours incorrectly."], "a": 0, "t": "attitude", "ev": "When you put it like that, it sounds ridiculous.", "x": "Once she points out $65 for about eight hours, he admits it “sounds ridiculous”. He had defended the TV for hockey but gives up that position here."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "So, option one. We switch to Brightlane. Their ad says internet for fifty-five a month."],
+       ["A", "For the first twelve months. After that, it’s eighty-five, which puts us right back where we are now, a year from now. And they charge a hundred and twenty for installation."],
+       ["B", "We could switch every year, I suppose. Chase the promotions."],
+       ["A", "My sister does that. She spends a whole Saturday every year on the phone and has had three different modems in three years. I don’t want that to be our life."],
+       ["B", "Fair. What about cancelling TV completely and just streaming the hockey?"],
+       ["A", "I looked into that. The streaming package that has your team is twenty-four ninety-nine a month, but only during the season. In the summer, you’d cancel it. So it averages out to maybe fifteen a month over the year."],
+       ["B", "That’s a lot better than sixty-five. But our internet would still be ninety-five."],
+       ["A", "Right. Which is why I think we should call Tidewell and say we’re planning to leave. My colleague says if you ask for the loyalty department, they almost always find a discount. She got her internet down by thirty dollars."],
+       ["B", "Did she actually have to threaten to cancel?"],
+       ["A", "She said she just told them about the competitor’s price. Politely."],
+       ["B", "Okay. Then here’s the plan. Before we call, we drop the home phone and the TV online ourselves, so we don’t get talked into keeping them. Then we call about the internet."],
+       ["A", "Good thinking. If we call with everything still on the account, they’ll spend half an hour trying to sell us a bundle."]
+      ],
+      "qs": [
+       {"q": "Why does Yvette reject switching to Brightlane?", "o": ["The savings would last only a year.", "Brightlane’s internet is slower than Tidewell’s.", "Her sister had a bad experience with Brightlane.", "Brightlane does not offer TV packages."], "a": 0, "t": "inference", "ev": "After that, it’s eighty-five, which puts us right back where we are now, a year from now.", "x": "The low price lasts only twelve months, then rises almost to their current rate, and installation costs extra. Her sister’s story is about switching every year, not about Brightlane specifically."},
+       {"q": "What does Yvette imply about her sister’s approach?", "o": ["It saves more money than calling the loyalty department.", "It is the only way to keep prices low.", "It takes more effort than it is worth to her.", "It has damaged her sister’s credit history."], "a": 2, "t": "attitude", "ev": "I don’t want that to be our life.", "x": "Spending a Saturday on the phone every year and changing modems is a hassle she does not want. She never compares the savings with the loyalty department’s discounts."},
+       {"q": "Why do they plan to cancel some services before calling Tidewell?", "o": ["Cancelling online is cheaper than by phone.", "To avoid being persuaded to keep them", "Because the loyalty department handles only internet", "So that they qualify for the competitor’s price"], "a": 1, "t": "purpose", "ev": "so we don’t get talked into keeping them", "x": "They cancel the TV and phone first so the agent cannot persuade them to keep them. Nothing suggests online cancellation is cheaper."}
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Okay, I’m back. That took forty minutes, mostly on hold."],
+       ["B", "And?"],
+       ["A", "First, the agent tried to convince me to keep the TV, with a ‘special’ of fifty dollars a month. I said no. Then I mentioned Brightlane’s fifty-five, and she said she couldn’t match that, but she could offer seventy for the internet, guaranteed for two years."],
+       ["B", "Seventy for two years. So that’s twenty-five less than now. How does that compare with switching?"],
+       ["A", "If we’d switched, we’d pay fifty-five for a year, then eighty-five, plus the installation fee. Over two years, Tidewell actually comes out a little cheaper, and we keep the same modem and the same email address."],
+       ["B", "Is there a catch?"],
+       ["A", "There’s a two-year agreement. If we cancel early, we pay back the discount for the months we’ve used. She was upfront about that."],
+       ["B", "Well, we’re not planning to move. I guess I can live with that. What did you tell her?"],
+       ["A", "I said I’d think about it and call back tomorrow. The offer stays on our account for seven days. I wanted to check with you first, since it locks us in."],
+       ["B", "Take it. Seventy for the internet, fifteen-ish for hockey, no phone, no TV. We’ve gone from a hundred and eighty-three to about eighty-five."],
+       ["A", "And I’ll set a reminder for twenty-two months from now, so we don’t get caught out again when the two years are up."],
+       ["B", "Good. And next time an email says ‘Account updates’, I’m actually going to open it."]
+      ],
+      "qs": [
+       {"q": "Why does Yvette think Tidewell’s offer is better than switching?", "o": ["It includes the TV package at a reduced price.", "It matches Brightlane’s promotional rate.", "It has no conditions if they leave early.", "It would cost them less over the full period."], "a": 3, "t": "inference", "ev": "Over two years, Tidewell actually comes out a little cheaper", "x": "Over two years, $70 a month costs less than Brightlane’s $55 then $85 plus installation. The agent could not match $55, and leaving early means repaying the discount."},
+       {"q": "Why didn’t Yvette accept the offer immediately?", "o": ["She wanted her partner’s agreement before committing.", "She needed more time to compare it with Brightlane’s offer.", "The agent asked her to call back the next day.", "The offer would only start in seven days."], "a": 0, "t": "inference", "ev": "I wanted to check with you first, since it locks us in.", "x": "Because the offer locks them in for two years, she wanted Oskar’s agreement first. Seven days is how long the offer stays on the account, not when it starts."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A customer is speaking with a staff member at the front desk of a fitness club.",
+    "sp": {
+     "A": {"name": "Declan", "g": "m", "acc": "en-GB", "rate": 1.02},
+     "B": {"name": "Maribel", "g": "f", "acc": "en-US", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Hi, I’d like to cancel my membership, please. My name’s Maribel Ortiz."],
+       ["A", "Sorry to hear that, Maribel. Let me pull up your account. I see you’re on the annual plan, which you signed in March. Can I ask why you’re cancelling?"],
+       ["B", "I’m moving across the city next month, to the west end. It’s just too far to come here before work."],
+       ["A", "I understand. So, under the annual agreement, you can cancel at any time with thirty days’ written notice, but there’s an early termination fee of ninety-nine dollars. The fee is waived in two situations: a medical reason with a doctor’s note, or a move of more than forty kilometres from the club."],
+       ["B", "I’m not sure exactly how far it is. Maybe twenty-five kilometres?"],
+       ["A", "Then unfortunately it wouldn’t qualify. But before you decide, have you looked at our west end location on Halvorsen Road? Your membership is valid at all three of our clubs."],
+       ["B", "Really? I assumed it was only this one. Nobody mentioned that when I signed up."],
+       ["A", "It’s on the back of your membership card, in very small print, to be fair. The Halvorsen club is newer, actually, and it has a pool, which this one doesn’t."],
+       ["B", "Hmm. A pool would be nice. But I’m not sure I’ll have the time. The new job starts at seven thirty."],
+       ["A", "They open at five thirty on weekdays. Another option, if you want to wait until you’ve settled in, is to freeze your membership. It’s ten dollars a month for up to three months, and then it restarts automatically."],
+       ["B", "So if I freeze it and still decide to cancel later, I’d pay the freeze fees and then the ninety-nine anyway?"],
+       ["A", "That’s right, I’m afraid. And the thirty days’ notice would start from when you hand in the form."],
+       ["B", "Then freezing doesn’t make much sense for me. I think I’ll just try the Halvorsen club for the first month. If I hate it, I’ll come back and cancel properly."],
+       ["A", "That sounds like a sensible plan. I’ll leave a note on your account so that if you do cancel, whoever helps you will know you asked about it today."],
+       ["B", "Would that change anything about the notice period?"],
+       ["A", "Not officially, no. But it does show you raised it before the move."]
+      ],
+      "qs": [
+       {"q": "Why doesn’t Maribel qualify to have the fee waived?", "o": ["She has not provided a note from her doctor.", "She signed her annual agreement too recently.", "Her new home is not far enough from the club.", "She did not give thirty days’ written notice."], "a": 2, "t": "inference", "ev": "Then unfortunately it wouldn’t qualify.", "x": "Her move of about 25 km is less than the 40 km needed for a waiver. A doctor’s note matters only for medical reasons, which she does not claim."},
+       {"q": "What did Maribel not know about her membership?", "o": ["It could be frozen for up to three months.", "It could be used at other locations.", "It included access to a swimming pool.", "It required notice to be given in writing."], "a": 1, "t": "detail", "ev": "Your membership is valid at all three of our clubs.", "x": "She assumed her membership worked only at this club; it is valid at all three. The pool belongs to the Halvorsen club, not to her current one."},
+       {"q": "What does Declan imply about the information on the membership card?", "o": ["It was printed incorrectly when she joined.", "It contradicts the terms of the annual plan.", "It was added after she signed her agreement.", "It was there, but not easy to notice."], "a": 3, "t": "inference", "ev": "in very small print, to be fair", "x": "“To be fair” admits that the information existed but was printed very small, so it was easy to miss. He does not suggest an error or a later change."},
+       {"q": "Why does Maribel decide against freezing her membership?", "o": ["It could cost her more if she cancels in the end.", "The club does not open early enough for her.", "The freeze cannot last longer than one month.", "Her membership would end automatically afterward."], "a": 0, "t": "inference", "ev": "I’d pay the freeze fees and then the ninety-nine anyway?", "x": "If she froze it and then cancelled, she would pay both the freeze fees and the $99. The membership restarts automatically after a freeze rather than ending."},
+       {"q": "What will Maribel most likely do next month?", "o": ["Cancel her membership and pay the ninety-nine dollars", "Freeze her membership until she settles in", "Use the club that is closer to her new home", "Ask for her notice period to start early"], "a": 2, "t": "prediction", "ev": "I think I’ll just try the Halvorsen club for the first month.", "x": "She plans to try the west-end Halvorsen club first and cancel only if she dislikes it. She rejects freezing, and the note on her account does not change the notice period."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A caller is speaking with a representative at a credit reporting agency about a problem on his credit report.",
+    "sp": {
+     "A": {"name": "Precious", "g": "f", "acc": "en-CA", "rate": 1.03},
+     "B": {"name": "Lachlan", "g": "m", "acc": "en-GB", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Hi, I’m calling because I checked my credit report for the first time last night, and there’s an account on it that I’ve never heard of. A phone contract, apparently in collections, for six hundred and twelve dollars."],
+       ["A", "I’m sorry to hear that. That’s definitely something we can help with. First, can I confirm that you don’t recognize the account at all? Sometimes people forget about a contract they signed years ago, or it’s listed under the company’s parent name."],
+       ["B", "No, I’ve had the same phone provider for eight years. This one was opened last February, in a city I’ve never lived in."],
+       ["A", "Okay. Then it sounds like it could be identity theft, and there are two separate things to do. One is disputing the account on your report. The other is protecting yourself from further fraud."],
+       ["B", "Let’s start with the dispute."],
+       ["A", "You can file it online through your account or by mail. Online is faster. Once we receive it, we contact the company that reported the account, and they have thirty days to respond. If they can’t verify that the account is yours, it’s removed from your report."],
+       ["B", "And if they say it is mine?"],
+       ["A", "Then it stays, but you can add a statement of up to a hundred words to your file explaining your side, which lenders will see. You can also take it up with the phone company directly or with the provincial consumer office."],
+       ["B", "Okay. And the fraud protection?"],
+       ["A", "You have two options. A fraud alert is free. It tells lenders to contact you by phone before approving any new credit. A standard alert lasts one year. If you send us a police report, we can extend it to six years."],
+       ["B", "I haven’t gone to the police yet. Should I?"],
+       ["A", "I’d recommend it, especially since money is involved. It also helps with the phone company. The second option is a credit freeze, which is stronger: nobody can check your credit at all until you lift it, even you. Placing it is free, but it costs ten dollars each time you lift it."],
+       ["B", "I’m about to apply for a car loan, though. Would a freeze get in the way?"],
+       ["A", "It would, unless you lift it before the dealer checks your credit. Given your timing, the alert might be more practical for now."],
+       ["B", "Makes sense. One more thing. Will the dispute lower my credit score?"],
+       ["A", "No. Filing a dispute has no effect on your score. In fact, if the collection account is removed, your score will likely go up. Just remember that the report is free, but the score through our site is a paid product."]
+      ],
+      "qs": [
+       {"q": "Why does Precious ask Lachlan whether he recognizes the account?", "o": ["Accounts may be listed under unfamiliar company names.", "Collection accounts are often reported by mistake.", "He may have signed with his old phone provider.", "Disputes are not possible for accounts over a year old."], "a": 0, "t": "purpose", "ev": "it’s listed under the company’s parent name", "x": "She checks because people sometimes forget old contracts or see them under a parent company’s name. She never says collections are often reported by mistake."},
+       {"q": "What happens if the company cannot confirm that the account belongs to Lachlan?", "o": ["He must add a statement to his file.", "The dispute is sent to the consumer office.", "The company gets another thirty days.", "The account is deleted from his report."], "a": 3, "t": "paraphrase", "ev": "If they can’t verify that the account is yours, it’s removed from your report.", "x": "An account that cannot be verified is removed. The hundred-word statement is an option only if the company says the account is his."},
+       {"q": "What is the purpose of a fraud alert?", "o": ["To stop anyone from checking his credit", "To make lenders confirm new credit with him", "To report the fraud to the police automatically", "To freeze the account that is in collections"], "a": 1, "t": "paraphrase", "ev": "It tells lenders to contact you by phone before approving any new credit.", "x": "An alert makes lenders phone him before approving new credit. Blocking all credit checks describes a freeze, the stronger option."},
+       {"q": "How can Lachlan make the fraud alert last longer?", "o": ["By paying ten dollars to renew it", "By placing a credit freeze as well", "By providing official proof of the crime", "By filing the dispute online"], "a": 2, "t": "detail", "ev": "If you send us a police report, we can extend it to six years.", "x": "A police report extends the alert from one year to six. Ten dollars is the fee for lifting a freeze, not for an alert."},
+       {"q": "Why does Precious suggest the fraud alert instead of a freeze for now?", "o": ["A freeze costs ten dollars to place.", "His upcoming loan application could be blocked.", "A freeze would lower his credit score.", "Fraud alerts are accepted by more lenders."], "a": 1, "t": "inference", "ev": "It would, unless you lift it before the dealer checks your credit.", "x": "A freeze would stop the car dealer from checking his credit unless he lifted it first. Placing a freeze is free; only lifting it costs ten dollars."},
+       {"q": "What does Precious say about credit scores?", "o": ["His score will drop while the dispute is open.", "His score comes free with his report.", "His score cannot change until the account is removed.", "Seeing his score through their site costs money."], "a": 3, "t": "detail", "ev": "the score through our site is a paid product", "x": "The report is free, but the score on their site is a paid product. A dispute has no effect on his score."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Felix Ambrose", "g": "m", "acc": "en-US", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "A credit union in Port Aldridge is trying to give residents an alternative to payday lenders, and early results suggest the idea is catching on. Since June, Tamarack Valley Credit Union has offered what it calls Bridge Loans: amounts between three hundred and fifteen hundred dollars, repaid over six to twelve months, at an annual interest rate of nineteen percent."],
+       ["A", "That may not sound cheap, but it’s a fraction of what payday lenders charge. A typical two-week payday loan of five hundred dollars can cost seventy-five dollars or more in fees, which works out to an annual rate of several hundred percent. Chief executive Felix Ambrose says the credit union saw the damage first-hand."],
+       ["B", "We had members coming in with three or four payday loans at once, borrowing from one to pay the other. These weren’t people being careless. Usually it started with a car repair or a dental bill. They needed five hundred dollars by Friday, and the only place that would say yes was the storefront on the corner."],
+       ["A", "To qualify, applicants must have been members for at least three months and have a regular income, but there’s no minimum credit score. Instead, staff look at the applicant’s banking history. And unlike payday loans, Bridge Loans are reported to credit bureaus, so paying on time helps borrowers build their credit."],
+       ["A", "So far, the credit union has issued about four hundred loans. Ambrose says fewer than four percent have gone unpaid, far lower than the board had feared when the program was approved."],
+       ["B", "Honestly, some of our directors expected losses of fifteen percent or more. They were bracing for a program that would cost us money as a kind of community service. It’s turned out to roughly break even."],
+       ["A", "Not everyone is convinced the model can grow. A representative of a payday lending association said credit unions can only offer such loans to their own members and cannot match the speed of a lender that hands out cash in fifteen minutes. Bridge Loans typically take one business day to approve."],
+       ["A", "Tamarack Valley says it plans to share its approach with other credit unions in the province at a conference this spring."]
+      ],
+      "qs": [
+       {"q": "What is the main point of the report?", "o": ["Payday lenders have agreed to lower their fees.", "A lender now offers a cheaper short-term option.", "The province has banned large payday loans.", "A credit union is closing its storefronts."], "a": 1, "t": "main", "ev": "trying to give residents an alternative to payday lenders", "x": "The story is about a credit union offering Bridge Loans as a cheaper alternative to payday loans. Payday lenders have not changed their fees, and no ban is mentioned."},
+       {"q": "According to Ambrose, how did members usually end up with several payday loans?", "o": ["An unexpected expense led them to borrow repeatedly.", "They used the loans to pay for luxuries.", "They were refused loans by their credit union.", "Storefront lenders urged them to borrow more."], "a": 0, "t": "inference", "ev": "Usually it started with a car repair or a dental bill.", "x": "An urgent car repair or dental bill led to a first loan, then borrowing from one lender to pay another. He stresses they were not careless, which rules out luxuries."},
+       {"q": "What is true about qualifying for a Bridge Loan?", "o": ["Applicants need a minimum credit score.", "Applicants must have been members for at least a full year.", "Approval is based on the applicant’s banking record.", "Approval is given within fifteen minutes."], "a": 2, "t": "detail", "ev": "Instead, staff look at the applicant’s banking history.", "x": "Staff look at banking history rather than a credit score. The membership requirement is three months, and fifteen minutes describes payday lenders."},
+       {"q": "How did the program’s results compare with the board’s expectations?", "o": ["Losses were higher than directors had predicted.", "The program made a large profit in its first year.", "Fewer people applied than the board had hoped.", "Far fewer borrowers failed to repay than feared."], "a": 3, "t": "paraphrase", "ev": "far lower than the board had feared when the program was approved", "x": "Under four percent went unpaid, compared with the fifteen percent some directors expected. The program roughly breaks even rather than making a large profit."},
+       {"q": "What weakness does the payday lending representative point out?", "o": ["Bridge Loans are slower and limited to members.", "Bridge Loans are not reported to credit bureaus.", "Credit unions charge more interest than they claim.", "Credit unions refuse people with irregular income."], "a": 0, "t": "viewpoint", "ev": "credit unions can only offer such loans to their own members and cannot match the speed", "x": "He says credit unions serve only members and are slower (one day versus fifteen minutes). Reporting to credit bureaus is presented as an advantage of Bridge Loans."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three housemates are holding a meeting about shared household costs.",
+    "sp": {
+     "A": {"name": "Thandiwe", "g": "f", "acc": "en-CA", "rate": 1.01},
+     "B": {"name": "Rafferty", "g": "m", "acc": "en-GB", "rate": 1.0},
+     "C": {"name": "Mei-Lin", "g": "f", "acc": "en-US", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Okay, so I asked for this house meeting because of the bills. The hydro and gas for October came in at three hundred and ten. Last October, it was two hundred and thirty-five. And the shared grocery fund ran out ten days early."],
+       ["B", "October was cold, though. Everyone’s been running their heaters."],
+       ["A", "Rafferty, I’m going to say this as nicely as I can. Josie has been here five nights a week since August. She showers here, she does laundry here, and she eats here. I like her, I really do. But we’re three people paying for four."],
+       ["B", "She’s not living here. She has her own apartment across town. She just stays over because it’s closer to her work."],
+       ["C", "Raff, I don’t think anyone is accusing her of anything. But Thandi has a point about the numbers. The water bill went up as well, and that one isn’t about the weather."],
+       ["B", "Fine. So what do you want, for her to pay a quarter of the rent?"],
+       ["A", "Honestly, that was my first thought. Four people, four shares."],
+       ["C", "I don’t think that’s fair, actually. The rent doesn’t change whether Josie’s here or not. The landlord charges the same twenty-four hundred either way. If she paid rent, we’d basically be making a profit off her."],
+       ["A", "Hmm. I hadn’t thought of it like that. But the bills and the groceries do change."],
+       ["C", "Exactly. So the question is just what the extra costs are. If utilities are up about seventy-five dollars a month, and the grocery fund is short by, what, a hundred?"],
+       ["A", "Closer to a hundred and twenty."],
+       ["C", "Then something like a hundred and eighty to two hundred a month would cover it."],
+       ["B", "And who pays that? Josie’s still paying full rent on her own place. I don’t want to hand her a bill the first time she’s invited to a house meeting."],
+       ["A", "Then you pay it. She’s your partner. How you sort it out between the two of you is your business."],
+       ["B", "That’s actually fair. I’d rather do that than make it awkward with her. But a hundred and eighty, not two hundred. October was colder than usual, and I don’t want to pay for the weather."],
+       ["C", "I can live with one eighty. Thandi?"],
+       ["A", "Okay. But if she ends up moving in properly, we need to talk about the lease. It only allows three occupants, and the landlord would have to agree."],
+       ["B", "She’s not moving in. At least, not this year."],
+       ["C", "Let’s do one eighty for three months and look at the January bills. If the numbers are way off, we adjust. And Raff, maybe mention to Josie that she’s welcome to add things to the grocery list. She’s always buying oat milk that nobody else drinks."],
+       ["B", "Ha. I’ll pass that on."]
+      ],
+      "qs": [
+       {"q": "Why did Thandiwe call the house meeting?", "o": ["The landlord has raised the monthly rent for the house.", "She wants Josie to move out by January.", "Shared costs rose after a regular guest began staying.", "The October heating bill was calculated incorrectly."], "a": 2, "t": "main", "ev": "But we’re three people paying for four.", "x": "Bills and groceries have gone up since Josie started staying five nights a week. The rent has not changed; Mei-Lin says the landlord charges the same either way."},
+       {"q": "How does Rafferty first respond to the complaint about the bills?", "o": ["He blames another cause for the higher costs.", "He agrees immediately to pay a larger share.", "He admits that Josie has moved in.", "He accuses Thandiwe of using too much heat."], "a": 0, "t": "attitude", "ev": "October was cold, though. Everyone’s been running their heaters.", "x": "He points to the cold weather instead of Josie’s presence. He insists that she is not living there and only agrees to pay later in the discussion."},
+       {"q": "Why does Mei-Lin mention the water bill?", "o": ["To show that Thandiwe’s figures were somewhat exaggerated", "To show that the weather cannot explain every increase", "To suggest Josie should pay only for water", "To argue that the landlord should pay for water"], "a": 1, "t": "purpose", "ev": "that one isn’t about the weather", "x": "The water bill also rose, and cold weather cannot explain that, which weakens Rafferty’s argument. She supports Thandiwe’s numbers rather than questioning them."},
+       {"q": "Why does Mei-Lin object to Josie paying rent?", "o": ["Josie already pays rent for her own apartment.", "The lease does not allow a fourth tenant.", "Rafferty cannot afford to pay a quarter.", "The housemates would gain money they never lost."], "a": 3, "t": "inference", "ev": "If she paid rent, we’d basically be making a profit off her.", "x": "The rent stays the same with or without Josie, so charging her rent would give the others a profit. Josie’s own rent is Rafferty’s point, raised later about who pays."},
+       {"q": "How does Thandiwe react to Mei-Lin’s argument about rent?", "o": ["She rejects it and insists on four equal shares.", "She accepts it but asks for a higher grocery share.", "She is persuaded by a point she had not considered.", "She agrees only if the landlord confirms the rent."], "a": 2, "t": "attitude", "ev": "I hadn’t thought of it like that.", "x": "Thandiwe drops her “four shares” idea after admitting she had not seen it that way. She only corrects the grocery figure; she does not demand a bigger share."},
+       {"q": "Why does Rafferty prefer $180 to $200?", "o": ["Josie has offered to buy her own groceries.", "He thinks the grocery shortfall was overstated by Thandiwe.", "Josie will be staying fewer nights from now on.", "He thinks part of the increase was caused by the cold."], "a": 3, "t": "inference", "ev": "October was colder than usual, and I don’t want to pay for the weather.", "x": "He believes some of the higher utility bill was due to cold weather, not Josie. He never disputes the grocery figure or says Josie will stay less."},
+       {"q": "Who will pay the monthly contribution?", "o": ["Rafferty, who will settle it privately with Josie", "Josie, once she is invited to a house meeting", "Josie and Rafferty, split evenly between them", "All four people, divided by nights stayed"], "a": 0, "t": "detail", "ev": "How you sort it out between the two of you is your business.", "x": "Rafferty pays the housemates and sorts it out privately with Josie. He specifically does not want to hand Josie a bill, and no even split is agreed."},
+       {"q": "What does Mei-Lin suggest at the end?", "o": ["That Josie should stop buying oat milk", "That the arrangement be reviewed after a trial", "That they ask the landlord for a fourth occupant", "That Josie pay two hundred dollars from January"], "a": 1, "t": "detail", "ev": "Let’s do one eighty for three months and look at the January bills.", "x": "She proposes $180 for three months, then a review of January’s bills. The oat milk comment invites Josie onto the grocery list; it does not ask her to stop."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a report about products that get smaller while their prices stay the same.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "m", "acc": "en-CA", "rate": 1.0},
+     "B": {"name": "Annika Strand", "g": "f", "acc": "en-GB", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "If your box of crackers seems to empty faster than it used to, you may not be imagining it. Over the past few years, shoppers have noticed products getting smaller while their prices stay the same or even rise: a chocolate bar that loses a square, a bag of chips with more air, a bottle of dish soap that is a little narrower than before. The practice has a name, shrinkflation, and it has prompted calls for new rules."],
+       ["A", "Consumer groups want manufacturers to be required to label any product whose size has been reduced, for example with a notice on the front of the package for six months. They argue that shoppers notice a price increase immediately but rarely check the weight printed in small type at the bottom of the box. One advocate told us that shrinking a package is ‘a price increase in disguise’, and that the disguise is the problem."],
+       ["A", "Food manufacturers see it differently. An industry association points out that every product already lists its weight or volume, as the law requires, and that companies are facing real increases in the cost of ingredients, packaging and transport. Some customers, they say, actually prefer a smaller package to a higher price, especially for snacks. Mandatory warning labels, the association argues, would add costs that would eventually be passed on to shoppers anyway."],
+       ["A", "Consumer economist Annika Strand thinks both sides are missing the most useful tool."],
+       ["B", "A shrink label tells you that something changed, but only for that one product, and only for a few months. What shoppers really need is to compare. If every shelf tag showed the price per hundred grams in large, clear numbers, in the same unit across similar products, you wouldn’t need to remember what the package used to weigh. You’d see immediately which cereal is the better deal today."],
+       ["A", "Many stores already show unit prices, but Strand says the information is often printed in tiny type, and sometimes in different units for similar items: one per hundred grams, another per kilogram, another per item."],
+       ["B", "When one tag says per hundred grams and the next says per kilogram, most people simply give up. I’ve watched shoppers in studies. They look at the big number, and that’s the end of it."],
+       ["A", "Strand acknowledges that unit pricing doesn’t solve everything. It can’t tell shoppers when a product’s recipe has changed, for instance, which some advocates call skimpflation: cheaper ingredients in the same package. But she argues that consistent unit pricing would be cheaper to introduce than new packaging rules, because it relies on shelf tags rather than redesigned boxes."],
+       ["A", "The province says it is reviewing both proposals and expects to report next year."]
+      ],
+      "qs": [
+       {"q": "Why do consumer groups think shrinkflation needs special rules?", "o": ["Manufacturers are hiding the weight of their products.", "Size cuts are noticed far less than price rises.", "Smaller packages create more waste than larger ones.", "Prices for snacks have risen faster than other foods."], "a": 1, "t": "inference", "ev": "shoppers notice a price increase immediately but rarely check the weight printed in small type", "x": "Shoppers notice price rises at once but rarely check the weight, so size cuts go unnoticed. The weight is printed as the law requires; it is not hidden."},
+       {"q": "What does the advocate mean by “a price increase in disguise”?", "o": ["Manufacturers secretly change the price after purchase.", "Stores display false prices on their shelf tags.", "Customers pay more per unit without realizing it.", "Smaller packages are designed to look larger."], "a": 2, "t": "vocab", "ev": "shrinking a package is ‘a price increase in disguise’", "x": "Paying the same for less product raises the price per unit, but shoppers do not notice. No one claims that shelf prices are false."},
+       {"q": "Which argument does the industry association make?", "o": ["Labels would raise costs that shoppers would end up paying.", "Shoppers always prefer smaller packages to higher prices.", "Product weights do not need to be printed on packages.", "Ingredient costs have fallen in recent years."], "a": 0, "t": "viewpoint", "ev": "would add costs that would eventually be passed on to shoppers anyway", "x": "The association says mandatory labels would add costs passed on to shoppers. It says only “some customers” prefer smaller packages, not all of them."},
+       {"q": "What is Strand’s main criticism of shrink labels?", "o": ["They would be too costly for small manufacturers.", "They would confuse shoppers with too many warnings.", "They would encourage companies to change recipes.", "They give limited information for a limited time."], "a": 3, "t": "inference", "ev": "but only for that one product, and only for a few months", "x": "A shrink label covers one product for a few months and does not help shoppers compare. Recipe changes are the weakness of unit pricing, not of shrink labels."},
+       {"q": "What has Strand observed about how shoppers use shelf tags?", "o": ["They usually calculate the price per kilogram themselves.", "Inconsistent units lead many to look only at the main price.", "They prefer tags that show the price per item.", "They read unit prices carefully when buying snacks."], "a": 1, "t": "detail", "ev": "They look at the big number, and that’s the end of it.", "x": "When units differ, most people give up and look only at the big number. She does not say shoppers do their own calculations or prefer per-item prices."},
+       {"q": "What limitation of unit pricing does Strand accept?", "o": ["It is more expensive than redesigning packages.", "It cannot be shown on shelf tags in most stores.", "It cannot reveal changes in product quality.", "It only works for products sold by weight."], "a": 2, "t": "paraphrase", "ev": "It can’t tell shoppers when a product’s recipe has changed", "x": "Unit pricing cannot show when a recipe has switched to cheaper ingredients. She says it is cheaper than new packaging rules, not more expensive."}
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Leopold Vance | To: Rosalind Achebe | Subject: Bathroom renovation advice",
+   "text": "Dear Rosalind,\n\nThank you again for recommending your tile supplier last spring. I’m afraid the rest of our bathroom project has not gone nearly as smoothly, and since you went through a renovation of your own last year, I’d value your opinion.\n\nIn March we signed a contract with Brookstone Renovations to redo our main bathroom for fifteen thousand dollars, and we paid a deposit of four thousand five hundred, which is thirty percent. The contract says work would begin ‘on or about May 5’. May 5 came and went. The owner, Mr. Tremblay-Rusk, apologized and said a previous job had run over, so we agreed on June 2. In late May, he postponed again, this time blaming a supplier. Then July 14. It is now August, and nobody has set foot in our house.\n\nLast Friday, he called to say he can finally start next month, but that because the cost of materials has gone up, he needs an extra two thousand two hundred dollars. When I pointed out that we signed a fixed-price contract, he said there is a clause allowing adjustments for ‘significant market changes’. I found it, and he is right that it’s there, but it says adjustments must be agreed in writing by both parties. I certainly haven’t agreed to anything.\n\nFrankly, I’ve lost confidence in him. Henrietta thinks we should give him one last chance, because his work on our neighbour’s kitchen was excellent and other contractors are booked until next spring. I see her point, but I’d rather wait than spend another season chasing him.\n\nWhat I really want is our deposit back. I emailed him on Monday asking for a refund and gave him ten days to respond. So far, silence. A friend at work says that in our province, if a contractor fails to start by the agreed date, the customer can cancel and is entitled to a refund of the deposit, but I haven’t been able to confirm that.\n\nDid you run into anything like this? And if he doesn’t reply, would you go straight to small claims court, or try the consumer protection office first? I don’t want to spend money on a lawyer if I can avoid it.\n\nBest,\nLeopold",
+   "qs": [
+    {"q": "Why does Leopold write to Rosalind?", "o": ["She recommended Brookstone Renovations to him.", "She works for the provincial consumer office.", "She supplied the tiles for his bathroom.", "She has recently been through a similar project."], "a": 3, "t": "purpose", "ev": "since you went through a renovation of your own last year, I’d value your opinion", "x": "He wants her opinion because she renovated last year. She recommended a tile supplier, not the contractor, and she did not supply the tiles herself."},
+    {"q": "What happened in late May?", "o": ["The start date was delayed a second time.", "The contractor began work on the bathroom.", "Leopold paid the thirty percent deposit.", "The contractor finished a neighbour’s job."], "a": 0, "t": "detail", "ev": "In late May, he postponed again, this time blaming a supplier.", "x": "The first delay moved the start to June 2; in late May he postponed a second time. The deposit was paid in March, and work has never begun."},
+    {"q": "Why does Leopold believe the price increase is not valid?", "o": ["The contract does not mention any possible price changes.", "Material costs have not actually increased.", "He never gave the written approval the clause needs.", "The contractor asked after work had started."], "a": 2, "t": "inference", "ev": "adjustments must be agreed in writing by both parties", "x": "The clause exists, but changes require written agreement by both parties, which Leopold has not given. He admits the clause is in the contract, so option A is wrong."},
+    {"q": "How does Leopold feel about his wife’s suggestion?", "o": ["He agrees and will give the contractor another chance.", "He understands her reasons but disagrees.", "He thinks she is unaware of the delays.", "He believes she wants to hire someone else."], "a": 1, "t": "attitude", "ev": "I see her point, but I’d rather wait than spend another season chasing him.", "x": "“I see her point, but…” shows he understands her reasons yet prefers to wait for another contractor. It is Henrietta who wants to give the contractor another chance."},
+    {"q": "What has the contractor done since Leopold asked for a refund?", "o": ["He has refused to return the deposit.", "He has offered a new start date.", "He has agreed to reduce the extra charge.", "He has not responded at all."], "a": 3, "t": "paraphrase", "ev": "So far, silence.", "x": "“So far, silence” means no reply. The new start date was offered last Friday, before Monday’s refund request."},
+    {"q": "What does Leopold say about his colleague’s information?", "o": ["He knows it applies only to large projects.", "He has not been able to check whether it is accurate.", "It has already been confirmed by the consumer protection office.", "It contradicts what is written in his contract."], "a": 1, "t": "detail", "ev": "but I haven’t been able to confirm that", "x": "He has heard the rule but has not confirmed it. He is still deciding whether to contact the consumer protection office, so it cannot have confirmed anything."}
+   ],
+   "reply": {
+    "intro": "Here is Rosalind’s response to Leopold. Complete the response by choosing the best option for each blank.",
+    "text": "Dear Leopold,\n\nHow frustrating! Unfortunately, your story sounds very familiar. Our contractor also delayed twice, although in the end he did {1}, so I was luckier than you.\n\nOn the price increase, you are on solid ground. The clause only works if you {2}, and you haven’t, so I would simply refuse in writing.\n\nAs for the deposit, your colleague may well be right, but don’t rely on office gossip. Call the consumer protection office first: it’s free, and they can tell you exactly what the law says. They may even {3} on your behalf. Small claims court is a good option after that, and you won’t need {4}.\n\nI know Henrietta would like to give him one more chance, but three missed dates is a pattern. Next time, I’d suggest a contract with {5} for each week of delay.\n\nGood luck, and let me know how it goes!\n\nRosalind",
+    "blanks": [
+     {"o": ["start the work", "return the deposit", "lower his price", "finish on time"], "a": 0, "t": "coherence", "ev": "It is now August, and nobody has set foot in our house.", "x": "She was “luckier” because her contractor eventually started, unlike Leopold’s. A contractor who delayed twice could hardly finish on time."},
+     {"o": ["pay the deposit", "sign before May", "agree to it in writing", "accept market prices"], "a": 2, "t": "paraphrase", "ev": "adjustments must be agreed in writing by both parties", "x": "The clause requires written agreement from both parties, which Leopold has not given. He paid the deposit long ago, so that cannot be the missing condition."},
+     {"o": ["refund your deposit", "contact the contractor", "raise the price", "start the renovation"], "a": 1, "t": "inference", "ev": "or try the consumer protection office first?", "x": "A consumer office can contact a business for a customer, but it would not pay the refund itself. The deposit is held by the contractor."},
+     {"o": ["a contractor", "a deposit", "a new quote", "a lawyer"], "a": 3, "t": "inference", "ev": "I don’t want to spend money on a lawyer if I can avoid it.", "x": "Leopold wants to avoid paying a lawyer, and small claims court usually does not require one. The other options are unrelated to going to court."},
+     {"o": ["a penalty", "a bonus", "a deposit", "an adjustment"], "a": 0, "t": "inference", "ev": "three missed dates is a pattern", "x": "After repeated delays, a penalty for each week of delay would protect the customer. A bonus rewards early work, and an adjustment is what caused the price problem."}
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Wren Financial – Comparing Our Credit Cards",
+    "intro": "All cards offer contactless payment and free monthly statements online. Rewards are calculated on purchases only (not on balance transfers, fees or interest).",
+    "table": {
+     "cols": ["Card", "Annual fee", "Purchase interest", "Groceries & gas", "Everything else", "Conditions"],
+     "rows": [
+      ["Wren Basic", "$0", "20.99%", "1% cash back", "0.5% cash back", "None"],
+      ["Wren Cashback Plus", "$99 (waived in the first year)", "20.99%", "4% cash back", "1% cash back", "4% applies to the first $6,000 per year of grocery & gas spending; after that, 1%"],
+      ["Wren Low Rate", "$29", "12.99%", "No rewards", "No rewards", "Balance transfer offer available (see notes)"],
+      ["Wren Travel Points", "$139", "20.99%", "2 points per $1", "1 point per $1", "100 points = $1 toward travel"],
+      ["Wren Student", "$0", "19.99%", "1% cash back", "0.5% cash back", "Full-time students only; credit limit $1,000"]
+     ]
+    },
+    "notes": [
+     "Cash back is paid once a year, in January, as a credit on your statement.",
+     "Interest is charged only if the balance is not paid in full by the due date.",
+     "Additional cardholders: free on Basic, Low Rate and Student; $30 per year on Cashback Plus and Travel Points.",
+     "Balance transfers: Low Rate cardholders can transfer balances at 3.99% for 10 months, with a one-time fee of 1% of the amount transferred. Not available on other cards.",
+     "Travel points expire if no purchases are made on the card for 24 months."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the credit cards. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Benedikt,\n\nThanks for sending the Wren comparison. I pay my card off in full every month, so interest doesn’t matter much to me; it’s all about rewards. I spend about $500 a month on groceries and gas and roughly $800 on everything else.\n\nBy my calculations, in the first year, Cashback Plus would earn me {1} in cash back, with no fee to pay. From the second year, after the annual fee, I’d still come out {2} ahead of Basic. If I added you as a cardholder, that would cost us {3} per year, but I think it’s worth it so we can pool our spending.\n\nMy sister is a different story. She carries a balance from month to month, so rewards make no sense for her; she should consider {4}. She owes about $4,500 right now, so moving it would cost her a one-time fee of {5}, and then much less interest for ten months.\n\nTalk soon,\nSaoirse",
+    "blanks": [
+     {"o": ["$240", "$237", "$336", "$408"], "a": 2, "t": "diagram", "ev": "4% applies to the first $6,000 per year of grocery & gas spending", "x": "$6,000 of groceries and gas × 4% = $240, plus $9,600 of other spending × 1% = $96, for $336. $240 counts only the grocery and gas rewards."},
+     {"o": ["$228", "$237", "$108", "$129"], "a": 3, "t": "diagram", "ev": "$99 (waived in the first year)", "x": "Cashback Plus: $336 − $99 fee = $237. Basic: $60 + $48 = $108. The difference is $129; $237 forgets to subtract Basic’s rewards."},
+     {"o": ["$30", "$0", "$99", "$139"], "a": 0, "t": "diagram", "ev": "$30 per year on Cashback Plus and Travel Points", "x": "An additional cardholder on Cashback Plus costs $30 a year. It is free only on Basic, Low Rate and Student cards."},
+     {"o": ["the Student card", "the Low Rate card", "Cashback Plus", "Travel Points"], "a": 1, "t": "diagram", "ev": "Low Rate cardholders can transfer balances at 3.99% for 10 months", "x": "Someone who carries a balance benefits most from the lowest interest rate and the balance transfer offer, both on Low Rate. The Student card is for full-time students only."},
+     {"o": ["$180", "$4.50", "$45", "$135"], "a": 2, "t": "diagram", "ev": "with a one-time fee of 1% of the amount transferred", "x": "1% of $4,500 is $45. $180 is roughly 3.99% of the balance, which is the yearly interest rate, not the transfer fee."}
+    ]
+   },
+   "qs": [
+    {"q": "A Cashback Plus cardholder spends $9,000 in a year on groceries and gas. How much cash back does she earn on that spending?", "o": ["$270", "$360", "$240", "$90"], "a": 0, "t": "diagram", "ev": "4% applies to the first $6,000 per year of grocery & gas spending; after that, 1%", "x": "$6,000 × 4% = $240, plus the remaining $3,000 × 1% = $30, for $270. $360 wrongly applies 4% to the full $9,000."},
+    {"q": "A Travel Points cardholder made her last purchase in March 2024 and makes no purchases until May 2026. What happens?", "o": ["She is charged interest on her points.", "Her annual fee is waived.", "Her points become cash back.", "She loses her unused points."], "a": 3, "t": "diagram", "ev": "Travel points expire if no purchases are made on the card for 24 months.", "x": "March 2024 to May 2026 is over 24 months without purchases, so her points expire. Nothing converts points to cash back or waives the fee."},
+    {"q": "A customer opens a Cashback Plus card in March. When will she first receive cash back?", "o": ["After her first statement", "Twelve months after opening", "The following January", "Whenever she requests it"], "a": 2, "t": "diagram", "ev": "Cash back is paid once a year, in January", "x": "Cash back is paid once a year in January, so she receives it the following January, not after twelve months or on request."}
+   ]
+  },
+  "p3": {
+   "title": "The Long Road to a Down Payment",
+   "paras": [
+    "For many young Canadians, the hardest part of buying a first home is not the mortgage but the down payment. In the country’s largest cities, saving even the minimum required can take a decade or more for a household on a typical income, and the target keeps moving: by the time a couple has saved for a modest townhouse, prices may have risen faster than their savings. Rent makes the problem worse. A family paying a large share of its income to a landlord has little left to put aside, which is why some economists describe the situation as a trap rather than a hurdle. Surveys of renters under forty consistently find that most still want to own, but a growing share say they no longer expect to.",
+    "Financial planners say the households that do succeed usually share a few habits. They automate their savings, moving money into a separate account on payday so it is never available to spend. They take advantage of registered accounts that let savings grow without being taxed. Many look for extra income, from weekend shifts to small online businesses, and direct all of it toward the goal. And a growing number move back in with their parents for a few years, an arrangement once seen as a sign of failure but now often presented as a deliberate strategy. One planner calls it “the most effective savings plan nobody wants to talk about”, noting that it can cut a young person’s living costs by more than half.",
+    "For others, the decisive factor is help from family. Real estate agents report that a large and rising proportion of first-time buyers receive money from parents or grandparents, sometimes tens of thousands of dollars. Lenders generally accept such gifts, but they require a signed letter confirming that the money does not have to be repaid, since a hidden loan would affect the buyer’s ability to handle the mortgage. Critics warn that family help is quietly turning home ownership into something inherited rather than earned. Two people with the same job and the same discipline can end up in very different positions depending on whether their parents own property. Some housing researchers argue that this gap may become one of the defining inequalities of the coming decades.",
+    "A few buyers are turning to less traditional arrangements. Friends or siblings sometimes pool their savings to buy a home together, splitting the mortgage and the maintenance. Rent-to-own agreements let tenants put part of their monthly rent toward a future purchase, though the terms vary widely and some have left tenants with nothing when they could not complete the sale. Lawyers who work in this area offer the same warning in every case: put everything in writing. A co-ownership agreement should explain what happens if one person wants to sell, loses a job or simply moves away. Without one, a friendship can become a legal dispute, and a dream home can become something nobody can afford to keep or to sell."
+   ],
+   "qs": [
+    {"q": "Lenders want proof that money from relatives is not secretly a loan.", "a": "C", "t": "paraphrase", "ev": "they require a signed letter confirming that the money does not have to be repaid", "x": "Paragraph C says lenders require a signed letter confirming that a family gift does not have to be repaid."},
+    {"q": "Rising home prices can cancel out the progress people make in saving.", "a": "A", "t": "inference", "ev": "prices may have risen faster than their savings", "x": "Paragraph A explains that the target keeps moving because prices can rise faster than savings."},
+    {"q": "Rent-to-own agreements are now regulated in most provinces.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph D discusses rent-to-own agreements and their risks, but no paragraph mentions how they are regulated."},
+    {"q": "Buying with a friend without a written agreement can damage the relationship.", "a": "D", "t": "paraphrase", "ev": "Without one, a friendship can become a legal dispute", "x": "Paragraph D warns that without a co-ownership agreement, a friendship can turn into a legal dispute."},
+    {"q": "Living with parents is increasingly seen as a planned choice rather than a setback.", "a": "B", "t": "paraphrase", "ev": "an arrangement once seen as a sign of failure but now often presented as a deliberate strategy", "x": "Paragraph B says moving back home, once seen as failure, is now presented as a deliberate strategy."},
+    {"q": "Some people in a particular type of arrangement have lost money they paid.", "a": "D", "t": "inference", "ev": "some have left tenants with nothing when they could not complete the sale", "x": "Paragraph D says some rent-to-own tenants were left with nothing when they could not complete the purchase."},
+    {"q": "Couples who automate their savings buy homes twice as fast as others.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph B lists automation as a common habit, but no paragraph compares how quickly such couples buy homes."},
+    {"q": "Family wealth may create lasting differences between people with similar careers.", "a": "C", "t": "inference", "ev": "Two people with the same job and the same discipline can end up in very different positions", "x": "Paragraph C says people with the same job and discipline can end up very differently depending on their parents’ property."},
+    {"q": "Many renters have become less optimistic about ever owning a home.", "a": "A", "t": "paraphrase", "ev": "a growing share say they no longer expect to", "x": "Paragraph A reports that a growing share of renters under forty no longer expect to own."}
+   ]
+  },
+  "p4": {
+   "title": "The Eight-Year Car Loan Is a Trap Dressed as a Bargain",
+   "byline": "Opinion | by Augustin Fairweather, automotive journalist",
+   "text": "Walk onto almost any car lot today and the first number you hear will not be the price of the vehicle. It will be the payment. “We can get you into this for ninety-nine dollars a week,” the salesperson says, and for many buyers, that is the only number that matters. What they often do not hear, or do not ask, is how many weeks.\n\nIncreasingly, the answer is a lot of them. Loans of seven and eight years, eighty-four or ninety-six months, have gone from rare to routine, and for good reason from the dealer’s point of view: stretching the loan is the easiest way to make an expensive vehicle look affordable. A thirty-five-thousand-dollar SUV that would cost about seven hundred a month over five years can be advertised for under five hundred over eight.\n\nThe trouble is what happens in between. Cars lose value fastest in their first few years, and on a long loan, the balance falls much more slowly than the car’s worth. For several years, many owners owe more than the vehicle is worth, a situation the industry politely calls negative equity. If the car is written off in an accident, or if the owner needs to sell because of a job loss or a growing family, the insurance payout or sale price may not cover the loan. The difference does not disappear. Very often, it is rolled into the next car loan, which begins the cycle again with an even bigger balance.\n\nThen there is interest. Even at a moderate rate, an eight-year loan can cost several thousand dollars more than a five-year loan for the same vehicle. And because eight years is longer than many manufacturers’ warranties, owners can find themselves making car payments and repair payments at the same time.\n\nDefenders of long loans make a fair point: for some families, a reliable vehicle is not optional, and a lower payment is the only way to fit one into the budget. I take that seriously. A nurse who works night shifts in a town with no bus service needs a car, not a lecture.\n\nBut the solution to an unaffordable car is usually a cheaper car, not a longer loan. A three-year-old vehicle with a five-year loan will, in most cases, cost less in total and leave the owner with equity sooner than a new one financed over eight years. The long loan does not make the car affordable. It simply hides the cost in the future.\n\nI would like to see two changes. First, dealers should be required to show the total cost of the loan, including all interest, in the same size print as the weekly payment. Second, lenders should be more cautious about financing any vehicle for longer than its warranty. Neither rule would ban long loans; both would make buyers look at them clearly.\n\nUntil then, my advice is simple. When a salesperson tells you the payment, ask for the total. If they hesitate, you have your answer.",
+   "qs": [
+    {"q": "What is the writer’s main concern about long car loans?", "o": ["Dealers refuse to offer shorter loans to most buyers.", "Lower payments hide a higher long-term cost.", "Interest rates on car loans have risen sharply.", "Used cars are rarely available with long loans."], "a": 1, "t": "main", "ev": "It simply hides the cost in the future.", "x": "His central point is that small payments conceal a larger total cost. He never says dealers refuse shorter loans or that interest rates have risen."},
+    {"q": "Why do dealers favour long loans, according to the writer?", "o": ["They make costly vehicles seem within reach.", "They allow dealers to charge lower interest.", "They reduce the number of cars written off.", "They are required by most manufacturers."], "a": 0, "t": "paraphrase", "ev": "stretching the loan is the easiest way to make an expensive vehicle look affordable", "x": "Stretching a loan makes an expensive vehicle look affordable. Long loans actually cost more interest, so option B reverses the article."},
+    {"q": "What happens to the remaining debt when an owner with negative equity sells the car?", "o": ["The insurance company usually pays it.", "The dealer generally forgives it.", "It is removed from the owner’s credit report.", "It is often added to the owner’s next loan."], "a": 3, "t": "detail", "ev": "Very often, it is rolled into the next car loan", "x": "The shortfall is often rolled into the next car loan. The insurance payout may not cover the loan, which is why a gap exists."},
+    {"q": "How does the writer respond to defenders of long loans?", "o": ["He dismisses their argument as dishonest.", "He agrees that long loans are the best solution for them.", "He accepts their concern but proposes a different answer.", "He suggests they rely on public transit instead."], "a": 2, "t": "viewpoint", "ev": "But the solution to an unaffordable car is usually a cheaper car, not a longer loan.", "x": "He calls their point fair and takes it seriously, but recommends a cheaper car rather than a longer loan. His nurse example rules out public transit as an answer."},
+    {"q": "What would the writer’s first proposed rule require?", "o": ["A ban on loans longer than five years", "Equal prominence for the total cost and the payment", "Longer warranties on vehicles with long loans", "Weekly rather than monthly payments for all new car buyers"], "a": 1, "t": "detail", "ev": "dealers should be required to show the total cost of the loan, including all interest, in the same size print as the weekly payment", "x": "Dealers would have to show the total cost as prominently as the weekly payment. He says explicitly that neither rule would ban long loans."}
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I sold cars for six years, and Mr. Fairweather is right that the conversation almost always starts with {1}. Most customers never asked about the total, and I’ll admit we didn’t rush to mention it.\n\nThat said, I think he is too hard on long loans. When rates are low, a longer term {2} if the buyer is disciplined and keeps the car for ten years or more. The real problem is people who {3} after three or four years, while they still owe more than the car is worth.\n\nI also doubt his warranty rule would help. Lenders would simply {4}, and the people hurt most would be the very families he says he takes seriously.\n\nWhere I fully agree is the advice at the end. If every buyer simply {5}, half of the bad deals I saw would never have been signed.",
+    "blanks": [
+     {"o": ["the vehicle’s price", "the trade-in value", "the payment", "the warranty"], "a": 2, "t": "coherence", "ev": "It will be the payment.", "x": "The article says the first number buyers hear is the payment, and the reader agrees. The writer stresses that the price is not the first number mentioned."},
+     {"o": ["isn’t necessarily a mistake", "always costs less overall", "removes negative equity", "requires a warranty"], "a": 0, "t": "viewpoint", "ev": "Even at a moderate rate, an eight-year loan can cost several thousand dollars more than a five-year loan", "x": "The reader thinks long loans can be acceptable for disciplined long-term owners. Saying they “always cost less” contradicts the article’s point about extra interest."},
+     {"o": ["pay off the loan early", "buy used vehicles", "read the contract", "trade the car in"], "a": 3, "t": "inference", "ev": "Very often, it is rolled into the next car loan", "x": "Trading in a car while owing more than it is worth creates negative equity that rolls into the next loan. Paying off early would remove the problem."},
+     {"o": ["lower their interest rates", "refuse loans to some buyers", "extend all warranties", "advertise total costs"], "a": 1, "t": "inference", "ev": "lenders should be more cautious about financing any vehicle for longer than its warranty", "x": "If lenders became cautious about long loans, some families who need low payments would be refused. That is why the reader says those families would be hurt."},
+     {"o": ["bought a cheaper car", "waited eight years", "asked for the total", "negotiated the payment"], "a": 2, "t": "paraphrase", "ev": "When a salesperson tells you the payment, ask for the total.", "x": "The article ends by telling buyers to ask for the total, and the reader fully agrees with that advice. Negotiating the payment keeps the focus on the misleading number."}
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You were in hospital for two weeks last month and missed the payment due date on your credit card from Fernbrook Bank. The bank charged you a $35 late fee and $48 in interest, and it cancelled the special low interest rate on your card.",
+   "bullets": ["Explain why your payment was late", "Describe the charges and how they affect you", "Ask the bank to take specific action"],
+   "model": "Dear Fernbrook Bank Customer Relations,\n\nI am writing about my credit card account ending in 4417. My payment of $612, due on October 10, was made eight days late because I was admitted to hospital unexpectedly on October 3 for emergency surgery and remained there until October 17. I paid the full balance online the day after I returned home. I have attached a letter from the hospital confirming the dates of my stay.\n\nAs a result of the late payment, my November statement shows a $35 late fee and $48 in interest. More importantly, the 7.9% promotional rate I had on the card was cancelled, and the standard rate of 20.99% now applies. Since I was planning to repay a larger purchase over the next six months, this change would cost me several hundred dollars.\n\nI have held this card for nine years and have never missed a payment before. I would therefore respectfully ask you to reverse the late fee and interest charges and to restore my promotional rate for its remaining term.\n\nThank you for considering my request.\n\nYours sincerely,\nNgozi Adeyemi"
+  },
+  "t2": {
+   "intro": "Your employer can offer only one new benefit to staff next year and is asking employees which option they prefer.",
+   "question": "Which option do you prefer?",
+   "a": "A group retirement savings plan: the company will match your contributions up to 3% of your salary.",
+   "b": "A monthly transit pass worth $110, plus a $500 yearly wellness account that can be used for gym fees, sports equipment or counselling.",
+   "model": "I would choose Option A, the group retirement savings plan, because it offers far more value over the long term.\n\nA company match is essentially free money. If I earn $60,000 and contribute 3%, my employer adds another $1,800 a year. That is more than the transit pass and wellness account combined, which together are worth about $1,820 but only to people who use both fully. Many of my co-workers drive or cycle to work, so the transit pass would be worth nothing to them.\n\nMore importantly, retirement savings grow over time. Money invested at thirty can multiply several times before retirement, while a gym membership is used up within the year. Many people my age are not saving enough for the future, and a matching plan encourages them to start, because nobody wants to leave free money on the table.\n\nI admit that the wellness account is attractive, especially for counselling, which can be expensive. However, most of our extended health plans already cover some of those costs.\n\nOverall, the savings plan benefits every employee and builds lasting security."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend has met someone online who is encouraging them to invest $5,000 in a program that promises returns of 15% per month. The person says the offer ends this week. Your friend is excited but asks for your opinion. Advise your friend.",
+   "model": "Dario, I’m really glad you mentioned this before sending any money, because honestly, this has almost every warning sign of a scam. Think about it. Fifteen percent a month would mean doubling your money in about five months. No legitimate investment does that, and if one did, nobody would need to find investors through a stranger online. The fact that she’s pressuring you to decide this week is another red flag. Real opportunities don’t disappear in seven days. So here’s what I’d do. First, don’t send anything, not even a small test amount. Scammers often let people withdraw a little profit at the start just to build trust, and then they ask for much more. Second, check whether the company is registered with the provincial securities regulator. It takes five minutes on their website, and if it isn’t listed, walk away. Third, try a reverse image search on her photos. You might find they belong to someone else entirely. And if you really want to start investing, talk to someone at your bank or a fee-only financial planner about a simple, diversified fund. It won’t make fifteen percent a month, but it also won’t vanish overnight."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you saved money for something that was important to you. What was it, and how did you manage to save?",
+   "model": "When I was sixteen, I decided I wanted to go on a school exchange trip to Quebec City. It cost about fourteen hundred dollars, and my parents said they would pay half if I earned the rest. So I got a job washing dishes at a family restaurant on weekends. It was hot, exhausting work, and I missed a lot of parties that year. I kept a chart on my bedroom wall and coloured in a box every time I added fifty dollars to my savings account. There were weeks when I really wanted to spend my pay on clothes or concert tickets, but looking at that chart kept me going. By the deadline, I had the full seven hundred, plus a little extra for souvenirs. The trip was amazing, but what I remember most is how proud I felt handing over that money. It taught me that patience really pays off."
+  },
+  "t3": {
+   "scene": {
+    "bg": "street",
+    "alt": "A sunny suburban street with a yard sale on a front lawn. A white sign reads “YARD SALE”. Behind a long wooden table holding a lamp, a red mug and a small TV, a woman with curly hair in a pink shirt sits on a chair holding a cup. A man in a blue shirt stands in front of the table holding up a book and pointing, as if asking about the price. On the grass is a cardboard box labelled “$1 EACH”. On the left, a red bicycle has a small sign reading “$40”, next to a large tree. On the right, near a grey house, a boy in a yellow shirt is running after a green ball, and a brown dog watches him.",
+    "items": [["house", 540, 300, "#dfe6e9", "#7f8c8d"], ["tree", 60, 300, 1], ["sign", 235, 330, "YARD SALE", "#fff"], ["table", 330, 360, 180, "#8e6e53"], ["lamp", 285, 330], ["mug", 340, 335, "#e74c3c"], ["tv", 395, 330], ["chair", 455, 372, "#2c3e50"], ["person", 460, 368, {"shirt": "#e84393", "pose": "sit", "hairStyle": "curly", "hold": "cup", "skin": "#8d5524"}], ["person", 285, 388, {"shirt": "#2980b9", "hold": "book", "pose": "point", "flip": true}], ["box", 175, 392, 60, 35, "$1 EACH", "#d4a373"], ["bike", 105, 388, "#c0392b"], ["sign", 105, 345, "$40", "#fff"], ["person", 585, 388, {"kid": true, "shirt": "#f1c40f", "pose": "run"}], ["ball", 625, 392, "#27ae60"], ["dog", 545, 392, "#795548"]]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a yard sale on a sunny day in what looks like a quiet suburban neighbourhood. In the middle of the front lawn, there’s a long wooden table with things for sale on it: a lamp, a red mug and a small old-fashioned TV. Behind the table, a woman with curly hair and a pink shirt is sitting on a chair, holding a cup, probably of coffee, and waiting for customers. In front of the table, a man in a blue shirt is holding up a book and pointing, so I think he’s asking how much it costs or maybe trying to bargain. Next to him, there’s a white sign that says “Yard sale” and a cardboard box on the grass labelled “One dollar each”. On the left, under a big tree, there’s a red bicycle with a little sign saying forty dollars. On the right side, in front of a grey house, a boy in a yellow shirt is running after a green ball, and a brown dog is watching him."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the man with the book is going to try to negotiate. He’ll probably offer the woman less than the asking price, maybe a dollar or two, and since it’s a yard sale and she seems relaxed, she’ll most likely agree, especially if he buys something else too. He might also notice the box of one-dollar items and start digging through it. Meanwhile, the boy chasing the ball is getting very close to the table, and the dog looks like it’s about to join in. I wouldn’t be surprised if the ball rolls under the table and the dog runs after it, bumping the table so that the lamp or the mug wobbles. The woman will probably jump up to catch it. Later on, I think someone will come and ask about the red bike, because forty dollars is a pretty good price, and it’s right next to the street, where everyone can see it."
+  },
+  "t5": {
+   "intro": "You and your roommate are furnishing a new apartment and need a sofa and a dining set. Choose the option that you prefer. In the next section, you will need to persuade your roommate that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "Buy new with store financing", "details": ["$2,400 for a sofa and dining set", "0% interest for 12 months", "Then 29.9% interest on any remaining balance", "Free delivery", "5-year warranty"]},
+    {"title": "Buy used online", "details": ["About $700 for similar items", "Pay in cash", "Pick up yourselves (van rental $90)", "No warranty", "Must check carefully for damage"]}
+   ],
+   "other": {"title": "Rent-to-own", "details": ["$89 per month", "You own the items after 36 months", "Return at any time", "Repairs included", "Total cost $3,204"]},
+   "otherWho": "Your roommate prefers",
+   "persuade": "Your roommate prefers rent-to-own. Persuade your roommate that your choice is better.",
+   "model": "I know rent-to-own feels easy, because eighty-nine dollars a month doesn’t sound like much, but I really think buying used is the smarter choice. Look at the total. Rent-to-own ends up costing over thirty-two hundred dollars, and we wouldn’t own anything for three years. Buying used costs about seven hundred, plus ninety for the van. That’s almost twenty-five hundred dollars less, which is basically two months of our rent. I get that there’s no warranty, but we can check everything carefully before we pay. Sofas and tables don’t really break; they just get a bit worn, and honestly, with your cat, a new sofa wouldn’t stay new for long anyway. Also, if one of us moves out next year, splitting used furniture we paid cash for is simple. Splitting a three-year rental contract would be a headache. Let’s spend one Saturday picking things up and keep the savings for the things we actually need."
+  },
+  "t6": {
+   "situation": "Your elderly neighbour, Mrs. Haddad, has asked you to help her pay her bills online and has given you her online banking password, written on a piece of paper. You want to help, but you are uncomfortable having access to her account. Her son, Karim, lives in another province and phones her every weekend.",
+   "options": ["Talk to Mrs. Haddad and explain why you do not want her password.", "Talk to her son, Karim, and suggest a better arrangement for his mother’s banking."],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Mrs. Haddad, thank you so much for trusting me with this. It really means a lot. But I have to give your password back to you, and I want to explain why. Your password is like the key to all your savings, and the bank says nobody else should ever have it, not even family. If something went wrong with your account, the bank might not refund you because the password was shared. And honestly, I would feel terrible if anyone ever wondered whether I had done something. So here’s what I’d love to do instead. I can sit beside you while you log in yourself, and I’ll show you, step by step, how to pay your hydro and phone bills. We can write the steps on a card that you keep in a drawer. We could also set up automatic payments for the bills that are the same every month, so you don’t have to think about them. Would Thursday afternoon work for you?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should parents pay their children an allowance for doing household chores? Explain your reasons.",
+   "model": "In my opinion, parents should give children an allowance, but I don’t think it should be tied to every single chore. The main reason for an allowance is to teach kids how to manage money. When children have a small amount of their own each week, they learn to make choices: if they spend everything on candy on Monday, they can’t buy the comic book on Saturday. That lesson is much more powerful than any lecture. I learned to save that way myself. My parents gave me five dollars a week, and I saved for two months to buy my first video game. However, I think paying for basic chores sends the wrong message. Making your bed or clearing the table is part of living in a family, not a job. If kids get paid for everything, they might start refusing to help unless there’s money involved. A good compromise, I think, is a basic allowance for learning about money, plus the chance to earn extra for bigger jobs, like washing the car or raking leaves. That way, children learn both how to handle money and the connection between effort and reward."
+  },
+  "t8": {
+   "scene": {
+    "bg": "street",
+    "alt": "An enormous brown cardboard parcel, almost as tall as the house beside it, has been left on a front lawn. It is labelled “PARCEL” in large letters. A small white delivery truck labelled “DELIVERY” is parked on the left, looking tiny next to the box. A woman in a purple shirt stands beside the parcel holding a phone to her ear, and a child in an orange shirt is pointing at it. A brown dog stands near the fence on the right, and there is a small yellow house, a tree, the sun and a cloud.",
+    "items": [["sun", 580, 60], ["cloud", 140, 60, 1], ["house", 500, 330, "#f6e58d", "#c0392b"], ["tree", 625, 320, 0.8], ["big", "box", 230, 388, 3, 70, 55, "PARCEL", "#c69c6d"], ["truck", 60, 388, "#ecf0f1", "DELIVERY"], ["person", 385, 388, {"shirt": "#8e44ad", "hold": "phone", "hairStyle": "long"}], ["person", 420, 390, {"kid": true, "shirt": "#e67e22", "pose": "point"}], ["fence", 540, 640, 392], ["dog", 590, 392, "#5d4037"]]
+   },
+   "prompt": "You ordered a small kitchen gadget online, and this is what was delivered to your home. Call the online store’s customer service, describe what you see, and explain what you would like them to do. The person you are speaking to cannot see the picture.",
+   "model": "Hi, I’m calling about order number 30418. I ordered a small electric milk frother from your website, and I think there’s been a very big mistake, literally. This morning, a delivery truck dropped off a cardboard box on my front lawn that is almost as tall as my house. I’m not exaggerating. It’s brown, it says “Parcel” on the side in huge letters, and the truck that brought it looks tiny next to it. My daughter is standing beside it pointing, and my dog won’t stop barking at it. Now, I haven’t opened it, because I’m honestly a bit worried about what’s inside, and I couldn’t move it even if I wanted to. It’s also flattening my lawn and blocking the view from my front window. So, I’d like two things, please. First, could you arrange for someone to come and collect it as soon as possible, ideally today? And second, could you send me the milk frother I actually ordered? I’d also appreciate a refund of the shipping fee for the trouble."
+  }
+ }
+}
