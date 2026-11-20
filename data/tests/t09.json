@@ -174,7 +174,7 @@
         "q": "How will they find out who is coming today?",
         "o": [
          "By searching the sent appointment reminders",
-         "By calling every patient on yesterday’s list",
+         "By calling every patient on the old list",
          "By asking the software company for a copy",
          "By waiting to see which patients turn up"
         ],
@@ -255,7 +255,7 @@
         "q": "What will Bianca offer the three patients?",
         "o": [
          "A different appointment time",
-         "A discount on their treatment",
+         "A discount on treatment",
          "A free cleaning",
          "A referral to another clinic"
         ],
@@ -775,7 +775,7 @@
        ],
        [
         "C",
-        "A skateboard park doesn’t bark at six in the morning, Omar."
+        "A skateboard park doesn’t bark at six in the morning, Omar. That’s really not the same thing."
        ],
        [
         "B",
@@ -852,8 +852,8 @@
         "q": "What is Ted’s main objection?",
         "o": [
          "He objects to where the park would be built.",
-         "He thinks dogs should be leashed everywhere.",
-         "He believes the park would cost far too much.",
+         "He thinks dogs should always be leashed.",
+         "He believes the park would cost too much.",
          "He dislikes dogs being near his own home."
         ],
         "a": 0,
@@ -1096,85 +1096,85 @@
  "R": {
   "p1": {
    "meta": "From: Ms. Annette Bouchard, Grade 3 Teacher, Riverside Elementary  |  To: Parents and guardians of Room 12  |  Subject: Field trip to the Pioneer Village – volunteers needed",
-   "text": "Dear parents and guardians,\n\nAs part of our social studies unit on communities of the past, Room 12 will be visiting Pioneer Village on Thursday, May 22. Students will tour the blacksmith’s shop and the one-room schoolhouse, take part in a butter-making workshop and have lunch in the village picnic area.\n\nWe will leave the school by bus at 9:00 a.m. and return by 2:45 p.m., in time for regular dismissal. The cost of the trip is $18 per student, which covers admission, the workshop and transportation. Please send the payment through the school’s online payment system by May 12. If the cost is a barrier for your family, please contact me or the office confidentially; no student will miss the trip because of cost.\n\nStudents should bring a nut-free lunch in a disposable bag, a full water bottle and a hat. As much of the visit is outdoors, please dress your child for the weather, including comfortable walking shoes. Phones and electronic games should be left at home.\n\nWe need four parent volunteers to help supervise small groups. Volunteers must have a current police check on file with the school board; unfortunately, it takes about three weeks to process a new one, so if you do not already have one, it may be too late for this trip. Volunteers travel on the bus with the class and do not pay admission.\n\nPlease sign and return the attached permission form by May 12, along with the volunteer section if you are able to help. I will contact volunteers by May 15 to confirm.\n\nThank you for your support,\nAnnette Bouchard",
+   "text": "Dear parents and guardians,\n\nAs part of our social studies unit on communities of the past, Room 12 will be visiting Pioneer Village on Thursday, May 22. Students will tour the blacksmith’s shop and the one-room schoolhouse, take part in a butter-making workshop and have lunch in the village picnic area. They will also see a short demonstration of how bread was baked in a wood-fired oven.\n\nWe will leave the school by bus at 9:00 a.m. and return by 2:45 p.m., in time for regular dismissal. The cost of the trip is $18 per student, which covers admission, the workshop and transportation. Please send the payment through the school’s online payment system by May 12. If the cost is a barrier for your family, please contact me or the office confidentially; no student will miss the trip because of cost.\n\nStudents should bring a nut-free lunch in a disposable bag, a full water bottle and a hat. Please label water bottles with your child’s name. As much of the visit is outdoors, please dress your child for the weather, including comfortable walking shoes. Phones and electronic games should be left at home.\n\nWe need four parent volunteers to help supervise small groups. Volunteers must have a current police check on file with the school board; unfortunately, it takes about three weeks to process a new one, so if you do not already have one, it may be too late for this trip. Volunteers travel on the bus with the class and do not pay admission.\n\nPlease sign and return the attached permission form by May 12, along with the volunteer section if you are able to help. I will contact volunteers by May 15 to confirm.\n\nThank you for your support,\nAnnette Bouchard",
    "qs": [
     {
      "q": "What is the purpose of the field trip?",
      "o": [
-      "To reward students for good behaviour",
+      "To reward the class for good behaviour",
+      "To raise money for the school’s history club",
       "To support what students are learning in class",
-      "To raise money for the school",
-      "To celebrate the end of the school year"
+      "To celebrate the end of the school year early"
      ],
-     "a": 1,
+     "a": 2,
      "t": "purpose",
      "ev": "As part of our social studies unit on communities of the past",
-     "x": "It supports the social studies unit."
+     "x": "The trip is part of the social studies unit on communities of the past, so it supports classroom learning. Nothing suggests it is a reward or an end-of-year celebration."
     },
     {
      "q": "What should families do if they cannot afford the trip?",
      "o": [
-      "Pay later in the month",
       "Contact the teacher or office privately",
-      "Keep their child at home",
-      "Ask other parents for help"
+      "Pay the fee later in the month",
+      "Keep their child at home that day",
+      "Ask other parents to share the cost"
      ],
-     "a": 1,
+     "a": 0,
      "t": "detail",
      "ev": "please contact me or the office confidentially",
-     "x": "Contact the teacher or office confidentially."
+     "x": "Ms. Bouchard asks families facing cost barriers to contact her or the office confidentially, promising no student will miss the trip. Keeping the child home is exactly what she wants to avoid."
     },
     {
      "q": "Why should students wear comfortable shoes?",
      "o": [
-      "They will be making butter.",
-      "Most of the activities are outside and involve walking.",
-      "The bus ride is long.",
-      "The school has a dress code."
+      "They will be making butter in the workshop.",
+      "The bus ride to the village is very long.",
+      "The school has a dress code for trips.",
+      "Much of the visit takes place outdoors on foot."
      ],
-     "a": 1,
+     "a": 3,
      "t": "inference",
      "ev": "As much of the visit is outdoors",
-     "x": "Much of the visit is outdoors and involves walking."
+     "x": "The letter says much of the visit is outdoors and asks for weather-appropriate clothing and walking shoes. The butter-making workshop is one activity, not the reason for comfortable shoes."
     },
     {
      "q": "What is required to volunteer?",
      "o": [
-      "A driver’s licence",
+      "A valid driver’s licence",
       "A valid police check already on file",
-      "Payment of the admission fee",
+      "Payment of the regular admission fee",
       "Previous experience as a teacher"
      ],
      "a": 1,
      "t": "detail",
      "ev": "Volunteers must have a current police check on file with the school board",
-     "x": "A current police check on file."
+     "x": "Volunteers must have a current police check on file with the school board. They travel on the bus and do not pay admission, so paying the fee is wrong."
     },
     {
      "q": "What does Ms. Bouchard suggest about parents without a police check?",
      "o": [
-      "They can still volunteer this time.",
-      "They probably cannot get one in time for this trip.",
-      "They must pay a fee.",
-      "They should drive their own cars."
+      "A new check likely won’t arrive in time.",
+      "They can still volunteer if they apply today.",
+      "They must pay a fee to speed up the process.",
+      "They should drive separately and meet the class."
      ],
-     "a": 1,
+     "a": 0,
      "t": "inference",
      "ev": "it may be too late for this trip",
-     "x": "It takes three weeks, so likely too late."
+     "x": "A new police check takes about three weeks, so Ms. Bouchard says it may be too late for this trip. Applying today would not help, and no faster paid option is mentioned."
     },
     {
      "q": "By when will volunteers know if they have been chosen?",
      "o": [
       "May 12",
-      "May 15",
       "May 22",
+      "May 15",
       "The day of the trip"
      ],
-     "a": 1,
+     "a": 2,
      "t": "detail",
      "ev": "I will contact volunteers by May 15 to confirm",
-     "x": "By May 15."
+     "x": "Ms. Bouchard will contact volunteers by May 15 to confirm. May 12 is the deadline for forms and payment, and May 22 is the date of the trip itself."
     }
    ],
    "reply": {
@@ -1185,61 +1185,61 @@
       "o": [
        "blacksmith",
        "butter-making",
-       "schoolhouse",
-       "picnic"
+       "bread-baking",
+       "candle-making"
       ],
       "a": 1,
       "t": "detail",
       "ev": "take part in a butter-making workshop",
-      "x": "The workshop is butter-making."
+      "x": "The letter says students will take part in a butter-making workshop. Bread-baking is only a demonstration, and the blacksmith’s shop is something they tour, not a workshop."
      },
      {
       "o": [
-       "May 12",
        "May 15",
        "May 22",
-       "June 1"
+       "June 1",
+       "May 12"
       ],
-      "a": 0,
+      "a": 3,
       "t": "detail",
       "ev": "Please sign and return the attached permission form by May 12",
-      "x": "May 12."
+      "x": "The permission form and payment are both due by May 12. May 15 is when volunteers will be contacted, so it is not the deadline for the form."
      },
      {
       "o": [
        "permission form",
-       "police check",
        "payment receipt",
-       "teaching certificate"
+       "teaching certificate",
+       "police check"
+      ],
+      "a": 3,
+      "t": "detail",
+      "ev": "Volunteers must have a current police check",
+      "x": "Volunteers need a current police check on file, and Leila already has one from the winter concert. A permission form is for students, not proof that a parent can volunteer."
+     },
+     {
+      "o": [
+       "vegetarian",
+       "homemade",
+       "nut-free",
+       "hot"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "Students should bring a nut-free lunch",
+      "x": "Students must bring a nut-free lunch, which matters because Sami has a severe nut allergy. Vegetarian or homemade lunches are not mentioned as requirements."
+     },
+     {
+      "o": [
+       "large backpacks and bags",
+       "electronic devices",
+       "cash and spending money",
+       "toys and sports equipment"
       ],
       "a": 1,
       "t": "detail",
-      "ev": "Volunteers must have a current police check",
-      "x": "A police check."
-     },
-     {
-      "o": [
-       "nut-free",
-       "vegetarian",
-       "homemade",
-       "hot"
-      ],
-      "a": 0,
-      "t": "detail",
-      "ev": "Students should bring a nut-free lunch",
-      "x": "Nut-free."
-     },
-     {
-      "o": [
-       "phones and electronic games",
-       "water bottles",
-       "hats",
-       "lunches"
-      ],
-      "a": 0,
-      "t": "detail",
       "ev": "Phones and electronic games should be left at home",
-      "x": "Electronics must stay home."
+      "x": "The letter says phones and electronic games should be left at home, which explains Leila’s comment about Sami’s tablet. Backpacks, toys and cash are never mentioned in the letter."
      }
     ]
    }
@@ -1304,27 +1304,27 @@
     "blanks": [
      {
       "o": [
-       "24-hour",
-       "pool",
        "off-peak",
+       "pool",
+       "24-hour",
        "weekend"
       ],
-      "a": 0,
+      "a": 2,
       "t": "diagram",
       "ev": "24 hours",
-      "x": "She works out at 2 a.m., so 24-hour access."
+      "x": "Ama works out at 2 a.m., so she needs a membership open 24 hours, such as Plus. Off-peak access is limited to weekdays from 10 a.m. to 4 p.m."
      },
      {
       "o": [
-       "joining fee",
        "cancellation fee",
+       "joining fee",
        "training fee",
        "student fee"
       ],
-      "a": 0,
+      "a": 1,
       "t": "diagram",
       "ev": "One-time joining fee: $49 (waived for annual memberships paid in full)",
-      "x": "The joining fee is waived."
+      "x": "The $49 joining fee is waived for annual memberships paid in full. Cancellation rules apply only to monthly memberships, so a cancellation fee is irrelevant to her choice."
      },
      {
       "o": [
@@ -1336,31 +1336,31 @@
       "a": 1,
       "t": "diagram",
       "ev": "Students (with valid ID) save 20% on monthly memberships",
-      "x": "$39 − 20% = $31.20 ≈ $31."
+      "x": "Basic Monthly is $39, and students save 20% on monthly memberships: $39 − $7.80 = $31.20, about $31. $29 is the Off-Peak price, which is a different membership."
      },
      {
       "o": [
-       "personal training sessions",
        "guest passes",
        "group classes",
-       "sauna visits"
+       "sauna visits",
+       "personal training sessions"
       ],
-      "a": 1,
+      "a": 0,
       "t": "diagram",
       "ev": "4 per month",
-      "x": "Four guest passes per month."
+      "x": "Plus Annual includes four guest passes per month, which would let Raj come and try a class. Group classes are unlimited for members, not limited to four, and training costs extra."
      },
      {
       "o": [
        "cancel",
-       "freeze",
        "transfer",
+       "freeze",
        "upgrade"
       ],
-      "a": 1,
+      "a": 2,
       "t": "diagram",
       "ev": "Annual memberships can be frozen for up to 3 months for medical reasons or travel",
-      "x": "Freeze it for travel."
+      "x": "Annual memberships can be frozen for up to three months for travel, so a two-month trip qualifies. Cancelling would end the membership she has already paid for."
      }
     ]
    },
@@ -1376,7 +1376,7 @@
      "a": 2,
      "t": "diagram",
      "ev": "Weekdays 10 a.m.–4 p.m. only",
-     "x": "Off-Peak includes the pool on weekdays 10–4 for $29."
+     "x": "The retiree needs the pool on weekday afternoons; Off-Peak includes pool access weekdays 10 a.m.–4 p.m. for $29. Basic Monthly costs more and has no pool at all."
     },
     {
      "q": "How much would someone save buying five personal training sessions as a package?",
@@ -1389,30 +1389,30 @@
      "a": 1,
      "t": "diagram",
      "ev": "Personal training sessions: $65 each, or 5 for $280.",
-     "x": "5 × $65 = $325; $325 − $280 = $45."
+     "x": "Five single sessions cost 5 × $65 = $325, and the package is $280, so the saving is $45. $65 is the cost of one session, not the saving."
     },
     {
      "q": "A member on Plus Monthly wants to stop at the end of this month. What must they do?",
      "o": [
       "Nothing; it ends automatically",
-      "Give 30 days’ notice",
       "Pay a $49 fee",
-      "Freeze the membership"
+      "Freeze the membership",
+      "Give 30 days’ notice"
      ],
-     "a": 1,
+     "a": 3,
      "t": "diagram",
      "ev": "Monthly memberships require 30 days’ notice to cancel.",
-     "x": "30 days’ notice."
+     "x": "Monthly memberships require thirty days’ notice to cancel, so they must give notice now. Freezing applies only to annual memberships and does not end a membership."
     }
    ]
   },
   "p3": {
    "title": "Sweet Uncertainty: Maple Syrup in a Changing Climate",
    "paras": [
-    "Canada produces roughly three quarters of the world’s maple syrup, most of it in Quebec. The process depends on a delicate natural rhythm: in early spring, nights below freezing followed by days above freezing create pressure inside sugar maple trees, pushing sap out through small taps drilled into the trunk. Producers then boil the sap, which is mostly water, until it thickens into syrup. It takes about forty litres of sap to make a single litre of syrup.",
-    "Climate change is making that rhythm less predictable. In some recent years, warm spells in February have caused sap to start flowing weeks earlier than usual, catching producers unprepared. In others, a sudden extended warm period has ended the season after only a couple of weeks. Researchers have also found that the sugar content of sap may be declining in some areas, meaning more sap is needed for the same amount of syrup.",
-    "Producers have adapted with technology. Many now use networks of plastic tubing connected to vacuum pumps, which collect sap from thousands of trees and can increase yields significantly compared with traditional buckets. Some also tap trees earlier, based on weather forecasts, rather than following a traditional date on the calendar. These methods have helped Canadian production reach record levels in several recent years.",
-    "Over the longer term, the picture is more complicated. Scientists project that the ideal conditions for syrup production will gradually shift northward, potentially benefiting producers in northern Ontario and Quebec while making it harder for those in the south. Quebec’s producers’ federation also maintains a strategic reserve of syrup, stored in large barrels, which can be released in poor years to keep supply and prices stable."
+    "Canada produces roughly three quarters of the world’s maple syrup, most of it in Quebec. The process depends on a delicate natural rhythm: in early spring, nights below freezing followed by days above freezing create pressure inside sugar maple trees, pushing sap out through small taps drilled into the trunk. Producers then boil the sap, which is mostly water, until it thickens into syrup. It takes about forty litres of sap to make a single litre of syrup. Most producers are family farms, and many still sell syrup directly from their own sugar shacks each spring.",
+    "Climate change is making that rhythm less predictable. In some recent years, warm spells in February have caused sap to start flowing weeks earlier than usual, catching producers unprepared. In others, a sudden extended warm period has ended the season after only a couple of weeks. Researchers have also found that the sugar content of sap may be declining in some areas, meaning more sap is needed for the same amount of syrup. Late frosts after the trees begin to bud can also give the syrup an unpleasant taste, making it impossible to sell at the usual grade.",
+    "Producers have adapted with technology. Many now use networks of plastic tubing connected to vacuum pumps, which collect sap from thousands of trees and can increase yields significantly compared with traditional buckets. Some also tap trees earlier, based on weather forecasts, rather than following a traditional date on the calendar. These methods have helped Canadian production reach record levels in several recent years. The equipment is expensive, however, and smaller producers sometimes share the cost of vacuum pumps through co-operatives. Some older producers still use buckets for part of their trees, saying it connects them to family tradition.",
+    "Over the longer term, the picture is more complicated. Scientists project that the ideal conditions for syrup production will gradually shift northward, potentially benefiting producers in northern Ontario and Quebec while making it harder for those in the south. Quebec’s producers’ federation also maintains a strategic reserve of syrup, stored in large barrels, which can be released in poor years to keep supply and prices stable. Some southern producers are already experimenting with other species, such as red maples, which can be tapped earlier in the season. Whether consumers will notice a difference in taste remains to be seen."
    ],
    "qs": [
     {
@@ -1420,200 +1420,200 @@
      "a": "A",
      "t": "paraphrase",
      "ev": "It takes about forty litres of sap to make a single litre of syrup",
-     "x": "Paragraph A."
+     "x": "Paragraph A says it takes about forty litres of sap to make a single litre of syrup."
     },
     {
      "q": "Modern collection systems produce more sap than older methods.",
      "a": "C",
      "t": "paraphrase",
      "ev": "can increase yields significantly compared with traditional buckets",
-     "x": "Paragraph C."
+     "x": "Paragraph C says tubing networks with vacuum pumps can increase yields significantly compared with traditional buckets."
     },
     {
      "q": "Some seasons have ended unusually early.",
      "a": "B",
      "t": "detail",
      "ev": "a sudden extended warm period has ended the season after only a couple of weeks",
-     "x": "Paragraph B."
+     "x": "Paragraph B says a sudden extended warm period has sometimes ended the season after only a couple of weeks."
     },
     {
      "q": "Supplies are kept in storage to manage bad harvests.",
      "a": "D",
      "t": "paraphrase",
      "ev": "maintains a strategic reserve of syrup",
-     "x": "Paragraph D."
+     "x": "Paragraph D describes the producers’ federation’s strategic reserve, released in poor years to keep supply and prices stable."
     },
     {
      "q": "The best regions for maple syrup may change over time.",
      "a": "D",
      "t": "inference",
      "ev": "the ideal conditions for syrup production will gradually shift northward",
-     "x": "Paragraph D."
+     "x": "Paragraph D says scientists project ideal conditions will gradually shift northward, helping northern producers and hurting southern ones."
     },
     {
      "q": "Maple syrup prices have doubled in the past decade.",
      "a": "E",
      "t": "notgiven",
      "ev": "",
-     "x": "No price history is given. Not given (E)."
+     "x": "Paragraph D mentions keeping prices stable, but no paragraph gives a price history or says prices doubled, so the answer is E."
     },
     {
      "q": "Weather predictions now influence when producers begin collecting sap.",
      "a": "C",
      "t": "paraphrase",
      "ev": "Some also tap trees earlier, based on weather forecasts",
-     "x": "Paragraph C."
+     "x": "Paragraph C says some producers now tap trees earlier based on weather forecasts rather than a traditional calendar date."
     },
     {
      "q": "Sap may contain less sugar than it used to in certain places.",
      "a": "B",
      "t": "paraphrase",
      "ev": "the sugar content of sap may be declining in some areas",
-     "x": "Paragraph B."
+     "x": "Paragraph B reports that the sugar content of sap may be declining in some areas, so more sap is needed."
     },
     {
      "q": "Most maple syrup is exported to the United States.",
      "a": "E",
      "t": "notgiven",
      "ev": "",
-     "x": "Exports are never mentioned. Not given (E)."
+     "x": "Paragraph A gives Canada’s share of world production, but exports and the United States are never mentioned, so the answer is E."
     }
    ]
   },
   "p4": {
    "title": "No-Show Fees Are Fair",
    "byline": "Opinion | by Daniel Laurent, restaurant owner",
-   "text": "Last Saturday, at my forty-seat restaurant, a party of eight booked for seven-thirty never arrived. They did not call. When we phoned them at eight, the number went to voicemail. That evening, we turned away at least a dozen walk-in customers because we were holding the table. For a small business like mine, one empty table of eight on a Saturday night can mean the difference between a profitable week and a loss.\n\nI am not alone. Restaurant owners across the country report that no-shows have increased in recent years, partly because online booking makes it easy to reserve at several places and decide later. Some people book three restaurants for the same night and simply go to whichever one they feel like.\n\nThat is why, starting next month, we will ask for a credit card when customers book a table for six or more, and we will charge twenty-five dollars per person if they fail to show up or cancel with less than twenty-four hours’ notice. I know some customers will find this unwelcoming. Some have told me it feels like I do not trust them. But I think the policy is fair, and I want to explain why.\n\nFirst, other businesses already do this. Hair salons, dentists and physiotherapists routinely charge for missed appointments, and few people object. A restaurant reservation is also an appointment: we prepare ingredients, schedule staff and turn away other customers based on it.\n\nSecond, the fee is not meant to make money. In the restaurants I know that have introduced similar policies, no-shows dropped dramatically, and fees were rarely charged at all. The goal is simply to encourage people to cancel when their plans change, so that someone else can enjoy the table.\n\nFinally, we will apply the policy with common sense. If someone has a genuine emergency, such as an illness or a car accident, we will not charge them. We are a neighbourhood restaurant, not a bank.\n\nI would much rather never charge a single fee. All I ask is a phone call.",
+   "text": "Last Saturday, at my forty-seat restaurant, a party of eight booked for seven-thirty never arrived. They did not call. When we phoned them at eight, the number went to voicemail. That evening, we turned away at least a dozen walk-in customers because we were holding the table. My cook had also prepared extra portions of our Saturday special, most of which went to waste. For a small business like mine, one empty table of eight on a Saturday night can mean the difference between a profitable week and a loss.\n\nI am not alone. Restaurant owners across the country report that no-shows have increased in recent years, partly because online booking makes it easy to reserve at several places and decide later. Some people book three restaurants for the same night and simply go to whichever one they feel like. Others book for six people and arrive with three, which hurts almost as much.\n\nThat is why, starting next month, we will ask for a credit card when customers book a table for six or more, and we will charge twenty-five dollars per person if they fail to show up or cancel with less than twenty-four hours’ notice. I know some customers will find this unwelcoming. Some have told me it feels like I do not trust them. Others, including several regulars who were once turned away on busy nights, have told me they support the idea. But I think the policy is fair, and I want to explain why.\n\nFirst, other businesses already do this. Hair salons, dentists and physiotherapists routinely charge for missed appointments, and few people object. A restaurant reservation is also an appointment: we prepare ingredients, schedule staff and turn away other customers based on it. For a large party, we may also bring in an extra server and buy fresh fish that will not keep until the next day.\n\nSecond, the fee is not meant to make money. In the restaurants I know that have introduced similar policies, no-shows dropped dramatically, and fees were rarely charged at all. One owner in Halifax told me she has charged the fee only twice in two years. The goal is simply to encourage people to cancel when their plans change, so that someone else can enjoy the table.\n\nFinally, we will apply the policy with common sense. If someone has a genuine emergency, such as an illness or a car accident, we will not charge them. We are a neighbourhood restaurant, not a bank. We will also call every large party the day before to confirm.\n\nI would much rather never charge a single fee. All I ask is a phone call.",
    "qs": [
     {
      "q": "What is the writer’s main purpose?",
      "o": [
-      "To complain about his customers",
       "To explain and justify a new reservation policy",
-      "To announce that his restaurant is closing",
-      "To criticize online booking companies"
+      "To complain about his regular customers",
+      "To announce that his restaurant may have to close",
+      "To criticize online booking companies for no-shows"
      ],
-     "a": 1,
+     "a": 0,
      "t": "main",
      "ev": "But I think the policy is fair, and I want to explain why",
-     "x": "He explains and justifies the policy."
+     "x": "Daniel announces a no-show fee for large groups and says he wants to explain why it is fair. He mentions online booking only as a cause of no-shows, not to criticize booking companies."
     },
     {
      "q": "According to the writer, why have no-shows increased?",
      "o": [
-      "Restaurants have become more expensive.",
-      "Online booking makes multiple reservations easy.",
-      "People are eating out less.",
-      "Restaurants no longer phone customers."
+      "Restaurant meals have become far more expensive.",
+      "People are eating out less than they used to.",
+      "Restaurants no longer call to confirm bookings.",
+      "Reserving several places online is now simple."
      ],
-     "a": 1,
+     "a": 3,
      "t": "detail",
      "ev": "online booking makes it easy to reserve at several places and decide later",
-     "x": "Easy multiple online bookings."
+     "x": "Daniel says online booking makes it easy to reserve at several places and decide later. His own restaurant phoned the missing party, so restaurants not calling is wrong."
     },
     {
      "q": "Why does the writer mention hair salons and dentists?",
      "o": [
-      "To show that charging for missed appointments is common",
-      "To compare their prices",
-      "To suggest they are less fair",
-      "To advertise their services"
+      "To compare their fees with what restaurants charge",
+      "To suggest those businesses treat customers unfairly",
+      "To show such fees are normal in other businesses",
+      "To show that appointments are more important than meals"
      ],
-     "a": 0,
+     "a": 2,
      "t": "purpose",
      "ev": "Hair salons, dentists and physiotherapists routinely charge for missed appointments",
-     "x": "To show the practice is common and accepted."
+     "x": "Daniel notes that salons, dentists and physiotherapists routinely charge for missed appointments and few object, so restaurants should be able to as well. He is not criticizing those businesses."
     },
     {
      "q": "What does the writer say about the purpose of the fee?",
      "o": [
-      "It will increase his profits.",
+      "It will help increase his restaurant’s profits.",
       "It is meant to change behaviour, not earn money.",
-      "It will pay for staff wages.",
-      "It will be donated to charity."
+      "It will cover wages for scheduled staff.",
+      "Any money collected will be given to charity."
      ],
      "a": 1,
      "t": "inference",
      "ev": "the fee is not meant to make money",
-     "x": "It encourages cancellations rather than earning money."
+     "x": "Daniel says the fee is not meant to make money; similar policies cut no-shows and fees were rarely charged. The aim is to get people to cancel, not to raise profits."
     },
     {
      "q": "What is the tone of the final sentence?",
      "o": [
-      "Angry",
-      "Reasonable and sincere",
-      "Sarcastic",
-      "Indifferent"
+      "Angry and bitter",
+      "Sarcastic and rude",
+      "Cold and indifferent",
+      "Sincere and moderate"
      ],
-     "a": 1,
+     "a": 3,
      "t": "attitude",
      "ev": "All I ask is a phone call.",
-     "x": "A reasonable, sincere appeal."
+     "x": "Daniel says he would rather never charge a fee and asks only for a phone call, a modest, sincere request. Nothing in the sentence mocks customers, so “sarcastic” does not fit."
     }
    ],
    "comment": {
     "intro": "Here is a reader’s comment. Complete it by choosing the best option for each blank.",
-    "text": "I used to be {1} no-show fees, but this article changed my mind. I never thought about the customers who were {2} because a table was being held. Mr. Laurent’s comparison with a dentist’s appointment is {3}.\n\nI do think restaurants have some responsibility too, though. Many booking websites make it surprisingly {4} to cancel; you have to log in, find the reservation and go through several screens. If cancelling were as easy as booking, I suspect fewer people would simply not show up.\n\nI also appreciate that he will {5} genuine emergencies. That kind of flexibility is what makes a neighbourhood restaurant special.\n\n– Rachel, Ottawa",
+    "text": "I used to be {1} no-show fees, but this article changed my mind. I never thought about the customers who were {2} because a table was being held. Mr. Laurent’s comparison with a dentist’s appointment is {3}. Last year I booked two places for my sister’s birthday myself, so I admit I have been part of the problem.\n\nI do think restaurants have some responsibility too, though. Many booking websites make it surprisingly {4} to cancel; you have to log in, find the reservation and go through several screens. If cancelling were as easy as booking, I suspect fewer people would simply not show up.\n\nI also appreciate that he will {5} genuine emergencies. That kind of flexibility is what makes a neighbourhood restaurant special.\n\n– Rachel, Ottawa",
     "blanks": [
      {
       "o": [
-       "in favour of",
        "against",
+       "in favour of",
        "unaware of",
        "responsible for"
       ],
-      "a": 1,
+      "a": 0,
       "t": "coherence",
       "ev": "I know some customers will find this unwelcoming",
-      "x": "She used to be against them."
+      "x": "Rachel says the article changed her mind, and she now accepts the fee, so she must previously have been against it. “In favour of” would mean no change of mind."
      },
      {
       "o": [
-       "turned away",
-       "charged",
+       "overcharged",
        "welcomed",
-       "served"
+       "turned away",
+       "seated late"
       ],
-      "a": 0,
+      "a": 2,
       "t": "detail",
       "ev": "we turned away at least a dozen walk-in customers",
-      "x": "Walk-in customers were turned away."
+      "x": "Daniel says he turned away at least a dozen walk-in customers because the table was being held. Nobody was overcharged; the problem was lost customers, not prices."
      },
      {
       "o": [
-       "unfair",
        "convincing",
+       "unfair",
        "confusing",
        "irrelevant"
       ],
-      "a": 1,
+      "a": 0,
       "t": "attitude",
       "ev": "A restaurant reservation is also an appointment",
-      "x": "She finds it convincing."
+      "x": "Rachel says the article changed her mind, so she finds the dentist comparison convincing. “Irrelevant” or “unfair” would contradict her change of opinion."
      },
      {
       "o": [
-       "easy",
-       "difficult",
-       "cheap",
-       "fast"
+       "simple",
+       "quick",
+       "expensive",
+       "difficult"
       ],
-      "a": 1,
+      "a": 3,
       "t": "coherence",
       "ev": "encourage people to cancel when their plans change",
-      "x": "Cancelling is difficult on many sites."
+      "x": "Rachel describes logging in and going through several screens, so cancelling is surprisingly difficult. “Simple” or “quick” contradicts her description and her wish that cancelling were as easy as booking."
      },
      {
       "o": [
-       "charge for",
-       "make exceptions for",
-       "report",
-       "ignore"
+       "charge extra for",
+       "not charge for",
+       "ask for proof of",
+       "refuse to accept"
       ],
       "a": 1,
       "t": "detail",
       "ev": "If someone has a genuine emergency, such as an illness or a car accident, we will not charge them",
-      "x": "He makes exceptions for emergencies."
+      "x": "Daniel says customers with a genuine emergency, such as illness or a car accident, will not be charged. Rachel praises this flexibility, so “charge extra for” or “refuse to accept” contradicts her point."
      }
     ]
    }

@@ -1,0 +1,455 @@
+{
+ "id": "t42",
+ "title": "Test 42",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two organizers of a cross-country ski race are dealing with a problem ten days before the event.",
+    "sp": {
+     "A": {"name": "Ingrid", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Callum", "g": "m", "acc": "en-GB", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Callum, did you get the photos I took on the trail this morning?"],
+       ["B", "I did. I was hoping you’d sent the wrong ones. Is that really the Ridgeline loop? It looks like a hiking path."],
+       ["A", "That’s the best section. Most of the course has maybe four centimetres of crusty snow over rocks and roots. The groomer can’t do anything with that. And the forecast for the next ten days is plus two during the day, with rain on Wednesday."],
+       ["B", "So the thirty-kilometre course is basically gone. How many are registered now?"],
+       ["A", "Six hundred and twelve, including about a hundred and forty kids in the youth races. And a lot of the adults are coming from out of province. The hotels in town are fully booked for that weekend."],
+       ["B", "Which is great for the town, and terrible for us if we cancel. What does our policy say about refunds?"],
+       ["A", "The waiver says that if the race is cancelled because of weather, we keep the entry fee but offer a credit for next year. Legally, we’re covered. But honestly, I don’t think that would go down well. A lot of people have been training all fall for this."],
+       ["B", "No, and the sponsors would hate it too. The credit union paid for the new timing system on the understanding that we’d have a full field."],
+       ["A", "Exactly. So cancelling is the very last resort. I’d rather run something smaller than nothing at all."],
+       ["B", "Agreed. Okay, let’s think about where there actually is snow, or where there could be."]
+      ],
+      "qs": [
+       {"q": "What is the problem with the race course?", "o": ["Recent rain has washed away part of the Ridgeline loop completely.", "There is too little snow for it to be prepared.", "Fallen trees have blocked several of the trails.", "It is icy but can be groomed after Wednesday."], "a": 1, "t": "paraphrase", "ev": "The groomer can’t do anything with that.", "x": "Only about four centimetres of crusty snow covers the rocks, so it cannot be groomed. Rain is forecast for Wednesday; it has not already washed the trail away."},
+       {"q": "What does Ingrid suggest about the refund policy?", "o": ["It requires the organizers to return every entry fee.", "It gives out-of-province skiers a full refund if their hotel cannot be cancelled.", "It protects the organizers but could upset participants.", "It must first be approved by the race’s main sponsor."], "a": 2, "t": "attitude", "ev": "Legally, we’re covered. But honestly, I don’t think that would go down well.", "x": "The waiver lets them keep fees and offer a credit, so they are legally safe, but she expects skiers who trained all fall to be unhappy. No special hotel refund exists."},
+       {"q": "Why does Callum mention the credit union?", "o": ["To point out that a sponsor expects a large event", "To suggest asking the sponsor to pay for refunds", "To explain why the timing system is not working", "To show that the hotels are offering discounts"], "a": 0, "t": "purpose", "ev": "on the understanding that we’d have a full field", "x": "The credit union funded the timing system expecting a full field of skiers, so cancelling would disappoint a sponsor. He does not suggest it pay refunds."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "What about postponing? The backup date in our permit is February twenty-second."],
+       ["A", "I looked. That’s the same weekend as the provincial championships in Thunder Bay. At least a third of our adult field races there, and so do most of our volunteers’ kids. We’d lose half the people we’re trying to keep."],
+       ["B", "Right. What about Silver Lake? They’ve got natural snow up there. I saw on their website they’ve been grooming since December."],
+       ["A", "I called them yesterday. They’d love to host us, but it’s a hundred and ten kilometres away, there’s parking for about two hundred cars, and they can only handle four hundred skiers on their trails at once. Plus the hotels here would lose all that business, and the town council co-funds us partly for that reason."],
+       ["B", "So that’s probably out. Hmm. What about the municipal golf course? They put in snowmaking for the tubing hill last year."],
+       ["A", "Funny you should say that. I talked to their manager this morning. They can make enough snow for a loop of about three kilometres along the back nine, if the nights stay below minus five, which they’re forecast to do until Thursday. They’d charge us around four thousand dollars for the snowmaking."],
+       ["B", "Three kilometres. That’s a long way from thirty."],
+       ["A", "It is. But skiers could do laps. Ten laps for the full distance."],
+       ["B", "Six hundred people on a three-kilometre loop? It would be like rush hour on the highway."],
+       ["A", "Not if we use wave starts and shorten the distances. The long race could be fifteen kilometres, five laps, instead of thirty."]
+      ],
+      "qs": [
+       {"q": "Why does Ingrid reject the February date?", "o": ["The permit does not allow a second date in the same winter.", "The hotels in town are already booked that weekend.", "There will probably be even less snow by then.", "Many racers and helpers will be at another competition."], "a": 3, "t": "inference", "ev": "That’s the same weekend as the provincial championships in Thunder Bay.", "x": "The new date clashes with the provincial championships, where a third of the adults and many volunteers’ children compete. The fully booked hotels refer to the original race weekend."},
+       {"q": "What would be one disadvantage of moving the race to Silver Lake?", "o": ["Its trails have not been groomed since December.", "Local businesses would lose visitors’ spending.", "It cannot provide enough snow for the youth races.", "Its manager would charge four thousand dollars."], "a": 1, "t": "detail", "ev": "the hotels here would lose all that business", "x": "Hosting elsewhere would take visitors away from the town’s hotels, which the council funds the race to support. The $4,000 charge is for snowmaking at the golf course."},
+       {"q": "How does Callum first react to the golf course loop?", "o": ["He doubts the loop is large enough for the event.", "He thinks it is too expensive for the budget.", "He is excited because it solves every problem.", "He worries the snow will melt before Thursday."], "a": 0, "t": "attitude", "ev": "That’s a long way from thirty.", "x": "He compares three kilometres with the thirty-kilometre course and then imagines “rush hour”, so he doubts it is big enough. He never comments on the cost."}
+      ]
+     },
+     {
+      "lines": [
+       ["B", "Okay, I can see it. Fifteen K, five laps, with the waves spaced ten minutes apart. And the kids’ races?"],
+       ["A", "They’re easy. The youth races were only ever two or five kilometres, so they barely change. I’d actually run them first, at nine, while the snow is freshest."],
+       ["B", "Good. What about people who don’t want to come for a shorter race? Some of them have booked flights."],
+       ["A", "I think we should offer a choice. Anyone who withdraws by next Monday gets half their fee back in cash, or a full credit for next year. Everyone else gets the race, plus a free pancake breakfast at the clubhouse. The four thousand for the snowmaking comes out of our contingency fund, so we can afford the partial refunds too, as long as no more than about a third of people withdraw."],
+       ["B", "That sounds fair. I’ll draft the email to participants tonight. Do we need anything from the city?"],
+       ["A", "Just a change to the location on our permit. The golf course is city property, so the parks office says it’s a formality, but it has to be signed before we announce anything."],
+       ["B", "Then I’ll hold the email until the permit comes through. I’d rather wait a day than announce something we have to take back."],
+       ["A", "Agreed. And let’s ask the golf course to start the snow guns tonight, just in case Thursday warms up early."]
+      ],
+      "qs": [
+       {"q": "What will participants who withdraw by next Monday be offered?", "o": ["A full cash refund and a free breakfast at the clubhouse", "Some of their money back or a credit for next year", "A guaranteed place in the provincial championships", "A free entry into one of the youth races"], "a": 1, "t": "paraphrase", "ev": "gets half their fee back in cash, or a full credit for next year", "x": "They can choose half their fee in cash or a full credit. The free breakfast is for people who still take part in the race."},
+       {"q": "Why will Callum wait before sending the email?", "o": ["He needs to know how many skiers will withdraw.", "He is waiting for the snowmaking to be finished.", "The sponsor has to approve the new race format.", "He wants the new location officially approved first."], "a": 3, "t": "inference", "ev": "it has to be signed before we announce anything", "x": "The permit for the new location must be signed before any announcement, and he does not want to announce something that might change. Withdrawals happen after the email, not before."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A father is talking to his daughter’s violin teacher after a lesson.",
+    "sp": {
+     "A": {"name": "Ms. Pritchard", "g": "f", "acc": "en-AU", "rate": 1.02},
+     "B": {"name": "Kofi", "g": "m", "acc": "en-CA", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Ms. Pritchard, do you have a minute before your next student?"],
+       ["A", "Of course, Mr. Boateng. Is everything all right with Abena?"],
+       ["B", "Well, that’s what I wanted to ask you. She’s been really reluctant to practise lately. Every evening turns into an argument. Last year she’d play for half an hour without being asked, and now I have to drag her to the music stand. I’m wondering whether we should stop lessons for a while."],
+       ["A", "I’ve noticed a change too, actually. She’s still progressing, but she seems less, I don’t know, less excited. Can I ask what she’s been practising at home?"],
+       ["B", "Mostly the scales and that study you gave her, the one in D minor. She says it’s boring, and honestly, after listening to it every night, I can see her point."],
+       ["A", "That’s fair. I’ve been focusing on technique because she’s preparing for her grade four exam in May. But I may have overdone it. At her age, if every practice feels like homework, kids lose interest fast."],
+       ["B", "So what would you suggest?"],
+       ["A", "Two things. First, let’s give her a piece she actually wants to play, alongside the exam work. She mentioned a film theme a few weeks ago, from that animated movie about the dragon. I can find an arrangement at her level. If she plays that for ten minutes after her scales, practice ends on something fun."],
+       ["B", "She’d love that. And the second thing?"],
+       ["A", "Shorter practices. Twenty focused minutes, five days a week, are worth more than forty minutes of arguing. And rather than you supervising, maybe she could record herself once a week on your phone and send it to me. Kids often work harder when they know someone outside the family will hear it."],
+       ["B", "I like that a lot. It takes me out of the role of the bad guy. What about the exam, though? Is May still realistic?"],
+       ["A", "I think so, but I wouldn’t panic if it moves to the autumn session. There’s no rush. The exam is there to help her, not the other way round."],
+       ["B", "That’s a relief. And the spring recital? She was nervous about playing alone in front of everyone."],
+       ["A", "I’m planning to pair her with Lucas, another student her age, for a duet. Playing with someone else is much less frightening the first time."],
+       ["B", "Perfect. I’ll talk to her tonight."]
+      ],
+      "qs": [
+       {"q": "Why does Mr. Boateng want to speak to the teacher?", "o": ["He wants to move Abena’s lessons to another day of the week.", "He thinks Abena should not take the grade four exam.", "He is worried about his daughter’s lack of motivation.", "He disagrees with the pieces she has been assigned."], "a": 2, "t": "main", "ev": "She’s been really reluctant to practise lately.", "x": "He reports daily arguments about practice and asks whether to pause lessons, so his concern is her motivation. He does not ask to change the exam or the lesson day."},
+       {"q": "What does the teacher admit?", "o": ["She may have put too much focus on technical work.", "She did not notice any change in Abena’s attitude.", "She chose an exam that was too advanced for Abena.", "She has not given Abena enough to practise at home."], "a": 0, "t": "inference", "ev": "But I may have overdone it.", "x": "She says she has focused on technique for the exam and “may have overdone it”. She had noticed the change in Abena, and she thinks May is still realistic."},
+       {"q": "Why does the teacher suggest that Abena record herself?", "o": ["So that her father can check how long she practises each day", "Because students often try harder for an outside listener", "Because the recordings are required for the exam", "So that Lucas can learn his part of the duet"], "a": 1, "t": "purpose", "ev": "Kids often work harder when they know someone outside the family will hear it.", "x": "Knowing the teacher will hear the recording motivates students, and it also removes the father from supervising. The exam does not require recordings."},
+       {"q": "What is the teacher’s attitude toward the exam date?", "o": ["She insists that Abena must take it in May.", "She thinks Abena should skip the exam entirely.", "She is relaxed about delaying it if necessary.", "She wants Abena’s father to choose the date."], "a": 2, "t": "attitude", "ev": "I wouldn’t panic if it moves to the autumn session.", "x": "She thinks May is realistic but would not worry if it moved to the autumn, because the exam should serve Abena. She does not suggest skipping it."},
+       {"q": "How will the teacher help Abena with the recital?", "o": ["By choosing the dragon film theme as her solo", "By letting her play a shorter piece at the start", "By recording her performance in advance", "By having her perform together with another student"], "a": 3, "t": "detail", "ev": "I’m planning to pair her with Lucas, another student her age, for a duet.", "x": "Abena will play a duet with Lucas, which is less frightening than a solo. The film theme is for home practice, not the recital."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A woman calls a community sailing club to ask about lessons.",
+    "sp": {
+     "A": {"name": "Trevor", "g": "m", "acc": "en-CA", "rate": 1.05},
+     "B": {"name": "Delia", "g": "f", "acc": "en-US", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Bayview Community Sailing, Trevor speaking."],
+       ["B", "Hi, I’m calling about your adult learn-to-sail courses. I’ve never sailed before, and I’m trying to figure out which course to sign up for."],
+       ["A", "Sure. For complete beginners, there are two options. The weekend intensive runs over two full weekends, Saturday and Sunday, nine to four. The evening course runs Tuesday and Thursday nights, six to nine, for four weeks. Both cover exactly the same material, and both end with the same certification test."],
+       ["B", "And the price?"],
+       ["A", "Both are four hundred and twenty-five dollars. That includes boats, life jackets and the certification fee. If you’re not already a member, you also need a basic membership, which is sixty dollars for the season, so four eighty-five in total."],
+       ["B", "Okay. Is the membership worth it on its own?"],
+       ["A", "Most people think so. Once you’re certified, members can take out the club’s small boats during open sailing hours for free. Open sailing is every day from noon until sunset, from mid-June to Labour Day, as long as the wind is below twenty-five kilometres an hour."],
+       ["B", "Oh, nice. Are there any requirements to take the course? I’m not the strongest swimmer."],
+       ["A", "You don’t have to be a strong swimmer, but you do need to be comfortable in the water. On the first day, everyone does a short in-water test: you jump in wearing a life jacket, float for two minutes and climb back into a boat. These small boats do tip over, and you’ll practise capsizing on purpose in the second week."],
+       ["B", "Capsizing on purpose? That sounds terrifying."],
+       ["A", "Everyone says that, and by the end, most people say it was their favourite part. The water in July is about nineteen degrees, so it’s refreshing, not freezing. We provide wetsuits if you’d like one."],
+       ["B", "Okay. I work some Saturdays, so the evening course might be better. When does it start?"],
+       ["A", "There are three sessions: June ninth, July seventh and August fourth. June is already full, I’m afraid. July has four spots left, and August is wide open."],
+       ["B", "And if a class gets cancelled because of the weather?"],
+       ["A", "Evening classes cancelled for high winds or thunderstorms are made up on the Friday of the same week. And if you miss a class for your own reasons, you can join the matching class in the next session, if there’s room."],
+       ["B", "That’s flexible. How do I sign up?"],
+       ["A", "On our website. You pay a fifty-dollar deposit to hold your spot, and the rest is due two weeks before the course starts."]
+      ],
+      "qs": [
+       {"q": "How do the two beginner courses differ?", "o": ["Only the weekend course ends with a certification test.", "The evening course is cheaper for members.", "They are scheduled at different times.", "The evening course lasts only two weeks."], "a": 2, "t": "inference", "ev": "Both cover exactly the same material, and both end with the same certification test.", "x": "The content, price and test are identical; only the schedule differs. The evening course runs for four weeks, not two."},
+       {"q": "How much will a non-member pay in total for a course?", "o": ["$425", "$485", "$60", "$475"], "a": 1, "t": "detail", "ev": "so four eighty-five in total", "x": "The $425 course plus the $60 membership comes to $485. $425 is the course alone, and $60 is only the membership."},
+       {"q": "What can certified members do during the summer?", "o": ["Take part in races held every evening until sunset", "Get a discount on the advanced weekend course", "Borrow small boats at no charge in suitable weather", "Rent wetsuits for open sailing at a reduced price"], "a": 2, "t": "paraphrase", "ev": "members can take out the club’s small boats during open sailing hours for free", "x": "Certified members may use the small boats free during open sailing when the wind is below 25 km/h. No races or advanced course discounts are mentioned."},
+       {"q": "Why must participants do a test in the water on the first day?", "o": ["Because the boats sometimes turn over", "Because the water in June is very cold", "Because only strong swimmers may join", "Because the certification test requires it"], "a": 0, "t": "inference", "ev": "These small boats do tip over", "x": "The test makes sure everyone can cope in the water, since small boats tip over and students practise capsizing. Trevor says you do not have to be a strong swimmer."},
+       {"q": "What is true about the evening course sessions?", "o": ["The July session has been fully booked.", "The August session may be cancelled.", "The first session has no places left.", "All sessions begin on a Thursday."], "a": 2, "t": "detail", "ev": "June is already full", "x": "The June session is full, July has four spots, and August is wide open. Nothing suggests August might be cancelled."},
+       {"q": "What happens if an evening class is cancelled because of bad weather?", "o": ["Participants join the same class in the next session.", "Participants receive part of their fee back.", "The class is moved to the following Saturday.", "It is made up later the same week."], "a": 3, "t": "detail", "ev": "are made up on the Friday of the same week", "x": "Weather cancellations are made up that Friday. Joining the next session applies when a student misses a class for personal reasons."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "m", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Market organizer", "g": "f", "acc": "en-IN", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "For the first time in its history, the city of Kingsbridge will host a weekly night market this summer. Starting June twentieth, a three-block stretch of Wellington Street downtown will close to traffic every Friday from six p.m. until midnight, filling with food stalls, local artisans and live music. The pilot project will run for ten weeks."],
+       ["A", "The idea came from a group of small business owners in the downtown core, who say the area empties out after office hours. Organizer Rukmini Iyer, who runs a spice shop on Wellington, says she was inspired by the night markets she grew up with."],
+       ["B", "Where my family comes from, the market at night is where everybody goes. Grandparents, teenagers, everyone. You eat, you walk, you run into people you haven’t seen in months. Our downtown has wonderful shops, but by seven o’clock it’s a ghost town. I want people to have a reason to stay."],
+       ["A", "More than a hundred and twenty vendors applied for sixty stalls. Organizers say they deliberately chose a mix of established restaurants and first-time vendors, including twelve home cooks who will be selling food publicly for the first time after completing a food-handling course funded by the city."],
+       ["A", "Not everyone downtown is enthusiastic. Some residents of the condo towers along Wellington Street have raised concerns about noise and litter. In response, organizers have agreed that amplified music will end at ten thirty, an hour and a half before the market closes, and volunteers will run a cleanup crew each night."],
+       ["A", "Some restaurant owners on nearby streets also worry that the market will draw customers away from them. Iyer argues the opposite."],
+       ["B", "When people come downtown for the market, they don’t just eat one samosa and go home. They have a drink at a pub, they come back on Saturday for brunch. A rising tide lifts all boats. But we’ll know more after ten weeks, and we’ll be measuring."],
+       ["A", "The city will survey businesses within a five-block radius at the end of the pilot, and council will decide in the fall whether the market becomes permanent."]
+      ],
+      "qs": [
+       {"q": "What problem is the night market intended to address?", "o": ["Local restaurants have been losing lunchtime customers to food trucks.", "Too few vendors have permanent shops downtown.", "The downtown area is quiet in the evenings.", "Wellington Street has too much traffic."], "a": 2, "t": "paraphrase", "ev": "the area empties out after office hours", "x": "Business owners say downtown empties after office hours, and Iyer calls it a ghost town by seven. Traffic is closed only for the market; it is not the problem."},
+       {"q": "Why does Iyer describe the markets of her childhood?", "o": ["To explain why she opened a spice shop on Wellington Street", "To show how such markets bring all generations together", "To argue that the market should open every night", "To compare food prices in two different countries"], "a": 1, "t": "purpose", "ev": "Grandparents, teenagers, everyone.", "x": "She describes night markets as places where grandparents and teenagers mix and meet friends, which is what she wants downtown. Her shop is mentioned only as background."},
+       {"q": "What is true about the twelve home cooks?", "o": ["They completed training paid for by the city.", "They were chosen ahead of established restaurants.", "They will share a single stall between them.", "They have sold food at other markets before."], "a": 0, "t": "detail", "ev": "after completing a food-handling course funded by the city", "x": "The home cooks took a city-funded food-handling course and will sell publicly for the first time, so they have not sold at markets before."},
+       {"q": "How have organizers responded to residents’ concerns?", "o": ["The market will close at ten thirty each Friday.", "Loud music will stop well before closing time.", "Stalls will be moved away from the condo towers.", "Residents will be hired to clean up each night."], "a": 1, "t": "paraphrase", "ev": "amplified music will end at ten thirty, an hour and a half before the market closes", "x": "Amplified music ends at 10:30, ninety minutes before the market closes at midnight. The market itself still runs until midnight, and the cleanup crew is made up of volunteers."},
+       {"q": "What does Iyer mean by “A rising tide lifts all boats”?", "o": ["Visitors will prefer the market to restaurants.", "Prices will rise for everyone downtown.", "Nearby businesses will also benefit from the crowds.", "The market will grow larger every week."], "a": 2, "t": "vocab", "ev": "A rising tide lifts all boats.", "x": "She argues that market visitors will also go to pubs and come back for brunch, so surrounding businesses gain too. That is the opposite of taking customers from restaurants."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three board members of a community orchestra are discussing who should conduct the orchestra next season.",
+    "sp": {
+     "A": {"name": "Gwendolyn", "g": "f", "acc": "en-CA", "rate": 1.0},
+     "B": {"name": "Ezra", "g": "m", "acc": "en-US", "rate": 1.03},
+     "C": {"name": "Siobhan", "g": "f", "acc": "en-GB", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Thanks for staying after rehearsal. As you know, Leonard has told us he wants to step down as conductor at the end of this season. He’s been doing it as a volunteer for nineteen years. So before we start asking around, we need to decide what kind of replacement we’re actually looking for."],
+       ["B", "I’ll put my cards on the table. I think it’s time we hired a professional. Not full-time, obviously, but a paid conductor with proper training. We’ve grown to sixty-five players, we’re performing in the new arts centre, and audiences are paying twenty-five dollars a ticket now. I think we owe them a higher standard."],
+       ["C", "With respect, Ezra, I think the standard is fine. People don’t come to hear a world-famous orchestra. They come to hear their dentist play the cello. And you’re talking about real money. What would a part-time professional cost?"],
+       ["B", "I made some calls. For about thirty rehearsals and four concerts, somewhere between twelve and eighteen thousand a year."],
+       ["C", "Our entire budget is twenty-six thousand. That could be more than half of it gone on one person."],
+       ["A", "Let me add the other side of the ledger, though. Ticket sales are rising. We sold out two of our four concerts last season. There may be room to grow the budget."],
+       ["C", "By raising ticket prices again? We already lost some of the seniors when we went from fifteen to twenty-five."],
+       ["B", "We could look for a sponsor. A lot of businesses like to be associated with a local orchestra."],
+       ["C", "Maybe. But my bigger worry isn’t the money. It’s the culture. Leonard knows everyone’s name. He knows Martha can’t make Tuesday rehearsals in tax season. A professional who drives in from the city twice a week, collects a cheque and leaves might give us a better sound, but people will stop enjoying it. And then they’ll stop coming."],
+       ["B", "That’s not fair. Plenty of professional conductors are wonderful with amateurs. It’s actually a specialty. Some of them do nothing else."],
+       ["A", "I think you’re both partly right. What we’re really afraid of is getting the wrong person, whichever way we pay them. Siobhan, would you object to a paid conductor if they were genuinely right for us?"],
+       ["C", "If they were right for us, and we could afford it without pricing people out, no. I just don’t want us to assume that paid automatically means better."],
+       ["A", "Fair. Here’s a thought. What if, for next season, we invite three guest conductors, each to lead one concert cycle? Some could be professionals, maybe one could be one of our own musicians. We pay each of them a modest fee, see how the orchestra responds, and the players vote at the end."],
+       ["B", "Like auditions in reverse. I like that. It costs more than a volunteer, but much less than committing to a salary."],
+       ["C", "And the players get a say, not just the board. I could support that. Could Leonard come back to conduct the final concert, though? After nineteen years, he deserves a proper farewell."],
+       ["A", "Absolutely. So: three guest conductors share next season, each for a modest fee, Leonard returns to conduct the season finale, and the musicians vote in May. Ezra, could you look for a sponsor to cover the fees?"],
+       ["B", "I’ll start with the music store and the credit union."]
+      ],
+      "qs": [
+       {"q": "What is the purpose of the meeting?", "o": ["To persuade Leonard to stay on for another season", "To agree on what kind of conductor to look for", "To approve a budget increase for next season", "To plan the farewell concert for Leonard"], "a": 1, "t": "main", "ev": "we need to decide what kind of replacement we’re actually looking for", "x": "Gwendolyn opens by saying they must decide what type of replacement they want before searching. Leonard’s farewell comes up only at the end."},
+       {"q": "Why does Ezra mention the new arts centre and ticket prices?", "o": ["To argue that audiences now expect a better performance", "To complain that the orchestra’s costs have risen too fast", "To suggest that the orchestra should lower its prices", "To show that the orchestra has too many players"], "a": 0, "t": "purpose", "ev": "I think we owe them a higher standard.", "x": "He links a bigger orchestra, a better venue and higher prices to the duty to offer a higher standard, which supports hiring a professional."},
+       {"q": "What does Siobhan mean by saying audiences “come to hear their dentist play the cello”?", "o": ["Most players have jobs that leave too little time to practise.", "Audiences mainly attend to support people they know.", "The cello section needs more skilled musicians.", "Audiences expect the same quality as famous orchestras."], "a": 1, "t": "attitude", "ev": "People don’t come to hear a world-famous orchestra.", "x": "She means the appeal is the community connection of seeing familiar people perform, not professional perfection. That is why she thinks the current standard is fine."},
+       {"q": "Why does Siobhan object to raising ticket prices?", "o": ["The arts centre does not allow higher prices.", "The orchestra’s sponsor would withdraw its support.", "Ticket sales have been falling for several seasons.", "Some older audience members have already stopped attending."], "a": 3, "t": "detail", "ev": "We already lost some of the seniors when we went from fifteen to twenty-five.", "x": "The last price rise drove away some seniors. In fact, Gwendolyn says ticket sales are rising, and there is no sponsor yet."},
+       {"q": "What is Siobhan’s biggest concern about hiring a professional?", "o": ["The salary would use up more than half of the budget.", "A professional might not stay for more than one season.", "The friendly atmosphere of the orchestra could suffer.", "The players would refuse to work with an outsider."], "a": 2, "t": "viewpoint", "ev": "But my bigger worry isn’t the money. It’s the culture.", "x": "She explicitly says money is not her biggest worry; it is losing the personal, friendly culture Leonard created. The budget point was raised earlier but ranked second."},
+       {"q": "How does Ezra respond to Siobhan’s concern?", "o": ["He agrees that professionals are usually too distant.", "He believes she is unfairly generalizing about professionals.", "He suggests that Leonard train the new conductor.", "He admits the orchestra cannot afford a professional."], "a": 1, "t": "attitude", "ev": "That’s not fair. Plenty of professional conductors are wonderful with amateurs.", "x": "He calls her view unfair and says many professionals specialize in working with amateurs. He does not concede that professionals are distant."},
+       {"q": "According to Gwendolyn, what is the real issue?", "o": ["Choosing an unsuitable person, whether paid or not", "Finding enough money to pay a professional salary", "Convincing the players to accept any change", "Replacing Leonard before the end of the season"], "a": 0, "t": "inference", "ev": "What we’re really afraid of is getting the wrong person, whichever way we pay them.", "x": "She reframes the debate: the risk is the wrong person, not paid versus volunteer. Money is part of the discussion but not what she calls the real fear."},
+       {"q": "What do they decide?", "o": ["To hire a part-time professional for the full season", "To ask Leonard to continue for one more year", "To appoint one of the orchestra’s own musicians", "To try several conductors before the players choose"], "a": 3, "t": "main", "ev": "the musicians vote in May", "x": "Three guest conductors will each lead part of the season, and the players will vote in May. Leonard returns only for the final concert."}
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about new rules for street performers.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "f", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Walk along the waterfront in Port Calloway on any summer afternoon, and you’ll hear a steel drum, a fiddle, maybe a man playing saxophone to a backing track. Street performers, or buskers, have been part of the waterfront for decades. But a proposal before city council would change how they work, and it has divided the people who perform, the people who listen and the businesses in between."],
+       ["A", "Under the current rules, anyone can perform anywhere on public property, as long as they don’t block the sidewalk. The proposal would require buskers to buy an annual permit for forty dollars, perform only at twelve marked locations and rotate every two hours. Amplifiers would be limited to a set volume, and performances would be banned after ten p.m."],
+       ["A", "The city’s waterfront business association strongly supports the change. Its director says complaints have risen sharply since some performers began using powerful speakers. One café owner told me that a performer had set up directly outside his patio for three days in a row, playing the same six songs, and that customers had started asking to sit inside. He said he has nothing against street music, but that his staff now spend part of every shift asking performers to move along. The association argues that clear rules would protect good performers by removing the few who give busking a bad name."],
+       ["A", "Many buskers, however, see the permit as a solution to the wrong problem. A violinist who has played on the waterfront for eleven summers told me she has no objection to volume limits, which she says most performers already respect. Her concern is the twelve locations. With more than sixty regular performers, she argues, there will be fierce competition for the best spots, and newcomers and occasional performers, such as students busking to pay tuition, will be squeezed out. She also points out that some of the most loved acts, like a puppeteer who moves through the crowd, simply can’t perform from a fixed spot."],
+       ["A", "There’s also a question of fairness. A local arts advocate argues that busking is one of the few ways that musicians without connections or money can reach an audience, and that even a modest fee sends a message about who public space is for. She suggests that the permit should be free, with the forty-dollar charge replaced by a short online registration."],
+       ["A", "City staff say they’re listening. A revised proposal, expected next month, may add a category for roaming performers and increase the number of locations to twenty. Whether the fee stays is still undecided. Council is expected to vote on the revised version before the end of August, just as the busiest part of the tourist season winds down."]
+      ],
+      "qs": [
+       {"q": "What would change for performers under the proposal?", "o": ["They would no longer be allowed to use any amplifiers.", "They would be limited to particular places.", "They could only perform during the daytime.", "They would need to register with the café owners."], "a": 1, "t": "paraphrase", "ev": "perform only at twelve marked locations", "x": "Performers could use only twelve marked spots. Amplifiers would be limited in volume, not banned, and performances would end at 10 p.m., not at nightfall."},
+       {"q": "Why does the reporter mention the café owner?", "o": ["To give an example of the problems businesses describe", "To show that most café customers enjoy street music", "To prove that performers rarely change their songs", "To explain why the patio was closed for three days"], "a": 0, "t": "purpose", "ev": "customers had started asking to sit inside", "x": "The story of a performer playing outside a patio for days, driving customers indoors, illustrates the complaints businesses report. The patio was not closed."},
+       {"q": "How does the business association say the rules would help performers?", "o": ["By giving them more locations along the waterfront", "By lowering the cost of a busking permit", "By getting rid of the minority who harm busking’s reputation", "By letting them perform later in the evening"], "a": 2, "t": "detail", "ev": "removing the few who give busking a bad name", "x": "The association argues that clear rules would remove the few performers who give busking a bad name. More locations are part of the revised proposal from city staff."},
+       {"q": "What is the violinist’s view of the volume limits?", "o": ["She thinks they are unnecessary and unfair.", "She believes they will be impossible to enforce.", "She worries they will hurt quieter instruments.", "She does not oppose them."], "a": 3, "t": "attitude", "ev": "she has no objection to volume limits", "x": "She has no objection to volume limits, which she says most performers already respect. Her objection is to the small number of fixed locations."},
+       {"q": "What does the violinist predict will happen if the proposal passes?", "o": ["Less established performers will struggle to find a place.", "Students will be banned from busking on the waterfront.", "Most regular performers will leave Port Calloway.", "The puppeteer will move to one of the fixed locations."], "a": 0, "t": "prediction", "ev": "will be squeezed out", "x": "With over sixty performers competing for twelve spots, newcomers and occasional performers such as students would be squeezed out. They would not be formally banned."},
+       {"q": "What does the arts advocate propose?", "o": ["Raising the fee to pay for more marked locations", "Replacing the paid permit with free registration", "Letting only experienced musicians perform downtown", "Allowing businesses to choose which buskers perform"], "a": 1, "t": "detail", "ev": "the forty-dollar charge replaced by a short online registration", "x": "She wants the permit to be free, with the fee replaced by a short online registration. She believes even a small fee excludes musicians without money."}
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Beatriz Santos  |  To: Lorraine Dufresne  |  Subject: Help! Entertaining a teenager from Osaka",
+   "text": "Hi Lorraine,\n\nI hope you’re surviving the renovation. I’m writing because I need advice from someone who actually knows this city, and you’ve lived here twice as long as I have.\n\nYou know we signed up to host an exchange student this winter? Well, his name is Haruto, he’s sixteen, and he arrives from Osaka on January eighth for five months. We had a video call with him last week, and he seems lovely: very polite, a bit shy, and much better at English than he thinks. He’ll be going to Westmount High with Nico, which is a relief, because at least he’ll know one person on the first day.\n\nHere’s my problem. The agency’s handbook says the most important thing is to help the student “experience Canadian life,” but it doesn’t say what that means. Our idea of a big weekend is a movie and takeout. Nico spends every spare minute on his gaming console, and I suspect that isn’t what Haruto’s parents had in mind when they sent him halfway around the world.\n\nHe did tell us he plays baseball and loves drawing, especially comics. He’s also never seen real snow, apparently, which feels like something we should make the most of. I was thinking of skating, but I haven’t been on skates since I was twelve, and Diego refuses to go anywhere near a rink since he broke his wrist.\n\nWhat do you think a teenager would actually enjoy here in the winter? I’m also wondering whether we should sign him up for some kind of club or class, so he meets people outside our family. And you mentioned once that the community centre holds a winter festival. When is that, and is it worth going?\n\nFinally, a slightly awkward question. The agency pays host families a monthly allowance for food and activities, but it’s not much, and I’d like to plan things that don’t cost a fortune. Any free or cheap ideas would be very welcome.\n\nThanks so much. I’ll bring coffee next time I come over, renovation dust and all.\n\nBeatriz",
+   "qs": [
+    {"q": "Why has Beatriz chosen to ask Lorraine for advice?", "o": ["Lorraine has hosted several exchange students herself in the past.", "Lorraine is more familiar with the city.", "Lorraine works for the exchange agency.", "Lorraine’s children attend Westmount High."], "a": 1, "t": "inference", "ev": "you’ve lived here twice as long as I have", "x": "Beatriz wants advice from someone who knows the city, and Lorraine has lived there twice as long. Nothing suggests Lorraine has hosted students or works for the agency."},
+    {"q": "What does Beatriz suggest about Haruto’s English?", "o": ["He is more capable than he believes.", "He needs extra lessons at school.", "He refused to speak during the call.", "He speaks it better than Nico does."], "a": 0, "t": "inference", "ev": "much better at English than he thinks", "x": "His English is better than he thinks, so he underestimates himself. Being “a bit shy” does not mean he refused to speak."},
+    {"q": "Why is Beatriz relieved about Haruto’s school?", "o": ["It has a well-known baseball team for boys his age.", "It offers classes in Japanese.", "He will already know someone there.", "It is close to their home."], "a": 2, "t": "detail", "ev": "at least he’ll know one person on the first day", "x": "Haruto will attend the same school as Nico, so he will know one person. Baseball is Haruto’s hobby, not a feature of the school."},
+    {"q": "What does Beatriz imply about her family’s usual weekends?", "o": ["They are too busy to spend time with Haruto.", "They are already full of outdoor activities.", "They are exactly what the agency recommends.", "They may not give Haruto a varied experience."], "a": 3, "t": "attitude", "ev": "I suspect that isn’t what Haruto’s parents had in mind", "x": "Movies, takeout and video games are probably not the Canadian experience his parents imagined, so Beatriz worries the routine is too limited. The handbook gives no specific recommendation."},
+    {"q": "Why might skating be difficult for the family?", "o": ["The nearest rink is closed until February.", "Haruto has never worn skates before.", "Neither adult is keen or practised on the ice.", "Nico has a wrist injury this winter."], "a": 2, "t": "inference", "ev": "Diego refuses to go anywhere near a rink since he broke his wrist", "x": "Beatriz has not skated since she was twelve and Diego refuses to go near a rink, so neither adult is a good skating companion. It was Diego, not Nico, who broke his wrist."},
+    {"q": "What is Beatriz’s concern about money?", "o": ["The agency has not yet paid the monthly allowance.", "The allowance from the agency is limited.", "Haruto’s parents have asked them to spend less.", "The renovation has used up their savings."], "a": 1, "t": "detail", "ev": "it’s not much, and I’d like to plan things that don’t cost a fortune", "x": "The agency’s allowance is “not much”, so she wants cheap activities. The renovation belongs to Lorraine, not Beatriz."}
+   ],
+   "reply": {
+    "intro": "Here is Lorraine’s response to Beatriz. Complete the response by choosing the best option for each blank.",
+    "text": "Hi Beatriz,\n\nHow exciting! Haruto is lucky to have you. First of all, don’t worry about skating. The city runs free {1} for beginners at the outdoor rink on Saturday mornings, and they lend helmets and skates, so you and Diego can watch from the warm-up hut with hot chocolate while Nico and Haruto fall over together.\n\nSince he loves {2}, look at the youth comic workshop at the library. It’s free, it runs on Thursdays, and he’d meet teenagers from other schools. That takes care of your idea of {3} as well.\n\nThe winter festival is the second weekend of February. Definitely go. There’s a snow sculpture contest and a sledding hill, and since Haruto has never {4}, he’ll find it magical. Most of the activities are free, which should help with your {5}.\n\nBring the coffee soon, and wear old clothes. The dust is everywhere!\n\nLorraine",
+    "blanks": [
+     {"o": ["hockey games", "lessons", "concerts", "movie nights"], "a": 1, "t": "coherence", "ev": "I was thinking of skating, but I haven’t been on skates since I was twelve", "x": "Free lessons for beginners solve the skating problem: the boys learn while the adults watch. Hockey games would not suit beginners who are expected to fall over."},
+     {"o": ["baseball", "video games", "drawing comics", "the snow"], "a": 2, "t": "detail", "ev": "loves drawing, especially comics", "x": "A comic workshop suits Haruto because he loves drawing comics. He also plays baseball, but that does not match a comic workshop."},
+     {"o": ["saving money on food", "skating with Diego", "watching more movies", "meeting people outside the family"], "a": 3, "t": "coherence", "ev": "so he meets people outside our family", "x": "The workshop lets Haruto meet teenagers from other schools, which is what Beatriz hoped a club or class would do."},
+     {"o": ["played baseball", "seen real snow", "been to Canada", "drawn a comic"], "a": 1, "t": "detail", "ev": "He’s also never seen real snow", "x": "A snow festival will feel magical to someone who has never seen real snow. He plays baseball and draws comics, so those options are false."},
+     {"o": ["renovation", "language", "budget", "handbook"], "a": 2, "t": "inference", "ev": "I’d like to plan things that don’t cost a fortune", "x": "Free activities help with Beatriz’s limited budget from the agency allowance. The renovation is Lorraine’s own project."}
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Riverbend Summer Music Festival – July 17–19 – Passes",
+    "intro": "All prices include tax. Advance prices apply to purchases made by July 1. From July 2, gate prices apply whether you buy online or at the gate.",
+    "table": {
+     "cols": ["Pass", "Valid", "Advance price", "Gate price", "Includes"],
+     "rows": [
+      ["Single Day", "Fri, Sat or Sun (choose one)", "$55", "$70", "All stages that day"],
+      ["Weekend", "All 3 days", "$130", "$165", "All stages, all days"],
+      ["Evening Only", "Any one day, entry after 6 p.m.", "$35", "$45", "All stages after 6 p.m."],
+      ["Youth Weekend (ages 13–17)", "All 3 days", "$65", "$80", "All stages, all days"],
+      ["VIP Weekend", "All 3 days", "$260", "$295", "Shaded VIP area, private washrooms, 2 drink tickets per day"],
+      ["Family Day", "One day (2 adults + up to 3 youth aged 13–17)", "$140", "$175", "All stages that day"]
+     ]
+    },
+    "notes": [
+     "Children 12 and under are free with a paying adult (maximum 2 free children per adult).",
+     "Seniors (65+) receive 20% off any Single Day or Weekend pass. The discount does not apply to VIP or Family passes.",
+     "Wristbands must be worn at all times. No re-entry after 9 p.m.",
+     "Free shuttle from Central Station every 20 minutes, 10 a.m.–1 a.m. Parking at the festival grounds: $15 per day.",
+     "The festival runs rain or shine. Refunds are given only if the entire festival is cancelled."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about the festival passes. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Wren,\n\nGood news: I sorted out the Riverbend tickets just before the July 1 deadline. For you and me, I bought two Weekend passes, so that came to {1} altogether. My dad, who is 68, only wants to come on Saturday, and with his discount, his Single Day pass cost {2}.\n\nYour sister mentioned bringing her two kids, who are 8 and 11. They can get in free as long as they {3}.\n\nSince we’re all coming from downtown, let’s take the {4} instead of driving. Parking would cost us $45 for the weekend anyway.\n\nOne warning: if we leave the grounds for dinner, we need to be back before {5}, or we won’t be let back in. I also checked the forecast, and it looks sunny all weekend, which is lucky, because there are no refunds for rain.\n\nSee you soon,\nAnouk",
+    "blanks": [
+     {"o": ["$330", "$208", "$260", "$130"], "a": 2, "t": "diagram", "ev": "$130", "x": "Two advance Weekend passes at $130 each = $260. $330 uses the gate price, and $208 wrongly applies the senior discount."},
+     {"o": ["$55", "$56", "$36", "$44"], "a": 3, "t": "diagram", "ev": "Seniors (65+) receive 20% off any Single Day or Weekend pass.", "x": "The advance Single Day price is $55, and 20% off ($11) gives $44. $56 is 20% off the $70 gate price, which does not apply before July 1."},
+     {"o": ["come with a paying adult", "show a student card", "buy a Youth pass", "arrive before 6 p.m."], "a": 0, "t": "diagram", "ev": "Children 12 and under are free with a paying adult", "x": "Children aged 12 and under enter free with a paying adult, up to two per adult. Youth passes are for ages 13 to 17."},
+     {"o": ["VIP bus", "free shuttle", "evening train", "parking lot"], "a": 1, "t": "diagram", "ev": "Free shuttle from Central Station every 20 minutes", "x": "A free shuttle runs from Central Station, which saves the $15-per-day parking fee ($45 for three days)."},
+     {"o": ["6 p.m.", "10 p.m.", "9 p.m.", "1 a.m."], "a": 2, "t": "diagram", "ev": "No re-entry after 9 p.m.", "x": "Re-entry is not allowed after 9 p.m. Six p.m. is when Evening Only passes start, and 1 a.m. is when the last shuttle runs."}
+    ]
+   },
+   "qs": [
+    {"q": "Two adults and three teenagers aged 14, 15 and 16 want to attend on Saturday only. They buy their passes on July 10. What is the cheapest option?", "o": ["A Family Day pass for $140", "Five Single Day passes", "Two Single Day passes and three Youth Weekend passes", "A Family Day pass for $175"], "a": 3, "t": "diagram", "ev": "One day (2 adults + up to 3 youth aged 13–17)", "x": "After July 1, gate prices apply, so the Family Day pass costs $175. Five Single Day passes cost $350, and the mixed option costs $380. $140 was the advance price."},
+    {"q": "A 70-year-old buys a VIP Weekend pass in June. How much does she pay?", "o": ["$208", "$236", "$260", "$295"], "a": 2, "t": "diagram", "ev": "The discount does not apply to VIP or Family passes.", "x": "She buys before July 1, so the advance price of $260 applies, and the senior discount does not cover VIP passes. $208 wrongly applies 20% off."},
+    {"q": "A father with three children aged 9, 11 and 14 wants to attend on Sunday and buys at the gate. What is the lowest total he can pay?", "o": ["$70", "$140", "$150", "$210"], "a": 1, "t": "diagram", "ev": "Children 12 and under are free with a paying adult (maximum 2 free children per adult).", "x": "The father pays $70, and the two younger children are free. The 14-year-old can use a Single Day pass ($70), which is cheaper than an $80 Youth Weekend pass, so the total is $140."}
+   ]
+  },
+  "p3": {
+   "title": "Looking Up: The Rise of Dark-Sky Tourism",
+   "paras": [
+    "On a clear, moonless night in much of southern Canada, a person standing in a city park can see perhaps a few dozen stars. Drive three hours north, however, and the same sky may reveal several thousand, along with the pale band of the Milky Way. The difference is light pollution: the glow from streetlights, parking lots and illuminated signs that scatters in the atmosphere and washes out faint objects. Astronomers estimate that most Canadians now live in places where the Milky Way is no longer visible, and many children have never seen it at all. Some people describe seeing it for the first time as a genuinely moving experience. For amateur astronomers, this has turned a once-ordinary experience into something people are willing to travel, and pay, for.",
+    "Over the past two decades, a growing number of parks and rural communities have applied for official dark-sky designations. To qualify, they must control artificial lighting, typically by replacing fixtures with shielded lights that point downward and by using warmer bulbs that cause less glare. Some of the earliest Canadian preserves were established in national and provincial parks, but several small towns have since gone through the process too, often at the urging of local astronomy clubs. In most cases, the process takes two or three years from the first application. The changes are not always popular at first. Residents in one Ontario township complained that the new streetlights made their roads feel darker and less safe, although the township reported no increase in accidents or crime after the switch.",
+    "For communities that make the effort, the rewards can be significant. Several towns have also begun dimming their own streetlights after midnight to protect the view. Dark-sky festivals, held mostly in late summer when nights are warm and long enough, now draw thousands of visitors to places that previously saw few tourists after Labour Day. Visitors fill campgrounds and bed-and-breakfasts, attend talks by astronomers and line up to look through telescopes set up by volunteers. One park in the Prairies reports that its autumn bookings have roughly tripled since it received its designation. Local businesses have adapted, too: a bakery in one participating town now sells cookies shaped like planets, and a nearby outfitter rents red-light headlamps, which preserve night vision better than white light.",
+    "Scientists point out that the benefits are not only for humans. Artificial light at night disrupts the behaviour of many species. Migrating birds can become disoriented by brightly lit buildings, sea turtle hatchlings on other continents crawl toward lights rather than the ocean, and many insects die circling streetlights. Some researchers believe that light pollution may be contributing to declines in insect populations, although they note that it is difficult to separate its effects from those of habitat loss and pesticides. For this reason, a number of conservation groups have begun to support dark-sky efforts, arguing that protecting the night is part of protecting nature. Even in cities, they say, simple steps such as switching off office lights during migration seasons can make a measurable difference."
+   ],
+   "qs": [
+    {"q": "Many young people have never seen a particular feature of the night sky.", "a": "A", "t": "paraphrase", "ev": "many children have never seen it at all", "x": "Paragraph A: many children have never seen the Milky Way because of light pollution."},
+    {"q": "Lights that are directed toward the ground are part of the requirements.", "a": "B", "t": "paraphrase", "ev": "replacing fixtures with shielded lights that point downward", "x": "Paragraph B: to qualify, communities replace fixtures with shielded lights pointing downward."},
+    {"q": "Some residents feared that new lighting would make their area less safe.", "a": "B", "t": "paraphrase", "ev": "complained that the new streetlights made their roads feel darker and less safe", "x": "Paragraph B: residents of one township complained that roads felt darker and less safe."},
+    {"q": "Designation has helped some places attract visitors later in the year.", "a": "C", "t": "inference", "ev": "draw thousands of visitors to places that previously saw few tourists after Labour Day", "x": "Paragraph C: festivals bring visitors after Labour Day, when such places previously had few tourists."},
+    {"q": "Scientists are unsure how much light pollution is to blame for falling insect numbers.", "a": "D", "t": "inference", "ev": "it is difficult to separate its effects from those of habitat loss and pesticides", "x": "Paragraph D: researchers say light’s effect is hard to separate from habitat loss and pesticides."},
+    {"q": "Dark-sky festivals are more popular in the Prairies than in other regions.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph C mentions one Prairie park whose bookings tripled, but no paragraph compares regions. Not given."},
+    {"q": "Certain equipment helps stargazers keep their ability to see in the dark.", "a": "C", "t": "paraphrase", "ev": "red-light headlamps, which preserve night vision better than white light", "x": "Paragraph C: an outfitter rents red-light headlamps that preserve night vision."},
+    {"q": "Communities must pay a fee to receive an official dark-sky designation.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph B explains the lighting requirements for designation, but nothing is said about an application fee. Not given."},
+    {"q": "Environmental organizations have started backing efforts to reduce artificial light.", "a": "D", "t": "paraphrase", "ev": "a number of conservation groups have begun to support dark-sky efforts", "x": "Paragraph D: conservation groups have begun to support dark-sky efforts."}
+   ]
+  },
+  "p4": {
+   "title": "Pay-What-You-Can Is Not the Answer for Our Theatres",
+   "byline": "Opinion | by Adaeze Nwosu, artistic director of a small theatre company",
+   "text": "Every few months, someone at a dinner party learns that I run a small theatre company and tells me, with great conviction, that the solution to theatre’s problems is pay-what-you-can pricing. Let people pay whatever they like, the argument goes, and audiences will be younger, more diverse and more numerous. Nobody will be shut out by price. It is a generous idea, and for one season, my company tried it. I want to explain why we will not be doing it again.\n\nFirst, some honesty about what happened. Attendance did rise, by about a third. Our audiences were noticeably younger, and many people told us it was their first time at live theatre. On those measures, the experiment was a success, and I do not want to pretend otherwise.\n\nBut the average ticket price fell from twenty-eight dollars to just under eleven. Even with more people in the seats, our box office revenue dropped by almost half. Small theatres like ours do not have endowments or wealthy patrons to make up the difference. That gap came directly out of what we could pay our actors and designers, who are already among the lowest-paid professionals in the country. For a company with a budget as small as ours, that was the difference between paying our cast fairly and not. In effect, the generosity that audiences enjoyed was subsidized by the artists on stage.\n\nThere was a second, less obvious cost. When we surveyed our audiences, a large share of those who paid very little were not students or people on low incomes, but people who could easily have afforded the full price. Many said, quite reasonably, that they paid what they thought the show was worth to them. The problem is that a play is worth a great deal more to make than most people imagine. When the price is left entirely to the audience, the true cost of the work becomes invisible.\n\nI also noticed something about our regular patrons. Some who had been paying full price for years began to pay less, not because they had less money, but because the new system suggested that the old price was arbitrary. Once that impression takes hold, it is very difficult to reverse.\n\nNone of this means price is not a barrier. It is, and it is a real one. But there are better tools. My company now sets aside a fixed number of seats at every performance, about fifteen percent of the house, that anyone can claim for five dollars, no questions asked. We also partner with community organizations, including a newcomers’ settlement agency and two high schools, which distribute free tickets to people who would otherwise never come. And we have introduced a “pay it forward” option, where patrons can add a few dollars to their ticket to fund a seat for someone else. In the first year, it paid for nearly nine hundred tickets.\n\nThese approaches are less romantic than pay-what-you-can. They require planning, partnerships and a little administration. But they direct help to the people who need it, while keeping the real value of the work visible.\n\nAccess to the arts matters enormously. So does paying the people who make them.",
+   "qs": [
+    {"q": "What is the writer’s main argument?", "o": ["Theatre tickets should cost more so that actors can finally be paid properly.", "Targeted programs improve access better than open pricing.", "Young audiences are not interested in live theatre.", "Small theatres should rely on wealthy patrons."], "a": 1, "t": "main", "ev": "But they direct help to the people who need it, while keeping the real value of the work visible.", "x": "She argues that reserved cheap seats, partnerships and pay-it-forward reach people in need without hiding the work’s value. She never calls for higher prices overall."},
+    {"q": "What does the writer admit about the experiment?", "o": ["It made the theatre more profitable.", "It was popular with regular patrons.", "It brought in new and younger audiences.", "It was supported by most of the actors."], "a": 2, "t": "detail", "ev": "Our audiences were noticeably younger", "x": "She honestly acknowledges that attendance rose and audiences were younger, with many first-time theatregoers. Revenue actually fell by almost half."},
+    {"q": "According to the writer, who effectively paid for the lower prices?", "o": ["The performers and creative team", "Students and low-income audiences", "The theatre’s wealthy patrons", "The city’s arts council"], "a": 0, "t": "inference", "ev": "the generosity that audiences enjoyed was subsidized by the artists on stage", "x": "The lost revenue came out of what the company could pay its actors and designers. She says small theatres have no wealthy patrons to cover the gap."},
+    {"q": "What does the writer suggest happened to some long-time patrons?", "o": ["They stopped attending the theatre altogether.", "They began paying extra to support others.", "They complained about the younger audiences.", "They began to doubt the original price was justified."], "a": 3, "t": "inference", "ev": "the new system suggested that the old price was arbitrary", "x": "Some regulars paid less because the system made the old price seem arbitrary, not because they had less money. Paying extra is the later pay-it-forward option."},
+    {"q": "What is the purpose of the “pay it forward” option?", "o": ["To give regular patrons a discount on future shows", "To let audience members fund tickets for other people", "To raise money for the high school partnerships", "To replace the five-dollar seats over time"], "a": 1, "t": "detail", "ev": "patrons can add a few dollars to their ticket to fund a seat for someone else", "x": "Patrons add money to their own ticket to pay for someone else’s seat. The high schools distribute free tickets through a separate partnership."}
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I have been going to Ms. Nwosu’s theatre for years, and I was one of those people who started paying less during the experiment. Reading this, I feel a bit guilty. She is right that most of us have no idea how much it {1}, and I had never thought about the actors’ pay.\n\nI also love the {2}. I added five dollars to my ticket last month and felt good knowing a student would see the show.\n\nHowever, I think she is too quick to {3} the experiment. A third more people came, and many were first-timers. Some of those young people may become the full-price subscribers of tomorrow, and she has no way of knowing that after only one season.\n\nI also wonder whether her five-dollar seats really reach the people she wants. When I tried to buy one, they were all gone {4}, probably to regulars who know the system. Perhaps the theatre could keep some of them for {5}, so that they go to people who would never think to ask.",
+    "blanks": [
+     {"o": ["pays its ushers", "costs to put on a play", "charges for snacks", "earns from donors"], "a": 1, "t": "coherence", "ev": "a play is worth a great deal more to make than most people imagine", "x": "The writer says people underestimate what a play costs to make, and the commenter agrees. Ushers, snacks and donors are not discussed."},
+     {"o": ["five-dollar seats", "full ticket price", "pay it forward option", "dinner party argument"], "a": 2, "t": "detail", "ev": "where patrons can add a few dollars to their ticket to fund a seat for someone else", "x": "Adding five dollars to fund someone else’s seat is the pay-it-forward option. The five-dollar seats are cheap tickets for the buyer, not a donation."},
+     {"o": ["repeat", "abandon", "praise", "extend"], "a": 1, "t": "vocab", "ev": "I want to explain why we will not be doing it again.", "x": "The writer has decided not to repeat pay-what-you-can, and the commenter thinks she gave up on it too quickly. “Praise” contradicts the commenter’s criticism."},
+     {"o": ["after the curtain rose", "within minutes of going on sale", "to the settlement agency", "in a pay it forward draw"], "a": 1, "t": "inference", "ev": "that anyone can claim for five dollars, no questions asked", "x": "Because anyone can claim the seats, regulars who know the system snap them up quickly. The settlement agency receives free tickets, not the five-dollar seats."},
+     {"o": ["subscribers who have paid full price for years", "the actors’ families", "the partner organizations to hand out", "people at dinner parties"], "a": 2, "t": "coherence", "ev": "We also partner with community organizations", "x": "Giving some cheap seats to partner organizations would reach people who would never ask. Reserving them for subscribers would repeat the problem the commenter describes."}
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Your neighbourhood association organizes a summer street party every year. You would like to suggest adding a new activity to this year’s event.",
+   "bullets": [
+    "Describe the activity you would like to add",
+    "Explain why it would benefit the neighbourhood",
+    "Explain how you could help organize it"
+   ],
+   "model": "Dear Mr. Ostrowski,\n\nI am writing with a suggestion for this year’s Larch Street summer party, which my family has enjoyed for the past four years. I would like to propose adding a “neighbourhood recipe table,” where residents bring a dish from their culture or family tradition, along with printed copies of the recipe for others to take home.\n\nOur street has changed a great deal recently. Many newcomers have moved in, from at least a dozen countries, yet at last year’s party most people stayed with the neighbours they already knew. Food is one of the easiest ways to start a conversation, and a shared table would give everyone a reason to mix. At the end of the summer, we could even collect the recipes into a small booklet and sell it to raise money for next year’s party.\n\nI would be happy to coordinate the activity myself. I could create a sign-up sheet, contact the city about food-safety guidelines for home cooking at public events, and borrow two folding tables from my workplace. I would also recruit a few volunteers to help label dishes with common allergens.\n\nThank you for considering this idea.\n\nBest regards,\nAmara Okafor"
+  },
+  "t2": {
+   "intro": "Your city has a fixed budget for this year’s Canada Day celebrations and is asking residents to choose between two plans.",
+   "question": "Which option do you prefer?",
+   "a": "One large celebration downtown with a well-known headline band, a fireworks show and food trucks, expected to attract about 40,000 people.",
+   "b": "Eight smaller celebrations in neighbourhood parks across the city, each with local musicians, children’s activities and a community barbecue.",
+   "model": "I would choose Option B, the eight neighbourhood celebrations, because I believe they would make Canada Day feel more personal and accessible for more residents.\n\nFirst, a single downtown event is difficult for many families to reach. Parking is almost impossible, transit is packed, and parents with small children or elderly relatives often decide it is simply not worth the effort. With celebrations in eight parks, most people could walk or cycle to one, which would also reduce traffic and emissions.\n\nSecond, smaller events create real community connections. At a crowd of forty thousand, you rarely speak to anyone you do not already know. At a neighbourhood barbecue, however, you might finally meet the family who moved in down the street. Featuring local musicians would also give talented residents a stage, rather than spending most of the budget on one headline band.\n\nI admit that a big fireworks show is exciting, and some people will miss it. But the city could still livestream a short show from one central location, or hold one every few years when the budget allows.\n\nOverall, spreading the celebration across the city would benefit far more people."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend has been asked to be the master of ceremonies at your city’s multicultural festival. She is honoured, but she is very nervous about speaking in front of thousands of people. Give her some advice.",
+   "model": "First of all, congratulations! They obviously asked you because people like and trust you, so try to remember that. Here’s what I’d suggest. Start by preparing really well, but don’t try to memorize a whole speech word for word. Write short notes on cards for each part: the welcome, the introductions for each performer, and any announcements. If you lose your place, a quick glance at a card will get you back on track. Second, practise out loud, ideally on the actual stage if the organizers let you do a walk-through. Knowing where you’ll stand, where the microphone is and what the crowd looks like from up there takes away a lot of the fear. Third, learn how to pronounce every performer’s name and the name of every group correctly. Ask them directly if you’re not sure. At a multicultural festival, that small gesture shows real respect, and people will warm to you immediately. Also, remember that the audience isn’t there to judge you. They’re there to enjoy the music and food, and they want you to succeed. If you make a mistake, just smile and keep going. Finally, take a few slow, deep breaths before you walk on. You’ll be great, and I’ll be cheering in the front row."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you were part of a team, club or group. What did you do together, and what did you learn from the experience?",
+   "model": "When I was in my early twenties, I joined a community choir at the local cultural centre, mostly because a friend dragged me along. I was terrified, because I’d never sung in front of anyone. There were about forty of us, from teenagers to people in their eighties, and we practised every Wednesday night for a big holiday concert. What I remember most is the week before the show, when our pianist got sick and we had to rehearse without accompaniment. Everyone had to listen to each other much more carefully, and the older members patiently helped the beginners like me find our notes. On the night of the concert, the pianist was back, and we sounded better than ever. I learned that being part of a group isn’t about being the best individual. It’s about listening, supporting each other and trusting that everyone is doing their part."
+  },
+  "t3": {
+   "scene": {
+    "bg": "market",
+    "alt": "An outdoor craft fair in a paved square on a sunny day. On the left, a stall with a blue awning labelled POTTERY displays bowls, and a woman in a green apron hands a wrapped item to a customer holding a bag. In the middle, an artist in a red shirt paints at an easel while a small boy watches. On the right, a stall with a purple awning labelled KNITTING has a man in a yellow shirt holding a basket. A woman carries flowers, a girl holds balloons, a white dog sits near a cart, and a mug and a plant sit on a small table.",
+    "items": [
+     ["sun", 590, 55],
+     ["stall", 30, 300, 150, "POTTERY", "#2471a3"],
+     ["person", 90, 300, {"shirt": "#27ae60", "hairStyle": "bun", "hold": "box", "skin": "#c68642"}],
+     ["person", 200, 360, {"shirt": "#e67e22", "hold": "bag", "flip": true, "hairStyle": "curly"}],
+     ["easel", 300, 350],
+     ["person", 340, 355, {"shirt": "#c0392b", "hold": "paint", "flip": true, "hat": "#2c3e50"}],
+     ["person", 265, 370, {"kid": true, "shirt": "#3498db"}],
+     ["stall", 440, 300, 150, "KNITTING", "#8e44ad"],
+     ["person", 515, 300, {"shirt": "#f1c40f", "hold": "basket", "hair": "#7f8c8d", "glasses": true}],
+     ["person", 430, 390, {"shirt": "#e84393", "dress": true, "hold": "flowers", "hairStyle": "long", "pose": "walk"}],
+     ["person", 150, 395, {"kid": true, "shirt": "#16a085", "dress": true, "hold": "balloon", "holdColor": "#e74c3c"}],
+     ["cart", 580, 385],
+     ["dog", 545, 390, "#ffffff"],
+     ["table", 20, 395, 70, "#a0703c"],
+     ["mug", 40, 351, "#c0392b"],
+     ["plant", 70, 351, 0.6]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows an outdoor craft fair in a paved square on a sunny day, and there are several stalls and quite a few people. On the left-hand side, there’s a stall with a blue-and-white striped awning and a sign that says “Pottery.” A woman in a green apron, with her hair in a bun, is standing behind the counter holding a small box, probably a wrapped bowl, and she seems to be handing it to a customer, a woman in an orange top with curly hair who’s holding a shopping bag. In the middle of the picture, an artist wearing a red shirt and a dark hat is painting a landscape on an easel, and a little boy in a blue T-shirt is standing beside him, watching closely. On the right, there’s another stall with a purple awning that says “Knitting,” and a man with grey hair and glasses, in a yellow shirt, is holding a basket, maybe full of wool. In the foreground, a woman in a pink dress is walking past carrying a bunch of flowers, and a little girl is holding a red balloon. On the far right, there’s a small cart, and a white dog is sitting next to it. Overall, it looks like a relaxed, friendly community event."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think a few things will probably happen in the next few minutes. First, the customer at the pottery stall has just bought something, so she’ll probably put the box carefully into her bag and then wander over to the knitting stall, since it’s just across the square. The man there will most likely show her some of the scarves or hats from his basket. Second, the little boy watching the artist looks fascinated. I imagine the painter will notice him and maybe offer him a brush so he can add a little something to the picture, or he might even start a quick portrait of the boy, and his parents will probably end up buying it. Third, the white dog by the cart seems to be watching the woman with the flowers, so it might get up and follow her, hoping she has food. Finally, the little girl with the balloon is standing quite close to the table with the mug and the plant. If she isn’t careful, she might bump into it and knock the mug over. Overall, though, I think the fair will just get busier as the afternoon goes on and more families arrive."
+  },
+  "t5": {
+   "intro": "Your parents’ 35th wedding anniversary is coming up, and you and your sister want to buy them a gift together. Choose the option that you prefer. In the next section, you will need to persuade your sister that your choice is better than the one she prefers.",
+   "options": [
+    {"title": "Symphony concert tickets", "details": ["$180 for two premium seats", "Saturday evening, downtown concert hall", "Program of famous film music", "Dinner not included", "Parking $20"]},
+    {"title": "Pottery class for two", "details": ["$150 for a 3-hour class", "Make matching mugs to keep", "Choose any Sunday in the next 6 months", "Tea and snacks included", "Studio 15 minutes from their home"]}
+   ],
+   "other": {"title": "Day at a spa", "details": ["$260 for two", "Massages and hot pools", "Lunch included", "1-hour drive each way", "Must book 2 months ahead"]},
+   "otherWho": "Your sister prefers",
+   "persuade": "Your sister prefers the day at the spa. Persuade her that your choice is better.",
+   "model": "I know the spa sounds relaxing, and Mom would definitely enjoy a massage. But I really think the pottery class is a better gift for their anniversary. First, think about what an anniversary gift should be. The spa is lovely, but it’s mostly about each of them lying on a separate table. The pottery class is something they’d do together, side by side, laughing at their lopsided mugs. That feels much more like a celebration of thirty-five years as a couple. Second, they’d have something to keep. Every morning, they could drink their coffee from mugs they made together, and that’s a memory they’ll see every day, long after a massage wears off. Third, it’s far more practical. The spa costs two hundred and sixty dollars, needs to be booked two months ahead and involves a two-hour round trip. Dad hates long drives, you know that. The pottery studio is fifteen minutes from their house, they can pick any Sunday in the next six months, and it costs a hundred and ten dollars less. With the money we save, we could even take them out for dinner afterwards. So I really think the pottery class is the more personal and meaningful choice."
+  },
+  "t6": {
+   "situation": "Months ago, you bought two expensive tickets to a sold-out concert for yourself and your best friend, who has been looking forward to it all year. Today, your sister told you that her graduation dinner has been moved to the same evening, and she really wants you there.",
+   "options": [
+    "Talk to your friend and explain that you will give your ticket to someone else.",
+    "Talk to your sister and ask whether you can celebrate with her on another day."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Leila, do you have a minute? I need to talk to you about Saturday, and I feel awful about it. You know my sister’s graduation dinner? The restaurant cancelled their original booking, and the only date the whole family could agree on is Saturday night, the same night as our concert. I’ve thought about it all afternoon, and I just can’t miss her graduation. She’s the first person in our family to finish university, and my parents would be really hurt if I wasn’t there. I know how much you’ve been looking forward to this concert, and honestly, so have I. So I definitely don’t want you to miss it. Here’s what I was thinking. You should still go, and you could take my ticket for someone else. Your cousin loves this band, doesn’t she? Or if you’d prefer, I can try to sell it and give you half the money. And to make it up to you, I’d love to take you out for dinner next weekend, my treat, and you can tell me every detail of the show. I’m really sorry, and I promise I’ll make it up to you. I hope you understand."
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should museums, galleries and parks charge tourists higher entrance fees than local residents? Explain your reasons.",
+   "model": "In my opinion, yes, it’s reasonable for public museums, galleries and parks to charge tourists somewhat more than local residents, as long as the difference is fair and clearly explained. The main reason is that residents have already paid for these places through their taxes. When a city or province builds a museum or maintains a park, local taxpayers carry most of the cost every single year, while tourists contribute only when they visit. A slightly higher fee simply balances that out. For example, in some countries I’ve visited, residents pay half price at national parks, and nobody seemed to find it unfair. Second, lower prices for locals encourage people to visit their own cultural institutions more often. Many residents never go to their local art gallery because they assume it’s for tourists. Discounts can change that habit. That said, I think the difference shouldn’t be extreme. If tourists feel they’re being taken advantage of, it could damage the city’s reputation and reduce tourism, which supports local jobs. So I’d support a modest gap, maybe twenty or thirty percent, rather than charging visitors double. Overall, I believe a fair two-tier system benefits both the community and the institutions themselves."
+  },
+  "t8": {
+   "scene": {
+    "bg": "winter",
+    "alt": "A snowy residential street. In the front yard of a small blue house stands an enormous snowman, taller than the house itself, with a black top hat, an orange carrot nose and a red scarf. A man in a green jacket stands on a tall ladder leaning against the snowman, adding snow to its head. A woman in a purple coat holds the ladder, and a child with a shovel stands beside her. A neighbour in a grey coat is taking photos with a camera, and a dog runs in the snow. Pine trees stand on both sides.",
+    "items": [
+     ["pine", 40, 270, 1],
+     ["house", 90, 300, "#5dade2", "#7f8c8d"],
+     ["big", "snowman", 400, 340, 2.8],
+     ["ladder", 470, 340, 200],
+     ["person", 470, 150, {"shirt": "#27ae60", "pose": "both", "hat": "#c0392b", "s": 0.9}],
+     ["person", 510, 345, {"shirt": "#8e44ad", "hairStyle": "long", "pose": "point"}],
+     ["person", 560, 355, {"kid": true, "shirt": "#e67e22", "hold": "shovel"}],
+     ["person", 250, 385, {"shirt": "#7f8c8d", "hold": "camera", "glasses": true}],
+     ["dog", 320, 390, "#a0522d"],
+     ["pine", 610, 260, 0.9]
+    ]
+   },
+   "prompt": "While walking through your neighbourhood, you see this. You call your friend who organizes the city’s winter festival. Describe what you see, and explain whether you think the family should be invited to enter the festival’s snow sculpture contest. Your friend cannot see the picture.",
+   "model": "Hi Tamsin, it’s me. Are you still looking for entries for the snow sculpture contest? Because you need to see what’s happening on Birchwood Crescent right now. There’s a small blue house, and in the front yard, a family has built a snowman that is actually taller than their house. I’m not exaggerating. The top of its head is well above the roofline. It has three huge balls of snow, a black top hat that must be the size of a garbage bin, a carrot nose, which I think is painted, and a long red scarf wrapped around its neck. The dad is standing at the top of a tall ladder leaned right against the snowman, packing more snow onto the head, while the mom is holding the bottom of the ladder and pointing at something. Their little boy is helping with a shovel, and a neighbour is taking photos. Honestly, I think we should definitely invite them to enter. It’s impressive, it’s cheerful, and the whole street has come out to look at it, which is exactly the kind of community spirit the festival is about. My only concern is safety. That ladder looks a bit risky, so if they enter, we might ask them to use proper scaffolding next time."
+  }
+ }
+}

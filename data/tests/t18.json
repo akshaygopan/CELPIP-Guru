@@ -1,0 +1,1934 @@
+{
+ "id": "t18",
+ "title": "Test 18",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two roommates are dealing with a problem in their apartment.",
+    "sp": {
+     "A": {
+      "name": "Siobhan",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1
+     },
+     "B": {
+      "name": "Tariq",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.03
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Tariq, are you up? Sorry, I know it’s early. I need to show you something. Look at this, on my pillowcase."
+       ],
+       [
+        "B",
+        "Is that… a bug? Like, a bedbug?"
+       ],
+       [
+        "A",
+        "I’m pretty sure. I found three of them, and there are little dark spots along the seam of my mattress. And I woke up with bites on my arm in a straight line, which is apparently the classic sign."
+       ],
+       [
+        "B",
+        "Oh no. You just got back from that conference in Winnipeg, didn’t you? The hotel?"
+       ],
+       [
+        "A",
+        "That’s my guess. I left my suitcase on the bed when I unpacked. I could kick myself."
+       ],
+       [
+        "B",
+        "Okay, don’t panic. We need to tell the landlord. Pest control is her responsibility in this province, right?"
+       ],
+       [
+        "A",
+        "It is, I checked. I emailed Mrs. Varga at six this morning, and she replied right away, which is a small miracle. She said her pest control company can come, but not until a week from Thursday. That’s ten days."
+       ],
+       [
+        "B",
+        "Ten days? With those things possibly spreading into my room?"
+       ],
+       [
+        "A",
+        "I know. And she said the company needs us to prepare the apartment first: wash and dry all our clothes and bedding on high heat, bag everything up, and pull the furniture away from the walls."
+       ],
+       [
+        "B",
+        "All our clothes? Both rooms?"
+       ],
+       [
+        "A",
+        "The whole unit, she said, because they treat everything at once. Otherwise the bugs just move from room to room."
+       ],
+       [
+        "B",
+        "Wonderful. And I’ve got a work trip on Monday, too."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What convinces Siobhan that she has bedbugs?",
+        "o": [
+         "Her landlord has warned tenants about an outbreak.",
+         "The hotel in Winnipeg contacted her about a problem in her room.",
+         "Tariq has found the same insects in his own room.",
+         "The pattern of bites on her skin and marks on her mattress"
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "I woke up with bites on my arm in a straight line",
+        "x": "Bites in a straight line and dark spots on the mattress seam are the signs she describes. The hotel is only her guess about the source; it did not contact her."
+       },
+       {
+        "q": "What does Siobhan regret?",
+        "o": [
+         "Putting her luggage where the insects could get into it",
+         "Staying at a hotel that her colleagues had strongly recommended",
+         "Emailing her landlord so early in the morning",
+         "Not checking her room as soon as she arrived home"
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I left my suitcase on the bed when I unpacked.",
+        "x": "“I could kick myself” refers to leaving her suitcase on the bed. Nothing suggests colleagues recommended the hotel."
+       },
+       {
+        "q": "What is the problem with the landlord’s response?",
+        "o": [
+         "She expects the tenants to pay for the treatment.",
+         "She did not answer until the following afternoon.",
+         "She wants the tenants to choose and book their own company.",
+         "The treatment will not happen for well over a week."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "That’s ten days.",
+        "x": "The company cannot come for ten days. The landlord replied immediately, and pest control is her responsibility."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Can’t we just treat it ourselves? You can buy sprays at the hardware store."
+       ],
+       [
+        "A",
+        "I read about those last night. Most of these bugs are resistant to the sprays you can buy, and people who try usually just push them into the walls, where they spread to the neighbours. Then the professionals have a harder job."
+       ],
+       [
+        "B",
+        "Hmm. Okay, what about throwing out your mattress?"
+       ],
+       [
+        "A",
+        "That was my first instinct, too. But it doesn’t solve anything, because they hide in bed frames, outlets and baseboards. And if I drag an infested mattress down the hallway, I could spread them through the whole building. If we throw it out, it has to be wrapped in plastic and marked, and only after the treatment."
+       ],
+       [
+        "B",
+        "Right. So what do we do for ten days? You can’t sleep in that room."
+       ],
+       [
+        "A",
+        "My sister offered me her couch, but I don’t want to bring them to her place. That’s exactly how this happened in the first place."
+       ],
+       [
+        "B",
+        "Good point. What about a hotel?"
+       ],
+       [
+        "A",
+        "I thought about it, but ten nights would be over a thousand dollars, and I’d have the same problem, carrying my things back and forth."
+       ],
+       [
+        "B",
+        "There’s another option. My cousin runs a pest control business, a different one. They do heat treatment, where they heat the whole apartment to about fifty degrees for several hours. It kills everything in one visit, eggs included. The chemical treatments usually need two or three visits."
+       ],
+       [
+        "A",
+        "Really? Could they come any sooner?"
+       ],
+       [
+        "B",
+        "I can call him. But the landlord would have to agree, since it’s her responsibility and she’s the one paying."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why does Siobhan reject store-bought sprays?",
+        "o": [
+         "They are too expensive for tenants to buy.",
+         "Her landlord does not allow tenants to use them.",
+         "They could make the problem worse for other residents.",
+         "They can permanently damage mattresses and wooden furniture."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "where they spread to the neighbours",
+        "x": "Sprays push the bugs into the walls, spreading them to neighbours and making professional treatment harder. Cost and landlord rules are not mentioned."
+       },
+       {
+        "q": "Why does Siobhan not want to stay with her sister?",
+        "o": [
+         "Her sister’s apartment is too far from her work.",
+         "She might carry the insects into her sister’s home.",
+         "Her sister has only offered a couch for a few nights.",
+         "She would rather pay for a hotel for ten nights."
+        ],
+        "a": 1,
+        "t": "purpose",
+        "ev": "I don’t want to bring them to her place",
+        "x": "She fears bringing the bugs to her sister’s home, which is how she got them from the hotel. She rejects the hotel as too expensive."
+       },
+       {
+        "q": "According to Tariq, what is the main advantage of heat treatment?",
+        "o": [
+         "It costs much less than a chemical treatment.",
+         "It can be arranged without the landlord’s approval.",
+         "It requires no preparation by the tenants.",
+         "It deals with the problem in a single appointment."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "It kills everything in one visit, eggs included.",
+        "x": "Heat kills everything, including eggs, in one visit, whereas chemicals need two or three. Tariq says the landlord must still agree."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, Mrs. Varga just called me back. She’s happy to try your cousin’s company, as long as the price is close to what she’d pay her usual one."
+       ],
+       [
+        "B",
+        "And my cousin can do Saturday morning. He quoted fourteen hundred for the whole unit, and he said that’s about what two chemical visits would cost."
+       ],
+       [
+        "A",
+        "So that works for her. The only catch is that we have to be out of the apartment from eight until about four. And anything that can’t handle the heat, like candles, aerosol cans and your guitar, has to come out of the unit, after we’ve checked it carefully."
+       ],
+       [
+        "B",
+        "My guitar? Fine. I’ll leave it at my brother’s for the weekend."
+       ],
+       [
+        "A",
+        "And for the next two nights, I’ll sleep on the living room couch after I’ve washed everything on hot. It’s not ideal, but it’s only until Saturday."
+       ],
+       [
+        "B",
+        "That’s much better than ten days. Should we warn the neighbours?"
+       ],
+       [
+        "A",
+        "Mrs. Varga said she’ll check the units on either side herself next week, but she asked us not to post anything in the building. She doesn’t want people panicking."
+       ],
+       [
+        "B",
+        "Fair enough, although if I lived next door, I’d want to know."
+       ],
+       [
+        "A",
+        "Me too, honestly. Let’s at least quietly tell Hamid across the hall, since he has a newborn."
+       ],
+       [
+        "B",
+        "Good idea. I’ll knock on his door tonight, and I’ll call my cousin to confirm Saturday right now."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What condition did the landlord set for using the cousin’s company?",
+        "o": [
+         "The cousin must treat the neighbouring units as well.",
+         "The tenants must cover part of the extra cost.",
+         "The price must be similar to her regular company’s.",
+         "The treatment must happen on a weekday."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "as long as the price is close to what she’d pay her usual one",
+        "x": "She agreed provided the price was close to her usual company’s. She plans to check the neighbouring units herself."
+       },
+       {
+        "q": "How does Tariq feel about the landlord’s request not to tell other residents?",
+        "o": [
+         "He accepts it, though he thinks neighbours have a right to know.",
+         "He refuses to follow it and plans to post a notice.",
+         "He agrees completely, because people might panic.",
+         "He thinks it is unnecessary because she will inspect the units."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "although if I lived next door, I’d want to know",
+        "x": "“Fair enough, although…” shows he accepts the request with reservations. He does not post a notice; they only plan to tell Hamid quietly."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A tenant and her landlord are doing a final inspection as she moves out.",
+    "sp": {
+     "A": {
+      "name": "Mr. Petrakis",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.98
+     },
+     "B": {
+      "name": "Wen",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.04
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "So, that’s the kitchen done. Overall, Ms. Zhao, the place looks good. Cleaner than a lot of tenants leave it, honestly."
+       ],
+       [
+        "B",
+        "Thank you. I spent the whole weekend on it. So I should get my full deposit back?"
+       ],
+       [
+        "A",
+        "Mostly. There are a couple of things I need to mention. First, the bedroom carpet. There’s that large stain by the window. I’ll need to have it professionally cleaned, and the quote is a hundred and fifty dollars."
+       ],
+       [
+        "B",
+        "Hold on. That stain was there when I moved in. I’m sure of it."
+       ],
+       [
+        "A",
+        "I don’t remember it being there. And I don’t think it’s on the move-in inspection report."
+       ],
+       [
+        "B",
+        "Actually, it is. Can I see the report? Look, page two, bedroom: “carpet, minor stain near window.” And I have a photo from move-in day with the date on it, if you want to see it."
+       ],
+       [
+        "A",
+        "Hmm. You’re right, it’s there. I stand corrected. Well, it’s a lot bigger than “minor” now, though."
+       ],
+       [
+        "B",
+        "I don’t think so. Here, compare it with the photo."
+       ],
+       [
+        "A",
+        "…Okay, it does look about the same. Fine, I’ll drop the carpet charge. What about the holes in the living room wall? There must be a dozen of them."
+       ],
+       [
+        "B",
+        "From picture hooks. Aren’t small nail holes considered normal wear and tear?"
+       ],
+       [
+        "A",
+        "A few small ones, yes. But two of those are big anchors from the TV mount, and those need to be filled and the wall repainted. I’d charge eighty dollars for that."
+       ],
+       [
+        "B",
+        "That’s fair. I did put up the TV mount, and I wasn’t sure how to patch those properly."
+       ],
+       [
+        "A",
+        "Then that’s the only deduction. The deposit was nine hundred, so you’ll get eight hundred and twenty back."
+       ],
+       [
+        "B",
+        "And when will I receive it?"
+       ],
+       [
+        "A",
+        "The law says within fifteen days. I usually send it by e-transfer within a week."
+       ],
+       [
+        "B",
+        "Great. And could you put that in writing, the eighty-dollar deduction and the reason for it?"
+       ],
+       [
+        "A",
+        "Of course. I’ll email you an itemized statement tonight."
+       ],
+       [
+        "B",
+        "Thanks, Mr. Petrakis. Honestly, I was expecting a much bigger fight about that carpet."
+       ],
+       [
+        "A",
+        "Well, that report saved us both a lot of trouble. Good luck in the new place."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does Mr. Petrakis say about the apartment’s general condition?",
+        "o": [
+         "It needs a professional cleaning before it can be rented.",
+         "It is in exactly the same condition as on move-in day.",
+         "It is in better shape than many apartments he inspects.",
+         "It is not clean enough for her to receive a full refund."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "Cleaner than a lot of tenants leave it, honestly.",
+        "x": "He says it is cleaner than many tenants leave their units. The deductions he mentions are for a stain and wall damage, not cleanliness."
+       },
+       {
+        "q": "How does Wen show that the stain is not her responsibility?",
+        "o": [
+         "She shows a receipt from a carpet cleaning company.",
+         "She argues that old carpet stains count as normal wear and tear.",
+         "She asks a neighbour to confirm when it appeared.",
+         "She points out that it was recorded when she moved in."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "Look, page two, bedroom",
+        "x": "The move-in report lists a stain near the window, and she has a dated photo. Wear and tear is her argument about the nail holes, not the stain."
+       },
+       {
+        "q": "How does Mr. Petrakis react when he sees the report?",
+        "o": [
+         "He admits his error but questions whether the stain has grown.",
+         "He insists the move-in report must have been filled in incorrectly.",
+         "He immediately agrees to return the full deposit.",
+         "He asks Wen to pay half of the cleaning cost instead."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "I stand corrected.",
+        "x": "He accepts he was wrong (“I stand corrected”) but suggests the stain is now bigger, until the photo convinces him. He still makes another deduction, so not the full deposit."
+       },
+       {
+        "q": "Why does Wen accept the charge for the living room wall?",
+        "o": [
+         "She caused damage beyond what is normally expected.",
+         "She believes every nail hole counts as damage.",
+         "She wants to avoid an argument about the carpet.",
+         "She forgot to remove the picture hooks."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I did put up the TV mount",
+        "x": "The large anchors from her TV mount are more than normal wear and tear, so she accepts the charge. She argued that small nail holes are normal."
+       },
+       {
+        "q": "What will Mr. Petrakis do this evening?",
+        "o": [
+         "Send the remaining deposit to her by e-transfer",
+         "Repaint the living room wall",
+         "Return the carpet cleaning quote",
+         "Send a written breakdown of the deduction"
+        ],
+        "a": 3,
+        "t": "prediction",
+        "ev": "I’ll email you an itemized statement tonight.",
+        "x": "Tonight he will email an itemized statement. The refund itself usually arrives within a week."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A man calls a utility company to set up service at his new home.",
+    "sp": {
+     "A": {
+      "name": "Utility agent",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Caller",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Lakeport Hydro and Water, customer service. This is Renée. How can I help you?"
+       ],
+       [
+        "B",
+        "Hi. I’m moving into a townhouse on Birchmount Crescent on the first of next month, and I need to set up electricity and water in my name."
+       ],
+       [
+        "A",
+        "Congratulations on the move. I can set up both for you today. Are you renting, or did you buy?"
+       ],
+       [
+        "B",
+        "Renting. The landlord said utilities are my responsibility."
+       ],
+       [
+        "A",
+        "Okay. For tenants, we ask for a security deposit, unless you can show a good payment history with another utility. The deposit is the equivalent of two average months, which for a townhouse would be about three hundred and twenty dollars."
+       ],
+       [
+        "B",
+        "I had an account with a utility in Halifax for six years and never missed a payment. Does that count?"
+       ],
+       [
+        "A",
+        "It does, as long as the account was active within the last two years. You’d just need to send us a letter of reference from them. If we receive it within thirty days, the deposit is waived, or refunded if you’ve already paid it."
+       ],
+       [
+        "B",
+        "Great. I’ll request that today. Is there a fee to open the account?"
+       ],
+       [
+        "A",
+        "There’s a one-time setup charge of thirty-five dollars, which appears on your first bill. That one can’t be waived, I’m afraid."
+       ],
+       [
+        "B",
+        "Fair enough. How often are bills sent?"
+       ],
+       [
+        "A",
+        "Every two months, based on actual meter readings. But a lot of customers prefer our equal payment plan. We estimate your yearly usage and divide it into twelve monthly payments, so you’re not hit with a huge bill in January. Then once a year we adjust for what you actually used."
+       ],
+       [
+        "B",
+        "That sounds good. Can I sign up right away?"
+       ],
+       [
+        "A",
+        "For new customers, we need twelve months of history at the address first, so we can make a realistic estimate. Since this is a new account for you, you could join next year."
+       ],
+       [
+        "B",
+        "Okay. And what about the move-in date? Do I need to be home?"
+       ],
+       [
+        "A",
+        "No. Both meters are read remotely now, so we’ll take a reading at midnight on the thirty-first, and your account starts from that point. The only thing I’d suggest is taking a photo of the meters yourself on moving day, just as a record."
+       ],
+       [
+        "B",
+        "Will do. Is there anything else I should know?"
+       ],
+       [
+        "A",
+        "Just one thing. Water and wastewater are billed together, and the wastewater charge is based on how much water you use, so it’s usually about the same as the water charge. People are often surprised that their water bill is roughly double what they expected."
+       ],
+       [
+        "B",
+        "Good to know. Thanks, Renée, you’ve been very helpful."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why might the caller not have to pay a deposit?",
+        "o": [
+         "He has paid another utility reliably in the past.",
+         "He is renting rather than buying the townhouse.",
+         "His landlord has agreed to pay it on his behalf.",
+         "He has signed up for the equal payment plan."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I had an account with a utility in Halifax for six years and never missed a payment.",
+        "x": "A good payment history with another utility can replace the deposit. Renting is actually the reason a deposit is normally required."
+       },
+       {
+        "q": "What must the caller do to avoid the deposit?",
+        "o": [
+         "Pay the setup charge before moving in",
+         "Wait until the first remote meter reading has been fully completed",
+         "Show the company a copy of his rental agreement",
+         "Provide written proof from his former utility within a month"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "If we receive it within thirty days, the deposit is waived",
+        "x": "A reference letter from the Halifax utility, received within thirty days, waives the deposit. The setup charge is separate and cannot be waived."
+       },
+       {
+        "q": "What is true about the setup charge?",
+        "o": [
+         "It is refunded after thirty days.",
+         "It is included in the security deposit.",
+         "He will have to pay it regardless.",
+         "It is only charged to tenants."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "That one can’t be waived, I’m afraid.",
+        "x": "Unlike the deposit, the $35 setup charge cannot be waived. It is the deposit that can be refunded."
+       },
+       {
+        "q": "Why can the caller not join the equal payment plan immediately?",
+        "o": [
+         "The plan is only available to homeowners.",
+         "He must first pay a full year of bills in advance.",
+         "The company needs a year of usage at the address.",
+         "His previous utility must approve the transfer."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "we need twelve months of history at the address first",
+        "x": "Twelve months of usage history are needed for a realistic estimate. Nothing restricts the plan to homeowners."
+       },
+       {
+        "q": "What does the agent recommend for moving day?",
+        "o": [
+         "Being at home when the meters are read",
+         "Taking his own pictures of the meters",
+         "Calling to confirm the start of service",
+         "Reading the meters at midnight himself"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "taking a photo of the meters yourself on moving day",
+        "x": "She suggests photographing the meters as a personal record. He does not need to be home, because the meters are read remotely."
+       },
+       {
+        "q": "Why are many customers surprised by their water bill?",
+        "o": [
+         "Water is billed every month instead of every two months like hydro.",
+         "A second charge is roughly equal to the water charge itself.",
+         "Prices for water rise sharply during the winter.",
+         "The bill includes the setup charge for both services."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "it’s usually about the same as the water charge",
+        "x": "Wastewater is charged on top of water at about the same amount, so the bill is roughly double. Water is billed with electricity every two months."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report.",
+    "sp": {
+     "A": {
+      "name": "News anchor",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.01
+     },
+     "B": {
+      "name": "Real estate lawyer",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.99
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Buyers of resale homes in the province will soon have the right to change their minds. The government announced yesterday that, starting in July, anyone who signs an agreement to buy an existing house or condo will have a three-business-day cooling-off period during which they can cancel the purchase. Until now, this kind of protection applied only to newly built condos."
+       ],
+       [
+        "A",
+        "There is a cost, however. Buyers who back out will have to pay the seller a fee of a quarter of one percent of the purchase price. On a seven-hundred-thousand-dollar home, that works out to seventeen hundred and fifty dollars. The government says the fee is meant to discourage buyers from making offers on several homes at once with no intention of following through."
+       ],
+       [
+        "A",
+        "The change comes after several years in which buyers, under pressure in bidding wars, made offers without inspections or without confirming their financing, and later found themselves trapped. Real estate lawyer Graham Whitfield says the new rule will help, but buyers shouldn’t see it as a safety net."
+       ],
+       [
+        "B",
+        "Three business days is not long. In that time, you might be able to get an inspection or confirm your mortgage, but realistically, not always both. My worry is that some buyers will now feel more comfortable making rushed decisions, assuming they can simply undo them. The smart approach is still to do your homework before you sign."
+       ],
+       [
+        "A",
+        "The real estate industry has given the change a cautious welcome. The provincial association of realtors says it supports more protection for buyers, but has asked the government to clarify whether the period would apply to homes sold at public auctions, and whether the fee would be held in trust."
+       ],
+       [
+        "A",
+        "Sellers, meanwhile, will have to wait out the three days before they can be sure a deal is firm, which some agents warn could make sellers more reluctant to accept offers with other conditions attached. The government says it will review the rule after two years."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is new about the government’s rule?",
+        "o": [
+         "New condo buyers will be able to cancel their purchases.",
+         "Buyers will have to complete a home inspection within three business days.",
+         "A protection once limited to new condos will cover existing homes.",
+         "Sellers will be allowed to cancel a sale within three days."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "Until now, this kind of protection applied only to newly built condos.",
+        "x": "Cooling-off periods already existed for new condos; the change extends them to resale homes. Buyers of new condos already had this right."
+       },
+       {
+        "q": "What is the purpose of the cancellation fee?",
+        "o": [
+         "To discourage offers that buyers do not plan to complete",
+         "To pay for the seller’s home inspection",
+         "To compensate real estate agents for lost commissions",
+         "To cover the government’s cost of running the program"
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "with no intention of following through",
+        "x": "The fee discourages buyers from making multiple offers they will not complete. Agents’ commissions and government costs are not mentioned."
+       },
+       {
+        "q": "What is Graham Whitfield’s main concern?",
+        "o": [
+         "Three days is too long for sellers to wait.",
+         "The fee is too high for most buyers to afford.",
+         "Buyers may become less careful because they can cancel.",
+         "Mortgage lenders will not be able to respond within three days."
+        ],
+        "a": 2,
+        "t": "viewpoint",
+        "ev": "some buyers will now feel more comfortable making rushed decisions",
+        "x": "He fears buyers will rush, assuming they can cancel. The sellers’ wait is a concern raised by agents, not by him."
+       },
+       {
+        "q": "What has the realtors’ association asked the government to do?",
+        "o": [
+         "Explain how the rule applies in certain situations",
+         "Delay the new rule until after the review",
+         "Lower the fee for homes sold at auction",
+         "Extend the period to five business days"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "has asked the government to clarify",
+        "x": "The association wants clarification about auctions and whether the fee is held in trust. It supports the rule, so it has not asked for a delay."
+       },
+       {
+        "q": "What do some agents predict?",
+        "o": [
+         "Sellers may be less willing to accept conditional offers.",
+         "Buyers will make fewer offers during bidding wars.",
+         "More sales will be cancelled than the government expects.",
+         "The rule will be cancelled after two years."
+        ],
+        "a": 0,
+        "t": "prediction",
+        "ev": "could make sellers more reluctant to accept offers with other conditions attached",
+        "x": "Agents warn that sellers, already waiting three days, may avoid offers with extra conditions. The two-year review is the government’s plan, not a prediction of cancellation."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three roommates are deciding how to divide the rent for their new apartment.",
+    "sp": {
+     "A": {
+      "name": "Esther",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1
+     },
+     "B": {
+      "name": "Kai",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 1.02
+     },
+     "C": {
+      "name": "Rohan",
+      "g": "m",
+      "acc": "en-IN",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "So, the lease is signed, and we move in on the first. We just need to decide who pays what. Honestly, I think the easiest thing is to split it evenly. Three thousand divided by three, a thousand each. Done."
+       ],
+       [
+        "C",
+        "Easy for you to say, Kai. You’re taking the big bedroom with its own bathroom and the balcony. I’m in the den that doesn’t even have a closet."
+       ],
+       [
+        "B",
+        "You picked the den!"
+       ],
+       [
+        "C",
+        "I picked it because you two had already called the other rooms, and I didn’t want to argue. That doesn’t mean I should pay the same as you."
+       ],
+       [
+        "A",
+        "He’s got a point. The den is less than half the size of your room. I measured them when we toured the place."
+       ],
+       [
+        "B",
+        "Okay, fair. But we all share the kitchen, the living room and the laundry, which is most of the apartment. Splitting by bedroom size alone seems a bit extreme."
+       ],
+       [
+        "A",
+        "I actually agree with that. So what if we split it in two parts? The shared space is split equally, and the bedrooms are split by size."
+       ],
+       [
+        "C",
+        "How would that work in numbers?"
+       ],
+       [
+        "A",
+        "Roughly, the bedrooms are about forty percent of the floor space. So twelve hundred of the rent goes by bedroom size, and eighteen hundred is split three ways, six hundred each."
+       ],
+       [
+        "B",
+        "And then the bedroom part?"
+       ],
+       [
+        "A",
+        "Kai’s room is about half of the bedroom space, mine is about a third, and Rohan’s is the rest. So Kai would pay six hundred plus six hundred, which is twelve hundred. I’d pay six hundred plus four hundred, so a thousand. And Rohan would pay six hundred plus two hundred, so eight hundred."
+       ],
+       [
+        "C",
+        "Eight hundred. That I could live with."
+       ],
+       [
+        "B",
+        "Twelve hundred is steep, though. I’m not sure the bathroom is worth that much."
+       ],
+       [
+        "C",
+        "Kai, you won’t have to wait for the shower every morning. Esther and I will be sharing one bathroom. That alone is worth something."
+       ],
+       [
+        "B",
+        "Yeah, alright, I’ll give you that. And I suppose the balcony is nice too. Okay. I can accept twelve hundred, but then I don’t want to pay a third of the internet. I barely use it. I’m at the office most of the day."
+       ],
+       [
+        "A",
+        "Hmm, I’d rather keep the bills simple. Splitting the internet by usage will drive us all crazy."
+       ],
+       [
+        "C",
+        "Agreed. Equal shares for the bills, otherwise we’ll be tracking every movie anyone streams."
+       ],
+       [
+        "B",
+        "Fine, fine. I’m outvoted. But can we agree to look at this again in six months? If one of us wants to switch rooms, the rent should switch too."
+       ],
+       [
+        "A",
+        "That’s reasonable. Let’s put the whole thing in writing: who pays what, how the bills are split, and a review in six months."
+       ],
+       [
+        "B",
+        "And one more thing: if anyone has a partner staying over more than a couple of nights a week, we talk about it openly. I’ve seen that ruin a perfectly good apartment."
+       ],
+       [
+        "C",
+        "Ha, fair enough. That goes in the agreement too."
+       ],
+       [
+        "A",
+        "Okay, so four items: rent, bills, overnight guests and the six-month review. Rohan, since you volunteered, you’re drafting."
+       ],
+       [
+        "C",
+        "I’ll draft it tonight and share it, so we can all sign before the first."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What is Kai’s first suggestion?",
+        "o": [
+         "The person with the largest room pays the most.",
+         "The rent is divided according to floor space.",
+         "Each roommate pays exactly the same amount.",
+         "The bills are divided according to usage."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "Three thousand divided by three, a thousand each.",
+        "x": "Kai first proposes an equal split of $1,000 each. Dividing bills by usage is a later idea he raises about the internet."
+       },
+       {
+        "q": "Why does Rohan object to Kai’s suggestion?",
+        "o": [
+         "He cannot afford to pay a thousand dollars a month.",
+         "His room is far less desirable than Kai’s.",
+         "He was not consulted before the lease was signed.",
+         "He would rather have the room with the balcony."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "I’m in the den that doesn’t even have a closet.",
+        "x": "He compares his small den with Kai’s large room with bathroom and balcony. He never says he cannot afford $1,000."
+       },
+       {
+        "q": "Why did Rohan end up with the den?",
+        "o": [
+         "He wanted to avoid a disagreement.",
+         "It was the cheapest room on the lease.",
+         "He measured all the rooms during the tour.",
+         "He preferred a room without a closet."
+        ],
+        "a": 0,
+        "t": "purpose",
+        "ev": "I didn’t want to argue",
+        "x": "The others had already claimed their rooms, and he did not want to argue. It was Esther who measured the rooms."
+       },
+       {
+        "q": "What is Kai’s objection to dividing the rent by bedroom size alone?",
+        "o": [
+         "It would make his share more than half the rent.",
+         "It is too difficult to measure the rooms exactly.",
+         "It ignores the areas that all three use equally.",
+         "It does not account for the shared bathroom."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "we all share the kitchen, the living room and the laundry",
+        "x": "He points out that most of the apartment is shared space used by everyone. Esther agrees, leading to her two-part formula."
+       },
+       {
+        "q": "How much rent will Esther pay each month?",
+        "o": [
+         "$800",
+         "$1,200",
+         "$600",
+         "$1,000"
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "I’d pay six hundred plus four hundred, so a thousand.",
+        "x": "Her share is $600 of shared space plus $400 for her bedroom = $1,000. $1,200 is Kai’s share, and $800 is Rohan’s."
+       },
+       {
+        "q": "What finally persuades Kai to accept paying more?",
+        "o": [
+         "The balcony is the largest in the building.",
+         "He will not have to share a bathroom.",
+         "He will pay less for the internet.",
+         "Esther offers to switch rooms in six months."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "you won’t have to wait for the shower every morning",
+        "x": "Rohan points out that Kai has his own bathroom, and Kai says “I’ll give you that.” His request to pay less for the internet is rejected."
+       },
+       {
+        "q": "Why do Esther and Rohan reject Kai’s idea about the internet?",
+        "o": [
+         "Dividing bills by use would be too complicated.",
+         "Kai uses the internet more than he claims.",
+         "The internet is already included in the rent.",
+         "They think Kai should pay all of the bills."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "Splitting the internet by usage will drive us all crazy.",
+        "x": "They want simple equal shares rather than tracking everyone’s usage. They do not accuse Kai of using more than he says."
+       },
+       {
+        "q": "What will happen in six months?",
+        "o": [
+         "Kai will move into the smaller den.",
+         "The rent will increase.",
+         "They will renew the lease.",
+         "The arrangement will be reviewed."
+        ],
+        "a": 3,
+        "t": "prediction",
+        "ev": "can we agree to look at this again in six months?",
+        "x": "They agree to review the arrangement in six months, and the rent would follow any room switch. Nobody says Kai will move."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a radio report about whether buying a home is still a good investment.",
+    "sp": {
+     "A": {
+      "name": "Reporter",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "For generations of Canadians, buying a home has been treated as the safest financial decision a person can make. Pay off a mortgage, the thinking goes, and by retirement you’ll own a valuable asset outright. But with prices in many cities now more than ten times the average household income, a growing number of people are asking whether renting and investing the difference might be the smarter choice."
+       ],
+       [
+        "A",
+        "Financial planner Deirdre Mulcahy hears the question every week. She says the answer depends heavily on numbers that people often leave out. Homeowners, she points out, tend to compare their mortgage payment with rent, while forgetting property taxes, insurance, maintenance and the interest on the loan, none of which build equity. For some of her clients, owning costs forty percent more each month than renting a similar home. If a renter has the discipline to invest that difference every month, she says, they can end up with as much wealth as the owner. The key word, she stresses, is discipline. Most people don’t have it."
+       ],
+       [
+        "A",
+        "That is exactly the point made by economist Barnaby Kwan. He argues that the great advantage of a mortgage is that it is a forced savings plan. Every payment builds equity whether you feel like saving or not. Renters could, in theory, invest the difference, but in practice, he says, research shows the money often goes to holidays, cars and everyday spending. For ordinary people, the house works not because it is the best investment, but because it is the one they can’t avoid making."
+       ],
+       [
+        "A",
+        "Others focus on what spreadsheets miss. Simone Lavallée, who sold her condo two years ago and now rents, says the financial math was only part of her decision. She wanted to be able to move for work without the stress and cost of selling, and she doesn’t miss paying for a new roof or a special assessment. But she admits there are trade-offs. Last year, her landlord sold the building, and she spent an anxious three months unsure whether she would be able to stay. Owning, she says, buys you a kind of security that is hard to put a price on."
+       ],
+       [
+        "A",
+        "Housing researchers also warn that the past may be a poor guide to the future. Over the last thirty years, falling interest rates helped push home prices steadily upward. With rates no longer falling, some economists expect much slower growth in home values, which would weaken the investment case for buying, though not necessarily the case for stability."
+       ],
+       [
+        "A",
+        "So is buying still worth it? Most of the experts I spoke to gave the same unsatisfying answer: it depends on where you live, how long you plan to stay and, perhaps most of all, on how honest you are about your own habits."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "According to Deirdre Mulcahy, what do homeowners often overlook?",
+        "o": [
+         "Costs of owning that do not add to their equity",
+         "The higher rents charged for similar homes",
+         "How quickly home prices have risen",
+         "The interest renters earn on their savings"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "none of which build equity",
+        "x": "Owners forget taxes, insurance, maintenance and interest – costs that do not build equity. She says owning can cost more than renting, not less."
+       },
+       {
+        "q": "What is Mulcahy’s view of renting and investing the difference?",
+        "o": [
+         "It always produces more wealth than owning a home.",
+         "It is too risky for people with modest incomes.",
+         "It works only if mortgage rates stay high.",
+         "It can work, but few people stick to it."
+        ],
+        "a": 3,
+        "t": "viewpoint",
+        "ev": "Most people don’t have it.",
+        "x": "She says renters can match owners only with discipline, which most people lack. She never says it always produces more wealth."
+       },
+       {
+        "q": "What does Barnaby Kwan see as the main benefit of owning?",
+        "o": [
+         "It produces much higher returns than the stock market.",
+         "It protects owners from rising interest rates.",
+         "It allows owners to borrow for holidays and cars.",
+         "It makes people save even when they would rather not."
+        ],
+        "a": 3,
+        "t": "main",
+        "ev": "it is a forced savings plan",
+        "x": "A mortgage forces people to build equity “whether you feel like saving or not”. He specifically says it is not the best investment."
+       },
+       {
+        "q": "Why did Simone Lavallée sell her condo?",
+        "o": [
+         "She could no longer afford a special assessment.",
+         "Her building needed a new roof.",
+         "She wanted the freedom to relocate for her career.",
+         "Her landlord offered her a better rental."
+        ],
+        "a": 2,
+        "t": "detail",
+        "ev": "She wanted to be able to move for work",
+        "x": "She wanted to be able to move for work without selling. She does not miss roofs or special assessments, but they were not the reason."
+       },
+       {
+        "q": "What does Lavallée admit about renting?",
+        "o": [
+         "It can leave her unsure of her housing future.",
+         "It is more expensive than she expected.",
+         "It has made moving for work more difficult.",
+         "It requires more maintenance than owning."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "she spent an anxious three months unsure whether she would be able to stay",
+        "x": "When the building was sold, she spent months not knowing if she could stay – a lack of security. Renting actually made moving easier."
+       },
+       {
+        "q": "What do some economists expect?",
+        "o": [
+         "Interest rates will begin falling again.",
+         "Home values will rise more slowly than in the past.",
+         "Renting will become far more expensive than owning a home.",
+         "Buyers will value stability less than before."
+        ],
+        "a": 1,
+        "t": "prediction",
+        "ev": "some economists expect much slower growth in home values",
+        "x": "With rates no longer falling, they expect slower growth in home values. Falling rates describe the past thirty years, not the forecast."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Grace Adeyemi | To: Anneliese Brandvold | Subject: Fingers crossed!",
+   "text": "Dear Anneliese,\n\nI have news, and I’m almost afraid to say it out loud in case I jinx it. After nearly three years on the waiting list, I’ve been invited for an interview at the Cedar Grove Housing Co-operative! You might remember me complaining about the endless forms back when I applied. Well, it seems someone actually read them.\n\nFor anyone who doesn’t know how co-ops work, it can sound a bit strange. I wouldn’t be a tenant in the usual sense, and I wouldn’t own my unit either. Instead, I’d become a member of the co-op, which owns the building, and I’d have a vote on how it’s run. The monthly charge for a two-bedroom is $1,450, which is about $500 less than I’m paying now for a much smaller place. Some units are also subsidized based on income, although I don’t expect to qualify for one of those.\n\nThe catch, if you can call it that, is that members are expected to contribute. Every household has to volunteer at least four hours a month, on a committee, cleaning common areas or helping with maintenance, and attend the general meetings, which are held four times a year. Honestly, that part appeals to me. After six years in a building where I didn’t know a single neighbour’s name, I like the idea of being part of something.\n\nI was originally going to ask you to be one of my references. Then I read the instructions properly: the co-op wants two references from people who have known the applicant for at least five years and who are not family members. So I can’t use you, which is a shame, because you know me better than anyone!\n\nBut I was hoping you might help me prepare for the interview instead. I’ve heard they ask how you handle conflict and what skills you could bring to a committee, and I tend to ramble when I’m nervous. Could we do a practice run over video some evening next week?\n\nThe interview is on the 18th. If it goes well, a unit might be available as early as March, which would mean giving notice to my landlord by the end of January.\n\nWish me luck!\nGrace",
+   "qs": [
+    {
+     "q": "How does Grace feel about being invited for an interview?",
+     "o": [
+      "Annoyed that the process has taken three years",
+      "Thrilled, but careful not to expect too much",
+      "Confident that she will definitely be accepted",
+      "Nervous that her forms contained mistakes"
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "I’m almost afraid to say it out loud in case I jinx it",
+     "x": "She is excited but afraid of jinxing it, so she is cautious. She is nervous about rambling, not about her forms."
+    },
+    {
+     "q": "What is true about living in a housing co-operative?",
+     "o": [
+      "Members own their individual units.",
+      "All units are subsidized according to income.",
+      "Members must attend a general meeting every single month.",
+      "Residents have a say in how the building is managed."
+     ],
+     "a": 3,
+     "t": "paraphrase",
+     "ev": "I’d have a vote on how it’s run",
+     "x": "Members vote on how the co-op is run. They do not own their units, only some units are subsidized, and meetings are four times a year."
+    },
+    {
+     "q": "Why is the co-op attractive to Grace financially?",
+     "o": [
+      "She expects to qualify for one of the subsidized units.",
+      "Its monthly charge would be lower for a larger space.",
+      "Members do not have to pay a deposit.",
+      "Volunteer hours reduce the monthly charge."
+     ],
+     "a": 1,
+     "t": "inference",
+     "ev": "which is about $500 less than I’m paying now for a much smaller place",
+     "x": "A two-bedroom would cost about $500 less than her current, smaller home. She does not expect a subsidized unit."
+    },
+    {
+     "q": "What is Grace’s attitude toward the volunteer requirement?",
+     "o": [
+      "She thinks four hours a month is too much.",
+      "She sees it as a reasonable price for low rent.",
+      "She would prefer to pay a fee instead.",
+      "She sees it as a positive feature of co-op life."
+     ],
+     "a": 3,
+     "t": "attitude",
+     "ev": "Honestly, that part appeals to me.",
+     "x": "It appeals to her because she wants to feel part of a community. She does not treat it as a burden or a price to pay."
+    },
+    {
+     "q": "Why can Anneliese not act as Grace’s reference?",
+     "o": [
+      "She has known Grace for less than five years.",
+      "The co-op does not accept relatives.",
+      "She lives too far away to be contacted.",
+      "Grace has already chosen two other people."
+     ],
+     "a": 1,
+     "t": "detail",
+     "ev": "who are not family members",
+     "x": "References must not be family, and Anneliese is related to her. Grace says Anneliese knows her better than anyone, so the five-year rule is not the problem."
+    },
+    {
+     "q": "What does Grace ask Anneliese to do?",
+     "o": [
+      "Write a letter supporting her application",
+      "Help her find two suitable references",
+      "Rehearse the interview with her",
+      "Join one of the co-op’s committees"
+     ],
+     "a": 2,
+     "t": "detail",
+     "ev": "Could we do a practice run over video",
+     "x": "She asks for a practice interview over video. Her original plan to ask for a reference was dropped."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Anneliese’s response to Grace. Complete the response by choosing the best option for each blank.",
+    "text": "Dear Grace,\n\nThis is wonderful news, and I promise I won’t jinx it! Three years is a long time to wait, so you {1}.\n\nOf course I’ll do a practice interview with you. How about Tuesday evening? I’ll prepare some tough questions. Since they care about how you handle conflict, think of a real example, perhaps {2}, and practise telling it in under two minutes so you don’t ramble.\n\nI’m not surprised you’re not counting on one of the {3} units; your new salary is probably too high for those. Either way, $1,450 for a two-bedroom sounds like a dream.\n\nOne practical thing: if a unit opens up in March, you’ll need to give your landlord notice by {4}, so keep an eye on the calendar. And start thinking now about which committee you’d join, since you’ll owe them at least {5} a month.\n\nFingers crossed,\nAnneliese",
+    "blanks": [
+     {
+      "o": [
+       "should apply somewhere else too",
+       "must be tired of filling in forms",
+       "have truly earned this chance",
+       "can afford to wait a little longer"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "After nearly three years on the waiting list",
+      "x": "After waiting so long, she deserves the opportunity. Suggesting she apply elsewhere would contradict Anneliese’s congratulations."
+     },
+     {
+      "o": [
+       "the time you settled a dispute at work",
+       "the day you filled in the forms",
+       "the name of your old landlord",
+       "a hobby you enjoy on weekends"
+      ],
+      "a": 0,
+      "t": "coherence",
+      "ev": "I’ve heard they ask how you handle conflict",
+      "x": "A conflict question needs an example of resolving a disagreement. The other options have nothing to do with conflict."
+     },
+     {
+      "o": [
+       "two-bedroom",
+       "larger",
+       "furnished",
+       "income-based"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "Some units are also subsidized based on income",
+      "x": "Grace does not expect a subsidized, income-based unit, and a high salary would explain it. She is applying for a two-bedroom."
+     },
+     {
+      "o": [
+       "the end of January",
+       "the 18th",
+       "early March",
+       "the end of February"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "giving notice to my landlord by the end of January",
+      "x": "Grace says she would have to give notice by the end of January. The 18th is the interview date."
+     },
+     {
+      "o": [
+       "four meetings",
+       "two hours",
+       "four hours",
+       "five hours"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "volunteer at least four hours a month",
+      "x": "Each household must volunteer at least four hours a month. Meetings happen four times a year, not a month."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Maplewood Residences – Units Available This Winter",
+    "intro": "All units are offered on 12-month leases unless noted. Rent includes heat and water; electricity is paid separately by the tenant.",
+    "table": {
+     "cols": [
+      "Unit",
+      "Type",
+      "Size",
+      "Floor",
+      "Monthly rent",
+      "Available"
+     ],
+     "rows": [
+      [
+       "A-204",
+       "1 bedroom",
+       "58 m²",
+       "2",
+       "$1,690",
+       "Feb 1"
+      ],
+      [
+       "A-711",
+       "1 bedroom + den",
+       "66 m²",
+       "7",
+       "$1,890",
+       "Mar 1"
+      ],
+      [
+       "B-105",
+       "2 bedroom with patio",
+       "82 m²",
+       "1",
+       "$2,250",
+       "Feb 1"
+      ],
+      [
+       "B-910",
+       "2 bedroom, corner",
+       "88 m²",
+       "9",
+       "$2,480",
+       "Feb 15"
+      ],
+      [
+       "C-1202",
+       "3 bedroom",
+       "110 m²",
+       "12",
+       "$2,950",
+       "Apr 1"
+      ]
+     ]
+    },
+    "notes": [
+     "Move-in incentive: sign a 13-month lease and get the first month free (only for units available Feb 1).",
+     "Underground parking: $120/month for the first spot; $90/month for a second spot. Bike locker: $15/month.",
+     "Pets: $35/month per animal (maximum 2). Dogs are permitted only in units on floors 1–3.",
+     "Units above the 8th floor include in-suite laundry; all other units share a laundry room on each floor.",
+     "Rent increases follow the provincial guideline and may take place only once every 12 months."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about renting an apartment. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Okan,\n\nI looked at the Maplewood listings you sent. Since we need two bedrooms and you’re not giving up Pepper, our only real choice is {1}. It’s available on February 1, so if we sign a 13-month lease, we’ll {2}.\n\nLet me do the math for the first year. Twelve months of rent minus the free month comes to {3}, before parking and pet rent. We’ll need one parking spot for your car, and Pepper costs $35 a month, so the extras add {4} per month.\n\nThe only thing I don’t love is that we won’t have {5}, so we’ll be carrying baskets down the hall every week. Honestly, for the patio and the price, I think it’s worth it. Shall we book a viewing for this Saturday?\n\nAlso, electricity isn’t included, so we should budget for that separately.\n\nTalk soon,\nLeonie",
+    "blanks": [
+     {
+      "o": [
+       "B-910",
+       "A-711",
+       "B-105",
+       "C-1202"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Dogs are permitted only in units on floors 1–3.",
+      "x": "B-105 is the only two-bedroom on floors 1–3, where dogs are allowed. B-910 is on the 9th floor."
+     },
+     {
+      "o": [
+       "skip the next rent increase",
+       "get the first month free",
+       "pay nothing for parking for a month",
+       "save $35 on pet rent"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "sign a 13-month lease and get the first month free",
+      "x": "Units available February 1 come with a free first month on a 13-month lease. The offer does not cover parking or pet rent."
+     },
+     {
+      "o": [
+       "$27,000",
+       "$22,500",
+       "$26,730",
+       "$24,750"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "$2,250",
+      "x": "12 months × $2,250 = $27,000, minus one free month = $24,750. $27,000 forgets the free month."
+     },
+     {
+      "o": [
+       "$135",
+       "$155",
+       "$190",
+       "$210"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Underground parking: $120/month for the first spot",
+      "x": "One parking spot ($120) plus pet rent ($35) = $155. $210 wrongly adds a second spot."
+     },
+     {
+      "o": [
+       "a parking spot",
+       "heat included",
+       "in-suite laundry",
+       "a balcony"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "Units above the 8th floor include in-suite laundry",
+      "x": "B-105 is on the 1st floor, so it shares a laundry room – hence carrying baskets. Heat is included in all units."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A couple wants in-suite laundry and must move in no later than March 1. Which unit should they choose?",
+     "o": [
+      "A-711",
+      "B-105",
+      "C-1202",
+      "B-910"
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "Units above the 8th floor include in-suite laundry",
+     "x": "Only units above the 8th floor have in-suite laundry: B-910 (Feb 15) and C-1202 (Apr 1). Only B-910 is available by March 1."
+    },
+    {
+     "q": "A tenant rents A-204 on a 12-month lease with two parking spots and a bike locker. What is the total monthly cost before electricity?",
+     "o": [
+      "$1,945",
+      "$1,915",
+      "$1,825",
+      "$1,930"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "$90/month for a second spot",
+     "x": "$1,690 + $120 + $90 + $15 = $1,915. $1,945 wrongly charges $120 for both spots."
+    },
+    {
+     "q": "A tenant moved into A-711 last March at $1,890. What is true about future rent increases?",
+     "o": [
+      "The rent can rise by any amount after twelve months.",
+      "The rent cannot rise during the first two years.",
+      "The rent may rise once a year, within the provincial guideline.",
+      "The rent rises automatically whenever the electricity rates go up."
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Rent increases follow the provincial guideline and may take place only once every 12 months.",
+     "x": "Increases are limited to once every twelve months and to the provincial guideline. Electricity is billed separately and does not affect rent."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Under One Roof: The Return of the Multigenerational Home",
+   "paras": [
+    "Census data shows that multigenerational households – homes where grandparents, parents and children live together – are the fastest-growing type of household in Canada. For many newcomer families, living with several generations has always been normal, and immigration explains part of the increase. But researchers say the trend now extends well beyond newcomers. Rising housing costs have made it difficult for young adults to buy homes and for many seniors to afford retirement residences, and combining households can ease both pressures at once. In some suburbs, builders now advertise homes with two primary bedrooms, a second kitchen or a separate entrance for an in-law suite. Such features, rare a decade ago, are now listed as selling points rather than oddities. Researchers expect the pattern to continue for as long as housing remains expensive.",
+    "Families who have made the move often describe benefits that go beyond money. Carla Mendes, a nurse in a suburb west of Toronto, moved her parents into a renovated basement apartment four years ago. Her mother now picks up the children from school three days a week, which saves the family roughly $900 a month in after-school care. Her father, who was increasingly isolated after retiring, has taken over the garden and the dog. “The kids know their grandparents in a way I never knew mine,” Mendes says. She admits, though, that the first year was difficult. Disagreements about discipline and household routines led to tension until the family began holding a short meeting every Sunday to talk things through.",
+    "Experts caution that the arrangement is not right for everyone. Family therapist Odette Kamara says the most common problems come from unspoken expectations, particularly about money and caregiving. An adult child may assume parents will help with child care, while the parents may expect to be cared for themselves as they age. She advises families to discuss in advance who will pay for what, what happens if a parent’s health declines, and how the house would be divided if it were sold. Legal advisers add that when parents contribute money toward a shared home, the arrangement should be written down, because unclear contributions are a frequent source of disputes between siblings later on. Kamara also recommends agreeing on how each generation’s private time and space will be protected.",
+    "Municipal rules have been slow to adapt. In many cities, zoning still limits how many kitchens a house can have, or prohibits separate entrances in certain neighbourhoods, on the assumption that a second kitchen means an illegal rental unit. Some cities have begun to relax these rules, allowing secondary suites in most residential areas. Planners say multigenerational living could also ease pressure on public services: seniors living with family are less likely to need home care visits, and children cared for by grandparents free up space in crowded daycares. Even so, few governments have studied these effects in any detail, and most housing programs are still designed around the traditional single-family household. Advocates say that needs to change."
+   ],
+   "qs": [
+    {
+     "q": "The growth in multigenerational households cannot be explained by immigration alone.",
+     "a": "A",
+     "t": "inference",
+     "ev": "researchers say the trend now extends well beyond newcomers",
+     "x": "Paragraph A: immigration explains part of the increase, but the trend extends well beyond newcomers."
+    },
+    {
+     "q": "Home builders are promoting features designed for extended families.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "builders now advertise homes with two primary bedrooms",
+     "x": "Paragraph A: builders advertise second kitchens, two primary bedrooms and in-law entrances as selling points."
+    },
+    {
+     "q": "One family has reduced its child care expenses by living together.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "saves the family roughly $900 a month in after-school care",
+     "x": "Paragraph B: the grandmother’s school pickups save the Mendes family about $900 a month."
+    },
+    {
+     "q": "A regular family discussion helped reduce tension at home.",
+     "a": "B",
+     "t": "detail",
+     "ev": "the family began holding a short meeting every Sunday",
+     "x": "Paragraph B: weekly Sunday meetings eased disagreements about discipline and routines."
+    },
+    {
+     "q": "Different generations may hold opposite assumptions about who will care for whom.",
+     "a": "C",
+     "t": "inference",
+     "ev": "An adult child may assume parents will help with child care, while the parents may expect to be cared for themselves",
+     "x": "Paragraph C describes adult children and parents each expecting care from the other."
+    },
+    {
+     "q": "Money that parents put toward a shared home should be recorded formally.",
+     "a": "C",
+     "t": "paraphrase",
+     "ev": "the arrangement should be written down",
+     "x": "Paragraph C: legal advisers say parents’ contributions should be written down to avoid later disputes."
+    },
+    {
+     "q": "Some local rules treat an extra kitchen as a sign of an unauthorized apartment.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "on the assumption that a second kitchen means an illegal rental unit",
+     "x": "Paragraph D: zoning limits kitchens on the assumption that a second one means an illegal rental."
+    },
+    {
+     "q": "Couples in multigenerational homes are less likely to separate.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph C discusses family tensions, but no paragraph mentions separation or divorce rates."
+    },
+    {
+     "q": "Governments have calculated how much these households save public services.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Paragraph D says planners believe services could benefit, but few governments have studied the effects; no calculation is reported."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Stop Forcing New Buildings to Include Parking",
+   "byline": "Opinion | by Rupinder Gill, urban planner",
+   "text": "Ask a developer why a new apartment building costs so much, and sooner or later the conversation turns to parking. In many Canadian cities, zoning bylaws still require a minimum number of parking spaces for every new unit, often one per apartment, plus extra spaces for visitors. In a dense neighbourhood where land is expensive, those spaces usually have to go underground. And underground parking is astonishingly expensive: estimates in large cities range from fifty thousand to more than one hundred thousand dollars per space.\n\nThat cost does not disappear. It is built into the price of every condo and the rent of every apartment, whether or not the resident owns a car. A young nurse who walks to the hospital and has never had a driver’s licence still pays, indirectly, for a concrete box she will never use. In effect, we have designed a system in which people without cars subsidize those with them.\n\nI have worked as a planner for twenty years, and I have watched parking minimums kill projects. On small lots, the ramps and turning space needed for an underground garage can take up so much room that a building of twenty apartments becomes impossible, and the site stays a parking lot instead. I have also seen garages in buildings near rapid transit sit half empty, even though the city’s own rules required them to be built.\n\nThis is why I support eliminating parking minimums, at least within walking distance of frequent transit. Note that I am not proposing to ban parking. Developers would still be free to build as many spaces as they believe buyers and tenants want. The difference is that the decision would be made by the people who have to pay for those spaces, rather than by a bylaw written decades ago.\n\nOpponents raise reasonable worries. Residents of nearby streets fear that newcomers without assigned spots will park in front of their homes. That is a fair concern, but it has a straightforward solution: residential parking permits, which many cities already use, can reserve street spaces for existing residents. Others argue that some people, such as those with disabilities or tradespeople who carry tools, genuinely need a car. They do, and accessible spaces should remain mandatory. But the needs of some residents are not a reason to force every resident to pay.\n\nThere is evidence that this approach works. Several North American cities have removed parking minimums in recent years, some across their entire territory. Early studies suggest that developers continue to build parking, but less of it, and that more small apartment buildings get approved. None of these cities has reported the traffic chaos that opponents predicted.\n\nParking minimums were introduced for understandable reasons, in an era when planners assumed that every household would own one or two cars and drive everywhere. That assumption no longer fits the way many people live, especially younger people in cities. Our rules should reflect how people actually get around today, not how we imagined they would in 1965. Let the market decide how much parking to build, and let people who don’t drive stop paying for it.",
+   "qs": [
+    {
+     "q": "According to the writer, who pays for parking that bylaws require?",
+     "o": [
+      "Only residents who own cars",
+      "The city, through property taxes",
+      "Developers, who are unable to pass the cost on",
+      "All residents, including those without cars"
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "whether or not the resident owns a car",
+     "x": "The cost is built into every unit’s price or rent, so even non-drivers pay. She says the cost “does not disappear”, so developers do pass it on."
+    },
+    {
+     "q": "Why does the writer describe what happens on small lots?",
+     "o": [
+      "To show that parking rules can prevent housing from being built",
+      "To argue that small lots should be used only for parking",
+      "To explain why ramps are needed in every garage",
+      "To prove that underground garages are often unsafe"
+     ],
+     "a": 0,
+     "t": "purpose",
+     "ev": "a building of twenty apartments becomes impossible",
+     "x": "Garage ramps can make a twenty-unit building impossible, so the land stays a parking lot. She regrets this outcome; she does not recommend it."
+    },
+    {
+     "q": "What does the writer propose?",
+     "o": [
+      "Banning new parking near transit stations",
+      "Charging non-drivers less rent than drivers",
+      "Requiring at least one parking space for every single new apartment",
+      "Letting developers decide how much parking to build near transit"
+     ],
+     "a": 3,
+     "t": "main",
+     "ev": "Developers would still be free to build as many spaces as they believe buyers and tenants want.",
+     "x": "She would remove minimums near frequent transit and let developers choose. She explicitly says she is not proposing to ban parking."
+    },
+    {
+     "q": "How does the writer respond to neighbours’ concerns about street parking?",
+     "o": [
+      "She dismisses them as exaggerated.",
+      "She accepts them and proposes an existing solution.",
+      "She says that most of the newcomers will rarely own cars.",
+      "She suggests building more visitor spaces."
+     ],
+     "a": 1,
+     "t": "viewpoint",
+     "ev": "residential parking permits, which many cities already use",
+     "x": "She calls the worry “a fair concern” and proposes residential permits, which already exist. She does not dismiss the concern."
+    },
+    {
+     "q": "What does the writer say about spaces for people with disabilities?",
+     "o": [
+      "They should still be required.",
+      "They should be moved onto the street.",
+      "They are rarely used in new buildings.",
+      "They should be paid for by the city."
+     ],
+     "a": 0,
+     "t": "detail",
+     "ev": "accessible spaces should remain mandatory",
+     "x": "She agrees some people genuinely need a car and says accessible spaces should remain mandatory."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I live in a condo next to a subway station, and our garage is exactly what Ms. Gill describes: {1}. I would happily have paid less for my unit without a parking spot I never use, so on that point, she has my full support.\n\nWhere I disagree is on street parking. She treats residential permits as {2}, but in my parents’ neighbourhood, permits already sell out every year, and people circle the block for twenty minutes. Adding hundreds of new units nearby only works if those residents {3}.\n\nI also think her proposal should be limited, as she herself suggests, to areas {4}. In the suburbs, where buses come every forty minutes, removing parking minimums would just push more cars onto the street.\n\nStill, if even part of the {5} in a new condo could be avoided, more young people might actually be able to afford one.",
+    "blanks": [
+     {
+      "o": [
+       "full by early evening",
+       "reserved for visitors",
+       "often only half full",
+       "too small for most cars"
+      ],
+      "a": 2,
+      "t": "paraphrase",
+      "ev": "sit half empty",
+      "x": "The writer describes garages near transit sitting half empty, and the reader lives near a subway. A full garage would not support the article."
+     },
+     {
+      "o": [
+       "a temporary measure",
+       "a simple fix",
+       "an unfair tax",
+       "a last resort"
+      ],
+      "a": 1,
+      "t": "viewpoint",
+      "ev": "it has a straightforward solution",
+      "x": "Gill calls permits a “straightforward solution”, which the reader doubts. She never calls them temporary or a last resort."
+     },
+     {
+      "o": [
+       "really don’t own cars",
+       "buy two parking spots",
+       "use visitor parking",
+       "pay higher condo fees"
+      ],
+      "a": 0,
+      "t": "inference",
+      "ev": "newcomers without assigned spots will park in front of their homes",
+      "x": "Street parking only stays manageable if the new residents genuinely have no cars. Visitor parking would not solve the shortage."
+     },
+     {
+      "o": [
+       "where land is cheapest",
+       "close to frequent transit",
+       "with large surface lots",
+       "outside the city limits"
+      ],
+      "a": 1,
+      "t": "inference",
+      "ev": "at least within walking distance of frequent transit",
+      "x": "Gill limits her proposal to areas near frequent transit, and the reader contrasts this with suburbs where buses are infrequent."
+     },
+     {
+      "o": [
+       "cost of residential permits",
+       "monthly fees for visitor spots",
+       "tens of thousands spent on parking",
+       "price of transit passes"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "estimates in large cities range from fifty thousand to more than one hundred thousand dollars per space",
+      "x": "Each underground space costs $50,000–$100,000+, built into condo prices. Permits and transit passes are small costs."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "A house on your street has been empty for over a year. The yard is overgrown, garbage is piling up, a window is broken, and you have seen people entering the house at night. Write an email to your city councillor.",
+   "bullets": [
+    "Describe the condition of the property",
+    "Explain how it is affecting you and your neighbours",
+    "Request specific action from the city"
+   ],
+   "model": "Dear Councillor Dufresne,\n\nI am writing on behalf of several residents of Ashby Lane about the house at number 47, which has been vacant for more than a year. The lawn is now knee-high, bags of garbage have been left beside the porch, and a front window has been broken for at least two months. Over the past few weeks, neighbours and I have also seen people entering the house late at night through the back door.\n\nThis situation is causing real concern on our street. The garbage has attracted rats, which have already been spotted in two neighbouring yards. Families with young children are worried about safety, especially since the property backs onto the path children use to walk to school.\n\nI would therefore ask the city to send a property standards officer to inspect the house and to order the owner to secure the doors and windows and clean up the yard. If the owner cannot be reached, I hope the city will carry out the work itself and add the cost to the property taxes.\n\nThank you for your attention.\n\nSincerely,\nJoaquín Herrera"
+  },
+  "t2": {
+   "intro": "Your city is deciding how to keep sidewalks in residential neighbourhoods safe in winter and is asking residents for their opinion. Choose the option you prefer and explain your reasons.",
+   "question": "Which option do you prefer?",
+   "a": "Option A: The city takes over clearing snow and ice from all residential sidewalks, using small plows. This would add about $60 a year to each household’s property taxes.",
+   "b": "Option B: Homeowners remain responsible for clearing the sidewalk in front of their homes within 24 hours of a snowfall. The city would provide free sand and fine owners who do not comply.",
+   "model": "I would prefer Option A, having the city clear all residential sidewalks, even though it would cost each household a little more.\n\nMy main reason is safety and consistency. Under the current system, which is similar to Option B, sidewalks on my street are a patchwork. Some neighbours clear their section perfectly before breakfast, while others leave it for days, so a single walk to the bus stop can include several icy stretches. A city plow would clear the entire route at once, which matters enormously for seniors, parents with strollers and people who use wheelchairs.\n\nSecond, Option B places an unfair burden on certain residents. Elderly homeowners and people with injuries often cannot shovel at all, and they would face fines for something beyond their control. Sixty dollars a year, by contrast, is a modest amount, roughly the cost of hiring a student to shovel once or twice.\n\nI understand that some people would rather not pay more taxes, and that Option B encourages personal responsibility. However, sidewalks are public infrastructure, just like roads, which the city already clears. For these reasons, I believe Option A is the fairer and safer choice."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend is moving to a city they have never visited for a new job and needs to choose a neighbourhood to live in before arriving. Advise your friend about how to make a good choice.",
+   "model": "That’s exciting, but I understand why it feels stressful to choose a neighbourhood you’ve never seen. Here’s how I’d approach it.\n\nFirst, start with your daily routine. Figure out exactly where your new office is, and look for areas within a reasonable commute, ideally less than forty-five minutes. Check the transit maps, not just the distance, because a place that looks close might involve two transfers. If you’ll be driving, ask about parking and rush-hour traffic.\n\nSecond, do some virtual exploring. Use street-view maps to “walk” around a few areas. You can see whether there are grocery stores, parks and cafés nearby, and whether the streets feel lively or quiet. Local online groups and forums are also great, because residents are usually very honest about noise, safety and landlords.\n\nThird, talk to people. Ask your new manager or co-workers where they live and what they’d recommend. They’ll know things you won’t find online.\n\nAnd finally, my biggest piece of advice: don’t sign a long lease straight away if you can avoid it. Look for a short-term rental or a furnished sublet for the first two or three months. That way, you can explore in person before committing to a full year somewhere you might not like."
+  },
+  "t2": {
+   "prompt": "Describe a home you have lived in that was special to you. What made it special?",
+   "model": "The home I remember most fondly is a small second-floor apartment I rented when I first moved to Canada. It wasn’t fancy at all. The kitchen was tiny, the floors creaked, and in winter the windows rattled whenever the wind blew.\n\nBut what made it special were the people around it. My landlady, an elderly Portuguese woman named Mrs. Sousa, lived downstairs, and she treated me almost like a grandson. When I had the flu during my first winter, she brought me soup every day, and she taught me how to shovel snow properly, which I had never done before.\n\nI only lived there for two years, but it was where I felt at home in a new country for the first time. Even now, I visit her every December with a box of pastries."
+  },
+  "t3": {
+   "scene": {
+    "bg": "park",
+    "alt": "A neighbourhood block party in a grassy park on a sunny day. A red banner reading BLOCK PARTY hangs between two trees. On the left, a woman in a pink dress holding a drink stands beside a long wooden table with a large cake on it and a bunch of colourful balloons tied to the corner. A man in a blue shirt is waving to someone. In the middle, a small boy in a yellow shirt is running after a blue ball that is rolling toward the table. On the right, a man in a dark shirt and white hat stands at a barbecue grill holding a tray of food, while a brown dog sits right next to the grill looking up at him. Further right, an older man in a green shirt sits on a bench.",
+    "items": [
+     [
+      "sun",
+      595,
+      55
+     ],
+     [
+      "tree",
+      150,
+      265,
+      0.9
+     ],
+     [
+      "tree",
+      500,
+      265,
+      0.9
+     ],
+     [
+      "banner",
+      200,
+      110,
+      240,
+      "BLOCK PARTY",
+      "#c0392b"
+     ],
+     [
+      "table",
+      160,
+      340,
+      140,
+      "#a0703c"
+     ],
+     [
+      "cake",
+      235,
+      296
+     ],
+     [
+      "balloons",
+      168,
+      298
+     ],
+     [
+      "person",
+      130,
+      345,
+      {
+       "shirt": "#e84393",
+       "dress": true,
+       "hairStyle": "curly",
+       "hold": "cup",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "person",
+      60,
+      350,
+      {
+       "shirt": "#2980b9",
+       "pose": "wave"
+      }
+     ],
+     [
+      "ball",
+      300,
+      350,
+      "#3498db"
+     ],
+     [
+      "person",
+      345,
+      352,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "run",
+       "flip": true
+      }
+     ],
+     [
+      "dog",
+      385,
+      345,
+      "#a0522d"
+     ],
+     [
+      "grill",
+      430,
+      335
+     ],
+     [
+      "person",
+      468,
+      335,
+      {
+       "shirt": "#2c3e50",
+       "hold": "tray",
+       "flip": true,
+       "hat": "#ffffff"
+      }
+     ],
+     [
+      "bench",
+      540,
+      350,
+      80
+     ],
+     [
+      "person",
+      570,
+      350,
+      {
+       "shirt": "#27ae60",
+       "pose": "sit",
+       "hair": "#bdc3c7",
+       "glasses": true
+      }
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a neighbourhood block party in a park on a bright, sunny day. There’s a big red banner hanging between two trees that says “BLOCK PARTY”, so it looks like the whole street has come together to celebrate.\n\nOn the left, there’s a long wooden table with a large cake on it, and a bunch of colourful balloons is tied to one corner. A woman in a pink dress with curly hair is standing beside the table holding a drink, and a man in a blue shirt behind her is waving to someone, maybe a neighbour who just arrived.\n\nIn the middle of the picture, a little boy in a yellow shirt is running across the grass after a blue ball. The ball seems to be rolling toward the table with the cake.\n\nOn the right, a man in a dark shirt and a white chef’s hat is standing at the barbecue grill, holding a tray of food, probably burgers or sausages. Right beside him, a brown dog is sitting and staring up at the tray, clearly hoping for something to fall.\n\nFinally, on the far right, an older man with glasses and a green shirt is relaxing on a bench, just enjoying the afternoon."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the next few minutes at this block party could get a little chaotic.\n\nFirst, the blue ball is rolling straight toward the table, and the little boy is running after it without looking where he’s going. My guess is that the ball will bump into the table leg, or the boy will crash into it, and the table will shake. If that happens, the cake might slide toward the edge. Hopefully the woman in the pink dress will notice in time and grab it, but she might spill her drink in the process.\n\nSecond, the dog next to the grill is staring at the tray very intently. I expect that when the man turns to flip something on the barbecue, the dog will jump up and steal a sausage, and the man will chase it around the park.\n\nThe commotion will probably make the older man on the bench laugh, and the man in the blue shirt might come over to help calm things down.\n\nIn the end, I think everyone will have a good laugh about it. They’ll put the cake back in the middle of the table, someone will tie the dog’s leash to the bench, and the party will carry on."
+  },
+  "t5": {
+   "intro": "You have accepted a four-month summer internship in another city and need somewhere to live. Choose the option that you prefer. In the next section, you will need to persuade a family member that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Student residence room",
+     "details": [
+      "$1,100 a month, utilities included",
+      "Private room, shared bathroom",
+      "15-minute walk to the office",
+      "Social events for summer residents",
+      "No cooking in rooms; meal plan available"
+     ]
+    },
+    {
+     "title": "Sublet one-bedroom apartment",
+     "details": [
+      "$1,500 a month plus electricity",
+      "Fully furnished, private kitchen",
+      "35-minute bus ride to the office",
+      "Quiet residential area",
+      "Balcony and in-suite laundry"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Homestay with a local family",
+    "details": [
+     "$950 a month, two meals a day",
+     "Private bedroom in a family home",
+     "25-minute bus ride to the office",
+     "House rules and a curfew of 11 p.m.",
+     "Chance to practise living with locals"
+    ]
+   },
+   "otherWho": "Your father prefers",
+   "persuade": "Your father prefers the homestay with a local family. Persuade him that your choice is better.",
+   "model": "Dad, I know the homestay looks like the safest and cheapest choice, and I appreciate that you want me to be looked after. But I really think the student residence makes more sense for this internship.\n\nFirst, the location is much better. I’d be a fifteen-minute walk from the office, compared with a twenty-five-minute bus ride from the homestay. Interns often stay late or get invited to after-work events, and with the residence, I wouldn’t have to worry about the last bus.\n\nThat leads to my second point: the eleven o’clock curfew. I understand why a family would have rules, but I’m going to be working professionally, and I don’t want to have to leave a team dinner early or feel like I’m bothering my hosts every time I come home late.\n\nThird, the price difference is smaller than it looks. The residence is $150 more a month, but utilities are included, and I’d save on bus fare, which would probably be around a hundred dollars a month. So the real difference is about fifty dollars.\n\nFinally, the residence has social events for summer residents, so I’d meet other young people in the same situation. I won’t be lonely, I promise, and I’ll call you every Sunday."
+  },
+  "t6": {
+   "situation": "Your best friend has been offered an apartment, but the landlord requires a guarantor because your friend recently started freelancing and has no regular income. Your friend has asked you to co-sign the lease, which would make you responsible for the rent if they cannot pay. Your spouse is strongly against it, because you are saving to buy a house and your friend has struggled with money in the past.",
+   "options": [
+    "Talk to your friend and explain why you cannot co-sign the lease.",
+    "Talk to your spouse and explain why you want to co-sign the lease."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey, Dominic, thanks for meeting me. I’ve been thinking a lot about your request, and I wanted to give you an answer in person rather than over text.\n\nFirst, I want you to know how much I value our friendship, and I’m really proud of you for going freelance. That takes courage. So this isn’t about whether I believe in you.\n\nBut I can’t co-sign the lease. Being a guarantor means that if anything went wrong, even something completely out of your control, like a client not paying you, I’d be legally responsible for a whole year of rent. Right now, Priyanka and I are saving every dollar for a down payment, and our mortgage approval could actually be affected by having that obligation on my record. I just can’t take that risk at the moment.\n\nThat said, I really want to help you get this apartment. What if we approached the landlord with other options? You could offer to pay two or three months in advance, or show him your contracts and bank statements from the last six months. I’d be happy to write a personal reference letter, too, and I can help you put together a strong application tonight. Would that work for you?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Is it better for young adults to live with their parents longer to save money, or to move out as soon as they can? Explain your reasons.",
+   "model": "In my opinion, with today’s housing costs, it’s often better for young adults to stay with their parents a little longer, as long as they use that time wisely.\n\nMy main reason is financial. In many Canadian cities, rent for even a small apartment can take half of a young person’s income. By living at home for a few extra years, someone could save tens of thousands of dollars for a down payment, pay off student loans, or build an emergency fund. That gives them a much stronger start than struggling month to month in an expensive apartment.\n\nSecond, I don’t think living at home has to mean being dependent. Young adults can still contribute by paying some rent, buying groceries or helping care for younger siblings or ageing parents. In many cultures, multigenerational living is normal and even brings families closer together.\n\nThat said, there are real benefits to moving out, like learning to manage a budget, cook and make independent decisions. So I think the key is to set a clear goal and a timeline. If staying at home is simply a way to avoid responsibility, it doesn’t help. But if it’s part of a plan, it’s a smart choice."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "An unusual rental home: a small pale-blue house with a dark-red roof built high up in the branches of an enormous tree, far above the ground. A long ladder leads from the grass up to the house’s front door. A FOR RENT sign stands at the bottom of the tree. A woman in a purple shirt is pointing up at the house, and a man in an orange shirt is holding a box, as if ready to move in. A brown dog sits beside them looking up. There are clouds and the sun in the sky, and a bush and flowers on the grass.",
+    "items": [
+     [
+      "sun",
+      585,
+      60
+     ],
+     [
+      "cloud",
+      80,
+      60,
+      1
+     ],
+     [
+      "cloud",
+      420,
+      40,
+      0.8
+     ],
+     [
+      "big",
+      "tree",
+      320,
+      385,
+      2.4
+     ],
+     [
+      "big",
+      "house",
+      320,
+      190,
+      0.55,
+      "#aed6f1",
+      "#922b21"
+     ],
+     [
+      "ladder",
+      345,
+      385,
+      190
+     ],
+     [
+      "sign",
+      230,
+      385,
+      "FOR RENT",
+      "#fff"
+     ],
+     [
+      "person",
+      470,
+      380,
+      {
+       "shirt": "#8e44ad",
+       "pose": "point",
+       "hairStyle": "long",
+       "hair": "#1c1c1c",
+       "flip": true
+      }
+     ],
+     [
+      "person",
+      520,
+      382,
+      {
+       "shirt": "#e67e22",
+       "hold": "box"
+      }
+     ],
+     [
+      "dog",
+      430,
+      388,
+      "#a0522d",
+      true
+     ],
+     [
+      "bush",
+      80,
+      330,
+      1
+     ],
+     [
+      "flowers",
+      560,
+      392,
+      5
+     ]
+    ]
+   },
+   "prompt": "Your friend is thinking about renting this home for a year. Call your friend and describe the home. Then explain whether you think it would be a good choice. Your friend cannot see the picture.",
+   "model": "Hi, it’s me. I just saw the listing you sent me, and I have to describe it, because I’m not sure you’ve really thought this through. So the home is a little pale-blue house with a dark-red roof, and it’s built way up in the branches of an absolutely enormous tree, maybe three storeys above the ground. The only way up is a long wooden ladder that goes from the grass straight to the front door. There’s a “FOR RENT” sign at the bottom, and in the photo, a couple and their dog are standing there looking up at it.\n\nNow, honestly, for a weekend, I’d love it. It looks peaceful and magical. But for a whole year, I don’t think it’s a good choice. Think about winter. Climbing an icy ladder every morning with your laptop bag sounds dangerous. And how would you get groceries up there, or furniture? Your dog definitely can’t climb a ladder.\n\nI’d also want to know whether it has proper plumbing, heating and insulation, and whether a tree can really support a house safely in a storm.\n\nIf you love the idea, maybe rent it for a weekend first and see how you feel. But for a year, I’d keep looking."
+  }
+ }
+}

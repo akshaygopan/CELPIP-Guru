@@ -1,0 +1,1862 @@
+{
+ "id": "t34",
+ "title": "Test 34",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two staff members at a community centre are preparing for a heat warning.",
+    "sp": {
+     "A": {
+      "name": "Beatriz",
+      "g": "f",
+      "acc": "en-US",
+      "rate": 1.02
+     },
+     "B": {
+      "name": "Rupert",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Rupert, I just got off the phone with the heating and cooling contractor. It’s the compressor on the main unit. He can order the part, but it won’t be here for ten days."
+       ],
+       [
+        "B",
+        "Ten days? The heat warning starts on Thursday. Didn’t the city just name us the official cooling centre for the east end?"
+       ],
+       [
+        "A",
+        "They did. Thursday to Saturday, highs of thirty-six, humidex in the mid-forties, and it won’t drop below twenty-five at night. That’s exactly the kind of stretch where older people living alone get into serious trouble, especially in those top-floor apartments on Kingsway with no air conditioning."
+       ],
+       [
+        "B",
+        "How warm is it in the gym right now?"
+       ],
+       [
+        "A",
+        "Twenty-nine, and it’s only ten in the morning. By Thursday afternoon it’ll be hotter in there than it is outside. We can’t bring people into that."
+       ],
+       [
+        "B",
+        "Okay. So do we just tell the city we can’t do it this time? They’d understand. It’s not our fault the compressor died."
+       ],
+       [
+        "A",
+        "I thought about that. But the west-end centre is forty minutes away by bus, and most of the people we’re worried about don’t drive. If we pull out, a lot of them just won’t go anywhere. They’ll sit at home with the curtains closed and hope for the best."
+       ],
+       [
+        "B",
+        "Which is exactly what we’re trying to prevent."
+       ],
+       [
+        "A",
+        "Right. So we keep the cooling centre going. We just might not be able to run it from this building. I’ve got a few ideas, but none of them are great."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why can the community centre not be used as planned?",
+        "o": [
+         "The city has moved its cooling centre to the west end.",
+         "The gym is already booked for another event that week.",
+         "The whole building will be closed for ten days of repairs.",
+         "Its cooling system has broken down and cannot be fixed in time."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "It’s the compressor on the main unit",
+        "x": "The compressor failed and the part takes ten days, so there will be no cooling during the heat warning. The building is not closed; it is just too hot to use."
+       },
+       {
+        "q": "Who is Beatriz most worried about?",
+        "o": [
+         "Families with young children in the east end",
+         "Older people on their own in hot apartments",
+         "Staff who will be working long shifts in the heat",
+         "Commuters taking the long bus ride to the west end"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "older people living alone get into serious trouble",
+        "x": "She names older people living alone in top-floor apartments without air conditioning. The bus is mentioned only as a reason they would not travel."
+       },
+       {
+        "q": "Why does Beatriz not want to withdraw from the cooling program?",
+        "o": [
+         "The city would be unlikely to understand the situation.",
+         "The west-end centre has already reached full capacity.",
+         "Many vulnerable people would not travel to the other site.",
+         "The contractor might be able to repair the unit sooner."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "If we pull out, a lot of them just won’t go anywhere",
+        "x": "People without cars would not make a forty-minute bus trip and would stay home. Rupert, not Beatriz, says the city would understand."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "What about renting portable air conditioners? Those big ones on wheels they use at outdoor events."
+       ],
+       [
+        "A",
+        "I called three rental companies. With the heat warning, they’ve been cleaned out since yesterday. The only place with anything left has two units, and each one cools maybe a classroom-sized space. The gym holds a hundred and fifty people."
+       ],
+       [
+        "B",
+        "We could use one of the smaller rooms, then."
+       ],
+       [
+        "A",
+        "The multipurpose room fits thirty. On the last cooling day we had over ninety people. I don’t want to be turning people away at the door in this heat."
+       ],
+       [
+        "B",
+        "Fair enough. The library’s just around the corner, and it has air conditioning."
+       ],
+       [
+        "A",
+        "It does, and the branch manager was very sympathetic. But they close at five on Saturday, and their staff can’t work extra hours on short notice because of their scheduling agreement. The worst of the heat is late afternoon and evening, so that doesn’t really work."
+       ],
+       [
+        "B",
+        "Hmm. What about Eastgate Secondary? It’s closed for the summer, but I know the cafeteria has central air. My son did summer school there last year."
+       ],
+       [
+        "A",
+        "Now that’s interesting. It’s only six blocks from here, and the cafeteria is huge. Do you know anyone there?"
+       ],
+       [
+        "B",
+        "The principal, Mr. Adeyemi, coaches my son’s basketball team. I could call him right now."
+       ],
+       [
+        "A",
+        "Do it. If he says yes, they’ll need a custodian on site, and that’s overtime, but the city’s emergency budget should cover that."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What problem does Beatriz mention with portable air conditioners?",
+        "o": [
+         "Too few are available to cool a big enough space.",
+         "They are too noisy to use in a crowded gym all day.",
+         "They cost more than the city’s budget would allow.",
+         "They can only be rented for outdoor events in summer."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "The only place with anything left has two units, and each one cools maybe a classroom-sized space",
+        "x": "Only two units remain, each cooling a classroom-sized area, far too little for ninety people. Outdoor events are where such units are usually seen, not a rental condition."
+       },
+       {
+        "q": "Why is the library unsuitable?",
+        "o": [
+         "Its manager does not want large groups in the building.",
+         "It is too far from the community centre for most people.",
+         "It closes before the hottest part of the day is over.",
+         "Its air conditioning is not strong enough for a crowd."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "The worst of the heat is late afternoon and evening, so that doesn’t really work",
+        "x": "The library closes at five on Saturday, but the worst heat is in the late afternoon and evening. The manager was sympathetic, and it is just around the corner."
+       },
+       {
+        "q": "How does Beatriz react to the idea of using the high school?",
+        "o": [
+         "She worries that it is too far for seniors to walk.",
+         "She doubts the principal would agree on short notice.",
+         "She thinks the overtime cost would be a serious obstacle.",
+         "She sees promise in it and wants him to act right away."
+        ],
+        "a": 3,
+        "t": "attitude",
+        "ev": "Do it.",
+        "x": "“Now that’s interesting” and “Do it” show she likes the idea and wants him to call immediately. She expects the city to cover the overtime, so cost is not an obstacle."
+       }
+      ]
+     },
+     {
+      "lines": [
+       [
+        "B",
+        "Good news. Mr. Adeyemi says yes, Thursday to Saturday, nine in the morning to nine at night. He’ll arrange the custodian himself. The only thing he asked is that we keep people out of the rest of the building."
+       ],
+       [
+        "A",
+        "Perfect. We can rope off the hallways. Now the big question is getting people there. Six blocks with a humidex of forty-plus is too far for a lot of our seniors."
+       ],
+       [
+        "B",
+        "Could we use our van to run a shuttle from here every half hour?"
+       ],
+       [
+        "A",
+        "Yes, but the van only seats eight, and Gerald is the only one with the right licence. I’ll ask the city about borrowing one of the accessible transit buses as well."
+       ],
+       [
+        "B",
+        "And how do we let people know? I could post it on our social media pages this afternoon."
+       ],
+       [
+        "A",
+        "We should, for the families. But honestly, the people we’re most worried about aren’t on social media. I’d rather we phone everyone on the wellness-check list, all hundred and forty of them, and put a big sign on our front doors. Can you split the list with the two summer students?"
+       ],
+       [
+        "B",
+        "Sure. We’ll start calling after lunch."
+       ],
+       [
+        "A",
+        "Great. And let’s bring the water coolers and the folding cots from here. The school won’t have those, and some people will want to lie down for a while. I’ll also ask the paramedics whether they can drop by once each afternoon."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What condition did the principal set?",
+        "o": [
+         "The centre must pay for the custodian’s overtime.",
+         "Visitors must not go into other parts of the school.",
+         "The cooling centre must close by six each evening.",
+         "Only seniors may use the school’s cafeteria."
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "keep people out of the rest of the building",
+        "x": "His only request is that people stay out of the rest of the school. He arranges the custodian himself, and the hours run until nine at night."
+       },
+       {
+        "q": "What does Beatriz think is the best way to reach the most vulnerable people?",
+        "o": [
+         "Contacting each of them by telephone",
+         "Posting updates on social media pages",
+         "Leaving flyers in apartments on Kingsway",
+         "Asking the library to put up notices"
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I’d rather we phone everyone on the wellness-check list",
+        "x": "She says vulnerable seniors are not on social media, so she wants them phoned. Social media is only for families."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A hiker is speaking with a park ranger at a trailhead.",
+    "sp": {
+     "A": {
+      "name": "Kendra",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Tomasz",
+      "g": "m",
+      "acc": "en-GB",
+      "rate": 0.98
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "B",
+        "Morning. We were hoping to do the Cascade Loop to the falls today. Is that the trail behind the sign?"
+       ],
+       [
+        "A",
+        "It is, but I’m afraid the loop isn’t open all the way round right now. The storm last week washed out the footbridge over Birch Creek, about four kilometres in. So you can’t complete the loop the usual way."
+       ],
+       [
+        "B",
+        "Ah. The kids were really looking forward to the falls. Is there a way around?"
+       ],
+       [
+        "A",
+        "There’s a detour along the old logging road that rejoins the trail on the other side. But it adds about four kilometres, and it’s steep and pretty rough. With the full loop, you’d be looking at sixteen kilometres. How old are your children?"
+       ],
+       [
+        "B",
+        "Seven and ten. They’re decent hikers, but sixteen kilometres, I’m not sure."
+       ],
+       [
+        "A",
+        "Honestly, I wouldn’t. Here’s what I’d suggest instead. Take the loop clockwise to the falls lookout. It’s just under five kilometres from here, and you actually get the best view of the falls from the lookout, better than you ever got from the bridge. Then come back the same way. About ten kilometres in total."
+       ],
+       [
+        "B",
+        "That sounds much more manageable. Can we cross the creek at all, though? My son loves rock-hopping."
+       ],
+       [
+        "A",
+        "Please don’t. The water is still high and fast from the storm, and the rocks are slippery. We had to help a hiker out last weekend who tried it. Also, the area around the old bridge is officially closed, and there’s a fine if you go past the barrier."
+       ],
+       [
+        "B",
+        "Understood. Anything else we should know?"
+       ],
+       [
+        "A",
+        "There’s a thunderstorm forecast for mid-afternoon, around three. I’d aim to be back at the car by then. If you hear thunder, get off the ridge section right away."
+       ],
+       [
+        "B",
+        "We’d better get moving, then. Is there water on the trail?"
+       ],
+       [
+        "A",
+        "No reliable water, so make sure you’ve each got at least a litre. And there’s an outhouse at the lookout, which the kids will probably appreciate."
+       ],
+       [
+        "B",
+        "Thanks, that’s really helpful. Come on, you two, boots on."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why can the family not complete the loop the usual way?",
+        "o": [
+         "The trail has been closed because of a recent fire.",
+         "A section of the loop is being rebuilt as a logging road.",
+         "A crossing on the trail was destroyed by bad weather.",
+         "The ranger thinks the loop is too long for small children."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "The storm last week washed out the footbridge over Birch Creek",
+        "x": "The storm washed out the footbridge, so the loop cannot be completed. The logging road is the detour route, not a construction project."
+       },
+       {
+        "q": "How does the ranger feel about the family taking the detour?",
+        "o": [
+         "She thinks it would be too much for the children.",
+         "She recommends it as the best way to see the falls.",
+         "She says it is closed because of the storm damage.",
+         "She thinks it is fine if they leave very early."
+        ],
+        "a": 0,
+        "t": "attitude",
+        "ev": "Honestly, I wouldn’t",
+        "x": "After hearing the children’s ages, she advises against sixteen steep kilometres. She says the best view is from the lookout, not via the detour."
+       },
+       {
+        "q": "What does the ranger say about the falls lookout?",
+        "o": [
+         "It can be reached only by taking the logging road.",
+         "It is about ten kilometres from the trailhead.",
+         "It is closed until the bridge has been replaced.",
+         "It gives a better view than the old crossing did."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "you actually get the best view of the falls from the lookout, better than you ever got from the bridge",
+        "x": "The lookout offers a better view than the bridge. It is just under five kilometres away; ten kilometres is the round trip."
+       },
+       {
+        "q": "Why does the ranger tell them not to cross the creek?",
+        "o": [
+         "The rocks have been removed since the storm.",
+         "It is dangerous, and the area is officially closed.",
+         "Her staff are busy helping another hiker there.",
+         "The water is too cold for children to wade in."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "the area around the old bridge is officially closed, and there’s a fine if you go past the barrier",
+        "x": "The water is high and fast, the rocks are slippery, and the area is closed with a fine. The rescued hiker was last weekend, not now."
+       },
+       {
+        "q": "By what time should the family plan to be back at their car?",
+        "o": [
+         "Before the outhouse at the lookout closes",
+         "By the end of the afternoon",
+         "Before the middle of the afternoon",
+         "As soon as they hear thunder"
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "There’s a thunderstorm forecast for mid-afternoon, around three. I’d aim to be back at the car by then.",
+        "x": "She advises being back by about three, before the storm. Hearing thunder is a signal to leave the ridge, not the planned return time."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A homeowner calls a co-operative that organizes group purchases of solar panels.",
+    "sp": {
+     "A": {
+      "name": "Rhiannon",
+      "g": "f",
+      "acc": "en-AU",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Mehmet",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.99
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Sunshare Co-op, Rhiannon speaking."
+       ],
+       [
+        "B",
+        "Hi, I’m calling about the solar bulk-buy program. I saw your booth at the farmers’ market, and I’m trying to figure out whether it makes sense for my house."
+       ],
+       [
+        "A",
+        "Happy to help. The idea is simple: we group about a hundred homeowners together, and because the installer gets such a large volume of work, everyone gets a lower price. This year it’s two dollars seventy per watt, installed. On the open market, people are typically paying around three twenty."
+       ],
+       [
+        "B",
+        "So for a typical system, how much are we talking?"
+       ],
+       [
+        "A",
+        "Most houses in the program are getting around seven kilowatts, which is seven thousand watts. So at our price, about eighteen thousand nine hundred dollars, before any incentives."
+       ],
+       [
+        "B",
+        "That’s still a lot of money."
+       ],
+       [
+        "A",
+        "It is. The credit union we partner with offers a ten-year loan, and for a lot of members the monthly payment is close to what they save on their hydro bill. But I always say, don’t do it unless the numbers work for your particular house."
+       ],
+       [
+        "B",
+        "How do I find out if they do?"
+       ],
+       [
+        "A",
+        "The first step is free. You enter your address on our website, and we do a remote assessment using satellite images. That tells us roughly how big a system your roof can hold and how much shade you get. If that looks promising, the installer does a site visit. That costs a hundred and fifty dollars, but it’s credited back to you if you go ahead with the installation."
+       ],
+       [
+        "B",
+        "My roof is about fifteen years old. Is that a problem?"
+       ],
+       [
+        "A",
+        "It might be. The panels last twenty-five years or more, and removing them later to replace the roof costs a few thousand dollars. The installer will look at it during the site visit, but if your shingles have less than ten years left, we generally recommend replacing the roof first."
+       ],
+       [
+        "B",
+        "Okay. And what about permits?"
+       ],
+       [
+        "A",
+        "The installer handles the building permit and the connection agreement with the utility, so you don’t have to deal with any of that."
+       ],
+       [
+        "B",
+        "And once it’s running, what happens on days when I produce more than I use?"
+       ],
+       [
+        "A",
+        "The extra goes back into the grid, and you get credits on your bill that you can use in winter, when you’re producing less. You don’t get cash for it, though, only credits."
+       ],
+       [
+        "B",
+        "Got it. Is there a deadline?"
+       ],
+       [
+        "A",
+        "To be part of this year’s group, you have to sign up by October thirty-first. Installations happen between March and June. If you miss it, the next group starts in the fall."
+       ],
+       [
+        "B",
+        "That doesn’t leave me much time. I’ll do the online assessment tonight."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why are prices lower through the co-op?",
+        "o": [
+         "The provincial government pays part of each installation.",
+         "The installer gives a discount in return for a large number of jobs.",
+         "Members install some of the equipment themselves.",
+         "The panels are bought directly from the manufacturer."
+        ],
+        "a": 1,
+        "t": "paraphrase",
+        "ev": "because the installer gets such a large volume of work, everyone gets a lower price",
+        "x": "Grouping a hundred homeowners gives the installer lots of work, so prices drop. Incentives are mentioned, but they are separate from the co-op price."
+       },
+       {
+        "q": "How much would a typical member save compared with the usual market price?",
+        "o": [
+         "$500",
+         "$18,900",
+         "$22,400",
+         "$3,500"
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "On the open market, people are typically paying around three twenty",
+        "x": "Seven thousand watts × 50 cents ($3.20 − $2.70) = $3,500. $22,400 is the open-market price, and $18,900 is the co-op price."
+       },
+       {
+        "q": "What does Rhiannon suggest about solar panels?",
+        "o": [
+         "They are not the right choice for every home.",
+         "They always pay for themselves within ten years.",
+         "They should be installed before a roof is replaced.",
+         "They are cheaper than ever because of new loans."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "don’t do it unless the numbers work for your particular house",
+        "x": "She warns against installing unless the numbers suit the specific house. She recommends replacing an old roof before installing, not after."
+       },
+       {
+        "q": "What is true about the site visit fee?",
+        "o": [
+         "It is refunded as a credit if the homeowner proceeds.",
+         "It is paid directly to the credit union.",
+         "It is waived if the online assessment looks promising.",
+         "It is charged only to homes with older roofs."
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "it’s credited back to you if you go ahead with the installation",
+        "x": "The $150 fee is credited back if the homeowner goes ahead. A promising online assessment leads to the visit but does not make it free."
+       },
+       {
+        "q": "What does Rhiannon say about Mehmet’s roof?",
+        "o": [
+         "It is too old for panels to be installed safely.",
+         "It may need replacing before any panels go on.",
+         "It will be replaced free of charge by the installer.",
+         "It will be fine because the panels are light."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "if your shingles have less than ten years left, we generally recommend replacing the roof first",
+        "x": "At fifteen years old, the roof may have under ten years left, so replacing it first could be wise. She says “it might be” a problem, not that it is definitely too old."
+       },
+       {
+        "q": "What happens to the extra electricity a home produces?",
+        "o": [
+         "The utility pays the homeowner in cash each month.",
+         "It is stored in batteries for use at night.",
+         "It is shared with other members of the co-op.",
+         "It earns credits that can be used at a later time."
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "you get credits on your bill that you can use in winter",
+        "x": "Extra power earns bill credits for later use, such as in winter. She clearly says there is no cash payment."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a news report about new rules for boaters at a lake.",
+    "sp": {
+     "A": {
+      "name": "Delia",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.03
+     },
+     "B": {
+      "name": "Rafael Ortiz",
+      "g": "m",
+      "acc": "en-US",
+      "rate": 0.99
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Starting this long weekend, anyone launching a boat at Pinecrest Lake will first have to pass through a mandatory inspection station. The move comes after invasive zebra mussels were confirmed last fall in Clearwater Reservoir, less than an hour’s drive away. Zebra mussels are small, striped shellfish no bigger than a fingernail, but they reproduce rapidly, clog water intake pipes, cover beaches with sharp shells and can upset an entire lake’s food web. Once established, they are virtually impossible to remove. Inspection stations will operate at the two public launches from six a.m. to ten p.m. Trained staff will check hulls, motors, trailers and anything that holds water, such as live wells and bilges. Boats that have been in an infested lake within the past thirty days will be decontaminated with hot water on site, at no cost to the owner. Inspections typically take ten to fifteen minutes, but officials warn that waits could be considerably longer on busy weekends. Aquatic biologist Rafael Ortiz says the rules apply to more than just motorboats."
+       ],
+       [
+        "B",
+        "People often think a canoe or a paddleboard is harmless, but microscopic mussel larvae can survive in just a few drops of water in the bottom of a kayak. So the message for everyone is clean, drain, dry. Clean off any plants or mud, drain all the water, and let everything dry completely before you move to a different lake."
+       ],
+       [
+        "A",
+        "Non-motorized boats launched from private docks are exempt from the inspection, but must still follow the clean, drain, dry rules. Anyone who drives past a station without stopping faces a fine of up to five thousand dollars. Some cottage owners have complained that the stations will create long lineups at the launches, but Ortiz says the cost of prevention is tiny compared with the alternative."
+       ],
+       [
+        "B",
+        "In other parts of North America, utilities and towns are spending millions of dollars every year just to keep their pipes clear. A fifteen-minute wait is a bargain."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "Why are the inspection stations being introduced now?",
+        "o": [
+         "The mussels were found in a nearby body of water.",
+         "The mussels have already started clogging the lake’s pipes.",
+         "Cottage owners asked for stricter rules at the launches.",
+         "Pinecrest Lake had a record number of boaters last year."
+        ],
+        "a": 0,
+        "t": "paraphrase",
+        "ev": "invasive zebra mussels were confirmed last fall in Clearwater Reservoir, less than an hour’s drive away",
+        "x": "Mussels were found in a reservoir less than an hour away, so the risk has grown. Clogged pipes describe what mussels can do, not what has happened at Pinecrest."
+       },
+       {
+        "q": "What will happen to a boat that was recently in an infested lake?",
+        "o": [
+         "It will be banned from Pinecrest Lake for thirty days.",
+         "Its owner will be fined up to five thousand dollars.",
+         "It must be dried at home before it can be inspected.",
+         "It will be cleaned at the station without charge."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "will be decontaminated with hot water on site, at no cost to the owner",
+        "x": "Such boats are decontaminated on site for free. The thirty days defines “recently”; it is not a ban, and the fine is for skipping a station."
+       },
+       {
+        "q": "Why does Ortiz mention canoes and paddleboards?",
+        "o": [
+         "To suggest they should be banned from the lake entirely",
+         "To explain why they are exempt from the inspections",
+         "To compare their cost with the price of motorboats",
+         "To show that small boats can also carry the mussels"
+        ],
+        "a": 3,
+        "t": "purpose",
+        "ev": "microscopic mussel larvae can survive in just a few drops of water in the bottom of a kayak",
+        "x": "He stresses that even small boats can carry larvae in a few drops of water. Only boats from private docks are exempt, and he does not suggest a ban."
+       },
+       {
+        "q": "Who does not need to stop at an inspection station?",
+        "o": [
+         "A motorboat owner launching after ten p.m.",
+         "A kayaker putting in from a private dock",
+         "A canoeist who has dried the canoe completely",
+         "A boater who used the lake the previous week"
+        ],
+        "a": 1,
+        "t": "detail",
+        "ev": "Non-motorized boats launched from private docks are exempt from the inspection",
+        "x": "Non-motorized boats from private docks are exempt but must still clean, drain and dry. Drying a canoe is required, not a reason to skip inspection."
+       },
+       {
+        "q": "How does Ortiz respond to complaints about lineups?",
+        "o": [
+         "He admits the waits will be a serious problem.",
+         "He suggests boaters use private docks instead.",
+         "He believes the delay is a small price to pay.",
+         "He promises that inspections will be faster soon."
+        ],
+        "a": 2,
+        "t": "attitude",
+        "ev": "A fifteen-minute wait is a bargain",
+        "x": "Compared with the millions spent elsewhere on clogged pipes, a short wait is worthwhile, in his view. He does not promise faster inspections."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three township officials are discussing a beaver dam that keeps flooding a rural road.",
+    "sp": {
+     "A": {
+      "name": "Delphine",
+      "g": "f",
+      "acc": "en-CA",
+      "rate": 1.0
+     },
+     "B": {
+      "name": "Warrick",
+      "g": "m",
+      "acc": "en-AU",
+      "rate": 1.04
+     },
+     "C": {
+      "name": "Sunita",
+      "g": "f",
+      "acc": "en-IN",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "Okay, let’s deal with Concession Road Nine. For anyone who hasn’t driven out there, beavers have built a dam just upstream of the culvert near the Dufresne farm, and for the third time since April, water has come over the road. Last Tuesday it was about twenty centimetres deep, and we had to close the road for two days. The school bus had to take a twenty-minute detour."
+       ],
+       [
+        "B",
+        "And I’ve had four phone calls from residents this week alone. Frankly, the simplest thing is to remove the dam and get a trapper to take out the beavers. That’s what we’ve always done."
+       ],
+       [
+        "C",
+        "We could, Warrick, but we’ve done that twice at this exact spot in the past six years, and the beavers are back every time. It’s prime habitat. As long as there’s a culvert there making a nice narrow gap, new beavers move in within a season. And each time we pay the trapper and send a crew out with an excavator, it’s about four thousand dollars."
+       ],
+       [
+        "B",
+        "Four thousand is still cheaper than most alternatives."
+       ],
+       [
+        "C",
+        "Once, maybe. But not four thousand every couple of years, forever."
+       ],
+       [
+        "A",
+        "The engineering solution would be to raise the road and replace the culvert with a much larger box culvert, which beavers find far harder to block. But I had a rough estimate done, and we’re looking at around a hundred and eighty thousand dollars."
+       ],
+       [
+        "B",
+        "We don’t have that. Not this year, and probably not next year either, unless we postpone the bridge repairs on Line Six, which I’m not willing to do."
+       ],
+       [
+        "C",
+        "There’s a third option that’s working in other townships. It’s called a flow device, or a pond leveller. Basically, you run a large pipe through the dam, with a protected intake upstream, so the beavers can’t hear or feel the water flowing. The pond stays at a set level, below the road, and the beavers keep their dam and leave the culvert alone."
+       ],
+       [
+        "B",
+        "That sounds a little too good to be true."
+       ],
+       [
+        "C",
+        "It’s not perfect. It needs to be checked a few times a year to clear debris, and it doesn’t work everywhere. But one conservation authority studied over a hundred installations, and most of them were still controlling the water five years later. Materials and installation would be about three thousand dollars."
+       ],
+       [
+        "A",
+        "From a maintenance point of view, I could live with a few inspections a year. My crew is out on that road anyway for grading."
+       ],
+       [
+        "B",
+        "And if it fails? We’re back to closed roads and angry phone calls."
+       ],
+       [
+        "C",
+        "Then we’d still have the option of trapping. We wouldn’t have lost anything except three thousand dollars, which is less than one trapping visit."
+       ],
+       [
+        "B",
+        "Hmm. I suppose when you put it that way. But I want something on record. If the road floods again after the device is in, we go straight to removing the dam, no further studies."
+       ],
+       [
+        "A",
+        "That seems fair. And I’d suggest we start setting aside money for the culvert replacement anyway, say forty thousand a year in the capital plan, because that culvert is near the end of its life regardless."
+       ],
+       [
+        "C",
+        "I agree. I can contact the company that installed the devices in the next township and get them out here before the end of the month. Water levels are lowest in late summer, so it’s the best time to install."
+       ],
+       [
+        "B",
+        "Alright. Let’s get it done. And Delphine, can your office let the residents on Concession Nine know what we’re doing? I’d rather they hear it from us than from the coffee shop."
+       ],
+       [
+        "A",
+        "I’ll send a letter this week."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What problem has the flooding caused?",
+        "o": [
+         "The Dufresne farm’s fields have been badly damaged.",
+         "The culvert under the road has collapsed completely.",
+         "The road has had to be closed, forcing longer routes.",
+         "Residents have been unable to leave their homes for days."
+        ],
+        "a": 2,
+        "t": "paraphrase",
+        "ev": "we had to close the road for two days. The school bus had to take a twenty-minute detour",
+        "x": "The road was closed and the school bus had to detour. The culvert is old but has not collapsed, and the farm is only a landmark."
+       },
+       {
+        "q": "Why is Sunita against trapping the beavers again?",
+        "o": [
+         "New beavers keep arriving, so the cost keeps repeating.",
+         "Trapping beavers is no longer permitted in the township.",
+         "The excavator would damage the wetland habitat there.",
+         "Residents have complained about the trapper’s methods."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "But not four thousand every couple of years, forever",
+        "x": "New beavers move in within a season, so trapping becomes a recurring $4,000 cost. The phone calls from residents are about flooding, not trapping."
+       },
+       {
+        "q": "Why does Warrick reject the culvert replacement for now?",
+        "o": [
+         "He thinks a larger culvert would still be blocked.",
+         "He believes the engineer’s estimate is far too high.",
+         "He wants to wait for a provincial grant to pay for it.",
+         "It would mean delaying another important project."
+        ],
+        "a": 3,
+        "t": "inference",
+        "ev": "unless we postpone the bridge repairs on Line Six, which I’m not willing to do",
+        "x": "The money could come only by delaying the Line Six bridge repairs, which he refuses to do. He never questions the estimate or mentions a grant."
+       },
+       {
+        "q": "How does Warrick first react to the flow device?",
+        "o": [
+         "He thinks it would cost more than trapping.",
+         "He is doubtful that it works as well as claimed.",
+         "He worries it would harm the beavers.",
+         "He believes the crew could not maintain it."
+        ],
+        "a": 1,
+        "t": "attitude",
+        "ev": "That sounds a little too good to be true",
+        "x": "Calling it “too good to be true” shows skepticism about its effectiveness. Maintenance is raised by Delphine, who says her crew could handle it."
+       },
+       {
+        "q": "What does Delphine say about maintaining the device?",
+        "o": [
+         "It would require hiring an outside specialist.",
+         "It would need to be inspected every week.",
+         "Her crew could check it while doing other work there.",
+         "It could only be done when water levels are low."
+        ],
+        "a": 2,
+        "t": "inference",
+        "ev": "My crew is out on that road anyway for grading",
+        "x": "Her crew already visits the road for grading, so inspections would fit easily. Low water matters for installation, not maintenance."
+       },
+       {
+        "q": "What persuades Warrick to accept the device?",
+        "o": [
+         "Trying it costs less than a single trapping visit.",
+         "The device has never failed in other townships.",
+         "Residents have asked for a non-lethal solution.",
+         "The province will pay for the installation."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "which is less than one trapping visit",
+        "x": "Sunita points out that even if it fails, they lose less than one $4,000 trapping visit. She admits it does not work everywhere, so “never failed” is wrong."
+       },
+       {
+        "q": "What condition does Warrick insist on?",
+        "o": [
+         "A study must be done before the device is installed.",
+         "Money for the culvert must be set aside each year.",
+         "Residents must be consulted before any work begins.",
+         "The dam will be removed at once if flooding happens again."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "If the road floods again after the device is in, we go straight to removing the dam, no further studies",
+        "x": "He wants the dam removed immediately if the road floods again. Setting aside culvert money is Delphine’s suggestion, not his condition."
+       },
+       {
+        "q": "Why does Sunita want the device installed soon?",
+        "o": [
+         "The installing company is leaving the area next month.",
+         "Conditions for installing it are best at this time of year.",
+         "The beavers will build a second dam in the fall.",
+         "The township budget for this year ends in September."
+        ],
+        "a": 1,
+        "t": "inference",
+        "ev": "Water levels are lowest in late summer, so it’s the best time to install",
+        "x": "Low late-summer water makes installation easiest. The company works in the next township; nothing says it is leaving."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "A reporter presents different views on whether electric mountain bikes should be allowed on regional trails.",
+    "sp": {
+     "A": {
+      "name": "Graham",
+      "g": "m",
+      "acc": "en-CA",
+      "rate": 1.01
+     },
+     "B": {
+      "name": "Noor",
+      "g": "f",
+      "acc": "en-GB",
+      "rate": 0.97
+     }
+    },
+    "sections": [
+     {
+      "lines": [
+       [
+        "A",
+        "On a sunny Saturday in the Ravenscliff Hills, the trail parking lot is full by nine. Increasingly, many of the bikes coming off the racks have a small battery tucked into the frame. Electric mountain bikes use a motor that assists the rider’s pedalling, making steep climbs far easier. They’re among the fastest-growing segments of the cycling market, and they’ve sparked a heated debate about who belongs on the region’s trails. At the moment, e-bikes are banned on the Ravenscliff trail network, but the regional parks board is considering allowing them. Noor, who is sixty-seven, says an e-bike gave her back a sport she thought she had lost."
+       ],
+       [
+        "B",
+        "After my knee replacement, I simply couldn’t manage the hills anymore. With the e-bike, I’m not doing anything a fit thirty-year-old can’t do on an ordinary bike. I still pedal; the motor just helps. Right now, I have to drive an hour and a half to a park where they’re allowed. I’d love to ride close to home again with my old cycling friends."
+       ],
+       [
+        "A",
+        "Hiking groups have been more cautious. The president of a local hiking club told me her members’ biggest concern is speed, especially on narrow, winding trails with poor sightlines. She acknowledges that conventional bikes can be fast too, but says e-bikes are also fast going uphill, which is where hikers least expect to meet them. Trail builders raise a different issue. A volunteer who has maintained trails in the Ravenscliff Hills for twenty years says heavier bikes with more power can dig ruts into soft trails, particularly in spring, and that more riders reaching remote areas will mean more wear overall. He doesn’t oppose e-bikes, he says, but wants riders to help pay for maintenance, perhaps through an annual trail pass."
+       ],
+       [
+        "B",
+        "I’d happily pay for a pass. Most e-bike riders I know would. We’re not trying to wreck anything. Honestly, a lot of us are the same people who show up on volunteer days to fix the trails. We just can’t climb the way we used to."
+       ],
+       [
+        "A",
+        "The parks board staff report proposes a compromise: allow only pedal-assist e-bikes, with no throttle and with the motor cutting out at thirty-two kilometres an hour, and only on wider trails that are already open to bicycles. The narrowest hiking-only trails would stay off-limits to all bikes, electric or not. Some e-bike advocates say the speed limit is unnecessary, because riders on technical trails rarely go that fast anyway. Hiking groups, on the other hand, want a one-year trial, with data collected on conflicts between users, before any permanent decision is made. The board will hold a public meeting on the proposal in early December, and written comments will be accepted on its website until the end of that month."
+       ]
+      ],
+      "qs": [
+       {
+        "q": "What does Noor say the e-bike has done for her?",
+        "o": [
+         "Made her faster than younger riders on ordinary bikes",
+         "Allowed her to stop pedalling on difficult climbs",
+         "Helped her recover more quickly from knee surgery",
+         "Let her return to an activity she thought she had lost"
+        ],
+        "a": 3,
+        "t": "paraphrase",
+        "ev": "an e-bike gave her back a sport she thought she had lost",
+        "x": "After knee surgery she could not manage hills, and the e-bike let her ride again. She says she still pedals and is no faster than a fit thirty-year-old."
+       },
+       {
+        "q": "What frustrates Noor about the current rules?",
+        "o": [
+         "She has to travel a long way to ride legally.",
+         "Her friends have stopped cycling with her.",
+         "Trail passes are too expensive for older riders.",
+         "Hikers complain about her whenever she rides."
+        ],
+        "a": 0,
+        "t": "inference",
+        "ev": "I have to drive an hour and a half to a park where they’re allowed",
+        "x": "With e-bikes banned locally, she must drive an hour and a half. She would like to ride with her old friends again, but they have not stopped cycling."
+       },
+       {
+        "q": "What particular concern do hikers have?",
+        "o": [
+         "E-bikes are much heavier than conventional bikes.",
+         "Riders do not pay anything to use the trails.",
+         "They may meet fast riders where they do not expect them.",
+         "E-bikes make too much noise on quiet trails."
+        ],
+        "a": 2,
+        "t": "viewpoint",
+        "ev": "e-bikes are also fast going uphill, which is where hikers least expect to meet them",
+        "x": "Hikers worry about meeting fast e-bikes on uphill sections and blind corners. Weight and payment are the trail builder’s concerns."
+       },
+       {
+        "q": "What does the trail volunteer suggest?",
+        "o": [
+         "E-bikes should be allowed only in the summer months.",
+         "Riders should help cover the cost of looking after trails.",
+         "E-bikes should stay banned from remote parts of the network.",
+         "Volunteers should build separate trails for e-bikes."
+        ],
+        "a": 1,
+        "t": "viewpoint",
+        "ev": "wants riders to help pay for maintenance, perhaps through an annual trail pass",
+        "x": "He wants e-bike riders to contribute to maintenance through a pass. He mentions spring damage but does not propose a seasonal limit."
+       },
+       {
+        "q": "Under the parks board proposal, which of the following would be true?",
+        "o": [
+         "E-bikes with throttles could use the widest trails.",
+         "All bikes would be allowed on hiking-only trails.",
+         "E-bikes would be limited to thirty kilometres an hour.",
+         "E-bikes could use only wider trails already open to bikes."
+        ],
+        "a": 3,
+        "t": "detail",
+        "ev": "only on wider trails that are already open to bicycles",
+        "x": "Pedal-assist e-bikes would be allowed only on wider trails already open to bikes. Throttles are excluded, and the motor cuts out at thirty-two, not thirty."
+       },
+       {
+        "q": "What do hiking groups want before a final decision?",
+        "o": [
+         "Evidence gathered during a temporary trial period",
+         "A lower speed limit for all bicycles on the trails",
+         "A ban on e-bikes on weekends and holidays",
+         "A second public meeting in the spring"
+        ],
+        "a": 0,
+        "t": "detail",
+        "ev": "want a one-year trial, with data collected on conflicts between users",
+        "x": "They want a one-year trial with data on conflicts before deciding permanently. Only one public meeting, in December, is mentioned."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Sigrid Lund | To: Tavish Monroe | Subject: First aid, a sprained ankle and the coastal trail",
+   "text": "Hi Tavish,\n\nYou’ll never guess how I spent last Sunday afternoon: splinting Mireya’s ankle halfway up the Gull Point trail.\n\nI should start at the beginning. In September I finally took the wilderness first aid course I’d been talking about for years. It was two very full days, partly in a classroom but mostly outside, practising on each other in the rain. At the time, some of the scenarios felt a bit dramatic. I remember thinking I would never need to know how to build a stretcher out of two jackets and a pair of hiking poles.\n\nThen, about six kilometres in, Mireya stepped on a loose rock and went down hard. Her ankle swelled up immediately, and she couldn’t put any weight on it. A year ago, I think I would have panicked. Instead, I remembered the first rule from the course: stop, look after yourself and the group, and only then deal with the injury. We got her off the trail and into some shade, I checked her foot for circulation, and I padded and splinted the ankle with a rolled-up sleeping mat and some tape. Because there was no cell signal, we used my satellite messenger to contact the park office. Two rangers arrived about ninety minutes later with a wheeled stretcher, and the X-ray later showed a bad sprain rather than a break.\n\nWhat struck me most was how calm everyone stayed, including Mireya. The ranger told us that many of their rescues become more complicated because people try to walk out on an injury and make it much worse.\n\nNow, the reason I’m writing. Four of us are planning to hike the coastal trail in late May, five days and about seventy-five kilometres. We’d love you to join us. I would feel a lot better if at least two people in the group had first aid training, and there’s a course running on the weekend of April 12. It costs $295, which I know isn’t cheap, but I honestly think it’s the best money I’ve ever spent on hiking.\n\nDo you think you could get the time off work for both?\n\nCheers,\nSigrid",
+   "qs": [
+    {
+     "q": "What did Sigrid think of some of the course scenarios at the time?",
+     "o": [
+      "They were too difficult for beginners to follow.",
+      "They seemed more extreme than anything she would face.",
+      "They were the most useful part of the training.",
+      "They should have been practised indoors instead."
+     ],
+     "a": 1,
+     "t": "attitude",
+     "ev": "At the time, some of the scenarios felt a bit dramatic",
+     "x": "She thought the scenarios were dramatic and that she would never need some skills. She later found them useful, but that was not her view at the time."
+    },
+    {
+     "q": "What was the first thing Sigrid did after Mireya was injured?",
+     "o": [
+      "Made sure the group as a whole was safe",
+      "Checked Mireya’s foot for circulation",
+      "Contacted the park office for help",
+      "Built a stretcher from jackets and poles"
+     ],
+     "a": 0,
+     "t": "inference",
+     "ev": "stop, look after yourself and the group, and only then deal with the injury",
+     "x": "She followed the rule of securing herself and the group first, moving Mireya into shade. Checking circulation came afterwards, and no stretcher was built."
+    },
+    {
+     "q": "Why did the group use a satellite messenger?",
+     "o": [
+      "The park office does not accept phone calls.",
+      "Mireya’s phone had been damaged in the fall.",
+      "It was the fastest way to reach a hospital.",
+      "Their phones could not get a connection."
+     ],
+     "a": 3,
+     "t": "paraphrase",
+     "ev": "Because there was no cell signal",
+     "x": "With no cell signal, phones were useless. Nothing suggests a phone was damaged or that the office refuses calls."
+    },
+    {
+     "q": "What did the ranger say about many rescues?",
+     "o": [
+      "They are usually caused by loose rocks on the trail.",
+      "They often take longer than ninety minutes to arrive.",
+      "Injured hikers often worsen their injuries by continuing.",
+      "Most injured hikers turn out to have broken bones."
+     ],
+     "a": 2,
+     "t": "paraphrase",
+     "ev": "people try to walk out on an injury and make it much worse",
+     "x": "People who try to walk out often make injuries worse. Ninety minutes was how long this rescue took, not a general claim."
+    },
+    {
+     "q": "Why does Sigrid want Tavish to take the course?",
+     "o": [
+      "She wants more than one trained person on the trip.",
+      "The coastal trail requires all hikers to be certified.",
+      "She thinks he is the least experienced hiker in the group.",
+      "The course is cheaper if two people register together."
+     ],
+     "a": 0,
+     "t": "purpose",
+     "ev": "I would feel a lot better if at least two people in the group had first aid training",
+     "x": "She wants at least two trained people in the group. She never says the trail requires certification or that there is a group discount."
+    },
+    {
+     "q": "How does Sigrid feel about the cost of the course?",
+     "o": [
+      "She thinks it is too expensive for most hikers.",
+      "She considers it reasonable only for guides.",
+      "She believes it is well worth the price.",
+      "She hopes Tavish’s employer will pay for it."
+     ],
+     "a": 2,
+     "t": "attitude",
+     "ev": "I honestly think it’s the best money I’ve ever spent on hiking",
+     "x": "She admits $295 is not cheap but calls it the best money she has spent on hiking. Time off work is a separate question, not payment."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Tavish’s response to Sigrid. Complete it by choosing the best option for each blank.",
+    "text": "Hi Sigrid,\n\nWhat a story! Poor Mireya, though I’m glad it turned out to be {1}. I’m honestly impressed. I think most people would have tried to help her {2}, which, from what the ranger said, is exactly the wrong thing to do.\n\nI’d love to join you on the coastal trail. My manager has already approved my vacation for the last two weeks of May, so the hike itself is no problem. The course is trickier. I’m scheduled to work on {3}, but I’ll ask a colleague to switch shifts with me.\n\nYou’ve convinced me about the training, by the way. When you put it that way, it seems like {4} for a five-day trip.\n\nOne question: how did you {5}? I’d like to bring one of those messengers, too.\n\nTalk soon,\nTavish",
+    "blanks": [
+     {
+      "o": [
+       "a broken bone",
+       "nothing at all",
+       "only a sprain",
+       "a minor scratch"
+      ],
+      "a": 2,
+      "t": "detail",
+      "ev": "the X-ray later showed a bad sprain rather than a break",
+      "x": "The X-ray showed a sprain, not a break, which is good news. “A broken bone” is what the X-ray ruled out."
+     },
+     {
+      "o": [
+       "limp back to the car",
+       "rest in the shade",
+       "call the park office",
+       "wrap the ankle tightly"
+      ],
+      "a": 0,
+      "t": "inference",
+      "ev": "people try to walk out on an injury and make it much worse",
+      "x": "The ranger warned that walking out on an injury makes it worse, so helping her limp out would be the mistake. Resting in shade is what Sigrid correctly did."
+     },
+     {
+      "o": [
+       "the last weekend in May",
+       "the weekend of April 12",
+       "the first Sunday in September",
+       "the day of the hike"
+      ],
+      "a": 1,
+      "t": "detail",
+      "ev": "there’s a course running on the weekend of April 12",
+      "x": "The course runs on the weekend of April 12, so that is when he is scheduled to work. Late May is the hike, which is already approved."
+     },
+     {
+      "o": [
+       "an unnecessary expense",
+       "a sensible precaution",
+       "a waste of a weekend",
+       "a very risky decision"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "You’ve convinced me about the training",
+      "x": "Since she has convinced him, he now sees training as a sensible precaution. The other options contradict being convinced."
+     },
+     {
+      "o": [
+       "build a stretcher from two jackets",
+       "find shade so far up the trail",
+       "afford the first aid course",
+       "contact the park office with no signal"
+      ],
+      "a": 3,
+      "t": "inference",
+      "ev": "we used my satellite messenger to contact the park office",
+      "x": "He wants to bring a messenger too, so he is asking how she reached the park office without signal. The stretcher was only a course exercise."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Heronview Marina – Paddle Rentals (May 15 – September 30)",
+    "intro": "All rentals include paddles and life jackets. Photo ID and a credit card deposit are required. The last rental of the day leaves at 6:00 p.m., and all boats must be back by 8:00 p.m.",
+    "table": {
+     "cols": [
+      "Boat",
+      "Seats",
+      "1 hour",
+      "Half day (4 h)",
+      "Full day (9 a.m.–8 p.m.)"
+     ],
+     "rows": [
+      [
+       "Single kayak",
+       "1",
+       "$22",
+       "$55",
+       "$80"
+      ],
+      [
+       "Tandem kayak",
+       "2",
+       "$32",
+       "$75",
+       "$110"
+      ],
+      [
+       "Canoe",
+       "2–3",
+       "$30",
+       "$70",
+       "$100"
+      ],
+      [
+       "Stand-up paddleboard",
+       "1",
+       "$25",
+       "$60",
+       "$85"
+      ],
+      [
+       "Pedal boat",
+       "4",
+       "$35",
+       "Not available",
+       "Not available"
+      ]
+     ]
+    },
+    "notes": [
+     "Weekend and holiday rates are $5 higher per hour and $15 higher for half-day and full-day rentals.",
+     "Children under 12 must wear a life jacket at all times and ride with an adult; they may not use single kayaks or paddleboards.",
+     "Late returns are charged $15 for every 30 minutes (or part of 30 minutes) after the rental ends.",
+     "Groups renting 4 or more boats at the same time receive 10% off the total (weekdays only).",
+     "Single kayak and paddleboard renters must take a 10-minute safety briefing before their first rental.",
+     "Rentals may be cancelled free of charge if a wind warning is issued; otherwise, the deposit is kept for no-shows."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about renting boats at the marina. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Ottilie,\n\nI looked at the Heronview price list for our paddling day. Since we’re going on Saturday, a tandem kayak for the half day will cost {1}. Fenna is only ten, so she {2}, but she’ll have just as much fun sitting in the middle of a canoe with you.\n\nI also worked out a cheaper option. If we went on Wednesday instead and rented two single kayaks and two canoes together for the full day, the total would be {3}.\n\nWhichever day we choose, let’s watch the time. Last summer we came back forty minutes late and paid {4} in late fees, which still annoys me.\n\nOne more thing: if a wind warning is issued, we {5}, so there’s no risk in booking early. I’ll check the marine forecast on Friday night and send you a message either way.\n\nTalk soon,\nMagnus",
+    "blanks": [
+     {
+      "o": [
+       "$75",
+       "$80",
+       "$90",
+       "$105"
+      ],
+      "a": 2,
+      "t": "diagram",
+      "ev": "$15 higher for half-day and full-day rentals",
+      "x": "A tandem kayak half day is $75, plus the $15 weekend surcharge = $90. $80 wrongly adds the $5 hourly surcharge."
+     },
+     {
+      "o": [
+       "needs to take a safety briefing first",
+       "can’t have her own kayak or paddleboard",
+       "will pay a lower children’s rate",
+       "must stay on the dock with an adult"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "they may not use single kayaks or paddleboards",
+      "x": "Children under 12 cannot use single kayaks or paddleboards and must ride with an adult. The briefing is for adult single-boat renters; no children’s rate exists."
+     },
+     {
+      "o": [
+       "$360",
+       "$324",
+       "$306",
+       "$396"
+      ],
+      "a": 1,
+      "t": "diagram",
+      "ev": "Groups renting 4 or more boats at the same time receive 10% off the total (weekdays only)",
+      "x": "2 × $80 + 2 × $100 = $360, minus 10% for four boats on a weekday = $324. $360 forgets the group discount."
+     },
+     {
+      "o": [
+       "$15",
+       "$20",
+       "$40",
+       "$30"
+      ],
+      "a": 3,
+      "t": "diagram",
+      "ev": "Late returns are charged $15 for every 30 minutes (or part of 30 minutes) after the rental ends",
+      "x": "Forty minutes is one full 30-minute block plus part of another, so 2 × $15 = $30. $15 counts only the first block."
+     },
+     {
+      "o": [
+       "can cancel without losing anything",
+       "must still pay half the rental",
+       "will lose our deposit",
+       "can rent pedal boats instead"
+      ],
+      "a": 0,
+      "t": "diagram",
+      "ev": "Rentals may be cancelled free of charge if a wind warning is issued",
+      "x": "A wind warning allows free cancellation. Losing the deposit applies only to no-shows without a warning."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A couple rents a canoe for one hour on a Sunday and returns it ten minutes late. How much do they pay in total?",
+     "o": [
+      "$45",
+      "$35",
+      "$50",
+      "$30"
+     ],
+     "a": 2,
+     "t": "diagram",
+     "ev": "Weekend and holiday rates are $5 higher per hour",
+     "x": "One weekend hour is $30 + $5 = $35, and any part of 30 minutes late adds $15, for $50. $35 forgets the late fee."
+    },
+    {
+     "q": "Which of the following rentals is possible?",
+     "o": [
+      "A pedal boat for a half day on a Friday",
+      "An 11-year-old alone in a single kayak",
+      "A full-day canoe rental starting at 7:00 p.m.",
+      "A one-hour paddleboard rental after a short safety talk"
+     ],
+     "a": 3,
+     "t": "diagram",
+     "ev": "Single kayak and paddleboard renters must take a 10-minute safety briefing before their first rental",
+     "x": "An adult can rent a paddleboard after the briefing. Pedal boats are hourly only, children cannot use single kayaks, and the last rental leaves at 6:00 p.m."
+    },
+    {
+     "q": "Five friends rent five single kayaks together for a half day on a Saturday. What is the total?",
+     "o": [
+      "$275",
+      "$350",
+      "$315",
+      "$385"
+     ],
+     "a": 1,
+     "t": "diagram",
+     "ev": "Groups renting 4 or more boats at the same time receive 10% off the total (weekdays only)",
+     "x": "Each kayak costs $55 + $15 on weekends = $70, so 5 × $70 = $350. The group discount applies only on weekdays, so $315 is wrong."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Cooling the City: Fighting Urban Heat",
+   "paras": [
+    "On a hot summer afternoon, the centre of a large Canadian city can be several degrees warmer than the farmland just beyond its edge. This effect, known as the urban heat island, occurs because asphalt, concrete and dark rooftops absorb sunlight during the day and release it slowly as heat. Cars, air conditioners and industrial activity add still more. The difference is often greatest at night. While rural areas cool down after sunset, city streets can stay warm until morning, and that is what worries health officials most. When night-time temperatures remain high for several days in a row, the human body has no chance to recover from the heat of the day. Most heat-related deaths during heat waves occur indoors, among people who spend those nights in apartments that never cool down.",
+    "Trees are among the most effective tools for cooling a city. They provide shade, and they release water vapour through their leaves, which cools the surrounding air. On a hot day, a street lined with mature trees can feel dramatically cooler than a bare street nearby. However, trees are not evenly distributed. In many cities, wealthier neighbourhoods have far more tree cover than lower-income ones, where residents are often more vulnerable to heat because they are less likely to have air conditioning. Several municipalities have set targets to increase tree canopy, with a focus on underserved areas. The challenge is time. A newly planted street tree may take twenty years or more to provide meaningful shade, and many young trees die in their first few years without regular watering.",
+    "Because trees take so long to grow, some cities are also looking at surfaces. Cool roofs, which use white or reflective materials, can stay many degrees cooler than conventional dark roofs on a sunny day, reducing the heat that reaches the floors below. A few cities now require cool roofs on new buildings with flat roofs. Researchers are also testing lighter-coloured pavements and coatings for parking lots and schoolyards. These measures are not without drawbacks. Reflective pavement can create glare for drivers and pedestrians, and some critics worry that heat reflected from the ground can make pedestrians feel hotter even as the surface itself stays cooler. In colder climates, there is also a small winter penalty, since a reflective roof absorbs less of the sun’s warmth in January.",
+    "Physical changes to the city are only part of the solution. Many of the most effective heat programs focus on people. During heat warnings, cities open cooling centres in libraries and community buildings, extend hours at public pools and add drinking fountains in parks. Some have created voluntary registries where older residents or people with health conditions can sign up to receive a phone call or a visit during extreme heat. Outreach workers also check on people experiencing homelessness. These programs depend heavily on knowing who is at risk, since the people in greatest danger often live alone and may not realize how sick the heat is making them. Officials say even a short daily phone call can make the difference between staying safely at home and needing an ambulance."
+   ],
+   "qs": [
+    {
+     "q": "The danger of heat is increased when cities fail to cool down after dark.",
+     "a": "A",
+     "t": "paraphrase",
+     "ev": "When night-time temperatures remain high for several days in a row, the human body has no chance to recover",
+     "x": "Paragraph A explains that warm nights prevent the body from recovering, which is what worries health officials."
+    },
+    {
+     "q": "People in neighbourhoods with fewer trees are often less able to protect themselves from heat.",
+     "a": "B",
+     "t": "inference",
+     "ev": "residents are often more vulnerable to heat because they are less likely to have air conditioning",
+     "x": "Paragraph B says lower-income areas have fewer trees and residents less likely to have air conditioning."
+    },
+    {
+     "q": "Cool roofs reduce household electricity bills by about one-third.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "Cool roofs are discussed in C, but no paragraph gives any figure for savings on electricity bills."
+    },
+    {
+     "q": "Some ways of cooling surfaces may make the area less comfortable for people walking by.",
+     "a": "C",
+     "t": "inference",
+     "ev": "heat reflected from the ground can make pedestrians feel hotter",
+     "x": "Paragraph C notes that reflective pavement can cause glare and may make pedestrians feel hotter."
+    },
+    {
+     "q": "Programs that contact at-risk individuals can prevent medical emergencies.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "even a short daily phone call can make the difference between staying safely at home and needing an ambulance",
+     "x": "Paragraph D says a daily phone call can keep people safely at home instead of needing an ambulance."
+    },
+    {
+     "q": "Young trees often need care to survive their first years.",
+     "a": "B",
+     "t": "paraphrase",
+     "ev": "many young trees die in their first few years without regular watering",
+     "x": "Paragraph B states that many young trees die early without regular watering."
+    },
+    {
+     "q": "Most heat-related deaths happen to people who are outdoors during the day.",
+     "a": "E",
+     "t": "notgiven",
+     "ev": "",
+     "x": "This is a trap: Paragraph A says most deaths occur indoors, so the statement is not supported by any paragraph."
+    },
+    {
+     "q": "A reflective roof can slightly reduce the free warmth a building receives in cold months.",
+     "a": "C",
+     "t": "inference",
+     "ev": "a reflective roof absorbs less of the sun’s warmth in January",
+     "x": "Paragraph C describes a small winter penalty because reflective roofs absorb less winter sun."
+    },
+    {
+     "q": "People in the greatest danger may not recognize how badly the heat is affecting them.",
+     "a": "D",
+     "t": "paraphrase",
+     "ev": "may not realize how sick the heat is making them",
+     "x": "Paragraph D says those most at risk often live alone and may not realize how sick they are."
+    }
+   ]
+  },
+  "p4": {
+   "title": "Our Closets Are Becoming Landfills. Let’s Close the Door.",
+   "byline": "Opinion | by Esperanza Thibodeau, waste reduction consultant",
+   "text": "A generation ago, a winter coat was something you bought once and wore for a decade. Today, many of us buy clothing the way we buy groceries: often, cheaply and without much thought. Fashion brands release new collections every few weeks, prices have fallen, and the average garment is worn far fewer times than it was twenty years ago. The result is a mountain of textiles, and most of it ends up in landfill.\n\nMany people assume that the bag of clothes they drop in a donation bin will be worn by someone else. Some of it is. But charities and thrift stores can sell only a fraction of what they receive. The rest is shipped overseas, sold for rags or thrown away. Much of today’s clothing is made from blends of cotton and plastic fibres, which are extremely difficult to separate and recycle. When synthetic garments are buried, they can take decades to break down, and as they do, they release tiny plastic fibres into the soil and water.\n\nI believe it is time for provinces to set a clear goal: no textiles in landfill. Several jurisdictions have already banned materials such as electronics, tires and yard waste from their landfills, and those bans forced the creation of collection and recycling systems that now seem completely ordinary. Textiles should be next.\n\nBut a ban on its own would be a mistake. If we stopped accepting clothing at landfills tomorrow, the material would simply pile up in garages, be dumped illegally or be stuffed into donation bins, burying charities in garbage they cannot use. The infrastructure to sort and recycle blended fabrics on a large scale does not yet exist in Canada. Building it will take time and money.\n\nThat is why the ban must be phased in over about five years and paired with a system known as extended producer responsibility. Under this approach, the companies that sell clothing in a province would be required to fund its collection, sorting and recycling. Similar systems already cover packaging, batteries and paint in many provinces. If brands have to pay for what happens to their products at the end of their lives, they have a strong reason to design clothes that last longer and are easier to recycle, such as garments made from a single fibre.\n\nGovernments should also support the businesses that keep clothing in use: tailors, repair shops, resale stores and rental services. Small tax incentives, or simply helping them find affordable retail space, could make repair as convenient as replacement.\n\nCritics will say that this will raise the price of clothing. It might, slightly. But the current low prices are an illusion. We are already paying for cheap clothing through municipal waste budgets, environmental damage and the loss of local repair skills. A system that puts those costs where they belong, on the producer and ultimately the buyer, is simply more honest.\n\nNone of us needs to give up enjoying clothes. But we can no longer pretend that throwing away a shirt is the end of the story. The landfill is not a closet, and it is time we stopped treating it like one.",
+   "qs": [
+    {
+     "q": "What does the writer say about clothing donated to charities?",
+     "o": [
+      "Most of it is resold in local thrift stores.",
+      "Only part of it is ever sold to new owners.",
+      "It is usually sorted and recycled in Canada.",
+      "Charities refuse anything made from blended fabrics."
+     ],
+     "a": 1,
+     "t": "paraphrase",
+     "ev": "charities and thrift stores can sell only a fraction of what they receive",
+     "x": "Charities sell only a fraction; the rest goes overseas, to rags or to waste. Large-scale recycling of blends does not yet exist in Canada."
+    },
+    {
+     "q": "Why does the writer mention bans on electronics and tires?",
+     "o": [
+      "To show that landfill bans can lead to new systems",
+      "To argue that textiles are more harmful than electronics",
+      "To explain why earlier bans failed to reduce waste",
+      "To suggest that clothing should be collected with tires"
+     ],
+     "a": 0,
+     "t": "purpose",
+     "ev": "those bans forced the creation of collection and recycling systems that now seem completely ordinary",
+     "x": "Earlier bans led to collection systems that now seem normal, suggesting textiles could follow. She does not say those bans failed."
+    },
+    {
+     "q": "What does the writer believe would happen if a ban were introduced immediately?",
+     "o": [
+      "Clothing prices would rise sharply overnight.",
+      "Brands would quickly design longer-lasting clothes.",
+      "Unwanted clothing would end up in the wrong places.",
+      "Recycling plants would be built within a year."
+     ],
+     "a": 2,
+     "t": "inference",
+     "ev": "the material would simply pile up in garages, be dumped illegally or be stuffed into donation bins",
+     "x": "Without infrastructure, clothes would pile up, be dumped or overwhelm charities. Better design is a hoped-for result of producer responsibility, not of an immediate ban."
+    },
+    {
+     "q": "According to the writer, how would extended producer responsibility encourage change?",
+     "o": [
+      "By paying consumers to return their old clothing",
+      "By banning clothing made from blended fibres",
+      "By lowering taxes for fashion companies that recycle",
+      "By giving brands a financial reason to design better clothes"
+     ],
+     "a": 3,
+     "t": "inference",
+     "ev": "If brands have to pay for what happens to their products at the end of their lives, they have a strong reason to design clothes that last longer",
+     "x": "Paying for disposal gives brands a reason to make durable, recyclable garments. Tax incentives are suggested for repair businesses, not fashion brands."
+    },
+    {
+     "q": "How does the writer respond to the concern about higher prices?",
+     "o": [
+      "She denies that prices would rise at all.",
+      "She says governments should cap clothing prices.",
+      "She argues that cheap clothing already has hidden costs.",
+      "She admits the plan would be too expensive for many families."
+     ],
+     "a": 2,
+     "t": "viewpoint",
+     "ev": "the current low prices are an illusion",
+     "x": "She concedes prices might rise slightly but argues society already pays hidden costs. She does not deny any increase."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I manage a charity thrift store, so this article hit close to home. The writer is absolutely right that {1}. Every Monday, our donation room is full of torn, stained and worn-out clothing that we have to pay to throw away. That disposal bill comes straight out of the money we raise for our programs.\n\nI also strongly support making {2}. It’s about time the companies producing these clothes took some responsibility for them.\n\nHowever, I’m less convinced by the five-year timeline. Unless collection systems are ready well before the ban begins, people will {3}, and charities like mine will be the ones paying for it. I would want a guarantee that {4} before any ban takes effect.\n\nI also think the writer could have said more about buying less in the first place. Recycling is good, but {5} is far better. A shirt that is worn fifty times does more good than any recycling plant.",
+    "blanks": [
+     {
+      "o": [
+       "most donated clothing is resold locally",
+       "charities cannot use much of what they receive",
+       "clothing prices have increased in recent years",
+       "blended fabrics are easy to separate"
+      ],
+      "a": 1,
+      "t": "viewpoint",
+      "ev": "charities and thrift stores can sell only a fraction of what they receive",
+      "x": "Her full donation room of unusable clothing confirms the writer’s point that charities can sell only a fraction. The writer says the opposite of easy separation."
+     },
+     {
+      "o": [
+       "clothing brands pay for collection and recycling",
+       "consumers pay a deposit on every garment",
+       "landfills accept textiles for a higher fee",
+       "charities sort all clothing for the province"
+      ],
+      "a": 0,
+      "t": "detail",
+      "ev": "the companies that sell clothing in a province would be required to fund its collection, sorting and recycling",
+      "x": "Extended producer responsibility makes brands fund collection and recycling, matching her next sentence. Deposits on garments are never proposed."
+     },
+     {
+      "o": [
+       "stop buying clothing altogether",
+       "repair more of their own clothing",
+       "dump unwanted clothes in donation bins",
+       "take clothes to recycling plants"
+      ],
+      "a": 2,
+      "t": "inference",
+      "ev": "be stuffed into donation bins, burying charities in garbage they cannot use",
+      "x": "She fears that without systems, unwanted clothes will be pushed into donation bins, costing charities. The writer raises this same risk."
+     },
+     {
+      "o": [
+       "clothing prices stay the same",
+       "brands stop selling blended fabrics",
+       "proper collection systems are already working",
+       "thrift stores receive tax incentives"
+      ],
+      "a": 2,
+      "t": "coherence",
+      "ev": "Unless collection systems are ready well before the ban begins",
+      "x": "Her worry is collection systems not being ready, so she wants a guarantee they work first. The other conditions are not linked to her concern."
+     },
+     {
+      "o": [
+       "shopping at thrift stores",
+       "keeping clothes in use longer",
+       "sorting fabrics more carefully",
+       "paying higher prices"
+      ],
+      "a": 1,
+      "t": "coherence",
+      "ev": "A shirt that is worn fifty times does more good than any recycling plant",
+      "x": "Her example of a shirt worn fifty times shows that using clothes longer is better than recycling. Thrift shopping is related but does not match the example."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "Last weekend you borrowed a tent and a camping stove from a friend for a two-night canoe trip. During a heavy storm, one of the tent poles snapped and the rain cover was torn. Write an email to your friend.",
+   "bullets": [
+    "Explain what happened during the trip",
+    "Describe the damage to the equipment",
+    "Suggest how you will make up for the damage"
+   ],
+   "model": "Hi Gideon,\n\nThank you again for lending me your tent and stove for the canoe trip. Unfortunately, I have some bad news, and I wanted to tell you right away rather than just returning everything in a bag.\n\nOn Saturday night, a much bigger storm than forecast hit the lake. Around two in the morning, a powerful gust caught the tent, and one of the main poles snapped near the top. The broken end tore a hole of about twenty centimetres in the rain cover, and we spent the rest of the night holding the tent up and trying to keep our sleeping bags dry. The stove, I’m glad to say, works perfectly.\n\nI feel terrible about it, especially since I know how much you love that tent. I’ve already contacted the manufacturer, and they sell replacement poles for about forty dollars. They also recommended an outdoor gear shop downtown that can patch the cover properly. I will pay for both repairs, of course, and if the patch doesn’t look right, I’ll buy you a new cover instead.\n\nCould I drop everything off on Thursday evening so you can see the damage yourself?\n\nWith apologies,\nLeopold"
+  },
+  "t2": {
+   "intro": "Your employer wants to encourage staff to stop driving to work alone and has set aside money for one of the following options.",
+   "question": "Which option do you prefer?",
+   "a": "Pay half the cost of a monthly public transit pass for every employee who wants one.",
+   "b": "Build a secure, indoor bike room with lockers, showers and a small repair station in the office building.",
+   "model": "I would choose Option A, paying half the cost of a monthly transit pass, because I believe it would help the largest number of employees.\n\nFirst of all, transit is an option for almost everyone. Many of my colleagues live twenty or thirty kilometres from the office, which is simply too far to cycle, especially in winter. A transit subsidy would benefit them all year round, whereas a bike room would mostly be used between May and October by a fairly small group of keen cyclists.\n\nSecondly, the financial impact would be significant. A monthly pass in our city costs over a hundred and fifty dollars, so saving half would make a real difference to junior staff and people with families. That kind of saving is often what persuades someone to leave the car at home.\n\nI do see the appeal of Option B. Showers and secure storage would make cycling much more practical, and cycling is excellent for people’s health. However, if the company can only fund one project, I believe the transit subsidy would remove more cars from the road and benefit a far wider range of employees."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend has noticed that their household produces a huge amount of garbage every week and wants to reduce it, but they are very busy and do not know where to start. Give your friend some advice.",
+   "model": "I think it’s great that you want to cut down, and the good news is that you don’t need to change everything at once. My first piece of advice would be to look at what’s actually in your garbage for a week. You might find that most of it is food packaging or food scraps, and that tells you where to focus. If a lot of it is food, start by planning meals a bit better and making a shopping list, so you’re not buying things that go bad in the fridge. Second, make recycling and composting easy. Put a small compost container right next to the sink and a recycling bin beside the garbage, so sorting takes no extra effort. Third, think about the things you buy over and over again. Switching to a refillable water bottle, cloth grocery bags and maybe buying cleaning products in bulk can make a surprising difference. And since you’re busy, don’t try to be perfect. Choose two or three changes this month, and once they become habits, add a couple more. Finally, get the whole family involved. If the kids understand why it matters, they’ll probably start reminding you, which honestly makes it a lot more fun."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you had to manage without electricity for an extended period. What happened, and how did you cope?",
+   "model": "A few years ago, an ice storm hit our city in December, and our whole neighbourhood lost power for almost three days. The first evening was actually kind of fun. We lit candles, played board games and ate everything from the fridge before it could spoil. But by the second morning, the house was down to about twelve degrees, and it wasn’t fun anymore. We couldn’t cook, and our phones were nearly dead. My dad drove to the community centre, which had become a warming centre, and we charged our phones and had a hot meal there. Our neighbour had a wood stove, so she invited us over for the second night, and we all slept on her living room floor. I learned how much we depend on electricity, and since then, we’ve always kept a battery pack, flashlights and some canned food ready."
+  },
+  "t3": {
+   "scene": {
+    "bg": "market",
+    "alt": "An outdoor farmers’ market on a sunny Saturday morning. On the left, there is a green stall labelled VEGETABLES where a woman in an apron-coloured orange shirt is handing a basket to a customer. In the centre, a red stall labelled HONEY & JAM has an older man with glasses standing behind it, and a woman in a blue shirt is paying with a card. On the right, a man in a yellow shirt is playing the role of a busker, and a young girl holding a red balloon is watching him. A brown dog on a leash sits beside a man with a cup. Bunting-style banner reads LOCAL FOOD MARKET above.",
+    "items": [
+     [
+      "sun",
+      580,
+      50
+     ],
+     [
+      "banner",
+      170,
+      30,
+      300,
+      "LOCAL FOOD MARKET",
+      "#27ae60"
+     ],
+     [
+      "stall",
+      110,
+      300,
+      150,
+      "VEGETABLES",
+      "#27ae60"
+     ],
+     [
+      "person",
+      90,
+      300,
+      {
+       "shirt": "#e67e22",
+       "hairStyle": "bun",
+       "hold": "basket"
+      }
+     ],
+     [
+      "basket",
+      150,
+      330
+     ],
+     [
+      "person",
+      170,
+      360,
+      {
+       "shirt": "#8e44ad",
+       "hairStyle": "long",
+       "flip": true
+      }
+     ],
+     [
+      "stall",
+      330,
+      300,
+      150,
+      "HONEY & JAM",
+      "#c0392b"
+     ],
+     [
+      "person",
+      330,
+      300,
+      {
+       "shirt": "#ecf0f1",
+       "glasses": true,
+       "hair": "#bdc3c7"
+      }
+     ],
+     [
+      "person",
+      370,
+      362,
+      {
+       "shirt": "#2980b9",
+       "hold": "phone",
+       "skin": "#8d5524"
+      }
+     ],
+     [
+      "person",
+      510,
+      360,
+      {
+       "shirt": "#f1c40f",
+       "pose": "both"
+      }
+     ],
+     [
+      "person",
+      560,
+      370,
+      {
+       "kid": true,
+       "shirt": "#e84393",
+       "hold": "balloon",
+       "holdColor": "#e74c3c"
+      }
+     ],
+     [
+      "person",
+      250,
+      370,
+      {
+       "shirt": "#34495e",
+       "hold": "leash"
+      }
+     ],
+     [
+      "dog",
+      285,
+      382,
+      "#a0522d"
+     ]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows a busy outdoor farmers’ market on what looks like a sunny Saturday morning. Across the top, there’s a green banner that says Local Food Market. On the left, there’s a green vegetable stall, and a woman in an orange shirt with her hair in a bun is holding a basket, probably helping a customer in a purple top who’s shopping there. In the middle, there’s a red stall selling honey and jam. An older man with grey hair and glasses is standing behind the counter, and a woman in a blue shirt seems to be paying with her phone. In front of the stalls, a man in a dark shirt is walking a brown dog on a leash. On the right, a man in a yellow shirt has both arms in the air, maybe performing or singing, and a little girl holding a red balloon is watching him."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the man in the yellow shirt is a street performer, so he’ll probably finish his song soon, and the little girl with the balloon will clap and maybe ask her parents for a coin to put in his hat. Meanwhile, the brown dog has noticed all the food smells, and I suspect it’ll start pulling its owner toward the honey and jam stall. The older man behind the counter might even offer the dog a small treat, or at least give the owner a free sample of jam. At the vegetable stall, the customer in purple will most likely pay for her basket and move on to the next stall. As the morning goes on, I expect the market will get even busier, so the vendors will probably have to restock their tables, and by noon, the honey stall might be completely sold out."
+  },
+  "t5": {
+   "intro": "You and your partner are planning a one-week summer vacation and have narrowed it down to a few options. Choose the option that you prefer. In the next section, you will need to persuade your partner that your choice is better than the one they prefer.",
+   "options": [
+    {
+     "title": "Solar-powered eco-lodge",
+     "details": [
+      "$1,600 for the week",
+      "Three-hour drive into the mountains",
+      "Guided hikes and wildlife tours",
+      "Organic meals included",
+      "No air conditioning; limited Wi-Fi"
+     ]
+    },
+    {
+     "title": "Houseboat on a river",
+     "details": [
+      "$2,000 for the week",
+      "Two-hour drive to the marina",
+      "Sleeps four; full kitchen",
+      "Swimming and fishing from the deck",
+      "Short training needed to steer it"
+     ]
+    }
+   ],
+   "other": {
+    "title": "Ocean cruise",
+    "details": [
+     "$3,400 for the week",
+     "Five-hour flight to the port",
+     "Meals and entertainment included",
+     "Stops at three coastal towns",
+     "Pools, spa and fitness centre"
+    ]
+   },
+   "otherWho": "Your partner prefers",
+   "persuade": "Your partner prefers the ocean cruise. Persuade your partner that your choice is better.",
+   "model": "I know the cruise sounds relaxing, and I love the idea of someone else doing all the cooking, but I really think the houseboat would be a better holiday for us. First, the cost. The cruise is thirty-four hundred dollars, plus the flight, so we’d easily spend over four thousand. The houseboat is two thousand, and it’s just a two-hour drive, so no airports or lost luggage. Second, think about how we like to travel. On a cruise, we’d share the ship with thousands of people and only get a few hours in each town. On the houseboat, we’d have our own private space, we could stop wherever we want, swim right off the deck and fish in the evening. Yes, we’d have to cook, but we both enjoy that, and the kitchen is fully equipped. And learning to steer the boat would be an adventure in itself. I think we’d come home feeling much more refreshed."
+  },
+  "t6": {
+   "situation": "You lead your office’s volunteer green team. A senior colleague, who is also a good friend, regularly throws recyclable containers and food scraps into the regular garbage, and other staff have started to copy her. The manager has asked the green team to improve recycling rates before the company’s sustainability report next month.",
+   "options": [
+    "Talk to your colleague and ask her to change her habits.",
+    "Talk to your manager and suggest changes that would help the whole office."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Hey Margot, have you got a minute? This is a little awkward, so I’ll just be honest. You know I’m on the green team, and we’re under some pressure to improve our recycling numbers before the sustainability report. When we did a quick check of the bins last week, there were a lot of coffee cups, yogurt containers and food scraps in the regular garbage, and I’ve noticed you sometimes toss things in there when you’re in a hurry. I completely understand – the sorting station is at the other end of the floor, and we’re all busy. The thing is, people really look up to you, so when you do it, others tend to follow. Would you mind giving the bins a try for the next few weeks? I’m also going to ask facilities for a second sorting station closer to our desks. Honestly, having you on board would make a huge difference."
+  },
+  "t7": {
+   "prompt": "Some cities are considering adding a 25-cent fee to every disposable coffee cup sold, to encourage people to use reusable cups. Do you think this is a good idea? Explain your reasons.",
+   "model": "In my opinion, a small fee on disposable cups is a good idea, and I have two main reasons. First, it works. When many provinces started charging a few cents for plastic grocery bags, people very quickly began bringing their own. Most of us didn’t need a lecture; we just needed a small reminder at the moment of buying. A twenty-five-cent fee would do the same thing for coffee cups. Most people already own a travel mug; they just forget to bring it, and a fee would help them build the habit. Second, disposable cups are a bigger problem than many people realize. Because most of them have a thin plastic lining, they are difficult to recycle, so millions of them end up in landfill every year. Reducing that waste would also save cities money on garbage collection. Of course, I understand the concerns. For people on a tight budget, an extra quarter every day adds up, and some might feel it’s unfair. However, the fee is easy to avoid simply by bringing a cup, and cafés could offer a small discount to people who do. Cities could also use the money to install more public water fountains. Overall, I think the benefits clearly outweigh the inconvenience."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "A wide grassy park on a sunny day. In the middle stands an enormous orange camping tent, many times larger than a normal tent, taller than the trees around it, with its front door flap open. A group of children in colourful shirts are running toward it, and one child is waving. A smaller, normal-sized green tent stands next to it for comparison. On the right, a woman in a purple shirt holds a map and a man in a grey shirt stands by a campfire ring with a grill. Pine trees stand in the background, and there are balloons tied to a sign that says CAMP PARTY.",
+    "items": [
+     [
+      "sun",
+      580,
+      55
+     ],
+     [
+      "cloud",
+      120,
+      60,
+      1
+     ],
+     [
+      "pine",
+      40,
+      300,
+      1.2
+     ],
+     [
+      "pine",
+      600,
+      300,
+      1.1
+     ],
+     [
+      "big",
+      "tent",
+      310,
+      340,
+      4,
+      "#e67e22"
+     ],
+     [
+      "tent",
+      170,
+      350,
+      "#27ae60"
+     ],
+     [
+      "person",
+      100,
+      372,
+      {
+       "kid": true,
+       "shirt": "#e74c3c",
+       "pose": "run"
+      }
+     ],
+     [
+      "person",
+      140,
+      375,
+      {
+       "kid": true,
+       "shirt": "#3498db",
+       "pose": "wave"
+      }
+     ],
+     [
+      "person",
+      210,
+      378,
+      {
+       "kid": true,
+       "shirt": "#f1c40f",
+       "pose": "run"
+      }
+     ],
+     [
+      "sign",
+      470,
+      365,
+      "CAMP PARTY",
+      "#ffffff"
+     ],
+     [
+      "balloons",
+      500,
+      300
+     ],
+     [
+      "person",
+      540,
+      365,
+      {
+       "shirt": "#8e44ad",
+       "hold": "map",
+       "hairStyle": "long"
+      }
+     ],
+     [
+      "grill",
+      590,
+      370
+     ],
+     [
+      "person",
+      615,
+      368,
+      {
+       "shirt": "#7f8c8d",
+       "flip": true
+      }
+     ]
+    ]
+   },
+   "prompt": "You are helping plan your cousin’s eighth birthday party, and you have found a company that rents out this giant tent for camping-themed parties. Call your cousin’s parent, describe what you see, and explain whether you think it would be a good choice for the party. They cannot see the picture.",
+   "model": "Hi! I think I’ve found something amazing for the birthday party. Picture an ordinary orange camping tent, but blown up to the size of a small house. It’s set up in the middle of a big grassy park, and it’s actually taller than the pine trees around it. There’s a normal green tent right next to it, and it looks tiny in comparison. The front door is wide open, and in the photo, a bunch of kids are running toward it, waving and screaming with excitement. There’s also a sign with balloons that says Camp Party, and a grill set up nearby for hot dogs. Honestly, I think it would be perfect. The kids could play games inside even if it rains, and it fits the camping theme so well. My only question is the price and whether there’s enough space in your backyard, so maybe we should hold it at the park."
+  }
+ }
+}

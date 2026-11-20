@@ -1,0 +1,854 @@
+{
+ "id": "t50",
+ "title": "Test 50",
+ "L": {
+  "parts": [
+   {
+    "n": 1,
+    "context": "Two city staff members are preparing for a public consultation meeting that evening.",
+    "sp": {
+     "A": {"name": "Lucía", "g": "f", "acc": "en-US", "rate": 1.0},
+     "B": {"name": "Desmond", "g": "m", "acc": "en-CA", "rate": 1.03}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Desmond, we’ve got a problem with tonight. The interpretation agency just called. Both of our interpreters, Mandarin and Punjabi, have cancelled. One has the flu, and the other was double-booked at the courthouse."],
+       ["B", "Tonight? The meeting starts at seven. That’s six hours from now."],
+       ["A", "I know. And you know why we booked them. The new Route Nineteen goes straight through Fairview and Kingsgate, and in those two neighbourhoods, about forty percent of households speak Mandarin or Punjabi at home. Half the people who registered for tonight asked for interpretation."],
+       ["B", "Right, and those are exactly the residents who’ll lose their current stops if the route changes. If they can’t follow the meeting, the whole consultation is pointless."],
+       ["A", "Worse than pointless. Council already criticized us last year for consultations that only heard from the same people. If we go ahead without interpretation, I can already see the headline."],
+       ["B", "Okay. And what about the livestream? At least people could watch from home."],
+       ["A", "That’s problem number two. I tried to log into the streaming platform this morning, and our licence expired on Friday. The renewal has to be approved by IT, and their manager is away until Monday."],
+       ["B", "Great. So no interpreters and no stream. Can we just postpone?"],
+       ["A", "We could, but the notices have been in the mail for three weeks, and council wants the report by the end of the month. If we cancel at this point, a lot of people will show up at a locked door."],
+       ["B", "And they’d be the people who are already the least sure the city listens to them."]
+      ],
+      "qs": [
+       {
+        "q": "Why is the interpreters’ cancellation a serious problem?",
+        "o": ["Many affected residents need language support.", "The agency will charge a late cancellation fee.", "The courthouse needs the interpreters tonight.", "Council requires interpreters at every meeting."],
+        "a": 0, "t": "inference",
+        "ev": "Half the people who registered for tonight asked for interpretation.",
+        "x": "Half the registrants asked for interpretation, and they live where stops would change. The courthouse is why one interpreter cancelled, not why the cancellation matters."
+       },
+       {
+        "q": "What does Lucía suggest about council?",
+        "o": ["It has asked for the meeting to be postponed.", "It wants the Route Nineteen plan cancelled.", "It would object if the meeting left people out.", "It has already approved the new route."],
+        "a": 2, "t": "inference",
+        "ev": "Council already criticized us last year for consultations that only heard from the same people.",
+        "x": "Council has criticized consultations that heard only from the same people, so it would object to excluding these residents. Council wants the report on time, not a postponement."
+       },
+       {
+        "q": "Why is postponing the meeting difficult?",
+        "o": ["The IT manager will not return until Monday.", "Residents who were notified would come anyway.", "The interpreters cannot work on another day.", "The venue is booked by another group next week."],
+        "a": 1, "t": "inference",
+        "ev": "a lot of people will show up at a locked door",
+        "x": "Notices went out three weeks ago, so many people would arrive at a locked door. The IT manager’s absence affects the livestream, not the decision to postpone."
+       }
+      ]
+     },
+     {
+      "lines": [
+       ["B", "What about the agency’s other interpreters? They must have a backup list."],
+       ["A", "I asked. They have a Punjabi interpreter who could do it, but only by phone, and for Mandarin, nobody until Thursday."],
+       ["B", "By phone isn’t ideal in a room of eighty people."],
+       ["A", "No, and for a three-hour meeting with questions from the floor, it would be chaos. People would be passing a phone around the room."],
+       ["B", "Hmm. What about staff? Doesn’t Wei Ling in planning speak Mandarin?"],
+       ["A", "She does, fluently. But she wrote half the route proposal. If she’s interpreting, residents might wonder whether she’s softening their complaints. I don’t think that’s fair to her or to them."],
+       ["B", "Fair. What about using the city’s phone translation service on a speaker?"],
+       ["A", "Same issue as the agency’s phone option, and the sound quality in that hall is terrible. Half the time you can’t hear the person at the microphone, let alone a speakerphone."],
+       ["B", "Okay. What if we split it? Hold the meeting tonight as planned for everyone, but treat it as the first of two sessions, and run a second session next week, in Fairview itself, with interpreters, focused on the two neighbourhoods."],
+       ["A", "Hmm, that I like. It’s more work, but it actually reaches people where they live."]
+      ],
+      "qs": [
+       {
+        "q": "What is the problem with the agency’s backup offer?",
+        "o": ["The backup interpreter charges double.", "Neither language can be covered at all.", "The interpreter cannot arrive until eight.", "It covers only one language, and by phone."],
+        "a": 3, "t": "detail",
+        "ev": "They have a Punjabi interpreter who could do it, but only by phone",
+        "x": "The agency can offer only Punjabi, and only by phone; Mandarin is unavailable until Thursday. So one language can be covered, which rules out “neither”."
+       },
+       {
+        "q": "Why does Lucía reject asking Wei Ling to interpret?",
+        "o": ["Wei Ling does not speak Punjabi.", "Her role in the plan could raise doubts.", "Wei Ling is not free that evening.", "Staff are not allowed to interpret."],
+        "a": 1, "t": "inference",
+        "ev": "she wrote half the route proposal",
+        "x": "Because she helped write the proposal, residents might suspect her of softening their complaints. Her language skills are not in question, and no rule against staff is mentioned."
+       },
+       {
+        "q": "How does Lucía react to Desmond’s idea of a second session?",
+        "o": ["She doubts it can be organized in time.", "She thinks it would cost far too much.", "She approves of it despite the extra work.", "She prefers to cancel tonight’s meeting."],
+        "a": 2, "t": "attitude",
+        "ev": "It’s more work, but it actually reaches people where they live.",
+        "x": "She admits it is more work but likes that it reaches residents in their own neighbourhood. She raises no concerns about cost or timing."
+       }
+      ]
+     },
+     {
+      "lines": [
+       ["A", "Let’s do it. Tonight, we use the Punjabi interpreter by phone just for individual questions, and we hand out the comment forms we’ve already printed in both languages. Then next Wednesday, at the Fairview library, a full session with both interpreters in person."],
+       ["B", "And the deadline for council?"],
+       ["A", "We keep it. The second session is still two weeks before the report is due. I’ll write up both sessions together."],
+       ["B", "What about people who can’t come tonight and were counting on the stream?"],
+       ["A", "We’ll record the meeting on the hall’s camera and post the video on the project page by Friday. It isn’t live, but they’ll be able to submit comments online until the twentieth."],
+       ["B", "Okay. I’ll call the agency and book both interpreters for Wednesday, before someone else grabs them."],
+       ["A", "Good. And make sure the announcement tonight is clear, so people know the second session isn’t a do-over. It’s a real part of the consultation."],
+       ["B", "Got it. I’ll also ask the Fairview community association to share the date in their newsletter. They reach a lot of the families we’re worried about."],
+       ["A", "Perfect. Let’s also print some extra copies of the route map in large type for tonight."],
+       ["B", "Will do. I’ll drop them at the hall on my way."]
+      ],
+      "qs": [
+       {
+        "q": "What will be available to people who could not watch the meeting live?",
+        "o": ["A recording, plus a way to comment online", "A phone line to the Punjabi interpreter", "A printed summary sent to their homes", "A private session at the Fairview library"],
+        "a": 0, "t": "paraphrase",
+        "ev": "We’ll record the meeting on the hall’s camera and post the video on the project page by Friday.",
+        "x": "The meeting will be recorded and posted, and comments can be submitted online until the twentieth. The Fairview session is public, not private."
+       },
+       {
+        "q": "Why does Desmond want to contact the Fairview community association?",
+        "o": ["To book its building for next Wednesday", "To find more interpreters for the session", "To ask it to comment on the new route", "To help spread the word to residents"],
+        "a": 3, "t": "purpose",
+        "ev": "ask the Fairview community association to share the date in their newsletter",
+        "x": "He wants the association to share the date in its newsletter to reach affected families. The session is at the library, and interpreters come from the agency."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 2,
+    "context": "A woman is speaking with a clerk at a government service centre.",
+    "sp": {
+     "A": {"name": "Service clerk", "g": "m", "acc": "en-CA", "rate": 1.04},
+     "B": {"name": "Customer", "g": "f", "acc": "en-AU", "rate": 0.99}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["B", "Hi. My wallet was stolen on the bus on Saturday, and I need to replace my driver’s licence and my health card. I’ve already reported it to the police."],
+       ["A", "I’m sorry to hear that. We can do both today. For the licence, I need one piece of identification with your name and date of birth, and for the health card, I need proof of your address and a document showing your citizenship or immigration status."],
+       ["B", "That’s the problem. Everything was in my wallet. I’ve got my passport here, though, and the police report."],
+       ["A", "The passport is great. It works as identification for the licence and as proof of status for the health card. The police report is helpful, but it isn’t one of our accepted documents. For the address, I’d need something like a utility bill, a bank statement or a lease, dated within the last three months."],
+       ["B", "I don’t have anything with me. I get all my bills by email."],
+       ["A", "An emailed bill is fine, as long as you print it out. We can’t accept it on a phone screen, unfortunately."],
+       ["B", "Is there a printer here?"],
+       ["A", "Not for the public, no. There’s a library two blocks away, though, that charges ten cents a page."],
+       ["B", "Okay. So, could you at least do the licence now, and I’ll come back another day with the bill for the health card?"],
+       ["A", "I can. The replacement licence fee is thirty-five dollars. You’ll get a paper temporary licence today, which is valid for ninety days, and the card arrives by mail in about two weeks."],
+       ["B", "Can I use the paper one to rent a car? I’m going to Halifax in two weeks."],
+       ["A", "It’s legal for driving, but rental companies often won’t accept it without photo ID. Your passport should solve that, though. Bring both."],
+       ["B", "Good to know. Actually, you know what, I’ll go and print the bill now, and do both at once. I’d rather not take another morning off work."],
+       ["A", "That makes sense. Here’s a number, B forty-two. When you come back, show it at the desk, and you won’t have to wait in line again, as long as you’re back before noon."],
+       ["B", "It’s ten fifteen. That’s plenty of time."]
+      ],
+      "qs": [
+       {
+        "q": "Why did the woman come to the service centre?",
+        "o": ["To report a stolen wallet to the police", "To change the address on her health card", "To rent a car for her trip to Halifax", "To get new copies of two official cards"],
+        "a": 3, "t": "purpose",
+        "ev": "I need to replace my driver’s licence and my health card",
+        "x": "She needs replacements for her licence and health card. She has already reported the theft to the police, and the car rental is a later question."
+       },
+       {
+        "q": "What does the clerk say about the police report?",
+        "o": ["It can be used as proof of her address.", "It helps but does not satisfy the requirements.", "It must be shown before any card is replaced.", "It removes the need for photo identification."],
+        "a": 1, "t": "paraphrase",
+        "ev": "it isn’t one of our accepted documents",
+        "x": "The report is “helpful” but not an accepted document, so it cannot meet the requirements. Her passport, not the report, serves as identification."
+       },
+       {
+        "q": "What is the problem with her emailed bill?",
+        "o": ["It must be on paper to be accepted.", "It is older than three months.", "It is not in her own name.", "Bank statements are not accepted."],
+        "a": 0, "t": "detail",
+        "ev": "We can’t accept it on a phone screen, unfortunately.",
+        "x": "An emailed bill is fine if printed, but not on a phone screen. Nothing suggests the bill is too old or in someone else’s name."
+       },
+       {
+        "q": "Why does the clerk tell her to take her passport on her trip?",
+        "o": ["She will need it to board the plane.", "The temporary licence is not legal for driving.", "Rental companies may want photo identification.", "Her new card will not arrive before then."],
+        "a": 2, "t": "inference",
+        "ev": "rental companies often won’t accept it without photo ID",
+        "x": "Rental companies may refuse the paper licence without photo ID, and the passport provides it. The clerk says the paper licence is legal for driving."
+       },
+       {
+        "q": "What does the woman finally decide to do?",
+        "o": ["Get the licence today and return another day", "Print the document and complete both today", "Wait in line again for the health card", "Ask the library to email her the bill"],
+        "a": 1, "t": "detail",
+        "ev": "I’ll go and print the bill now, and do both at once",
+        "x": "She changes her plan: she will print the bill and do both today. Returning another day was her first idea, and her number means she won’t wait in line again."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 3,
+    "context": "A man calls a citizenship information line about the next steps in his application.",
+    "sp": {
+     "A": {"name": "Philippa", "g": "f", "acc": "en-GB", "rate": 1.02},
+     "B": {"name": "Rohan", "g": "m", "acc": "en-IN", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Citizenship information line, Philippa speaking. How can I help?"],
+       ["B", "Hello. My name is Rohan. I applied for citizenship in January, and yesterday I received an invitation to take the citizenship test. I have some questions before I do anything."],
+       ["A", "Of course. What would you like to know?"],
+       ["B", "First, the test. Is it a written test in an office? My friend did his a few years ago in a room with other people."],
+       ["A", "That was common before, but now most tests are taken online, at home, on a computer. You’ll have a thirty-day window to complete it once you receive the link. It’s twenty multiple-choice questions, and you need fifteen correct answers to pass."],
+       ["B", "Fifteen out of twenty. And what if I fail?"],
+       ["A", "If you don’t pass the first time, you’ll be invited to take it again. If you fail a second time, you’ll be scheduled for an interview with an official, which usually happens within a few months. So you have more than one chance, but it’s much better to be prepared."],
+       ["B", "How should I study? Is there a book?"],
+       ["A", "Yes, the official study guide is free. You can download it or order a printed copy, and there’s also an audio version, which some people like to listen to on the bus. All the questions are based on that guide, so I wouldn’t rely on practice tests from other websites. Some of them are out of date."],
+       ["B", "Good to know. My wife and I applied together. Can we take the test at the same time, in the same room?"],
+       ["A", "Each of you needs to take it separately, on your own device, and nobody is allowed to help you, including family. The system may ask you to turn on your camera."],
+       ["B", "Okay. And my son is twelve. Does he take the test?"],
+       ["A", "No. Applicants under eighteen don’t take the test, and they don’t need to prove their language level either."],
+       ["B", "And after the test, how long until the ceremony?"],
+       ["A", "It varies, but usually two to four months. Ceremonies can be in person or virtual. You’ll get an invitation with a date, and if you can’t attend, you can ask to reschedule once, as long as you tell us before the date."],
+       ["B", "My parents are visiting from Pune in the summer. I’d love for them to see the ceremony. Can guests come?"],
+       ["A", "Yes, guests are welcome at in-person ceremonies, depending on the room size. If you want them there, I’d recommend asking for an in-person ceremony when you respond to the invitation, since virtual ones are more common now."],
+       ["B", "I’ll definitely do that. Thank you, Philippa. You’ve been very helpful."]
+      ],
+      "qs": [
+       {
+        "q": "How do most applicants take the citizenship test now?",
+        "o": ["In a room with other applicants", "At an office with an official", "Online from their own home", "By phone with an interviewer"],
+        "a": 2, "t": "detail",
+        "ev": "now most tests are taken online, at home, on a computer",
+        "x": "Most tests are now taken online at home. The group room was how his friend did it years ago, and an interview with an official happens only after a second failure."
+       },
+       {
+        "q": "What happens if an applicant fails the test twice?",
+        "o": ["They meet with an official.", "They must wait a year to reapply.", "They have to restart the application.", "They take a written test at an office."],
+        "a": 0, "t": "paraphrase",
+        "ev": "If you fail a second time, you’ll be scheduled for an interview with an official",
+        "x": "After a second failure, the applicant is scheduled for an interview with an official. Nothing is said about waiting a year or restarting the application."
+       },
+       {
+        "q": "What does Philippa suggest about practice tests from other websites?",
+        "o": ["They are the quickest way to prepare.", "They are similar to the audio version.", "They use the same questions as the test.", "They may include outdated information."],
+        "a": 3, "t": "inference",
+        "ev": "Some of them are out of date.",
+        "x": "She advises against relying on them because some are out of date. The real questions come from the official guide, not from these websites."
+       },
+       {
+        "q": "What is true about Rohan and his wife taking the test?",
+        "o": ["They may sit together if they share one computer.", "Each must complete it independently.", "They can help each other with hard questions.", "They must take it at an office with a camera."],
+        "a": 1, "t": "detail",
+        "ev": "Each of you needs to take it separately, on your own device",
+        "x": "Each spouse must take the test separately, on their own device, with no help from family. The camera may be used at home, not at an office."
+       },
+       {
+        "q": "Why does Rohan’s son not need to take the test?",
+        "o": ["He was born after the application was sent.", "He already speaks English fluently.", "He will take it when he turns eighteen.", "He is below the age at which it is required."],
+        "a": 3, "t": "inference",
+        "ev": "Applicants under eighteen don’t take the test",
+        "x": "Applicants under eighteen are not tested, and his son is twelve. Nothing says he will take it later or that his English level matters."
+       },
+       {
+        "q": "What will Rohan most likely do when he receives his ceremony invitation?",
+        "o": ["Ask for a ceremony that guests can attend", "Ask to move the ceremony to the summer", "Choose a virtual ceremony for his parents", "Invite his parents to watch it online"],
+        "a": 0, "t": "prediction",
+        "ev": "I’d recommend asking for an in-person ceremony when you respond to the invitation",
+        "x": "He agrees to request an in-person ceremony so his visiting parents can attend as guests. Guests are welcome only in person, so a virtual ceremony would not work."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 4,
+    "context": "You will hear a local news report about new municipal rules.",
+    "sp": {
+     "A": {"name": "News anchor", "g": "m", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Vikram Sandhu", "g": "m", "acc": "en-IN", "rate": 0.98}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "After more than a year of debate, city council has approved new rules for short-term rentals, the homes and apartments that owners rent to visitors by the night through online platforms. Starting in April, hosts will only be allowed to rent out their principal residence, meaning the home where they actually live most of the year. Units that are rented out full-time, without the owner living there, will no longer be permitted."],
+       ["A", "Every host will also need a city licence, which will cost two hundred and fifty dollars a year, and the licence number must appear in every online listing. Hosts who rent out an entire home while they’re away will be limited to one hundred and twenty nights a year. There will be no limit for renting out a single room while the host is at home."],
+       ["A", "The city says there are currently about two thousand four hundred short-term rental listings, and staff estimate that roughly a third are entire homes with no one living in them. Council’s hope is that many of those will return to the long-term rental market, where vacancy rates are below one percent."],
+       ["A", "Vikram Sandhu rents out the basement suite of his house on weekends. He says the rules are reasonable for people like him, but he has doubts about how they’ll be enforced."],
+       ["B", "Honestly, I don’t mind getting a licence. Hosts like me were never the problem. My worry is that the big operators, the ones with ten or twenty units, will just list them under friends’ names and carry on. Unless the city actually checks, the rules only punish the people who follow them."],
+       ["A", "City staff say the platforms will be required to remove listings that don’t display a valid licence number, and the city is hiring four additional bylaw officers for enforcement. Fines for operating without a licence will start at one thousand dollars per day."],
+       ["A", "Some local businesses have expressed concern. The hotel association supports the change, but a group representing restaurants and shops in the historic district warned that fewer visitors might stay downtown during the summer festival season."]
+      ],
+      "qs": [
+       {
+        "q": "What is the main change in the new rules?",
+        "o": ["Only homes where the host lives can be rented.", "Hosts may rent rooms for only 120 nights.", "Short-term rentals will be banned downtown.", "Platforms must pay a yearly licence fee."],
+        "a": 0, "t": "main",
+        "ev": "hosts will only be allowed to rent out their principal residence",
+        "x": "Hosts may rent only their principal residence. The 120-night limit applies to whole homes while the host is away, not to single rooms, and hosts – not platforms – pay the fee."
+       },
+       {
+        "q": "What is true about renting a room while the host is at home?",
+        "o": ["It is limited to weekends only.", "It requires a second licence.", "It is capped at 120 nights a year.", "It has no limit on the number of nights."],
+        "a": 3, "t": "detail",
+        "ev": "There will be no limit for renting out a single room while the host is at home.",
+        "x": "Renting a single room while at home has no night limit. The 120-night cap applies to entire homes rented while the host is away."
+       },
+       {
+        "q": "What does council hope the rules will achieve?",
+        "o": ["More visitors staying in local hotels", "Higher licence revenue for the city", "More homes available to long-term tenants", "Fewer complaints from historic district shops"],
+        "a": 2, "t": "inference",
+        "ev": "many of those will return to the long-term rental market",
+        "x": "Council hopes empty short-term units will return to the long-term market, where vacancy is under one percent. The hotel association supports the change, but that is not council’s aim."
+       },
+       {
+        "q": "What is Mr. Sandhu’s main concern?",
+        "o": ["The licence fee is too high for small hosts.", "Large operators may find ways around the rules.", "Weekend rentals will no longer be allowed.", "Platforms may remove his listing by mistake."],
+        "a": 1, "t": "viewpoint",
+        "ev": "will just list them under friends’ names and carry on",
+        "x": "He fears big operators will use friends’ names to avoid the rules. He says he doesn’t mind getting a licence, so the fee is not his concern."
+       },
+       {
+        "q": "How do shop and restaurant owners in the historic district feel?",
+        "o": ["They fully support the new restrictions.", "They plan to open their own rental units.", "They expect the festival to be cancelled.", "They fear losing some visitor spending."],
+        "a": 3, "t": "attitude",
+        "ev": "fewer visitors might stay downtown during the summer festival season",
+        "x": "They warn that fewer visitors may stay downtown, which would mean less business. It is the hotel association, not these businesses, that supports the change."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 5,
+    "context": "Three volunteers are planning a festival to welcome newcomers to their city.",
+    "sp": {
+     "A": {"name": "Oksana", "g": "f", "acc": "en-CA", "rate": 1.0},
+     "B": {"name": "Bernard", "g": "m", "acc": "en-GB", "rate": 0.98},
+     "C": {"name": "Mei Lin", "g": "f", "acc": "en-AU", "rate": 1.04}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "Okay, the good news first: the city approved our permit for the Welcome Festival at Lakeview Park on August ninth. The less good news is that it came with conditions, and we need to decide tonight how to handle them."],
+       ["B", "Let me guess. Insurance."],
+       ["A", "Insurance is one. They want two million dollars of liability coverage, and the quote I got is nine hundred dollars. The other big one is that amplified sound has to stop at eight p.m., because of the homes on the north side of the park."],
+       ["C", "Eight? Our headline band was supposed to start at eight thirty. That was the whole evening plan."],
+       ["A", "I know. So, two problems: paying for the insurance and fixing the schedule. Let’s start with money. Our budget has about four hundred dollars left after the tents and the stage."],
+       ["B", "Then I think we should charge the vendors. Fifty dollars a table. We’ve got twenty-two food and craft vendors signed up. That’s eleven hundred dollars, which covers the insurance with room to spare."],
+       ["C", "Bernard, most of those vendors are newcomer families selling dumplings or embroidery for the first time. That’s the entire point of the festival. Fifty dollars could be a whole day’s profit for some of them."],
+       ["B", "I understand, but they’re making money, and we’re volunteers paying out of our own pockets. A small fee isn’t unreasonable."],
+       ["A", "What about a sliding scale? Commercial vendors pay fifty, and first-time family vendors pay nothing."],
+       ["C", "How many of the twenty-two are commercial?"],
+       ["A", "Seven. The food trucks and the two bakeries."],
+       ["B", "That’s only three hundred and fifty. Plus our four hundred, that’s seven fifty. Still a hundred and fifty short."],
+       ["C", "We could ask the settlement agency. They gave us a small sponsorship last year, and they did say to come back if we needed help."],
+       ["B", "Fine. I’m not thrilled about relying on a maybe, but if they say yes, I can live with the sliding scale."],
+       ["A", "Good. I’ll call them tomorrow. Now, the schedule. Mei Lin, can the band start earlier?"],
+       ["C", "I asked them last week, actually, when I saw the draft conditions. They can do six thirty, but only for an hour, because they have another gig at nine."],
+       ["A", "That works. Music from six thirty to seven thirty, then the community potluck finishes the evening without amplification. People can still stay until dusk."],
+       ["B", "I actually prefer that. The potluck was always the part people talked about afterwards anyway."],
+       ["C", "Agreed. I’ll tell the band today and update the poster."],
+       ["A", "And Bernard, could you email the vendors about the fee? Make it clear that first-time family vendors pay nothing."],
+       ["B", "I’ll do it, as long as the sponsorship comes through. I’ll wait for your call before I send anything."]
+      ],
+      "qs": [
+       {
+        "q": "What does Oksana say about the festival permit?",
+        "o": ["It was refused because of noise complaints.", "It was granted, but with requirements.", "It allows amplified music until eight thirty.", "It requires the festival to move to another park."],
+        "a": 1, "t": "paraphrase",
+        "ev": "it came with conditions",
+        "x": "The permit was approved but “came with conditions”, such as insurance and a sound curfew. Eight thirty was the band’s planned start, not the permitted limit."
+       },
+       {
+        "q": "Why does Mei Lin object to charging every vendor fifty dollars?",
+        "o": ["Vendors already paid for the tents and stage.", "The fee would not cover the insurance cost.", "It could hurt the people the event aims to help.", "Commercial vendors have refused to pay it."],
+        "a": 2, "t": "viewpoint",
+        "ev": "That’s the entire point of the festival.",
+        "x": "Most vendors are newcomer families selling for the first time, which is the festival’s purpose, and a fee could eat their profit. A flat fee would actually cover the insurance."
+       },
+       {
+        "q": "What is Bernard’s argument for a vendor fee?",
+        "o": ["Vendors earn money while volunteers pay costs.", "Other festivals charge much higher fees.", "The insurer requires vendors to pay a share.", "The city has asked them to charge vendors."],
+        "a": 0, "t": "inference",
+        "ev": "they’re making money, and we’re volunteers paying out of our own pockets",
+        "x": "He argues vendors profit while volunteers pay from their own pockets. Neither other festivals nor the insurer is mentioned as a reason."
+       },
+       {
+        "q": "Why is the sliding scale not enough on its own?",
+        "o": ["Most vendors are commercial businesses.", "The settlement agency refused to help.", "The insurance quote rose unexpectedly.", "It leaves them short of the needed amount."],
+        "a": 3, "t": "inference",
+        "ev": "Still a hundred and fifty short.",
+        "x": "Seven commercial vendors pay $350; with the $400 budget that makes $750, still $150 below the $900 quote. Only seven of the twenty-two vendors are commercial."
+       },
+       {
+        "q": "How does Bernard feel about the sliding scale plan?",
+        "o": ["He strongly prefers it to his flat fee.", "He rejects it as unfair to volunteers.", "He accepts it with some reluctance.", "He thinks it should apply to all vendors."],
+        "a": 2, "t": "attitude",
+        "ev": "I’m not thrilled about relying on a maybe",
+        "x": "“Not thrilled… but I can live with” it shows reluctant, conditional acceptance. He does not prefer it to his original flat fee."
+       },
+       {
+        "q": "What had Mei Lin already done about the band?",
+        "o": ["Cancelled their performance", "Asked whether they could play earlier", "Booked them for a nine o’clock show", "Moved them to the potluck area"],
+        "a": 1, "t": "detail",
+        "ev": "I asked them last week, actually, when I saw the draft conditions.",
+        "x": "She had already asked the band about an earlier time after seeing the draft conditions. Nine o’clock is the band’s other gig, not one she booked."
+       },
+       {
+        "q": "How does Bernard react to the new evening plan?",
+        "o": ["He worries people will leave too early.", "He thinks the band should play longer.", "He accepts it only for this year.", "He feels it may actually be an improvement."],
+        "a": 3, "t": "attitude",
+        "ev": "I actually prefer that.",
+        "x": "He says he prefers it, since the potluck was always the most memorable part. He shows no worry about people leaving or the band’s set length."
+       },
+       {
+        "q": "When will Bernard email the vendors?",
+        "o": ["After Oksana confirms the sponsorship", "Immediately after the meeting ends", "Once the band agrees to the new time", "When the poster has been updated"],
+        "a": 0, "t": "prediction",
+        "ev": "I’ll wait for your call before I send anything.",
+        "x": "He will wait for Oksana’s call about the sponsorship, which she is making tomorrow. The band and poster are Mei Lin’s tasks."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "n": 6,
+    "context": "You will hear a report about how residents take part in city council meetings.",
+    "sp": {
+     "A": {"name": "Reporter", "g": "f", "acc": "en-CA", "rate": 1.02},
+     "B": {"name": "Felix Marchetti", "g": "m", "acc": "en-US", "rate": 1.0}
+    },
+    "sections": [
+     {
+      "lines": [
+       ["A", "During the pandemic, city councils across the country did something many had never tried: they let residents address council from home, by video or phone, instead of travelling to city hall and waiting, sometimes for hours, for their turn to speak. Now that in-person meetings are back, councils are deciding whether to keep that option permanently, and the answers differ widely."],
+       ["A", "In Riverton, council voted last month to make remote participation permanent. Councillor Felix Marchetti says the change opened the door to people who had never taken part before."],
+       ["B", "Before, if you wanted to speak to council about a bylaw, you had to come downtown on a weekday afternoon and sit in the gallery until your item came up. That works if you’re retired or your boss is flexible. It doesn’t work if you’re a single parent or a shift worker. In the first year of remote delegations, the number of residents who spoke to council roughly doubled, and we heard from neighbourhoods that were almost silent before."],
+       ["A", "Not every council has reached the same conclusion. In the neighbouring town of Ashcombe, council ended remote delegations in the spring. The mayor there argued that speaking in person, face to face with the people making the decision, encourages more respectful and better-prepared comments. Several councillors also reported that remote speakers sometimes lost their connection mid-sentence, or that a few people used the option to read the same prepared statement at meeting after meeting, which made meetings significantly longer."],
+       ["A", "Clerks who run the meetings add a practical concern. A hybrid meeting requires cameras, microphones and staff to manage the online queue. One clerk estimated that it adds the equivalent of a half-time position to her office’s workload. For small municipalities with only a handful of staff, that is not a small cost."],
+       ["B", "I understand those concerns, and I won’t pretend every remote presentation has been brilliant. But plenty of in-person presentations aren’t either. The question is whether we’re willing to put up with a few technical hiccups in exchange for hearing from a much wider range of people. For us, the answer was clearly yes."],
+       ["A", "Some councils are trying a middle path. They allow remote delegations only for certain kinds of items, such as public hearings on zoning, or require remote speakers to register a day ahead so staff can test their connection. Others keep remote participation but set a stricter time limit for each speaker, whether in person or online."],
+       ["A", "Researchers who study local democracy point out that turnout in municipal elections is often below forty percent, and that the people who speak at council meetings tend to be older, wealthier homeowners. Whether remote participation changes that over the long term is still unclear, but for now, it has become one of the quieter tests of how open local government wants to be."]
+      ],
+      "qs": [
+       {
+        "q": "What is the main subject of the report?",
+        "o": ["How to register to speak at city council", "Why councils stopped meeting in person", "How the pandemic changed local elections", "Whether councils should keep remote public input"],
+        "a": 3, "t": "main",
+        "ev": "councils are deciding whether to keep that option permanently",
+        "x": "The report compares councils deciding whether to keep remote participation. In-person meetings have returned, and elections are mentioned only briefly at the end."
+       },
+       {
+        "q": "According to Councillor Marchetti, what happened after Riverton allowed remote delegations?",
+        "o": ["Meetings became shorter and more focused.", "Participation grew and became more varied.", "Retired residents stopped speaking at council.", "Shift workers were given paid time to attend."],
+        "a": 1, "t": "paraphrase",
+        "ev": "the number of residents who spoke to council roughly doubled",
+        "x": "Speakers roughly doubled and included formerly silent neighbourhoods – more and more varied participation. Longer meetings were a complaint in Ashcombe, not Riverton’s result."
+       },
+       {
+        "q": "Why did the mayor of Ashcombe support ending remote delegations?",
+        "o": ["Speaking in person leads to better comments.", "Remote speakers were rude to councillors.", "The equipment was too expensive to maintain.", "Few residents actually used the remote option."],
+        "a": 0, "t": "viewpoint",
+        "ev": "encourages more respectful and better-prepared comments",
+        "x": "The mayor believed in-person speaking produces more respectful, better-prepared comments. Cost was raised by clerks, not the mayor, and no one said remote speakers were rude."
+       },
+       {
+        "q": "What concern do the clerks raise?",
+        "o": ["Remote speakers ignore the time limits.", "Cameras make councillors uncomfortable.", "Hybrid meetings increase staff workload.", "Online queues are hard for residents to join."],
+        "a": 2, "t": "detail",
+        "ev": "it adds the equivalent of a half-time position to her office’s workload",
+        "x": "One clerk estimated hybrid meetings add half a position to her workload, a real cost for small towns. Time limits are a solution some councils use, not the clerks’ concern."
+       },
+       {
+        "q": "How does Councillor Marchetti respond to the criticisms?",
+        "o": ["He admits flaws but says wider input is worth it.", "He says the technical problems have been fixed.", "He agrees remote speakers are less prepared.", "He suggests limiting the option to zoning items."],
+        "a": 0, "t": "attitude",
+        "ev": "I won’t pretend every remote presentation has been brilliant.",
+        "x": "He concedes some remote presentations are weak but values hearing from more people. Limiting the option to zoning items is what other councils do, not his proposal."
+       },
+       {
+        "q": "What is the reporter’s conclusion?",
+        "o": ["Remote participation has raised election turnout.", "Small towns should avoid hybrid meetings.", "The long-term effect is still uncertain.", "Most councils have chosen a middle path."],
+        "a": 2, "t": "main",
+        "ev": "Whether remote participation changes that over the long term is still unclear",
+        "x": "She says it is still unclear whether remote participation will change who takes part. She mentions turnout below forty percent, but no rise linked to remote options."
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "R": {
+  "p1": {
+   "meta": "From: Yusra Kamali, Emergency Management Coordinator, Town of Bellhaven | To: Patrick Ndiaye | Subject: Welcome to the Neighbourhood Emergency Response Team",
+   "text": "Dear Mr. Ndiaye,\n\nThank you for volunteering for Bellhaven’s Neighbourhood Emergency Response Team (NERT). After the ice storm last winter, when parts of town were without power for four days, many residents told us they wanted to help but did not know how. Programs like this one exist so that next time, trained neighbours can check on vulnerable residents, staff warming centres and pass information to our emergency operations centre while emergency crews focus on the most urgent calls.\n\nI am pleased to confirm a place for you in the spring training group. The course consists of four Saturday sessions from 9:00 a.m. to 3:00 p.m., starting April 5, at the Fire Hall on Gage Street. Topics include basic first aid, fire safety, radio communication and how to organize a neighbourhood check-in. You must attend all four sessions to be certified; if you miss one, you can make it up with the fall group, but your certification will be delayed until then.\n\nOriginally, the course was to end with a full-day field exercise on a fifth Saturday. Because of the number of volunteers this year, we have instead divided the group in two, and each half will complete a shorter evening exercise in May. You will receive your date once the groups are finalized.\n\nPlease note that NERT members are volunteers, not first responders. You will never be asked to enter a damaged building, fight a fire or direct traffic. Your role is to support, observe and report. Members are covered by the town’s volunteer insurance while on assigned duty, but not when acting on their own initiative, so please always check in with the coordinator before starting any task during an emergency.\n\nBefore April 5, please complete the online consent form and send us a photo for your identification badge. If you have any medical training, such as nursing or paramedic experience, please let me know, as we hope to assign experienced members as team leads.\n\nWe are very grateful for your interest, and I look forward to meeting you at the first session.\n\nSincerely,\nYusra Kamali\nEmergency Management Coordinator",
+   "qs": [
+    {
+     "q": "Why was the response team program created?",
+     "o": ["To replace emergency crews during power outages", "To train residents to become firefighters", "To raise funds for the town’s warming centres", "To channel residents’ wish to help in a crisis"],
+     "a": 3, "t": "purpose",
+     "ev": "many residents told us they wanted to help but did not know how",
+     "x": "Residents wanted to help after the ice storm but did not know how, so the program gives them a role. Members support crews rather than replace them, and they never fight fires."
+    },
+    {
+     "q": "What happens if Mr. Ndiaye misses one Saturday session?",
+     "o": ["He will be removed from the program.", "He will be certified later than planned.", "He must repeat all four sessions in the fall.", "He can attend an evening session in May."],
+     "a": 1, "t": "inference",
+     "ev": "your certification will be delayed until then",
+     "x": "He can make up the missed session with the fall group, so certification is delayed. He does not repeat all four, and the May evening session is the field exercise."
+    },
+    {
+     "q": "What change was made to the course?",
+     "o": ["The final exercise was split between two groups.", "A fifth Saturday session was added to the course.", "The course was moved from spring to the fall.", "The field exercise was cancelled completely."],
+     "a": 0, "t": "paraphrase",
+     "ev": "we have instead divided the group in two",
+     "x": "The full-day fifth-Saturday exercise was replaced by two shorter evening exercises, one for each half of the group. The exercise still happens, so it was not cancelled."
+    },
+    {
+     "q": "When are members NOT covered by the town’s insurance?",
+     "o": ["When they attend the Saturday training", "When they staff a warming centre in a storm", "When they act without being given a task", "When they check on vulnerable neighbours"],
+     "a": 2, "t": "detail",
+     "ev": "but not when acting on their own initiative",
+     "x": "Insurance applies on assigned duty but not when members act on their own initiative. Staffing warming centres and checking on neighbours are assigned roles."
+    },
+    {
+     "q": "Why does Ms. Kamali ask about medical training?",
+     "o": ["Medical training is required for certification.", "Experienced volunteers may be given leadership roles.", "Trained volunteers will treat injured residents.", "Insurance coverage depends on qualifications."],
+     "a": 1, "t": "inference",
+     "ev": "we hope to assign experienced members as team leads",
+     "x": "She hopes to make experienced members team leads. Medical training is not required, and members are told they are not first responders."
+    },
+    {
+     "q": "In the letter, the phrase “on their own initiative” is closest in meaning to …",
+     "o": ["without being instructed to", "in their own neighbourhood", "at their own expense", "outside of training hours"],
+     "a": 0, "t": "vocab",
+     "ev": "acting on their own initiative",
+     "x": "Acting on your own initiative means deciding to act without being told to – the opposite of “assigned duty”. It has nothing to do with location or cost."
+    }
+   ],
+   "reply": {
+    "intro": "Here is Mr. Ndiaye’s response. Complete it by choosing the best option for each blank.",
+    "text": "Dear Ms. Kamali,\n\nThank you for your letter. I am glad to confirm my place in the spring group. I have already put all four Saturdays in my calendar, since I would like to {1} rather than wait for the fall.\n\nRegarding your question, I worked as a {2} for six years before moving to Bellhaven, so I would be happy to be considered for a team lead position.\n\nI have one question about the May exercise. I work evening shifts twice a week, so could you please {3} when the groups are finalized?\n\nI also appreciate the clear explanation of our role. During the ice storm, I saw a neighbour try to {4}, which I now understand is exactly what NERT members should not do.\n\nI will {5} this week and look forward to meeting you on April 5.\n\nBest regards,\nPatrick Ndiaye",
+    "blanks": [
+     {
+      "o": ["join the fall training group", "skip the field exercise", "be certified as soon as possible", "attend only the evening exercise"],
+      "a": 2, "t": "inference",
+      "ev": "your certification will be delayed until then",
+      "x": "Attending all four Saturdays avoids the delay that comes with making up a session in the fall. Joining the fall group is exactly what he wants to avoid."
+     },
+     {
+      "o": ["school teacher", "building inspector", "radio announcer", "paramedic"],
+      "a": 3, "t": "inference",
+      "ev": "such as nursing or paramedic experience",
+      "x": "Only medical experience such as paramedic work answers her question about team leads. Radio communication is a course topic, not a medical qualification."
+     },
+     {
+      "o": ["excuse me from the exercise", "take my schedule into account", "send me the consent form", "move me to the fall group"],
+      "a": 1, "t": "coherence",
+      "ev": "You will receive your date once the groups are finalized.",
+      "x": "Because exercise dates are set when groups are finalized and he works some evenings, he asks her to consider his shifts. He wants to keep his spring place, not move to the fall."
+     },
+     {
+      "o": ["direct traffic at a broken signal", "check on an elderly neighbour", "report a fallen power line", "help out at the warming centre"],
+      "a": 0, "t": "inference",
+      "ev": "You will never be asked to enter a damaged building, fight a fire or direct traffic.",
+      "x": "Directing traffic is listed as something members must never do. Checking on neighbours, reporting and staffing warming centres are part of their role."
+     },
+     {
+      "o": ["bring a photo to the fire hall", "call the operations centre", "finish my first-aid course", "submit the form and my photo"],
+      "a": 3, "t": "detail",
+      "ev": "please complete the online consent form and send us a photo for your identification badge",
+      "x": "Before April 5 he must complete the online form and send a photo. The photo is sent, not brought to the fire hall, and first aid is taught in the course."
+     }
+    ]
+   }
+  },
+  "p2": {
+   "diagram": {
+    "title": "Lakeshore Regional Transit – 2027 Fares and Discount Programs",
+    "intro": "Fares are paid with a Tapcard or a contactless bank card. Discounted fares require a registered Tapcard with an approved discount.",
+    "table": {
+     "cols": ["Fare type", "Single ride", "Monthly pass", "Who qualifies", "How to apply"],
+     "rows": [
+      ["Adult", "$3.50", "$128", "Ages 20–64", "No application needed"],
+      ["Youth", "$2.75", "$96", "Ages 13–19 (proof of age)", "Online or at a customer centre"],
+      ["Senior", "$2.25", "$60", "Ages 65+", "Online or at a customer centre"],
+      ["Child", "Free", "Free", "Ages 12 and under, riding with a fare-paying rider", "No application needed"],
+      ["Fair Fare (low income)", "$1.75", "$54", "Household income below the low-income threshold", "In person, with tax assessment"],
+      ["Newcomer Welcome Pass", "–", "Free for first 2 months", "Permanent residents or refugees who arrived in the last 12 months", "Through a settlement agency"]
+     ]
+    },
+    "notes": [
+     "Fare capping: once you pay for 36 single rides in a calendar month on the same Tapcard, all further rides that month are free.",
+     "Transfers: a single fare is valid for 90 minutes of travel in any direction.",
+     "Discounts cannot be combined. Riders who qualify for two discounts receive the lower fare.",
+     "Tapcards cost $6 (waived for Fair Fare and Newcomer Welcome Pass holders).",
+     "Customer centres are closed on Sundays and statutory holidays."
+    ]
+   },
+   "email": {
+    "intro": "Read the following email about transit fares. Complete the email by choosing the best option for each blank.",
+    "text": "Hi Kofi,\n\nThanks for asking about transit before your family arrives in September. Since you’ll be permanent residents, you and Ama can get the Newcomer Welcome Pass through the settlement agency, which means your first {1} of travel will be free. You’ll also pay {2} for your Tapcards.\n\nAfter that, if your income is low enough for Fair Fare, Efua, who will be 16, will pay {3} for a monthly pass, since riders always get the lower of two discounts. Kwesi is 11, so he {4} whenever he travels with one of you.\n\nIf you’d rather pay per ride on Fair Fare, remember that the monthly cap means you’ll never pay more than {5} in a month, so the pass is still the better deal.\n\nOne last thing: don’t plan to apply on your first Sunday here, because the customer centres are closed.\n\nSee you soon,\nAbena",
+    "blanks": [
+     {
+      "o": ["twelve months", "two months", "thirty-six rides", "ninety minutes"],
+      "a": 1, "t": "diagram",
+      "ev": "Free for first 2 months",
+      "x": "The Newcomer Welcome Pass is free for the first two months. Twelve months is the arrival window for eligibility, not the length of free travel."
+     },
+     {
+      "o": ["nothing", "$6", "$3", "$12"],
+      "a": 0, "t": "diagram",
+      "ev": "Tapcards cost $6 (waived for Fair Fare and Newcomer Welcome Pass holders).",
+      "x": "The $6 Tapcard fee is waived for Newcomer Welcome Pass holders, so they pay nothing. $12 would be two cards at full price."
+     },
+     {
+      "o": ["$96", "$128", "$75", "$54"],
+      "a": 3, "t": "diagram",
+      "ev": "Riders who qualify for two discounts receive the lower fare.",
+      "x": "Efua qualifies for both Youth ($96) and Fair Fare ($54), and riders get the lower fare, so $54. $96 is the youth price alone."
+     },
+     {
+      "o": ["pays the youth fare", "needs a separate pass", "rides for free", "pays $1.75 a ride"],
+      "a": 2, "t": "diagram",
+      "ev": "Ages 12 and under, riding with a fare-paying rider",
+      "x": "Children 12 and under ride free with a fare-paying rider. The youth fare starts at age 13."
+     },
+     {
+      "o": ["$63.00", "$54.00", "$126.00", "$45.00"],
+      "a": 0, "t": "diagram",
+      "ev": "once you pay for 36 single rides in a calendar month on the same Tapcard, all further rides that month are free",
+      "x": "The cap is reached after 36 paid rides: 36 × $1.75 = $63, more than the $54 pass. $126 uses the adult single fare."
+     }
+    ]
+   },
+   "qs": [
+    {
+     "q": "A 70-year-old rider pays single fares for 40 rides in one calendar month on her Tapcard. How much does she pay that month?",
+     "o": ["$90.00", "$60.00", "$81.00", "$72.00"],
+     "a": 2, "t": "diagram",
+     "ev": "once you pay for 36 single rides in a calendar month on the same Tapcard, all further rides that month are free",
+     "x": "She pays 36 × $2.25 = $81, and rides 37–40 are free. $90 charges all 40 rides, and $60 is the senior pass she did not buy."
+    },
+    {
+     "q": "An adult pays a single fare at 8:00 a.m. and boards a bus home at 9:45 a.m. What must she do?",
+     "o": ["Nothing, since transfers are free all day", "Pay a second fare for the trip home", "Pay a reduced transfer fee of $1.75", "Show her card to the driver to ride free"],
+     "a": 1, "t": "diagram",
+     "ev": "a single fare is valid for 90 minutes of travel in any direction",
+     "x": "The fare is valid for 90 minutes, until 9:30, so a 9:45 trip needs a new fare. $1.75 is the Fair Fare price, not a transfer fee."
+    },
+    {
+     "q": "Which person can get the Newcomer Welcome Pass?",
+     "o": ["A work-permit holder who arrived three months ago", "A permanent resident who arrived two years ago", "A refugee who applies directly at a customer centre", "A refugee who arrived last month, via an agency"],
+     "a": 3, "t": "diagram",
+     "ev": "Permanent residents or refugees who arrived in the last 12 months",
+     "x": "A refugee who arrived last month and applies through a settlement agency qualifies. Work-permit holders are not listed, and applications go through an agency, not a customer centre."
+    }
+   ]
+  },
+  "p3": {
+   "title": "Every Word Counts: Interpreters in Canadian Courtrooms",
+   "paras": [
+    "Under the Canadian Charter of Rights and Freedoms, anyone involved in a court case who does not understand or speak the language of the proceedings, or who is deaf, has the right to the assistance of an interpreter. Courts across the country rely on interpreters in hundreds of languages, and a busy courthouse in a large city may need interpreters in more than fifty languages in a single month. The demand has grown steadily as immigration has increased and as communities from new parts of the world have settled in Canadian cities and towns. Yet the people who provide this essential service are often invisible. Most court interpreters are freelancers who are booked for a half-day or a full day at a time, rather than salaried employees, and many combine court work with medical, community or conference interpreting in order to earn a stable income.",
+    "Becoming an accredited court interpreter is demanding. Provinces that offer accreditation test candidates on legal vocabulary as well as on consecutive interpreting, in which the interpreter speaks after the witness pauses, and simultaneous interpreting, in which the interpreter speaks at almost the same time. Pass rates are low; in one province, fewer than one in four candidates succeed on their first attempt. For less common languages, there may be no accredited interpreter at all. In those cases, courts may use conditionally qualified interpreters, whose abilities have been assessed less formally, sometimes only through a short interview. Lawyers who work regularly with interpreters say that the quality of interpretation therefore varies widely from one case to the next, and that this variation is rarely visible to judges who do not speak the language themselves.",
+    "The consequences of a poor interpretation can be serious. Appeal courts have overturned convictions after finding that an accused person did not receive an adequate interpretation, for example when an interpreter summarized testimony instead of translating it completely. Even small choices matter. The difference between “maybe” and “probably”, or between a past and a present tense, can change how a judge understands a witness. Interpreters also work under considerable pressure. They may interpret for hours with few breaks, and in criminal and family cases they must repeat emotionally painful testimony in the first person, saying “I” as though the words were their own. Many say they receive little or no support for the emotional effects of this work, even after particularly disturbing trials.",
+    "Technology is changing the profession. Since the pandemic, many courts have used video interpreting, which allows an interpreter in one city to serve a courtroom hundreds of kilometres away and makes it easier to find speakers of rare languages. Interpreters, however, say that video makes it harder to read body language and harder to interrupt politely when they need a speaker to repeat or clarify something. Some observers have suggested that artificial intelligence could eventually translate court proceedings, but most legal experts believe the technology is not ready for courtrooms, where accuracy is essential, although it may one day help with written documents. Meanwhile, interpreters’ associations warn that hourly rates have not kept pace with inflation, which they say is discouraging younger people from entering the profession."
+   ],
+   "qs": [
+    {"q": "It is difficult to obtain accreditation as a court interpreter.", "a": "B", "t": "paraphrase", "ev": "fewer than one in four candidates succeed on their first attempt", "x": "Paragraph B describes demanding accreditation tests and pass rates of fewer than one in four on the first attempt."},
+    {"q": "Working by video can make it harder for interpreters to ask for clarification.", "a": "D", "t": "paraphrase", "ev": "harder to interrupt politely when they need a speaker to repeat or clarify something", "x": "Paragraph D reports that video makes it harder for interpreters to interrupt when they need something repeated or clarified."},
+    {"q": "Most court interpreters are able to work in more than two languages.", "a": "E", "t": "notgiven", "ev": "", "x": "The text discusses many languages in courts, but never says how many languages individual interpreters work in."},
+    {"q": "Most interpreters are not permanent court employees.", "a": "A", "t": "paraphrase", "ev": "Most court interpreters are freelancers", "x": "Paragraph A says most court interpreters are freelancers booked by the half-day or day, not salaried employees."},
+    {"q": "Some convictions have been reversed because of inadequate interpretation.", "a": "C", "t": "paraphrase", "ev": "Appeal courts have overturned convictions after finding that an accused person did not receive an adequate interpretation", "x": "Paragraph C states that appeal courts have overturned convictions when interpretation was inadequate."},
+    {"q": "Interpreters believe their pay has fallen behind rising prices.", "a": "D", "t": "paraphrase", "ev": "hourly rates have not kept pace with inflation", "x": "Paragraph D reports interpreters’ associations warning that hourly rates have not kept pace with inflation."},
+    {"q": "The need for court interpreters has increased along with immigration.", "a": "A", "t": "detail", "ev": "The demand has grown steadily as immigration has increased", "x": "Paragraph A explains that demand has grown steadily as immigration has increased."},
+    {"q": "Some courts already use artificial intelligence to translate written documents.", "a": "E", "t": "notgiven", "ev": "", "x": "Paragraph D says AI “may one day help” with documents – a future possibility, not current practice."},
+    {"q": "For certain languages, courts rely on interpreters who are not fully accredited.", "a": "B", "t": "detail", "ev": "courts may use conditionally qualified interpreters", "x": "Paragraph B explains that when no accredited interpreter exists, courts may use conditionally qualified interpreters."}
+   ]
+  },
+  "p4": {
+   "title": "Let’s Hand Some Big Decisions to Randomly Chosen Residents",
+   "byline": "Opinion | by Tobias Wren, community organizer",
+   "text": "Anyone who has attended a city consultation knows the pattern. A notice goes up. A meeting is held in a school gym on a Tuesday night. Forty people come, most of them over sixty, most of them homeowners, many of them the same people who came to the last meeting. A handful speak passionately against whatever is proposed. Staff write a report summarizing ‘what we heard’, and council does roughly what it was planning to do anyway.\n\nThis is not anyone’s fault, exactly. Consultations are designed to collect opinions, not to produce decisions. But the result is that the loudest and most available voices are mistaken for public opinion, while the parents working evening shifts, the renters, the students and the newcomers are barely heard at all.\n\nThere is a better tool, and several Canadian cities have already tried it: the citizens’ assembly. The idea is simple. The city sends invitations to several thousand randomly selected households. From those who volunteer, a group of thirty to fifty people is chosen to reflect the community’s makeup by age, gender, neighbourhood, income and whether they rent or own. Members are paid for their time, and childcare and transportation are provided. Over several weekends, they hear from experts and from people with opposing views, ask questions, discuss the trade-offs in small groups and finally produce a set of recommendations for council.\n\nThe results have been impressive. Assemblies have tackled questions that councils find politically painful, such as where to allow taller buildings or how to pay for aging infrastructure, and they have usually reached thoughtful compromises. Members often report changing their minds after hearing the evidence, something that almost never happens at a public meeting, where people arrive with a position and leave with the same one. And because members are ordinary residents rather than activists, their recommendations can carry a credibility with the public that a staff report cannot.\n\nCritics raise fair objections. Assemblies are expensive: paying members, hiring facilitators and organizing several weekends can cost a few hundred thousand dollars. They are also slow, typically taking four to six months. And some councillors argue that unelected residents should not be making decisions for which elected officials are accountable.\n\nOn the last point, the answer is straightforward: assemblies do not make decisions. They make recommendations, and council remains free to accept or reject them. What changes is that council must respond to a considered judgment from a representative group of residents, rather than to whoever had time to attend a meeting. As for cost, a few hundred thousand dollars is small compared with the price of a poorly planned decision on a project worth hundreds of millions.\n\nI am not suggesting that assemblies replace every consultation. Routine matters, such as the design of a local park, can still be handled the usual way. But for the handful of decisions each term that will shape a city for decades, councils should stop asking ‘who showed up?’ and start asking ‘who is affected?’ A citizens’ assembly is one of the few tools we have that answers the second question.",
+   "qs": [
+    {
+     "q": "What is the writer’s main criticism of traditional consultations?",
+     "o": ["They mostly hear from an unrepresentative group.", "They are held too far from residents’ homes.", "They take too long to produce a decision.", "They are controlled by council staff."],
+     "a": 0, "t": "main",
+     "ev": "the loudest and most available voices are mistaken for public opinion",
+     "x": "He argues that the same small, older, home-owning group is mistaken for public opinion. Slowness is a criticism of assemblies, not of traditional consultations."
+    },
+    {
+     "q": "According to the writer, how are assembly members chosen?",
+     "o": ["Residents apply and the most qualified are picked.", "Council nominates residents from every neighbourhood.", "Community groups send their own representatives.", "Random invitees are selected to mirror the population."],
+     "a": 3, "t": "paraphrase",
+     "ev": "a group of thirty to fifty people is chosen to reflect the community’s makeup",
+     "x": "Invitations go to random households, and volunteers are selected to reflect the community’s makeup. Neighbourhood is one balancing factor, but council does not nominate anyone."
+    },
+    {
+     "q": "What does the writer present as a key advantage of assemblies?",
+     "o": ["They cost less than traditional meetings.", "Participants are willing to change their views.", "They let councillors avoid difficult votes.", "They can be completed in a few weeks."],
+     "a": 1, "t": "inference",
+     "ev": "Members often report changing their minds after hearing the evidence",
+     "x": "Members often change their minds after hearing evidence, unlike at public meetings. He admits assemblies are expensive and take four to six months."
+    },
+    {
+     "q": "How does the writer respond to the concern about unelected residents?",
+     "o": ["He says councillors are often poorly informed.", "He suggests assembly members should be elected.", "He points out that council keeps the final say.", "He admits that this concern cannot be answered."],
+     "a": 2, "t": "viewpoint",
+     "ev": "assemblies do not make decisions",
+     "x": "He answers that assemblies only recommend, and council remains free to accept or reject them. He calls the answer “straightforward”, not impossible."
+    },
+    {
+     "q": "Which issue would the writer most likely NOT send to an assembly?",
+     "o": ["Choosing equipment for a neighbourhood park", "Deciding where taller buildings are allowed", "Planning how to pay for aging water pipes", "Setting a thirty-year transportation plan"],
+     "a": 0, "t": "inference",
+     "ev": "Routine matters, such as the design of a local park, can still be handled the usual way.",
+     "x": "He says routine matters like a local park’s design can be handled the usual way. Building heights and infrastructure funding are examples he gives of assembly topics."
+    }
+   ],
+   "comment": {
+    "intro": "Here is a comment posted by a reader in response to the article. Complete the comment by choosing the best option for each blank.",
+    "text": "I sat on a citizens’ assembly about our city’s transit plan two years ago, so I read this with great interest. Mr. Wren describes the experience accurately. I went in certain that {1}, and I came out supporting it, because I finally understood the numbers. The fact that we were paid and that {2} also meant that people like my neighbour, a single mother, could take part.\n\nHowever, he skips over what happens afterwards. Our council accepted only {3} of our twenty recommendations, and nobody explained why the other seventeen were rejected. If councils can ignore assemblies without explanation, residents will soon decide that {4}.\n\nSo I would add one rule to his proposal: council should be required to {5} for every recommendation it turns down. Otherwise, a citizens’ assembly is just a more expensive way of saying ‘what we heard’.",
+    "blanks": [
+     {
+      "o": ["the assembly would be too costly", "transit was already run well", "the plan was a waste of money", "my neighbour would not take part"],
+      "a": 2, "t": "coherence",
+      "ev": "Members often report changing their minds after hearing the evidence",
+      "x": "She opposed the plan at first and “came out supporting it”, matching the article’s point about changing minds. “It” must refer to the plan, not the assembly."
+     },
+     {
+      "o": ["the sessions were held online", "childcare was provided", "council attended every weekend", "experts paid for our travel"],
+      "a": 1, "t": "detail",
+      "ev": "childcare and transportation are provided",
+      "x": "Childcare allowed a single mother to participate, as the article describes. The article says the city provides transportation; experts do not pay for it."
+     },
+     {
+      "o": ["seventeen", "twenty", "five", "three"],
+      "a": 3, "t": "coherence",
+      "ev": "nobody explained why the other seventeen were rejected",
+      "x": "Of twenty recommendations, seventeen were rejected, so only three were accepted. Seventeen is the number rejected."
+     },
+     {
+      "o": ["taking part is not worth the effort", "councillors should be elected", "public meetings are better", "assemblies cost too little"],
+      "a": 0, "t": "inference",
+      "ev": "nobody explained why the other seventeen were rejected",
+      "x": "If recommendations are ignored without explanation, residents will conclude participating is pointless. Nothing suggests they would prefer public meetings."
+     },
+     {
+      "o": ["pay assembly members more", "give a public reason", "hold a second assembly", "consult its staff first"],
+      "a": 1, "t": "inference",
+      "ev": "council must respond to a considered judgment",
+      "x": "Her complaint is that nobody explained the rejections, so she wants council to give reasons publicly. Paying members more does not address that problem."
+     }
+    ]
+   }
+  }
+ },
+ "W": {
+  "t1": {
+   "situation": "You bought a house and moved in two months ago. You notified the city’s utility billing office of the change of ownership, but the water bills are still being sent to the previous owner. Yesterday, you received a notice saying that the water will be shut off in ten days because the account is overdue.",
+   "bullets": [
+    "Explain when you moved in and how you notified the city",
+    "Describe why the shut-off notice is a serious problem for you",
+    "Explain what you want the city to do"
+   ],
+   "model": "Dear Utility Billing Office,\n\nI am writing about the water account for 418 Birchwood Drive, which I purchased on September 1. On September 4, I submitted the online change-of-ownership form, and I received a confirmation email with reference number CO-55172. However, the bills have continued to go to the previous owner, Mr. Ellison, and yesterday I received a notice stating that the water will be shut off on November 21 because the account is overdue.\n\nThis notice is extremely worrying. I have two young children, and my elderly mother, who recently had surgery, is staying with us. Losing water, even for a short time, would make our home impossible to live in. I also have no idea how much is owed, since I have never received a single bill.\n\nI would ask you to cancel the shut-off immediately and transfer the account into my name from September 1. Please send me a corrected statement showing only the charges since that date, and confirm that any late penalties will be removed, since the delay was not my fault. I am happy to pay the correct amount as soon as I receive it.\n\nSincerely,\nNomvula Fairbanks"
+  },
+  "t2": {
+   "intro": "Your city is closing an old fire station after building a new one, and it must decide how to use the empty building. It has asked residents for their opinion.",
+   "question": "Which option do you prefer? Explain the reasons for your choice.",
+   "a": "Convert the building into a community arts centre with studios, a small theatre and low-cost classes for all ages.",
+   "b": "Convert the building into six affordable apartments for seniors on low incomes, with a shared lounge on the ground floor.",
+   "model": "I would choose Option B, converting the old fire station into affordable apartments for seniors, because it would meet an urgent need that is getting worse every year.\n\nIn our city, many older residents live on small pensions and are struggling with rising rents. Some are forced to move far away from their doctors, friends and familiar shops. Six apartments may not sound like many, but for six people, a safe and affordable home in a central neighbourhood could completely change their lives. The shared lounge would also help reduce loneliness, which is a serious health problem for seniors living alone.\n\nAn arts centre is a lovely idea, and I appreciate that it would serve people of all ages. However, there are already several places where residents can take art classes, such as the library and the community centre. Affordable housing, on the other hand, is extremely difficult to find, and the city rarely has a building in such a good location to use for it.\n\nIn short, while both options have value, Option B addresses a basic need rather than a leisure activity, so it is the better choice."
+  }
+ },
+ "S": {
+  "t1": {
+   "prompt": "Your friend wants to speak at a city council meeting next week about a proposal to close the local swimming pool. She has never spoken in public before and is very nervous. Give her advice about how to prepare.",
+   "model": "First of all, good for you for speaking up. Councillors really do pay attention when ordinary residents show up, so it’s worth the nerves. My first piece of advice is to check the rules. Most councils require you to register as a delegation a few days ahead, and you usually get only five minutes, so call the clerk’s office tomorrow and confirm everything. Second, write out what you want to say, but keep it short. Start with who you are and why the pool matters to you. For example, you could mention that your kids learned to swim there and that the seniors’ aquafit class has no other place to go. Then make one or two clear points, maybe about how many people use the pool each week, and finish with exactly what you want council to do. Third, practise out loud, ideally in front of me or your family, and time yourself. You’ll feel much calmer if you know it fits in four and a half minutes. Also, bring a few printed copies for the councillors. And finally, remember that it’s fine to be nervous. Councillors aren’t judging your speaking skills. They want to know how their decision affects real people, and you’re the expert on that."
+  },
+  "t2": {
+   "prompt": "Talk about a time when you learned about an important rule or law the hard way. What happened, and what did you learn?",
+   "model": "When I first moved to Canada, I rented an apartment in a building with a small balcony, and since it was summer, I bought a little charcoal barbecue. One evening, I was grilling chicken when my neighbour knocked on the door looking really worried. She told me that charcoal barbecues weren’t allowed on balconies in our building, and actually, in that city, it was against the fire code. I was shocked, because back home everyone did it. The next day, I found a notice from the property manager under my door, warning me that a second offence could mean a fine. I felt embarrassed, especially because I could have caused a fire. I ended up giving the barbecue to a friend with a backyard. What I learned is that rules can be very different here, so now I always read the building rules and check city bylaws before trying something new."
+  },
+  "t3": {
+   "scene": {
+    "bg": "office",
+    "alt": "The waiting area of a busy government service office. On the right, a long counter with two clerks behind computer monitors: one clerk is helping a man who is carrying a cardboard box, and the other is handing a document to an older woman. A sign above says NOW SERVING 47, and a clock on the wall shows the time. On the left, people wait on a row of chairs: a young man looking at his phone, a mother holding a baby beside a stroller, and a boy with a balloon. A woman in a green shirt walks in through the door holding a folder. A plant stands in the corner.",
+    "items": [
+     ["window", 40, 70, 120, 80],
+     ["clock", 300, 80],
+     ["banner", 400, 60, 200, "NOW SERVING 47", "#2c3e50"],
+     ["counter", 380, 330, 250, "#8e7f6e"],
+     ["monitor", 430, 280],
+     ["monitor", 560, 280],
+     ["person", 460, 300, {"shirt": "#2980b9", "glasses": true}],
+     ["person", 590, 300, {"shirt": "#16a085", "hairStyle": "bun", "hold": "book"}],
+     ["person", 440, 380, {"shirt": "#7f8c8d", "hold": "box", "flip": true}],
+     ["person", 560, 380, {"shirt": "#9b59b6", "hair": "#cccccc", "dress": true, "flip": true}],
+     ["chair", 80, 360, "#34495e"],
+     ["person", 80, 355, {"shirt": "#e67e22", "pose": "sit", "hold": "phone"}],
+     ["person", 150, 360, {"shirt": "#c0392b", "pose": "sit", "hairStyle": "long", "skin": "#8d5524"}],
+     ["stroller", 200, 370],
+     ["person", 260, 375, {"kid": true, "shirt": "#f1c40f", "hold": "balloon", "holdColor": "#e74c3c"}],
+     ["plant", 340, 380, 1]
+    ]
+   },
+   "prompt": "Describe some things that are happening in the picture as well as you can. The person you are speaking to cannot see the picture.",
+   "model": "This picture shows the inside of a busy government service office, maybe the kind of place where you renew a licence or a health card. On the right, there’s a long counter with two clerks sitting behind computer screens. One clerk, a man with glasses, is helping a customer who’s carrying a cardboard box, so maybe he’s bringing in a lot of paperwork. The other clerk, a woman with her hair in a bun, seems to be handing a document to an older woman. Above the counter, there’s a sign that says “Now Serving 47”, and there’s a clock on the wall. On the left, several people are waiting. A young man in an orange shirt is sitting and looking at his phone, a mother is sitting next to a stroller, and a little boy is holding a red balloon. There’s also a plant in the corner."
+  },
+  "t4": {
+   "prompt": "In this picture, what do you think will most probably happen next?",
+   "model": "I think the man with the cardboard box will probably have to wait a while, because if he’s brought that many papers, the clerk will need time to check them all, and she might even ask him to come back with a missing document. Meanwhile, the older woman will most likely take her document, check it carefully and then leave. The number on the sign will change to forty-eight, and the young man on his phone will probably look up and realize it’s his turn. As for the mother, the baby in the stroller might start crying, since waiting rooms can be boring for kids, so she’ll probably pick the baby up and walk around a bit. And the little boy with the balloon might let it go by accident, so it floats up to the ceiling, and a clerk will have to help him get it back."
+  },
+  "t5": {
+   "intro": "Your community centre is offering several weekend courses, and you can take one of them for free as a volunteer reward. Choose the option that you prefer. In the next section, you will need to persuade a friend that your choice is better than the one they prefer.",
+   "options": [
+    {"title": "First aid and CPR certification", "details": ["Two full Saturdays", "Official certificate valid for 3 years", "Covers choking, bleeding and heart attacks", "Useful for many jobs", "Maximum 12 students"]},
+    {"title": "Home emergency preparedness workshop", "details": ["One Saturday morning", "Free 72-hour kit for each participant", "Covers floods, power outages and storms", "Family members welcome", "Taught by a city emergency planner"]}
+   ],
+   "other": {"title": "Wilderness survival course", "details": ["One weekend, camping overnight", "Learn to build shelters and start fires", "Held in a provincial park 2 hours away", "Must bring own gear", "Popular with hikers"]},
+   "otherWho": "Your friend prefers",
+   "persuade": "Your friend prefers the wilderness survival course. Persuade your friend that your choice is better.",
+   "model": "I know the survival course sounds like an adventure, but I really think the first aid and CPR course is more valuable. Think about how often each one would actually be useful. Most of us go hiking maybe twice a year, but someone could choke at a restaurant or collapse at work any day. With CPR training, you could literally save a life. Second, you get an official certificate that lasts three years, and lots of employers look for that, especially in childcare, coaching and retail. The survival course gives you nice memories, but nothing for your resumé. Third, the survival course is two hours away and you need your own gear, which could cost hundreds of dollars. First aid is right here at the community centre, and it’s completely free. So it’s more practical, more useful and much cheaper."
+  },
+  "t6": {
+   "situation": "Your elderly neighbour has asked you to help her fill in an application for a government benefit for low-income seniors. While you are helping, she asks you to leave out the rent she receives from a tenant in her basement, because she is afraid she will not qualify if it is included. You know that leaving it out is not honest and could lead to serious penalties later. Her daughter, who lives in another city, usually helps with her finances.",
+   "options": [
+    "Talk to your neighbour and explain why the rental income must be included.",
+    "Talk to her daughter and explain what is happening."
+   ],
+   "note": "Choose ONE option and speak to that person.",
+   "model": "Mrs. Duarte, I’m really happy to help you with this form, but I need to be honest with you about the rent from your tenant. I can’t leave it out. The form asks about all income, and if the government finds out later, and they often do through tax records, you might have to pay back everything you received, plus a penalty. I’d hate for you to end up owing thousands of dollars. Also, you might still qualify, even with the rent included, because some expenses can be deducted. Why don’t we fill it out correctly and see what happens? If the answer is no, we can call a settlement agency or a free legal clinic and ask about other benefits. And if you’d like, we could phone your daughter together, so she knows what we’re doing. Does that sound okay?"
+  },
+  "t7": {
+   "prompt": "Answer the following question: Should cities ban residents from setting off fireworks on their own property? Explain your reasons.",
+   "model": "In my opinion, cities should ban residents from setting off fireworks on their own property, but allow professional public displays on holidays like Canada Day. My first reason is safety. Every summer, hospitals treat people with serious burns and eye injuries from consumer fireworks, and many of them are children or teenagers. Fireworks also start fires, especially in dry weather, and in neighbourhoods where houses are close together, one mistake can affect several families. Second, fireworks cause a lot of distress that people who set them off don’t always think about. Dogs and cats panic at the noise, and some run away and never come home. For veterans or newcomers who have lived through war, sudden explosions late at night can bring back terrible memories. For example, my neighbour’s dog hid under the bed for two days after last July. Some people argue that a ban takes away a fun family tradition, and I understand that. But a well-organized public show is safer, more spectacular and free for everyone, so families don’t actually lose the experience. Overall, I believe banning private fireworks while keeping public displays is the most balanced approach."
+  },
+  "t8": {
+   "scene": {
+    "bg": "park",
+    "alt": "In front of a small brick building labelled ANIMAL SHELTER stands an enormous statue of a brown dog, about as tall as the building itself, sitting on the lawn. A banner reads ADOPT A FRIEND. A girl in a pink shirt is hugging one of the dog statue’s front legs, while her father takes a photo with a camera. A woman walks a real small dog on a leash past the statue, and a man sitting on a bench points up at the giant dog and laughs. There are trees, flowers and a few clouds.",
+    "items": [
+     ["cloud", 90, 60, 1],
+     ["sun", 580, 55],
+     ["building", 380, 300, 220, 140, "#b5651d", "ANIMAL SHELTER"],
+     ["banner", 400, 110, 180, "ADOPT A FRIEND", "#e67e22"],
+     ["big", "dog", 250, 360, 4, "#8b5a2b"],
+     ["person", 210, 368, {"kid": true, "shirt": "#e84393", "hairStyle": "long", "pose": "both"}],
+     ["person", 130, 365, {"shirt": "#2c3e50", "hold": "camera"}],
+     ["person", 470, 372, {"shirt": "#27ae60", "pose": "walk", "hold": "leash", "flip": true}],
+     ["dog", 430, 378, "#ffffff", true],
+     ["bench", 540, 340, 80],
+     ["person", 565, 340, {"shirt": "#7f8c8d", "pose": "point", "hair": "#555555"}],
+     ["tree", 40, 300, 1],
+     ["flowers", 330, 390, 6]
+    ]
+   },
+   "prompt": "Your friend is thinking about adopting a pet. You walk past this animal shelter and decide to phone your friend. Describe what you see and explain whether you think your friend should visit this shelter. Your friend cannot see the picture.",
+   "model": "Hey Jun, guess where I am? I’m standing outside that animal shelter on Riverside Road, and you have to see what they’ve put out front. There’s a giant statue of a brown dog sitting on the lawn, and it’s almost as tall as the building itself. It’s got huge floppy ears and a really friendly face. There’s a banner that says “Adopt a Friend”, and a little girl is hugging one of its legs while her dad takes pictures. Even an older man on a bench is laughing and pointing at it. Honestly, I think you should come this weekend. A shelter that puts this much effort into making people smile probably takes good care of its animals too. And a woman just walked by with a small white dog that looked really happy, so maybe she adopted it here."
+  }
+ }
+}
