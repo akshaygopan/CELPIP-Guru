@@ -30,7 +30,7 @@ jobs:
       - name: Validate question bank (all tests must pass strict checks)
         run: node scripts/validate-bank.mjs data/tests --strict
       - run: npm run build
-      - uses: actions/configure-pages@v5
+      - uses: actions/configure-pages@v6
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
