@@ -63,7 +63,7 @@ export function weakTypes() {
   store.history().slice(-10).forEach(a => ['L', 'R'].forEach(c => { if (!a[c]) return; Object.entries(a[c].types || {}).forEach(([t, [ok, tot]]) => { const k = c + '|' + t; agg[k] = agg[k] || [0, 0]; agg[k][0] += ok; agg[k][1] += tot; }); }));
   return Object.entries(agg).map(([k, [ok, tot]]) => { const [comp, type] = k.split('|'); return { comp, type, ok, tot, acc: ok / tot }; }).filter(x => x.tot >= 3).sort((a, b) => a.acc - b.acc);
 }
-function freshest(c, n) {
+export function freshest(c, n) {
   const tests = bank.all().filter(t => bank.testHas(t.id, c, n));
   return tests.slice().sort((a, b) => store.seenCount(`${a.id}.${c}${n}`) - store.seenCount(`${b.id}.${c}${n}`) || Math.random() - 0.5)[0];
 }

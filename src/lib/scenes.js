@@ -2,7 +2,16 @@
 const esc = s => String(s == null ? '' : s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 const W = 640, H = 400;
 const P = {}; // primitives
-const c = (v, d) => v || d;
+// Colours come from test data (possibly AI-generated or imported), so only plain colour tokens are allowed.
+const c = (v, d) => (typeof v === 'string' && /^(#[0-9a-fA-F]{3,8}|[a-zA-Z]{3,20})$/.test(v)) ? v : d;
+// Every scene argument is untrusted: numbers must be finite, strings lose markup characters, objects are cleaned recursively.
+const clean = v => typeof v === 'number' ? (Number.isFinite(v) ? Math.max(-5000, Math.min(5000, v)) : 0)
+  : typeof v === 'string' ? v.replace(/[<>"`]/g, '').replace(/&/g, '＆').slice(0, 200)
+  : typeof v === 'boolean' ? v
+  : Array.isArray(v) ? v.slice(0, 20).map(clean)
+  : v && typeof v === 'object' ? Object.fromEntries(Object.entries(v).slice(0, 30).filter(([k]) => /^[a-zA-Z]{1,20}$/.test(k)).map(([k, x]) => [k, clean(x)]))
+  : null;
+const own = name => typeof name === 'string' && Object.prototype.hasOwnProperty.call(P, name) && typeof P[name] === 'function';
 
 /* ---------- backgrounds ---------- */
 const BG = {
@@ -180,15 +189,15 @@ P.longBike = (x, y) => { let g = `<g transform="translate(${x},${y})" fill="none
 
 
 /* Wrappers for unusual situations: scale any primitive, or turn it upside down */
-P.big = (name, x, y, s, ...args) => P[name] ? `<g transform="translate(${x},${y}) scale(${s || 1})">${P[name](0, 0, ...args)}</g>` : '';
+P.big = (name, x, y, s, ...args) => own(name) && name !== 'big' && name !== 'flip' ? `<g transform="translate(${x},${y}) scale(${s || 1})">${P[name](0, 0, ...args)}</g>` : '';
 // approximate heights so an upside-down object rests on (x, y) instead of hanging below it
 const HEIGHTS = { person: 112, tree: 135, pine: 130, bush: 34, dog: 34, cat: 27, bench: 62, table: 44, chair: 74, sofa: 70, tv: 70, lamp: 134, streetlamp: 150, shelf: 150, desk: 52, car: 70, bus: 80, truck: 90, house: 140, bike: 50, boat: 80, tent: 80, stroller: 56, cart: 50, snowman: 104, umbrellaBeach: 125, grill: 62, piano: 80, plant: 58, cake: 41, basket: 32, box: 40, sign: 90, cone: 32, hydrant: 34, bin: 48 };
-P.flip = (name, x, y, ...args) => P[name] ? `<g transform="translate(${x},${y - (HEIGHTS[name] || 80)}) scale(1,-1)">${P[name](0, 0, ...args)}</g>` : '';
+P.flip = (name, x, y, ...args) => own(name) && name !== 'big' && name !== 'flip' ? `<g transform="translate(${x},${y - (HEIGHTS[name] || 80)}) scale(1,-1)">${P[name](0, 0, ...args)}</g>` : '';
 
 export function renderScene(spec) {
   if (!spec) return '';
-  const bg = (BG[spec.bg] || BG.plain)();
-  const items = (spec.items || []).map(it => { const fn = P[it[0]]; try { return fn ? fn(...it.slice(1)) : ''; } catch (e) { return ''; } }).join('');
+  const bg = (Object.prototype.hasOwnProperty.call(BG, spec.bg) ? BG[spec.bg] : BG.plain)();
+  const items = (Array.isArray(spec.items) ? spec.items.slice(0, 80) : []).map(it => { if (!Array.isArray(it) || !own(it[0])) return ''; try { return P[it[0]](...it.slice(1).map(clean)); } catch (e) { return ''; } }).join('');
   return `<svg viewBox="0 0 ${W} ${H}" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="${esc(spec.alt || 'illustration')}" style="width:100%;height:auto;display:block">${bg}${items}</svg>`;
 }
 

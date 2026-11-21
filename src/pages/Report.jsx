@@ -11,7 +11,7 @@ import { Card, Button, Badge, Spinner, Ring, Tabs, BarRow, PageHeader, SKILL_MET
 import { fmtDate, highlightIn, wordCount, cx, round1 } from '../lib/util.js';
 
 const keyOf = k => { const [tid, part] = k.split('.'); return { tid, comp: part[0], n: +part.slice(1) }; };
-const LEVEL_TEXT = l => l == null ? '' : l >= 10 ? 'Advanced proficiency in workplace and community contexts' : l >= 9 ? 'Effective proficiency' : l >= 8 ? 'Good proficiency' : l >= 7 ? 'Adequate proficiency' : l >= 6 ? 'Developing proficiency' : l >= 5 ? 'Acquiring proficiency' : l >= 4 ? 'Adequate proficiency for daily life activities' : l >= 3 ? 'Some proficiency in limited contexts' : 'Minimal proficiency or insufficient information';
+const LEVEL_TEXT = l => l == null ? '' : ({ 12: 'Expert proficiency in high-stakes social, educational, or workplace contexts', 11: 'Advanced proficiency in high-stakes social, educational, or workplace contexts', 10: 'Highly effective proficiency in some high-stakes contexts', 9: 'Effective proficiency in some high-stakes contexts', 8: 'Good proficiency in more demanding contexts', 7: 'Adequate proficiency in somewhat demanding contexts', 6: 'Developing proficiency in everyday contexts', 5: 'Acquiring proficiency in everyday contexts', 4: 'Adequate proficiency for daily life activities', 3: 'Some proficiency in limited contexts' })[Math.min(12, Math.floor(l))] || 'Limited ability or insufficient information to assess';
 
 export default function Report({ id }) {
   const [att, setAtt] = useState(() => store.getAttempt(id));

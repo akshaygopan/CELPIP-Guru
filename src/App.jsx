@@ -1,18 +1,24 @@
-import React, { useCallback, useEffect, useState, useSyncExternalStore } from 'react';
+import React, { Suspense, lazy, useCallback, useEffect, useState, useSyncExternalStore } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { LuLayoutDashboard, LuLibrary, LuHistory, LuSettings, LuWandSparkles, LuMenu, LuX } from 'react-icons/lu';
 import * as store from './lib/store.js';
 import { Overlays, toast } from './components/ui.jsx';
 import { Logo } from './components/Logo.jsx';
-import TestRunner from './test/TestRunner.jsx';
+const TestRunner = lazy(() => import('./test/TestRunner.jsx'));
 import Dashboard from './pages/Dashboard.jsx';
-import Library from './pages/Library.jsx';
-import History from './pages/History.jsx';
-import Settings from './pages/Settings.jsx';
-import Generator from './pages/Generator.jsx';
-import Evaluating from './pages/Evaluating.jsx';
-import Report from './pages/Report.jsx';
+const Library = lazy(() => import('./pages/Library.jsx'));
+const History = lazy(() => import('./pages/History.jsx'));
+const Settings = lazy(() => import('./pages/Settings.jsx'));
+const Generator = lazy(() => import('./pages/Generator.jsx'));
+const Evaluating = lazy(() => import('./pages/Evaluating.jsx'));
+const Report = lazy(() => import('./pages/Report.jsx'));
 import { cx } from './lib/util.js';
+
+const PageLoading = ({ full }) => (
+  <div className={cx('flex items-center justify-center', full ? 'h-screen bg-white text-slate-500' : 'py-24 text-slate-400')}>
+    <motion.div className="h-8 w-8 rounded-full border-2 border-current border-t-transparent" animate={{ rotate: 360 }} transition={{ repeat: Infinity, duration: 0.8, ease: 'linear' }} />
+  </div>
+);
 
 class Boundary extends React.Component {
   constructor(p) { super(p); this.state = { err: null }; }
@@ -47,8 +53,8 @@ export default function App() {
     catch (e) { console.error(e); toast('Could not load that test: ' + e.message, 'error'); }
   }, []);
 
-  if (active) return (<><TestRunner plan={active} onExit={() => setActive(null)} onFinish={session => { setActive(null); setEvaluating(session); }} /><Overlays /></>);
-  if (evaluating) return (<Shell route={{ name: 'eval' }} menu={menu} setMenu={setMenu}><Evaluating session={evaluating} onDone={id => { setEvaluating(null); go('report/' + id); }} /></Shell>);
+  if (active) return (<><Suspense fallback={<PageLoading full />}><TestRunner plan={active} onExit={() => setActive(null)} onFinish={session => { setActive(null); setEvaluating(session); }} /></Suspense><Overlays /></>);
+  if (evaluating) return (<Shell route={{ name: 'eval' }} menu={menu} setMenu={setMenu}><Suspense fallback={<PageLoading />}><Evaluating session={evaluating} onDone={id => { setEvaluating(null); go('report/' + id); }} /></Suspense></Shell>);
 
   let page;
   switch (route.name) {
@@ -59,7 +65,7 @@ export default function App() {
     case 'report': page = <Report id={route.arg} />; break;
     default: page = <Dashboard />;
   }
-  return <Shell route={route} menu={menu} setMenu={setMenu}><AnimatePresence mode="wait"><motion.div key={route.name + (route.arg || '')} data-route={route.name} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}><Boundary key={route.name + (route.arg || "")}>{page}</Boundary></motion.div></AnimatePresence></Shell>;
+  return <Shell route={route} menu={menu} setMenu={setMenu}><AnimatePresence mode="wait"><motion.div key={route.name + (route.arg || '')} data-route={route.name} initial={{ opacity: 0, y: 14 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0, y: -10 }} transition={{ duration: 0.28, ease: [0.22, 1, 0.36, 1] }}><Boundary key={route.name + (route.arg || "")}><Suspense fallback={<PageLoading />}>{page}</Suspense></Boundary></motion.div></AnimatePresence></Shell>;
 }
 
 function Shell({ route, children, menu, setMenu }) {

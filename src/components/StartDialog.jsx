@@ -9,7 +9,7 @@ import { startPractice } from '../App.jsx';
 import { Button, SKILL_META } from './ui.jsx';
 import { cx } from '../lib/util.js';
 
-const DUR = { L: '47–55 min', R: '55–60 min', W: '53 min', S: '15–20 min' };
+const DUR = { L: '46–55 min', R: '43–56 min', W: '53 min', S: '≈15 min' };
 
 /* Modal to start a full mock test, a component or a single part from any test */
 export default function StartDialog({ open, onClose, initialTest, initialMode = 'full', initialComp = 'L' }) {

@@ -10,6 +10,7 @@ import { dailyItems, dailyPlan, skillAverages, weakTypes } from '../test/plans.j
 import { startPractice, go } from '../App.jsx';
 import { Card, Button, Badge, Ring, AnimatedNumber, LineChart, BarRow, SKILL_META, stagger, fadeUp } from '../components/ui.jsx';
 import StartDialog from '../components/StartDialog.jsx';
+import ImprovementPanel from '../components/ImprovementPanel.jsx';
 import { fmtDate, cx } from '../lib/util.js';
 
 export default function Dashboard() {
@@ -58,6 +59,9 @@ export default function Dashboard() {
         <Card className="p-4"><div className="mb-2 text-xs text-slate-400">Last 4 weeks</div><div className="grid grid-cols-14 gap-1" style={{ gridTemplateColumns: 'repeat(14, minmax(0, 1fr))' }}>{st.cal.map((d, i) => <motion.div key={d.key} title={d.key} initial={{ scale: 0 }} animate={{ scale: 1 }} transition={{ delay: i * 0.012 }} className={cx('aspect-square rounded-[4px]', d.on ? 'bg-gradient-to-br from-orange-400 to-rose-500' : 'bg-white/[0.07]')} />)}</div></Card>
       </div>
 
+      {/* WHERE TO IMPROVE */}
+      <ImprovementPanel />
+
       {/* PRACTICE */}
       <motion.h2 variants={fadeUp} className="mb-4 text-xl font-extrabold">Practise</motion.h2>
       <div className="mb-10 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
@@ -75,7 +79,7 @@ export default function Dashboard() {
           <Card key={c} hover onClick={() => setDlg({ mode: 'component', comp: c })} className="group">
             <div className={cx('mb-3 inline-flex rounded-2xl p-3 text-2xl bg-gradient-to-br text-white shadow-lg', M.grad)}><M.icon /></div>
             <h3 className="font-bold">{M.name}</h3>
-            <p className="mt-1 text-sm text-slate-400">{{ L: '6 parts · 38 questions · audio plays once', R: '4 parts · 38 questions · 55–60 min', W: '2 tasks · 53 min · no spellcheck', S: '8 tasks · auto-recorded · 15–20 min' }[c]}</p>
+            <p className="mt-1 text-sm text-slate-400">{{ L: '6 parts · 38 questions · audio plays once', R: '4 parts · 38 questions · 43–56 min', W: '2 tasks · 53 min · no spellcheck', S: '8 tasks · auto-recorded · ≈15 min' }[c]}</p>
             <div className="mt-3 flex gap-2 text-xs"><button onClick={e => { e.stopPropagation(); setDlg({ mode: 'part', comp: c }); }} className="rounded-lg bg-white/10 px-2.5 py-1 font-semibold hover:bg-white/20">Drill a part</button></div>
           </Card>); })}
         <Card hover onClick={() => go('library')} className="flex flex-col justify-between"><div><div className="mb-3 inline-flex rounded-2xl bg-gradient-to-br from-fuchsia-500 to-brand-500 p-3 text-2xl text-white shadow-lg"><LuTrophy /></div><h3 className="font-bold">Test library</h3><p className="mt-1 text-sm text-slate-400">Browse all {bank.all().length} tests and track which ones you’ve done.</p></div><div className="mt-3 inline-flex items-center gap-1 text-sm font-semibold">Open <LuArrowRight /></div></Card>

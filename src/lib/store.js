@@ -20,10 +20,30 @@ export const set = (k, v) => {
 
 export const DEFAULT_SETTINGS = {
   provider: 'auto', geminiKey: '', geminiModel: 'gemini-flash-latest', groqKey: '', groqModel: 'openai/gpt-oss-120b',
-  voiceRate: 1.0, targetLevel: 10, name: ''
+  voiceRate: 1.0, targetLevel: 10, name: '', rememberKeys: true
 };
-export const settings = () => Object.assign({}, DEFAULT_SETTINGS, get('settings', {}));
-export const saveSettings = s => set('settings', s);
+/* API keys are kept apart from other settings: in localStorage only when the user chooses "remember on this device",
+   otherwise in sessionStorage (erased when the tab closes). They are never exported, synced or sent anywhere except
+   directly to the provider the user picked. */
+const KEY_FIELDS = ['geminiKey', 'groqKey'];
+const ss = { get: () => { try { return JSON.parse(sessionStorage.getItem(PREFIX + 'keys') || 'null'); } catch (e) { return mem.sessionKeys || null; } },
+  set: v => { try { v ? sessionStorage.setItem(PREFIX + 'keys', JSON.stringify(v)) : sessionStorage.removeItem(PREFIX + 'keys'); } catch (e) { mem.sessionKeys = v; } } };
+function readKeys() { return ss.get() || get('keys', null) || {}; }
+export const settings = () => {
+  const st = Object.assign({}, DEFAULT_SETTINGS, get('settings', {}));
+  if (st.geminiKey || st.groqKey) { // migrate keys saved by older versions out of the general settings object
+    const legacy = { geminiKey: st.geminiKey || '', groqKey: st.groqKey || '' };
+    const rest = Object.assign({}, st); KEY_FIELDS.forEach(k => delete rest[k]); set('settings', rest); set('keys', legacy);
+  }
+  return Object.assign(st, { geminiKey: '', groqKey: '' }, readKeys());
+};
+export const saveSettings = s => {
+  const rest = Object.assign({}, s), keys = {}; KEY_FIELDS.forEach(k => { keys[k] = (s[k] || '').trim(); delete rest[k]; });
+  set('settings', rest);
+  const any = keys.geminiKey || keys.groqKey;
+  if (s.rememberKeys) { set('keys', any ? keys : null); ss.set(null); } else { set('keys', null); ss.set(any ? keys : null); }
+};
+export const forgetKeys = () => { set('keys', null); ss.set(null); };
 
 export const history = () => get('history', []);
 export const getAttempt = id => history().find(a => a.id === id);
@@ -53,14 +73,21 @@ export const deleteCustomTest = id => set('customTests', customTests().filter(x 
 
 export function exportAll() {
   const out = {}; ['settings', 'history', 'activeDays', 'seen', 'customTests'].forEach(k => out[k] = get(k, null));
-  if (out.settings) out.settings = Object.assign({}, out.settings, { geminiKey: '', groqKey: '' });
+  if (out.settings) { out.settings = Object.assign({}, out.settings); KEY_FIELDS.forEach(k => delete out.settings[k]); }
   return JSON.stringify({ app: 'celpip-guru', version: 1, exported: new Date().toISOString(), data: out });
 }
+const SAFE_IMPORT = { history: Array.isArray, activeDays: Array.isArray, seen: v => v && typeof v === 'object' && !Array.isArray(v), customTests: Array.isArray, settings: v => v && typeof v === 'object' && !Array.isArray(v) };
 export function importAll(json) {
-  const o = JSON.parse(json); if (!o || !o.data) throw new Error('This is not a CELPIP Guru backup file.');
+  if (typeof json !== 'string' || json.length > 25e6) throw new Error('This backup file is too large.');
+  const o = JSON.parse(json); if (!o || o.app !== 'celpip-guru' || !o.data || typeof o.data !== 'object') throw new Error('This is not a CELPIP Guru backup file.');
   const keep = settings();
-  Object.entries(o.data).forEach(([k, v]) => { if (v != null) set(k, v); });
-  saveSettings(Object.assign(settings(), { geminiKey: keep.geminiKey, groqKey: keep.groqKey }));
+  Object.entries(o.data).forEach(([k, v]) => {
+    if (v == null || !Object.prototype.hasOwnProperty.call(SAFE_IMPORT, k) || !SAFE_IMPORT[k](v)) return; // unknown or malformed sections are ignored
+    if (k === 'customTests') v = v.filter(t => t && typeof t === 'object' && typeof t.id === 'string' && /^c[\w-]{1,40}$/.test(t.id) && typeof t.title === 'string').map(t => Object.assign({}, t, { title: t.title.slice(0, 120), custom: true }));
+    if (k === 'settings') { const clean = {}; ['provider', 'geminiModel', 'groqModel', 'voiceRate', 'targetLevel', 'name'].forEach(f => { if (v[f] != null && typeof v[f] !== 'object') clean[f] = v[f]; }); v = Object.assign({}, get('settings', {}), clean); }
+    set(k, v);
+  });
+  saveSettings(Object.assign(settings(), { geminiKey: keep.geminiKey, groqKey: keep.groqKey, rememberKeys: keep.rememberKeys }));
 }
 export function clearHistory() { ['history', 'activeDays'].forEach(k => set(k, [])); set('seen', {}); }
 

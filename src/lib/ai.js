@@ -29,8 +29,8 @@ async function callGemini(system, user, s) {
   const model = (s.geminiModel || 'gemini-flash-latest').trim();
   let r;
   try {
-    r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent?key=${encodeURIComponent(s.geminiKey.trim())}`, {
-      method: 'POST', headers: { 'Content-Type': 'application/json' },
+    r = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/${encodeURIComponent(model)}:generateContent`, {
+      method: 'POST', headers: { 'Content-Type': 'application/json', 'x-goog-api-key': s.geminiKey.trim() }, referrerPolicy: 'strict-origin', credentials: 'omit', cache: 'no-store',
       body: JSON.stringify({ systemInstruction: { parts: [{ text: system }] }, contents: [{ role: 'user', parts: [{ text: user }] }], generationConfig: { responseMimeType: 'application/json', temperature: 0.2, maxOutputTokens: 16384 } })
     });
   } catch (e) { throw new AIError('Could not reach Gemini – check your internet connection.', 'network'); }
@@ -48,7 +48,7 @@ async function callGroq(system, user, s) {
   const body = { model, messages: [{ role: 'system', content: system }, { role: 'user', content: user }], temperature: 0.2, max_completion_tokens: 6000, response_format: { type: 'json_object' } };
   if (/gpt-oss/.test(model)) body.reasoning_effort = 'medium';
   let r;
-  try { r = await fetch('https://api.groq.com/openai/v1/chat/completions', { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + s.groqKey.trim() }, body: JSON.stringify(body) }); }
+  try { r = await fetch('https://api.groq.com/openai/v1/chat/completions', { method: 'POST', headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + s.groqKey.trim() }, referrerPolicy: 'strict-origin', credentials: 'omit', cache: 'no-store', body: JSON.stringify(body) }); }
   catch (e) { throw new AIError('Could not reach Groq – check your internet connection.', 'network'); }
   if (r.status === 429) throw new AIError('Groq free-tier rate limit reached.', 'rate', +r.headers.get('retry-after') || 0);
   if (r.status === 401 || r.status === 403) throw new AIError('Groq rejected the API key – check it in Settings.', 'auth');
@@ -81,16 +81,18 @@ export async function ask(system, user, { onStatus, tries = 4, validate } = {}) 
 }
 
 /* ---------------- Official-standard rubric prompts ---------------- */
-const LEVELS = `CELPIP level scale (use whole numbers; "M" = 2 or below):
-• 10–12 Advanced proficiency in workplace and community contexts. 12: virtually flawless, sophisticated and precise. 11: highly effective, only rare minor slips. 10: effective and fully developed, a few minor errors that never affect meaning.
-• 9 Effective proficiency: clear, well organised, good range; occasional imprecision or errors.
-• 8 Good proficiency: generally clear; development or range somewhat limited; noticeable but non-impeding errors.
-• 7 Adequate proficiency: adequate but uneven development; mostly common vocabulary; frequent errors, meaning still clear.
-• 6 Developing proficiency: limited development and range; errors sometimes obscure meaning.
-• 5 Acquiring proficiency: basic ideas; simple vocabulary; frequent errors that often obscure meaning.
-• 4 Adequate proficiency for daily life activities: very limited, simple sentences.
-• 3 Some proficiency in limited contexts: fragments and memorised phrases.
-• M (2 or below): minimal proficiency or insufficient information to assess.`;
+const LEVELS = `Official CELPIP level descriptors (use whole numbers; "M" = 2 or below), with rating guidance:
+• 12 Expert proficiency in high-stakes social, educational, or workplace contexts – virtually flawless, sophisticated and precise.
+• 11 Advanced proficiency in high-stakes social, educational, or workplace contexts – highly effective, only rare minor slips.
+• 10 Highly effective proficiency in some high-stakes social, educational, or workplace contexts – fully developed; a few minor errors that never affect meaning.
+• 9 Effective proficiency in some high-stakes social, educational, or workplace contexts – clear, well organised, good range; occasional imprecision or errors.
+• 8 Good proficiency in more demanding social, educational, or workplace contexts – generally clear; development or range somewhat limited; noticeable but non-impeding errors.
+• 7 Adequate proficiency in somewhat demanding social, educational, or workplace contexts – adequate but uneven development; mostly common vocabulary; frequent errors, meaning still clear.
+• 6 Developing proficiency in everyday social, educational, or workplace contexts – limited development and range; errors sometimes obscure meaning.
+• 5 Acquiring proficiency in everyday social, educational, or workplace contexts – basic ideas; simple vocabulary; frequent errors that often obscure meaning.
+• 4 Adequate proficiency for daily life activities – very limited, simple sentences.
+• 3 Some proficiency in limited contexts – fragments and memorised phrases.
+• M (2 or below): limited ability in contexts related to immediate needs, or insufficient information to assess.`;
 
 const STRICT = `Score like a trained, certified CELPIP rater: strict, conservative and evidence-based. Rate each dimension independently, using only what the response shows.
 Do not inflate: most competent non-native responses fall between 6 and 9; award 10 only when the response is effective and well developed with very few errors, and 11–12 only when it is exceptional.

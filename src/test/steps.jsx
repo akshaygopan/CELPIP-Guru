@@ -26,7 +26,7 @@ function ListeningIntro({ ctx }) {
     <div className="max-w-3xl text-[15.5px] leading-relaxed">
       <h2 className="mb-3 text-2xl font-bold">Listening Test</h2>
       <Box>
-        <p>The Listening Test has one practice task and six scored parts, about 47–55 minutes in total, with 38 scored questions.</p>
+        <p>The Listening Test has one practice task and six scored parts, about 46–55 minutes in total, with 38 scored questions.</p>
         <ul className="mt-3 list-disc space-y-1.5 pl-6">
           <li>You will hear each recording <b>only once</b>. There is no pause or replay.</li>
           <li>The questions appear <b>after</b> the recording ends. Choose the best answer to each question.</li>
@@ -126,7 +126,7 @@ function ReadingIntro({ ctx }) {
   return (
     <div className="max-w-3xl text-[15.5px] leading-relaxed">
       <h2 className="mb-3 text-2xl font-bold">Reading Test</h2>
-      <Box><p>The Reading Test has one practice task and four scored parts, about 55–60 minutes in total, with 38 scored questions.</p>
+      <Box><p>The Reading Test has one practice task and four scored parts, about 43–56 minutes in total, with 38 scored questions.</p>
         <ul className="mt-3 list-disc space-y-1.5 pl-6"><li>The reading text is on the left and the questions are on the right; each side scrolls separately.</li><li>Choose answers with the round buttons or the drop-down menus.</li><li>Each part has its own timer. When you press NEXT or time runs out, you move on and <b>cannot return</b>.</li><li>Unanswered questions are marked wrong, so answer every question.</li></ul></Box>
     </div>
   );
@@ -278,7 +278,7 @@ function SpeakingIntro({ ctx }) {
   return (
     <div className="max-w-3xl text-[15.5px] leading-relaxed">
       <h2 className="mb-3 text-2xl font-bold">Speaking Test</h2>
-      <Box><p>The Speaking Test has one practice task and eight scored tasks, about 15–20 minutes in total.</p>
+      <Box><p>The Speaking Test has one practice task and eight scored tasks, about 15 minutes in total.</p>
         <ul className="mt-3 list-disc space-y-1.5 pl-6"><li>For each task you will see the prompt and get <b>preparation time</b>. When it ends, <b>recording starts automatically</b>.</li><li>The recording bar shows how much speaking time is left. When it ends, the test moves on automatically.</li><li>Speak clearly at a normal volume. Your recordings stay on this computer so you can replay them in your report.</li></ul></Box>
       <div className={cx('mt-4 rounded border p-4 text-[15px]', !st ? 'border-blue-200 bg-blue-50' : st.mic ? 'border-emerald-300 bg-emerald-50' : 'border-amber-300 bg-amber-50')}>
         {!st && <>Press <b>Start microphone</b> and allow access before you begin.</>}

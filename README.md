@@ -34,7 +34,11 @@ A free, browser-only practice platform for the **CELPIP-General** test. It repro
   - A personalised 7-day plan.
   - Print or save as PDF.
 - **Practice modes:** full mock (about 3 h), single component, single part or task, and an adaptive 30-minute daily workout.
-- **Dashboard:** streak, 4-week activity, level trend chart and your most-missed question types.
+- **Dashboard and "Where to improve":**
+  - Streak, 4-week activity and level trend chart.
+  - A ranked focus queue of your biggest gaps (parts, question types, rating dimensions) with one-click drills.
+  - A skill map of all 20 parts against what your target level needs.
+  - Writing and Speaking dimension averages, and the rater's latest advice.
 - **AI test generator** (optional): creates new parts that are validated before they are saved.
 - **No login and no backend.**
   - Progress is stored in `localStorage`, and recordings in IndexedDB.
@@ -51,6 +55,15 @@ Open **Settings** and paste one or both of these keys. They are stored only in y
 
 If you have no key, Writing and Speaking get a clearly labelled offline estimate. You can re-grade it with AI later from the report.
 
+**Is my key safe on a public site?** Yes:
+
+- The key never goes into this repository or to any server of this app, and other visitors cannot see it.
+- It is stored only in your own browser and sent only to the AI provider, in a request header.
+- You can choose "keep for this tab only", and wipe it with **Forget keys**.
+- For extra safety, use a key from a Google project without billing and restrict it to your site's address.
+
+See [SECURITY.md](SECURITY.md) for the full model.
+
 ## Run locally
 
 ```bash
@@ -59,6 +72,8 @@ npm run dev        # http://localhost:5173
 npm run build      # validates the question bank, builds it, then builds the app into dist/
 npm run validate   # validate data/tests/*.json only
 ```
+
+The production build adds a strict Content-Security-Policy. `npm run dev` runs without it, because the dev server needs inline scripts.
 
 Append `?fast=1` to the URL to compress all timers (for development self-tests only).
 
